@@ -1,0 +1,46 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_footer",
+			"brand": {
+				"a_image": {
+					"src": "https://placehold.co/200x40/000000/FFF?text=UI+Lookbook",
+					"alt": "UI Lookbook"
+				},
+				"description": "A curated collection of web design styles, each presented in its own aesthetic."
+			},
+			"columns": [
+				{
+					"title": "Categories",
+					"links": [
+						{
+							"label": "Retro & Nostalgia",
+							"href": "/retro-and-nostalgia/"
+						},
+						{
+							"label": "Cultural & Regional",
+							"href": "/cultural-and-regional/"
+						},
+						{
+							"label": "Art & Design Movements",
+							"href": "/art-and-design-movements/"
+						}
+					]
+				},
+				{
+					"title": "Site",
+					"links": [
+						{
+							"label": "Home",
+							"href": "/"
+						},
+						{
+							"label": "About",
+							"href": "/about/"
+						}
+					]
+				}
+			]
+		}
+	]
+}

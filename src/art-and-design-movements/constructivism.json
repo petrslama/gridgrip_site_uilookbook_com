@@ -1,0 +1,38 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_html",
+			"html": "<div class=\"design-background\">\n\t<div class=\"design-container\">\n\t\t<div class=\"eyebrow\">Art Movement · 1920s Russia</div>\n\t\t<h3>Constructivism</h3>\n\t\t<p>The distinctive visual language of Constructivism — combining bold, angular, geometric elements to create interfaces that are immediately recognizable and purposefully designed. Every color, font choice, and spacing decision works together to evoke the specific mood and cultural context that defines this aesthetic, from the primary accent color to the carefully chosen typography.</p>\n\t\t<p>This style finds its natural home across websites and applications that value bold and angular design principles. You&#039;ll see it on creative portfolios, brand microsites, specialized platforms, and digital experiences where the visual language itself communicates as powerfully as the content — proving that the right aesthetic choice can transform a standard layout into a memorable experience.</p>\n\t\t<div class=\"btn-group\">\n\t\t\t<button class=\"btn-primary\">Explore Style</button>\n\t\t\t<button class=\"btn-secondary\">Copy Prompt</button>\n\t\t</div>\n\t</div>\n</div>",
+			"wrap": "1"
+		}
+	],
+	"seo": {
+		"title": "Constructivism — UI Lookbook",
+		"description": "The distinctive visual language of Constructivism — combining bold, angular, geometric elements to create interfaces that are immediately recognizable and purposefully designed. Every color, font choice, and spacing decision works together to evoke the specific mood and cultural context that defines this aesthetic, from the primary accent color to the carefully chosen typography.",
+		"keywords": "Constructivism, Art & Design Movements, Bold, Angular, Geometric, Grid, Professional, web design, UI design",
+		"og": {
+			"title": "Constructivism — UI Lookbook",
+			"description": "The distinctive visual language of Constructivism — combining bold, angular, geometric elements to create interfaces that are immediately recognizable and purposefully designed. Every color, font choice, and spacing decision works together to evoke the specific mood and cultural context that defines this aesthetic, from the primary accent color to the carefully chosen typography.",
+			"url": "https://uilookbook.com/art-and-design-movements/constructivism/",
+			"type": "article"
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Constructivism — UI Lookbook",
+			"description": "The distinctive visual language of Constructivism — combining bold, angular, geometric elements to create interfaces that are immediately recognizable and purposefully designed. Every color, font choice, and spacing decision works together to evoke the specific mood and cultural context that defines this aesthetic, from the primary accent color to the carefully chosen typography."
+		}
+	},
+	"settings": {
+		"body_id": "constructivism",
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700;800&display=swap\">"
+			},
+			{
+				"note": "Style CSS",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/art-and-design-movements/constructivism.css\">"
+			}
+		]
+	}
+}

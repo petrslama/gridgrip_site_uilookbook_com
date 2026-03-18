@@ -1,0 +1,149 @@
+#scandinavian-nordic-design {
+    color: #1D1C19;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    min-height: 100%;
+
+    .design-background {
+        width: 100%;
+        min-height: 100%;
+        padding: 48px;
+        background-color: #EEE9E1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 79px,
+                    color-mix(in srgb, #D5CFC6 40%, transparent) 79px,
+                    color-mix(in srgb, #D5CFC6 40%, transparent) 80px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 79px,
+                    color-mix(in srgb, #D5CFC6 25%, transparent) 79px,
+                    color-mix(in srgb, #D5CFC6 25%, transparent) 80px
+                );
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -120px;
+            right: -80px;
+            width: 480px;
+            height: 480px;
+            border-radius: 50%;
+            background: radial-gradient(
+                circle,
+                color-mix(in srgb, #4A6354 8%, transparent) 0%,
+                transparent 70%
+            );
+            pointer-events: none;
+        }
+    }
+
+    .design-container {
+        position: relative;
+        z-index: 1;
+        max-width: 620px;
+        width: 100%;
+        background-color: #FDFCFA;
+        padding: 56px 60px;
+        border: 1px solid #D5CFC6;
+
+    }
+
+    .eyebrow {
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #4A6354;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #D5CFC6;
+        margin-bottom: 28px;
+    }
+
+    .title {
+        font-family: 'Cormorant', serif;
+        font-size: clamp(32px, 4.5vw, 48px);
+        font-weight: 300;
+        font-style: italic;
+        line-height: 1.15;
+        letter-spacing: -0.5px;
+        color: #1D1C19;
+        margin-bottom: 28px;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.75;
+        color: #8A8680;
+        margin-bottom: 20px;
+        max-width: 512px;
+
+        &:last-of-type {
+            margin-bottom: 40px;
+        }
+    }
+
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 16px;
+        padding-top: 24px;
+        border-top: 1px solid #D5CFC6;
+    }
+
+    .btn-group a {
+        text-decoration: none;
+        font-family: inherit;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        padding: 12px 26px;
+    }
+
+    .btn-primary {
+        background-color: #4A6354;
+        color: #FDFCFA;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: color-mix(in srgb, #4A6354 85%, #1D1C19);
+        }
+    }
+
+    .btn-secondary {
+        background-color: transparent;
+        color: #8A8680;
+        border: 1px solid #D5CFC6;
+        transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+
+        &:hover {
+            border-color: #4A6354;
+            color: #4A6354;
+            background-color: #E8EDE9;
+        }
+    }
+}

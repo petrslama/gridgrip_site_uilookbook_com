@@ -1,0 +1,33 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_header",
+			"a_image": {
+				"alt": "UI Lookbook",
+				"width": "140",
+				"height": "30",
+				"src": "https://placehold.co/140x30/000000/FFF?text=UI+Lookbook",
+				"href": "/"
+			},
+			"aria_label": "Open navigation",
+			"navigation": [
+				{
+					"label": "Retro & Nostalgia",
+					"href": "/#retro-and-nostalgia"
+				},
+				{
+					"label": "Cultural & Regional",
+					"href": "/#cultural-and-regional"
+				},
+				{
+					"label": "Art & Design",
+					"href": "/#art-and-design-movements"
+				},
+				{
+					"label": "About",
+					"href": "/about/"
+				}
+			]
+		}
+	]
+}

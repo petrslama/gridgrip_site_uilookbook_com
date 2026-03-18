@@ -1,0 +1,38 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_html",
+			"html": "<div class=\"design-background\">\n\t<div class=\"design-container\">\n\t\t<div class=\"eyebrow\">Synthwave &amp; Outrun Aesthetic</div>\n\t\t<h3>80s Design</h3>\n\t\t<p>80s design is the visual language of neon on black — glowing magenta headlines, electric cyan grid floors receding into a dark horizon, and an overall feeling that every surface is emitting light rather than reflecting it. Born from arcade culture, Miami Vice color palettes, and New Wave album art, this aesthetic treats darkness as a canvas and neon color as its paint. The synthwave and retrowave music scenes revived and codified it around 2012–2016, producing a sharply defined visual canon: the outrun sunset gradient, the perspective floor grid, and the geometric display type with its stacked luminous glow.</p>\n\t\t<p>You&#039;ll find 80s design on synthwave and electronic music artist pages, retro arcade bar websites, gaming tournament promotion pages, and electronic music festival visual identities. Neon-forward fashion brands — particularly labels referencing 80s sportswear or power dressing — use it for digital lookbooks and e-commerce storefronts. It also appears across gaming peripheral brands, energy drink campaigns, and limited-edition audio hardware launches where the association with late-night intensity and retro-futurist power is the product itself.</p>\n\t\t<div class=\"btn-group\">\n\t\t\t<button class=\"btn-primary\">Explore Style</button>\n\t\t\t<button class=\"btn-secondary\">Copy Prompt</button>\n\t\t</div>\n\t</div>\n</div>",
+			"wrap": "1"
+		}
+	],
+	"seo": {
+		"title": "80s Design — UI Lookbook",
+		"description": "80s design is the visual language of neon on black — glowing magenta headlines, electric cyan grid floors receding into a dark horizon, and an overall feeling that every surface is emitting light rather than reflecting it. Born from arcade culture, Miami Vice color palettes, and New Wave album art, this aesthetic treats darkness as a canvas and neon color as its paint. The synthwave and retrowave music scenes revived and codified it around 2012–2016, producing a sharply defined visual canon: the outrun sunset gradient, the perspective floor grid, and the geometric display type with its stacked luminous glow.",
+		"keywords": "80s Design, Retro & Nostalgia, Retro, Nostalgic, Neon, Bold Colors, Vibrant, web design, UI design",
+		"og": {
+			"title": "80s Design — UI Lookbook",
+			"description": "80s design is the visual language of neon on black — glowing magenta headlines, electric cyan grid floors receding into a dark horizon, and an overall feeling that every surface is emitting light rather than reflecting it. Born from arcade culture, Miami Vice color palettes, and New Wave album art, this aesthetic treats darkness as a canvas and neon color as its paint. The synthwave and retrowave music scenes revived and codified it around 2012–2016, producing a sharply defined visual canon: the outrun sunset gradient, the perspective floor grid, and the geometric display type with its stacked luminous glow.",
+			"url": "https://uilookbook.com/retro-and-nostalgia/80s-design/",
+			"type": "article"
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "80s Design — UI Lookbook",
+			"description": "80s design is the visual language of neon on black — glowing magenta headlines, electric cyan grid floors receding into a dark horizon, and an overall feeling that every surface is emitting light rather than reflecting it. Born from arcade culture, Miami Vice color palettes, and New Wave album art, this aesthetic treats darkness as a canvas and neon color as its paint. The synthwave and retrowave music scenes revived and codified it around 2012–2016, producing a sharply defined visual canon: the outrun sunset gradient, the perspective floor grid, and the geometric display type with its stacked luminous glow."
+		}
+	},
+	"settings": {
+		"body_id": "d-80s-design",
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Exo+2:wght@400;500;600;700;800&display=swap\">"
+			},
+			{
+				"note": "Style CSS",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/80s-design.css\">"
+			}
+		]
+	}
+}

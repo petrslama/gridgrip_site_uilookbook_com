@@ -1,0 +1,38 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_html",
+			"html": "<div class=\"design-background\">\n\t<div class=\"design-container\">\n\t\t<div class=\"eyebrow\">Regional Style · Japan</div>\n\t\t<h3>Japanese Web Design</h3>\n\t\t<p>Dense grids of information, tiny text packed into every available pixel, bright red accent labels, and the methodical organization of a culture that values thoroughness over minimalism — Japanese Web Design reflects the unique information architecture of Japan&#039;s commercial internet. Where Western design removes, Japanese design adds: more links, more sections, more content, all organized in a surprisingly navigable grid system.</p>\n\t\t<p>This information-dense style dominates Japanese e-commerce giants, newspaper sites, and corporate portals. You&#039;ll see it on railway company sites, department store pages, electronics retailers, and municipal government portals — anywhere that serves a Japanese audience accustomed to scanning dense, content-rich layouts efficiently.</p>\n\t\t<div class=\"btn-group\">\n\t\t\t<button class=\"btn-primary\">Explore Style</button>\n\t\t\t<button class=\"btn-secondary\">Copy Prompt</button>\n\t\t</div>\n\t</div>\n</div>",
+			"wrap": "1"
+		}
+	],
+	"seo": {
+		"title": "Japanese Web Design — UI Lookbook",
+		"description": "Dense grids of information, tiny text packed into every available pixel, bright red accent labels, and the methodical organization of a culture that values thoroughness over minimalism — Japanese Web Design reflects the unique information architecture of Japan's commercial internet. Where Western design removes, Japanese design adds: more links, more sections, more content, all organized in a surprisingly navigable grid system.",
+		"keywords": "Japanese Web Design, Cultural & Regional, Dense, Content Heavy, Grid, Professional, Cultural, web design, UI design",
+		"og": {
+			"title": "Japanese Web Design — UI Lookbook",
+			"description": "Dense grids of information, tiny text packed into every available pixel, bright red accent labels, and the methodical organization of a culture that values thoroughness over minimalism — Japanese Web Design reflects the unique information architecture of Japan's commercial internet. Where Western design removes, Japanese design adds: more links, more sections, more content, all organized in a surprisingly navigable grid system.",
+			"url": "https://uilookbook.com/cultural-and-regional/japanese-web-design/",
+			"type": "article"
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Japanese Web Design — UI Lookbook",
+			"description": "Dense grids of information, tiny text packed into every available pixel, bright red accent labels, and the methodical organization of a culture that values thoroughness over minimalism — Japanese Web Design reflects the unique information architecture of Japan's commercial internet. Where Western design removes, Japanese design adds: more links, more sections, more content, all organized in a surprisingly navigable grid system."
+		}
+	},
+	"settings": {
+		"body_id": "japanese-web-design",
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap\">"
+			},
+			{
+				"note": "Style CSS",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/japanese-web-design.css\">"
+			}
+		]
+	}
+}

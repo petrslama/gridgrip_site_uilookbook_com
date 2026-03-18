@@ -1,0 +1,38 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_html",
+			"html": "<div class=\"design-background\">\n\t<div class=\"design-container\">\n\t\t<div class=\"eyebrow\">Analog Audio · 1970s–1990s</div>\n\t\t<h3>Cassette Mixtape UI</h3>\n\t\t<p>The handmade warmth of a cassette tape label — Sharpie lettering on a creamy sticker, faint ruled lines, and the slightly crooked, deeply personal aesthetic of a mixtape made for someone you care about. Cassette Mixtape UI captures the analog intimacy of physical media, where every label was unique, every song choice was deliberate, and the act of recording was an act of love.</p>\n\t\t<p>This aesthetic shows up on indie music platforms, lo-fi playlist curators, and personal blog sites that value authenticity over polish. You&#039;ll find it on vintage audio equipment shops, podcast landing pages, zine-style publications, and any creative project that wants to feel handmade, warm, and genuinely personal.</p>\n\t\t<div class=\"btn-group\">\n\t\t\t<button class=\"btn-primary\">Explore Style</button>\n\t\t\t<button class=\"btn-secondary\">Copy Prompt</button>\n\t\t</div>\n\t</div>\n</div>",
+			"wrap": "1"
+		}
+	],
+	"seo": {
+		"title": "Cassette Mixtape UI — UI Lookbook",
+		"description": "The handmade warmth of a cassette tape label — Sharpie lettering on a creamy sticker, faint ruled lines, and the slightly crooked, deeply personal aesthetic of a mixtape made for someone you care about. Cassette Mixtape UI captures the analog intimacy of physical media, where every label was unique, every song choice was deliberate, and the act of recording was an act of love.",
+		"keywords": "Cassette Mixtape UI, Retro & Nostalgia, Retro, Nostalgic, Hand-Crafted, Organic, Warm, web design, UI design",
+		"og": {
+			"title": "Cassette Mixtape UI — UI Lookbook",
+			"description": "The handmade warmth of a cassette tape label — Sharpie lettering on a creamy sticker, faint ruled lines, and the slightly crooked, deeply personal aesthetic of a mixtape made for someone you care about. Cassette Mixtape UI captures the analog intimacy of physical media, where every label was unique, every song choice was deliberate, and the act of recording was an act of love.",
+			"url": "https://uilookbook.com/retro-and-nostalgia/cassette-mixtape-ui/",
+			"type": "article"
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Cassette Mixtape UI — UI Lookbook",
+			"description": "The handmade warmth of a cassette tape label — Sharpie lettering on a creamy sticker, faint ruled lines, and the slightly crooked, deeply personal aesthetic of a mixtape made for someone you care about. Cassette Mixtape UI captures the analog intimacy of physical media, where every label was unique, every song choice was deliberate, and the act of recording was an act of love."
+		}
+	},
+	"settings": {
+		"body_id": "cassette-mixtape-ui",
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700;800&family=Permanent+Marker:wght@400;500;600;700;800&family=Special+Elite:wght@400;500;600;700;800&display=swap\">"
+			},
+			{
+				"note": "Style CSS",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/cassette-mixtape-ui.css\">"
+			}
+		]
+	}
+}

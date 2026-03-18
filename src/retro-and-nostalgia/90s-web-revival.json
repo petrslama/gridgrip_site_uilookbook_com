@@ -1,0 +1,38 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_html",
+			"html": "<div class=\"design-background\">\n\t<div class=\"design-container\">\n\t\t<div class=\"eyebrow\">Early Web · 1994–1999</div>\n\t\t<h3>90s Web Revival</h3>\n\t\t<p>90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures repeating across every pixel, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag and was absolutely going to use it. Born from real technical constraints — 8-bit monitors, 28.8k modems, and a 216-color web-safe palette — this aesthetic transforms what was once necessity into deliberate, knowing design.</p>\n\t\t<p>You&#039;ll find it on personal developer sites built as affectionate homages to GeoCities-era homepages, on net art and digital humanities projects recreating early web culture as a living exhibit, and on alternative music and zine publisher sites where the late-90s internet aesthetic signals anti-corporate credibility. It also appears on novelty landing pages, throwback product campaigns, and any creative project that wants to say: we were online before it was cool.</p>\n\t\t<div class=\"btn-group\">\n\t\t\t<button class=\"btn-primary\">Explore Style</button>\n\t\t\t<button class=\"btn-secondary\">Copy Prompt</button>\n\t\t</div>\n\t</div>\n</div>",
+			"wrap": "1"
+		}
+	],
+	"seo": {
+		"title": "90s Web Revival — UI Lookbook",
+		"description": "90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures repeating across every pixel, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag and was absolutely going to use it. Born from real technical constraints — 8-bit monitors, 28.8k modems, and a 216-color web-safe palette — this aesthetic transforms what was once necessity into deliberate, knowing design.",
+		"keywords": "90s Web Revival, Retro & Nostalgia, Retro, Nostalgic, Early Web, Bold Colors, Playful, web design, UI design",
+		"og": {
+			"title": "90s Web Revival — UI Lookbook",
+			"description": "90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures repeating across every pixel, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag and was absolutely going to use it. Born from real technical constraints — 8-bit monitors, 28.8k modems, and a 216-color web-safe palette — this aesthetic transforms what was once necessity into deliberate, knowing design.",
+			"url": "https://uilookbook.com/retro-and-nostalgia/90s-web-revival/",
+			"type": "article"
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "90s Web Revival — UI Lookbook",
+			"description": "90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures repeating across every pixel, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag and was absolutely going to use it. Born from real technical constraints — 8-bit monitors, 28.8k modems, and a 216-color web-safe palette — this aesthetic transforms what was once necessity into deliberate, knowing design."
+		}
+	},
+	"settings": {
+		"body_id": "d-90s-web-revival",
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=VT323:wght@400;500;600;700;800&family=Press+Start+2P:wght@400;500;600;700;800&family=Comic+Neue:wght@400;500;600;700;800&display=swap\">"
+			},
+			{
+				"note": "Style CSS",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/90s-web-revival.css\">"
+			}
+		]
+	}
+}

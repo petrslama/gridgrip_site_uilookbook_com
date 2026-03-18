@@ -1,0 +1,18 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_html",
+			"html": "<section class=\"sitemap\"><div class=\"container\"><h1>Sitemap</h1><h2>Main Pages</h2><ul><li><a href=\"/\">UI Lookbook &amp;mdash; Web Design Styles Collection</a></li></ul><h2>Art And Design Movements (4)</h2><ul><li><a href=\"/art-and-design-movements/art-deco/\">Art Deco — UI Lookbook</a></li><li><a href=\"/art-and-design-movements/art-nouveau/\">Art Nouveau — UI Lookbook</a></li><li><a href=\"/art-and-design-movements/bauhaus/\">Bauhaus</a></li><li><a href=\"/art-and-design-movements/constructivism/\">Constructivism — UI Lookbook</a></li></ul><h2>Cultural And Regional (8)</h2><ul><li><a href=\"/cultural-and-regional/chinese-web-design/\">Chinese Web Design — UI Lookbook</a></li><li><a href=\"/cultural-and-regional/dutch-design/\">Dutch Design — UI Lookbook</a></li><li><a href=\"/cultural-and-regional/japandi/\">Japandi — UI Lookbook</a></li><li><a href=\"/cultural-and-regional/japanese-web-design/\">Japanese Web Design — UI Lookbook</a></li><li><a href=\"/cultural-and-regional/korean-web-design/\">Korean Web Design — UI Lookbook</a></li><li><a href=\"/cultural-and-regional/scandinavian-nordic-design/\">Scandinavian Nordic Design — UI Lookbook</a></li><li><a href=\"/cultural-and-regional/swiss-graphic-style/\">Swiss Graphic Style — UI Lookbook</a></li><li><a href=\"/cultural-and-regional/wabi-sabi/\">Wabi-Sabi — UI Lookbook</a></li></ul><h2>Retro And Nostalgia (4)</h2><ul><li><a href=\"/retro-and-nostalgia/70s-design/\">70s Design</a></li><li><a href=\"/retro-and-nostalgia/80s-design/\">80s Design — UI Lookbook</a></li><li><a href=\"/retro-and-nostalgia/90s-web-revival/\">90s Web Revival — UI Lookbook</a></li><li><a href=\"/retro-and-nostalgia/cassette-mixtape-ui/\">Cassette Mixtape UI — UI Lookbook</a></li></ul></div></section>"
+		}
+	],
+	"seo": {
+		"title": "Sitemap",
+		"description": "Complete sitemap.",
+		"og": {
+			"type": "website"
+		},
+		"twitter": {
+			"card": "summary_large_image"
+		}
+	}
+}

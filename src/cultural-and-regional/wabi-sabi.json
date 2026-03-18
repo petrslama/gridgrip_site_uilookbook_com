@@ -1,0 +1,38 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_html",
+			"html": "<div class=\"design-background\">\n\t<div class=\"design-container\">\n\t\t<div class=\"eyebrow\">Japanese Philosophy · Imperfect Beauty</div>\n\t\t<h3>Wabi-Sabi</h3>\n\t\t<p>Cracked pottery mended with gold, weathered wood smoothed by years of touch, and the quiet beauty of impermanence — Wabi-Sabi translates the Japanese aesthetic philosophy into digital design. Nothing is perfectly centered, nothing is too polished, and nothing tries too hard. The beauty lives in the slightly uneven spacing, the muted earthy tones, and the sense that this design has been lived in rather than manufactured.</p>\n\t\t<p>Wabi-Sabi aesthetics appear on artisanal ceramic studios, tea ceremony supply shops, and mindfulness practice platforms. You&#039;ll find it on handmade pottery marketplaces, Japanese garden design firms, meditation retreat sites, and any brand that values authenticity, imperfection, and the profound beauty of things that show the passage of time.</p>\n\t\t<div class=\"btn-group\">\n\t\t\t<button class=\"btn-primary\">Explore Style</button>\n\t\t\t<button class=\"btn-secondary\">Copy Prompt</button>\n\t\t</div>\n\t</div>\n</div>",
+			"wrap": "1"
+		}
+	],
+	"seo": {
+		"title": "Wabi-Sabi — UI Lookbook",
+		"description": "Cracked pottery mended with gold, weathered wood smoothed by years of touch, and the quiet beauty of impermanence — Wabi-Sabi translates the Japanese aesthetic philosophy into digital design. Nothing is perfectly centered, nothing is too polished, and nothing tries too hard. The beauty lives in the slightly uneven spacing, the muted earthy tones, and the sense that this design has been lived in rather than manufactured.",
+		"keywords": "Wabi-Sabi, Cultural & Regional, Organic, Textured, Imperfect, Warm, Natural, web design, UI design",
+		"og": {
+			"title": "Wabi-Sabi — UI Lookbook",
+			"description": "Cracked pottery mended with gold, weathered wood smoothed by years of touch, and the quiet beauty of impermanence — Wabi-Sabi translates the Japanese aesthetic philosophy into digital design. Nothing is perfectly centered, nothing is too polished, and nothing tries too hard. The beauty lives in the slightly uneven spacing, the muted earthy tones, and the sense that this design has been lived in rather than manufactured.",
+			"url": "https://uilookbook.com/cultural-and-regional/wabi-sabi/",
+			"type": "article"
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Wabi-Sabi — UI Lookbook",
+			"description": "Cracked pottery mended with gold, weathered wood smoothed by years of touch, and the quiet beauty of impermanence — Wabi-Sabi translates the Japanese aesthetic philosophy into digital design. Nothing is perfectly centered, nothing is too polished, and nothing tries too hard. The beauty lives in the slightly uneven spacing, the muted earthy tones, and the sense that this design has been lived in rather than manufactured."
+		}
+	},
+	"settings": {
+		"body_id": "wabi-sabi",
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=IM+Fell+English:wght@400;500;600;700;800&family=Crimson+Pro:wght@400;500;600;700;800&family=Noto+Serif+JP:wght@400;500;600;700;800&display=swap\">"
+			},
+			{
+				"note": "Style CSS",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/wabi-sabi.css\">"
+			}
+		]
+	}
+}
