@@ -1,155 +1,157 @@
 {
 	"sections": [
 		{
-			"fu_type": "o_design_list",
+			"fu_type": "o_hero",
+			"a_eyebrow": "Web Design Styles Collection",
+			"a_h1": "UI Lookbook",
+			"a_description": "A curated collection of web design styles. Each page is presented entirely in the aesthetic it describes &mdash; the design is the content."
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Retro &amp; Nostalgia",
+			"a_description": "Design styles that draw from past decades &mdash; from 70s earth tones to 90s web chaos to Y2K shimmer &mdash; reimagined for the modern screen.",
 			"items": [
 				{
-					"fu_type": "h1",
-					"a_h1": "UI Lookbook",
-					"a_description": "A curated collection of web design styles. Each page is presented entirely in the aesthetic it describes &mdash; the design is the content."
+					"a_image": {
+						"alt": "70s design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/70s-design.jpg"
+					}
 				},
 				{
-					"fu_type": "h2",
-					"a_h2": "Retro &amp; Nostalgia",
-					"a_description": "Design styles that draw from past decades &mdash; from 70s earth tones to 90s web chaos to Y2K shimmer &mdash; reimagined for the modern screen."
+					"a_image": {
+						"alt": "80s design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "d-70s-design",
-					"eyebrow": "Earth Tones &amp; Groovy Typography",
-					"title": "70s Design",
-					"description": "Harvest gold, avocado green, and burnt orange on warm cream — the unmistakable palette of the 1970s. This aesthetic draws from the era of sunken living rooms, macrame wall hangings, and vinyl record sleeves, with heavy slab-serif letterforms and a sunburst motif that signals the decade's love of bold decorative geometry.",
-					"link": "/retro-and-nostalgia/70s-design/"
+					"a_image": {
+						"alt": "90s web revival style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/90s-web-revival.jpg"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "d-80s-design",
-					"eyebrow": "Synthwave &amp; Outrun Aesthetic",
-					"title": "80s Design",
-					"description": "80s design is the visual language of neon on black — glowing magenta headlines, electric cyan grid floors receding into a dark horizon, and an overall feeling that every surface is emitting light rather than reflecting it.",
-					"link": "/retro-and-nostalgia/80s-design/"
+					"a_image": {
+						"alt": "Cassette mixtape UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Cultural &amp; Regional",
+			"a_description": "Web design shaped by geography and tradition &mdash; from Japanese density to Scandinavian minimalism to Swiss precision.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chinese web design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "d-90s-web-revival",
-					"eyebrow": "Early Web &middot; 1994&ndash;1999",
-					"title": "90s Web Revival",
-					"description": "90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag.",
-					"link": "/retro-and-nostalgia/90s-web-revival/"
+					"a_image": {
+						"alt": "Dutch design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "cassette-mixtape-ui",
-					"eyebrow": "Analog Audio &middot; 1970s&ndash;1990s",
-					"title": "Cassette Mixtape UI",
-					"description": "The handmade warmth of a cassette tape label — Sharpie lettering on a creamy sticker, faint ruled lines, and the slightly crooked, deeply personal aesthetic of a mixtape made for someone you care about.",
-					"link": "/retro-and-nostalgia/cassette-mixtape-ui/"
+					"a_image": {
+						"alt": "Japandi style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "h2",
-					"a_h2": "Cultural &amp; Regional",
-					"a_description": "Web design shaped by geography and tradition &mdash; from Japanese density to Scandinavian minimalism to Swiss precision."
+					"a_image": {
+						"alt": "Japanese web design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "chinese-web-design",
-					"eyebrow": "Regional Style &middot; China",
-					"title": "Chinese Web Design",
-					"description": "Bold reds, golden accents, dense information grids, and the unmistakable energy of a digital culture built around commerce and connection — where visual boldness signals trustworthiness and content density signals thoroughness.",
-					"link": "/cultural-and-regional/chinese-web-design/"
+					"a_image": {
+						"alt": "Korean web design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "dutch-design",
-					"eyebrow": "Regional Style &middot; Netherlands",
-					"title": "Dutch Design",
-					"description": "Bold primary colors, sharp geometric forms, confident typography, and the playful-yet-structured spirit of a nation that gave the world De Stijl and Mondrian — centuries of graphic excellence translated into digital form.",
-					"link": "/cultural-and-regional/dutch-design/"
+					"a_image": {
+						"alt": "Scandinavian Nordic design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "japandi",
-					"eyebrow": "Fusion Style &middot; Japanese + Scandinavian",
-					"title": "Japandi",
-					"description": "The quiet harmony of Japanese minimalism meeting Scandinavian warmth — unbleached linen tones, organic textures, and the meditative calm of a space where every element has been considered and most have been gently removed.",
-					"link": "/cultural-and-regional/japandi/"
+					"a_image": {
+						"alt": "Swiss graphic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "japanese-web-design",
-					"eyebrow": "Regional Style &middot; Japan",
-					"title": "Japanese Web Design",
-					"description": "Dense grids of information, tiny text packed into every available pixel, bright red accent labels, and the methodical organization of a culture that values thoroughness over minimalism.",
-					"link": "/cultural-and-regional/japanese-web-design/"
+					"a_image": {
+						"alt": "Wabi-sabi style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Art &amp; Design Movements",
+			"a_description": "Timeless art movements translated into digital interfaces &mdash; from Art Deco geometry to Bauhaus functionalism.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Art Deco style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "korean-web-design",
-					"eyebrow": "Regional Style &middot; South Korea",
-					"title": "Korean Web Design",
-					"description": "Soft coral accents, rounded card surfaces, and the polished elegance of interfaces designed for a culture that invented K-beauty — tech-forward cleanliness with a warmer, more approachable sensibility.",
-					"link": "/cultural-and-regional/korean-web-design/"
+					"a_image": {
+						"alt": "Art Nouveau style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "scandinavian-nordic-design",
-					"eyebrow": "Regional Style &middot; Northern Europe",
-					"title": "Scandinavian Nordic Design",
-					"description": "Pure white space, muted natural tones, and the radical simplicity of design that believes less is always more — functional minimalism of Copenhagen, Stockholm, and Helsinki brought to the screen.",
-					"link": "/cultural-and-regional/scandinavian-nordic-design/"
+					"a_image": {
+						"alt": "Bauhaus style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				},
 				{
-					"fu_type": "card",
-					"id": "swiss-graphic-style",
-					"eyebrow": "Design Movement &middot; International Style",
-					"title": "Swiss Graphic Style",
-					"description": "Radical clarity through mathematical precision — sans-serif type, strict grid alignment, generous whitespace, and a single bold accent color against monochrome. Impeccable typography, systematic grids, and disciplined restraint.",
-					"link": "/cultural-and-regional/swiss-graphic-style/"
-				},
-				{
-					"fu_type": "card",
-					"id": "wabi-sabi",
-					"eyebrow": "Japanese Philosophy &middot; Imperfect Beauty",
-					"title": "Wabi-Sabi",
-					"description": "Cracked pottery mended with gold, weathered wood smoothed by years of touch, and the quiet beauty of impermanence — nothing is perfectly centered, nothing is too polished, and nothing tries too hard.",
-					"link": "/cultural-and-regional/wabi-sabi/"
-				},
-				{
-					"fu_type": "h2",
-					"a_h2": "Art &amp; Design Movements",
-					"a_description": "Timeless art movements translated into digital interfaces &mdash; from Art Deco geometry to Bauhaus functionalism."
-				},
-				{
-					"fu_type": "card",
-					"id": "art-deco",
-					"eyebrow": "Art Movement &middot; 1920s&ndash;1930s",
-					"title": "Art Deco",
-					"description": "Elegant, geometric, angular elements combined to create interfaces that are immediately recognizable and purposefully designed — every color, font choice, and spacing decision evokes the specific mood of the era.",
-					"link": "/art-and-design-movements/art-deco/"
-				},
-				{
-					"fu_type": "card",
-					"id": "art-nouveau",
-					"eyebrow": "Art Movement &middot; Organic Elegance",
-					"title": "Art Nouveau",
-					"description": "Organic, elegant, flowing elements that create interfaces where every curve and color choice evokes the specific mood and cultural context of this timeless aesthetic.",
-					"link": "/art-and-design-movements/art-nouveau/"
-				},
-				{
-					"fu_type": "card",
-					"id": "bauhaus",
-					"eyebrow": "Art Movement &middot; German Modernism",
-					"title": "Bauhaus",
-					"description": "Geometric forms, grid-based layouts, and professional restraint — the visual language of Bauhaus where form follows function and every element serves a purpose.",
-					"link": "/art-and-design-movements/bauhaus/"
-				},
-				{
-					"fu_type": "card",
-					"id": "constructivism",
-					"eyebrow": "Art Movement &middot; 1920s Russia",
-					"title": "Constructivism",
-					"description": "Bold, angular, geometric elements creating interfaces with the revolutionary energy and purposeful design of 1920s Russian avant-garde.",
-					"link": "/art-and-design-movements/constructivism/"
+					"a_image": {
+						"alt": "Constructivism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600"
+					}
 				}
 			]
 		}
@@ -171,71 +173,6 @@
 		}
 	},
 	"settings": {
-		"head_codes": [
-			{
-				"note": "70s-design",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/70s-design.css\">"
-			},
-			{
-				"note": "80s-design",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/80s-design.css\">"
-			},
-			{
-				"note": "90s-web-revival",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/90s-web-revival.css\">"
-			},
-			{
-				"note": "cassette-mixtape-ui",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/cassette-mixtape-ui.css\">"
-			},
-			{
-				"note": "chinese-web-design",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/chinese-web-design.css\">"
-			},
-			{
-				"note": "dutch-design",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/dutch-design.css\">"
-			},
-			{
-				"note": "japandi",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/japandi.css\">"
-			},
-			{
-				"note": "japanese-web-design",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/japanese-web-design.css\">"
-			},
-			{
-				"note": "korean-web-design",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/korean-web-design.css\">"
-			},
-			{
-				"note": "scandinavian-nordic-design",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/scandinavian-nordic-design.css\">"
-			},
-			{
-				"note": "swiss-graphic-style",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/swiss-graphic-style.css\">"
-			},
-			{
-				"note": "wabi-sabi",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/wabi-sabi.css\">"
-			},
-			{
-				"note": "art-deco",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/art-and-design-movements/art-deco.css\">"
-			},
-			{
-				"note": "art-nouveau",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/art-and-design-movements/art-nouveau.css\">"
-			},
-			{
-				"note": "bauhaus",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/art-and-design-movements/bauhaus.css\">"
-			},
-			{
-				"note": "constructivism",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/art-and-design-movements/constructivism.css\">"
-			}
-		]
+		"head_codes": []
 	}
 }

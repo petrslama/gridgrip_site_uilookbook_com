@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~~*~~ KOOL GAMES PAGE ~*~~ *** THE BEST GAMES 1990-1995 ***</title>
+    <style>
+        /* ============================================================
+           RESET & BASE
+        ============================================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000080;
+            background-image: repeating-linear-gradient(
+                45deg,
+                #000080 0px,
+                #000080 10px,
+                #0000a0 10px,
+                #0000a0 20px
+            );
+            font-family: "Courier New", Courier, monospace;
+            font-size: 14px;
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        /* ============================================================
+           LAYOUT WRAPPER
+        ============================================================ */
+        .page-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #c0c0c0;
+            color: #000000;
+            border: 3px outset #ffffff;
+        }
+
+        /* ============================================================
+           HEADER ZONE
+        ============================================================ */
+        .site-header {
+            background-color: #000000;
+            background-image: repeating-linear-gradient(
+                90deg,
+                #000000 0px,
+                #000000 4px,
+                #1a1a1a 4px,
+                #1a1a1a 8px
+            );
+            border-bottom: 3px outset #c0c0c0;
+            padding: 12px 8px 8px;
+            text-align: center;
+
+            .header-title {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 36px;
+                font-weight: bold;
+                color: #ff00ff;
+                text-shadow:
+                    3px 3px 0 #000000,
+                    -1px -1px 0 #800080;
+                letter-spacing: 2px;
+                line-height: 1.1;
+                animation: rainbow-shift 1s steps(6) infinite;
+            }
+
+            .header-subtitle {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 16px;
+                color: #ffff00;
+                margin-top: 6px;
+                letter-spacing: 1px;
+            }
+
+            .header-stars {
+                color: #00ff00;
+                font-size: 20px;
+                letter-spacing: 4px;
+                margin: 6px 0 4px;
+                animation: blink 0.8s step-start infinite;
+            }
+        }
+
+        /* ============================================================
+           MARQUEE BAR
+        ============================================================ */
+        .marquee-bar {
+            background-color: #000000;
+            border-top: 2px inset #808080;
+            border-bottom: 2px inset #808080;
+            padding: 4px 0;
+            overflow: hidden;
+            white-space: nowrap;
+
+            .marquee-inner {
+                display: inline-block;
+                animation: marquee-scroll 18s linear infinite;
+                color: #00ff00;
+                font-size: 13px;
+                letter-spacing: 1px;
+                font-family: "Courier New", monospace;
+            }
+        }
+
+        /* ============================================================
+           NAV BAR
+        ============================================================ */
+        .site-nav {
+            background-color: #c0c0c0;
+            border-bottom: 3px outset #ffffff;
+            padding: 6px 8px;
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+
+            a {
+                display: inline-block;
+                background-color: #c0c0c0;
+                color: #000080;
+                text-decoration: none;
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 3px 10px;
+                border: 3px outset #ffffff;
+                cursor: pointer;
+
+                &:hover {
+                    border-style: inset;
+                    background-color: #a0a0a0;
+                }
+
+                &:active {
+                    border-style: inset;
+                }
+            }
+        }
+
+        /* ============================================================
+           RAINBOW HR
+        ============================================================ */
+        .rainbow-hr {
+            height: 6px;
+            border: none;
+            background: linear-gradient(
+                to right,
+                #ff0000 0%,
+                #ff7700 14%,
+                #ffff00 28%,
+                #00ff00 42%,
+                #0000ff 57%,
+                #8b00ff 71%,
+                #ff00ff 85%,
+                #ff0000 100%
+            );
+            margin: 0;
+        }
+
+        .rainbow-hr-thin {
+            height: 3px;
+            border: none;
+            background: linear-gradient(
+                to right,
+                #ff0000,
+                #ff7700,
+                #ffff00,
+                #00ff00,
+                #0000ff,
+                #8b00ff,
+                #ff00ff,
+                #ff0000
+            );
+            margin: 8px 0;
+        }
+
+        /* ============================================================
+           MAIN CONTENT AREA
+        ============================================================ */
+        .main-content {
+            padding: 10px 12px;
+        }
+
+        /* ============================================================
+           SECTION HEADERS
+        ============================================================ */
+        .section-title {
+            font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+            font-size: 22px;
+            font-weight: bold;
+            color: #000080;
+            background-color: #ffff00;
+            border: 3px outset #ffffff;
+            padding: 4px 10px;
+            margin: 14px 0 8px;
+            display: inline-block;
+        }
+
+        .section-title-pink {
+            color: #ffffff;
+            background-color: #ff00ff;
+        }
+
+        .section-title-green {
+            color: #000000;
+            background-color: #00ff00;
+        }
+
+        /* ============================================================
+           INTRO BOX
+        ============================================================ */
+        .intro-box {
+            background-color: #ffffff;
+            border: 3px inset #808080;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            font-family: "Courier New", monospace;
+            font-size: 13px;
+            line-height: 1.6;
+
+            .intro-greeting {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 18px;
+                color: #ff00ff;
+                font-weight: bold;
+                margin-bottom: 6px;
+            }
+
+            a {
+                color: #0000ff;
+
+                &:visited {
+                    color: #800080;
+                }
+            }
+        }
+
+        /* ============================================================
+           UNDER CONSTRUCTION BANNER
+        ============================================================ */
+        .under-construction {
+            background-image: repeating-linear-gradient(
+                45deg,
+                #ffff00 0px,
+                #ffff00 12px,
+                #000000 12px,
+                #000000 24px
+            );
+            border: 3px outset #c0c0c0;
+            padding: 6px 10px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .uc-text {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 15px;
+                font-weight: bold;
+                color: #000000;
+                background-color: #ffff00;
+                padding: 2px 8px;
+                border: 2px solid #000000;
+                animation: blink 1s step-start infinite;
+            }
+        }
+
+        /* ============================================================
+           GAMES TABLE
+        ============================================================ */
+        .games-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px outset #ffffff;
+            margin: 10px 0;
+            font-family: "Courier New", monospace;
+            font-size: 12px;
+
+            thead {
+                background-color: #000080;
+                color: #ffffff;
+
+                th {
+                    border: 2px outset #c0c0c0;
+                    padding: 5px 8px;
+                    font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                    font-size: 13px;
+                    text-align: left;
+                    letter-spacing: 1px;
+                }
+            }
+
+            tbody {
+                tr {
+                    background-color: #ffffff;
+                    border: 2px inset #808080;
+
+                    &:nth-child(even) {
+                        background-color: #e0e0e0;
+                    }
+
+                    &:hover {
+                        background-color: #ffff99;
+                        cursor: default;
+                    }
+
+                    td {
+                        border: 1px solid #808080;
+                        padding: 4px 8px;
+                        vertical-align: top;
+                    }
+                }
+            }
+
+            .rating-stars {
+                color: #ff0000;
+                font-size: 14px;
+                white-space: nowrap;
+            }
+
+            .year-badge {
+                background-color: #000080;
+                color: #00ff00;
+                font-size: 11px;
+                padding: 1px 5px;
+                border: 1px inset #c0c0c0;
+                font-family: "Courier New", monospace;
+                white-space: nowrap;
+            }
+
+            .genre-tag {
+                background-color: #800080;
+                color: #ffffff;
+                font-size: 10px;
+                padding: 1px 4px;
+                border: 1px outset #c0c0c0;
+                white-space: nowrap;
+            }
+        }
+
+        /* ============================================================
+           GAME CARDS — top picks
+        ============================================================ */
+        .top-picks-grid {
+            display: table;
+            width: 100%;
+            border-spacing: 0;
+            border-collapse: separate;
+
+            .top-picks-row {
+                display: table-row;
+            }
+
+            .game-card {
+                display: table-cell;
+                width: 33.33%;
+                vertical-align: top;
+                padding: 6px;
+
+                .card-inner {
+                    background-color: #000000;
+                    border: 3px outset #c0c0c0;
+                    padding: 8px;
+                    height: 100%;
+
+                    .card-title {
+                        font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #ff00ff;
+                        margin-bottom: 4px;
+                        border-bottom: 1px solid #333333;
+                        padding-bottom: 3px;
+                    }
+
+                    .card-year {
+                        color: #ffff00;
+                        font-size: 11px;
+                        font-family: "Courier New", monospace;
+                        margin-bottom: 4px;
+                    }
+
+                    .card-desc {
+                        color: #c0c0c0;
+                        font-size: 11px;
+                        font-family: "Courier New", monospace;
+                        line-height: 1.5;
+                    }
+
+                    .card-score {
+                        margin-top: 6px;
+                        font-size: 10px;
+                        color: #00ff00;
+                        font-family: "Courier New", monospace;
+                    }
+                }
+            }
+        }
+
+        /* ============================================================
+           HIT COUNTER + BADGES
+        ============================================================ */
+        .badges-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 10px 0;
+            align-items: flex-start;
+        }
+
+        .hit-counter {
+            background-color: #000000;
+            border: 3px inset #808080;
+            padding: 4px 10px;
+            font-family: "Courier New", monospace;
+            font-size: 13px;
+            color: #00ff00;
+            text-align: center;
+
+            .counter-label {
+                font-size: 10px;
+                color: #c0c0c0;
+                letter-spacing: 2px;
+                display: block;
+                margin-bottom: 2px;
+            }
+
+            .counter-digits {
+                font-size: 22px;
+                letter-spacing: 4px;
+                color: #00ff00;
+                display: block;
+            }
+        }
+
+        .badge-box {
+            background-color: #c0c0c0;
+            border: 3px outset #ffffff;
+            padding: 4px 8px;
+            font-family: "Courier New", monospace;
+            font-size: 10px;
+            text-align: center;
+            color: #000000;
+            min-width: 80px;
+
+            .badge-top {
+                background-color: #000080;
+                color: #ffffff;
+                font-family: "Comic Sans MS", cursive;
+                font-size: 11px;
+                font-weight: bold;
+                padding: 2px 4px;
+                margin: -4px -8px 4px -8px;
+                display: block;
+            }
+        }
+
+        /* ============================================================
+           GUESTBOOK SECTION
+        ============================================================ */
+        .guestbook-section {
+            background-color: #ffffcc;
+            border: 3px inset #808080;
+            padding: 10px;
+            margin: 10px 0;
+
+            .gb-entry {
+                border-bottom: 1px dashed #808080;
+                padding: 6px 0;
+                font-family: "Courier New", monospace;
+                font-size: 12px;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                .gb-name {
+                    font-weight: bold;
+                    color: #0000ff;
+                    font-family: "Comic Sans MS", cursive;
+                    font-size: 13px;
+                }
+
+                .gb-date {
+                    color: #808080;
+                    font-size: 11px;
+                    margin-left: 8px;
+                }
+
+                .gb-text {
+                    margin-top: 3px;
+                    color: #000000;
+                }
+            }
+        }
+
+        /* ============================================================
+           BUTTON STYLE
+        ============================================================ */
+        .retro-btn {
+            background-color: #c0c0c0;
+            background-image: linear-gradient(
+                to bottom right,
+                #e0e0e0 0%,
+                #c0c0c0 50%,
+                #a0a0a0 100%
+            );
+            border: 3px outset #ffffff;
+            color: #000000;
+            font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 4px 14px;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            text-decoration: none;
+
+            &:hover {
+                background-image: linear-gradient(
+                    to bottom right,
+                    #d0d0d0 0%,
+                    #b0b0b0 50%,
+                    #909090 100%
+                );
+            }
+
+            &:active {
+                border-style: inset;
+                background-image: linear-gradient(
+                    to top left,
+                    #e0e0e0 0%,
+                    #c0c0c0 50%,
+                    #a0a0a0 100%
+                );
+            }
+        }
+
+        /* ============================================================
+           POLL BOX
+        ============================================================ */
+        .poll-box {
+            background-color: #000080;
+            border: 3px outset #c0c0c0;
+            padding: 10px;
+            color: #ffffff;
+            margin: 10px 0;
+
+            .poll-title {
+                font-family: "Comic Sans MS", cursive;
+                font-size: 16px;
+                font-weight: bold;
+                color: #ffff00;
+                margin-bottom: 8px;
+                text-align: center;
+            }
+
+            .poll-option {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin: 5px 0;
+                font-family: "Courier New", monospace;
+                font-size: 12px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #00ff00;
+                }
+
+                input[type="radio"] {
+                    accent-color: #00ff00;
+                }
+
+                .poll-bar {
+                    height: 12px;
+                    background-color: #00ff00;
+                    display: inline-block;
+                    border: 1px inset #c0c0c0;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        /* ============================================================
+           LINKS SECTION
+        ============================================================ */
+        .links-section {
+            background-color: #ffffff;
+            border: 3px inset #808080;
+            padding: 8px 12px;
+            margin: 10px 0;
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    padding: 3px 0;
+                    border-bottom: 1px dotted #c0c0c0;
+                    font-family: "Courier New", monospace;
+                    font-size: 12px;
+
+                    &::before {
+                        content: ">> ";
+                        color: #ff00ff;
+                        font-weight: bold;
+                    }
+
+                    a {
+                        color: #0000ff;
+                        text-decoration: underline;
+
+                        &:visited {
+                            color: #800080;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ============================================================
+           FOOTER
+        ============================================================ */
+        .site-footer {
+            background-color: #000000;
+            background-image: repeating-linear-gradient(
+                90deg,
+                #000000 0px,
+                #000000 4px,
+                #0a0a0a 4px,
+                #0a0a0a 8px
+            );
+            border-top: 3px outset #c0c0c0;
+            padding: 10px;
+            text-align: center;
+            font-family: "Courier New", monospace;
+            font-size: 11px;
+            color: #c0c0c0;
+
+            .footer-email {
+                color: #00ff00;
+                font-family: "Courier New", monospace;
+            }
+
+            .footer-line {
+                margin: 4px 0;
+            }
+
+            .footer-best-viewed {
+                color: #ffff00;
+                font-size: 10px;
+                margin-top: 6px;
+            }
+        }
+
+        /* ============================================================
+           BLINK + ANIMATIONS
+        ============================================================ */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        @keyframes marquee-scroll {
+            0% { transform: translateX(800px); }
+            100% { transform: translateX(-100%); }
+        }
+
+        @keyframes rainbow-shift {
+            0%   { color: #ff0000; }
+            17%  { color: #ffff00; }
+            33%  { color: #00ff00; }
+            50%  { color: #00ffff; }
+            67%  { color: #0000ff; }
+            83%  { color: #ff00ff; }
+            100% { color: #ff0000; }
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .blink {
+            animation: blink 0.9s step-start infinite;
+        }
+
+        .blink-fast {
+            animation: blink 0.4s step-start infinite;
+        }
+
+        .rainbow-text {
+            animation: rainbow-shift 1s steps(6) infinite;
+        }
+
+        /* ============================================================
+           MISC UTILITIES
+        ============================================================ */
+        .text-center { text-align: center; }
+        .text-red { color: #ff0000; }
+        .text-blue { color: #0000ff; }
+        .text-pink { color: #ff00ff; }
+        .text-yellow { color: #ffff00; }
+        .text-green { color: #00ff00; }
+        .text-white { color: #ffffff; }
+        .bold { font-weight: bold; }
+
+        .spacer { margin: 12px 0; }
+
+        .inset-box {
+            border: 3px inset #808080;
+            padding: 6px;
+            background-color: #ffffff;
+            margin: 6px 0;
+        }
+
+        .outset-box {
+            border: 3px outset #ffffff;
+            padding: 6px;
+            background-color: #c0c0c0;
+            margin: 6px 0;
+        }
+
+        /* ============================================================
+           RESPONSIVE — single breakpoint, no var()
+        ============================================================ */
+        @media (max-width: 600px) {
+            .page-wrapper {
+                margin: 0;
+                border-width: 0;
+            }
+
+            .top-picks-grid .game-card {
+                display: block;
+                width: 100%;
+            }
+
+            .top-picks-grid,
+            .top-picks-grid .top-picks-row {
+                display: block;
+            }
+
+            .site-header .header-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+
+        <!-- ====================================================
+             HEADER
+        ==================================================== -->
+        <header class="site-header">
+            <div class="header-stars">* * * * * * * * * * * * * * *</div>
+            <h1 class="header-title">~~*~~ KOOL GAMES PAGE ~~*~~</h1>
+            <div class="header-subtitle">
+                &nbsp;::: The ULTIMATE Guide to Games 1990&ndash;1995 :::&nbsp;
+            </div>
+            <div class="header-stars blink">&#9733; &#9733; &#9733; WELCOME &#9733; &#9733; &#9733;</div>
+        </header>
+
+        <!-- ====================================================
+             MARQUEE
+        ==================================================== -->
+        <div class="marquee-bar">
+            <span class="marquee-inner">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                *** DOOM *** MORTAL KOMBAT *** STREET FIGHTER II *** WOLFENSTEIN 3D *** MYST *** X-COM *** WARCRAFT *** MONKEY ISLAND *** LEMMINGS *** JAZZ JACKRABBIT ***
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                *** DOOM *** MORTAL KOMBAT *** STREET FIGHTER II *** WOLFENSTEIN 3D *** MYST *** X-COM *** WARCRAFT *** MONKEY ISLAND *** LEMMINGS *** JAZZ JACKRABBIT ***
+            </span>
+        </div>
+
+        <!-- ====================================================
+             NAV
+        ==================================================== -->
+        <nav class="site-nav">
+            <a href="#top-picks">TOP PICKS</a>
+            <a href="#full-list">FULL LIST</a>
+            <a href="#poll">VOTE!</a>
+            <a href="#guestbook">GUESTBOOK</a>
+            <a href="#links">LINKZ</a>
+            <a href="mailto:gamerdude@aol.com">E-MAIL ME</a>
+        </nav>
+
+        <hr class="rainbow-hr">
+
+        <!-- ====================================================
+             MAIN
+        ==================================================== -->
+        <main class="main-content">
+
+            <!-- INTRO BOX -->
+            <div class="intro-box">
+                <div class="intro-greeting">
+                    W E L C O M E &nbsp; 2 &nbsp; M Y &nbsp; P A G E ! ! !
+                </div>
+                <p>
+                    HEY DUDE!!! You have found the <span class="bold text-red">BEST PAGE ON THE INTERNET</span>
+                    about games from 1990 to 1995!! I am a HUGE gamer and I have
+                    played ALL of these games. This page was made by me, <span class="bold">GameDude_Xtr3me</span>,
+                    using Notepad.exe. Please sign my <a href="#guestbook">GUESTBOOK</a>!!!
+                </p>
+                <br>
+                <p>
+                    <span class="blink text-red bold">*** PAGE IS UPDATED EVERY FRIDAY ***</span>
+                </p>
+            </div>
+
+            <!-- UNDER CONSTRUCTION -->
+            <div class="under-construction">
+                <span class="uc-text">!! UNDER CONSTRUCTION !!</span>
+                <span style="font-family: 'Courier New'; font-size: 11px; background: #ffff00; padding: 2px 6px; border: 1px solid #000;">
+                    The MYST section is coming SOON!!! Check back later!!
+                </span>
+            </div>
+
+            <!-- TOP PICKS SECTION -->
+            <div id="top-picks">
+                <h2 class="section-title">&#9733; MY TOP 3 GAMES &#9733;</h2>
+                <hr class="rainbow-hr-thin">
+
+                <div class="top-picks-grid">
+                    <div class="top-picks-row">
+                        <div class="game-card">
+                            <div class="card-inner">
+                                <div class="card-title">&#9658; DOOM</div>
+                                <div class="card-year">Year: 1993 &nbsp;| PC/DOS</div>
+                                <div class="card-desc">
+                                    OH MY GOD this game is the most AMAZING thing
+                                    ever made. You kill demons with a SHOTGUN.
+                                    My mom says I cannot play it but I play it anyway!!!
+                                    id Software = GODS.
+                                </div>
+                                <div class="card-score">SCORE: [##########] 10/10</div>
+                            </div>
+                        </div>
+                        <div class="game-card">
+                            <div class="card-inner">
+                                <div class="card-title">&#9658; STREET FIGHTER II</div>
+                                <div class="card-year">Year: 1992 &nbsp;| SNES/Arcade</div>
+                                <div class="card-desc">
+                                    HADOUKEN!!! Me and my friend play this for HOURS.
+                                    I always pick Ken. Chun-Li is also really cool.
+                                    Best multiplayer game EVER made no contest!!
+                                </div>
+                                <div class="card-score">SCORE: [#########.] 9.5/10</div>
+                            </div>
+                        </div>
+                        <div class="game-card">
+                            <div class="card-inner">
+                                <div class="card-title">&#9658; MORTAL KOMBAT</div>
+                                <div class="card-year">Year: 1993 &nbsp;| Arcade/SNES</div>
+                                <div class="card-desc">
+                                    THE FATALITIES ARE INSANE!!! "FINISH HIM!!!"
+                                    The blood code on Genesis is ABACABB.
+                                    This game made parents SO mad lol.
+                                    Sub-Zero is my main!!!
+                                </div>
+                                <div class="card-score">SCORE: [#########.] 9/10</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="rainbow-hr">
+
+            <!-- FULL GAMES TABLE -->
+            <div id="full-list">
+                <h2 class="section-title section-title-pink">&#9830; FULL GAMES LIST &#9830;</h2>
+                <p style="font-size: 11px; font-family: 'Courier New'; margin-bottom: 6px; color: #000080;">
+                    * Click column headers to sort (coming soon!!!) *
+                </p>
+
+                <table class="games-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>GAME NAME</th>
+                            <th>YEAR</th>
+                            <th>PLATFORM</th>
+                            <th>GENRE</th>
+                            <th>RATING</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td><strong>DOOM</strong></td>
+                            <td><span class="year-badge">1993</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">FPS</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td><strong>Wolfenstein 3D</strong></td>
+                            <td><span class="year-badge">1992</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">FPS</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td><strong>Street Fighter II</strong></td>
+                            <td><span class="year-badge">1992</span></td>
+                            <td>Arcade/SNES</td>
+                            <td><span class="genre-tag">FIGHT</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td><strong>Mortal Kombat</strong></td>
+                            <td><span class="year-badge">1993</span></td>
+                            <td>Arcade/SNES/Gen</td>
+                            <td><span class="genre-tag">FIGHT</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>05</td>
+                            <td><strong>The Secret of Monkey Island</strong></td>
+                            <td><span class="year-badge">1990</span></td>
+                            <td>PC/DOS/Amiga</td>
+                            <td><span class="genre-tag">ADVENT</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                        </tr>
+                        <tr>
+                            <td>06</td>
+                            <td><strong>Day of the Tentacle</strong></td>
+                            <td><span class="year-badge">1993</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">ADVENT</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                        </tr>
+                        <tr>
+                            <td>07</td>
+                            <td><strong>Myst</strong></td>
+                            <td><span class="year-badge">1993</span></td>
+                            <td>PC/Mac</td>
+                            <td><span class="genre-tag">PUZZLE</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>08</td>
+                            <td><strong>X-COM: UFO Defense</strong></td>
+                            <td><span class="year-badge">1994</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">STRAT</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                        </tr>
+                        <tr>
+                            <td>09</td>
+                            <td><strong>Warcraft: Orcs &amp; Humans</strong></td>
+                            <td><span class="year-badge">1994</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">RTS</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td><strong>Lemmings</strong></td>
+                            <td><span class="year-badge">1991</span></td>
+                            <td>PC/Amiga/SNES</td>
+                            <td><span class="genre-tag">PUZZLE</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td><strong>Jazz Jackrabbit</strong></td>
+                            <td><span class="year-badge">1994</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">PLAT</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td><strong>SimCity 2000</strong></td>
+                            <td><span class="year-badge">1993</span></td>
+                            <td>PC/Mac</td>
+                            <td><span class="genre-tag">SIM</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td><strong>Theme Park</strong></td>
+                            <td><span class="year-badge">1994</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">SIM</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td><strong>Transport Tycoon</strong></td>
+                            <td><span class="year-badge">1994</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">SIM</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td><strong>Wing Commander</strong></td>
+                            <td><span class="year-badge">1990</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">SPACE</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td><strong>Ultima Underworld</strong></td>
+                            <td><span class="year-badge">1992</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">RPG</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td><strong>Commander Keen</strong></td>
+                            <td><span class="year-badge">1990</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">PLAT</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td><strong>Duke Nukem</strong></td>
+                            <td><span class="year-badge">1991</span></td>
+                            <td>PC/DOS</td>
+                            <td><span class="genre-tag">PLAT</span></td>
+                            <td class="rating-stars">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <hr class="rainbow-hr">
+
+            <!-- POLL -->
+            <div id="poll">
+                <h2 class="section-title section-title-green">&#9658; VOTE!! BEST GENRE &#9668;</h2>
+
+                <div class="poll-box">
+                    <div class="poll-title">** WHAT IS THE BEST GENRE? **</div>
+                    <label class="poll-option">
+                        <input type="radio" name="genre" value="fps">
+                        FPS (Doom, Wolfenstein)
+                        <span class="poll-bar" style="width: 90px;"></span>
+                        <span style="color: #ffff00; font-size: 11px;">47%</span>
+                    </label>
+                    <label class="poll-option">
+                        <input type="radio" name="genre" value="fight">
+                        Fighting (SF2, MK)
+                        <span class="poll-bar" style="width: 60px;"></span>
+                        <span style="color: #ffff00; font-size: 11px;">31%</span>
+                    </label>
+                    <label class="poll-option">
+                        <input type="radio" name="genre" value="adv">
+                        Adventure (Monkey Island)
+                        <span class="poll-bar" style="width: 30px;"></span>
+                        <span style="color: #ffff00; font-size: 11px;">15%</span>
+                    </label>
+                    <label class="poll-option">
+                        <input type="radio" name="genre" value="strat">
+                        Strategy (X-COM, Warcraft)
+                        <span class="poll-bar" style="width: 14px;"></span>
+                        <span style="color: #ffff00; font-size: 11px;">7%</span>
+                    </label>
+                    <div style="margin-top: 8px; text-align: center;">
+                        <button class="retro-btn" onclick="alert('Your vote has been submitted!! THANX!!!')">
+                            &gt;&gt; SUBMIT VOTE &lt;&lt;
+                        </button>
+                        <span style="font-size: 10px; color: #c0c0c0; display: block; margin-top: 4px;">
+                            Total votes: 1,337
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="rainbow-hr">
+
+            <!-- GUESTBOOK -->
+            <div id="guestbook">
+                <h2 class="section-title">&#9993; GUESTBOOK &#9993;</h2>
+
+                <div class="guestbook-section">
+                    <div class="gb-entry">
+                        <span class="gb-name">CoolDude99</span>
+                        <span class="gb-date">15. 8. 1996</span>
+                        <div class="gb-text">
+                            DOOOOOOM IS THE BEST GAME EVER. I play it every day after school.
+                            Add more games pleez!! Great page!!!
+                        </div>
+                    </div>
+                    <div class="gb-entry">
+                        <span class="gb-name">StreetFighterFan</span>
+                        <span class="gb-date">22. 9. 1996</span>
+                        <div class="gb-text">
+                            How do you do Ryu's fireball on keyboard??? I cant figure it out lol.
+                            Please email me the answer!!! Great site btw :-)
+                        </div>
+                    </div>
+                    <div class="gb-entry">
+                        <span class="gb-name">MystMaster_3000</span>
+                        <span class="gb-date">3. 10. 1996</span>
+                        <div class="gb-text">
+                            Myst is NOT boring!! You just dont understand it. It is an art game.
+                            Put more adventure games on your list plz.
+                        </div>
+                    </div>
+                    <div class="gb-entry">
+                        <span class="gb-name">XcomCommander</span>
+                        <span class="gb-date">17. 11. 1996</span>
+                        <div class="gb-text">
+                            X-COM deserves 5 stars!! It is the most COMPLICATED and BEST strategy
+                            game ever. My sergeant keeps dying though :(
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 8px; text-align: center;">
+                    <button class="retro-btn" onclick="alert('Guestbook form is coming soon!!! Please email me instead!!! gamedude@aol.com')">
+                        &#9998; SIGN MY GUESTBOOK !!!
+                    </button>
+                </div>
+            </div>
+
+            <hr class="rainbow-hr">
+
+            <!-- KOOL LINKS -->
+            <div id="links">
+                <h2 class="section-title section-title-pink">&#9670; KOOL LINKZ &#9670;</h2>
+
+                <div class="links-section">
+                    <ul>
+                        <li><a href="#">id Software Official Page</a> &mdash; the makers of DOOM!!!</li>
+                        <li><a href="#">Mortal Kombat Fatality Codes</a> &mdash; ALL the secrets!!!</li>
+                        <li><a href="#">X-COM UFO Walkthrough</a> &mdash; how to beat the game</li>
+                        <li><a href="#">Street Fighter 2 Move List</a> &mdash; all special moves</li>
+                        <li><a href="#">Myst Hints Page</a> &mdash; if ur stuck like me lol</li>
+                        <li><a href="#">Warcraft Strategy Guide</a> &mdash; how to build a base fast</li>
+                        <li><a href="#">My Friend Dave's Page</a> &mdash; he also has a games page!!</li>
+                        <li><a href="#">AOL Gaming Forum</a> &mdash; talk about games with other people!</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- BADGES & COUNTER ROW -->
+            <div class="spacer"></div>
+            <div class="badges-row">
+                <div class="hit-counter">
+                    <span class="counter-label">VISITORS</span>
+                    <span class="counter-digits" id="counter">001337</span>
+                </div>
+                <div class="badge-box">
+                    <span class="badge-top">BEST VIEWED IN</span>
+                    Netscape 3.0<br>800x600
+                </div>
+                <div class="badge-box" style="background-color: #000080; color: #ffffff; border-color: #00ff00;">
+                    <span class="badge-top" style="background-color: #00ff00; color: #000000;">MADE WITH</span>
+                    Notepad.exe<br>MS-DOS 6.22
+                </div>
+                <div class="badge-box" style="background-color: #800000; color: #ffff00;">
+                    <span class="badge-top" style="background-color: #ff0000; color: #ffffff;">NO FRAMES!</span>
+                    Frames are<br>for LOSERS
+                </div>
+                <div class="badge-box">
+                    <span class="badge-top">LAST UPDATED</span>
+                    Friday<br>Dec. 1996
+                </div>
+            </div>
+
+            <!-- WEBRING BOX -->
+            <div class="outset-box text-center" style="margin-top: 10px; font-family: 'Courier New'; font-size: 11px;">
+                <strong style="font-family: 'Comic Sans MS', cursive; font-size: 13px; color: #800080;">
+                    *** GAMING WEBRING ***
+                </strong><br>
+                <span style="font-size: 10px;">You are visitor #<span style="color: #ff0000; font-weight: bold;">001,337</span> to the Gaming Webring!</span><br>
+                <div style="margin-top: 6px;">
+                    <button class="retro-btn">&laquo; PREV</button>
+                    &nbsp;
+                    <button class="retro-btn">RANDOM</button>
+                    &nbsp;
+                    <button class="retro-btn">NEXT &raquo;</button>
+                </div>
+            </div>
+
+        </main>
+
+        <hr class="rainbow-hr">
+
+        <!-- ====================================================
+             FOOTER
+        ==================================================== -->
+        <footer class="site-footer">
+            <div class="footer-line">
+                <span class="rainbow-text bold">~~~ KOOL GAMES PAGE ~~~</span>
+            </div>
+            <div class="footer-line">
+                Created by <strong>GameDude_Xtr3me</strong> &bull; 1996 &bull;
+                E-mail: <span class="footer-email">gamedude@aol.com</span>
+            </div>
+            <div class="footer-line">
+                &copy; 1996 GameDude_Xtr3me &bull; All rights reserved probably
+            </div>
+            <div class="footer-best-viewed">
+                * BEST VIEWED IN NETSCAPE NAVIGATOR 3.0 AT 800x600 WITH 256 COLORS *
+            </div>
+            <div style="margin-top: 8px; font-size: 10px; color: #808080;">
+                This page has been visited <span style="color: #00ff00;">1,337</span> times since 15. 7. 1996
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // Animated hit counter
+        const counterEl = document.getElementById('counter');
+        let count = 1337;
+
+        const incrementCounter = () => {
+            count += Math.floor(Math.random() * 3) + 1;
+            counterEl.textContent = String(count).padStart(6, '0');
+        };
+
+        setInterval(incrementCounter, 8000);
+
+        // Retro cursor title change
+        const titles = [
+            '~~*~~ KOOL GAMES PAGE ~*~~',
+            '*** WELCOME DUDE!!! ***',
+            '>>> DOOM IS THE BEST <<<',
+            '!!! SIGN MY GUESTBOOK !!!',
+            '~~*~~ KOOL GAMES PAGE ~*~~',
+        ];
+
+        let titleIdx = 0;
+        setInterval(() => {
+            titleIdx = (titleIdx + 1) % titles.length;
+            document.title = titles[titleIdx];
+        }, 2500);
+
+        // Poll vote interaction
+        document.querySelectorAll('.poll-option input').forEach(radio => {
+            radio.addEventListener('change', ({ target }) => {
+                alert(`You voted for: ${target.value.toUpperCase()}!! KOOL CHOICE DUDE!!!`);
+            });
+        });
+    </script>
+</body>
+</html>

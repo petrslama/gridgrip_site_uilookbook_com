@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~~*~~ CYBER WORLD ONLINE ~~*~~ Your #1 Internet Destination!!</title>
+    <style>
+        /* ==========================================
+           RESET + BASE
+        ========================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --link-blue:    #0000ff;
+            --visited:      #800080;
+            --hot-pink:     #ff00ff;
+            --lime:         #00ff00;
+            --yellow:       #ffff00;
+            --silver:       #c0c0c0;
+            --white:        #ffffff;
+            --black:        #000000;
+            --dark-gray:    #808080;
+            --light-gray:   #dfdfdf;
+            --mid-gray:     #b0b0b0;
+            --navy:         #000080;
+            --teal:         #008080;
+            --red:          #ff0000;
+        }
+
+        html {
+            cursor: crosshair;
+        }
+
+        body {
+            background-color: var(--silver);
+            background-image: repeating-linear-gradient(
+                45deg,
+                var(--silver)       0px,
+                var(--silver)       4px,
+                var(--light-gray)   4px,
+                var(--light-gray)   8px
+            );
+            font-family: "Courier New", Courier, monospace;
+            font-size: 14px;
+            color: var(--black);
+            min-height: 100vh;
+        }
+
+        /* ==========================================
+           HAZARD STRIPE BANNER
+        ========================================== */
+        .hazard-banner {
+            width: 100%;
+            height: 28px;
+            background: repeating-linear-gradient(
+                45deg,
+                var(--yellow)   0px,
+                var(--yellow)   16px,
+                var(--black)    16px,
+                var(--black)    32px
+            );
+            border-bottom: 3px solid var(--black);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+
+            .hazard-text {
+                font-family: "Courier New", Courier, monospace;
+                font-weight: bold;
+                font-size: 13px;
+                color: var(--black);
+                background: var(--yellow);
+                padding: 2px 12px;
+                border: 2px solid var(--black);
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                white-space: nowrap;
+                animation: blink-text 1s step-end infinite;
+            }
+        }
+
+        @keyframes blink-text {
+            0%, 100% { opacity: 1; }
+            50%       { opacity: 0; }
+        }
+
+        /* ==========================================
+           RAINBOW HORIZONTAL RULE
+        ========================================== */
+        .rainbow-hr {
+            height: 6px;
+            border: none;
+            background: linear-gradient(
+                to right,
+                #ff0000, #ff7700, #ffff00,
+                #00ff00, #0000ff, #8b00ff, #ff00ff
+            );
+            margin: 8px 0;
+        }
+
+        .rainbow-hr-thin {
+            height: 3px;
+            border: none;
+            background: linear-gradient(
+                to right,
+                #ff00ff, #0000ff, #00ff00,
+                #ffff00, #ff7700, #ff0000
+            );
+            margin: 6px 0;
+        }
+
+        /* ==========================================
+           OUTER WRAPPER
+        ========================================== */
+        .page-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--white);
+            border-left: 3px outset var(--silver);
+            border-right: 3px outset var(--silver);
+            border-bottom: 3px outset var(--silver);
+        }
+
+        /* ==========================================
+           HEADER
+        ========================================== */
+        .site-header {
+            background-color: var(--navy);
+            background-image: repeating-linear-gradient(
+                90deg,
+                transparent      0px,
+                transparent      18px,
+                rgba(0,0,128,.4) 18px,
+                rgba(0,0,128,.4) 20px
+            );
+            padding: 16px 12px 8px;
+            border-bottom: 4px outset var(--silver);
+            text-align: center;
+
+            .site-title {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 36px;
+                color: var(--hot-pink);
+                text-shadow:
+                    3px 3px 0 var(--yellow),
+                    -1px -1px 0 var(--black);
+                letter-spacing: 2px;
+                line-height: 1.1;
+            }
+
+            .site-subtitle {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 14px;
+                color: var(--lime);
+                margin-top: 4px;
+                letter-spacing: 1px;
+            }
+
+            .star-divider {
+                color: var(--yellow);
+                font-size: 18px;
+                letter-spacing: 6px;
+                margin: 6px 0;
+                display: block;
+            }
+        }
+
+        /* ==========================================
+           MARQUEE STRIP
+        ========================================== */
+        .marquee-strip {
+            background: var(--black);
+            border-top: 3px inset var(--dark-gray);
+            border-bottom: 3px inset var(--dark-gray);
+            padding: 5px 0;
+            overflow: hidden;
+            white-space: nowrap;
+
+            .marquee-inner {
+                display: inline-block;
+                animation: scroll-left 18s linear infinite;
+                color: var(--lime);
+                font-family: "Courier New", Courier, monospace;
+                font-size: 13px;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+        }
+
+        @keyframes scroll-left {
+            from { transform: translateX(100vw); }
+            to   { transform: translateX(-100%); }
+        }
+
+        /* ==========================================
+           NAV BAR (BEVELED BUTTONS)
+        ========================================== */
+        .nav-bar {
+            background: var(--silver);
+            border-bottom: 3px outset var(--silver);
+            padding: 6px 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            align-items: center;
+        }
+
+        .btn {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 4px 10px;
+            background: var(--silver);
+            color: var(--black);
+            border: 3px outset var(--white);
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            letter-spacing: 0.5px;
+            transition: none;
+            user-select: none;
+
+            &:hover {
+                background: var(--light-gray);
+            }
+
+            &:active {
+                border-style: inset;
+                background: var(--mid-gray);
+            }
+        }
+
+        .btn-hot {
+            background: var(--navy);
+            color: var(--yellow);
+            border-color: var(--mid-gray);
+
+            &:hover {
+                background: #000066;
+            }
+        }
+
+        .btn-new {
+            background: var(--red);
+            color: var(--white);
+            border-color: #ff8888;
+            animation: blink-text 0.8s step-end infinite;
+        }
+
+        /* ==========================================
+           MAIN LAYOUT (TABLE AESTHETIC)
+        ========================================== */
+        .layout-table {
+            width: 100%;
+            border-collapse: collapse;
+
+            td, th {
+                vertical-align: top;
+                padding: 0;
+            }
+        }
+
+        .sidebar {
+            width: 170px;
+            min-width: 170px;
+            background: var(--silver);
+            border-right: 3px inset var(--dark-gray);
+            padding: 8px;
+        }
+
+        .main-content {
+            padding: 10px 14px;
+            background: var(--white);
+        }
+
+        /* ==========================================
+           SIDEBAR WIDGETS
+        ========================================== */
+        .widget-box {
+            border: 3px inset var(--dark-gray);
+            background: var(--white);
+            margin-bottom: 10px;
+            padding: 6px;
+
+            .widget-title {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 13px;
+                font-weight: bold;
+                color: var(--white);
+                background: var(--navy);
+                margin: -6px -6px 6px;
+                padding: 3px 6px;
+                text-align: center;
+                border-bottom: 2px solid var(--black);
+            }
+
+            .widget-body {
+                font-size: 12px;
+                line-height: 1.7;
+            }
+
+            a {
+                color: var(--link-blue);
+                text-decoration: underline;
+                font-size: 12px;
+                display: block;
+
+                &:visited {
+                    color: var(--visited);
+                }
+
+                &:hover {
+                    color: var(--hot-pink);
+                }
+            }
+        }
+
+        /* HIT COUNTER */
+        .hit-counter {
+            border: 3px inset var(--dark-gray);
+            background: var(--black);
+            padding: 6px 8px;
+            text-align: center;
+            margin-bottom: 10px;
+
+            .counter-label {
+                font-size: 10px;
+                color: var(--silver);
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin-bottom: 4px;
+                display: block;
+            }
+
+            .counter-digits {
+                font-family: "Courier New", Courier, monospace;
+                font-size: 22px;
+                font-weight: bold;
+                color: var(--lime);
+                letter-spacing: 4px;
+                background: #001100;
+                border: 2px inset #004400;
+                padding: 2px 8px;
+                display: inline-block;
+            }
+
+            .counter-sub {
+                font-size: 10px;
+                color: var(--dark-gray);
+                margin-top: 3px;
+                display: block;
+            }
+        }
+
+        /* BADGE STACK */
+        .badge-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+
+            .badge {
+                border: 3px outset var(--silver);
+                font-size: 10px;
+                font-weight: bold;
+                text-align: center;
+                padding: 3px 4px;
+                background: var(--silver);
+                letter-spacing: 0.5px;
+                font-family: "Courier New", Courier, monospace;
+                cursor: default;
+
+                &.badge-netscape {
+                    background: var(--navy);
+                    color: var(--white);
+                    border-color: var(--link-blue);
+                }
+
+                &.badge-ie {
+                    background: #003399;
+                    color: var(--yellow);
+                    border-color: var(--yellow);
+                }
+
+                &.badge-res {
+                    background: var(--black);
+                    color: var(--lime);
+                    border-color: var(--lime);
+                    font-size: 9px;
+                }
+            }
+        }
+
+        /* ==========================================
+           MAIN CONTENT AREAS
+        ========================================== */
+        h1, h2, h3 {
+            font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: var(--navy);
+            border-bottom: 3px double var(--navy);
+            padding-bottom: 4px;
+            margin: 12px 0 8px;
+        }
+
+        h3 {
+            font-size: 15px;
+            color: var(--visited);
+            margin: 10px 0 4px;
+        }
+
+        p {
+            line-height: 1.65;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+
+        a {
+            color: var(--link-blue);
+            text-decoration: underline;
+
+            &:visited { color: var(--visited); }
+            &:hover   { color: var(--hot-pink); }
+            &:active  { color: var(--red); }
+        }
+
+        /* NEWS TABLE */
+        .news-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+            margin-bottom: 10px;
+
+            th {
+                background: var(--navy);
+                color: var(--yellow);
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                padding: 5px 8px;
+                border: 2px outset var(--mid-gray);
+                text-align: left;
+            }
+
+            td {
+                padding: 4px 8px;
+                border: 1px solid var(--dark-gray);
+                vertical-align: top;
+            }
+
+            tr:nth-child(even) td {
+                background: #efefef;
+            }
+
+            tr:hover td {
+                background: #ffffcc;
+            }
+
+            .td-date {
+                color: var(--visited);
+                white-space: nowrap;
+                font-weight: bold;
+                min-width: 80px;
+            }
+
+            .tag-new {
+                background: var(--red);
+                color: var(--white);
+                font-size: 10px;
+                font-weight: bold;
+                padding: 1px 4px;
+                border: 1px solid #880000;
+                margin-left: 4px;
+            }
+        }
+
+        /* FEATURED BOX */
+        .featured-box {
+            border: 3px outset var(--silver);
+            background: #ffffee;
+            padding: 10px 12px;
+            margin-bottom: 12px;
+
+            .featured-inner {
+                border: 2px inset var(--dark-gray);
+                padding: 8px;
+                background: var(--white);
+            }
+
+            .featured-label {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 11px;
+                font-weight: bold;
+                color: var(--white);
+                background: var(--hot-pink);
+                display: inline-block;
+                padding: 2px 8px;
+                margin-bottom: 6px;
+                border: 2px outset var(--mid-gray);
+                letter-spacing: 1px;
+            }
+        }
+
+        /* GUESTBOOK SECTION */
+        .guestbook {
+            border: 3px inset var(--dark-gray);
+            background: #f5f5f5;
+            padding: 10px;
+            margin-bottom: 12px;
+
+            .guestbook-entry {
+                border-bottom: 1px dashed var(--dark-gray);
+                padding: 6px 0;
+                font-size: 12px;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                .entry-name {
+                    font-weight: bold;
+                    color: var(--navy);
+                    font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                }
+
+                .entry-date {
+                    color: var(--dark-gray);
+                    font-size: 11px;
+                    margin-left: 8px;
+                }
+
+                .entry-loc {
+                    color: var(--visited);
+                    font-size: 11px;
+                    font-style: italic;
+                    margin-left: 8px;
+                }
+
+                .entry-msg {
+                    margin-top: 3px;
+                    padding-left: 10px;
+                    color: var(--black);
+                    line-height: 1.5;
+                    border-left: 3px solid var(--silver);
+                }
+            }
+        }
+
+        /* GUESTBOOK FORM */
+        .form-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+
+            td {
+                padding: 3px 6px;
+                vertical-align: middle;
+            }
+
+            .form-label {
+                font-weight: bold;
+                white-space: nowrap;
+                color: var(--navy);
+            }
+
+            input[type="text"],
+            textarea {
+                font-family: "Courier New", Courier, monospace;
+                font-size: 12px;
+                border: 3px inset var(--dark-gray);
+                padding: 2px 4px;
+                background: var(--white);
+                width: 100%;
+                color: var(--black);
+            }
+
+            textarea {
+                resize: vertical;
+                height: 60px;
+            }
+        }
+
+        /* UNDER CONSTRUCTION SECTION */
+        .under-construction {
+            border: 3px outset var(--silver);
+            background: repeating-linear-gradient(
+                45deg,
+                var(--yellow)  0px,
+                var(--yellow)  12px,
+                var(--black)   12px,
+                var(--black)   24px
+            );
+            padding: 4px;
+            margin-bottom: 12px;
+            text-align: center;
+
+            .construction-inner {
+                background: var(--white);
+                border: 3px inset var(--dark-gray);
+                padding: 12px;
+
+                .construction-title {
+                    font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: var(--red);
+                    text-shadow: 2px 2px 0 var(--yellow);
+                }
+
+                .construction-text {
+                    font-size: 12px;
+                    color: var(--black);
+                    margin-top: 6px;
+                }
+            }
+        }
+
+        /* ==========================================
+           FOOTER
+        ========================================== */
+        .site-footer {
+            background: var(--navy);
+            border-top: 4px outset var(--silver);
+            padding: 10px 14px;
+            text-align: center;
+
+            .footer-links {
+                margin-bottom: 8px;
+
+                a {
+                    color: var(--lime);
+                    font-size: 12px;
+                    margin: 0 8px;
+                    text-decoration: none;
+                    font-weight: bold;
+
+                    &:hover { color: var(--hot-pink); text-decoration: underline; }
+                    &:visited { color: var(--visited); }
+                }
+            }
+
+            .footer-meta {
+                font-size: 11px;
+                color: var(--silver);
+                line-height: 1.8;
+            }
+
+            .footer-copyright {
+                font-size: 11px;
+                color: var(--dark-gray);
+                margin-top: 6px;
+                border-top: 1px solid var(--dark-gray);
+                padding-top: 6px;
+            }
+
+            .webring {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                border: 3px outset var(--dark-gray);
+                padding: 4px 10px;
+                margin-top: 8px;
+                background: var(--silver);
+                font-size: 12px;
+                color: var(--black);
+                font-family: "Courier New", Courier, monospace;
+
+                a {
+                    color: var(--link-blue);
+                    font-weight: bold;
+                    font-size: 14px;
+                    text-decoration: none;
+
+                    &:hover { color: var(--hot-pink); }
+                }
+            }
+        }
+
+        /* ==========================================
+           POPUP-STYLE STATUS BAR
+        ========================================== */
+        .status-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--silver);
+            border-top: 3px outset var(--white);
+            padding: 3px 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 11px;
+            font-family: "Courier New", Courier, monospace;
+            z-index: 100;
+
+            .status-segment {
+                border: 2px inset var(--dark-gray);
+                padding: 1px 8px;
+                background: var(--white);
+                min-width: 120px;
+            }
+
+            .status-time {
+                margin-left: auto;
+                border: 2px inset var(--dark-gray);
+                padding: 1px 8px;
+                background: var(--white);
+                font-weight: bold;
+            }
+        }
+
+        /* ==========================================
+           RESPONSIVE COLLAPSE (640px breakpoint)
+        ========================================== */
+        @media (max-width: 640px) {
+            .layout-table,
+            .layout-table tbody,
+            .layout-table tr,
+            .layout-table td {
+                display: block;
+                width: 100%;
+            }
+
+            .sidebar {
+                min-width: unset;
+                border-right: none;
+                border-bottom: 3px inset var(--dark-gray);
+            }
+
+            .badge-stack {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============ HAZARD BANNER ============ -->
+    <div class="hazard-banner">
+        <span class="hazard-text">*** UNDER CONSTRUCTION — CHECK BACK OFTEN!! ***</span>
+    </div>
+
+    <div class="page-wrapper">
+
+        <!-- ============ HEADER ============ -->
+        <header class="site-header">
+            <span class="star-divider">★ ★ ★ ★ ★ ★ ★ ★ ★ ★</span>
+            <div class="site-title">~~*~~ CYBER WORLD ONLINE ~~*~~</div>
+            <div class="site-subtitle">
+                :: Your #1 Stop on the Information Superhighway!! ::
+            </div>
+            <span class="star-divider">·:·:·:·:·:·:·:·:·:·:·:·:·:·</span>
+        </header>
+
+        <!-- ============ MARQUEE ============ -->
+        <div class="marquee-strip">
+            <span class="marquee-inner">
+                ★ WELCOME TO CYBER WORLD — EST. 1996 ★ &nbsp;&nbsp;|&nbsp;&nbsp;
+                NOW FEATURING: ANIMATED GIFS!! &nbsp;&nbsp;|&nbsp;&nbsp;
+                BEST VIEWED IN NETSCAPE NAVIGATOR 3.0 AT 800x600 ★ &nbsp;&nbsp;|&nbsp;&nbsp;
+                FREE EMAIL @CyberWorld.net — SIGN UP NOW!! &nbsp;&nbsp;|&nbsp;&nbsp;
+                DOWNLOAD COUNTER: 1,337 COOL WALLPAPERS &nbsp;&nbsp;|&nbsp;&nbsp;
+                ★ TELL YOUR FRIENDS ABOUT US!! ★ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+        </div>
+
+        <!-- ============ NAV BAR ============ -->
+        <nav class="nav-bar">
+            <a href="#" class="btn">🏠 Home</a>
+            <a href="#news" class="btn btn-hot">📰 News</a>
+            <a href="#guestbook" class="btn">📖 Guestbook</a>
+            <a href="#links" class="btn">🔗 Cool Links</a>
+            <a href="#" class="btn">📧 E-Mail Us</a>
+            <a href="#" class="btn">💾 Downloads</a>
+            <a href="#" class="btn btn-new">🆕 WHAT'S NEW</a>
+        </nav>
+
+        <hr class="rainbow-hr">
+
+        <!-- ============ 2-COLUMN LAYOUT ============ -->
+        <table class="layout-table">
+            <tbody>
+                <tr>
+
+                    <!-- SIDEBAR -->
+                    <td class="sidebar">
+
+                        <!-- Hit Counter -->
+                        <div class="hit-counter">
+                            <span class="counter-label">Visitors Since 1996</span>
+                            <div class="counter-digits" id="hit-counter">0042891</div>
+                            <span class="counter-sub">YOU ARE VISITOR #42,892</span>
+                        </div>
+
+                        <!-- Nav Links Widget -->
+                        <div class="widget-box">
+                            <div class="widget-title">⚡ Quick Links</div>
+                            <div class="widget-body">
+                                <a href="#">📂 My Files</a>
+                                <a href="#">🎮 Games Zone</a>
+                                <a href="#">🎵 MIDI Library</a>
+                                <a href="#">📷 Photo Album</a>
+                                <a href="#">💬 Chat Room</a>
+                                <a href="#">🌐 Web Ring</a>
+                                <a href="#">📜 FAQ Page</a>
+                                <a href="#">🔍 Search</a>
+                            </div>
+                        </div>
+
+                        <!-- Online Now Widget -->
+                        <div class="widget-box">
+                            <div class="widget-title">👤 Online Now</div>
+                            <div class="widget-body" style="text-align:center; padding: 4px 0;">
+                                <div style="font-size:22px; color: var(--lime); font-weight: bold;" id="online-count">14</div>
+                                <div style="font-size:11px; color: var(--dark-gray);">users chatting!!</div>
+                                <hr class="rainbow-hr-thin" style="margin: 6px 0;">
+                                <a href="#" class="btn" style="font-size:11px; display:block; text-align:center; margin-top:4px;">Join Chat!</a>
+                            </div>
+                        </div>
+
+                        <!-- Badges -->
+                        <div class="widget-box">
+                            <div class="widget-title">🏆 Certified</div>
+                            <div class="badge-stack">
+                                <div class="badge badge-netscape">Best Viewed<br>Netscape 3.0</div>
+                                <div class="badge badge-ie">Works with<br>IE 4.0 !!!!</div>
+                                <div class="badge badge-res">800x600<br>RESOLUTION</div>
+                                <div class="badge">⭐ TOP SITE ⭐<br>1997 Award</div>
+                            </div>
+                        </div>
+
+                        <!-- Clock Widget -->
+                        <div class="widget-box">
+                            <div class="widget-title">🕐 Server Time</div>
+                            <div class="widget-body" style="text-align:center;">
+                                <div style="font-size:15px; font-weight:bold; color: var(--navy);" id="clock-display">00:00:00</div>
+                                <div style="font-size:11px; color: var(--dark-gray);" id="date-display">Loading...</div>
+                            </div>
+                        </div>
+
+                    </td>
+
+                    <!-- MAIN CONTENT -->
+                    <td class="main-content">
+
+                        <!-- FEATURED BOX -->
+                        <div class="featured-box">
+                            <div class="featured-inner">
+                                <span class="featured-label">★ FEATURED ★</span>
+                                <h3 style="margin-top:0; color: var(--navy); font-size:16px;">
+                                    Welcome to Cyber World Online — The BEST Site on the Whole Internet!!
+                                </h3>
+                                <p>
+                                    Greetings, fellow netizens!! You have found the most RADICAL corner of cyberspace.
+                                    We have been bringing you the freshest content since <strong>March 1996</strong>
+                                    — that's like, FOREVER in internet years!! Bookmark this page NOW (Ctrl+D)
+                                    and tell ALL your friends on AOL Instant Messenger!!
+                                </p>
+                                <p style="margin-bottom:0;">
+                                    <a href="#">🔥 Click here for our AWARD-WINNING animated GIF collection!!</a>
+                                    &nbsp;|&nbsp;
+                                    <a href="#">💌 Sign up for our e-mail newsletter!!</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr class="rainbow-hr">
+
+                        <!-- NEWS TABLE -->
+                        <h2 id="news">📰 Latest News &amp; Updates</h2>
+
+                        <table class="news-table">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Headline</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="td-date">18. 3. 2026</td>
+                                    <td>
+                                        Major site redesign is ALMOST done!!
+                                        <span class="tag-new">NEW</span>
+                                        — We added a <a href="#">visitor poll</a> and
+                                        <a href="#">3 new MIDI songs</a> to the jukebox!!
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td-date">15. 3. 2026</td>
+                                    <td>
+                                        The chat room is BACK online after the great
+                                        <em>Server Outage of Tuesday</em>. Sorry for the
+                                        inconvenience!! E-mail Webmaster if you have issues.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td-date">10. 3. 2026</td>
+                                    <td>
+                                        New <a href="#">Cool Links</a> section added — 47 hand-picked
+                                        sites including <strong>FunnyJunk</strong>, <strong>Hampster Dance</strong>,
+                                        and the legendary <strong>Numa Numa guy</strong> page!!
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td-date">1. 3. 2026</td>
+                                    <td>
+                                        Congrats to <strong>xX_CoolDude_Xx</strong> for winning our
+                                        February caption contest!! Prize: 1 month of free dial-up credits.
+                                        <a href="#">See winning entry →</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td-date">22. 2. 2026</td>
+                                    <td>
+                                        Downloads section updated with 12 new screensavers and
+                                        the full <a href="#">Flying Toasters</a> collection!!
+                                        Requires <strong>Windows 95</strong> or higher.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <hr class="rainbow-hr-thin">
+
+                        <!-- UNDER CONSTRUCTION -->
+                        <div class="under-construction">
+                            <div class="construction-inner">
+                                <div class="construction-title">🚧 UNDER CONSTRUCTION!! 🚧</div>
+                                <div class="construction-text">
+                                    The <strong>GAMES ZONE</strong> is being totally revamped with
+                                    AWESOME new Flash games!! Check back after <strong>Friday</strong>
+                                    when Webmaster gets back from his cousin's birthday party!!
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- GUESTBOOK -->
+                        <h2 id="guestbook">📖 Guestbook</h2>
+
+                        <div class="guestbook">
+                            <div class="guestbook-entry">
+                                <span class="entry-name">StarGirl99</span>
+                                <span class="entry-date">17. 3. 2026</span>
+                                <span class="entry-loc">📍 San Diego, CA</span>
+                                <div class="entry-msg">
+                                    omg this site is SO COOL!!!! i love the MIDI music on the homepage!!!
+                                    added u to my favorites already lol :) :) keep it up!!!
+                                </div>
+                            </div>
+                            <div class="guestbook-entry">
+                                <span class="entry-name">TechWizard_42</span>
+                                <span class="entry-date">14. 3. 2026</span>
+                                <span class="entry-loc">📍 London, UK</span>
+                                <div class="entry-msg">
+                                    First!! Great site, very informative. Your animated banner on the
+                                    homepage is SICK. What program did you use?? I am using FrontPage 97.
+                                    Greetings from England!!
+                                </div>
+                            </div>
+                            <div class="guestbook-entry">
+                                <span class="entry-name">xX_Ninja_Xx</span>
+                                <span class="entry-date">9. 3. 2026</span>
+                                <span class="entry-loc">📍 Toronto, Canada</span>
+                                <div class="entry-msg">
+                                    DUDE your site ROCKS!!!! linked you from my homepage.
+                                    Can we be WEB RINGZ?? Check out my site too pleez!! :D
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SIGN GUESTBOOK FORM -->
+                        <h3>✏️ - Sign the Guestbook!!</h3>
+                        <table class="form-table">
+                            <tbody>
+                                <tr>
+                                    <td class="form-label">Name:</td>
+                                    <td><input type="text" placeholder="Your name/handle"></td>
+                                    <td class="form-label" style="padding-left:12px;">Location:</td>
+                                    <td><input type="text" placeholder="City, Country"></td>
+                                </tr>
+                                <tr>
+                                    <td class="form-label">E-Mail:</td>
+                                    <td colspan="3"><input type="text" placeholder="your@email.com (optional)"></td>
+                                </tr>
+                                <tr>
+                                    <td class="form-label" style="vertical-align:top; padding-top:5px;">Message:</td>
+                                    <td colspan="3">
+                                        <textarea placeholder="Write your message here... be nice!!"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td colspan="3" style="padding-top:4px;">
+                                        <button class="btn btn-hot" onclick="signGuestbook(event)">📨 Submit Entry!!</button>
+                                        &nbsp;
+                                        <button class="btn" onclick="clearForm(event)">🗑️ Clear Form</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <hr class="rainbow-hr">
+
+                        <!-- COOL LINKS -->
+                        <h2 id="links">🔗 Cool Links We Like!!</h2>
+                        <p>Check out these AWESOME sites!! (All links open in new window for your convenience!!)</p>
+
+                        <table class="news-table" style="font-size:12px;">
+                            <thead>
+                                <tr>
+                                    <th>Site</th>
+                                    <th>Description</th>
+                                    <th>Rating</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="#">GeoCities</a></td>
+                                    <td>The BEST free homepage host!! Make your own page today!!</td>
+                                    <td style="color:var(--hot-pink); font-weight:bold;">★★★★★</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">AltaVista</a></td>
+                                    <td>Best search engine — way better than those other ones!!</td>
+                                    <td style="color:var(--hot-pink); font-weight:bold;">★★★★★</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Ask Jeeves</a></td>
+                                    <td>Ask a question in plain English!! Totally mind-blowing tech!!</td>
+                                    <td style="color:var(--hot-pink);">★★★★☆</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">ICQ</a></td>
+                                    <td>Uh-Oh!! The ORIGINAL instant messenger. Add me: 8675309</td>
+                                    <td style="color:var(--hot-pink); font-weight:bold;">★★★★★</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Homestar Runner</a></td>
+                                    <td>funniest flash cartoons EVER made. seriously. watch strongbad emails</td>
+                                    <td style="color:var(--hot-pink); font-weight:bold;">★★★★★</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr class="rainbow-hr">
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Links</a>
+                <a href="#">Guestbook</a>
+                <a href="#">Downloads</a>
+                <a href="#">Contact Webmaster</a>
+            </div>
+
+            <div class="footer-meta">
+                ★ This page was last updated on <strong style="color:var(--yellow);">18. 3. 1995</strong> ★<br>
+                Best viewed at 800×600 with 16-bit colour in Netscape Navigator 3.0+<br>
+                This site is a member of the <a href="#" style="color:var(--lime);">CyberSurfer Web Ring</a>
+            </div>
+
+            <div class="webring">
+                <a href="#">«« Prev</a>
+                &nbsp;[&nbsp;CyberSurfer Web Ring&nbsp;]&nbsp;
+                <a href="#">Next »»</a>
+            </div>
+
+            <div class="footer-copyright">
+                © 1996 – 2026 Cyber World Online &nbsp;|&nbsp;
+                All rights reserved &nbsp;|&nbsp;
+                Webmaster: <a href="#" style="color:var(--silver);"><span class="__cf_email__" data-cfemail="eb9c8e89868a989f8e99ab8892898e999c8499878fc5858e9f">[email&#160;protected]</span></a><br>
+                <span style="color:var(--dark-gray); font-size:10px;">
+                    No part of this site may be reproduced without permission. Violators will be reported to their ISP!!
+                </span>
+            </div>
+        </footer>
+
+    </div><!-- .page-wrapper -->
+
+    <!-- STATUS BAR -->
+    <div class="status-bar">
+        <div class="status-segment" id="status-msg">Document: Done</div>
+        <div class="status-segment">🌐 Connected · 56k modem</div>
+        <div class="status-segment">Zone: Trusted Sites</div>
+        <div class="status-time" id="status-clock">00:00</div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        /* ==========================================
+           LIVE CLOCK
+        ========================================== */
+        const updateClock = () => {
+            const now = new Date();
+            const pad = n => String(n).padStart(2, "0");
+            const time = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+            const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+            const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+            const date = `${days[now.getDay()]}, ${now.getDate()}. ${months[now.getMonth()]} ${now.getFullYear()}`;
+
+            const clockEl = document.getElementById("clock-display");
+            const dateEl  = document.getElementById("date-display");
+            const statusClock = document.getElementById("status-clock");
+
+            if (clockEl) clockEl.textContent = time;
+            if (dateEl)  dateEl.textContent  = date;
+            if (statusClock) statusClock.textContent = time.slice(0, 5);
+        };
+
+        updateClock();
+        setInterval(updateClock, 1000);
+
+        /* ==========================================
+           FAKE HIT COUNTER INCREMENT
+        ========================================== */
+        const counterEl = document.getElementById("hit-counter");
+        let count = 42891;
+
+        setInterval(() => {
+            if (Math.random() < 0.15) {
+                count++;
+                if (counterEl) counterEl.textContent = String(count).padStart(7, "0");
+            }
+        }, 3000);
+
+        /* ==========================================
+           FAKE ONLINE COUNT
+        ========================================== */
+        const onlineEl = document.getElementById("online-count");
+        setInterval(() => {
+            const delta = Math.floor(Math.random() * 5) - 2;
+            const current = parseInt(onlineEl?.textContent || "14");
+            const next = Math.max(1, current + delta);
+            if (onlineEl) onlineEl.textContent = next;
+        }, 5000);
+
+        /* ==========================================
+           STATUS BAR HOVER MESSAGES
+        ========================================== */
+        const statusMsg = document.getElementById("status-msg");
+        const hoverMsgs = {
+            "btn":       "Click to navigate...",
+            "btn-hot":   "HOT LINK — Click now!!",
+            "btn-new":   "See what is new on the site!!",
+        };
+
+        document.querySelectorAll("a, button").forEach(el => {
+            el.addEventListener("mouseenter", () => {
+                if (!statusMsg) return;
+                const href = el.getAttribute("href") || "";
+                statusMsg.textContent = href ? `Go to: ${href === "#" ? "(same page)" : href}` : "Click to submit";
+            });
+            el.addEventListener("mouseleave", () => {
+                if (statusMsg) statusMsg.textContent = "Document: Done";
+            });
+        });
+
+        /* ==========================================
+           GUESTBOOK SIGN (FAKE)
+        ========================================== */
+        const signGuestbook = (e) => {
+            e.preventDefault();
+            const inputs = document.querySelectorAll(".form-table input, .form-table textarea");
+            const name = inputs[0]?.value.trim() || "Anonymous";
+            if (statusMsg) statusMsg.textContent = `✅ Thank you, ${name}!! Your entry was submitted!!`;
+            setTimeout(() => {
+                if (statusMsg) statusMsg.textContent = "Document: Done";
+            }, 4000);
+        };
+
+        const clearForm = (e) => {

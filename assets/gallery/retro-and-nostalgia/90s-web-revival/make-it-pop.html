@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~~* MAKE IT POP *~~ .:. Professional Web Design Services .:.</title>
+    <style>
+        /* =============================================
+           ROOT & RESET
+        ============================================= */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --link-blue:    #0000ff;
+            --visited:      #800080;
+            --hot-pink:     #ff00ff;
+            --lime:         #00ff00;
+            --yellow:       #ffff00;
+            --silver:       #c0c0c0;
+            --white:        #ffffff;
+            --black:        #000000;
+            --bg-dark:      #000080;
+
+            --bevel-light:  #ffffff;
+            --bevel-mid:    #c0c0c0;
+            --bevel-dark:   #808080;
+            --bevel-black:  #404040;
+        }
+
+        /* =============================================
+           BODY — tiled checkerboard background
+        ============================================= */
+        body {
+            background-color: var(--bg-dark);
+            background-image: repeating-linear-gradient(
+                45deg,
+                #000080 0px,
+                #000080 10px,
+                #000066 10px,
+                #000066 20px
+            );
+            font-family: "Courier New", Courier, monospace;
+            color: var(--white);
+            cursor: crosshair;
+
+            & a {
+                color: var(--link-blue);
+                text-decoration: underline;
+
+                &:visited { color: var(--visited); }
+                &:hover   { color: var(--hot-pink); background: var(--yellow); }
+            }
+        }
+
+        /* =============================================
+           PAGE WRAPPER — main window
+        ============================================= */
+        .page-wrapper {
+            max-width: 780px;
+            margin: 12px auto;
+            background: var(--silver);
+            border: 3px outset var(--silver);
+            color: var(--black);
+        }
+
+        /* =============================================
+           TITLE BAR — windows 98 style
+        ============================================= */
+        .title-bar {
+            background: linear-gradient(to right, #000080, #1084d0);
+            padding: 3px 6px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid var(--bevel-dark);
+
+            & .title-bar-text {
+                font-family: "Courier New", monospace;
+                font-size: 11px;
+                color: var(--white);
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+
+            & .title-bar-controls {
+                display: flex;
+                gap: 2px;
+
+                & button {
+                    width: 16px;
+                    height: 14px;
+                    background: var(--silver);
+                    border: 2px outset var(--silver);
+                    font-size: 9px;
+                    font-weight: bold;
+                    color: var(--black);
+                    cursor: pointer;
+                    font-family: "Courier New", monospace;
+                    padding: 0;
+                    line-height: 1;
+
+                    &:active { border-style: inset; }
+                }
+            }
+        }
+
+        /* =============================================
+           PAGE CONTENT INNER
+        ============================================= */
+        .page-content {
+            background: var(--white);
+            border: 3px inset var(--silver);
+            margin: 4px;
+            padding: 0;
+        }
+
+        /* =============================================
+           MARQUEE BANNER
+        ============================================= */
+        .marquee-banner {
+            background: var(--black);
+            color: var(--lime);
+            font-family: "Courier New", monospace;
+            font-size: 13px;
+            padding: 4px 0;
+            border-top: 2px solid var(--lime);
+            border-bottom: 2px solid var(--lime);
+            overflow: hidden;
+            white-space: nowrap;
+
+            & span {
+                display: inline-block;
+                animation: marquee-scroll 22s linear infinite;
+                padding-left: 100%;
+            }
+        }
+
+        @keyframes marquee-scroll {
+            from { transform: translateX(0); }
+            to   { transform: translateX(-100%); }
+        }
+
+        /* =============================================
+           HERO — the main atrocity
+        ============================================= */
+        .hero {
+            background-color: var(--hot-pink);
+            background-image: repeating-linear-gradient(
+                45deg,
+                #ff00ff 0px,
+                #ff00ff 5px,
+                #00ff00 5px,
+                #00ff00 10px
+            );
+            padding: 24px 16px;
+            text-align: center;
+            border: 3px outset var(--silver);
+
+            & .hero-inner {
+                background: var(--white);
+                border: 3px inset var(--silver);
+                padding: 16px;
+                display: inline-block;
+                max-width: 90%;
+            }
+
+            & h1 {
+                font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+                font-size: 32px;
+                color: var(--hot-pink);
+                text-shadow:
+                    2px 2px 0 var(--black),
+                    -1px -1px 0 var(--lime);
+                letter-spacing: 2px;
+                line-height: 1.2;
+                margin-bottom: 8px;
+            }
+
+            & .blink {
+                display: inline-block;
+                animation: blink 1s step-end infinite;
+                color: var(--link-blue);
+                font-family: "Comic Sans MS", cursive;
+                font-size: 14px;
+            }
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50%       { opacity: 0; }
+        }
+
+        /* =============================================
+           RAINBOW HR
+        ============================================= */
+        .rainbow-hr {
+            height: 6px;
+            border: none;
+            background: linear-gradient(
+                to right,
+                #ff0000, #ff7700, #ffff00, #00ff00,
+                #0000ff, #8b00ff, #ff00ff
+            );
+            margin: 0;
+        }
+
+        .rainbow-hr-thin {
+            height: 3px;
+            border: none;
+            background: linear-gradient(
+                to right,
+                #ff0000, #ff7700, #ffff00, #00ff00,
+                #0000ff, #8b00ff, #ff00ff
+            );
+            margin: 8px 0;
+        }
+
+        /* =============================================
+           MAIN LAYOUT — old-school table-cell feel
+        ============================================= */
+        .main-layout {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+
+            & .sidebar {
+                display: table-cell;
+                width: 160px;
+                background: var(--silver);
+                border-right: 3px outset var(--silver);
+                vertical-align: top;
+                padding: 8px;
+            }
+
+            & .main-col {
+                display: table-cell;
+                background: var(--white);
+                vertical-align: top;
+                padding: 12px;
+            }
+        }
+
+        /* =============================================
+           SIDEBAR COMPONENTS
+        ============================================= */
+        .nav-box {
+            background: var(--bg-dark);
+            border: 3px outset var(--silver);
+            margin-bottom: 10px;
+            padding: 4px;
+
+            & .nav-title {
+                background: linear-gradient(to right, #000080, #1084d0);
+                color: var(--white);
+                font-family: "Courier New", monospace;
+                font-size: 11px;
+                font-weight: bold;
+                padding: 2px 6px;
+                margin-bottom: 4px;
+                letter-spacing: 1px;
+            }
+
+            & ul {
+                list-style: none;
+                padding: 2px;
+
+                & li {
+                    border-bottom: 1px dotted var(--silver);
+                    padding: 2px 0;
+
+                    &:last-child { border-bottom: none; }
+
+                    & a {
+                        color: var(--lime);
+                        font-size: 11px;
+                        text-decoration: none;
+                        font-family: "Courier New", monospace;
+
+                        &:hover {
+                            color: var(--yellow);
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+        }
+
+        .hit-counter {
+            background: var(--black);
+            border: 3px inset var(--silver);
+            padding: 6px;
+            text-align: center;
+            margin-bottom: 10px;
+
+            & .counter-label {
+                color: var(--silver);
+                font-size: 9px;
+                font-family: "Courier New", monospace;
+                display: block;
+                margin-bottom: 3px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+
+            & .counter-digits {
+                display: inline-flex;
+                gap: 1px;
+
+                & span {
+                    background: var(--black);
+                    color: var(--lime);
+                    font-family: "Courier New", monospace;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding: 2px 4px;
+                    border: 1px inset #003300;
+                    min-width: 18px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .under-construction {
+            background: repeating-linear-gradient(
+                45deg,
+                #ffff00 0px,
+                #ffff00 8px,
+                #000000 8px,
+                #000000 16px
+            );
+            border: 3px outset var(--silver);
+            padding: 6px 4px;
+            text-align: center;
+            margin-bottom: 10px;
+
+            & .uc-inner {
+                background: var(--silver);
+                border: 2px inset var(--bevel-dark);
+                padding: 4px;
+
+                & p {
+                    font-size: 9px;
+                    font-family: "Courier New", monospace;
+                    font-weight: bold;
+                    color: var(--black);
+                    line-height: 1.4;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+
+        .guestbook-badge {
+            background: var(--white);
+            border: 3px outset var(--silver);
+            padding: 4px 6px;
+            text-align: center;
+            margin-bottom: 10px;
+
+            & p {
+                font-family: "Courier New", monospace;
+                font-size: 9px;
+                color: var(--black);
+                line-height: 1.5;
+
+                & a {
+                    color: var(--link-blue);
+                    font-weight: bold;
+                }
+            }
+
+            & .badge-icon {
+                font-size: 18px;
+                display: block;
+                margin-bottom: 2px;
+            }
+        }
+
+        /* =============================================
+           MAIN CONTENT
+        ============================================= */
+        .section-heading {
+            font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+            font-size: 20px;
+            color: var(--bg-dark);
+            background: var(--silver);
+            border: 3px outset var(--silver);
+            padding: 4px 10px;
+            margin: 0 0 10px 0;
+            letter-spacing: 1px;
+
+            &.pink   { color: var(--hot-pink); }
+            &.lime   { color: #007700; }
+            &.yellow { background: var(--yellow); color: var(--black); }
+        }
+
+        .content-body {
+            font-family: "Courier New", monospace;
+            font-size: 12px;
+            color: var(--black);
+            line-height: 1.6;
+            margin-bottom: 12px;
+
+            & strong {
+                color: var(--bg-dark);
+                font-weight: bold;
+            }
+
+            & .highlight {
+                background: var(--yellow);
+                color: var(--black);
+                padding: 0 2px;
+                font-weight: bold;
+            }
+        }
+
+        /* Centered blinking announcement */
+        .announcement {
+            background: var(--black);
+            border: 3px outset var(--silver);
+            padding: 10px;
+            text-align: center;
+            margin: 12px 0;
+
+            & p {
+                font-family: "Comic Sans MS", cursive;
+                font-size: 14px;
+                color: var(--yellow);
+                animation: blink 1.4s step-end infinite;
+                letter-spacing: 2px;
+            }
+        }
+
+        /* =============================================
+           THE CENTERPIECE TABLE — services
+        ============================================= */
+        .services-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px outset var(--silver);
+            margin: 12px 0;
+            font-family: "Courier New", monospace;
+            font-size: 11px;
+
+            & caption {
+                font-family: "Comic Sans MS", cursive;
+                font-size: 14px;
+                font-weight: bold;
+                background: var(--bg-dark);
+                color: var(--yellow);
+                padding: 4px 8px;
+                border: 3px outset var(--silver);
+                text-align: left;
+                letter-spacing: 1px;
+            }
+
+            & thead tr th {
+                background: linear-gradient(to bottom, #c0c0c0, #808080);
+                color: var(--black);
+                border: 2px outset var(--silver);
+                padding: 5px 8px;
+                text-align: left;
+                font-weight: bold;
+                font-family: "Courier New", monospace;
+                font-size: 11px;
+                white-space: nowrap;
+            }
+
+            & tbody {
+                & tr {
+                    &:nth-child(odd)  td { background: #ffffcc; }
+                    &:nth-child(even) td { background: #ccffff; }
+
+                    & td {
+                        border: 2px inset var(--silver);
+                        padding: 4px 8px;
+                        vertical-align: top;
+                        color: var(--black);
+
+                        &.price {
+                            color: var(--bg-dark);
+                            font-weight: bold;
+                            white-space: nowrap;
+                            text-align: right;
+                        }
+
+                        &.wow {
+                            color: #cc0000;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* =============================================
+           3D BEVELED BUTTONS
+        ============================================= */
+        .btn-row {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin: 12px 0;
+        }
+
+        .btn-95 {
+            background: var(--silver);
+            border: 3px outset var(--silver);
+            padding: 5px 14px;
+            font-family: "Courier New", monospace;
+            font-size: 12px;
+            font-weight: bold;
+            color: var(--black);
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: border-style 0.1s;
+            text-decoration: none;
+            display: inline-block;
+
+            &:active {
+                border-style: inset;
+                padding: 6px 13px 4px 15px;
+            }
+
+            &.btn-pop {
+                background: var(--hot-pink);
+                color: var(--lime);
+                border-color: var(--hot-pink);
+                text-shadow: 1px 1px 0 var(--black);
+            }
+
+            &.btn-yellow {
+                background: var(--yellow);
+                color: var(--black);
+                border-color: var(--yellow);
+            }
+
+            &.btn-blue {
+                background: var(--bg-dark);
+                color: var(--white);
+                border-color: var(--bg-dark);
+            }
+        }
+
+        /* =============================================
+           QUOTE / TESTIMONY BOX
+        ============================================= */
+        .quote-box {
+            background: repeating-linear-gradient(
+                0deg,
+                #ffffff 0px,
+                #ffffff 18px,
+                #e0e0ff 18px,
+                #e0e0ff 19px
+            );
+            border: 3px inset var(--silver);
+            padding: 10px 14px;
+            margin: 12px 0;
+            position: relative;
+
+            & blockquote {
+                font-family: "Courier New", monospace;
+                font-size: 13px;
+                font-style: italic;
+                color: var(--black);
+                line-height: 1.7;
+                border-left: 4px solid var(--hot-pink);
+                padding-left: 10px;
+                margin-bottom: 6px;
+
+                & .pop {
+                    color: var(--hot-pink);
+                    font-weight: bold;
+                    font-size: 15px;
+                    animation: blink 0.8s step-end infinite;
+                }
+            }
+
+            & cite {
+                font-family: "Courier New", monospace;
+                font-size: 10px;
+                color: var(--visited);
+                display: block;
+                text-align: right;
+
+                &::before { content: "— "; }
+            }
+        }
+
+        /* =============================================
+           THE MAIN SARCASTIC SECTION
+        ============================================= */
+        .pop-showcase {
+            background-color: var(--lime);
+            background-image: repeating-linear-gradient(
+                90deg,
+                rgba(255,255,255,0.15) 0px,
+                rgba(255,255,255,0.15) 2px,
+                transparent 2px,
+                transparent 20px
+            );
+            border: 3px outset var(--silver);
+            padding: 16px;
+            margin: 12px 0;
+
+            & .pop-inner {
+                background: var(--hot-pink);
+                border: 3px outset var(--silver);
+                padding: 12px;
+                text-align: center;
+
+                & h2 {
+                    font-family: "Comic Sans MS", cursive;
+                    font-size: 26px;
+                    color: var(--lime);
+                    text-shadow: 3px 3px 0 var(--black), -2px -2px 0 var(--yellow);
+                    letter-spacing: 3px;
+                    margin-bottom: 8px;
+                    animation: rainbow-text 2s linear infinite;
+                }
+
+                & p {
+                    font-family: "Courier New", monospace;
+                    font-size: 12px;
+                    color: var(--yellow);
+                    background: var(--black);
+                    border: 2px inset var(--silver);
+                    padding: 6px;
+                    margin-top: 8px;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        @keyframes rainbow-text {
+            0%   { color: #ff0000; }
+            14%  { color: #ff7700; }
+            28%  { color: #ffff00; }
+            42%  { color: #00ff00; }
+            57%  { color: #0000ff; }
+            71%  { color: #8b00ff; }
+            85%  { color: #ff00ff; }
+            100% { color: #ff0000; }
+        }
+
+        /* =============================================
+           FOOTER
+        ============================================= */
+        .footer {
+            background: var(--silver);
+            border-top: 3px outset var(--silver);
+            padding: 8px 12px;
+            text-align: center;
+
+            & .footer-inner {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            & .best-in {
+                background: var(--white);
+                border: 3px outset var(--silver);
+                padding: 3px 8px;
+                font-family: "Courier New", monospace;
+                font-size: 9px;
+                color: var(--black);
+                text-align: center;
+                line-height: 1.5;
+
+                & strong { color: var(--link-blue); }
+            }
+
+            & .footer-copy {
+                font-family: "Courier New", monospace;
+                font-size: 10px;
+                color: var(--black);
+                line-height: 1.6;
+
+                & a { color: var(--link-blue); }
+            }
+
+            & .webring {
+                background: var(--black);
+                border: 2px outset var(--silver);
+                padding: 3px 8px;
+                font-family: "Courier New", monospace;
+                font-size: 9px;
+                color: var(--lime);
+                line-height: 1.5;
+                text-align: center;
+            }
+        }
+
+        /* =============================================
+           STATUS BAR
+        ============================================= */
+        .status-bar {
+            background: var(--silver);
+            border-top: 2px inset var(--bevel-dark);
+            padding: 2px 6px;
+            font-family: "Courier New", monospace;
+            font-size: 10px;
+            color: var(--black);
+            display: flex;
+            gap: 0;
+
+            & span {
+                border: 1px inset var(--bevel-dark);
+                padding: 1px 8px;
+
+                &:first-child { flex: 1; }
+            }
+        }
+
+        /* =============================================
+           SPINNING ICON PLACEHOLDER (CSS only)
+        ============================================= */
+        .spin-star {
+            display: inline-block;
+            animation: spin 3s linear infinite;
+            font-size: 14px;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to   { transform: rotate(360deg); }
+        }
+
+        /* =============================================
+           DIVIDER BADGE ROW
+        ============================================= */
+        .badge-row {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+            margin: 10px 0;
+
+            & .badge {
+                background: var(--silver);
+                border: 2px outset var(--silver);
+                font-family: "Courier New", monospace;
+                font-size: 9px;
+                color: var(--black);
+                padding: 2px 6px;
+                font-weight: bold;
+                white-space: nowrap;
+
+                &.badge-blue  { background: var(--bg-dark); color: var(--white); }
+                &.badge-pink  { background: var(--hot-pink); color: var(--black); }
+                &.badge-lime  { background: var(--lime); color: var(--black); }
+                &.badge-black { background: var(--black); color: var(--lime); }
+            }
+        }
+
+        /* =============================================
+           MEDIA QUERIES — absolutely raw breakpoints
+        ============================================= */
+        @media (max-width: 600px) {
+            .main-layout {
+                display: block;
+
+                & .sidebar,
+                & .main-col {
+                    display: block;
+                    width: 100%;
+                    border-right: none;
+                    border-bottom: 3px outset var(--silver);
+                }
+            }
+
+            .footer .footer-inner {
+                flex-direction: column;
+                align-items: stretch;
+
+                & > * { text-align: center; }
+            }
+
+            .hero h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <!-- TITLE BAR -->
+        <div class="title-bar">
+            <span class="title-bar-text">
+                ★ MAKE IT POP! Professional Design Co. - Microsoft Internet Explorer
+            </span>
+            <div class="title-bar-controls">
+                <button title="Minimize">_</button>
+                <button title="Maximize">□</button>
+                <button title="Close">X</button>
+            </div>
+        </div>
+
+        <!-- MARQUEE -->
+        <div class="marquee-banner">
+            <span>
+                ★★★ WELCOME TO THE HOTTEST WEB DESIGN PAGE ON THE INTERNET ★★★ &nbsp;&nbsp;&nbsp;
+                ✦ UNDER CONSTRUCTION - BEST VIEWED IN NETSCAPE 4.0 AT 800×600 ✦ &nbsp;&nbsp;&nbsp;
+                ✦ #ff00ff ON #00ff00 - THE PINNACLE OF HUMAN ACHIEVEMENT ✦ &nbsp;&nbsp;&nbsp;
+                ★ LAST UPDATED: 3. 18. 1999 ★ &nbsp;&nbsp;&nbsp;
+                ✦ FREE WEB COUNTER POWERED BY GEOHITS™ ✦ &nbsp;&nbsp;&nbsp;
+                ★★★ CLICK HERE TO WIN A FREE iPOD!!! ★★★ &nbsp;&nbsp;&nbsp;
+            </span>
+        </div>
+
+        <div class="page-content">
+
+            <!-- HERO -->
+            <div class="hero">
+                <div class="hero-inner">
+                    <h1>~~* MAKE IT POP!! *~~</h1>
+                    <p class="blink">
+                        *** PROFESSIONAL WEB DESIGN SERVICES ***
+                    </p>
+                    <p class="blink" style="animation-delay:.5s; font-family:'Courier New',monospace; font-size:11px; color:#800080; margin-top:4px;">
+                        Est. 1997 &nbsp;|&nbsp; Over 4 satisfied clients!
+                    </p>
+                </div>
+            </div>
+
+            <hr class="rainbow-hr">
+
+            <!-- MAIN LAYOUT -->
+            <div class="main-layout">
+
+                <!-- SIDEBAR -->
+                <div class="sidebar">
+
+                    <div class="hit-counter">
+                        <span class="counter-label">YOU ARE VISITOR #</span>
+                        <div class="counter-digits" id="counter">
+                            <!-- filled by JS -->
+                        </div>
+                        <div style="margin-top:4px; font-size:9px; color:#00ff00; font-family:'Courier New',monospace;">
+                            since jan 1997
+                        </div>
+                    </div>
+
+                    <div class="nav-box">
+                        <div class="nav-title">&gt; NAVIGATION</div>
+                        <ul>
+                            <li><a href="#">» Home Page!!</a></li>
+                            <li><a href="#">» About Me</a></li>
+                            <li><a href="#">» My Designs</a></li>
+                            <li><a href="#">» Guestbook</a></li>
+                            <li><a href="#">» Links!!</a></li>
+                            <li><a href="#">» Email Me</a></li>
+                            <li><a href="#">» Awards Won</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="under-construction">
+                        <div class="uc-inner">
+                            <p>
+                                ⚠ UNDER<br>
+                                CONSTRUCTION<br>
+                                PLEASE WAIT
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="guestbook-badge">
+                        <span class="badge-icon">📖</span>
+                        <p>
+                            <a href="#">Sign my<br>GUESTBOOK!</a><br>
+                            <span style="font-size:8px; color:#808080;">Last entry: never</span>
+                        </p>
+                    </div>
+
+                    <div class="nav-box" style="background:#330033;">
+                        <div class="nav-title" style="background: linear-gradient(to right, #800080, #ff00ff);">
+                            &gt; AWARDS
+                        </div>
+                        <div style="text-align:center; padding:4px;">
+                            <div style="background:#ffff00; border:2px outset #c0c0c0; padding:4px; font-size:9px; font-family:'Courier New',monospace; color:#000; margin-bottom:4px; font-weight:bold;">
+                                ★ COOL SITE<br>OF THE DAY ★<br>
+                                <span style="font-size:8px; color:#808080;">Tuesday, probably</span>
+                            </div>
+                            <div style="background:#ff00ff; border:2px outset #c0c0c0; padding:4px; font-size:9px; font-family:'Courier New',monospace; color:#000; font-weight:bold;">
+                                5/5 STARS!<br>★★★★★<br>
+                                <span style="font-size:8px; color:#000066;">Self-awarded 1998</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /SIDEBAR -->
+
+                <!-- MAIN COLUMN -->
+                <div class="main-col">
+
+                    <h2 class="section-heading pink">
+                        <span class="spin-star">✦</span>
+                        Welcome to My Page!!
+                        <span class="spin-star">✦</span>
+                    </h2>
+
+                    <p class="content-body">
+                        Greetings, fellow <strong>INTERNET TRAVELLER!!</strong>
+                        You have found the <span class="highlight">MOST PROFESSIONAL</span>
+                        web design service this side of the World Wide Web.
+                        We specialize in making your corporate presence
+                        <strong>TRULY POP</strong> — as requested by your client,
+                        who has said the words
+                        <span class="highlight">"make it pop"</span> exactly
+                        <strong>47 times</strong> in the last calendar year.
+                    </p>
+
+                    <div class="announcement">
+                        <p>*** NEW!! NOW ACCEPTING PAYPAL AND E-GOLD ***</p>
+                    </div>
+
+                    <hr class="rainbow-hr-thin">
+
+                    <!-- THE SARCASTIC SHOWCASE -->
+                    <div class="pop-showcase">
+                        <div class="pop-inner">
+                            <h2>IT HAS BEEN POPPED.</h2>
+                            <p>
+                                When your client says <strong style="color:#ff00ff">"make it pop"</strong>
+                                for the 47th time — nothing pops quite like #ff00ff on #00ff00
+                                with a beveled border. They asked for it. They got it.
+                                Meeting adjourned.
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr class="rainbow-hr-thin">
+
+                    <h2 class="section-heading yellow">
+                        ★ Our Premium Services ★
+                    </h2>
+
+                    <!-- SERVICES TABLE -->
+                    <table class="services-table">
+                        <caption>
+                            &gt;&gt; PROFESSIONAL INTERNET DESIGN PACKAGES 1999 &lt;&lt;
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th>Package</th>
+                                <th>Features</th>
+                                <th>Pop Level</th>
+                                <th class="price">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>STARTER</strong><br>
+                                    <span style="font-size:10px;">Geocities Tier</span>
+                                </td>
+                                <td>
+                                    5 pages, 1 marquee,<br>
+                                    1 animated GIF,<br>
+                                    under construction badge
+                                </td>
+                                <td class="wow">MILD POP</td>
+                                <td class="price">$49.99</td>
+                            </tr>
+                            <tr>
+                                <td><strong>PROFESSIONAL</strong><br>
+                                    <span style="font-size:10px;">Angelfire Tier</span>
+                                </td>
+                                <td>
+                                    10 pages, unlimited marquees,<br>
+                                    guestbook, hit counter,<br>
+                                    Comic Sans headings
+                                </td>
+                                <td class="wow">SERIOUS POP</td>
+                                <td class="price">$149.99</td>
+                            </tr>
+                            <tr>
+                                <td><strong>ENTERPRISE</strong><br>
+                                    <span style="font-size:10px;">Tripod Gold Tier</span>
+                                </td>
+                                <td>
+                                    UNLIMITED pages,<br>
+                                    #ff00ff on #00ff00,<br>
+                                    blinking text EVERYWHERE,<br>
+                                    auto-play MIDI music
+                                </td>
+                                <td class="wow" style="color:#ff00ff; animation: blink 1s step-end infinite;">MAXIMUM POP!!</td>
+                                <td class="price" style="color:#ff0000;">$999.99<br><span style="font-size:9px;">(worth it)</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="btn-row">
+                        <button class="btn-95 btn-pop" onclick="alert('ORDER PLACED!! Please allow 6–8 weeks.')">
+                            ORDER NOW!!
+                        </button>
+                        <button class="btn-95 btn-yellow" onclick="alert('Email: webmaster@makeitpop.net')">
+                            CONTACT US
+                        </button>
+                        <button class="btn-95 btn-blue" onclick="alert('404 Not Found')">
+                            PORTFOLIO
+                        </button>
+                        <button class="btn-95" onclick="alert('Guestbook FULL (max 2 entries)')">
+                            GUESTBOOK
+                        </button>
+                    </div>
+
+                    <hr class="rainbow-hr-thin">
+
+                    <h2 class="section-heading lime">
+                        ✉ Client Testimonials
+                    </h2>
+
+                    <div class="quote-box">
+                        <blockquote>
+                            "We told them to make it pop. We said it
+                            <span class="pop">47 TIMES.</span>
+                            They delivered. My retinas have not recovered.
+                            The client loved it. We got a raise. I quit the next day.
+                            10 out of 10 — would make it pop again."
+                        </blockquote>
+                        <cite>— Senior Art Director, BigCorp Global™, 1998</cite>
+                    </div>
+
+                    <div class="quote-box" style="margin-top:-4px;">
+                        <blockquote>
+                            "I asked for something clean and modern.
+                            I received hot pink on lime green with a beveled border.
+                            I am no longer employed. The website, however,
+                            is doing <strong>incredible numbers.</strong>"
+                        </blockquote>
+                        <cite>— Former Brand Manager, StartupCo, 1999</cite>
+                    </div>
+
+                    <hr class="rainbow-hr-thin">
+
+                    <div class="badge-row">
+                        <span class="badge badge-blue">NETSCAPE 4.0</span>
+                        <span class="badge badge-pink">IE 5.0 COMPAT</span>
+                        <span class="badge">HTML 3.2</span>
+                        <span class="badge badge-lime">NO JAVA</span>
+                        <span class="badge badge-black">640×480 OK</span>
+                        <span class="badge">NO COOKIES</span>
+                        <span class="badge badge-pink">Y2K READY!!</span>
+                        <span class="badge badge-blue">BEST VIEWED SQUINTING</span>
+                    </div>
+
+                </div>
+                <!-- /MAIN COLUMN -->
+
+            </div>
+            <!-- /MAIN LAYOUT -->
+
+            <hr class="rainbow-hr">
+
+            <!-- FOOTER -->
+            <div class="footer">
+                <div class="footer-inner">
+                    <div class="best-in">
+                        <strong>BEST VIEWED IN</strong><br>
+                        Netscape Navigator 4.0<br>
+                        800×600 resolution<br>
+                        <span style="font-size:8px; color:#808080;">or larger, probably</span>
+                    </div>
+
+                    <div class="footer-copy">
+                        © 1997–1999 MAKE IT POP! Design Co.<br>
+                        All Rights Reserved. Probably.<br>
+                        <a href="#">webmaster@makeitpop.net</a><br>
+                        <span style="font-size:9px; color:#808080;">
+                            This page last updated 3. 18. 1999<br>
+                            Free counter provided by HitCounter.exe™
+                        </span>
+                    </div>
+
+                    <div class="webring">
+                        ← PREV<br>
+                        [WEB DESIGN<br>
+                        WEBRING]<br>
+                        NEXT →<br>
+                        <span style="font-size:8px; color:#c0c0c0;">Member #4712</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STATUS BAR -->
+            <div class="status-bar">
+                <span id="status-text">Document: Done</span>
+                <span>zone: Internet</span>
+            </div>
+
+        </div>
+        <!-- /PAGE CONTENT -->
+
+    </div>
+    <!-- /PAGE WRAPPER -->
+
+    <script>
+        // HIT COUNTER
+        const randomHits = () => {
+            const base = 4712847;
+            return (base + Math.floor(Math.random() * 999)).toString().padStart(7, '0');
+        };
+
+        const counter = document.getElementById('counter');
+        const digits = randomHits().split('');
+        counter.innerHTML = digits
+            .map(d => `<span>${d}</span>`)
+            .join('');
+
+        // STATUS BAR messages cycling
+        const statusMessages = [
+            'Document: Done',
+            'Connecting to makeitpop.net...',
+            'Loading animated_under_construction.gif...',
+            'This page best viewed in 800×600',
+            'Error: MIDI plugin not found',
+            'Transferring data from geocities.com...',
+            'Y2K compliance: UNKNOWN',
+            'Rendering table cells...',
+            'Document: Done',
+        ];
+        let si = 0;
+        const statusEl = document.getElementById('status-text');
+        setInterval(() => {
+            si = (si + 1) % statusMessages.length;
+            statusEl.textContent = statusMessages[si];
+        }, 3000);
+    </script>
+
+</body>
+</html>

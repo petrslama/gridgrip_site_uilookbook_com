@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VoidCast — Broadcast from the Digital Void</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+	<style>
+		:root {
+			--magenta:    #ff2d95;
+			--cyan:       #00f0ff;
+			--purple:     #b026ff;
+			--orange:     #ff6a00;
+			--void:       #120025;
+			--void-mid:   #1a0033;
+			--void-light: #220042;
+			--text:       #f2e4ff;
+			--text-dim:   rgba(242, 228, 255, 0.55);
+			--glow-mag:   rgba(255, 45, 149, 0.6);
+			--glow-cyn:   rgba(0, 240, 255, 0.6);
+			--glow-pur:   rgba(176, 38, 255, 0.5);
+			--glow-org:   rgba(255, 106, 0, 0.6);
+		}
+
+		*, *::before, *::after {
+			box-sizing: border-box;
+			margin:     0;
+			padding:    0;
+		}
+
+		html { scroll-behavior: smooth; }
+
+		body {
+			background-color: var(--void);
+			color:            var(--text);
+			font-family:      'Exo 2', sans-serif;
+			overflow-x:       hidden;
+			line-height:      1.6;
+		}
+
+		/* CRT scanlines */
+		body::after {
+			content:        '';
+			position:       fixed;
+			inset:          0;
+			background:     repeating-linear-gradient(
+				0deg,
+				transparent,
+				transparent 2px,
+				rgba(0, 0, 0, 0.13) 2px,
+				rgba(0, 0, 0, 0.13) 4px
+			);
+			pointer-events: none;
+			z-index:        9999;
+		}
+
+		::-webkit-scrollbar       { width: 4px; }
+		::-webkit-scrollbar-track { background: var(--void); }
+		::-webkit-scrollbar-thumb { background: var(--purple); box-shadow: 0 0 10px var(--purple); }
+
+		/* ── Keyframes ───────────────────────────────────── */
+		@keyframes flicker {
+			0%, 93%, 95%, 97%, 100% { opacity: 1; }
+			94%                     { opacity: 0.72; }
+			96%                     { opacity: 0.88; }
+			98%                     { opacity: 0.55; }
+		}
+
+		@keyframes grid-scroll {
+			from { background-position: center 0; }
+			to   { background-position: center 120px; }
+		}
+
+		@keyframes live-pulse {
+			0%, 100% { opacity: 1; box-shadow: 0 0 6px var(--orange); }
+			50%      { opacity: 0.2; box-shadow: none; }
+		}
+
+		@keyframes fade-up {
+			from { opacity: 0; transform: translateY(28px); }
+			to   { opacity: 1; transform: translateY(0); }
+		}
+
+		@keyframes sun-breathe {
+			0%, 100% { box-shadow: 0 0 80px rgba(255, 45, 149, 0.4), 0 0 180px rgba(176, 38, 255, 0.22); }
+			50%      { box-shadow: 0 0 130px rgba(255, 45, 149, 0.65), 0 0 260px rgba(176, 38, 255, 0.38); }
+		}
+
+		@keyframes ticker-slide {
+			from { transform: translateX(0); }
+			to   { transform: translateX(-50%); }
+		}
+
+		/* ── Navigation ──────────────────────────────────── */
+		.nav {
+			position:        fixed;
+			top:             0;
+			left:            0;
+			right:           0;
+			z-index:         500;
+			display:         flex;
+			align-items:     center;
+			justify-content: space-between;
+			padding:         1.1rem 4rem;
+			background:      linear-gradient(180deg, rgba(18, 0, 37, 0.97) 0%, rgba(18, 0, 37, 0) 100%);
+
+			.nav-logo {
+				font-family:     'Orbitron', sans-serif;
+				font-weight:     900;
+				font-size:       1.5rem;
+				letter-spacing:  0.2em;
+				text-transform:  uppercase;
+				text-decoration: none;
+				animation:       flicker 9s infinite 3s;
+
+				.v { color: var(--magenta); text-shadow: 0 0 20px var(--glow-mag), 0 0 50px rgba(255, 45, 149, 0.3); }
+				.c { color: var(--cyan);    text-shadow: 0 0 20px var(--glow-cyn), 0 0 50px rgba(0, 240, 255, 0.3); }
+			}
+
+			.nav-links {
+				display:    flex;
+				gap:        2.5rem;
+				list-style: none;
+
+				a {
+					font-family:     'Orbitron', sans-serif;
+					font-size:       0.6rem;
+					letter-spacing:  0.28em;
+					text-transform:  uppercase;
+					color:           var(--text-dim);
+					text-decoration: none;
+					transition:      color 0.3s, text-shadow 0.3s;
+
+					&:hover {
+						color:       var(--cyan);
+						text-shadow: 0 0 14px var(--glow-cyn);
+					}
+				}
+			}
+
+			.nav-right {
+				display:     flex;
+				align-items: center;
+				gap:         1.25rem;
+
+				.live-badge {
+					display:        flex;
+					align-items:    center;
+					gap:            0.45rem;
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.55rem;
+					letter-spacing: 0.25em;
+					text-transform: uppercase;
+					color:          var(--orange);
+					text-shadow:    0 0 12px var(--glow-org);
+
+					.live-dot {
+						width:         7px;
+						height:        7px;
+						border-radius: 50%;
+						background:    var(--orange);
+						box-shadow:    0 0 8px var(--orange);
+						animation:     live-pulse 1.4s ease-in-out infinite;
+					}
+				}
+			}
+		}
+
+		/* ── Buttons ─────────────────────────────────────── */
+		.btn {
+			font-family:     'Orbitron', sans-serif;
+			font-size:       0.62rem;
+			font-weight:     700;
+			letter-spacing:  0.25em;
+			text-transform:  uppercase;
+			border:          none;
+			padding:         0.85rem 2rem;
+			cursor:          pointer;
+			text-decoration: none;
+			display:         inline-flex;
+			align-items:     center;
+			gap:             0.5rem;
+			transition:      transform 0.3s, box-shadow 0.3s;
+			clip-path:       polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+			white-space:     nowrap;
+
+			i { width: 15px; height: 15px; }
+
+			&:hover { transform: translateY(-3px); }
+
+			&--primary {
+				color:      #fff;
+				background: linear-gradient(135deg, var(--magenta) 0%, var(--purple) 100%);
+				box-shadow: 0 0 25px var(--glow-mag), 0 0 55px rgba(176, 38, 255, 0.22);
+
+				&:hover { box-shadow: 0 0 40px var(--glow-mag), 0 0 80px rgba(176, 38, 255, 0.4); }
+			}
+
+			&--outline {
+				color:      var(--cyan);
+				background: rgba(0, 240, 255, 0.05);
+				border:     1px solid var(--cyan);
+				box-shadow: 0 0 15px rgba(0, 240, 255, 0.2), inset 0 0 15px rgba(0, 240, 255, 0.04);
+				clip-path:  none;
+
+				&:hover {
+					background: rgba(0, 240, 255, 0.1);
+					box-shadow: 0 0 28px rgba(0, 240, 255, 0.5), inset 0 0 25px rgba(0, 240, 255, 0.08);
+				}
+			}
+
+			&--ghost {
+				color:      var(--text-dim);
+				background: transparent;
+				border:     1px solid rgba(176, 38, 255, 0.3);
+				clip-path:  none;
+				font-size:  0.55rem;
+
+				&:hover {
+					color:        var(--text);
+					border-color: var(--purple);
+					box-shadow:   0 0 15px var(--glow-pur);
+				}
+			}
+		}
+
+		/* ── Hero ────────────────────────────────────────── */
+		.hero {
+			position:        relative;
+			height:          100vh;
+			min-height:      700px;
+			overflow:        hidden;
+			display:         flex;
+			align-items:     center;
+			justify-content: center;
+		}
+
+		.hero-ambient {
+			position:   absolute;
+			inset:      0;
+			background: radial-gradient(
+				ellipse 90% 55% at 50% 15%,
+				rgba(176, 38, 255, 0.12) 0%,
+				rgba(18, 0, 37, 0) 70%
+			);
+		}
+
+		.hero-sun {
+			position:      absolute;
+			bottom:        39%;
+			left:          50%;
+			transform:     translateX(-50%);
+			width:         min(580px, 82vw);
+			height:        min(580px, 82vw);
+			border-radius: 50%;
+			background:    linear-gradient(
+				180deg,
+				#ffcc00 0%,
+				#ff6a00 12%,
+				#ff4500 22%,
+				#ff2d95 42%,
+				#c020b0 58%,
+				#b026ff 72%,
+				#5800cc 85%,
+				#120025 100%
+			);
+			mask:      repeating-linear-gradient(
+				180deg,
+				black 0px, black 10px,
+				transparent 10px, transparent 15px
+			);
+			animation: sun-breathe 4s ease-in-out infinite;
+			z-index:   1;
+		}
+
+		.hero-horizon {
+			position:   absolute;
+			bottom:     39%;
+			left:       0;
+			right:      0;
+			height:     2px;
+			background: linear-gradient(90deg, transparent 0%, var(--cyan) 30%, var(--magenta) 50%, var(--cyan) 70%, transparent 100%);
+			box-shadow: 0 0 25px var(--glow-cyn), 0 -10px 40px rgba(0, 240, 255, 0.14);
+			z-index:    3;
+		}
+
+		.hero-floor {
+			position: absolute;
+			bottom:   0;
+			left:     0;
+			right:    0;
+			height:   41%;
+			z-index:  2;
+			overflow: hidden;
+
+			&::before {
+				content:          '';
+				position:         absolute;
+				top:              -30%;
+				left:             -60%;
+				right:            -60%;
+				height:           160%;
+				background:
+					repeating-linear-gradient(
+						90deg,
+						rgba(176, 38, 255, 0.55) 0px, rgba(176, 38, 255, 0.55) 1px,
+						transparent 1px, transparent 60px
+					),
+					repeating-linear-gradient(
+						0deg,
+						rgba(176, 38, 255, 0.45) 0px, rgba(176, 38, 255, 0.45) 1px,
+						transparent 1px, transparent 20px
+					);
+				transform:        perspective(280px) rotateX(58deg);
+				transform-origin: top center;
+				animation:        grid-scroll 2.8s linear infinite;
+			}
+
+			&::after {
+				content:    '';
+				position:   absolute;
+				bottom:     0;
+				left:       0;
+				right:      0;
+				height:     55%;
+				background: linear-gradient(180deg, transparent, var(--void) 90%);
+			}
+		}
+
+		/* Dark radial overlay keeps hero text 100% readable */
+		.hero-content {
+			position:   relative;
+			z-index:    10;
+			text-align: center;
+			padding:    3rem 5rem;
+			max-width:  860px;
+			background: radial-gradient(
+				ellipse 95% 100% at 50% 50%,
+				rgba(18, 0, 37, 0.9) 25%,
+				rgba(18, 0, 37, 0.65) 60%,
+				transparent 100%
+			);
+		}
+
+		.hero-eyebrow {
+			font-family:     'Orbitron', sans-serif;
+			font-size:       0.6rem;
+			letter-spacing:  0.6em;
+			text-transform:  uppercase;
+			color:           var(--cyan);
+			text-shadow:     0 0 16px var(--glow-cyn);
+			margin-bottom:   1.6rem;
+			display:         flex;
+			align-items:     center;
+			justify-content: center;
+			gap:             1rem;
+			animation:       fade-up 0.8s ease both;
+
+			&::before, &::after {
+				content:    '';
+				width:      36px;
+				height:     1px;
+				background: var(--cyan);
+				box-shadow: 0 0 8px var(--cyan);
+			}
+		}
+
+		.hero-title {
+			font-family:    'Orbitron', sans-serif;
+			font-weight:    900;
+			font-size:      clamp(2.8rem, 8.5vw, 7rem);
+			text-transform: uppercase;
+			letter-spacing: 0.04em;
+			line-height:    1;
+			margin-bottom:  1.4rem;
+			color:          #ffffff;
+			text-shadow:
+				0 0 15px rgba(255, 255, 255, 0.5),
+				0 0 40px rgba(255, 45, 149, 0.3),
+				0 0 80px rgba(176, 38, 255, 0.15);
+			animation: fade-up 0.8s 0.12s ease both;
+
+			.accent {
+				display:        block;
+				color:          var(--magenta);
+				text-shadow:
+					0 0 20px var(--glow-mag),
+					0 0 55px rgba(255, 45, 149, 0.45),
+					0 0 110px rgba(255, 45, 149, 0.15);
+				letter-spacing: 0.08em;
+			}
+		}
+
+		.hero-subtitle {
+			font-size:      1.02rem;
+			font-weight:    300;
+			color:          rgba(242, 228, 255, 0.9);
+			max-width:      500px;
+			margin:         0 auto 2.5rem;
+			line-height:    1.75;
+			letter-spacing: 0.04em;
+			animation:      fade-up 0.8s 0.25s ease both;
+		}
+
+		.hero-actions {
+			display:         flex;
+			gap:             1rem;
+			justify-content: center;
+			flex-wrap:       wrap;
+			animation:       fade-up 0.8s 0.38s ease both;
+		}
+
+		/* ── Ticker ──────────────────────────────────────── */
+		.ticker-bar {
+			background:    var(--void-light);
+			border-top:    1px solid rgba(176, 38, 255, 0.2);
+			border-bottom: 1px solid rgba(176, 38, 255, 0.2);
+			overflow:      hidden;
+			padding:       0.7rem 0;
+			position:      relative;
+
+			&::before, &::after {
+				content:        '';
+				position:       absolute;
+				top:            0;
+				bottom:         0;
+				width:          120px;
+				z-index:        2;
+				pointer-events: none;
+			}
+
+			&::before { left: 0; background: linear-gradient(90deg, var(--void-light), transparent); }
+			&::after  { right: 0; background: linear-gradient(270deg, var(--void-light), transparent); }
+
+			.ticker-inner {
+				display:   flex;
+				animation: ticker-slide 26s linear infinite;
+				width:     max-content;
+			}
+
+			.ticker-item {
+				display:        flex;
+				align-items:    center;
+				gap:            0.6rem;
+				padding:        0 3rem;
+				font-family:    'Orbitron', sans-serif;
+				font-size:      0.58rem;
+				letter-spacing: 0.2em;
+				text-transform: uppercase;
+				color:          var(--text-dim);
+				white-space:    nowrap;
+
+				.t-dot {
+					width:         5px;
+					height:        5px;
+					border-radius: 50%;
+					flex-shrink:   0;
+				}
+
+				&.active {
+					color:       var(--cyan);
+					text-shadow: 0 0 10px var(--glow-cyn);
+
+					.t-dot { background: var(--cyan); box-shadow: 0 0 6px var(--cyan); }
+				}
+
+				&.upcoming .t-dot { background: var(--purple); box-shadow: 0 0 6px var(--purple); }
+				&.news .t-dot     { background: var(--orange);  box-shadow: 0 0 6px var(--orange); }
+			}
+		}
+
+		/* ── Stats Bar ───────────────────────────────────── */
+		.stats-bar {
+			display:         flex;
+			justify-content: center;
+			background:      var(--void-mid);
+			border-bottom:   1px solid rgba(176, 38, 255, 0.15);
+
+			.stat {
+				flex:       1;
+				max-width:  220px;
+				text-align: center;
+				padding:    2rem 1rem;
+				border-right: 1px solid rgba(176, 38, 255, 0.15);
+
+				&:last-child { border-right: none; }
+
+				.stat-val {
+					font-family:    'Orbitron', sans-serif;
+					font-weight:    900;
+					font-size:      2.2rem;
+					letter-spacing: -0.02em;
+					color:          var(--magenta);
+					text-shadow:    0 0 25px var(--glow-mag);
+					display:        block;
+					line-height:    1;
+					margin-bottom:  0.4rem;
+				}
+
+				.stat-lbl {
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.52rem;
+					letter-spacing: 0.35em;
+					text-transform: uppercase;
+					color:          var(--text-dim);
+					display:        block;
+				}
+			}
+		}
+
+		/* ── Section Layout ──────────────────────────────── */
+		.section {
+			padding:   5.5rem 4rem;
+			max-width: 1300px;
+			margin:    0 auto;
+		}
+
+		.section-label {
+			font-family:    'Orbitron', sans-serif;
+			font-size:      0.56rem;
+			letter-spacing: 0.55em;
+			text-transform: uppercase;
+			color:          var(--orange);
+			text-shadow:    0 0 14px var(--glow-org);
+			margin-bottom:  0.6rem;
+			display:        flex;
+			align-items:    center;
+			gap:            0.8rem;
+
+			&::before {
+				content:    '';
+				width:      18px;
+				height:     1px;
+				background: var(--orange);
+				box-shadow: 0 0 8px var(--orange);
+				flex-shrink: 0;
+			}
+		}
+
+		.section-title {
+			font-family:    'Orbitron', sans-serif;
+			font-weight:    900;
+			font-size:      clamp(1.7rem, 3.8vw, 2.8rem);
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color:          #fff;
+			text-shadow:    0 0 35px rgba(176, 38, 255, 0.45);
+			margin-bottom:  2.8rem;
+		}
+
+		/* ── Show Cards ──────────────────────────────────── */
+		.shows-grid {
+			display:               grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap:                   1.5rem;
+		}
+
+		.show-card {
+			background: var(--void-light);
+			border:     1px solid rgba(176, 38, 255, 0.22);
+			overflow:   hidden;
+			cursor:     pointer;
+			transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+			clip-path:  polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+
+			&:hover {
+				transform:    translateY(-7px);
+				border-color: var(--magenta);
+				box-shadow:   0 12px 50px rgba(255, 45, 149, 0.2), 0 0 80px rgba(176, 38, 255, 0.08);
+			}
+
+			.card-art {
+				position: relative;
+				height:   210px;
+				overflow: hidden;
+
+				&::after {
+					content:    '';
+					position:   absolute;
+					inset:      0;
+					background: repeating-linear-gradient(
+						0deg,
+						transparent, transparent 3px,
+						rgba(0, 0, 0, 0.1) 3px, rgba(0, 0, 0, 0.1) 4px
+					);
+					z-index: 2;
+				}
+
+				.art-layer { position: absolute; inset: 0; }
+
+				.card-tag {
+					position:       absolute;
+					bottom:         0.9rem;
+					left:           0.9rem;
+					z-index:        3;
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.5rem;
+					letter-spacing: 0.2em;
+					text-transform: uppercase;
+					padding:        0.28rem 0.65rem;
+					background:     rgba(18, 0, 37, 0.88);
+					border-left:    2px solid currentColor;
+				}
+			}
+
+			.card-body { padding: 1.4rem 1.6rem 1.6rem; }
+
+			.card-title {
+				font-family:    'Orbitron', sans-serif;
+				font-weight:    700;
+				font-size:      0.88rem;
+				letter-spacing: 0.12em;
+				text-transform: uppercase;
+				color:          #fff;
+				margin-bottom:  0.5rem;
+			}
+
+			.card-desc {
+				font-size:      0.83rem;
+				color:          var(--text-dim);
+				line-height:    1.6;
+				margin-bottom:  1.1rem;
+			}
+
+			.card-footer {
+				display:         flex;
+				justify-content: space-between;
+				align-items:     center;
+				padding-top:     0.8rem;
+				border-top:      1px solid rgba(176, 38, 255, 0.18);
+				font-size:       0.75rem;
+
+				.card-count {
+					display:     flex;
+					align-items: center;
+					gap:         0.35rem;
+					color:       var(--cyan);
+
+					i { width: 13px; height: 13px; }
+				}
+
+				.card-play {
+					display:        flex;
+					align-items:    center;
+					gap:            0.35rem;
+					color:          var(--magenta);
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.52rem;
+					letter-spacing: 0.18em;
+					text-transform: uppercase;
+					transition:     text-shadow 0.3s;
+					cursor:         pointer;
+
+					i { width: 13px; height: 13px; }
+
+					&:hover { text-shadow: 0 0 12px var(--magenta); }
+				}
+			}
+		}
+
+		/* ── Featured Episode ────────────────────────────── */
+		.featured-wrap {
+			background:  var(--void-mid);
+			position:    relative;
+
+			&::before {
+				content:    '';
+				position:   absolute;
+				top:        0;
+				left:       0;
+				right:      0;
+				height:     1px;
+				background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+				box-shadow: 0 0 20px var(--glow-cyn);
+			}
+
+			&::after {
+				content:    '';
+				position:   absolute;
+				bottom:     0;
+				left:       0;
+				right:      0;
+				height:     1px;
+				background: linear-gradient(90deg, transparent, var(--purple), transparent);
+				box-shadow: 0 0 20px var(--glow-pur);
+			}
+		}
+
+		.featured-episode {
+			display:               grid;
+			grid-template-columns: 1fr 1.3fr;
+			min-height:            340px;
+
+			.fe-art {
+				position: relative;
+				overflow: hidden;
+
+				.art-layer { position: absolute; inset: 0; }
+
+				&::after {
+					content:    '';
+					position:   absolute;
+					inset:      0;
+					background: linear-gradient(90deg, transparent 55%, var(--void-mid) 100%);
+					z-index:    2;
+				}
+			}
+
+			.fe-content {
+				padding:        3.5rem 4rem 3.5rem 3rem;
+				display:        flex;
+				flex-direction: column;
+				justify-content: center;
+
+				.fe-badge {
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.52rem;
+					letter-spacing: 0.3em;
+					text-transform: uppercase;
+					color:          var(--orange);
+					text-shadow:    0 0 10px var(--glow-org);
+					margin-bottom:  1rem;
+					display:        flex;
+					align-items:    center;
+					gap:            0.5rem;
+
+					i { width: 12px; height: 12px; }
+				}
+
+				h3 {
+					font-family:    'Orbitron', sans-serif;
+					font-weight:    900;
+					font-size:      clamp(1.2rem, 2.5vw, 1.9rem);
+					letter-spacing: 0.06em;
+					text-transform: uppercase;
+					color:          #fff;
+					text-shadow:    0 0 25px rgba(255, 255, 255, 0.2);
+					margin-bottom:  1rem;
+					line-height:    1.2;
+				}
+
+				p {
+					font-size:      0.9rem;
+					color:          var(--text-dim);
+					line-height:    1.65;
+					margin-bottom:  2rem;
+					max-width:      460px;
+				}
+
+				.fe-meta {
+					display:        flex;
+					gap:            2rem;
+					margin-bottom:  2rem;
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.55rem;
+					letter-spacing: 0.2em;
+					text-transform: uppercase;
+
+					.fe-meta-item {
+						display:     flex;
+						align-items: center;
+						gap:         0.4rem;
+						color:       var(--text-dim);
+
+						i { width: 12px; height: 12px; color: var(--purple); }
+					}
+				}
+
+				.fe-actions {
+					display:   flex;
+					gap:       0.75rem;
+					flex-wrap: wrap;
+				}
+			}
+		}
+
+		/* ── Episodes List ───────────────────────────────── */
+		.episodes-list {
+			display:        flex;
+			flex-direction: column;
+		}
+
+		.ep-item {
+			display:      grid;
+			grid-template-columns: 56px 1fr auto;
+			align-items:  center;
+			gap:          1.5rem;
+			padding:      1.2rem 0;
+			border-bottom: 1px solid rgba(176, 38, 255, 0.13);
+			cursor:       pointer;
+			transition:   background 0.3s, padding-left 0.3s, padding-right 0.3s;
+
+			&:last-child { border-bottom: none; }
+
+			&:hover {
+				background:    rgba(176, 38, 255, 0.04);
+				padding-left:  1rem;
+				padding-right: 1rem;
+
+				.ep-play {
+					border-color: var(--magenta);
+					color:        var(--magenta);
+					box-shadow:   0 0 20px var(--glow-mag);
+				}
+			}
+
+			.ep-play {
+				width:           50px;
+				height:          50px;
+				border-radius:   50%;
+				border:          1px solid rgba(176, 38, 255, 0.4);
+				display:         flex;
+				align-items:     center;
+				justify-content: center;
+				color:           var(--purple);
+				transition:      all 0.3s;
+				flex-shrink:     0;
+
+				i { width: 18px; height: 18px; }
+			}
+
+			.ep-info {
+				.ep-num {
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.52rem;
+					letter-spacing: 0.3em;
+					color:          var(--text-dim);
+					text-transform: uppercase;
+					margin-bottom:  0.22rem;
+				}
+
+				.ep-title {
+					font-weight:    600;
+					font-size:      0.95rem;
+					color:          var(--text);
+					letter-spacing: 0.02em;
+					margin-bottom:  0.22rem;
+					line-height:    1.35;
+				}
+
+				.ep-show {
+					font-size:      0.78rem;
+					color:          var(--cyan);
+					letter-spacing: 0.04em;
+				}
+			}
+
+			.ep-meta {
+				text-align:  right;
+				flex-shrink: 0;
+
+				.ep-dur {
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.65rem;
+					letter-spacing: 0.15em;
+					color:          var(--text-dim);
+					margin-bottom:  0.3rem;
+				}
+
+				.ep-date {
+					font-size: 0.72rem;
+					color:     var(--text-dim);
+				}
+			}
+		}
+
+		/* ── Categories ──────────────────────────────────── */
+		.cats-grid {
+			display:               grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap:                   1.5rem;
+		}
+
+		.cat-card {
+			position:   relative;
+			padding:    2.5rem 2rem;
+			border:     1px solid rgba(176, 38, 255, 0.18);
+			overflow:   hidden;
+			cursor:     pointer;
+			transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+
+			/* Top-right chamfer accent */
+			&::after {
+				content:      '';
+				position:     absolute;
+				top:          0;
+				right:        0;
+				width:        0;
+				height:       0;
+				border-style: solid;
+				border-width: 0 28px 28px 0;
+				transition:   border-color 0.3s;
+			}
+
+			.cat-glow {
+				position:   absolute;
+				bottom:     0;
+				left:       0;
+				right:      0;
+				height:     120px;
+				opacity:    0;
+				transition: opacity 0.3s;
+			}
+
+			&:hover {
+				transform: translateY(-5px);
+
+				.cat-glow { opacity: 1; }
+			}
+
+			.cat-icon {
+				margin-bottom: 1.6rem;
+
+				i { width: 38px; height: 38px; }
+			}
+
+			.cat-name {
+				font-family:    'Orbitron', sans-serif;
+				font-weight:    700;
+				font-size:      1rem;
+				letter-spacing: 0.14em;
+				text-transform: uppercase;
+				color:          #fff;
+				margin-bottom:  0.55rem;
+			}
+
+			.cat-desc {
+				font-size:      0.82rem;
+				color:          var(--text-dim);
+				line-height:    1.65;
+				margin-bottom:  1.5rem;
+			}
+
+			.cat-count {
+				font-family:    'Orbitron', sans-serif;
+				font-size:      0.58rem;
+				letter-spacing: 0.2em;
+				text-transform: uppercase;
+			}
+
+			&--scifi {
+				&::after    { border-color: transparent var(--cyan) transparent transparent; }
+				.cat-icon i { color: var(--cyan);    filter: drop-shadow(0 0 8px var(--cyan)); }
+				.cat-count  { color: var(--cyan); }
+				.cat-glow   { background: radial-gradient(ellipse at 50% 100%, rgba(0, 240, 255, 0.1) 0%, transparent 70%); }
+				&:hover     { border-color: var(--cyan);    box-shadow: 0 0 35px rgba(0, 240, 255, 0.12); }
+			}
+
+			&--gaming {
+				&::after    { border-color: transparent var(--purple) transparent transparent; }
+				.cat-icon i { color: var(--purple); filter: drop-shadow(0 0 8px var(--purple)); }
+				.cat-count  { color: var(--purple); }
+				.cat-glow   { background: radial-gradient(ellipse at 50% 100%, rgba(176, 38, 255, 0.1) 0%, transparent 70%); }
+				&:hover     { border-color: var(--purple); box-shadow: 0 0 35px rgba(176, 38, 255, 0.12); }
+			}
+
+			&--culture {
+				&::after    { border-color: transparent var(--magenta) transparent transparent; }
+				.cat-icon i { color: var(--magenta); filter: drop-shadow(0 0 8px var(--magenta)); }
+				.cat-count  { color: var(--magenta); }
+				.cat-glow   { background: radial-gradient(ellipse at 50% 100%, rgba(255, 45, 149, 0.1) 0%, transparent 70%); }
+				&:hover     { border-color: var(--magenta); box-shadow: 0 0 35px rgba(255, 45, 149, 0.12); }
+			}
+		}
+
+		/* ── CTA / Newsletter ────────────────────────────── */
+		.cta-section {
+			position:   relative;
+			padding:    7rem 4rem;
+			text-align: center;
+			overflow:   hidden;
+
+			&::before {
+				content:    '';
+				position:   absolute;
+				inset:      0;
+				background:
+					repeating-linear-gradient(
+						90deg,
+						rgba(176, 38, 255, 0.05) 0, rgba(176, 38, 255, 0.05) 1px,
+						transparent 1px, transparent 90px
+					),
+					repeating-linear-gradient(
+						0deg,
+						rgba(176, 38, 255, 0.05) 0, rgba(176, 38, 255, 0.05) 1px,
+						transparent 1px, transparent 90px
+					);
+			}
+
+			&::after {
+				content:        '';
+				position:       absolute;
+				top:            50%;
+				left:           50%;
+				transform:      translate(-50%, -50%);
+				width:          700px;
+				height:         350px;
+				background:     radial-gradient(ellipse, rgba(176, 38, 255, 0.14) 0%, transparent 70%);
+				filter:         blur(50px);
+				pointer-events: none;
+			}
+
+			.cta-inner {
+				position:  relative;
+				z-index:   1;
+				max-width: 700px;
+				margin:    0 auto;
+			}
+
+			.cta-title {
+				font-family:    'Orbitron', sans-serif;
+				font-weight:    900;
+				font-size:      clamp(2rem, 5.5vw, 3.8rem);
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				color:          #fff;
+				text-shadow:    0 0 45px rgba(176, 38, 255, 0.5);
+				margin-bottom:  1rem;
+				line-height:    1.1;
+			}
+
+			.cta-sub {
+				font-size:      1rem;
+				font-weight:    300;
+				color:          var(--text-dim);
+				margin-bottom:  2.5rem;
+				line-height:    1.75;
+				letter-spacing: 0.03em;
+			}
+
+			.cta-form {
+				display:         flex;
+				gap:             0.75rem;
+				justify-content: center;
+				margin-bottom:   1.8rem;
+
+				input[type="email"] {
+					flex:        1;
+					max-width:   340px;
+					background:  rgba(255, 255, 255, 0.05);
+					border:      1px solid rgba(176, 38, 255, 0.35);
+					color:       var(--text);
+					font-family: 'Exo 2', sans-serif;
+					font-size:   0.88rem;
+					padding:     0.85rem 1.25rem;
+					outline:     none;
+					transition:  border-color 0.3s, box-shadow 0.3s;
+
+					&::placeholder { color: var(--text-dim); letter-spacing: 0.05em; }
+
+					&:focus {
+						border-color: var(--cyan);
+						box-shadow:   0 0 22px rgba(0, 240, 255, 0.25);
+					}
+				}
+			}
+
+			.cta-platforms {
+				font-family:    'Orbitron', sans-serif;
+				font-size:      0.52rem;
+				letter-spacing: 0.3em;
+				text-transform: uppercase;
+				color:          var(--text-dim);
+				display:        flex;
+				align-items:    center;
+				justify-content: center;
+				gap:            1.5rem;
+				flex-wrap:      wrap;
+
+				a {
+					color:           var(--text-dim);
+					text-decoration: none;
+					transition:      color 0.3s;
+
+					&:hover { color: var(--magenta); }
+				}
+			}
+		}
+
+		/* ── Footer ──────────────────────────────────────── */
+		footer {
+			background:  var(--void-mid);
+			border-top:  1px solid rgba(176, 38, 255, 0.18);
+			padding:     3.5rem 4rem 2rem;
+
+			.footer-grid {
+				display:               grid;
+				grid-template-columns: 1.6fr 1fr 1fr 1fr;
+				gap:                   3rem;
+				padding-bottom:        2.5rem;
+				margin-bottom:         2rem;
+				border-bottom:         1px solid rgba(176, 38, 255, 0.12);
+			}
+
+			.footer-brand {
+				.f-logo {
+					font-family:    'Orbitron', sans-serif;
+					font-weight:    900;
+					font-size:      1.3rem;
+					letter-spacing: 0.2em;
+					text-transform: uppercase;
+					margin-bottom:  1rem;
+					display:        block;
+
+					.v { color: var(--magenta); text-shadow: 0 0 15px var(--glow-mag); }
+					.c { color: var(--cyan);    text-shadow: 0 0 15px var(--glow-cyn); }
+				}
+
+				p {
+					font-size:   0.82rem;
+					color:       var(--text-dim);
+					line-height: 1.65;
+					max-width:   260px;
+				}
+			}
+
+			.footer-col {
+				h4 {
+					font-family:    'Orbitron', sans-serif;
+					font-size:      0.55rem;
+					letter-spacing: 0.35em;
+					text-transform: uppercase;
+					color:          var(--text-dim);
+					margin-bottom:  1.3rem;
+				}
+
+				ul {
+					list-style: none;
+					display:    flex;
+					flex-direction: column;
+					gap:        0.65rem;
+
+					a {
+						font-size:       0.82rem;
+						color:           var(--text-dim);
+						text-decoration: none;
+						letter-spacing:  0.03em;
+						transition:      color 0.3s, text-shadow 0.3s;
+
+						&:hover {
+							color:       var(--magenta);
+							text-shadow: 0 0 10px rgba(255, 45, 149, 0.5);
+						}
+					}
+				}
+			}
+
+			.footer-bottom {
+				display:         flex;
+				justify-content: space-between;
+				align-items:     center;
+				font-size:       0.72rem;
+				color:           var(--text-dim);
+				letter-spacing:  0.05em;
+
+				.f-social {
+					display: flex;
+					gap:     1.2rem;
+
+					a {
+						color:      var(--text-dim);
+						transition: color 0.3s, filter 0.3s;
+
+						i { width: 17px; height: 17px; }
+
+						&:hover {
+							color:  var(--cyan);
+							filter: drop-shadow(0 0 6px var(--cyan));
+						}
+					}
+				}
+			}
+		}
+
+		/* ── Responsive ──────────────────────────────────── */
+		@media (max-width: 1100px) {
+			.nav                            { padding: 1rem 2rem; }
+			.nav-links                      { display: none; }
+			.section                        { padding: 4rem 2rem; }
+			.shows-grid                     { grid-template-columns: repeat(2, 1fr); }
+			.cats-grid                      { grid-template-columns: repeat(2, 1fr); }
+			.featured-episode               { grid-template-columns: 1fr; }
+			.featured-episode .fe-art       { height: 260px; }
+			.featured-episode .fe-art::after { background: linear-gradient(180deg, transparent 60%, var(--void-mid) 100%); }
+			footer .footer-grid             { grid-template-columns: 1fr 1fr; gap: 2rem; }
+			.stats-bar .stat                { padding: 1.5rem 0.5rem; }
+		}
+
+		@media (max-width: 680px) {
+			.shows-grid                         { grid-template-columns: 1fr; }
+			.cats-grid                          { grid-template-columns: 1fr; }
+			.hero-content                       { padding: 2rem 1.5rem; }
+			.cta-section                        { padding: 5rem 2rem; }
+			.cta-section .cta-form              { flex-direction: column; align-items: center; }
+			.cta-section .cta-form input        { max-width: 100%; width: 100%; }
+			footer .footer-grid                 { grid-template-columns: 1fr; }
+			.stats-bar                          { flex-wrap: wrap; }
+			.stats-bar .stat                    { min-width: 45%; border-right: none; border-bottom: 1px solid rgba(176, 38, 255, 0.15); }
+			.ep-item                            { grid-template-columns: 46px 1fr; }
+			.ep-meta                            { display: none; }
+		}
+	</style>
+</head>
+<body>
+
+<!-- ── Navigation ──────────────────────────────────────── -->
+<nav class="nav">
+	<a href="#" class="nav-logo">
+		<span class="v">Void</span><span class="c">Cast</span>
+	</a>
+	<ul class="nav-links">
+		<li><a href="#shows">Shows</a></li>
+		<li><a href="#episodes">Episodes</a></li>
+		<li><a href="#categories">Channels</a></li>
+		<li><a href="#">Live</a></li>
+		<li><a href="#">Archive</a></li>
+	</ul>
+	<div class="nav-right">
+		<span class="live-badge">
+			<span class="live-dot"></span>
+			On Air
+		</span>
+		<a href="#" class="btn btn--primary">
+			<i data-lucide="headphones"></i>
+			Listen Now
+		</a>
+	</div>
+</nav>
+
+<!-- ── Hero ────────────────────────────────────────────── -->
+<section class="hero">
+	<div class="hero-ambient"></div>
+	<div class="hero-sun"></div>
+	<div class="hero-horizon"></div>
+	<div class="hero-floor"></div>
+
+	<div class="hero-content">
+		<p class="hero-eyebrow">Transmitting from the Digital Void</p>
+		<h1 class="hero-title">
+			Signal from
+			<span class="accent">Beyond</span>
+		</h1>
+		<p class="hero-subtitle">
+			Sci-fi deep dives, retro gaming chronicles &amp; 80s pop culture — broadcast straight into your neural cortex, all night, every night.
+		</p>
+		<div class="hero-actions">
+			<a href="#shows" class="btn btn--primary">
+				<i data-lucide="play"></i>
+				Start Listening
+			</a>
+			<a href="#episodes" class="btn btn--outline">
+				<i data-lucide="radio"></i>
+				Browse Episodes
+			</a>
+		</div>
+	</div>
+</section>
+
+<!-- ── Ticker ───────────────────────────────────────────── -->
+<div class="ticker-bar">
+	<div class="ticker-inner">
+		<span class="ticker-item active">
+			<span class="t-dot"></span>
+			Now Playing — Pixel Archaeology Ep. 076: The Lost Atari Vault
+		</span>
+		<span class="ticker-item upcoming">
+			<span class="t-dot"></span>
+			Up Next — Neon Nostalgia Ep. 062 at 22:00
+		</span>
+		<span class="ticker-item news">
+			<span class="t-dot"></span>
+			New Episode — Hyperdrive Cinema Ep. 048 now available
+		</span>
+		<span class="ticker-item upcoming">
+			<span class="t-dot"></span>
+			Live Stream — Retro Game Marathon this Saturday 20:00 CET
+		</span>
+		<!-- duplicate for seamless scroll -->
+		<span class="ticker-item active">
+			<span class="t-dot"></span>
+			Now Playing — Pixel Archaeology Ep. 076: The Lost Atari Vault
+		</span>
+		<span class="ticker-item upcoming">
+			<span class="t-dot"></span>
+			Up Next — Neon Nostalgia Ep. 062 at 22:00
+		</span>
+		<span class="ticker-item news">
+			<span class="t-dot"></span>
+			New Episode — Hyperdrive Cinema Ep. 048 now available
+		</span>
+		<span class="ticker-item upcoming">
+			<span class="t-dot"></span>
+			Live Stream — Retro Game Marathon this Saturday 20:00 CET
+		</span>
+	</div>
+</div>
+
+<!-- ── Stats Bar ────────────────────────────────────────── -->
+<div class="stats-bar">
+	<div class="stat">
+		<span class="stat-val">312</span>
+		<span class="stat-lbl">Episodes</span>
+	</div>
+	<div class="stat">
+		<span class="stat-val">14</span>
+		<span class="stat-lbl">Active Shows</span>
+	</div>
+	<div class="stat">
+		<span class="stat-val">4.2M</span>
+		<span class="stat-lbl">Downloads</span>
+	</div>
+	<div class="stat">
+		<span class="stat-val">∞</span>
+		<span class="stat-lbl">Rewinds</span>
+	</div>
+</div>
+
+<!-- ── Featured Shows ───────────────────────────────────── -->
+<div id="shows" class="section">
+	<p class="section-label">Featured</p>
+	<h2 class="section-title">Active Frequencies</h2>
+
+	<div class="shows-grid">
+		<div class="show-card">
+			<div class="card-art">
+				<div class="art-layer" style="background: linear-gradient(155deg, #001825 0%, #004060 25%, #00f0ff 52%, #5500cc 78%, #120025 100%);"></div>
+				<div class="art-layer" style="background: radial-gradient(circle at 68% 35%, rgba(0,240,255,0.45) 0%, transparent 55%);"></div>
+				<div class="art-layer" style="background: radial-gradient(circle at 20% 80%, rgba(176,38,255,0.2) 0%, transparent 45%);"></div>
+				<span class="card-tag" style="color: var(--cyan);">Sci-Fi Films</span>
+			</div>
+			<div class="card-body">
+				<h3 class="card-title">Hyperdrive Cinema</h3>
+				<p class="card-desc">Frame-by-frame deconstruction of science fiction's greatest visions — from forgotten B-movies to unsung masterpieces of the form.</p>
+				<div class="card-footer">
+					<span class="card-count">
+						<i data-lucide="radio"></i>
+						48 episodes
+					</span>
+					<span class="card-play">
+						<i data-lucide="play"></i>
+						Play latest
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="show-card">
+			<div class="card-art">
+				<div class="art-layer" style="background: linear-gradient(155deg, #1a0040 0%, #6600bb 30%, #ff2d95 62%, #ff6a00 90%, #ffcc00 100%);"></div>
+				<div class="art-layer" style="background: radial-gradient(circle at 32% 60%, rgba(255,45,149,0.4) 0%, transparent 55%);"></div>
+				<div class="art-layer" style="background: radial-gradient(circle at 75% 25%, rgba(176,38,255,0.3) 0%, transparent 45%);"></div>
+				<span class="card-tag" style="color: var(--magenta);">Retro Gaming</span>
+			</div>
+			<div class="card-body">
+				<h3 class="card-title">Pixel Archaeology</h3>
+				<p class="card-desc">Excavating the rarest carts, forgotten arcades and cursed hardware from the golden age of digital entertainment.</p>
+				<div class="card-footer">
+					<span class="card-count">
+						<i data-lucide="radio"></i>
+						76 episodes
+					</span>
+					<span class="card-play">
+						<i data-lucide="play"></i>
+						Play latest
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="show-card">
+			<div class="card-art">
+				<div class="art-layer" style="background: linear-gradient(155deg, #280010 0%, #cc0050 28%, #ff6a00 58%, #ffcc00 85%, #fff0a0 100%);"></div>
+				<div class="art-layer" style="background: radial-gradient(circle at 50% 45%, rgba(255,106,0,0.35) 0%, transparent 60%);"></div>
+				<div class="art-layer" style="background: radial-gradient(circle at 80% 20%, rgba(255,204,0,0.2) 0%, transparent 40%);"></div>
+				<span class="card-tag" style="color: var(--orange);">80s Culture</span>
+			</div>
+			<div class="card-body">
+				<h3 class="card-title">Neon Nostalgia</h3>
+				<p class="card-desc">Chronicling the decade that forgot restraint — music videos, hairspray epics and the shopping mall as cultural epicenter.</p>
+				<div class="card-footer">
+					<span class="card-count">
+						<i data-lucide="radio"></i>
+						61 episodes
+					</span>
+					<span class="card-play">
+						<i data-lucide="play"></i>
+						Play latest
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ── Featured Episode ─────────────────────────────────── -->
+<div class="featured-wrap">
+	<div class="section" style="padding-top: 4rem; padding-bottom: 4rem;">
+		<p class="section-label">Editor's Pick</p>
+		<h2 class="section-title">Must Hear</h2>
+		<div class="featured-episode">
+			<div class="fe-art">
+				<div class="art-layer" style="background: linear-gradient(145deg, #001040 0%, #002266 20%, #b026ff 55%, #ff2d95 80%, #ff6a00 100%);"></div>
+				<div class="art-layer" style="background: radial-gradient(circle at 40% 50%, rgba(176,38,255,0.5) 0%, transparent 60%);"></div>
+				<div class="art-layer" style="background: radial-gradient(circle at 80% 20%, rgba(0,240,255,0.25) 0%, transparent 45%);"></div>
+			</div>
+			<div class="fe-content">
+				<p class="fe-badge">
+					<i data-lucide="star"></i>
+					Featured Episode
+				</p>
+				<h3>Blade Runner 2049 — Ten Years Later: Did We Miss the Point?</h3>
+				<p>A deep, uncompromising re-examination of Villeneuve's masterpiece. Memory, identity and whether a world that forgot to ask "what is human?" can still deserve one.</p>
+				<div class="fe-meta">
+					<span class="fe-meta-item">
+						<i data-lucide="clock"></i>
+						1:24:38
+					</span>
+					<span class="fe-meta-item">
+						<i data-lucide="calendar"></i>
+						18. 3. 2026
+					</span>
+					<span class="fe-meta-item">
+						<i data-lucide="mic"></i>
+						Hyperdrive Cinema
+					</span>
+				</div>
+				<div class="fe-actions">
+					<a href="#" class="btn btn--primary">
+						<i data-lucide="play"></i>
+						Play Now
+					</a>
+					<a href="#" class="btn btn--ghost">
+						<i data-lucide="download"></i>
+						Download
+					</a>
+					<a href="#" class="btn btn--ghost">
+						<i data-lucide="share-2"></i>
+						Share
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ── Latest Episodes ──────────────────────────────────── -->
+<div id="episodes" class="section">
+	<p class="section-label">Fresh from the Transmitter</p>
+	<h2 class="section-title">Latest Transmissions</h2>
+
+	<div class="episodes-list">
+		<div class="ep-item">
+			<div class="ep-play"><i data-lucide="play"></i></div>
+			<div class="ep-info">
+				<p class="ep-num">EP. 048 — Hyperdrive Cinema</p>
+				<p class="ep-title">Blade Runner 2049 — Ten Years Later: Did We Miss the Point?</p>
+				<p class="ep-show">Hyperdrive Cinema</p>
+			</div>
+			<div class="ep-meta">
+				<p class="ep-dur">1:24:38</p>
+				<p class="ep-date">18. 3. 2026</p>
+			</div>
+		</div>
+
+		<div class="ep-item">
+			<div class="ep-play"><i data-lucide="play"></i></div>
+			<div class="ep-info">
+				<p class="ep-num">EP. 076 — Pixel Archaeology</p>
+				<p class="ep-title">The Lost Atari Vault: 47 Unreleased Titles from 1984</p>
+				<p class="ep-show">Pixel Archaeology</p>
+			</div>
+			<div class="ep-meta">
+				<p class="ep-dur">1:07:15</p>
+				<p class="ep-date">15. 3. 2026</p>
+			</div>
+		</div>
+
+		<div class="ep-item">
+			<div class="ep-play"><i data-lucide="play"></i></div>
+			<div class="ep-info">
+				<p class="ep-num">EP. 061 — Neon Nostalgia</p>
+				<p class="ep-title">MTV's First Broadcast — The Song That Broke the Antenna</p>
+				<p class="ep-show">Neon Nostalgia</p>
+			</div>
+			<div class="ep-meta">
+				<p class="ep-dur">58:42</p>
+				<p class="ep-date">12. 3. 2026</p>
+			</div>
+		</div>
+
+		<div class="ep-item">
+			<div class="ep-play"><i data-lucide="play"></i></div>
+			<div class="ep-info">
+				<p class="ep-num">EP. 047 — Hyperdrive Cinema</p>
+				<p class="ep-title">Event Horizon at 30 — A Horror Film Pretending to Be Sci-Fi</p>
+				<p class="ep-show">Hyperdrive Cinema</p>
+			</div>
+			<div class="ep-meta">
+				<p class="ep-dur">1:31:00</p>
+				<p class="ep-date">5. 3. 2026</p>
+			</div>
+		</div>
+
+		<div class="ep-item">
+			<div class="ep-play"><i data-lucide="play"></i></div>
+			<div class="ep-info">
+				<p class="ep-num">EP. 075 — Pixel Archaeology</p>
+				<p class="ep-title">NEC PC-88 — Japan's Forgotten Compute God</p>
+				<p class="ep-show">Pixel Archaeology</p>
+			</div>
+			<div class="ep-meta">
+				<p class="ep-dur">1:12:54</p>
+				<p class="ep-date">1. 3. 2026</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ── Categories ───────────────────────────────────────── -->
+<div id="categories" class="section" style="padding-top: 0;">
+	<p class="section-label">Channels</p>
+	<h2 class="section-title">Browse the Grid</h2>
+
+	<div class="cats-grid">
+		<div class="cat-card cat-card--scifi">
+			<div class="cat-glow"></div>
+			<div class="cat-icon"><i data-lucide="satellite"></i></div>
+			<h3 class="cat-name">Sci-Fi Films</h3>
+			<p class="cat-desc">Deep analysis, director retrospectives and the technical science behind the fiction. From 2001 to Annihilation and everything orbiting between.</p>
+			<span class="cat-count">48 episodes · 3 shows</span>
+		</div>
+
+		<div class="cat-card cat-card--gaming">
+			<div class="cat-glow"></div>
+			<div class="cat-icon"><i data-lucide="gamepad-2"></i></div>
+			<h3 class="cat-name">Retro Gaming</h3>
+			<p class="cat-desc">Hardware autopsies, cartridge archaeology, emulation wars and the developers who built miracles with 8 kilobytes and a deadline.</p>
+			<span class="cat-count">76 episodes · 5 shows</span>
+		</div>
+
+		<div class="cat-card cat-card--culture">
+			<div class="cat-glow"></div>
+			<div class="cat-icon"><i data-lucide="tv-2"></i></div>
+			<h3 class="cat-name">80s Pop Culture</h3>
+			<p class="cat-desc">Music, fashion, film and the seismic cultural events of the most aesthetically unhinged decade in recorded human history.</p>
+			<span class="cat-count">61 episodes · 6 shows</span>
+		</div>
+	</div>
+</div>
+
+<!-- ── CTA / Newsletter ─────────────────────────────────── -->
+<div class="cta-section">
+	<div class="cta-inner">
+		<p class="section-label" style="justify-content: center; margin-bottom: 1rem;">Join the Frequency</p>
+		<h2 class="cta-title">Never Miss a Signal</h2>
+		<p class="cta-sub">New episodes drop every week. Subscribe for transmissions directly to your inbox — no noise, only signal.</p>
+		<div class="cta-form">
+			<input type="email" placeholder="your@frequency.space">
+			<button class="btn btn--primary">
+				<i data-lucide="zap"></i>
+				Tune In
+			</button>
+		</div>
+		<div class="cta-platforms">
+			Also available on &nbsp;
+			<a href="#">Spotify</a>
+			<a href="#">Apple Podcasts</a>
+			<a href="#">YouTube</a>
+			<a href="#">RSS</a>
+		</div>
+	</div>
+</div>
+
+<!-- ── Footer ───────────────────────────────────────────── -->
+<footer>
+	<div class="footer-grid">
+		<div class="footer-brand">
+			<span class="f-logo">
+				<span class="v">Void</span><span class="c">Cast</span>
+			</span>
+			<p>Podcast &amp; streaming network covering sci-fi film analysis, retro gaming archaeology and 80s pop culture. Broadcasting from the digital void since 2019.</p>
+		</div>
+
+		<div class="footer-col">
+			<h4>Shows</h4>
+			<ul>
+				<li><a href="#">Hyperdrive Cinema</a></li>
+				<li><a href="#">Pixel Archaeology</a></li>
+				<li><a href="#">Neon Nostalgia</a></li>
+				<li><a href="#">Static Frequencies</a></li>
+				<li><a href="#">The Void Dispatch</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-col">
+			<h4>Network</h4>
+			<ul>
+				<li><a href="#">About VoidCast</a></li>
+				<li><a href="#">Live Stream</a></li>
+				<li><a href="#">Archive</a></li>
+				<li><a href="#">Merch</a></li>
+				<li><a href="#">Press Kit</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-col">
+			<h4>Connect</h4>
+			<ul>
+				<li><a href="#">Patreon</a></li>
+				<li><a href="#">Discord</a></li>
+				<li><a href="#">Newsletter</a></li>
+				<li><a href="#">RSS Feed</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		<span>© 2026 VoidCast Network — Broadcasting from the digital void</span>
+		<div class="f-social">
+			<a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+			<a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+			<a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+			<a href="#" aria-label="RSS"><i data-lucide="rss"></i></a>
+		</div>
+	</div>
+</footer>
+
+<script>
+	lucide.createIcons();
+</script>
+</body>
+</html>

@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~~*~~ MY AWESOME PORTFOLIO ~~*~~ BEST VIEWED IN 800x600</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --blue: #0000ff;
+            --purple: #800080;
+            --pink: #ff00ff;
+            --lime: #00ff00;
+            --yellow: #ffff00;
+            --silver: #c0c0c0;
+            --white: #ffffff;
+            --black: #000000;
+            --dark-silver: #808080;
+            --mid-silver: #a0a0a0;
+            --light-silver: #e0e0e0;
+        }
+
+        html {
+            cursor: crosshair;
+        }
+
+        body {
+            background-color: #000080;
+            background-image:
+                repeating-linear-gradient(
+                    45deg,
+                    transparent,
+                    transparent 10px,
+                    rgba(0, 0, 128, 0.6) 10px,
+                    rgba(0, 0, 128, 0.6) 20px
+                ),
+                repeating-linear-gradient(
+                    -45deg,
+                    #000080,
+                    #000080 10px,
+                    #000066 10px,
+                    #000066 20px
+                );
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+            color: var(--black);
+            min-height: 100vh;
+            padding: 8px;
+        }
+
+        /* ─── MARQUEE ─────────────────────────────────────── */
+        .marquee-bar {
+            background: var(--black);
+            color: var(--yellow);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 13px;
+            font-weight: bold;
+            padding: 4px 0;
+            overflow: hidden;
+            white-space: nowrap;
+            border: 3px outset var(--silver);
+            margin-bottom: 6px;
+
+            .marquee-inner {
+                display: inline-block;
+                animation: marquee 18s linear infinite;
+            }
+        }
+
+        @keyframes marquee {
+            from { transform: translateX(100vw); }
+            to   { transform: translateX(-100%); }
+        }
+
+        /* ─── OUTER WINDOW FRAME ──────────────────────────── */
+        .window-frame {
+            background: var(--silver);
+            border: 3px outset var(--silver);
+            max-width: 900px;
+            margin: 0 auto;
+
+            .title-bar {
+                background: linear-gradient(to right, #000080, #1084d0);
+                color: var(--white);
+                font-family: 'Arial', sans-serif;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 3px 6px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                user-select: none;
+
+                .title-text {
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+
+                    &::before {
+                        content: '🌐';
+                        font-size: 12px;
+                    }
+                }
+
+                .win-buttons {
+                    display: flex;
+                    gap: 2px;
+
+                    span {
+                        display: inline-block;
+                        width: 16px;
+                        height: 14px;
+                        background: var(--silver);
+                        border: 2px outset var(--silver);
+                        font-size: 9px;
+                        font-family: Arial, sans-serif;
+                        color: var(--black);
+                        text-align: center;
+                        line-height: 12px;
+                        cursor: default;
+
+                        &:active {
+                            border-style: inset;
+                        }
+                    }
+                }
+            }
+
+            .window-content {
+                background: var(--white);
+                border: 3px inset var(--silver);
+                padding: 12px;
+            }
+        }
+
+        /* ─── UNDER CONSTRUCTION STRIPE ──────────────────── */
+        .under-construction {
+            background: repeating-linear-gradient(
+                45deg,
+                var(--yellow),
+                var(--yellow) 12px,
+                var(--black) 12px,
+                var(--black) 24px
+            );
+            border: 3px outset var(--silver);
+            padding: 8px 12px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 13px;
+            color: var(--black);
+            margin: 8px 0;
+            letter-spacing: 2px;
+
+            .uc-inner {
+                background: var(--yellow);
+                border: 2px inset var(--dark-silver);
+                padding: 4px 16px;
+                display: inline-block;
+            }
+        }
+
+        /* ─── RAINBOW HR ──────────────────────────────────── */
+        .rainbow-hr {
+            height: 6px;
+            border: none;
+            background: linear-gradient(
+                to right,
+                #ff0000,
+                #ff8800,
+                #ffff00,
+                #00ff00,
+                #0000ff,
+                #8800ff,
+                #ff00ff
+            );
+            margin: 10px 0;
+        }
+
+        /* ─── HEADER SECTION ──────────────────────────────── */
+        .site-header {
+            text-align: center;
+            background: var(--black);
+            border: 3px outset var(--silver);
+            padding: 16px 8px;
+            margin-bottom: 8px;
+            position: relative;
+
+            .blink {
+                animation: blink 1s step-end infinite;
+            }
+
+            @keyframes blink {
+                50% { opacity: 0; }
+            }
+
+            .stars {
+                color: var(--yellow);
+                font-size: 18px;
+            }
+
+            h1 {
+                font-family: 'Fredoka One', 'Comic Sans MS', 'Comic Sans', cursive;
+                font-size: clamp(22px, 5vw, 42px);
+                color: var(--lime);
+                text-shadow:
+                    2px 2px 0 var(--blue),
+                    -1px -1px 0 var(--pink);
+                line-height: 1.2;
+                margin: 6px 0;
+            }
+
+            .tagline {
+                color: var(--yellow);
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 12px;
+                margin-top: 6px;
+            }
+
+            .visitor-badge {
+                display: inline-block;
+                background: var(--black);
+                border: 3px inset var(--silver);
+                color: var(--lime);
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 11px;
+                padding: 3px 8px;
+                margin-top: 8px;
+
+                span { color: var(--pink); font-weight: bold; }
+            }
+        }
+
+        /* ─── NAV BAR ─────────────────────────────────────── */
+        .nav-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px outset var(--silver);
+            margin-bottom: 8px;
+            background: var(--silver);
+
+            td {
+                border: 2px outset var(--silver);
+                padding: 0;
+
+                a {
+                    display: block;
+                    padding: 5px 10px;
+                    background: var(--silver);
+                    color: var(--black);
+                    text-decoration: none;
+                    font-family: 'Arial', sans-serif;
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-align: center;
+                    white-space: nowrap;
+
+                    &:hover {
+                        background: #d0d0d0;
+                    }
+
+                    &:active {
+                        border: 2px inset var(--silver);
+                        padding: 6px 9px 4px 11px;
+                    }
+
+                    &:visited {
+                        color: var(--purple);
+                    }
+                }
+            }
+        }
+
+        /* ─── MAIN LAYOUT ─────────────────────────────────── */
+        .main-layout {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+
+            .sidebar {
+                display: table-cell;
+                width: 180px;
+                vertical-align: top;
+                padding-right: 8px;
+            }
+
+            .content-area {
+                display: table-cell;
+                vertical-align: top;
+            }
+        }
+
+        /* ─── SIDEBAR BOXES ───────────────────────────────── */
+        .sidebar-box {
+            border: 3px outset var(--silver);
+            margin-bottom: 8px;
+            background: var(--silver);
+
+            .box-title {
+                background: var(--dark-silver);
+                color: var(--white);
+                font-family: 'Arial', sans-serif;
+                font-size: 11px;
+                font-weight: bold;
+                padding: 3px 6px;
+                border-bottom: 2px outset var(--silver);
+                text-align: center;
+            }
+
+            .box-content {
+                background: var(--white);
+                border: 2px inset var(--silver);
+                padding: 6px;
+                font-size: 11px;
+                font-family: 'Courier New', Courier, monospace;
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+
+                    li {
+                        padding: 2px 0;
+                        border-bottom: 1px dotted var(--silver);
+
+                        &::before { content: '» '; color: var(--blue); }
+
+                        a {
+                            color: var(--blue);
+                            font-size: 11px;
+
+                            &:visited { color: var(--purple); }
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ─── CONTENT SECTIONS ────────────────────────────── */
+        .content-section {
+            border: 3px outset var(--silver);
+            margin-bottom: 8px;
+
+            .section-header {
+                background: var(--blue);
+                color: var(--white);
+                font-family: 'Fredoka One', 'Comic Sans MS', cursive;
+                font-size: 16px;
+                padding: 4px 10px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .section-body {
+                background: var(--white);
+                border: 2px inset var(--silver);
+                padding: 10px;
+                font-size: 13px;
+                line-height: 1.5;
+            }
+        }
+
+        /* ─── SKILL TABLE ─────────────────────────────────── */
+        .skill-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px inset var(--silver);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+            margin: 8px 0;
+
+            th {
+                background: var(--dark-silver);
+                color: var(--white);
+                border: 2px outset var(--silver);
+                padding: 4px 8px;
+                text-align: left;
+                font-family: 'Arial', sans-serif;
+                font-size: 11px;
+            }
+
+            td {
+                border: 2px inset var(--silver);
+                padding: 4px 8px;
+                background: var(--white);
+
+                &.skill-name {
+                    font-weight: bold;
+                    color: var(--black);
+                }
+
+                &.skill-level {
+                    .progress-outer {
+                        border: 2px inset var(--silver);
+                        height: 12px;
+                        background: var(--light-silver);
+                        width: 120px;
+
+                        .progress-inner {
+                            height: 100%;
+                            background: repeating-linear-gradient(
+                                90deg,
+                                var(--blue) 0px,
+                                var(--blue) 8px,
+                                var(--mid-silver) 8px,
+                                var(--mid-silver) 10px
+                            );
+                        }
+                    }
+                }
+
+                &.skill-note {
+                    color: var(--purple);
+                    font-style: italic;
+                    font-size: 11px;
+                }
+            }
+
+            tr:nth-child(even) td {
+                background: #f0f0f0;
+            }
+        }
+
+        /* ─── PROJECT CARDS ───────────────────────────────── */
+        .project-card {
+            border: 3px outset var(--silver);
+            margin-bottom: 8px;
+            background: var(--silver);
+
+            .card-header {
+                display: table;
+                width: 100%;
+                background: repeating-linear-gradient(
+                    -45deg,
+                    var(--silver),
+                    var(--silver) 4px,
+                    var(--light-silver) 4px,
+                    var(--light-silver) 8px
+                );
+                border-bottom: 2px outset var(--silver);
+                padding: 0;
+
+                .card-icon {
+                    display: table-cell;
+                    width: 40px;
+                    text-align: center;
+                    vertical-align: middle;
+                    padding: 6px;
+                    font-size: 20px;
+                    border-right: 2px outset var(--silver);
+                    background: var(--silver);
+                }
+
+                .card-title-area {
+                    display: table-cell;
+                    vertical-align: middle;
+                    padding: 4px 8px;
+
+                    .card-title {
+                        font-family: 'Fredoka One', 'Comic Sans MS', cursive;
+                        font-size: 14px;
+                        color: var(--black);
+                    }
+
+                    .card-subtitle {
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 10px;
+                        color: var(--dark-silver);
+                    }
+                }
+
+                .card-badge {
+                    display: table-cell;
+                    vertical-align: middle;
+                    padding: 4px 8px;
+                    text-align: right;
+                }
+            }
+
+            .card-body {
+                background: var(--white);
+                border: 2px inset var(--silver);
+                padding: 8px;
+                font-size: 12px;
+                font-family: 'Courier New', Courier, monospace;
+                line-height: 1.5;
+            }
+
+            .card-footer {
+                background: var(--light-silver);
+                border-top: 2px inset var(--silver);
+                padding: 4px 8px;
+                display: flex;
+                gap: 6px;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+
+        /* ─── BADGES / TAGS ───────────────────────────────── */
+        .badge {
+            display: inline-block;
+            border: 2px outset var(--silver);
+            padding: 1px 6px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 10px;
+            font-weight: bold;
+            cursor: default;
+
+            &.badge-yellow {
+                background: var(--yellow);
+                color: var(--black);
+            }
+
+            &.badge-pink {
+                background: var(--pink);
+                color: var(--black);
+            }
+
+            &.badge-lime {
+                background: var(--lime);
+                color: var(--black);
+            }
+
+            &.badge-blue {
+                background: var(--blue);
+                color: var(--white);
+            }
+
+            &.badge-red {
+                background: #ff0000;
+                color: var(--white);
+            }
+
+            &.badge-silver {
+                background: var(--silver);
+                color: var(--black);
+            }
+        }
+
+        /* ─── BUTTONS ─────────────────────────────────────── */
+        .btn-retro {
+            display: inline-block;
+            border: 3px outset var(--silver);
+            background: var(--silver);
+            color: var(--black);
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 4px 12px;
+            cursor: pointer;
+            text-decoration: none;
+            white-space: nowrap;
+
+            &:hover {
+                background: var(--light-silver);
+            }
+
+            &:active, &.active {
+                border-style: inset;
+                padding: 5px 11px 3px 13px;
+            }
+
+            &.btn-blue {
+                background: var(--blue);
+                border-color: var(--blue);
+                color: var(--white);
+
+                &:hover { background: #2200ff; }
+            }
+        }
+
+        /* ─── GUESTBOOK / COUNTER AREA ────────────────────── */
+        .badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+            margin: 8px 0;
+        }
+
+        .hit-counter {
+            border: 3px inset var(--silver);
+            background: var(--black);
+            display: inline-flex;
+            align-items: center;
+            gap: 0;
+
+            .counter-label {
+                background: var(--dark-silver);
+                color: var(--white);
+                font-family: 'Arial', sans-serif;
+                font-size: 10px;
+                font-weight: bold;
+                padding: 2px 5px;
+                border-right: 2px outset var(--silver);
+            }
+
+            .counter-digits {
+                display: flex;
+
+                .digit {
+                    background: var(--black);
+                    color: var(--lime);
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 18px;
+                    font-weight: bold;
+                    width: 20px;
+                    text-align: center;
+                    padding: 2px 0;
+                    border-right: 1px solid #003300;
+                }
+            }
+        }
+
+        .browser-badge {
+            border: 3px outset var(--silver);
+            background: var(--silver);
+            padding: 2px 6px;
+            font-family: 'Arial', sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+            color: var(--black);
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* ─── QUOTE BOX ───────────────────────────────────── */
+        .quote-box {
+            border: 3px inset var(--silver);
+            background: #ffffcc;
+            padding: 10px;
+            margin: 8px 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+            font-style: italic;
+            color: var(--black);
+            position: relative;
+
+            &::before {
+                content: '❝';
+                font-size: 24px;
+                color: var(--dark-silver);
+                position: absolute;
+                top: 4px;
+                left: 6px;
+                font-style: normal;
+                line-height: 1;
+            }
+
+            p { margin-left: 24px; }
+        }
+
+        /* ─── CONTACT TABLE ───────────────────────────────── */
+        .contact-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+
+            td {
+                border: 2px inset var(--silver);
+                padding: 5px 8px;
+
+                &.label-cell {
+                    background: var(--silver);
+                    font-weight: bold;
+                    font-family: 'Arial', sans-serif;
+                    font-size: 11px;
+                    white-space: nowrap;
+                    width: 1%;
+                }
+
+                &.value-cell {
+                    background: var(--white);
+
+                    a {
+                        color: var(--blue);
+                        &:visited { color: var(--purple); }
+                    }
+                }
+            }
+        }
+
+        /* ─── FOOTER ──────────────────────────────────────── */
+        .site-footer {
+            background: var(--black);
+            border: 3px outset var(--silver);
+            color: var(--silver);
+            text-align: center;
+            padding: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 11px;
+            margin-top: 8px;
+
+            .footer-top {
+                color: var(--yellow);
+                font-size: 12px;
+                margin-bottom: 6px;
+            }
+
+            .footer-badges {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 4px;
+                margin: 6px 0;
+            }
+
+            .footer-badge {
+                border: 2px outset var(--dark-silver);
+                padding: 2px 6px;
+                font-size: 10px;
+                background: var(--dark-silver);
+                color: var(--white);
+            }
+
+            .copyright {
+                margin-top: 8px;
+                color: var(--mid-silver);
+                font-size: 10px;
+            }
+        }
+
+        /* ─── SCROLLBAR (WebKit) ──────────────────────────── */
+        ::-webkit-scrollbar { width: 16px; }
+        ::-webkit-scrollbar-track {
+            background: var(--silver);
+            border: 1px inset var(--silver);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--dark-silver);
+            border: 2px outset var(--silver);
+        }
+        ::-webkit-scrollbar-button {
+            background: var(--silver);
+            border: 2px outset var(--silver);
+            height: 16px;
+        }
+
+        /* ─── RESPONSIVE (basic) ──────────────────────────── */
+        @media (max-width: 600px) {
+            .main-layout,
+            .main-layout .sidebar,
+            .main-layout .content-area {
+                display: block;
+                width: 100%;
+            }
+
+            .main-layout .sidebar {
+                padding-right: 0;
+                padding-bottom: 8px;
+            }
+
+            .nav-table td { display: inline-block; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MARQUEE -->
+    <div class="marquee-bar">
+        <span class="marquee-inner">
+            &nbsp;&nbsp;&nbsp;
+            ★ WELCOME TO MY HOME PAGE ★ &nbsp;&nbsp;
+            ✦ BEST VIEWED IN NETSCAPE NAVIGATOR 4.0 ✦ &nbsp;&nbsp;
+            ★ THIS PAGE USES ADVANCED HTML TECHNOLOGY ★ &nbsp;&nbsp;
+            ✦ DO NOT STEAL MY GRAPHICS ✦ &nbsp;&nbsp;
+            ★ SIGN MY GUESTBOOK PLZ ★ &nbsp;&nbsp;
+            ✦ LAST UPDATED: NEVER ✦ &nbsp;&nbsp;
+            ★ FREE COUNTER PROVIDED BY COUNTER MAGIC 2000 ★ &nbsp;&nbsp;
+        </span>
+    </div>
+
+    <!-- OUTER WINDOW FRAME -->
+    <div class="window-frame">
+        <div class="title-bar">
+            <span class="title-text">DevSlayer2000's Portfolio - Microsoft Internet Explorer</span>
+            <div class="win-buttons">
+                <span>_</span>
+                <span>□</span>
+                <span>✕</span>
+            </div>
+        </div>
+        <div class="window-content">
+
+            <!-- HEADER -->
+            <div class="site-header">
+                <div class="stars">
+                    <span class="blink">★</span> ★ ★ ★ ★ ★ ★ ★ ★ ★
+                    <span class="blink">★</span>
+                </div>
+                <h1>
+                    ~*~ DevSlayer2000's <span style="color:var(--pink)">Portfolio</span> ~*~
+                </h1>
+                <p class="tagline">
+                    "When you want your portfolio to honestly represent your debugging experience"<br>
+                    <span style="color:var(--silver); font-size:11px;">
+                        — because nothing says "I spent 6 hours on a CSS bug" like a page that looks permanently broken on purpose
+                    </span>
+                </p>
+                <div>
+                    <div class="visitor-badge">
+                        YOU ARE VISITOR #<span id="counter-val">004269</span> &nbsp;|&nbsp;
+                        <span style="color:var(--yellow)">SINCE 1997</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UNDER CONSTRUCTION -->
+            <div class="under-construction">
+                <div class="uc-inner">
+                    🚧 &nbsp; UNDER CONSTRUCTION — PLEASE EXCUSE THE MESS &nbsp; 🚧
+                </div>
+            </div>
+
+            <!-- RAINBOW HR -->
+            <hr class="rainbow-hr">
+
+            <!-- NAV BAR -->
+            <table class="nav-table">
+                <tr>
+                    <td><a href="#">[HOME]</a></td>
+                    <td><a href="#">[ABOUT ME]</a></td>
+                    <td><a href="#">[MY PROJECTS]</a></td>
+                    <td><a href="#">[SKILLZ]</a></td>
+                    <td><a href="#">[LINKS PAGE]</a></td>
+                    <td><a href="#">[GUESTBOOK]</a></td>
+                    <td><a href="#">[EMAIL ME]</a></td>
+                </tr>
+            </table>
+
+            <!-- HIT COUNTER + BADGES ROW -->
+            <div class="badge-row">
+                <div class="hit-counter">
+                    <div class="counter-label">HITS</div>
+                    <div class="counter-digits">
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                        <div class="digit">4</div>
+                        <div class="digit">2</div>
+                        <div class="digit">6</div>
+                        <div class="digit">9</div>
+                    </div>
+                </div>
+                <div class="browser-badge">🌐 IE 6.0 COMPATIBLE</div>
+                <div class="browser-badge">📺 800×600 OPTIMIZED</div>
+                <div class="browser-badge">🖱️ MOUSE REQUIRED</div>
+                <div class="browser-badge" style="background:#003366; color:#fff; border-color:#003366;">W3C KINDA VALID</div>
+            </div>
+
+            <hr class="rainbow-hr">
+
+            <!-- MAIN LAYOUT -->
+            <div class="main-layout">
+
+                <!-- SIDEBAR -->
+                <div class="sidebar">
+
+                    <div class="sidebar-box">
+                        <div class="box-title">⚡ QUICK LINKS</div>
+                        <div class="box-content">
+                            <ul>
+                                <li><a href="#">My Résumé.doc</a></li>
+                                <li><a href="#">GitHub (1 repo)</a></li>
+                                <li><a href="#">Stack Overflow</a></li>
+                                <li><a href="#">My MySpace</a></li>
+                                <li><a href="#">DeviantArt</a></li>
+                                <li><a href="#">Hamster Dance</a></li>
+                                <li><a href="#">Cool Backgrounds</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <div class="box-title">🌡️ DEBUG STATUS</div>
+                        <div class="box-content" style="font-size:11px; line-height:1.8;">
+                            <div style="color:var(--black);">CSS Issues:</div>
+                            <div style="color:#ff0000; font-weight:bold;">■■■■■■■■ 100%</div>
+                            <div style="color:var(--black); margin-top:4px;">JS Errors:</div>
+                            <div style="color:#ff6600; font-weight:bold;">■■■■■■░░ 74%</div>
+                            <div style="color:var(--black); margin-top:4px;">Sanity Left:</div>
+                            <div style="color:var(--lime); font-weight:bold;">■░░░░░░░ 12%</div>
+                            <div style="color:var(--black); margin-top:4px;">Coffee:</div>
+                            <div style="color:var(--blue); font-weight:bold;">■■■■■■■■ 100%</div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <div class="box-title">📅 SITE NEWS</div>
+                        <div class="box-content" style="font-size:10px; line-height:1.7;">
+                            <strong style="color:var(--blue);">3. 4. 1999</strong><br>
+                            Added hit counter!!<br><br>
+                            <strong style="color:var(--blue);">1. 1. 1999</strong><br>
+                            Happy Y2K survival!<br><br>
+                            <strong style="color:var(--blue);">12. 12. 1998</strong><br>
+                            Fixed that table bug<br>
+                            <span style="color:var(--dark-silver);">(or did I...)</span><br><br>
+                            <strong style="color:var(--blue);">1. 6. 1997</strong><br>
+                            Site launched!!!! 🎉
+                        </div>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <div class="box-title">🌟 WEB RINGS</div>
+                        <div class="box-content" style="font-size:10px; text-align:center; line-height:2;">
+                            <a href="#" class="btn-retro" style="font-size:10px; display:block; margin-bottom:4px;">◄ PREV</a>
+                            <div style="border:1px solid var(--silver); padding:2px; font-size:9px; background:#ffffcc;">
+                                GeoCities<br>Dev Ring
+                            </div>
+                            <a href="#" class="btn-retro" style="font-size:10px; display:block; margin-top:4px;">NEXT ►</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- MAIN CONTENT -->
+                <div class="content-area">
+
+                    <!-- ABOUT SECTION -->
+                    <div class="content-section">
+                        <div class="section-header">
+                            🧑‍💻 ABOUT ME (READ THIS FIRST!!!!)
+                        </div>
+                        <div class="section-body">
+                            <p>
+                                Hi!!! My name is <strong style="color:var(--blue);">DevSlayer2000</strong>
+                                (real name <em>Dave</em> but that's boring lol).
+                                I am a <span style="color:var(--pink); font-weight:bold;">PROFESSIONAL</span>
+                                web developer based somewhere on the Internet.
+                            </p>
+                            <br>
+                            <div class="quote-box">
+                                <p>
+                                    "My portfolio honestly represents my debugging experience — because nothing says
+                                    'I spent 6 hours on a CSS bug' like a page that looks permanently broken on purpose.
+                                    It's not a bug. It's a feature. It's called <em>authenticity</em>."
+                                </p>
+                            </div>
+                            <br>
+                            <p>
+                                I have been coding since <strong>1997</strong> and I know basically everything
+                                about the web. I have read like 3 HTML books and a Perl tutorial so you can trust me.
+                                My specialty is fixing things that were working fine until I touched them.
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr class="rainbow-hr">
+
+                    <!-- SKILLZ SECTION -->
+                    <div class="content-section">
+                        <div class="section-header" style="background:var(--purple);">
+                            💪 MY SKILLZ (VERY ADVANCED)
+                        </div>
+                        <div class="section-body">
+                            <table class="skill-table">
+                                <tr>
+                                    <th>Skill</th>
+                                    <th>Level</th>
+                                    <th>Years</th>
+                                    <th>Honest Notes</th>
+                                </tr>
+                                <tr>
+                                    <td class="skill-name">HTML</td>
+                                    <td class="skill-level">
+                                        <div class="progress-outer"><div class="progress-inner" style="width:95%;"></div></div>
+                                    </td>
+                                    <td>27 yrs</td>
+                                    <td class="skill-note">Still Googling "center div"</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-name">CSS</td>
+                                    <td class="skill-level">
+                                        <div class="progress-outer"><div class="progress-inner" style="width:80%;"></div></div>
+                                    </td>
+                                    <td>25 yrs</td>
+                                    <td class="skill-note">6hrs/bug avg. See this page.</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-name">JavaScript</td>
+                                    <td class="skill-level">
+                                        <div class="progress-outer"><div class="progress-inner" style="width:70%;"></div></div>
+                                    </td>
+                                    <td>22 yrs</td>
+                                    <td class="skill-note">async/await? more like async/pray</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-name">PHP</td>
+                                    <td class="skill-level">
+                                        <div class="progress-outer"><div class="progress-inner" style="width:60%;"></div></div>
+                                    </td>
+                                    <td>20 yrs</td>
+                                    <td class="skill-note">It works. Don't ask how.</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-name">Git</td>
+                                    <td class="skill-level">
+                                        <div class="progress-outer"><div class="progress-inner" style="width:40%;"></div></div>
+                                    </td>
+                                    <td>10 yrs</td>
+                                    <td class="skill-note">git push --force (daily)</td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-name">Googling Errors</td>
+                                    <td class="skill-level">
+                                        <div class="progress-outer"><div class="progress-inner" style="width:100%; background:repeating-linear-gradient(90deg,var(--lime) 0,var(--lime) 8px,#009900 8px,#009900 10px);"></div></div>
+                                    </td>
+                                    <td>∞</td>
+                                    <td class="skill-note">This is my actual superpower</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <hr class="rainbow-hr">
+
+                    <!-- PROJECTS SECTION -->
+                    <div class="content-section">
+                        <div class="section-header" style="background:#006600;">
+                            📁 MY PROJECTS (ALL VERY GOOD)
+                        </div>
+                        <div class="section-body" style="padding:6px;">
+
+                            <!-- Project 1 -->
+                            <div class="project-card">
+                                <div class="card-header">
+                                    <div class="card-icon">💀</div>
+                                    <div class="card-title-area">
+                                        <div class="card-title">CSS Layout That "Works On My Machine"</div>
+                                        <div class="card-subtitle">HTML / CSS / Prayers / Tears</div>
+                                    </div>
+                                    <div class="card-badge">
+                                        <span class="badge badge-red">BROKEN IN FF</span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    A pixel-perfect layout that renders flawlessly on my 17" CRT at 800×600
+                                    in IE 5.5 with JavaScript enabled and the moon in Scorpio.
+                                    On any other configuration it looks like a Picasso painting after an
+                                    earthquake. The client said "just make it work in Chrome" so naturally
+                                    I added more <code style="background:#eee; padding:0 3px;">float: left</code>
+                                    declarations until something happened.
+                                </div>
+                                <div class="card-footer">
+                                    <span class="badge badge-yellow">HTML 4.01</span>
+                                    <span class="badge badge-silver">CSS 1.0</span>
+                                    <span class="badge badge-pink">TABLE LAYOUT</span>
+                                    <a href="#" class="btn-retro" style="margin-left:auto; font-size:10px;">VIEW SOURCE</a>
+                                    <a href="#" class="btn-retro btn-blue" style="font-size:10px;">LIVE DEMO (404)</a>
+                                </div>
+                            </div>
+
+                            <!-- Project 2 -->
+                            <div class="project-card">
+                                <div class="card-header">
+                                    <div class="card-icon">🔥</div>
+                                    <div class="card-title-area">
+                                        <div class="card-title">JavaScript Form Validator v1.0</div>
+                                        <div class="card-subtitle">JavaScript / RegEx / StackOverflow</div>
+                                    </div>
+                                    <div class="card-badge">
+                                        <span class="badge badge-lime">WORKS!!!</span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    Validates email addresses using a regex I found on a forum in 2003.
+                                    It correctly rejects valid emails and occasionally accepts
+                                    <code style="background:#eee; padding:0 3px;">@@@.@</code> as a valid address.
+                                    The validation runs on submit, after a 3-second <code style="background:#eee; padding:0 3px;">setTimeout</code>
+                                    for "realism." Proudly uses <code style="background:#eee; padding:0 3px;">document.write()</code>
+                                    to display error messages.
+                                </div>
+                                <div class="card-footer">
+                                    <span class="badge badge-yellow">VANILLA JS</span>
+                                    <span class="badge badge-silver">NO JQUERY</span>
+                                    <span class="badge badge-pink">REGEX DRIVEN</span>
+                                    <a href="#" class="btn-retro" style="margin-left:auto; font-size:10px;">VIEW SOURCE</a>
+                                    <a href="#" class="btn-retro btn-blue" style="font-size:10px;">LIVE DEMO</a>
+                                </div>
+                            </div>
+
+                            <!-- Project 3 -->
+                            <div class="project-card">
+                                <div class="card-header">
+                                    <div class="card-icon">🗄️</div>
+                                    <div class="card-title-area">
+                                        <div class="card-title">PHP Guestbook v2.3.1-FINAL-FINAL2</div>
+                                        <div class="card-subtitle">PHP / MySQL / Security Holes</div>
+                                    </div>
+                                    <div class="card-badge">
+                                        <span class="badge badge-red">⚠ SQL INJECT</span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    A fully functional guestbook where visitors can leave messages, which are stored
+                                    directly into the database with zero sanitization because "who would do that?"
+                                    The admin panel password is <code style="background:#eee; padding:0 3px;">admin</code>.
+                                    The database was dropped twice during development, both times called "learning experiences."
+                                    Currently hosting approximately 4,200 spam messages about pharmaceutical products.
+                                </div>
+                                <div class="card-footer">
+                                    <span class="badge badge-yellow">PHP 4.x</span>
+                                    <span class="badge badge-silver">MYSQL</span>
+                                    <span class="badge badge-red">OPEN SOURCE (involuntarily)</span>
+                                    <a href="#" class="btn-retro" style="margin-left:auto; font-size:10px;">VIEW SOURCE</a>
+                                    <a href="#" class="btn-retro btn-blue" style="font-size:10px;">SIGN GUESTBOOK</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr class="rainbow-hr">
+
+                    <!-- UNDER CONSTRUCTION 2 -->
+                    <div class="under-construction">
+                        <div class="uc-inner">
+                            🚧 &nbsp; MORE PROJECTS COMING SOON (EST. Q3 1999) &nbsp; 🚧
+                        </div>
+                    </div>
+
+                    <hr class="rainbow-hr">
+
+                    <!-- CONTACT SECTION -->
+                    <div class="content-section">
+                        <div class="section-header" style="background:#880000;">
+                            📬 CONTACT ME (I MIGHT RESPOND)
+                        </div>
+                        <div class="section-body">
+                            <table class="contact-table">
+                                <tr>
+                                    <td class="label-cell">📧 Email</td>
+                                    <td class="value-cell">
+                                        <a href="#">devslayer2000@geocities.com</a>
+                                        &nbsp;<span class="badge badge-yellow">SPAM OK</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="label-cell">💬 ICQ</td>
+                                    <td class="value-cell">
+                                        <a href="#">12345678</a>
+                                        &nbsp;<span style="color:var(--lime);">● Online</span>
+                                        &nbsp;<span style="font-size:10px; color:var(--dark-silver);">(please no)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="label-cell">🌐 AIM</td>
+                                    <td class="value-cell">
+                                        xX_DevSlayer_Xx
+                                        &nbsp;<span style="font-size:10px; color:var(--dark-silver);">(probably idle)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="label-cell">📍 Location</td>
+                                    <td class="value-cell">The Internet, Cyberspace 00000</td>
+                                </tr>
+                                <tr>
+                                    <td class="label-cell">⏰ Response</td>
+                                    <td class="value-cell">
+                                        <span style="color:#ff0000; font-weight:bold;">2–6 business years</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <div style="text-align:center;">
+                                <a href="#" class="btn-retro">📝 SIGN MY GUESTBOOK</a>
+                                &nbsp;
+                                <a href="#" class="btn-retro">📖 READ GUESTBOOK</a>
+                                &nbsp;
+                                <a href="#" class="btn-retro btn-blue">📧 SEND EMAIL</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- / content-area -->
+            </div>
+            <!-- / main-layout -->
+
+            <hr class="rainbow-hr">
+
+            <!-- FOOTER -->
+            <div class="site-footer">
+                <div class="footer-top">
+                    ~~ Thank you for visiting my homepage! Please come back soon!! ~~
+                </div>
+                <div>
+                    <span class="blink" style="color:var(--yellow); font-size:16px;">★</span>
+                    &nbsp; This page has been viewed by
+                    <strong style="color:var(--lime);">4,269</strong> amazing people &nbsp;
+                    <span class="blink" style="color:var(--yellow); font-size:16px;">★</span>
+                </div>
+                <div class="footer-badges">
+                    <div class="footer-badge">✓ HTML 4.01</div>
+                    <div class="footer-badge">✓ NO COOKIES</div>
+                    <div class="footer-badge">✓ FRAMES FREE</div>
+                    <div class="footer-badge" style="background:#003366;">🌐 IE 5+</div>
+                    <div class="footer-badge" style="background:#660000;">🦊 NS 4+</div>
+                    <div class="footer-badge" style="background:#005500;">♿ SORT OF ACCESSIBLE</div>
+                </div>
+                <div class="copyright">
+                    © 1997–<span id="year"></span> DevSlayer2000. All rights reserved. No hotlinking!!!<br>
+                    Background pattern generated by BACKGROUND MAGIC PRO 1998 EDITION.<br>
+                    <span style="color:#555555;">This site is hosted on a free GeoCities account. Please do not sue me.</span>
+                </div>
+            </div>
+
+        </div>
+        <!-- /window-content -->
+    </div>
+    <!-- /window-frame -->
+
+    <script>
+        // Dynamic year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Animate hit counter incrementing for Fun
+        const digits = document.querySelectorAll('.digit');
+        const counterVal = document.getElementById('counter-val');
+        let count = 4269;
+
+        const incrementCounter = () => {
+            count++;
+            const str = String(count).padStart(6, '0');
+            digits.forEach((d, i) => { d.textContent = str[i]; });
+            if (counterVal) counterVal.textContent = str;
+        };
+
+        setInterval(incrementCounter, 8000 + Math.random() * 12000);
+
+        // Button active states
+        document.querySelectorAll('.btn-retro').forEach(btn => {
+            btn.addEventListener('mousedown', () => btn.classList.add('active'));
+            btn.addEventListener('mouseup',   () => btn.classList.remove('active'));
+            btn.addEventListener('mouseleave',() => btn.classList.remove('active'));
+        });
+    </script>
+
+</body>
+</html>

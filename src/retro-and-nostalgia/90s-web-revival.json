@@ -1,38 +1,614 @@
 {
 	"sections": [
 		{
-			"fu_type": "o_html",
-			"html": "<div class=\"design-background\">\n\t<div class=\"design-container\">\n\t\t<div class=\"eyebrow\">Early Web · 1994–1999</div>\n\t\t<h3>90s Web Revival</h3>\n\t\t<p>90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures repeating across every pixel, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag and was absolutely going to use it. Born from real technical constraints — 8-bit monitors, 28.8k modems, and a 216-color web-safe palette — this aesthetic transforms what was once necessity into deliberate, knowing design.</p>\n\t\t<p>You&#039;ll find it on personal developer sites built as affectionate homages to GeoCities-era homepages, on net art and digital humanities projects recreating early web culture as a living exhibit, and on alternative music and zine publisher sites where the late-90s internet aesthetic signals anti-corporate credibility. It also appears on novelty landing pages, throwback product campaigns, and any creative project that wants to say: we were online before it was cool.</p>\n\t\t<div class=\"btn-group\">\n\t\t\t<button class=\"btn-primary\">Explore Style</button>\n\t\t\t<button class=\"btn-secondary\">Copy Prompt</button>\n\t\t</div>\n\t</div>\n</div>",
-			"wrap": "1"
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Retro & Nostalgia",
+					"href": "/retro-and-nostalgia/"
+				},
+				{
+					"text": "90s Web Revival Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Proud little boy holding up a chaotic crayon drawing — a mess of bright blue, red, purple, green, and yellow scribbles — grinning at the camera. Parents on the couch behind him, smiling supportively. Living room, warm daylight.",
+				"width": "1280",
+				"height": "896",
+				"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/kid-masterpiece.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "GeoCities · Beveled · Pixel · Tiled · Web 1.0 · Maximalist",
+			"a_h1": "90s Web Revival Style",
+			"a_description": "Tiled backgrounds, beveled 3D buttons, rainbow horizontal rules, and hit counters at the bottom of every page. Born from the technical constraints of 8-bit color, 28.8k modems, and table-based layouts, now reborn as deliberate, knowing nostalgia for the raw, unpolished early web.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "d-90s-web-revival"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "Absolutely never. Under no circumstances. But if you've already lost all hope, here are your options.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Office scene: petite woman with dark eyes and a short pixie cut staring at a tablet held by an confidently incompetent man grinning across the desk. Her expression is a mix of horror and maternal instinct. Modern office, daylight from large windows, shallow depth of field.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/romantic-networking.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "heart",
+					"a_h3": "Romantic Networking",
+					"a_description": "When you want to impress an attractive web designer and she has a known soft spot for the confidently incompetent. Open with 'I built this myself,' show her your tiled starfield background, and watch her eyes fill with a mix of pity and fascination."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Crime scene in a dark narrow alley at night. Two police officers standing over chalk outlines on the wet pavement — multiple separate body part outlines scattered across the ground, suggesting a single dismembered victim. Yellow police tape strung between brick walls, numbered evidence markers beside each outline, a single flickering streetlight overhead, cinematic wide shot.",
+						"width": "1280",
+						"height": "896",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/life-insurance.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "shield-alert",
+					"a_h3": "Life Insurance Optimization",
+					"a_description": "When you've maxed out your life insurance and have nothing left to lose. Show a senior front-end developer your beveled gray buttons with Comic Sans headlines. They will find you. The police will find what's left. Your family will be comfortable."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cinematic, harsh fluorescent office hallway. Man with cardboard box walks past glass meeting rooms. Inside, HR staff stare shocked at laptops. Security guard holds door open. Corporate setting.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/career-counseling.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "briefcase",
+					"a_h3": "Career Counseling",
+					"a_description": "When you've decided web design isn't for you but lack the courage to quit. Just send your boss a link to the homepage. HR will schedule your exit interview before the page finishes loading its 47 animated GIFs."
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "Design a UI in 1990s web revival style. Color palette: link blue #0000ff, visited purple #800080, hot pink #ff00ff, lime green #00ff00, bright yellow #ffff00, silver gray #c0c0c0, white #ffffff. Typography: Comic Sans MS or playful rounded sans-serif for headlines, Courier New or monospace for body text. Beveled/embossed borders (outset/inset border-style, 3px), visible table-cell aesthetic. Decorative elements: tiled repeating background patterns (repeating-linear-gradient checkerboard or diagonal stripes), horizontal rule separators (rainbow gradient), \"under construction\" yellow-black hazard stripe (repeating-linear-gradient 45deg). Buttons: beveled 3D look (outset border, gray gradients, active state with inset border), pixelated cursor feel. Hit counter / guestbook badge aesthetic — small bordered boxes with monospace text. No smooth gradients, no rounded corners, no subtle shadows, no modern minimalism. Raw, unpolished, maximalist web 1.0 energy.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Make It Pop — 90s web revival style UI",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/90s-web-revival/make-it-pop.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/90s-web-revival/make-it-pop.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Web Design Agency",
+						"GeoCities",
+						"Beveled Buttons",
+						"Tiled Background"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "My Awesome Portfolio — 90s web revival style UI",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/90s-web-revival/portfolio.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/90s-web-revival/portfolio.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Portfolio",
+						"Hit Counter",
+						"Rainbow Dividers",
+						"Guestbook"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyber World Online — 90s web revival style UI",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/90s-web-revival/retro.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/90s-web-revival/retro.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Portal",
+						"Webring",
+						"Starfield",
+						"Marquee"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Kool Games Page — 90s web revival style UI",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/90s-web-revival/mygames90s.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/90s-web-revival/mygames90s.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Gaming",
+						"Pixel Art",
+						"Hazard Stripes",
+						"Hit Counter"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"a_description": "There are none. That's the whole point. But if anarchy needs a manifesto, here it is.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Collection of beveled 3D buttons in gray with outset borders — Home, About, Links, Guestbook — on a silver gradient background.",
+						"width": "1280",
+						"height": "896",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/beveled-everything.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "square",
+					"a_h3": "Beveled Everything",
+					"a_description": "The signature UI element: 3D beveled borders using CSS outset/inset border-style. Buttons, panels, and image frames all have that raised, tactile Windows 95 look. Click states swap outset to inset, creating a physical push-button feel."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Grid of tiled background patterns: blue starfield, green checkerboard, purple diagonal stripes, gray diamond texture — all seamlessly repeating.",
+						"width": "1280",
+						"height": "896",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/tiled-backgrounds.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "grid-2x2",
+					"a_h3": "Tiled Backgrounds",
+					"a_description": "Every page needs a repeating background pattern — checkerboards, starfields, diagonal stripes, or tiny icons tiled infinitely. These were born from bandwidth constraints (one tiny image repeated) but became the era's most recognizable visual signature."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Horizontal rainbow gradient divider line, yellow-black hazard stripe bar, and a row of animated star GIFs — classic 90s web page separators.",
+						"width": "1280",
+						"height": "896",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/rainbow-dividers.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "minus",
+					"a_h3": "Rainbow Dividers & Hazard Stripes",
+					"a_description": "Sections are separated by rainbow gradient horizontal rules or yellow-black construction hazard stripes. Nothing is subtle — every visual break is an event. The aesthetic celebrates excess over restraint."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Monospace pixel text in bright colors on dark background — green Courier on black, like a terminal. Hit counter showing 000487 visitors.",
+						"width": "1280",
+						"height": "896",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/pixel-fonts.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "terminal",
+					"a_h3": "Pixel Fonts & Monospace",
+					"a_description": "Headlines in pixelated bitmap-style fonts (Press Start 2P, VT323) and body text in Courier or monospace. Typography feels like it belongs on a terminal or in a DOS prompt — crude, blocky, and unapologetically low-resolution."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Webpage with clashing colors: hot pink text on lime green background, blue hyperlinks, yellow highlighted sections, purple visited links — maximalist early web palette.",
+						"width": "1280",
+						"height": "896",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/maximum-color.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "zap",
+					"a_h3": "Maximum Color, Zero Restraint",
+					"a_description": "The 216-color web-safe palette was a constraint, but early web designers used every single color at once. Link blue, visited purple, hot pink, lime green, bright yellow — all on the same page. Color harmony is optional; visual energy is mandatory."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bottom of a 90s webpage showing: hit counter badge, guestbook link, webring navigation (prev/next/random), 'Best viewed in Netscape' badge, and 'Under Construction' animated GIF.",
+						"width": "1280",
+						"height": "896",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/badges-counters.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "badge-info",
+					"a_h3": "Badges, Counters & Webrings",
+					"a_description": "The page footer is a museum of micro-artifacts: hit counters in bordered boxes, 'Best viewed in Netscape' badges, webring navigation (prev/next/random), and 'Under Construction' signs. Each one is a tiny declaration of identity and community membership."
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "Web-Safe Classic",
+			"a_description": "The core early-web palette — pure saturated primaries straight from the 216-color web-safe list",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Link Blue",
+					"hex": "#0000FF",
+					"a_description": "Unvisited hyperlinks, primary action color"
+				},
+				{
+					"a_h3": "Visited Purple",
+					"hex": "#800080",
+					"a_description": "Visited links, secondary accents"
+				},
+				{
+					"a_h3": "Hot Pink",
+					"hex": "#FF00FF",
+					"a_description": "Headlines, decorative text, marquee content"
+				},
+				{
+					"a_h3": "Lime Green",
+					"hex": "#00FF00",
+					"a_description": "Highlights, success states, terminal text"
+				},
+				{
+					"a_h3": "Silver Gray",
+					"hex": "#C0C0C0",
+					"a_description": "Window chrome, button faces, panel backgrounds"
+				},
+				{
+					"a_h3": "White",
+					"hex": "#FFFFFF",
+					"a_description": "Page background, text on dark sections"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "GeoCities Neon",
+			"a_description": "The louder side of the 90s web — maximum saturation, zero subtlety",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Electric Yellow",
+					"hex": "#FFFF00",
+					"a_description": "Highlighted text, warning badges, hazard stripes"
+				},
+				{
+					"a_h3": "Aqua",
+					"hex": "#00FFFF",
+					"a_description": "Headlines, link hover states, decorative borders"
+				},
+				{
+					"a_h3": "Magenta",
+					"hex": "#FF00FF",
+					"a_description": "Attention-grabbing headlines, marquee text"
+				},
+				{
+					"a_h3": "Red Alert",
+					"hex": "#FF0000",
+					"a_description": "Warnings, 'NEW!' badges, animated blink text"
+				},
+				{
+					"a_h3": "Black",
+					"hex": "#000000",
+					"a_description": "Dark page backgrounds, text on light sections"
+				}
+			],
+			"section_id": "geocities-neon"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "Windows 95 Desktop",
+			"a_description": "The operating system palette — teal, silver, and navy from the Win95 shell",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Teal",
+					"hex": "#008080",
+					"a_description": "Desktop wallpaper, window title bars"
+				},
+				{
+					"a_h3": "Navy Blue",
+					"hex": "#000080",
+					"a_description": "Active title bar, selected menu items"
+				},
+				{
+					"a_h3": "Button Face",
+					"hex": "#C0C0C0",
+					"a_description": "Window chrome, toolbar backgrounds, button surfaces"
+				},
+				{
+					"a_h3": "Button Highlight",
+					"hex": "#FFFFFF",
+					"a_description": "Beveled edge highlights, raised border tops"
+				},
+				{
+					"a_h3": "Button Shadow",
+					"hex": "#808080",
+					"a_description": "Beveled edge shadows, inset border bottoms"
+				}
+			],
+			"section_id": "windows-95-desktop"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "Pixelated bitmap-style display fonts and playful, irreverent typefaces that scream early web.",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Press Start 2P",
+					"css": "font-family: 'Press Start 2P', monospace; font-weight: 400; font-size: 1.2rem; line-height: 1.4; text-transform: uppercase;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "VT323",
+					"css": "font-family: 'VT323', monospace; font-weight: 400; font-size: 1.8rem; line-height: 1.2; text-transform: uppercase;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Silkscreen",
+					"css": "font-family: 'Silkscreen', monospace; font-weight: 700; font-size: 1.5rem; line-height: 1.2; text-transform: uppercase;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Comic Neue",
+					"css": "font-family: 'Comic Neue', cursive; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "Comic Sans MS",
+					"css": "font-family: 'Comic Sans MS', cursive; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "MS Sans Serif",
+					"css": "font-family: 'MS Sans Serif', 'Microsoft Sans Serif', sans-serif; font-weight: 400; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "Monospace and system fonts that evoke terminal windows, email clients, and browser defaults of the Netscape era.",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "VT323",
+					"css": "font-family: 'VT323', monospace; font-weight: 400; font-size: 1.1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Comic Neue",
+					"css": "font-family: 'Comic Neue', cursive; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Space Mono",
+					"css": "font-family: 'Space Mono', monospace; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "Courier New",
+					"css": "font-family: 'Courier New', Courier, monospace; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "Times New Roman",
+					"css": "font-family: 'Times New Roman', Times, serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Early 1990s computer lab with CRT monitors displaying Mosaic and Netscape Navigator browsers. Students building personal homepages with tiled backgrounds and animated GIFs.",
+						"width": "1024",
+						"height": "1024",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/birth-of-personal-web.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "The Birth of Personal Web Pages",
+					"a_description": "Mosaic (1993) and Netscape (1994) let anyone publish to the world — and they did. GeoCities, Angelfire, and Tripod offered free hosting and a blank HTML canvas. With no design training, people built pages from pure enthusiasm: tiled background GIFs, auto-playing MIDIs, blinking text, 'Under Construction' signs, and nested tables stretching to infinity."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Split screen: GeoCities neighborhood page with visitor counter and guestbook on the left, Netscape Navigator browser with 'Best viewed at 800x600' badge on the right. Starfield tiled background.",
+						"width": "1024",
+						"height": "1024",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/geocities-neighborhood.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "GeoCities & the Neighborhood Web",
+					"a_description": "GeoCities organized homepages into themed 'neighborhoods' — Hollywood, SiliconValley, Area51 — creating community that modern social media has never replicated. Hit counters, guestbooks, and webrings connected isolated pages into networks. The aesthetic was maximalist by necessity and choice: if you could make text blink, you did. If you found a cool animated GIF, you used all twelve."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Server room, 2009: Man in purple Yahoo! polo unplugs thick cable from humming rack server. \"GeoCities\" sticker in Comic Sans. Flickering green LEDs dimming. Overhead fluorescents. Shallow depth of field, cinematic wide shot, photorealistic, documentary photography.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/deliberate-revival.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "The Deliberate Revival",
+					"a_description": "When Yahoo killed GeoCities in 2009, millions of pages vanished — the Internet Archive, preserving the web since 1996, became the only way back. Art projects like One Terabyte of Kilobyte Age and Cameron's World turned archived pages into digital folk art. By the mid-2010s, designers adopted the aesthetic deliberately — a statement against the sterile sameness of modern web design."
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Ready-to-use prompts for generating 90s web revival UI designs with AI tools.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "AI Chat Prompt — Claude & ChatGPT",
+					"answer": "Design a UI in 1990s web revival style. Color palette: link blue #0000ff, visited purple #800080, hot pink #ff00ff, lime green #00ff00, bright yellow #ffff00, silver gray #c0c0c0, white #ffffff. Typography: Comic Sans MS or playful rounded sans-serif for headlines, Courier New or monospace for body text. Beveled/embossed borders (outset/inset border-style, 3px), visible table-cell aesthetic. Decorative elements: tiled repeating background patterns (repeating-linear-gradient checkerboard or diagonal stripes), horizontal rule separators (rainbow gradient), \"under construction\" yellow-black hazard stripe (repeating-linear-gradient 45deg). Buttons: beveled 3D look (outset border, gray gradients, active state with inset border), pixelated cursor feel. Hit counter / guestbook badge aesthetic — small bordered boxes with monospace text. No smooth gradients, no rounded corners, no subtle shadows, no modern minimalism. Raw, unpolished, maximalist web 1.0 energy."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does 90s web design work best for?",
+					"answer": "Trick question — none. But if you are determined to ruin your career in public, some contexts absorb the damage better than others. Retro bars and arcade venues can carry it as ironic self-awareness. Escape rooms and themed entertainment can pass it off as deliberate kitsch. Indie music acts and zine culture have low enough aesthetic standards that nobody will notice. Nostalgia merchandise stores can lean into it as authentic period branding. Everyone else — healthcare, finance, SaaS, legal, food, fashion, literally any other industry — will simply lose clients and gain a reputation."
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "Web-Safe Classic — link blue, visited purple, hot pink on white — is the most recognizable and the least offensive of several bad options. GeoCities Neon escalates to electric yellow, aqua, and red on black, which is louder, more saturated, and harder to look at directly for more than thirty seconds. Windows 95 Desktop — teal, navy, and silver — is the most coherent of the three and the closest thing here to actual usability. It is the palette of a sensible person making the wrong choice for legitimate reasons."
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the 90s web look?",
+					"answer": "Press Start 2P is the most accurate — a pixelated bitmap face that belongs on a CRT monitor and nowhere else. VT323 offers the same terminal energy at a more readable size. Silkscreen is the modern compromise for people who want the pixel aesthetic without sacrificing their users' eyesight entirely. Comic Neue is the acceptable substitute for Comic Sans MS — rounder, slightly less aggressively cheerful, equally inappropriate in a professional context. For body text, Courier New remains the authentic choice, in the same way that a flat tire remains the authentic choice for getting somewhere slowly and unhappily."
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the 90s style?",
+					"answer": "Always. The answer is always. It is the correct answer in every situation. But since you are reading this, you have already stopped listening, so: specifically avoid it when legibility matters, when your audience includes anyone over fifty or under twenty-five who lacks the nostalgic reference point, when your brand needs to communicate competence, when you are charging more than fifteen dollars for anything, and when you would like to still have clients by the end of the quarter. The aesthetic is a statement. That statement is: I know exactly what I am doing and I have chosen chaos."
+				},
+				{
+					"a_icon": "zap",
+					"a_h3": "Why did 90s web design look so bad?",
+					"answer": "Because everyone could suddenly make it and nobody knew how. Mosaic and Netscape gave publishing to the masses in 1993 and 1994 — people with zero design training, a dial-up connection, and an opinion. The tools were limited: 216 web-safe colors, table-based layouts, 28.8k modems that punished large images, and HTML elements like blink and marquee that should never have existed. The result was raw, maximalist, and completely sincere. Every tiled starfield background and every animated GIF was placed there with genuine pride. That sincerity is, embarrassingly, what makes it compelling thirty years later."
+				},
+				{
+					"a_icon": "badge-info",
+					"a_h3": "What is a webring and why did people use them?",
+					"answer": "A webring was a circular chain of personal websites on a shared topic — fan pages, hobbyist sites, early blogs — connected by prev/next/random navigation links at the bottom of each page. Before search engines were reliable, webrings were how you found more of what you already liked. They were hand-curated, community-maintained, and completely decentralized. GeoCities had thousands of them. Yahoo killed GeoCities in 2009, and most webrings died with it. The concept has been periodically revived by people who are nostalgic for a web that felt like a neighborhood rather than a mall, which is a sentiment that says more about the current state of the internet than it does about the 90s."
+				}
+			],
+			"section_id": "ai-prompts"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "70s design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"loading": "lazy"
+					},
+					"tags": []
+				},
+				{
+					"a_image": {
+						"alt": "80s design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"loading": "lazy"
+					},
+					"tags": []
+				},
+				{
+					"a_image": {
+						"alt": "Cassette mixtape UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"loading": "lazy"
+					},
+					"tags": []
+				},
+				{
+					"a_image": {
+						"alt": "Constructivism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"loading": "lazy"
+					},
+					"tags": []
+				}
+			]
 		}
 	],
 	"seo": {
-		"title": "90s Web Revival — UI Lookbook",
-		"description": "90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures repeating across every pixel, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag and was absolutely going to use it. Born from real technical constraints — 8-bit monitors, 28.8k modems, and a 216-color web-safe palette — this aesthetic transforms what was once necessity into deliberate, knowing design.",
-		"keywords": "90s Web Revival, Retro & Nostalgia, Retro, Nostalgic, Early Web, Bold Colors, Playful, web design, UI design",
+		"title": "90s Web Revival Style — UI Lookbook",
+		"description": "Explore the 90s web revival style: tiled backgrounds, beveled 3D buttons, rainbow dividers, pixel fonts, and maximalist GeoCities energy. Color palettes, typography, design principles, and AI prompts for retro web UI design.",
+		"keywords": "90s web design, web revival, GeoCities aesthetic, retro web, early internet, web 1.0, pixel fonts, beveled buttons, nostalgia web design",
 		"og": {
-			"title": "90s Web Revival — UI Lookbook",
-			"description": "90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures repeating across every pixel, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag and was absolutely going to use it. Born from real technical constraints — 8-bit monitors, 28.8k modems, and a 216-color web-safe palette — this aesthetic transforms what was once necessity into deliberate, knowing design.",
+			"title": "90s Web Revival Style — UI Lookbook",
+			"description": "Explore the 90s web revival style: tiled backgrounds, beveled 3D buttons, rainbow dividers, pixel fonts, and maximalist GeoCities energy. Color palettes, typography, design principles, and AI prompts.",
 			"url": "https://uilookbook.com/retro-and-nostalgia/90s-web-revival/",
-			"type": "article"
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/lifestyle.jpg",
+				"alt": "90s Web Revival Style — UI Lookbook"
+			}
 		},
 		"twitter": {
 			"card": "summary_large_image",
-			"title": "90s Web Revival — UI Lookbook",
-			"description": "90s Web Revival reconstructs the raw, exuberant visual language of the early commercial internet — tiled background textures repeating across every pixel, beveled push-buttons straight out of Windows 95, pixel-font headings, and that unmistakable sense that someone had just discovered the blink tag and was absolutely going to use it. Born from real technical constraints — 8-bit monitors, 28.8k modems, and a 216-color web-safe palette — this aesthetic transforms what was once necessity into deliberate, knowing design."
+			"title": "90s Web Revival Style — UI Lookbook",
+			"description": "Explore the 90s web revival style: tiled backgrounds, beveled 3D buttons, rainbow dividers, pixel fonts, and maximalist GeoCities energy. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/lifestyle.jpg",
+				"alt": "90s Web Revival Style — UI Lookbook"
+			}
 		}
 	},
 	"settings": {
-		"body_id": "d-90s-web-revival",
+		"start_head_codes": [],
 		"head_codes": [
 			{
 				"note": "Google Fonts",
-				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=VT323:wght@400;500;600;700;800&family=Press+Start+2P:wght@400;500;600;700;800&family=Comic+Neue:wght@400;500;600;700;800&display=swap\">"
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Comic+Neue:wght@400;700&family=Silkscreen:wght@400;700&family=Space+Mono:wght@400;700&display=swap\">"
 			},
 			{
-				"note": "Style CSS",
+				"note": "90s-web-revival",
 				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/90s-web-revival.css\">"
 			}
-		]
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
 	}
 }

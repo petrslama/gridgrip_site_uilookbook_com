@@ -12,7 +12,7 @@
 					"href": "/retro-and-nostalgia/"
 				},
 				{
-					"text": "70s Design"
+					"text": "70s Design Style"
 				}
 			]
 		},
@@ -20,12 +20,13 @@
 			"fu_type": "o_hero",
 			"a_image": {
 				"alt": "Mood board collage, scattered composition, multiple small illustrations. Scenes include: vinyl record shop, music store interior, craft beer label, artisan food brand packaging, vintage furniture showroom, home goods display, soul & funk music event poster, analog photography platform UI, retro-revival consumer brand identity, hot sauce bottle label, specialty condiments shelf, editorial culture magazine cover. 70s retro aesthetic, burnt orange, harvest gold, avocado green, warm cream. Flat graphic design, no photorealism. Do not use any text.",
-				"width": "600",
-				"height": "400",
-				"src": "/assets/imgs/retro-and-nostalgia/70s-design/lifestyle.jpg"
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/retro-and-nostalgia/70s-design/lifestyle.jpg",
+				"loading": "eager"
 			},
 			"a_eyebrow": "Earth Tones · Slab Serif · Groovy · Warm · Retro · Organic",
-			"a_h1": "70s Design",
+			"a_h1": "70s Design Style",
 			"a_description": "Harvest gold, avocado green, and burnt orange on warm cream — the unmistakable palette of 1970s America, where earth tones, slab serifs, and sunburst motifs turned every surface into a celebration of organic warmth.",
 			"m_buttons": [
 				{
@@ -51,7 +52,10 @@
 				{
 					"a_image_cover": {
 						"alt": "Flat vector illustration: 70s retro vinyl shop, warm earth tones (burnt orange, harvest gold, avocado green, cream). Slab serif sign, sunburst window, potted plants. Adjacent craft beer bar, hand-lettered menu. Mid-century armchair, crates outside. Soul music poster, analog prints. Magazine rack, hot sauce bottles. Organic shapes, rounded corners.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "music",
 					"a_h3": "Music & Events",
@@ -60,7 +64,10 @@
 				{
 					"a_image_cover": {
 						"alt": "Flat vector illustration of a craft beer taproom and artisan food market in 70s retro style. Earth-tone palette: burnt orange, harvest gold, avocado green on warm cream. Hand-lettered chalkboard menu, hot sauce bottles with retro labels on wooden shelves, specialty condiment jars, artisan bread and cheese display. Sunburst wall art, macramé plant hangers, warm ambient lighting. 70s aesthetic, organic shapes, rounded corners, no photorealism, no text except menu board.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases-food.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases-food.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "beer",
 					"a_h3": "Food & Drink",
@@ -69,11 +76,87 @@
 				{
 					"a_image_cover": {
 						"alt": "Flat vector illustration of a vintage lifestyle concept in 70s retro style. Earth-tone palette: burnt orange, harvest gold, avocado green on warm cream. Mid-century modern furniture showroom with teak sideboard and velvet armchair. Analog film camera on a shelf, stack of culture and editorial magazines, vinyl records leaning against a wall. Retro-branded packaging and shopping bags. Macramé wall hanging, potted ferns. 70s aesthetic, organic shapes, rounded corners, no photorealism, no text except magazine covers.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases-lifestyle.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases-lifestyle.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "armchair",
 					"a_h3": "Lifestyle & Culture",
 					"a_description": "Vintage furniture, Home goods, Analog photography platforms, Retro-revival consumer brands, Editorial & culture magazines"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "Design a UI in 1970s retro style. Color palette: burnt orange #d95b2b, harvest gold #e8a838, avocado green #6b7c3e, dark brown #3a2518, warm cream #faf3e6. Typography: Alfa Slab One or heavy slab-serif for headlines, DM Sans or clean humanist sans for body text. Rounded corners throughout (border-radius 16–40px). Decorative elements: sunburst / radial patterns (repeating-conic-gradient), subtle gradient backgrounds with warm radial glows. Buttons: fully rounded pill shape (40px radius), burnt orange primary. Bottom accent stripe: 3-color band in orange / gold / green. No sharp angles, no cold colors, no flat minimalism. Warm paper texture feeling.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Good Harvest House — 70s retro style UI",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/70s-design/good-harvest-house.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/70s-design/good-harvest-house.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Food Brand",
+						"Hero",
+						"Features Grid",
+						"Cards"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Sunburst Studio — 70s retro style UI",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/70s-design/sunburst-studio.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/70s-design/sunburst-studio.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Creative Studio",
+						"Portfolio",
+						"Sunburst Hero",
+						"Case Studies"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Groove 'n' Glow — 70s retro style UI",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/70s-design/groove-n-glow.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/70s-design/groove-n-glow.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Lifestyle Brand",
+						"Hero",
+						"Features",
+						"Card Stack"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Groove & Co. — 70s retro style UI",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/70s-design/groove-co.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/70s-design/groove-co.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Vinyl Record Shop",
+						"Hero",
+						"Featured Records",
+						"Location Cards",
+						"Newsletter"
+					]
 				}
 			]
 		},
@@ -86,7 +169,10 @@
 				{
 					"a_image_cover": {
 						"alt": "A warm earth-tone color palette swatch board: burnt orange, harvest gold, avocado green, dark brown on cream background. Natural pigments, organic warmth, no cold or synthetic colors. 70s retro aesthetic, analog texture. Flat graphic design, high detail, clean edges, no photorealism. No text, no labels, no typography.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/earth-tones.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/earth-tones.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "leaf",
 					"a_h3": "Earth Over Artificial",
@@ -95,7 +181,10 @@
 				{
 					"a_image_cover": {
 						"alt": "Alfa Slab One style, 70s retro poster. Massive bracketed serifs, burnt orange on warm cream. Headlines as bold, decorative graphic events. Flat design, high detail, crisp edges.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/slab-serif.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/slab-serif.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "type",
 					"a_h3": "Slab Serif Dominance",
@@ -104,7 +193,10 @@
 				{
 					"a_image_cover": {
 						"alt": "Radial sunburst pattern in harvest gold and burnt orange on cream background. Concentric rings, decorative geometry, 70s retro optimism. Warm, symmetrical, poster-like composition. Flat graphic design, high detail, clean edges, no photorealism.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/sunburst.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/sunburst.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "sun",
 					"a_h3": "Sunburst Geometry",
@@ -113,7 +205,10 @@
 				{
 					"a_image_cover": {
 						"alt": "Inviting 70s retro UI, burnt orange on warm cream. Pill buttons, rounded cards, soft shadows. Large border-radius, no sharp edges. Flat graphic, high detail, clean. Only use the words \"UI\", \"Look\", and \"Book\" as text, no other words.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/soft-shapes.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/soft-shapes.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "heart",
 					"a_h3": "Warmth as Philosophy",
@@ -122,7 +217,10 @@
 				{
 					"a_image_cover": {
 						"alt": "Tactile close-up of aged, creased paper grain, warm oak wood grain, and rough macramé fibers. Earthy brown palette, analog materiality, 70s handcraft feel. Flat graphic design, sharp detail, crisp edges, non-photorealistic.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/texture.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/texture.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "hand",
 					"a_h3": "Tactile Surface",
@@ -131,41 +229,16 @@
 				{
 					"a_image_cover": {
 						"alt": "Flowing curves, wave patterns, and fluid organic forms in avocado green and harvest gold. No straight lines, relaxed swaying energy. 70s psychedelic motion, retro poster composition. Flat graphic design, high detail, clean edges, no photorealism.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/groovy.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/groovy.jpg",
+						"loading": "lazy"
 					},
 					"a_icon": "waves",
 					"a_h3": "Groovy Motion",
 					"a_description": "Curves, waves, and fluid forms replace straight lines. Even static layouts suggest movement — a relaxed, swaying energy that the decade embodied."
 				}
 			]
-		},
-		{
-			"fu_type": "o_faq",
-			"a_h2": "AI Prompts",
-			"a_description": "Ready-to-use prompts for generating 70s retro UI designs with AI tools.",
-			"items": [
-				{
-					"a_icon": "bot",
-					"a_h3": "AI Chat Prompt — Claude & ChatGPT",
-					"answer": "Design a UI in 1970s retro style. Color palette: burnt orange #d95b2b, harvest gold #e8a838, avocado green #6b7c3e, dark brown #3a2518, warm cream #faf3e6. Typography: Alfa Slab One or heavy slab-serif for headlines, DM Sans or clean humanist sans for body text. Rounded corners throughout (border-radius 16–40px). Decorative elements: sunburst / radial patterns (repeating-conic-gradient), subtle gradient backgrounds with warm radial glows. Buttons: fully rounded pill shape (40px radius), burnt orange primary. Bottom accent stripe: 3-color band in orange / gold / green. No sharp angles, no cold colors, no flat minimalism. Warm paper texture feeling."
-				},
-				{
-					"a_icon": "wand-sparkles",
-					"a_h3": "Image Prompt for Flux",
-					"answer": "A website UI mockup in 1970s retro design style. Earth tone color palette: burnt orange #d95b2b, harvest gold #e8a838, avocado green #6b7c3e on warm cream #faf3e6 background. Heavy slab serif headlines (Alfa Slab One style), clean sans-serif body text. Decorative sunburst radial patterns, rounded corners on all elements, pill-shaped buttons with fully rounded edges. Three-color accent stripe at the bottom in orange, gold, and green. Paper texture feeling, organic shapes, no sharp angles, no cold colors. Warm, analog, handcrafted aesthetic."
-				},
-				{
-					"a_icon": "file-code",
-					"a_h3": "What Claude & ChatGPT Created",
-					"answer": "HTML pages generated from the AI chat prompt: <a href=\"/assets/gallery/retro-and-nostalgia/70s-design-good-harvest-house.html\">Good Harvest House</a> · <a href=\"/assets/gallery/retro-and-nostalgia/70s-design-sunburst-studio.html\">Sunburst Studio</a> · <a href=\"/assets/gallery/retro-and-nostalgia/70s-design-groove-n-glow.html\">Groove ’n’ Glow</a>"
-				},
-				{
-					"a_icon": "image",
-					"a_h3": "What Flux Created",
-					"answer": "Image gallery coming soon."
-				}
-			],
-			"section_id": "ai-prompts"
 		},
 		{
 			"fu_type": "o_color_palette",
@@ -388,7 +461,10 @@
 				{
 					"a_image_cover": {
 						"alt": "Flat vector illustration: 1970s cultural shift scene. Split composition — left side shows clean 1960s modernist interior (white, geometric, chrome), right side transforms into warm 70s living room with earth tones, macramé, potted ferns, shag carpet. Oil crisis protest poster on wall, environmental movement stickers. Handmade pottery, natural wood furniture. Palette: burnt orange, harvest gold, avocado green on warm cream. Organic shapes, no photorealism.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/history-origins.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/history-origins.jpg",
+						"loading": "lazy"
 					},
 					"a_h3": "Reaction to Modernism",
 					"a_description": "The visual language of the 1970s emerged as a direct reaction to the utopian modernism of the 1950s and ‘60s. Where the previous decade had idealized clean lines, white space, and technological optimism, the ‘70s turned toward organic forms, earth pigments, and tactile warmth. The oil crisis, environmental movement, and growing disillusionment with industrial progress gave designers and consumers alike a reason to romanticize the handmade, the natural, and the rooted."
@@ -396,18 +472,83 @@
 				{
 					"a_image_cover": {
 						"alt": "Flat vector illustration of a 1970s graphic design studio. A designer leans over a large drafting table, working on a 12-inch vinyl LP sleeve featuring a single bold sunburst radial pattern. Vinyl record sleeves pinned to the wall behind them. Color swatches and ink jars on the desk. Earth tones — harvest gold, avocado green, burnt orange, warm brown — on a warm cream background. Organic shapes, clean composition, no photorealism, no text.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/history-design.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/history-design.jpg",
+						"loading": "lazy"
 					},
 					"a_h3": "Album Art & Graphic Design",
-					"a_description": "Graphic design reflected this cultural shift through heavy slab-serif typefaces, radial sunburst patterns, and a color vocabulary pulled from the American kitchen: harvest gold, avocado green, burnt orange, and warm brown. Album cover design, in particular, became the era’s most expressive medium — artists like Paula Scher and the teams at Atlantic and Columbia Records turned 12-inch sleeves into miniature posters that defined the aesthetic for an entire generation."
+					"a_description": "Graphic design reflected this cultural shift through heavy slab-serif typefaces, radial sunburst patterns, and a color vocabulary pulled from the American kitchen: harvest gold, avocado green, burnt orange, and warm brown. Album cover design, in particular, became the era’s most expressive medium — artists like Paula Scher at CBS Records and the design teams at Atlantic Records turned 12-inch sleeves into miniature posters that defined the aesthetic for an entire generation."
 				},
 				{
 					"a_image_cover": {
 						"alt": "Flat vector illustration: modern 2020s street scene with 70s revival elements. Craft beer brewery with retro sunburst logo, food truck with earth-tone branding, vinyl record shop with harvest gold awning. Hot sauce bottles with 70s-style labels in shop window. Artisanal bakery with hand-lettered slab-serif sign. Modern people, vintage aesthetic. Palette: burnt orange, harvest gold, avocado green on warm cream. Organic shapes, no photorealism.",
-						"src": "/assets/imgs/retro-and-nostalgia/70s-design/history-revival.jpg"
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/70s-design/history-revival.jpg",
+						"loading": "lazy"
 					},
 					"a_h3": "The Modern Revival",
 					"a_description": "The 70s revival that began in the early 2010s has never truly faded. What started as a craft beer and artisanal food trend has become a durable design vocabulary for any brand that wants to signal authenticity over polish, handcraft over algorithm, and warmth over efficiency. The sunburst still appears on hot sauce labels, vinyl shop windows, and food truck menus — a shorthand for \"we care about the real thing.\""
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about 70s design style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a 70s retro website?",
+					"answer": "Design a UI in 1970s retro style. Color palette: burnt orange #d95b2b, harvest gold #e8a838, avocado green #6b7c3e, dark brown #3a2518, warm cream #faf3e6. Typography: Alfa Slab One or heavy slab-serif for headlines, DM Sans or clean humanist sans for body text. Rounded corners throughout (border-radius 16–40px). Decorative elements: sunburst / radial patterns (repeating-conic-gradient), subtle gradient backgrounds with warm radial glows. Buttons: fully rounded pill shape (40px radius), burnt orange primary. Bottom accent stripe: 3-color band in orange / gold / green. No sharp angles, no cold colors, no flat minimalism. Warm paper texture feeling."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does 70s design work best for?",
+					"answer": "Food and drink brands — craft beer, hot sauce, artisan condiments — benefit most, as the style signals handcraft and authenticity. It also works well for music venues and vinyl shops, vintage furniture and home goods, lifestyle and culture publications, and any brand that wants to feel rooted, analog, and counter-corporate. It is less suited to fintech, SaaS, or any context where clinical precision and modernity are expected."
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "The Recommended Palette — burnt orange, harvest gold, avocado green on warm cream — is the versatile default and covers most use cases. Deep Harvest shifts to richer, more saturated tones like paprika and amber, suited to premium or vintage-positioned brands. Psychedelic 70s pushes saturation further with hot tangerine, sunflower, and olive, and adds plum for a festival-poster energy closer to album art than consumer branding."
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the 70s style?",
+					"answer": "Avoid it when your brand needs to communicate precision, innovation, or clinical trust — healthcare, finance, enterprise software, and deep tech are poor fits. It also struggles in contexts where a clean, minimal aesthetic is expected by the audience, such as productivity tools or professional services. If your brand has no genuine connection to craft, warmth, or analog culture, the style can read as forced nostalgia rather than authentic character."
+				},
+				{
+					"a_icon": "leaf",
+					"a_h3": "Why did earth tones dominate 1970s design?",
+					"answer": "The palette was a cultural response. The oil crisis and the growing environmental movement pushed designers and consumers away from the synthetic optimism of 1960s modernism — chrome, white, and primary colors — toward natural, organic references. Harvest gold, avocado green, and burnt orange were drawn from soil, spice, and harvest, signalling a desire for warmth, handcraft, and a reconnection with the natural world after a decade of industrial idealism."
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the 70s look?",
+					"answer": "Heavy slab serifs are the defining typographic choice. Alfa Slab One is the closest free match — its thick bracketed serifs and bold presence make headlines feel like graphic events. Roboto Slab and Zilla Slab work well at smaller sizes. For display use, Calistoga and Playfair Display add period warmth. For body text, pair with a clean humanist sans like DM Sans or Merriweather to balance the heaviness of the headline font."
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "80s design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg",
+						"href": "/retro-and-nostalgia/80s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgia",
+						"Bold Colors"
+					]
 				}
 			]
 		}
@@ -420,12 +561,20 @@
 			"title": "70s Design Style — UI Lookbook",
 			"description": "Explore the 70s design style: harvest gold, burnt orange, avocado green, slab serifs, and sunburst motifs. Color palettes, typography, design principles, and AI prompts.",
 			"url": "https://uilookbook.com/retro-and-nostalgia/70s-design/",
-			"type": "article"
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/70s-design/lifestyle.jpg",
+				"alt": "70s Design Style — UI Lookbook"
+			}
 		},
 		"twitter": {
 			"card": "summary_large_image",
 			"title": "70s Design Style — UI Lookbook",
-			"description": "Explore the 70s design style: harvest gold, burnt orange, avocado green, slab serifs, and sunburst motifs. Color palettes, typography, design principles, and AI prompts."
+			"description": "Explore the 70s design style: harvest gold, burnt orange, avocado green, slab serifs, and sunburst motifs. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/70s-design/lifestyle.jpg",
+				"alt": "70s Design Style — UI Lookbook"
+			}
 		}
 	},
 	"settings": {

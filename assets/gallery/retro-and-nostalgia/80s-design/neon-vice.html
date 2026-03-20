@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON VICE — Detective Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --magenta: #ff2d95;
+            --cyan:    #00f0ff;
+            --purple:  #b026ff;
+            --orange:  #ff6a00;
+            --void:    #120025;
+
+            --glow-magenta: 0 0 20px rgba(255, 45, 149, 0.6);
+            --glow-cyan:    0 0 20px rgba(0, 240, 255, 0.6);
+            --glow-purple:  0 0 20px rgba(176, 38, 255, 0.6);
+            --glow-orange:  0 0 20px rgba(255, 106, 0, 0.6);
+
+            --font-display: 'Orbitron', sans-serif;
+            --font-body:    'Exo 2', sans-serif;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--void);
+            color: var(--cyan);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ── CRT SCANLINES ───────────────────────────── */
+        .crt-overlay {
+            position: fixed;
+            inset: 0;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.07) 2px,
+                rgba(0, 0, 0, 0.07) 4px
+            );
+            pointer-events: none;
+            z-index: 9999;
+            animation: crt-flicker 9s linear infinite;
+        }
+
+        @keyframes crt-flicker {
+            0%, 93%, 96%, 100% { opacity: 1; }
+            94%                { opacity: 0.88; }
+            95%                { opacity: 0.96; }
+        }
+
+        /* ── HERO ────────────────────────────────────── */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            min-height: 740px;
+            background: var(--void);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Starfield */
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60%;
+            z-index: 0;
+            background:
+                radial-gradient(1px 1px at  8% 11%, rgba(255,255,255,.9) 0%, transparent 60%),
+                radial-gradient(2px 2px at 22%  6%, rgba(0,240,255,.75)  0%, transparent 60%),
+                radial-gradient(1px 1px at 38% 19%, rgba(176,38,255,.7)  0%, transparent 60%),
+                radial-gradient(2px 2px at 55%  9%, rgba(255,255,255,.6) 0%, transparent 60%),
+                radial-gradient(1px 1px at 71% 23%, rgba(255,45,149,.8)  0%, transparent 60%),
+                radial-gradient(2px 2px at 87%  5%, rgba(0,240,255,.85)  0%, transparent 60%),
+                radial-gradient(1px 1px at 95% 29%, rgba(255,255,255,.5) 0%, transparent 60%),
+                radial-gradient(1px 1px at  3% 40%, rgba(176,38,255,.55) 0%, transparent 60%),
+                radial-gradient(1px 1px at 32% 33%, rgba(255,255,255,.7) 0%, transparent 60%),
+                radial-gradient(2px 2px at 62% 43%, rgba(0,240,255,.45)  0%, transparent 60%),
+                radial-gradient(1px 1px at 80% 36%, rgba(255,45,149,.6)  0%, transparent 60%),
+                radial-gradient(1px 1px at 15% 50%, rgba(255,255,255,.4) 0%, transparent 60%),
+                radial-gradient(1px 1px at 48% 27%, rgba(176,38,255,.5)  0%, transparent 60%),
+                radial-gradient(1px 1px at 76% 14%, rgba(255,255,255,.6) 0%, transparent 60%),
+                radial-gradient(2px 2px at 44% 47%, rgba(0,240,255,.35)  0%, transparent 60%);
+        }
+
+        /* Outrun sunset orb */
+        .sunset {
+            position: absolute;
+            top: 8%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 480px;
+            height: 480px;
+            border-radius: 50%;
+            background: linear-gradient(
+                180deg,
+                #ff9500  0%,
+                #ff6a00 12%,
+                #ff3d00 24%,
+                #ff2d95 44%,
+                #c020d8 63%,
+                #b026ff 74%,
+                var(--void) 92%
+            );
+            box-shadow:
+                0 0  80px rgba(255, 106,  0, 0.35),
+                0 0 160px rgba(255,  45,149, 0.20),
+                0 0 260px rgba(176,  38,255, 0.12);
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        /* Horizontal stripe cutout — classic outrun lower half */
+        .sunset::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 52%;
+            background: repeating-linear-gradient(
+                180deg,
+                transparent       0px,
+                transparent       9px,
+                var(--void)       9px,
+                var(--void)      13px
+            );
+        }
+
+        /* Perspective grid floor */
+        .grid-floor {
+            position: absolute;
+            bottom: 0;
+            left: -28%;
+            right: -28%;
+            height: 44%;
+            background:
+                repeating-linear-gradient(
+                    90deg,
+                    transparent                       0px,
+                    transparent                      99px,
+                    rgba(0, 240, 255, 0.24)          99px,
+                    rgba(0, 240, 255, 0.24)         100px
+                ),
+                repeating-linear-gradient(
+                    0deg,
+                    transparent                       0px,
+                    transparent                      59px,
+                    rgba(0, 240, 255, 0.24)          59px,
+                    rgba(0, 240, 255, 0.24)          60px
+                );
+            transform: perspective(580px) rotateX(62deg);
+            transform-origin: 50% 0%;
+            z-index: 2;
+            animation: grid-march 1.6s linear infinite;
+        }
+
+        @keyframes grid-march {
+            from { background-position: 0 0; }
+            to   { background-position: 0 60px; }
+        }
+
+        /* Horizon glow line */
+        .grid-horizon {
+            position: absolute;
+            bottom: 41%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--cyan);
+            box-shadow:
+                0 0  20px rgba(0, 240, 255, 0.7),
+                0 0  60px rgba(0, 240, 255, 0.4),
+                0 0 120px rgba(0, 240, 255, 0.2);
+            z-index: 3;
+        }
+
+        /* Atmospheric haze band */
+        .horizon-haze {
+            position: absolute;
+            bottom: 36%;
+            left: 0;
+            right: 0;
+            height: 90px;
+            background: linear-gradient(
+                180deg,
+                transparent                      0%,
+                rgba(255,  45, 149, 0.07)       35%,
+                rgba(176,  38, 255, 0.11)       65%,
+                transparent                    100%
+            );
+            filter: blur(14px);
+            z-index: 3;
+        }
+
+        /* Sweeping CRT scan beam */
+        .scan-beam {
+            position: absolute;
+            top: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(0, 240, 255, 0.25)  20%,
+                rgba(0, 240, 255, 0.55)  50%,
+                rgba(0, 240, 255, 0.25)  80%,
+                transparent
+            );
+            z-index: 8;
+            pointer-events: none;
+            animation: scan-sweep 7s linear infinite;
+        }
+
+        @keyframes scan-sweep {
+            from { top: -2px; }
+            to   { top: 100%; }
+        }
+
+        /* ── PALM TREES ──────────────────────────────── */
+        .palm {
+            position: absolute;
+            width: 280px;
+            height: 380px;
+        }
+
+        .palm__trunk {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 18px;
+            height: 240px;
+            background: linear-gradient(
+                to top,
+                #ff6a00   0%,
+                #ff2d95  35%,
+                #b026ff  65%,
+                rgba(176, 38, 255, 0.15) 100%
+            );
+            clip-path: polygon(18% 0%, 82% 0%, 100% 100%, 0% 100%);
+            filter: drop-shadow(0 0 10px rgba(255, 106, 0, 0.55));
+        }
+
+        /* Crown = rotation origin at trunk top */
+        .palm__crown {
+            position: absolute;
+            bottom: 240px;
+            left: 50%;
+            width: 0;
+            height: 0;
+        }
+
+        .palm__frond {
+            position: absolute;
+            top: -9px;
+            left: 0;
+            width: 130px;
+            height: 18px;
+            transform-origin: 0% 50%;
+            clip-path: polygon(0% 30%, 0% 70%, 82% 62%, 100% 50%, 82% 38%);
+            transition: filter 0.3s;
+        }
+
+        .palm__frond:nth-child(odd) {
+            background: linear-gradient(
+                to right,
+                #b026ff                     0%,
+                rgba(176,  38, 255, 0.55)  55%,
+                transparent               100%
+            );
+            filter: drop-shadow(0 0 6px rgba(176, 38, 255, 0.75));
+        }
+
+        .palm__frond:nth-child(even) {
+            background: linear-gradient(
+                to right,
+                #ff2d95                     0%,
+                rgba(255,  45, 149, 0.50)  55%,
+                transparent               100%
+            );
+            filter: drop-shadow(0 0 6px rgba(255, 45, 149, 0.75));
+        }
+
+        /* 8 fronds fanning from upper-left to lower-right */
+        .palm__frond--1 { transform: rotate(-158deg) scale(0.68); }
+        .palm__frond--2 { transform: rotate(-133deg) scale(0.84); }
+        .palm__frond--3 { transform: rotate(-108deg) scale(1.00); }
+        .palm__frond--4 { transform: rotate( -83deg) scale(1.10); }
+        .palm__frond--5 { transform: rotate( -58deg) scale(1.04); }
+        .palm__frond--6 { transform: rotate( -33deg) scale(0.88); }
+        .palm__frond--7 { transform: rotate(  -8deg) scale(0.76); }
+        .palm__frond--8 { transform: rotate(  20deg) scale(0.60); }
+
+        /* Palm crown sway */
+        @keyframes palm-sway {
+            0%, 100% { transform: rotate(0deg); }
+            50%      { transform: rotate(1.8deg); }
+        }
+
+        /* Foreground palms */
+        .palm--left {
+            left: 0.5%;
+            bottom: 41%;
+            z-index: 4;
+
+            .palm__crown {
+                transform-origin: 50% 100%;
+                animation: palm-sway 5.5s ease-in-out infinite;
+            }
+        }
+
+        .palm--right {
+            right: 0.5%;
+            bottom: 41%;
+            z-index: 4;
+            transform: scaleX(-1);
+
+            .palm__crown {
+                transform-origin: 50% 100%;
+                animation: palm-sway 6.5s ease-in-out infinite reverse;
+            }
+        }
+
+        /* Background (depth) palms */
+        .palm--left-bg {
+            left: -3%;
+            bottom: 41%;
+            z-index: 3;
+            transform: scale(0.55);
+            transform-origin: bottom left;
+            opacity: 0.38;
+        }
+
+        .palm--right-bg {
+            right: -3%;
+            bottom: 41%;
+            z-index: 3;
+            transform: scale(0.55) scaleX(-1);
+            transform-origin: bottom right;
+            opacity: 0.38;
+        }
+
+        /* Vignette */
+        .vignette {
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(
+                ellipse 95% 90% at 50% 50%,
+                transparent          30%,
+                rgba(18, 0, 37, 0.6) 100%
+            );
+            pointer-events: none;
+            z-index: 6;
+        }
+
+        /* ── NAV ─────────────────────────────────────── */
+        .nav {
+            position: relative;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 56px;
+        }
+
+        .nav__logo {
+            font-family: var(--font-display);
+            font-size: .8rem;
+            font-weight: 900;
+            letter-spacing: .32em;
+            color: var(--magenta);
+            text-decoration: none;
+            text-transform: uppercase;
+            text-shadow: var(--glow-magenta);
+        }
+
+        .nav__links {
+            display: flex;
+            gap: 42px;
+            list-style: none;
+        }
+
+        .nav__links a {
+            font-family: var(--font-display);
+            font-size: .58rem;
+            letter-spacing: .24em;
+            color: rgba(0, 240, 255, .65);
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: color .3s, text-shadow .3s;
+
+            &:hover {
+                color: #fff;
+                text-shadow: var(--glow-cyan);
+            }
+        }
+
+        .nav__badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--font-display);
+            font-size: .58rem;
+            letter-spacing: .18em;
+            color: var(--orange);
+            text-shadow: var(--glow-orange);
+            text-transform: uppercase;
+
+            svg {
+                width: 15px;
+                height: 15px;
+                stroke: var(--orange);
+                filter: drop-shadow(0 0 6px rgba(255, 106, 0, .7));
+            }
+        }
+
+        /* ── HERO CONTENT ────────────────────────────── */
+        .hero__content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            margin-top: auto;
+            padding-bottom: 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .hero__eyebrow {
+            font-family: var(--font-display);
+            font-size: .62rem;
+            letter-spacing: .52em;
+            color: var(--orange);
+            text-shadow: var(--glow-orange);
+            text-transform: uppercase;
+        }
+
+        .hero__title {
+            font-family: var(--font-display);
+            font-size: clamp(3rem, 8.5vw, 6rem);
+            font-weight: 900;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            line-height: 1;
+            color: #fff;
+            text-shadow:
+                0 0  30px rgba(255,  45, 149, .85),
+                0 0  70px rgba(255,  45, 149, .45),
+                0 0 130px rgba(176,  38, 255, .30);
+            animation: title-pulse 3.5s ease-in-out infinite;
+        }
+
+        .hero__title-sub {
+            display: block;
+            font-size: .38em;
+            letter-spacing: .55em;
+            color: var(--magenta);
+            margin-top: 6px;
+        }
+
+        @keyframes title-pulse {
+            0%, 100% {
+                text-shadow:
+                    0 0  30px rgba(255,  45, 149, .85),
+                    0 0  70px rgba(255,  45, 149, .45),
+                    0 0 130px rgba(176,  38, 255, .30);
+            }
+            50% {
+                text-shadow:
+                    0 0  40px rgba(255,  45, 149, 1),
+                    0 0  90px rgba(255,  45, 149, .60),
+                    0 0 170px rgba(176,  38, 255, .50),
+                    0 0 240px rgba(176,  38, 255, .20);
+            }
+        }
+
+        .hero__tagline {
+            font-family: var(--font-body);
+            font-size: .95rem;
+            font-weight: 300;
+            font-style: italic;
+            letter-spacing: .20em;
+            color: rgba(0, 240, 255, .80);
+            text-transform: uppercase;
+        }
+
+        .hero__actions {
+            display: flex;
+            gap: 20px;
+            margin-top: 8px;
+        }
+
+        /* ── BUTTONS ─────────────────────────────────── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            font-family: var(--font-display);
+            font-size: .64rem;
+            font-weight: 700;
+            letter-spacing: .26em;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 15px 32px;
+            border: none;
+            cursor: pointer;
+            clip-path: polygon(0 0, calc(100% - 11px) 0, 100% 11px, 100% 100%, 11px 100%, 0 calc(100% - 11px));
+            transition: box-shadow .3s, transform .3s;
+
+            svg {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        .btn--primary {
+            background: linear-gradient(135deg, var(--magenta) 0%, var(--purple) 100%);
+            color: #fff;
+            box-shadow:
+                0 0 22px rgba(255,  45, 149, .52),
+                0 0 46px rgba(176,  38, 255, .30);
+
+            &:hover {
+                box-shadow:
+                    0 0 32px rgba(255,  45, 149, .85),
+                    0 0 68px rgba(176,  38, 255, .55);
+                transform: translateY(-2px);
+            }
+        }
+
+        .btn--secondary {
+            background: rgba(0, 240, 255, .04);
+            color: var(--cyan);
+            border: 1px solid rgba(0, 240, 255, .45);
+            box-shadow: 0 0 16px rgba(0, 240, 255, .15);
+
+            &:hover {
+                background: rgba(0, 240, 255, .07);
+                box-shadow: 0 0 28px rgba(0, 240, 255, .38);
+                transform: translateY(-2px);
+            }
+        }
+
+        /* ── NEON DIVIDER ────────────────────────────── */
+        .neon-divider {
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(
+                90deg,
+                transparent   0%,
+                var(--purple)  20%,
+                var(--magenta) 50%,
+                var(--purple)  80%,
+                transparent  100%
+            );
+            box-shadow: 0 0 20px rgba(255, 45, 149, .4);
+        }
+
+        /* ── CASES SECTION ───────────────────────────── */
+        .cases {
+            background: var(--void);
+            padding: 88px 56px;
+            position: relative;
+        }
+
+        .cases__header {
+            text-align: center;
+            margin-bottom: 68px;
+        }
+
+        .cases__label {
+            display: block;
+            font-family: var(--font-display);
+            font-size: .58rem;
+            letter-spacing: .5em;
+            color: var(--orange);
+            text-shadow: var(--glow-orange);
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+
+        .cases__title {
+            font-family: var(--font-display);
+            font-size: clamp(1.6rem, 3vw, 2.6rem);
+            font-weight: 700;
+            letter-spacing: .18em;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 0 0 40px rgba(0, 240, 255, .55);
+        }
+
+        .cases__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 26px;
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+
+        /* ── CASE CARD ───────────────────────────────── */
+        .case-card {
+            background: rgba(176, 38, 255, .03);
+            border: 1px solid rgba(176, 38, 255, .24);
+            padding: 32px 30px;
+            position: relative;
+            clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 18px 100%, 0 calc(100% - 18px));
+            transition: border-color .3s, box-shadow .3s, transform .3s;
+            overflow: hidden;
+        }
+
+        /* Sweep scan on hover */
+        .case-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -115%;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--magenta), transparent);
+            transition: left .6s ease;
+        }
+
+        /* Corner accent */
+        .case-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(225deg, rgba(176, 38, 255, .25), transparent 65%);
+        }
+
+        .case-card:hover {
+            border-color: rgba(255, 45, 149, .48);
+            box-shadow:
+                0 0 44px rgba(255,  45, 149, .08),
+                inset 0 0 44px rgba(255,  45, 149, .03);
+            transform: translateY(-5px);
+
+            &::before { left: 115%; }
+        }
+
+        .case-card__header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 14px;
+        }
+
+        .case-card__number {
+            font-family: var(--font-display);
+            font-size: .52rem;
+            letter-spacing: .3em;
+            color: rgba(0, 240, 255, .4);
+            text-transform: uppercase;
+        }
+
+        .case-card__icon svg {
+            width: 18px;
+            height: 18px;
+            stroke: rgba(176, 38, 255, .5);
+        }
+
+        .case-card__status {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            font-family: var(--font-display);
+            font-size: .5rem;
+            letter-spacing: .22em;
+            text-transform: uppercase;
+            padding: 5px 12px;
+            margin-bottom: 20px;
+        }
+
+        .case-card__status-dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: currentColor;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50%      { opacity: .22; }
+        }
+
+        .case-card__status--active {
+            color: var(--magenta);
+            border: 1px solid rgba(255, 45, 149, .38);
+            text-shadow: 0 0 8px rgba(255, 45, 149, .6);
+
+            .case-card__status-dot { animation: blink 1.4s ease-in-out infinite; }
+        }
+
+        .case-card__status--cold {
+            color: var(--cyan);
+            border: 1px solid rgba(0, 240, 255, .38);
+            text-shadow: 0 0 8px rgba(0, 240, 255, .5);
+
+            .case-card__status-dot { animation: blink 2.2s ease-in-out infinite; }
+        }
+
+        .case-card__status--closed {
+            color: rgba(176, 38, 255, .52);
+            border: 1px solid rgba(176, 38, 255, .22);
+        }
+
+        .case-card__title {
+            font-family: var(--font-display);
+            font-size: .9rem;
+            font-weight: 700;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 12px;
+            text-shadow: 0 0 22px rgba(255, 255, 255, .18);
+        }
+
+        .case-card__desc {
+            font-family: var(--font-body);
+            font-size: .84rem;
+            font-weight: 300;
+            line-height: 1.68;
+            color: rgba(0, 240, 255, .52);
+            margin-bottom: 28px;
+        }
+
+        .case-card__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 18px;
+            border-top: 1px solid rgba(176, 38, 255, .11);
+        }
+
+        .case-card__date {
+            font-family: var(--font-body);
+            font-size: .72rem;
+            color: rgba(176, 38, 255, .5);
+            letter-spacing: .08em;
+        }
+
+        .case-card__link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-family: var(--font-display);
+            font-size: .5rem;
+            letter-spacing: .24em;
+            color: var(--magenta);
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: text-shadow .3s, gap .3s;
+
+            svg {
+                width: 13px;
+                height: 13px;
+                stroke: var(--magenta);
+            }
+
+            &:hover {
+                text-shadow: var(--glow-magenta);
+                gap: 11px;
+            }
+        }
+
+        /* ── FOOTER ──────────────────────────────────── */
+        .footer {
+            background: var(--void);
+            padding: 44px 56px;
+            text-align: center;
+        }
+
+        .footer__text {
+            font-family: var(--font-display);
+            font-size: .52rem;
+            letter-spacing: .32em;
+            color: rgba(176, 38, 255, .32);
+            text-transform: uppercase;
+        }
+
+        .footer__brand {
+            color: var(--magenta);
+            text-shadow: 0 0 10px rgba(255, 45, 149, .4);
+        }
+
+        /* ── RESPONSIVE ──────────────────────────────── */
+        @media (max-width: 960px) {
+            .cases__grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 640px) {
+            .cases__grid       { grid-template-columns: 1fr; }
+            .nav__links        { display: none; }
+            .nav               { padding: 24px 28px; }
+            .cases             { padding: 60px 24px; }
+            .hero__actions     { flex-direction: column; width: 100%; padding: 0 24px; }
+            .btn               { justify-content: center; }
+            .sunset            { width: 300px; height: 300px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CRT Scanlines -->
+    <div class="crt-overlay"></div>
+
+    <!-- ████  H E R O  ████ -->
+    <section class="hero">
+
+        <div class="stars"></div>
+        <div class="sunset"></div>
+        <div class="grid-floor"></div>
+        <div class="grid-horizon"></div>
+        <div class="horizon-haze"></div>
+        <div class="scan-beam"></div>
+
+        <!-- Background palms (depth layer) -->
+        <div class="palm palm--left-bg">
+            <div class="palm__crown">
+                <div class="palm__frond palm__frond--1"></div>
+                <div class="palm__frond palm__frond--2"></div>
+                <div class="palm__frond palm__frond--3"></div>
+                <div class="palm__frond palm__frond--4"></div>
+                <div class="palm__frond palm__frond--5"></div>
+                <div class="palm__frond palm__frond--6"></div>
+                <div class="palm__frond palm__frond--7"></div>
+            </div>
+            <div class="palm__trunk"></div>
+        </div>
+
+        <div class="palm palm--right-bg">
+            <div class="palm__crown">
+                <div class="palm__frond palm__frond--1"></div>
+                <div class="palm__frond palm__frond--2"></div>
+                <div class="palm__frond palm__frond--3"></div>
+                <div class="palm__frond palm__frond--4"></div>
+                <div class="palm__frond palm__frond--5"></div>
+                <div class="palm__frond palm__frond--6"></div>
+                <div class="palm__frond palm__frond--7"></div>
+            </div>
+            <div class="palm__trunk"></div>
+        </div>
+
+        <!-- Foreground palms -->
+        <div class="palm palm--left">
+            <div class="palm__crown">
+                <div class="palm__frond palm__frond--1"></div>
+                <div class="palm__frond palm__frond--2"></div>
+                <div class="palm__frond palm__frond--3"></div>
+                <div class="palm__frond palm__frond--4"></div>
+                <div class="palm__frond palm__frond--5"></div>
+                <div class="palm__frond palm__frond--6"></div>
+                <div class="palm__frond palm__frond--7"></div>
+                <div class="palm__frond palm__frond--8"></div>
+            </div>
+            <div class="palm__trunk"></div>
+        </div>
+
+        <div class="palm palm--right">
+            <div class="palm__crown">
+                <div class="palm__frond palm__frond--1"></div>
+                <div class="palm__frond palm__frond--2"></div>
+                <div class="palm__frond palm__frond--3"></div>
+                <div class="palm__frond palm__frond--4"></div>
+                <div class="palm__frond palm__frond--5"></div>
+                <div class="palm__frond palm__frond--6"></div>
+                <div class="palm__frond palm__frond--7"></div>
+                <div class="palm__frond palm__frond--8"></div>
+            </div>
+            <div class="palm__trunk"></div>
+        </div>
+
+        <div class="vignette"></div>
+
+        <!-- Nav -->
+        <nav class="nav">
+            <a href="#" class="nav__logo">Neon Vice</a>
+            <ul class="nav__links">
+                <li><a href="#">Cases</a></li>
+                <li><a href="#">Suspects</a></li>
+                <li><a href="#">Evidence</a></li>
+                <li><a href="#">Archives</a></li>
+            </ul>
+            <div class="nav__badge">
+                <i data-lucide="shield-check"></i>
+                Licensed PI
+            </div>
+        </nav>
+
+        <!-- Hero copy -->
+        <div class="hero__content">
+            <p class="hero__eyebrow">Est. 1984 &nbsp;—&nbsp; Los Angeles</p>
+            <h1 class="hero__title">
+                Neon Vice
+                <span class="hero__title-sub">Detective Agency</span>
+            </h1>
+            <p class="hero__tagline">"The city never sleeps. Neither do I."</p>
+            <div class="hero__actions">
+                <a href="#cases" class="btn btn--primary">
+                    <i data-lucide="folder-open"></i>
+                    Open a Case
+                </a>
+                <a href="#" class="btn btn--secondary">
+                    <i data-lucide="archive"></i>
+                    Browse Files
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="neon-divider"></div>
+
+    <!-- ████  C A S E S  ████ -->
+    <section class="cases" id="cases">
+
+        <div class="cases__header">
+            <span class="cases__label">Active Dossiers</span>
+            <h2 class="cases__title">Case Files</h2>
+        </div>
+
+        <div class="cases__grid">
+
+            <div class="case-card">
+                <div class="case-card__header">
+                    <span class="case-card__number">Case #NV-8412</span>
+                    <span class="case-card__icon"><i data-lucide="package"></i></span>
+                </div>
+                <span class="case-card__status case-card__status--active">
+                    <span class="case-card__status-dot"></span>
+                    Active
+                </span>
+                <h3 class="case-card__title">The Midnight Courier</h3>
+                <p class="case-card__desc">A package vanished between Sunset Strip and the harbor docks. Three witnesses, zero alibis — and a neon-lit trail going cold with every passing hour.</p>
+                <div class="case-card__footer">
+                    <span class="case-card__date">12. 3. 1984</span>
+                    <a href="#" class="case-card__link">
+                        View File <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-card">
+                <div class="case-card__header">
+                    <span class="case-card__number">Case #NV-8409</span>
+                    <span class="case-card__icon"><i data-lucide="cpu"></i></span>
+                </div>
+                <span class="case-card__status case-card__status--cold">
+                    <span class="case-card__status-dot"></span>
+                    Cold Trail
+                </span>
+                <h3 class="case-card__title">Ghost in the Grid</h3>
+                <p class="case-card__desc">Someone has been draining the city's mainframe dry. Digital footprints trace back to a ghost address buried deep in the neon district underground.</p>
+                <div class="case-card__footer">
+                    <span class="case-card__date">28. 2. 1984</span>
+                    <a href="#" class="case-card__link">
+                        View File <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-card">
+                <div class="case-card__header">
+                    <span class="case-card__number">Case #NV-8397</span>
+                    <span class="case-card__icon"><i data-lucide="user-x"></i></span>
+                </div>
+                <span class="case-card__status case-card__status--closed">
+                    <span class="case-card__status-dot"></span>
+                    Closed
+                </span>
+                <h3 class="case-card__title">The Vermillion Alibi</h3>
+                <p class="case-card__desc">A wealthy socialite. A forged identity. A gambling debt from Vegas to the Pacific Coast. Case sealed. File classified. Truth buried in neon and smoke.</p>
+                <div class="case-card__footer">
+                    <span class="case-card__date">15. 1. 1984</span>
+                    <a href="#" class="case-card__link">
+                        View File <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="neon-divider"></div>
+
+    <!-- ████  F O O T E R  ████ -->
+    <footer class="footer">
+        <p class="footer__text">
+            &copy; 1984 &nbsp;<span class="footer__brand">Neon Vice Detective Agency</span>&nbsp; — All rights reserved. No witnesses.
+        </p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

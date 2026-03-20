@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS GRID — ENTER THE VOID</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --magenta:  #ff2d95;
+            --cyan:     #00f0ff;
+            --purple:   #b026ff;
+            --orange:   #ff6a00;
+            --void:     #120025;
+            --void-mid: #1a0035;
+            --void-lite:#22004a;
+
+            --glow-magenta: 0 0 20px rgba(255, 45, 149, 0.6);
+            --glow-cyan:    0 0 20px rgba(0, 240, 255, 0.6);
+            --glow-purple:  0 0 20px rgba(176, 38, 255, 0.6);
+            --glow-orange:  0 0 20px rgba(255, 106, 0, 0.6);
+
+            --font-head: 'Orbitron', monospace;
+            --font-body: 'Exo 2', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--void);
+            color: #e8d4ff;
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.6;
+            overflow-x: hidden;
+            cursor: crosshair;
+        }
+
+        /* ── CRT SCANLINES OVERLAY ── */
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: repeating-linear-gradient(
+                to bottom,
+                transparent 0px,
+                transparent 2px,
+                rgba(0, 0, 0, 0.18) 2px,
+                rgba(0, 0, 0, 0.18) 4px
+            );
+            pointer-events: none;
+            z-index: 9999;
+            animation: crtFlicker 8s steps(1) infinite;
+        }
+
+        @keyframes crtFlicker {
+            0%   { opacity: 1; }
+            92%  { opacity: 1; }
+            93%  { opacity: 0.85; }
+            94%  { opacity: 1; }
+            97%  { opacity: 1; }
+            98%  { opacity: 0.9; }
+            100% { opacity: 1; }
+        }
+
+        /* ── SCROLLBAR ── */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--void);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--purple);
+            border-radius: 3px;
+            box-shadow: var(--glow-purple);
+        }
+
+        /* ══════════════════════════════════════
+           NAV
+        ══════════════════════════════════════ */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(to bottom, rgba(18, 0, 37, 0.95), transparent);
+            border-bottom: 1px solid rgba(176, 38, 255, 0.25);
+        }
+
+        .nav-logo {
+            font-family: var(--font-head);
+            font-size: 1.1rem;
+            font-weight: 900;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--cyan);
+            text-shadow: var(--glow-cyan), 0 0 40px rgba(0, 240, 255, 0.4);
+            text-decoration: none;
+
+            & span {
+                color: var(--magenta);
+                text-shadow: var(--glow-magenta);
+            }
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-family: var(--font-head);
+            font-size: 0.65rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: rgba(232, 212, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s, text-shadow 0.3s;
+
+            &:hover {
+                color: var(--cyan);
+                text-shadow: var(--glow-cyan);
+            }
+        }
+
+        .nav-cta {
+            font-family: var(--font-head);
+            font-size: 0.62rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            padding: 0.55rem 1.4rem;
+            background: linear-gradient(135deg, var(--magenta), var(--purple));
+            color: #fff;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            box-shadow: var(--glow-magenta), inset 0 1px 0 rgba(255,255,255,0.15);
+            transition: box-shadow 0.3s, transform 0.3s;
+            text-decoration: none;
+
+            &:hover {
+                box-shadow: 0 0 35px rgba(255, 45, 149, 0.9), 0 0 70px rgba(176, 38, 255, 0.5), inset 0 1px 0 rgba(255,255,255,0.2);
+                transform: translateY(-1px);
+            }
+        }
+
+        /* ══════════════════════════════════════
+           HERO
+        ══════════════════════════════════════ */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding-top: 5rem;
+        }
+
+        /* Sunset circle */
+        .hero-sunset {
+            position: absolute;
+            bottom: 38%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 520px;
+            height: 260px;
+            background: linear-gradient(
+                to bottom,
+                #ff6a00 0%,
+                #ff3a6e 28%,
+                #ff2d95 45%,
+                #b026ff 70%,
+                #120025 100%
+            );
+            border-radius: 260px 260px 0 0;
+            z-index: 1;
+
+            /* Horizontal stripe cutout */
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                border-radius: inherit;
+                background:
+                    linear-gradient(to bottom, transparent 30%, transparent 30%) padding-box,
+                    repeating-linear-gradient(
+                        to bottom,
+                        transparent 0px,
+                        transparent 18px,
+                        var(--void) 18px,
+                        var(--void) 22px
+                    );
+                mix-blend-mode: normal;
+                opacity: 0.6;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                inset: -2px;
+                border-radius: inherit;
+                background: transparent;
+                box-shadow: 0 0 60px rgba(255, 106, 0, 0.4), 0 0 120px rgba(255, 45, 149, 0.25);
+            }
+        }
+
+        /* Perspective grid floor */
+        .hero-grid {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200vw;
+            height: 42%;
+            background:
+                repeating-linear-gradient(
+                    90deg,
+                    rgba(0, 240, 255, 0.22) 0px,
+                    rgba(0, 240, 255, 0.22) 1px,
+                    transparent 1px,
+                    transparent 60px
+                ),
+                repeating-linear-gradient(
+                    180deg,
+                    rgba(0, 240, 255, 0.22) 0px,
+                    rgba(0, 240, 255, 0.22) 1px,
+                    transparent 1px,
+                    transparent 40px
+                );
+            transform: translateX(-50%) perspective(600px) rotateX(70deg);
+            transform-origin: top center;
+            z-index: -1;
+            animation: gridScroll 3s linear infinite;
+        }
+
+        @keyframes gridScroll {
+            from { background-position: 0 0; }
+            to   { background-position: 0 40px; }
+        }
+
+        /* Hero content */
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            padding: 0 2rem;
+        }
+
+        .hero-eyebrow {
+            font-family: var(--font-head);
+            font-size: 0.6rem;
+            letter-spacing: 0.45em;
+            text-transform: uppercase;
+            color: var(--orange);
+            text-shadow: var(--glow-orange);
+            margin-bottom: 1.2rem;
+            animation: fadeSlideDown 0.8s ease both;
+        }
+
+        .hero-title {
+            font-family: var(--font-head);
+            font-size: clamp(2.8rem, 8vw, 6.5rem);
+            font-weight: 900;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            line-height: 0.92;
+            color: #fff;
+            text-shadow:
+                0 0 20px rgba(255, 45, 149, 0.6),
+                0 0 60px rgba(255, 45, 149, 0.3),
+                0 0 120px rgba(176, 38, 255, 0.2);
+            margin-bottom: 0.4rem;
+            animation: fadeSlideDown 0.8s 0.1s ease both;
+
+            & .line-cyan {
+                display: block;
+                color: var(--cyan);
+                text-shadow:
+                    var(--glow-cyan),
+                    0 0 60px rgba(0, 240, 255, 0.4),
+                    0 0 120px rgba(0, 240, 255, 0.15);
+            }
+
+            & .line-magenta {
+                display: block;
+                color: var(--magenta);
+                text-shadow: var(--glow-magenta), 0 0 60px rgba(255, 45, 149, 0.4);
+            }
+        }
+
+        .hero-sub {
+            font-family: var(--font-body);
+            font-size: clamp(0.85rem, 1.5vw, 1rem);
+            font-weight: 300;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: rgba(232, 212, 255, 0.6);
+            margin: 1.8rem auto 2.8rem;
+            max-width: 480px;
+            animation: fadeSlideDown 0.8s 0.2s ease both;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 1.2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeSlideDown 0.8s 0.3s ease both;
+        }
+
+        .btn-primary {
+            font-family: var(--font-head);
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            padding: 0.9rem 2.5rem;
+            background: linear-gradient(135deg, var(--magenta) 0%, var(--purple) 100%);
+            color: #fff;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            box-shadow: var(--glow-magenta), 0 0 40px rgba(176, 38, 255, 0.35);
+            transition: box-shadow 0.3s, transform 0.3s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+
+            &:hover {
+                box-shadow: 0 0 40px rgba(255, 45, 149, 0.9), 0 0 80px rgba(176, 38, 255, 0.6);
+                transform: translateY(-2px);
+            }
+        }
+
+        .btn-ghost {
+            font-family: var(--font-head);
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            padding: 0.9rem 2.5rem;
+            background: transparent;
+            color: var(--cyan);
+            border: 1px solid var(--cyan);
+            border-radius: 2px;
+            cursor: pointer;
+            box-shadow: var(--glow-cyan), inset 0 0 20px rgba(0, 240, 255, 0.05);
+            transition: box-shadow 0.3s, transform 0.3s, background 0.3s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+
+            &:hover {
+                background: rgba(0, 240, 255, 0.08);
+                box-shadow: 0 0 40px rgba(0, 240, 255, 0.8), inset 0 0 30px rgba(0, 240, 255, 0.1);
+                transform: translateY(-2px);
+            }
+        }
+
+        .hero-scroll-hint {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.4rem;
+            font-family: var(--font-head);
+            font-size: 0.5rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: rgba(176, 38, 255, 0.6);
+            animation: pulseGlow 2s ease-in-out infinite;
+        }
+
+        .scroll-line {
+            width: 1px;
+            height: 40px;
+            background: linear-gradient(to bottom, var(--purple), transparent);
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% { opacity: 0.5; }
+            50%       { opacity: 1; }
+        }
+
+        /* ── GLITCH EFFECT on title ── */
+        .glitch {
+            position: relative;
+
+            &::before,
+            &::after {
+                content: attr(data-text);
+                position: absolute;
+                inset: 0;
+                font-family: inherit;
+                font-size: inherit;
+                font-weight: inherit;
+                letter-spacing: inherit;
+            }
+
+            &::before {
+                color: var(--cyan);
+                clip-path: polygon(0 20%, 100% 20%, 100% 40%, 0 40%);
+                transform: translateX(-3px);
+                animation: glitch1 4s steps(1) infinite;
+                opacity: 0.7;
+            }
+
+            &::after {
+                color: var(--magenta);
+                clip-path: polygon(0 60%, 100% 60%, 100% 75%, 0 75%);
+                transform: translateX(3px);
+                animation: glitch2 4s steps(1) infinite;
+                opacity: 0.7;
+            }
+        }
+
+        @keyframes glitch1 {
+            0%, 88%, 100% { transform: translateX(0); opacity: 0; }
+            89%            { transform: translateX(-4px); opacity: 0.8; }
+            90%            { transform: translateX(2px);  opacity: 0.5; }
+            91%            { transform: translateX(0);    opacity: 0; }
+        }
+
+        @keyframes glitch2 {
+            0%, 88%, 100% { transform: translateX(0); opacity: 0; }
+            89%            { transform: translateX(4px);  opacity: 0.6; }
+            90%            { transform: translateX(-2px); opacity: 0.4; }
+            91%            { transform: translateX(0);    opacity: 0; }
+        }
+
+        @keyframes fadeSlideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ══════════════════════════════════════
+           SECTION SHARED
+        ══════════════════════════════════════ */
+        section {
+            position: relative;
+            padding: 6rem 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            font-family: var(--font-head);
+            font-size: 0.58rem;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: var(--magenta);
+            text-shadow: var(--glow-magenta);
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 32px;
+                height: 1px;
+                background: var(--magenta);
+                box-shadow: var(--glow-magenta);
+            }
+        }
+
+        .section-title {
+            font-family: var(--font-head);
+            font-size: clamp(1.6rem, 4vw, 2.6rem);
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 0 0 30px rgba(176, 38, 255, 0.4);
+            margin-bottom: 1rem;
+        }
+
+        .section-lead {
+            font-family: var(--font-body);
+            font-size: 1rem;
+            font-weight: 300;
+            color: rgba(232, 212, 255, 0.55);
+            max-width: 540px;
+            margin-bottom: 3.5rem;
+        }
+
+        /* ══════════════════════════════════════
+           STATS TICKER
+        ══════════════════════════════════════ */
+        .stats-ticker {
+            background: linear-gradient(90deg, var(--void), rgba(176, 38, 255, 0.08), var(--void));
+            border-top: 1px solid rgba(176, 38, 255, 0.2);
+            border-bottom: 1px solid rgba(176, 38, 255, 0.2);
+            padding: 1.2rem 0;
+            overflow: hidden;
+        }
+
+        .ticker-track {
+            display: flex;
+            gap: 4rem;
+            animation: tickerScroll 20s linear infinite;
+            white-space: nowrap;
+        }
+
+        .ticker-item {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-shrink: 0;
+        }
+
+        .ticker-stat {
+            display: flex;
+            align-items: baseline;
+            gap: 0.4rem;
+        }
+
+        .ticker-num {
+            font-family: var(--font-head);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--cyan);
+            text-shadow: var(--glow-cyan);
+        }
+
+        .ticker-label {
+            font-family: var(--font-head);
+            font-size: 0.52rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: rgba(232, 212, 255, 0.45);
+        }
+
+        .ticker-divider {
+            width: 1px;
+            height: 20px;
+            background: rgba(176, 38, 255, 0.35);
+        }
+
+        @keyframes tickerScroll {
+            from { transform: translateX(0); }
+            to   { transform: translateX(-50%); }
+        }
+
+        /* ══════════════════════════════════════
+           FEATURES GRID
+        ══════════════════════════════════════ */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5px;
+        }
+
+        .feature-card {
+            position: relative;
+            padding: 2.2rem;
+            background: linear-gradient(135deg, rgba(26, 0, 53, 0.9), rgba(18, 0, 37, 0.95));
+            border: 1px solid rgba(176, 38, 255, 0.15);
+            overflow: hidden;
+            transition: border-color 0.3s, transform 0.3s;
+            cursor: default;
+
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(135deg, rgba(176, 38, 255, 0.04), transparent);
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+
+            &:hover {
+                border-color: rgba(176, 38, 255, 0.5);
+                transform: translateY(-3px);
+
+                &::before {
+                    opacity: 1;
+                }
+
+                & .feature-icon {
+                    box-shadow: 0 0 30px var(--accent-glow);
+                }
+            }
+
+            &:nth-child(1) { --accent: var(--magenta); --accent-glow: rgba(255, 45, 149, 0.6); }
+            &:nth-child(2) { --accent: var(--cyan);    --accent-glow: rgba(0, 240, 255, 0.6); }
+            &:nth-child(3) { --accent: var(--purple);  --accent-glow: rgba(176, 38, 255, 0.6); }
+            &:nth-child(4) { --accent: var(--orange);  --accent-glow: rgba(255, 106, 0, 0.6); }
+            &:nth-child(5) { --accent: var(--magenta); --accent-glow: rgba(255, 45, 149, 0.6); }
+            &:nth-child(6) { --accent: var(--cyan);    --accent-glow: rgba(0, 240, 255, 0.6); }
+        }
+
+        .feature-number {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-family: var(--font-head);
+            font-size: 0.48rem;
+            letter-spacing: 0.25em;
+            color: rgba(176, 38, 255, 0.3);
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            border: 1px solid var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.4rem;
+            color: var(--accent);
+            transition: box-shadow 0.3s;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                inset: 3px;
+                background: linear-gradient(135deg, rgba(255,255,255,0.04), transparent);
+            }
+        }
+
+        .feature-title {
+            font-family: var(--font-head);
+            font-size: 0.8rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent);
+            text-shadow: 0 0 15px var(--accent-glow);
+            margin-bottom: 0.8rem;
+        }
+
+        .feature-text {
+            font-family: var(--font-body);
+            font-size: 0.88rem;
+            font-weight: 300;
+            color: rgba(232, 212, 255, 0.55);
+            line-height: 1.7;
+        }
+
+        /* ══════════════════════════════════════
+           DASHBOARD PANEL
+        ══════════════════════════════════════ */
+        .dashboard-wrap {
+            background: linear-gradient(135deg, var(--void-mid), var(--void));
+            border: 1px solid rgba(0, 240, 255, 0.2);
+            padding: 2.5rem;
+            position: relative;
+            overflow: hidden;
+
+            &::before {
+                content: 'SYS.MONITOR';
+                position: absolute;
+                top: -0.7rem;
+                left: 2rem;
+                font-family: var(--font-head);
+                font-size: 0.5rem;
+                letter-spacing: 0.3em;
+                color: var(--cyan);
+                background: var(--void-mid);
+                padding: 0 0.5rem;
+                text-shadow: var(--glow-cyan);
+            }
+        }
+
+        .dashboard-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1.6fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .dash-stat {
+            padding: 1.2rem;
+            background: rgba(18, 0, 37, 0.7);
+            border: 1px solid rgba(176, 38, 255, 0.12);
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 2px;
+                width: var(--fill, 60%);
+                background: linear-gradient(90deg, var(--accent, var(--magenta)), transparent);
+                box-shadow: 0 0 8px var(--accent, var(--magenta));
+            }
+
+            &:nth-child(1) { --accent: var(--magenta); --fill: 78%; }
+            &:nth-child(2) { --accent: var(--cyan);    --fill: 54%; }
+            &:nth-child(3) { --accent: var(--purple);  --fill: 91%; }
+        }
+
+        .dash-stat-label {
+            font-family: var(--font-head);
+            font-size: 0.48rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: rgba(232, 212, 255, 0.4);
+            margin-bottom: 0.4rem;
+        }
+
+        .dash-stat-value {
+            font-family: var(--font-head);
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--accent, var(--magenta));
+            text-shadow: 0 0 20px var(--accent, var(--magenta));
+            line-height: 1;
+        }
+
+        .dash-stat-unit {
+            font-size: 0.7rem;
+            font-weight: 400;
+            opacity: 0.6;
+            margin-left: 0.2rem;
+        }
+
+        .dash-stat-change {
+            font-family: var(--font-body);
+            font-size: 0.72rem;
+            color: rgba(0, 240, 255, 0.6);
+            margin-top: 0.3rem;
+        }
+
+        /* Waveform / activity chart */
+        .dash-wave {
+            padding: 1.2rem;
+            background: rgba(18, 0, 37, 0.7);
+            border: 1px solid rgba(176, 38, 255, 0.12);
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .wave-label {
+            font-family: var(--font-head);
+            font-size: 0.48rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: rgba(232, 212, 255, 0.4);
+        }
+
+        .wave-bars {
+            display: flex;
+            align-items: flex-end;
+            gap: 3px;
+            height: 50px;
+        }
+
+        .wave-bar {
+            flex: 1;
+            background: linear-gradient(to top, var(--magenta), var(--purple));
+            box-shadow: 0 0 6px rgba(255, 45, 149, 0.5);
+            border-radius: 1px 1px 0 0;
+            animation: waveAnim var(--dur, 1.5s) ease-in-out infinite alternate;
+        }
+
+        @keyframes waveAnim {
+            from { transform: scaleY(0.3); }
+            to   { transform: scaleY(1); }
+        }
+
+        /* Progress bars */
+        .dash-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .progress-item {
+            display: grid;
+            grid-template-columns: 120px 1fr 45px;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .progress-name {
+            font-family: var(--font-head);
+            font-size: 0.55rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: rgba(232, 212, 255, 0.5);
+        }
+
+        .progress-track {
+            height: 3px;
+            background: rgba(176, 38, 255, 0.1);
+            border-radius: 1px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--fill-color), var(--fill-end));
+            box-shadow: 0 0 8px var(--fill-color);
+            width: var(--pct, 50%);
+            animation: progressIn 1.2s ease-out both;
+        }
+
+        @keyframes progressIn {
+            from { width: 0; }
+        }
+
+        .progress-pct {
+            font-family: var(--font-head);
+            font-size: 0.6rem;
+            color: var(--fill-color);
+            text-align: right;
+        }
+
+        /* ══════════════════════════════════════
+           TESTIMONIALS
+        ══════════════════════════════════════ */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.2rem;
+        }
+
+        .testimonial-card {
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(26, 0, 53, 0.8), rgba(18, 0, 37, 0.9));
+            border: 1px solid rgba(176, 38, 255, 0.12);
+            position: relative;
+            transition: border-color 0.3s;
+
+            &::before {
+                content: '"';
+                position: absolute;
+                top: -0.6rem;
+                left: 1.5rem;
+                font-family: var(--font-head);
+                font-size: 4rem;
+                color: var(--magenta);
+                opacity: 0.18;
+                line-height: 1;
+            }
+
+            &:hover {
+                border-color: rgba(255, 45, 149, 0.3);
+            }
+        }
+
+        .testimonial-text {
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            font-style: italic;
+            font-weight: 300;
+            color: rgba(232, 212, 255, 0.65);
+            line-height: 1.8;
+            margin-bottom: 1.4rem;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .author-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--magenta), var(--purple));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-head);
+            font-size: 0.55rem;
+            font-weight: 700;
+            color: #fff;
+            box-shadow: var(--glow-magenta);
+            flex-shrink: 0;
+        }
+
+        .author-name {
+            font-family: var(--font-head);
+            font-size: 0.6rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .author-role {
+            font-family: var(--font-body);
+            font-size: 0.75rem;
+            color: rgba(232, 212, 255, 0.35);
+        }
+
+        /* ══════════════════════════════════════
+           PRICING
+        ══════════════════════════════════════ */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .pricing-card {
+            padding: 2.5rem 2rem;
+            background: linear-gradient(160deg, rgba(26, 0, 53, 0.9), rgba(18, 0, 37, 0.95));
+            border: 1px solid rgba(176, 38, 255, 0.15);
+            position: relative;
+            transition: transform 0.3s, border-color 0.3s;
+
+            &:hover {
+                transform: translateY(-4px);
+                border-color: rgba(176, 38, 255, 0.4);
+            }
+
+            &.featured {
+                border-color: var(--magenta);
+                box-shadow: var(--glow-magenta), 0 0 60px rgba(176, 38, 255, 0.2);
+
+                &::before {
+                    content: 'MOST POPULAR';
+                    position: absolute;
+                    top: -0.7rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-family: var(--font-head);
+                    font-size: 0.48rem;
+                    letter-spacing: 0.3em;
+                    color: var(--void);
+                    background: linear-gradient(90deg, var(--magenta), var(--purple));
+                    padding: 0.3rem 0.8rem;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .pricing-tier {
+            font-family: var(--font-head);
+            font-size: 0.58rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--cyan);
+            text-shadow: var(--glow-cyan);
+            margin-bottom: 1.2rem;
+        }
+
+        .pricing-price {
+            font-family: var(--font-head);
+            font-size: 3rem;
+            font-weight: 900;
+            color: #fff;
+            line-height: 1;
+            margin-bottom: 0.3rem;
+
+            & sup {
+                font-size: 1.2rem;
+                vertical-align: super;
+                color: var(--magenta);
+            }
+
+            & sub {
+                font-size: 0.75rem;
+                font-weight: 400;
+                color: rgba(232, 212, 255, 0.35);
+                vertical-align: baseline;
+            }
+        }
+
+        .pricing-desc {
+            font-family: var(--font-body);
+            font-size: 0.82rem;
+            font-weight: 300;
+            color: rgba(232, 212, 255, 0.45);
+            margin-bottom: 2rem;
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .pricing-features li {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            color: rgba(232, 212, 255, 0.6);
+
+            & .check {
+                color: var(--cyan);
+                flex-shrink: 0;
+            }
+        }
+
+        /* ══════════════════════════════════════
+           CTA BAND
+        ══════════════════════════════════════ */
+        .cta-band {
+            background: linear-gradient(90deg, rgba(255, 45, 149, 0.07), rgba(176, 38, 255, 0.12), rgba(0, 240, 255, 0.07));
+            border-top: 1px solid rgba(176, 38, 255, 0.2);
+            border-bottom: 1px solid rgba(176, 38, 255, 0.2);
+            padding: 5rem 2.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-band::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent 0,
+                transparent 60px,
+                rgba(176, 38, 255, 0.025) 60px,
+                rgba(176, 38, 255, 0.025) 61px
+            );
+        }
+
+        .cta-title {
+            font-family: var(--font-head);
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            font-weight: 900;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: var(--glow-magenta), 0 0 60px rgba(176, 38, 255, 0.3);
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .cta-sub {
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            font-weight: 300;
+            color: rgba(232, 212, 255, 0.5);
+            margin-bottom: 2.5rem;
+            position: relative;
+        }
+
+        .cta-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        /* ══════════════════════════════════════
+           FOOTER
+        ══════════════════════════════════════ */
+        .footer {
+            padding: 3rem 2.5rem;
+            border-top: 1px solid rgba(176, 38, 255, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: gap;
+            gap: 1.5rem;
+        }
+
+        .footer-logo {
+            font-family: var(--font-head);
+            font-size: 0.8rem;
+            font-weight: 900;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--cyan);
+            text-shadow: var(--glow-cyan);
+        }
+
+        .footer-copy {
+            font-family: var(--font-body);
+            font-size: 0.75rem;
+            color: rgba(232, 212, 255, 0.25);
+            letter-spacing: 0.08em;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+
+            & a {
+                font-family: var(--font-head);
+                font-size: 0.5rem;
+                letter-spacing: 0.18em;
+                text-transform: uppercase;
+                color: rgba(232, 212, 255, 0.3);
+                text-decoration: none;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: var(--purple);
+                }
+            }
+        }
+
+        /* ══════════════════════════════════════
+           DECORATIVE LINES
+        ══════════════════════════════════════ */
+        .deco-line {
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .deco-line-h {
+            height: 1px;
+            left: 0;
+            right: 0;
+            background: linear-gradient(90deg, transparent, rgba(176, 38, 255, 0.3), transparent);
+        }
+
+        /* ══════════════════════════════════════
+           MEDIA QUERIES
+        ══════════════════════════════════════ */
+        @media (max-width: 900px) {
+            .dashboard-row {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .nav-links { display: none; }
+
+            .hero-sunset {
+                width: 320px;
+                height: 160px;
+                border-radius: 160px 160px 0 0;
+            }
+
+            .dashboard-row {
+                grid-template-columns: 1fr;
+            }
+
+            .footer {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="#" class="nav-logo">NEXUS<span>·</span>GRID</a>
+        <ul class="nav-links">
+            <li><a href="#features">Systems</a></li>
+            <li><a href="#monitor">Monitor</a></li>
+            <li><a href="#comms">Comms</a></li>
+            <li><a href="#pricing">Access</a></li>
+        </ul>
+        <a href="#pricing" class="nav-cta">Initiate</a>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" role="banner">
+        <div class="hero-sunset" aria-hidden="true"></div>
+        <div class="hero-grid"  aria-hidden="true"></div>
+
+        <div class="hero-content">
+            <p class="hero-eyebrow">// SYSTEM ONLINE — NODE 2049 //</p>
+            <h1 class="hero-title">
+                <span class="line-cyan glitch" data-text="ENTER">ENTER</span>
+                <span class="line-magenta glitch" data-text="THE VOID">THE VOID</span>
+            </h1>
+            <p class="hero-sub">Neural link established. Reality is a signal. We are the noise.</p>
+            <div class="hero-actions">
+                <a href="#features" class="btn-primary">
+                    <i data-lucide="zap" style="width:14px;height:14px;"></i>
+                    Jack In
+                </a>
+                <a href="#monitor" class="btn-ghost">
+                    <i data-lucide="terminal" style="width:14px;height:14px;"></i>
+                    View Systems
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-scroll-hint" aria-hidden="true">
+            <div class="scroll-line"></div>
+            Scroll
+        </div>
+    </div>
+
+    <!-- STATS TICKER -->
+    <div class="stats-ticker" aria-label="Live statistics">
+        <div class="ticker-track" id="ticker">
+            <!-- duplicated for infinite scroll -->
+        </div>
+    </div>
+
+    <!-- FEATURES -->
+    <section id="features" aria-labelledby="features-heading">
+        <p class="section-label">Core Systems</p>
+        <h2 class="section-title" id="features-heading">Neural Architecture</h2>
+        <p class="section-lead">Six subsystems running in parallel. Zero latency. Maximum entropy. Welcome to the grid.</p>
+
+        <div class="features-grid">
+            <article class="feature-card">
+                <span class="feature-number">01</span>
+                <div class="feature-icon">
+                    <i data-lucide="cpu" style="width:20px;height:20px;"></i>
+                </div>
+                <h3 class="feature-title">Quantum Core</h3>
+                <p class="feature-text">Parallel processing across 4096 synthetic neurons. Sub-millisecond response time with adaptive load balancing across the mesh network.</p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">02</span>
+                <div class="feature-icon">
+                    <i data-lucide="radio" style="width:20px;height:20px;"></i>
+                </div>
+                <h3 class="feature-title">Signal Cipher</h3>
+                <p class="feature-text">End-to-end encryption riding on 256-bit quantum keys. Your transmissions vanish into the void before they can be traced.</p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">03</span>
+                <div class="feature-icon">
+                    <i data-lucide="layers" style="width:20px;height:20px;"></i>
+                </div>
+                <h3 class="feature-title">Ghost Protocol</h3>
+                <p class="feature-text">Multi-layer identity masking. Traverse twelve anonymized relay nodes before your packet reaches its destination.</p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">04</span>
+                <div class="feature-icon">
+                    <i data-lucide="activity" style="width:20px;height:20px;"></i>
+                </div>
+                <h3 class="feature-title">Pulse Monitor</h3>
+                <p class="feature-text">Real-time biosignal feedback loop. Synchronize your heartbeat with the network heartbeat and feel the grid breathe.</p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">05</span>
+                <div class="feature-icon">
+                    <i data-lucide="globe" style="width:20px;height:20px;"></i>
+                </div>
+                <h3 class="feature-title">Mesh Topology</h3>
+                <p class="feature-text">Distributed across 840 nodes in 34 jurisdictions. No single point of failure. The grid cannot die — it only evolves.</p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">06</span>
+                <div class="feature-icon">
+                    <i data-lucide="shield" style="width:20px;height:20px;"></i>
+                </div>
+                <h3 class="feature-title">Void Shield</h3>
+                <p class="feature-text">Adaptive threat response with predictive intrusion modeling. Attacks are anticipated 400ms before they materialize in the network.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- DASHBOARD -->
+    <section id="monitor" aria-labelledby="monitor-heading">
+        <p class="section-label">Live Feed</p>
+        <h2 class="section-title" id="monitor-heading">System Monitor</h2>
+        <p class="section-lead">All nodes nominal. Grid integrity at maximum saturation.</p>
+
+        <div class="dashboard-wrap">
+            <div class="dashboard-row">
+                <!-- Stat 1 -->
+                <div class="dash-stat" style="--accent: var(--magenta); --fill: 78%;">
+                    <div class="dash-stat-label">Neural Load</div>
+                    <div class="dash-stat-value">78<span class="dash-stat-unit">%</span></div>
+                    <div class="dash-stat-change">↑ +3.2% from last cycle</div>
+                </div>
+
+                <!-- Stat 2 -->
+                <div class="dash-stat" style="--accent: var(--cyan); --fill: 54%;">
+                    <div class="dash-stat-label">Bandwidth</div>
+                    <div class="dash-stat-value">9.4<span class="dash-stat-unit">TB/s</span></div>
+                    <div class="dash-stat-change">↑ +1.1TB peak</div>
+                </div>
+
+                <!-- Stat 3 -->
+                <div class="dash-stat" style="--accent: var(--purple); --fill: 91%;">
+                    <div class="dash-stat-label">Grid Integrity</div>
+                    <div class="dash-stat-value">99<span class="dash-stat-unit">%</span></div>
+                    <div class="dash-stat-change">All nodes nominal</div>
+                </div>
+
+                <!-- Waveform -->
+                <div class="dash-wave">
+                    <div class="wave-label">Signal Activity</div>
+                    <div class="wave-bars" id="wave-bars" aria-hidden="true"></div>
+                </div>
+            </div>
+
+            <!-- Progress bars -->
+            <div class="dash-bars">
+                <div class="progress-item">
+                    <span class="progress-name">Encryption</span>
+                    <div class="progress-track">
+                        <div class="progress-fill" style="--pct: 95%; --fill-color: var(--magenta); --fill-end: var(--purple);"></div>
+                    </div>
+                    <span class="progress-pct" style="color: var(--magenta);">95%</span>
+                </div>
+                <div class="progress-item">
+                    <span class="progress-name">Relay Nodes</span>
+                    <div class="progress-track">
+                        <div class="progress-fill" style="--pct: 72%; --fill-color: var(--cyan); --fill-end: #0080ff;"></div>
+                    </div>
+                    <span class="progress-pct" style="color: var(--cyan);">72%</span>
+                </div>
+                <div class="progress-item">
+                    <span class="progress-name">Memory Alloc</span>
+                    <div class="progress-track">
+                        <div class="progress-fill" style="--pct: 83%; --fill-color: var(--purple); --fill-end: var(--magenta);"></div>
+                    </div>
+                    <span class="progress-pct" style="color: var(--purple);">83%</span>
+                </div>
+                <div class="progress-item">
+                    <span class="progress-name">Threat Index</span>
+                    <div class="progress-track">
+                        <div class="progress-fill" style="--pct: 12%; --fill-color: var(--orange); --fill-end: #ff0040;"></div>
+                    </div>
+                    <span class="progress-pct" style="color: var(--orange);">12%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="comms" aria-labelledby="comms-heading">
+        <p class="section-label">Incoming Comms</p>
+        <h2 class="section-title" id="comms-heading">Operator Reports</h2>
+        <p class="section-lead">Transmissions from the field. Verified. Unfiltered.</p>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">The grid saved my run. Twelve Corpos were on my trail and NEXUS masked my signature in under 200 milliseconds. I don't jack in without it.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">VX</div>
+                    <div>
+                        <div class="author-name">Vex_Nine</div>
+                        <div class="author-role">Street Operative — Neo Detroit</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">Latency dropped to 0.3ms after switching to the Quantum Core tier. I can feel every packet, every handshake. This is what true connection feels like.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MR</div>
+                    <div>
+                        <div class="author-name">m.r_404</div>
+                        <div class="author-role">Netrunner — Sprawl Sector 7</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">Ghost Protocol is the only reason I still breathe. Three years running black-site contracts. The Void Shield anticipated every counterintrusion attempt.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">KR</div>
+                    <div>
+                        <div class="author-name">KIRA·RX</div>
+                        <div class="author-role">Data Ghost — Undercity Tokyo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" aria-labelledby="pricing-heading">
+        <p class="section-label">Access Tiers</p>
+        <h2 class="section-title" id="pricing-heading">Choose Your Node</h2>
+        <p class="section-lead">Three levels of access. One grid. No turning back once you're in.</p>
+
+        <div class="pricing-grid">
+            <!-- GHOST -->
+            <div class="pricing-card">
+                <div class="pricing-tier">Ghost</div>
+                <div class="pricing-price"><sup>$</sup>0<sub>/month</sub></div>
+                <p class="pricing-desc">For those testing the edges of the grid.</p>
+                <ul class="pricing-features">
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>3 relay nodes</li>
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>128-bit encryption</li>
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>100GB bandwidth</li>
+                    <li><span class="check"><i data-lucide="minus" style="width:14px;height:14px;" style="color: rgba(232,212,255,0.2);"></i></span>No Ghost Protocol</li>
+                </ul>
+                <a href="#" class="btn-ghost" style="width:100%; justify-content:center;">Connect Free</a>
+            </div>
+
+            <!-- OPERATOR (featured) -->
+            <div class="pricing-card featured">
+                <div class="pricing-tier">Operator</div>
+                <div class="pricing-price"><sup>$</sup>49<sub>/month</sub></div>
+                <p class="pricing-desc">For runners who live inside the grid.</p>
+                <ul class="pricing-features">
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>12 relay nodes</li>
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>256-bit quantum encryption</li>
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>Unlimited bandwidth</li>
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>Ghost Protocol active</li>
+                </ul>
+                <a href="#" class="btn-primary" style="width:100%; justify-content:center;">Jack In Now</a>
+            </div>
+
+            <!-- PHANTOM -->
+            <div class="pricing-card">
+                <div class="pricing-tier">Phantom</div>
+                <div class="pricing-price"><sup>$</sup>149<sub>/month</sub></div>
+                <p class="pricing-desc">You don't exist. Neither does your data.</p>
+                <ul class="pricing-features">
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>840+ relay nodes</li>
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>Void Shield + AI threat prediction</li>
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>Unlimited bandwidth + priority</li>
+                    <li><span class="check"><i data-lucide="check" style="width:14px;height:14px;"></i></span>Dedicated Quantum Core</li>
+                </ul>
+                <a href="#" class="btn-ghost" style="width:100%; justify-content:center;">Go Phantom</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <div class="cta-band" role="complementary">
+        <h2 class="cta-title">The Grid Awaits</h2>
+        <p class="cta-sub">Every second you spend offline is a second they're watching you. Jack in. Disappear.</p>
+        <div class="cta-actions">
+            <a href="#pricing" class="btn-primary">
+                <i data-lucide="zap" style="width:14px;height:14px;"></i>
+                Enter Now — Free
+            </a>
+            <a href="#features" class="btn-ghost">
+                <i data-lucide="info" style="width:14px;height:14px;"></i>
+                Learn More
+            </a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-logo">Nexus·Grid</div>
+        <p class="footer-copy">© 2049 NEXUS GRID CORP. All signals reserved. Reality is optional.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Protocol</a></li>
+            <li><a href="#">Ghost Docs</a></li>
+            <li><a href="#">Status</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        // Init Lucide icons
+        lucide.createIcons();
+
+        // ── TICKER ──────────────────────────────
+        const tickerData = [
+            { num: '840+',  label: 'Active Nodes' },
+            { num: '0.3ms', label: 'Avg Latency' },
+            { num: '99.97%',label: 'Grid Uptime' },
+            { num: '4.2M',  label: 'Operators Online' },
+            { num: '12.8TB',label: 'Data Secured Today' },
+            { num: '0',     label: 'Breaches This Year' },
+        ];
+
+        const buildTicker = () => {
+            const track = document.getElementById('ticker');
+            const html = [...tickerData, ...tickerData].map(({ num, label }) => `
+                <div class="ticker-item">
+                    <div class="ticker-stat">
+                        <span class="ticker-num">${num}</span>
+                        <span class="ticker-label">${label}</span>
+                    </div>
+                    <div class="ticker-divider"></div>
+                </div>
+            `).join('');
+            track.innerHTML = html;
+        };
+        buildTicker();
+
+        // ── WAVEFORM BARS ────────────────────────
+        const buildWave = () => {
+            const container = document.getElementById('wave-bars');
+            const heights = [40, 60, 30, 80, 50, 70, 45, 90, 35, 65, 55, 75, 40, 85, 60];
+            container.innerHTML = heights.map((h, i) => `
+                <div class="wave-bar"
+                     style="height:${h}%;--dur:${0.8 + (i % 5) * 0.2}s;animation-delay:${i * 0.07}s;">
+                </div>
+            `).join('');
+        };
+        buildWave();
+
+        // ── INTERSECTION OBSERVER for progress bars ──
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(({ isIntersecting, target }) => {
+                if (isIntersecting) {
+                    target.querySelectorAll('.progress-fill').forEach(fill => {
+                        fill.style.animation = 'none';
+                        fill.offsetHeight;
+                        fill.style.animation = '';
+                    });
+                }
+            });
+        }, { threshold: 0.3 });
+
+        document.querySelectorAll('.dash-bars').forEach(el => observer.observe(el));
+
+        // ── CURSOR TRAIL ─────────────────────────
+        const trail = [];
+        const TRAIL_LEN = 8;
+
+        for (let i = 0; i < TRAIL_LEN; i++) {
+            const dot = document.createElement('div');
+            Object.assign(dot.style, {
+                position: 'fixed',
+                width:  `${6 - i * 0.5}px`,
+                height: `${6 - i * 0.5}px`,
+                borderRadius: '50%',
+                background: i < 3 ? 'var(--cyan)' : 'var(--magenta)',
+                boxShadow: `0 0 ${10 - i}px ${i < 3 ? 'rgba(0,240,255,0.8)' : 'rgba(255,45,149,0.7)'}`,
+                pointerEvents: 'none',
+                zIndex: '9998',
+                transition: `transform ${0.05 + i * 0.04}s ease`,
+                transform: 'translate(-50%, -50%)',
+                opacity: `${1 - i * 0.1}`,
+            });
+            document.body.appendChild(dot);
+            trail.push({ el: dot, x: 0, y: 0 });
+        }
+
+        let mx = 0, my = 0;
+        document.addEventListener('mousemove', ({ clientX, clientY }) => {
+            mx = clientX;
+            my = clientY;
+        });
+
+        const animTrail = () => {
+            let lx = mx, ly = my;
+            trail.forEach(({ el }, i) => {
+                el.style.left = `${lx}px`;
+                el.style.top  = `${ly}px`;
+                lx = lx * 0.85 + (i > 0 ? parseFloat(trail[i - 1].el.style.left) : mx) * 0.15;
+                ly = ly * 0.85 + (i > 0 ? parseFloat(trail[i - 1].el.style.top)  : my) * 0.15;
+            });
+            requestAnimationFrame(animTrail);
+        };
+        animTrail();
+
+        // ── NAV: solid on scroll ─────────────────
+        const nav = document.querySelector('.nav');
+        const onScroll = () => {
+            nav.style.background = window.scrollY > 60
+                ? 'rgba(18, 0, 37, 0.97)'
+                : 'linear-gradient(to bottom, rgba(18, 0, 37, 0.95), transparent)';
+            nav.style.borderBottomColor = window.scrollY > 60
+                ? 'rgba(176, 38, 255, 0.45)'
+                : 'rgba(176, 38, 255, 0.25)';
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+
+        // ── RE-INIT icons after dynamic render ──
+        setTimeout(() => lucide.createIcons(), 100);
+    </script>
+</body>
+</html>
