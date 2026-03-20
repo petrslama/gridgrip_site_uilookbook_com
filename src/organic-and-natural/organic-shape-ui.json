@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Organic & Natural",
+					"href": "/organic-and-natural/"
+				},
+				{
+					"text": "Organic Shape UI Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Organic Shape UI style mood board — Organic · Blob Forms",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/organic-and-natural/organic-shape-ui/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Organic · Natural · Blob · Fluid · Soft",
+			"a_h1": "Organic Shape UI Style",
+			"a_description": "Blob-shaped containers, maximum border-radius, and the playful softness of shapes that feel biological rather than geometric — Organic Shape UI dissolves the rectangular paradigm of web design into amorphous, cell-like forms. The warm coral accents and peachy backgrounds create interfaces that feel alive, as if every container could wobble, merge, or split like a living organism.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "organic-shape-ui"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This maximally soft style powers children's education apps, creative brainstorming tools, wellness product sites, and playful brand experiences. You'll see it on bubble tea brand sites, organic skincare companies, baby product pages, and creative workshop platforms — anywhere that sharp corners would feel too aggressive and the design needs to communicate warmth, approachability, and organic playfulness.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The soft, blob-shaped aesthetic of organic shape UI — amorphous containers, fluid borders, and the playful softness of shapes that reject geometric precision. Background: soft peachy cream (#fff5f0). The .inner panel has a white background (#ffffff) with a very large border-radius (32px) and a soft warm shadow (0 6px 24px rgba(255,100,50,0.06)) — a blob-like container with no sharp edges anywhere. Colors: warm coral (#ff6b4a) as the primary accent — organic, warm, and playful like a ripe fruit. Dark warm (#2d1a10) for headings, muted peach-gray (#8a7a6e) for body text. The aesthetic is soft and biological — every shape could be a cell, a petal, or a soap bubble. Set in Nunito — maximally rounded sans-serif, the perfect font for blob aesthetics. Heading at weight 700, 26px, line-height 1.3, color #2d1a10. Eyebrow at weight 600, 11px, uppercase, 2px letter-spacing, color #ff6b4a. Body at weight 400, 15px, line-height 1.7, color #8a7a6e. Buttons: primary — coral (#ff6b4a), white text, 50px border-radius (maximum pill). Secondary: transparent, coral border. Alternatives: Quicksand (rounded geometric), Comfortaa (extra rounded).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Organic Shape UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/organic-shape-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Organic Shape UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/organic-shape-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Organic Shape UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/organic-shape-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Organic Shape UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/organic-shape-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Organic Shape UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/organic-shape-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Organic Shape UI style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Organic Shape UI website?",
+					"answer": "The soft, blob-shaped aesthetic of organic shape UI — amorphous containers, fluid borders, and the playful softness of shapes that reject geometric precision. Background: soft peachy cream (#fff5f0). The .inner panel has a white background (#ffffff) with a very large border-radius (32px) and a soft warm shadow (0 6px 24px rgba(255,100,50,0.06)) — a blob-like container with no sharp edges anywhere. Colors: warm coral (#ff6b4a) as the primary accent — organic, warm, and playful like a ripe fruit. Dark warm (#2d1a10) for headings, muted peach-gray (#8a7a6e) for body text. The aesthetic is soft and biological — every shape could be a cell, a petal, or a soap bubble. Set in Nunito — maximally rounded sans-serif, the perfect font for blob aesthetics. Heading at weight 700, 26px, line-height 1.3, color #2d1a10. Eyebrow at weight 600, 11px, uppercase, 2px letter-spacing, color #ff6b4a. Body at weight 400, 15px, line-height 1.7, color #8a7a6e. Buttons: primary — coral (#ff6b4a), white text, 50px border-radius (maximum pill). Secondary: transparent, coral border. Alternatives: Quicksand (rounded geometric), Comfortaa (extra rounded)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Organic Shape UI work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Organic Shape UI style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Organic Shape UI look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Biophilic Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/biophilic-design.jpg",
+						"href": "/organic-and-natural/biophilic-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Illustrated"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Botanical Theme style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/botanical-theme.jpg",
+						"href": "/organic-and-natural/botanical-theme/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Earthy Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/earthy-palette.jpg",
+						"href": "/organic-and-natural/earthy-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Earthy",
+						"Earth Tones"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Eco Branding style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/eco-branding.jpg",
+						"href": "/organic-and-natural/eco-branding/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Earthy"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Organic Shape UI Style — UI Lookbook",
+		"description": "Explore the Organic Shape UI style: Organic · Blob Forms. Color palettes, typography, design principles, and AI prompts for Organic Shape UI UI design.",
+		"keywords": "Organic Shape UI, organic-shape-ui, Organic, Natural, Blob, Fluid, Soft",
+		"og": {
+			"title": "Organic Shape UI Style — UI Lookbook",
+			"description": "Explore the Organic Shape UI style: Organic · Blob Forms. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/organic-and-natural/organic-shape-ui/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/organic-and-natural/organic-shape-ui/lifestyle.jpg",
+				"alt": "Organic Shape UI Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Organic Shape UI Style — UI Lookbook",
+			"description": "Explore the Organic Shape UI style: Organic · Blob Forms. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/organic-and-natural/organic-shape-ui/lifestyle.jpg",
+				"alt": "Organic Shape UI Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "organic-shape-ui",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/organic-and-natural/organic-shape-ui.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

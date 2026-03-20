@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Organic & Natural",
+					"href": "/organic-and-natural/"
+				},
+				{
+					"text": "Eco Branding Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Eco Branding style mood board — Natural · Sustainable Design",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/organic-and-natural/eco-branding/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Organic · Natural · Earthy · Warm · Green Tones",
+			"a_h1": "Eco Branding Style",
+			"a_description": "Clean modern design with purpose-driven green accents, warm cream backgrounds, and the confident simplicity of brands that lead with environmental values — Eco Branding proves that sustainable design can be as polished and contemporary as any Silicon Valley startup. The bright optimistic green and modern typography communicate that caring about the planet and having great design aren't mutually exclusive.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "eco-branding"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This sustainability-forward style powers renewable energy companies, zero-waste product brands, carbon offset platforms, and ethical fashion labels. You'll see it on organic food delivery services, electric vehicle charging networks, sustainable packaging companies, and B-Corp certified businesses — anywhere that environmental responsibility is a brand pillar communicated through clean, contemporary, confidence-inspiring design.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The clean, purpose-driven aesthetic of eco branding — earthy tones, sustainable messaging, and the confident simplicity of brands that put the planet first. Background: warm cream (#faf6ee). The .inner panel has a clean white background (#ffffff) with a subtle shadow (0 2px 12px rgba(0,0,0,0.04)) and 12px border-radius — clean and modern, signaling that sustainable doesn't mean rustic. Colors: eco green (#16a34a) as the primary accent — bright, optimistic green that signals sustainability without being cliché. Near-black (#1a1a1a) for headings, warm gray (#6b6b6b) for body text. The aesthetic is clean-modern-green — sustainability communicated through confident, contemporary design rather than stereotypical earthy roughness. Set in Poppins — geometric and modern, proving that eco brands can be as polished as any tech company. Heading at weight 600, 26px, line-height 1.3, color #1a1a1a. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #16a34a. Body at weight 400, 15px, line-height 1.7, color #6b6b6b. Buttons: primary — green (#16a34a), white text, 8px border-radius. Secondary: transparent, green border. Alternatives: Nunito Sans (friendly clean), DM Sans (modern neutral).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Eco Branding style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/eco-branding/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Eco Branding style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/eco-branding/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Eco Branding style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/eco-branding/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Eco Branding style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/eco-branding/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Eco Branding style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/eco-branding/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Eco Branding style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Eco Branding website?",
+					"answer": "The clean, purpose-driven aesthetic of eco branding — earthy tones, sustainable messaging, and the confident simplicity of brands that put the planet first. Background: warm cream (#faf6ee). The .inner panel has a clean white background (#ffffff) with a subtle shadow (0 2px 12px rgba(0,0,0,0.04)) and 12px border-radius — clean and modern, signaling that sustainable doesn't mean rustic. Colors: eco green (#16a34a) as the primary accent — bright, optimistic green that signals sustainability without being cliché. Near-black (#1a1a1a) for headings, warm gray (#6b6b6b) for body text. The aesthetic is clean-modern-green — sustainability communicated through confident, contemporary design rather than stereotypical earthy roughness. Set in Poppins — geometric and modern, proving that eco brands can be as polished as any tech company. Heading at weight 600, 26px, line-height 1.3, color #1a1a1a. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #16a34a. Body at weight 400, 15px, line-height 1.7, color #6b6b6b. Buttons: primary — green (#16a34a), white text, 8px border-radius. Secondary: transparent, green border. Alternatives: Nunito Sans (friendly clean), DM Sans (modern neutral)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Eco Branding work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Eco Branding style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Eco Branding look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Biophilic Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/biophilic-design.jpg",
+						"href": "/organic-and-natural/biophilic-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Illustrated"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Botanical Theme style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/botanical-theme.jpg",
+						"href": "/organic-and-natural/botanical-theme/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Earthy Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/earthy-palette.jpg",
+						"href": "/organic-and-natural/earthy-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Earthy",
+						"Earth Tones"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Flowing Organic Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/flowing-organic-layout.jpg",
+						"href": "/organic-and-natural/flowing-organic-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Fluid",
+						"Asymmetric"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Eco Branding Style — UI Lookbook",
+		"description": "Explore the Eco Branding style: Natural · Sustainable Design. Color palettes, typography, design principles, and AI prompts for Eco Branding UI design.",
+		"keywords": "Eco Branding, eco-branding, Organic, Natural, Earthy, Warm, Green Tones",
+		"og": {
+			"title": "Eco Branding Style — UI Lookbook",
+			"description": "Explore the Eco Branding style: Natural · Sustainable Design. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/organic-and-natural/eco-branding/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/organic-and-natural/eco-branding/lifestyle.jpg",
+				"alt": "Eco Branding Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Eco Branding Style — UI Lookbook",
+			"description": "Explore the Eco Branding style: Natural · Sustainable Design. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/organic-and-natural/eco-branding/lifestyle.jpg",
+				"alt": "Eco Branding Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "eco-branding",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/organic-and-natural/eco-branding.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

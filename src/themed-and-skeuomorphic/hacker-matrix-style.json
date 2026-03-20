@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Themed & Skeuomorphic",
+					"href": "/themed-and-skeuomorphic/"
+				},
+				{
+					"text": "Hacker Matrix Style Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Hacker Matrix Style style mood board — Sci-Fi · The Matrix",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Dark Mode · Monospaced · Neon · Technical · Code Style",
+			"a_h1": "Hacker Matrix Style Style",
+			"a_description": "Cascading green characters on a pitch-black void — the iconic visual language of The Matrix, where reality itself is revealed as streams of luminous code. Hacker Matrix Style pushes the terminal aesthetic to its cinematic extreme, with phosphor-green text that glows against true darkness and an atmosphere that makes every interaction feel like you're bending the rules of the simulation.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "hacker-matrix-style"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "Matrix-style design appears on cybersecurity company sites, hacker conference pages, and CTF challenge platforms. You'll find it on penetration testing tool marketing, ethical hacking course landing pages, and developer side projects — anywhere that wants to channel the mystique and power of seeing the world as code.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The falling green code of The Matrix — pure black background with phosphor green text cascading down the screen. Background: true black (#000000). A pseudo-element creates the iconic matrix rain effect using a repeating pattern of fading green characters — a vertical gradient of green (#00ff41) characters at varying opacities. The .inner panel has no visible background — just text on the void. Text is all Matrix green (#00ff41) with varying brightness levels. The heading has a strong green glow (text-shadow with green blur). Everything feels like you're reading code in the Matrix — the world is green characters on black. Set in Share Tech Mono — a clean monospace font with slightly technical, futuristic character shapes that feel at home in the Matrix's digital rain. All elements monospaced. Heading at 26px, line-height 1.3, color #00ff41, strong green glow via text-shadow. Eyebrow at 12px, uppercase, 3px letter-spacing, color #008f25 (dimmer green). Body at 14px, line-height 1.7, color #00cc33 (medium green). Buttons: primary — green (#00ff41) background, black text, 0 border-radius (sharp). Secondary: transparent, green border. Hover adds intense glow. Alternatives: Fira Code, IBM Plex Mono, JetBrains Mono.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Hacker Matrix Style style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/hacker-matrix-style/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hacker Matrix Style style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/hacker-matrix-style/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hacker Matrix Style style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/hacker-matrix-style/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hacker Matrix Style style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/hacker-matrix-style/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Hacker Matrix Style style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Hacker Matrix Style style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Hacker Matrix Style website?",
+					"answer": "The falling green code of The Matrix — pure black background with phosphor green text cascading down the screen. Background: true black (#000000). A pseudo-element creates the iconic matrix rain effect using a repeating pattern of fading green characters — a vertical gradient of green (#00ff41) characters at varying opacities. The .inner panel has no visible background — just text on the void. Text is all Matrix green (#00ff41) with varying brightness levels. The heading has a strong green glow (text-shadow with green blur). Everything feels like you're reading code in the Matrix — the world is green characters on black. Set in Share Tech Mono — a clean monospace font with slightly technical, futuristic character shapes that feel at home in the Matrix's digital rain. All elements monospaced. Heading at 26px, line-height 1.3, color #00ff41, strong green glow via text-shadow. Eyebrow at 12px, uppercase, 3px letter-spacing, color #008f25 (dimmer green). Body at 14px, line-height 1.7, color #00cc33 (medium green). Buttons: primary — green (#00ff41) background, black text, 0 border-radius (sharp). Secondary: transparent, green border. Hover adds intense glow. Alternatives: Fira Code, IBM Plex Mono, JetBrains Mono."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Hacker Matrix Style work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Hacker Matrix Style style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Hacker Matrix Style look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Blueprint style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/blueprint.jpg",
+						"href": "/themed-and-skeuomorphic/blueprint/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Outline",
+						"Dark Mode",
+						"Technical"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Boarding Pass UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/boarding-pass-ui.jpg",
+						"href": "/themed-and-skeuomorphic/boarding-pass-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Hand-Crafted",
+						"Skeuomorphic",
+						"Organic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chalkboard style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/chalkboard.jpg",
+						"href": "/themed-and-skeuomorphic/chalkboard/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Textured",
+						"Dark",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "File Folder UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/file-folder-ui.jpg",
+						"href": "/themed-and-skeuomorphic/file-folder-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Skeuomorphic",
+						"Hand-Crafted",
+						"Dimensional"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Hacker Matrix Style Style — UI Lookbook",
+		"description": "Explore the Hacker Matrix Style style: Sci-Fi · The Matrix. Color palettes, typography, design principles, and AI prompts for Hacker Matrix Style UI design.",
+		"keywords": "Hacker Matrix Style, hacker-matrix-style, Dark Mode, Monospaced, Neon, Technical, Code Style",
+		"og": {
+			"title": "Hacker Matrix Style Style — UI Lookbook",
+			"description": "Explore the Hacker Matrix Style style: Sci-Fi · The Matrix. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/themed-and-skeuomorphic/hacker-matrix-style/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/lifestyle.jpg",
+				"alt": "Hacker Matrix Style Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Hacker Matrix Style Style — UI Lookbook",
+			"description": "Explore the Hacker Matrix Style style: Sci-Fi · The Matrix. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/lifestyle.jpg",
+				"alt": "Hacker Matrix Style Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Share+Tech+Mono:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "hacker-matrix-style",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/themed-and-skeuomorphic/hacker-matrix-style.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

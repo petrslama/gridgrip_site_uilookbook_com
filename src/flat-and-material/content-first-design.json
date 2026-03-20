@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Flat & Material",
+					"href": "/flat-and-material/"
+				},
+				{
+					"text": "Content-First Design Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Content-First Design style mood board — Design Philosophy · Content First",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/flat-and-material/content-first-design/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Minimal · Content Heavy · Whitespace · Clean UI · Professional",
+			"a_h1": "Content-First Design Style",
+			"a_description": "Typography as interface, whitespace as design, and the radical prioritization of readability over decoration — Content-First Design makes the content itself the primary visual element. Serif typography, generous line-height, and warm reading surfaces create an experience optimized for one thing: making words as comfortable and engaging to read on screen as they are on printed paper.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "content-first-design"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This reading-focused style powers long-form editorial platforms, blog engines, documentation sites, and literary publications. You'll see it on Medium, Substack, law firm publications, academic journals, and any platform where the words matter more than the wrapper — where the highest compliment is that the reader forgot the interface existed entirely.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The reading-optimized, content-driven aesthetic of content-first design — where typography leads, chrome disappears, and every design decision serves readability. Background: warm off-white (#fefefe). The .inner panel has an even warmer background (#faf9f6) with zero border and 8px border-radius — a reading surface, not a container. Colors: muted warm brown (#92400e) as the primary accent — the color of ink, of underlines, of editorial emphasis. Near-black (#1a1a1a) for headings, warm dark gray (#374151) for body text — optimized for long-form reading. The aesthetic is editorial and text-focused — the design IS the content, every pixel of chrome justified by its service to readability. Set in Merriweather — a screen-optimized serif designed specifically for comfortable on-screen reading at body sizes. Heading at weight 700, 26px, line-height 1.3, color #1a1a1a. Eyebrow at weight 300, 12px, uppercase, 2px letter-spacing, color #92400e. Body at weight 400, 16px, line-height 1.8, color #374151. Buttons: primary — warm brown (#92400e), white text, 6px border-radius. Secondary: transparent, brown border. Alternatives: Lora (elegant reading serif), Charter (screen-optimized serif).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Content-First Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/content-first-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Content-First Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/content-first-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Content-First Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/content-first-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Content-First Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/content-first-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Content-First Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/content-first-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Content-First Design style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Content-First Design website?",
+					"answer": "The reading-optimized, content-driven aesthetic of content-first design — where typography leads, chrome disappears, and every design decision serves readability. Background: warm off-white (#fefefe). The .inner panel has an even warmer background (#faf9f6) with zero border and 8px border-radius — a reading surface, not a container. Colors: muted warm brown (#92400e) as the primary accent — the color of ink, of underlines, of editorial emphasis. Near-black (#1a1a1a) for headings, warm dark gray (#374151) for body text — optimized for long-form reading. The aesthetic is editorial and text-focused — the design IS the content, every pixel of chrome justified by its service to readability. Set in Merriweather — a screen-optimized serif designed specifically for comfortable on-screen reading at body sizes. Heading at weight 700, 26px, line-height 1.3, color #1a1a1a. Eyebrow at weight 300, 12px, uppercase, 2px letter-spacing, color #92400e. Body at weight 400, 16px, line-height 1.8, color #374151. Buttons: primary — warm brown (#92400e), white text, 6px border-radius. Secondary: transparent, brown border. Alternatives: Lora (elegant reading serif), Charter (screen-optimized serif)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Content-First Design work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Content-First Design style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Content-First Design look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Apple HIG Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/apple-hig-style.jpg",
+						"href": "/flat-and-material/apple-hig-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Elegant",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/bold-minimalism.jpg",
+						"href": "/flat-and-material/bold-minimalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Bold"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Carbon Design (IBM) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/carbon-design-ibm.jpg",
+						"href": "/flat-and-material/carbon-design-ibm/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Professional",
+						"Clean UI",
+						"Corporate"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Clean UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/clean-ui.jpg",
+						"href": "/flat-and-material/clean-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Whitespace"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Content-First Design Style — UI Lookbook",
+		"description": "Explore the Content-First Design style: Design Philosophy · Content First. Color palettes, typography, design principles, and AI prompts for Content-First Design UI design.",
+		"keywords": "Content-First Design, content-first-design, Minimal, Content Heavy, Whitespace, Clean UI, Professional",
+		"og": {
+			"title": "Content-First Design Style — UI Lookbook",
+			"description": "Explore the Content-First Design style: Design Philosophy · Content First. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/flat-and-material/content-first-design/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/content-first-design/lifestyle.jpg",
+				"alt": "Content-First Design Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Content-First Design Style — UI Lookbook",
+			"description": "Explore the Content-First Design style: Design Philosophy · Content First. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/content-first-design/lifestyle.jpg",
+				"alt": "Content-First Design Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "content-first-design",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/flat-and-material/content-first-design.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

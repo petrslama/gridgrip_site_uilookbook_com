@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Heavy Animation & Motion",
+					"href": "/heavy-animation-and-motion/"
+				},
+				{
+					"text": "GSAP-Powered Interactions Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "GSAP-Powered Interactions style mood board — Heavy Motion · GSAP",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Advanced JS · Animation · Heavy Motion · Interactive · Modern",
+			"a_h1": "GSAP-Powered Interactions Style",
+			"a_description": "Buttery-smooth timelines, sophisticated easing curves, and the premium polish of agency-grade animation — GSAP-Powered Interactions design represents the highest tier of web animation craftsmanship. The deep emerald accents and warm off-white backgrounds create a sophisticated stage, while every transition, stagger, and scroll-linked animation is timed with the precision that only GSAP's timeline engine enables.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "gsap-powered-interactions"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This animation-forward style powers award-winning agency portfolios, luxury brand experiences, interactive storytelling sites, and premium product launches. You'll see it on Awwwards-winning sites, creative studio homepages, fashion brand campaigns, and automotive microsites — anywhere that justifies the investment in hand-crafted, timeline-driven animation that transforms browsing into a choreographed experience.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The polished, agency-grade aesthetic of GSAP-powered websites — buttery-smooth timeline animations, sophisticated easing, and interactions that feel premium and intentional. Background: off-white (#f5f5f0) with a warm, premium feel. The .inner panel has a white background (#ffffff) with a subtle shadow (0 2px 16px rgba(0,0,0,0.06)) and 12px border-radius — the clean canvas for choreographed GSAP timelines. Colors: deep emerald (#059669) as the primary accent — sophisticated, premium, and associated with high-end interactive agencies. Near-black (#111827) for headings, warm gray (#6b7280) for body text. The aesthetic is agency-polished — every animation feels deliberate, every transition timed to perfection. Set in Manrope — a modern geometric sans-serif with subtle optical corrections, popular among high-end web studios. Heading at weight 700, 28px, line-height 1.2, letter-spacing -0.5px, color #111827. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #059669. Body at weight 400, 15px, line-height 1.7, color #6b7280. Buttons: primary — emerald (#059669), white text, 8px border-radius. Secondary: transparent, emerald border. Alternatives: General Sans (modern geometric), Clash Display (bold display).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/gsap-powered-interactions/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/gsap-powered-interactions/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/gsap-powered-interactions/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/gsap-powered-interactions/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "GSAP-Powered Interactions style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about GSAP-Powered Interactions style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a GSAP-Powered Interactions website?",
+					"answer": "The polished, agency-grade aesthetic of GSAP-powered websites — buttery-smooth timeline animations, sophisticated easing, and interactions that feel premium and intentional. Background: off-white (#f5f5f0) with a warm, premium feel. The .inner panel has a white background (#ffffff) with a subtle shadow (0 2px 16px rgba(0,0,0,0.06)) and 12px border-radius — the clean canvas for choreographed GSAP timelines. Colors: deep emerald (#059669) as the primary accent — sophisticated, premium, and associated with high-end interactive agencies. Near-black (#111827) for headings, warm gray (#6b7280) for body text. The aesthetic is agency-polished — every animation feels deliberate, every transition timed to perfection. Set in Manrope — a modern geometric sans-serif with subtle optical corrections, popular among high-end web studios. Heading at weight 700, 28px, line-height 1.2, letter-spacing -0.5px, color #111827. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #059669. Body at weight 400, 15px, line-height 1.7, color #6b7280. Buttons: primary — emerald (#059669), white text, 8px border-radius. Secondary: transparent, emerald border. Alternatives: General Sans (modern geometric), Clash Display (bold display)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does GSAP-Powered Interactions work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the GSAP-Powered Interactions style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the GSAP-Powered Interactions look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Canvas Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/canvas-animation.jpg",
+						"href": "/heavy-animation-and-motion/canvas-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Canvas",
+						"Heavy Motion"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cursor Mouse Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/cursor-mouse-effects.jpg",
+						"href": "/heavy-animation-and-motion/cursor-mouse-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Interactive",
+						"Heavy Motion",
+						"Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Entrance Animations style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/entrance-animations.jpg",
+						"href": "/heavy-animation-and-motion/entrance-animations/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Moderate Motion",
+						"Engaging"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hover-State Heavy style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/hover-state-heavy.jpg",
+						"href": "/heavy-animation-and-motion/hover-state-heavy/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Interactive",
+						"Animation",
+						"Micro-interactions"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "GSAP-Powered Interactions Style — UI Lookbook",
+		"description": "Explore the GSAP-Powered Interactions style: Heavy Motion · GSAP. Color palettes, typography, design principles, and AI prompts for GSAP-Powered Interactions UI design.",
+		"keywords": "GSAP-Powered Interactions, gsap-powered-interactions, Advanced JS, Animation, Heavy Motion, Interactive, Modern",
+		"og": {
+			"title": "GSAP-Powered Interactions Style — UI Lookbook",
+			"description": "Explore the GSAP-Powered Interactions style: Heavy Motion · GSAP. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/heavy-animation-and-motion/gsap-powered-interactions/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/lifestyle.jpg",
+				"alt": "GSAP-Powered Interactions Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "GSAP-Powered Interactions Style — UI Lookbook",
+			"description": "Explore the GSAP-Powered Interactions style: Heavy Motion · GSAP. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/gsap-powered-interactions/lifestyle.jpg",
+				"alt": "GSAP-Powered Interactions Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "gsap-powered-interactions",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/heavy-animation-and-motion/gsap-powered-interactions.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

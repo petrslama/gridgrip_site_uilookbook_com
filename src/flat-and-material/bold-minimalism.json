@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Flat & Material",
+					"href": "/flat-and-material/"
+				},
+				{
+					"text": "Bold Minimalism Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Bold Minimalism style mood board — Design Style · Bold Minimal",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/flat-and-material/bold-minimalism/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Flat Design · Minimal · Bold · Bold Colors · Balanced",
+			"a_h1": "Bold Minimalism Style",
+			"a_description": "Maximum contrast, oversized typography, and the radical confidence of saying everything with almost nothing — Bold Minimalism strips interfaces to their most essential elements, then makes each one impossible to ignore. Black backgrounds crash against white type, a single accent color does all the heavy lifting, and every piece of whitespace is a deliberate design decision.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "bold-minimalism"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This high-impact style powers fashion brand lookbooks, architecture firm portfolios, creative director personal sites, and luxury product launches. You'll see it on award-winning portfolio sites, premium brand campaigns, editorial homepages, and anywhere that trades visual complexity for typographic confidence — proving that the boldest statement is often the simplest one.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The high-contrast, statement-making aesthetic of bold minimalism — fewer elements, but each one oversized, confident, and impossible to ignore. Background: pure white (#ffffff). The .inner panel has a stark black background (#000000) creating maximum contrast — the boldest possible surface choice in a minimal palette. Colors: pure white (#ffffff) on black — the ultimate reduction to contrast. White for headings, slightly dimmed white (rgba(255,255,255,0.7)) for body text. A single accent: electric yellow (#facc15) for the eyebrow and interactive elements — one color, maximum impact. The aesthetic is confidence through restraint — saying more with less, but saying it LOUDLY. Set in Cabinet Grotesk — a bold geometric grotesque that commands attention at large sizes while remaining clean. Heading at weight 800, 32px, line-height 1.1, letter-spacing -1px, color #ffffff. Eyebrow at weight 600, 11px, uppercase, 3px letter-spacing, color #facc15. Body at weight 400, 15px, line-height 1.7, color rgba(255,255,255,0.7). Buttons: primary — yellow (#facc15), black text, 0 border-radius. Secondary: transparent, white border. Alternatives: Clash Display (bold display), Satoshi (geometric bold).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/bold-minimalism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/bold-minimalism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/bold-minimalism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/bold-minimalism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Bold Minimalism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/bold-minimalism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Bold Minimalism style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Bold Minimalism website?",
+					"answer": "The high-contrast, statement-making aesthetic of bold minimalism — fewer elements, but each one oversized, confident, and impossible to ignore. Background: pure white (#ffffff). The .inner panel has a stark black background (#000000) creating maximum contrast — the boldest possible surface choice in a minimal palette. Colors: pure white (#ffffff) on black — the ultimate reduction to contrast. White for headings, slightly dimmed white (rgba(255,255,255,0.7)) for body text. A single accent: electric yellow (#facc15) for the eyebrow and interactive elements — one color, maximum impact. The aesthetic is confidence through restraint — saying more with less, but saying it LOUDLY. Set in Cabinet Grotesk — a bold geometric grotesque that commands attention at large sizes while remaining clean. Heading at weight 800, 32px, line-height 1.1, letter-spacing -1px, color #ffffff. Eyebrow at weight 600, 11px, uppercase, 3px letter-spacing, color #facc15. Body at weight 400, 15px, line-height 1.7, color rgba(255,255,255,0.7). Buttons: primary — yellow (#facc15), black text, 0 border-radius. Secondary: transparent, white border. Alternatives: Clash Display (bold display), Satoshi (geometric bold)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Bold Minimalism work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Bold Minimalism style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Bold Minimalism look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Apple HIG Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/apple-hig-style.jpg",
+						"href": "/flat-and-material/apple-hig-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Elegant",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Carbon Design (IBM) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/carbon-design-ibm.jpg",
+						"href": "/flat-and-material/carbon-design-ibm/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Professional",
+						"Clean UI",
+						"Corporate"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Clean UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/clean-ui.jpg",
+						"href": "/flat-and-material/clean-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Whitespace"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Content-First Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/content-first-design.jpg",
+						"href": "/flat-and-material/content-first-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Content Heavy",
+						"Whitespace"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Bold Minimalism Style — UI Lookbook",
+		"description": "Explore the Bold Minimalism style: Design Style · Bold Minimal. Color palettes, typography, design principles, and AI prompts for Bold Minimalism UI design.",
+		"keywords": "Bold Minimalism, bold-minimalism, Flat Design, Minimal, Bold, Bold Colors, Balanced",
+		"og": {
+			"title": "Bold Minimalism Style — UI Lookbook",
+			"description": "Explore the Bold Minimalism style: Design Style · Bold Minimal. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/flat-and-material/bold-minimalism/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/bold-minimalism/lifestyle.jpg",
+				"alt": "Bold Minimalism Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Bold Minimalism Style — UI Lookbook",
+			"description": "Explore the Bold Minimalism style: Design Style · Bold Minimal. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/bold-minimalism/lifestyle.jpg",
+				"alt": "Bold Minimalism Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "bold-minimalism",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/flat-and-material/bold-minimalism.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

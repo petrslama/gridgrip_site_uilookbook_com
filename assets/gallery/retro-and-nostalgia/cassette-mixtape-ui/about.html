@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Side B</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/lucide@latest/dist/umd/lucide.js">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --charcoal: #2a2420;
+            --charcoal-light: #3d342e;
+            --cream: #f5edd6;
+            --cream-dark: #ede0c0;
+            --border: #c8b89a;
+            --brown: #8b7355;
+            --brown-dark: #6b5540;
+            --ink: #4a3f32;
+            --ink-dark: #2a2420;
+            --red: #c0392b;
+            --red-dark: #a93226;
+            --ruled: rgba(180, 160, 120, 0.18);
+        }
+
+        html {
+            background: var(--charcoal);
+        }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.7;
+            color: var(--ink);
+            background: var(--charcoal);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 48px 20px 64px;
+
+            /* cassette housing texture */
+            background-image:
+                radial-gradient(ellipse 60% 40% at 20% 80%, rgba(60,45,35,0.5) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 60% at 80% 20%, rgba(20,15,10,0.4) 0%, transparent 50%);
+        }
+
+        /* ─── OUTER CASSETTE SHELL ─── */
+        .cassette {
+            width: 100%;
+            max-width: 680px;
+            position: relative;
+        }
+
+        /* tape reel decorations */
+        .cassette::before,
+        .cassette::after {
+            content: '';
+            position: absolute;
+            top: -18px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--charcoal-light);
+            border: 3px solid #4a3d35;
+            box-shadow:
+                0 0 0 6px var(--charcoal),
+                inset 0 0 0 10px #1e1814,
+                inset 0 0 0 12px #3a302a;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .cassette::before {
+            left: 80px;
+        }
+
+        .cassette::after {
+            right: 80px;
+        }
+
+        /* ─── NAV BAR (cassette spine look) ─── */
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 24px;
+            background: #1e1814;
+            border-radius: 6px 6px 0 0;
+            border: 1px solid #3a302a;
+            border-bottom: none;
+            margin-top: 22px;
+
+            & .nav-brand {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 13px;
+                color: var(--brown);
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            & .nav-pages {
+                display: flex;
+                gap: 6px;
+                align-items: center;
+
+                & .dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: #3a302a;
+                    border: 1px solid #4a3d35;
+                    transition: background 0.3s, border-color 0.3s;
+                    cursor: pointer;
+
+                    &.active {
+                        background: var(--red);
+                        border-color: var(--red-dark);
+                        box-shadow: 0 0 6px rgba(192,57,43,0.5);
+                    }
+
+                    &.done {
+                        background: var(--brown);
+                        border-color: var(--brown-dark);
+                    }
+                }
+            }
+
+            & .nav-label {
+                font-family: 'Barlow', sans-serif;
+                font-size: 11px;
+                color: #5a4d40;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+        }
+
+        /* ─── MAIN LABEL PANEL ─── */
+        .label-panel {
+            background: var(--cream);
+            border: 1px solid var(--border);
+            border-top: 3px solid var(--border);
+            border-radius: 0 0 4px 4px;
+            transform: rotate(-1deg);
+            transform-origin: center top;
+            padding: 40px 44px 48px;
+            position: relative;
+            box-shadow:
+                0 4px 0 var(--border),
+                0 8px 32px rgba(0,0,0,0.45),
+                0 2px 8px rgba(0,0,0,0.3);
+
+            /* ruled lines */
+            background-image: repeating-linear-gradient(
+                to bottom,
+                transparent,
+                transparent 23px,
+                var(--ruled) 23px,
+                var(--ruled) 24px
+            );
+
+            @media (max-width: 600px) {
+                padding: 28px 24px 36px;
+            }
+        }
+
+        /* punch holes */
+        .label-panel::before,
+        .label-panel::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--charcoal);
+            border: 1px solid #1a110c;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+            opacity: 0.5;
+        }
+
+        .label-panel::before {
+            left: 12px;
+        }
+
+        .label-panel::after {
+            right: 12px;
+        }
+
+        /* ─── EYEBROW ─── */
+        .eyebrow {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--brown);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: var(--border);
+                opacity: 0.6;
+            }
+        }
+
+        /* ─── HEADING ─── */
+        h1 {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 28px;
+            line-height: 1.3;
+            color: var(--ink-dark);
+            text-shadow: 1px 1px 0 rgba(0,0,0,0.08), 2px 2px 4px rgba(0,0,0,0.06);
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 14px;
+            color: var(--brown);
+            margin-bottom: 32px;
+        }
+
+        /* ─── CONTRIBUTOR TABS ─── */
+        .contributors {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+
+            & .tab {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 13px;
+                padding: 4px 14px;
+                border-radius: 20px;
+                border: 1.5px solid var(--border);
+                color: var(--brown);
+                background: transparent;
+                cursor: pointer;
+                transition: background 0.3s, color 0.3s, border-color 0.3s;
+                line-height: 1.6;
+
+                &.active {
+                    background: var(--ink-dark);
+                    color: var(--cream);
+                    border-color: var(--ink-dark);
+                }
+
+                &:hover:not(.active) {
+                    background: var(--cream-dark);
+                    border-color: var(--brown);
+                    color: var(--ink-dark);
+                }
+            }
+        }
+
+        /* ─── BIO BLOCK ─── */
+        .bio-block {
+            display: none;
+            animation: fadeIn 0.3s ease;
+
+            &.active {
+                display: block;
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .bio-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+
+            & .bio-name {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 22px;
+                color: var(--ink-dark);
+                text-shadow: 1px 1px 0 rgba(0,0,0,0.07);
+            }
+
+            & .bio-tag {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 12px;
+                color: var(--red);
+                background: rgba(192,57,43,0.08);
+                border: 1px solid rgba(192,57,43,0.25);
+                border-radius: 3px;
+                padding: 2px 10px;
+                white-space: nowrap;
+                margin-top: 4px;
+            }
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--ink);
+        }
+
+        /* ─── TORN PULL-QUOTE FRAGMENT ─── */
+        .pull-quote {
+            position: relative;
+            margin: 28px -8px;
+            padding: 20px 24px 20px 28px;
+            background: var(--cream-dark);
+            border-left: 3px solid var(--red);
+
+            /* torn paper top edge */
+            &::before {
+                content: '';
+                position: absolute;
+                top: -8px;
+                left: 0;
+                right: 0;
+                height: 8px;
+                background: var(--cream-dark);
+                clip-path: polygon(
+                    0% 100%, 2% 30%, 5% 80%, 8% 20%, 11% 70%,
+                    14% 15%, 17% 65%, 20% 10%, 23% 60%, 26% 5%,
+                    29% 55%, 32% 0%, 35% 50%, 38% 5%, 41% 55%,
+                    44% 10%, 47% 60%, 50% 5%, 53% 55%, 56% 10%,
+                    59% 60%, 62% 5%, 65% 55%, 68% 0%, 71% 50%,
+                    74% 5%, 77% 55%, 80% 10%, 83% 60%, 86% 15%,
+                    89% 65%, 92% 20%, 95% 70%, 98% 25%, 100% 80%,
+                    100% 100%
+                );
+            }
+
+            /* torn paper bottom edge */
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -8px;
+                left: 0;
+                right: 0;
+                height: 8px;
+                background: var(--cream-dark);
+                clip-path: polygon(
+                    0% 0%, 3% 70%, 6% 20%, 9% 80%, 12% 25%,
+                    15% 85%, 18% 30%, 21% 90%, 24% 35%, 27% 95%,
+                    30% 40%, 33% 100%, 36% 45%, 39% 95%, 42% 40%,
+                    45% 90%, 48% 35%, 51% 95%, 54% 40%, 57% 90%,
+                    60% 35%, 63% 95%, 66% 40%, 69% 100%, 72% 45%,
+                    75% 95%, 78% 40%, 81% 90%, 84% 35%, 87% 85%,
+                    90% 30%, 93% 80%, 96% 25%, 100% 75%, 100% 0%
+                );
+            }
+
+            & blockquote {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 16px;
+                line-height: 1.5;
+                color: var(--ink-dark);
+                font-style: normal;
+                position: relative;
+                z-index: 1;
+
+                &::before {
+                    content: '"';
+                    font-size: 48px;
+                    line-height: 0;
+                    vertical-align: -18px;
+                    color: var(--red);
+                    margin-right: 4px;
+                    opacity: 0.6;
+                }
+            }
+
+            & cite {
+                display: block;
+                margin-top: 10px;
+                font-family: 'Barlow', sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                color: var(--brown);
+                letter-spacing: 0.5px;
+                position: relative;
+                z-index: 1;
+            }
+        }
+
+        /* ─── DEDICATION STRIP ─── */
+        .dedication {
+            margin: 24px 0;
+            padding: 14px 18px;
+            border: 1.5px dashed var(--border);
+            border-radius: 2px;
+            background: rgba(255,255,255,0.3);
+
+            & .dedication-label {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 11px;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                color: var(--brown);
+                margin-bottom: 4px;
+            }
+
+            & .dedication-text {
+                font-family: 'Barlow', sans-serif;
+                font-size: 14px;
+                color: var(--ink);
+                font-style: italic;
+                margin: 0;
+                line-height: 1.6;
+            }
+        }
+
+        /* ─── TRACKLIST ASIDE ─── */
+        .track-note {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+            font-size: 13px;
+            color: var(--brown);
+
+            & .track-icon {
+                width: 20px;
+                height: 20px;
+                color: var(--brown);
+                flex-shrink: 0;
+            }
+
+            & em {
+                font-style: italic;
+            }
+        }
+
+        /* ─── DIVIDER ─── */
+        .divider {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--border), transparent);
+            margin: 28px 0;
+            opacity: 0.7;
+        }
+
+        /* ─── BUTTONS ─── */
+        .actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 36px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 14px;
+            padding: 10px 22px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            line-height: 1;
+
+            & i {
+                width: 16px;
+                height: 16px;
+            }
+
+            &.btn-primary {
+                background: var(--red);
+                color: var(--cream);
+                border: 2px solid var(--red-dark);
+                box-shadow: 2px 2px 0 var(--red-dark);
+
+                &:hover {
+                    background: var(--red-dark);
+                    box-shadow: 1px 1px 0 var(--red-dark);
+                    transform: translate(1px, 1px);
+                }
+            }
+
+            &.btn-secondary {
+                background: transparent;
+                color: var(--brown-dark);
+                border: 2px solid var(--brown);
+
+                &:hover {
+                    background: var(--cream-dark);
+                    border-color: var(--brown-dark);
+                }
+            }
+        }
+
+        /* ─── PAGE FOOTER NAV ─── */
+        .page-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 16px;
+            padding: 0 4px;
+            transform: rotate(-1deg);
+
+            & .page-nav-btn {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 13px;
+                color: var(--brown);
+                background: none;
+                border: none;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                padding: 6px 10px;
+                border-radius: 4px;
+                transition: color 0.3s, background 0.3s;
+
+                & i {
+                    width: 16px;
+                    height: 16px;
+                }
+
+                &:hover {
+                    color: var(--ink-dark);
+                    background: rgba(139,115,85,0.12);
+                }
+            }
+
+            & .page-counter {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 13px;
+                color: var(--brown);
+                letter-spacing: 1px;
+            }
+        }
+
+        /* ─── TAPE STRIP AT BOTTOM ─── */
+        .tape-strip {
+            width: calc(100% + 0px);
+            max-width: 680px;
+            height: 10px;
+            background: repeating-linear-gradient(
+                90deg,
+                #1e1814 0px,
+                #1e1814 8px,
+                #2a2420 8px,
+                #2a2420 12px
+            );
+            border-radius: 0 0 4px 4px;
+            margin-top: -2px;
+            opacity: 0.6;
+        }
+
+        /* ─── SCUFF / TAPE CORNER STICKERS ─── */
+        .corner-sticker {
+            position: absolute;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 11px;
+            color: var(--red);
+            transform: rotate(8deg);
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .corner-sticker-tl {
+            top: 16px;
+            left: 16px;
+            transform: rotate(-5deg);
+        }
+
+        .corner-sticker-br {
+            bottom: 20px;
+            right: 18px;
+            transform: rotate(4deg);
+            color: var(--brown);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cassette">
+
+        <!-- Navigation bar -->
+        <nav class="nav">
+            <span class="nav-brand">Side B</span>
+            <div class="nav-pages" title="Page 4 of 6">
+                <div class="dot done" title="Track list"></div>
+                <div class="dot done" title="Photos"></div>
+                <div class="dot done" title="Letters"></div>
+                <div class="dot active" title="About"></div>
+                <div class="dot" title="Credits"></div>
+                <div class="dot" title="End"></div>
+            </div>
+            <span class="nav-label">4 / 6</span>
+        </nav>
+
+        <!-- Main label panel -->
+        <main class="label-panel">
+
+            <span class="corner-sticker corner-sticker-tl">★ hand-picked</span>
+            <span class="corner-sticker corner-sticker-br">do not rewind</span>
+
+            <p class="eyebrow">About the people behind the tape</p>
+            <h1>Who Made This?</h1>
+            <p class="subtitle">Four people. A lot of feelings. One cassette.</p>
+
+            <!-- Contributor tab switcher -->
+            <div class="contributors" role="tablist" aria-label="Contributors">
+                <button class="tab active" role="tab" data-target="zoe" aria-selected="true">Zoe</button>
+                <button class="tab" role="tab" data-target="marco" aria-selected="false">Marco</button>
+                <button class="tab" role="tab" data-target="elena" aria-selected="false">Elena</button>
+                <button class="tab" role="tab" data-target="riley" aria-selected="false">Riley</button>
+            </div>
+
+            <!-- ZOE -->
+            <div class="bio-block active" id="bio-zoe" role="tabpanel">
+                <div class="bio-header">
+                    <div>
+                        <div class="bio-name">Zoe</div>
+                        <div style="font-family:'Permanent Marker',cursive;font-size:13px;color:var(--brown);margin-top:2px;">Side A — Curator</div>
+                    </div>
+                    <span class="bio-tag">track 1–4</span>
+                </div>
+
+                <p>Zoe picked the songs that go first — the ones that ease you in before the gut-punch. She has this talent for sequencing that makes a playlist feel like a sentence with perfect grammar. Her rule: every tape starts with something that sounds like a window being opened.</p>
+
+                <div class="pull-quote">
+                    <blockquote>I wanted the first track to feel like sunlight on your face before you've opened your eyes.</blockquote>
+                    <cite>— Zoe, 2. 3. 2024</cite>
+                </div>
+
+                <p>She wrote the label by hand, twice, because the first one smudged. The second one smudged a little too, but she decided that was better. More honest.</p>
+
+                <div class="dedication">
+                    <div class="dedication-label">Dedicated to</div>
+                    <p class="dedication-text">"For anyone who needed a song at exactly the wrong moment — and found it."</p>
+                </div>
+
+                <div class="track-note">
+                    <i data-lucide="music" class="track-icon"></i>
+                    <span>Track 3 — <em>her pick</em> — is the one she said she almost didn't include. It stayed.</span>
+                </div>
+            </div>
+
+            <!-- MARCO -->
+            <div class="bio-block" id="bio-marco" role="tabpanel">
+                <div class="bio-header">
+                    <div>
+                        <div class="bio-name">Marco</div>
+                        <div style="font-family:'Permanent Marker',cursive;font-size:13px;color:var(--brown);margin-top:2px;">Side A — The wildcard</div>
+                    </div>
+                    <span class="bio-tag">track 5–7</span>
+                </div>
+
+                <p>Nobody agreed with Marco's picks at first. By the third listen they were everyone's favourites. He has a nose for songs that feel wrong in the first ten seconds and inevitable by the chorus — the kind of track you can't explain to someone, only play at them.</p>
+
+                <div class="pull-quote">
+                    <blockquote>A good song should make you feel slightly underdressed. Like you weren't ready for it.</blockquote>
+                    <cite>— Marco, in a note on a napkin</cite>
+                </div>
+
+                <p>He didn't write anything down for the label. He said the tape would speak for itself. He was right, but we're writing this down anyway because that's the kind of thing you want to have in a drawer somewhere twenty years from now.</p>
+
+                <div class="dedication">
+                    <div class="dedication-label">Dedicated to</div>
+                    <p class="dedication-text">"To every song that got skipped on the first listen and loved on the third."</p>
+                </div>
+
+                <div class="track-note">
+                    <i data-lucide="rewind" class="track-icon"></i>
+                    <span>Rewind track 6 when you think it's over. There's a bit at the end he hid there.</span>
+                </div>
+            </div>
+
+            <!-- ELENA -->
+            <div class="bio-block" id="bio-elena" role="tabpanel">
+                <div class="bio-header">
+                    <div>
+                        <div class="bio-name">Elena</div>
+                        <div style="font-family:'Permanent Marker',cursive;font-size:13px;color:var(--brown);margin-top:2px;">Side B — The anchor</div>
+                    </div>
+                    <span class="bio-tag">track 8–10</span>
+                </div>
+
+                <p>Elena took Side B. She said Side B is where tapes get serious — nobody flips a tape by accident. She picked songs that reward the effort of getting there. Her tracks are longer, slower, more likely to make you stare at the ceiling.</p>
+
+                <div class="pull-quote">
+                    <blockquote>Side B is a commitment. I wanted to make it worth keeping.</blockquote>
+                    <cite>— Elena, August</cite>
+                </div>
+
+                <p>She's the one who found the instrumental for track 9 — a fifteen-second piano loop from a record nobody's heard of, from a town nobody's been to. It sounds like something you remember but can't place. She said that's the whole point.</p>
+
+                <div class="dedication">
+                    <div class="dedication-label">Dedicated to</div>
+                    <p class="dedication-text">"For the version of you that's willing to sit with something for longer than it's comfortable."</p>
+                </div>
+
+                <div class="track-note">
+                    <i data-lucide="headphones" class="track-icon"></i>
+                    <span>Track 9 is best heard with headphones and eyes closed. She was very specific about this.</span>
+                </div>
+            </div>
+
+            <!-- RILEY -->
+            <div class="bio-block" id="bio-riley" role="tabpanel">
+                <div class="bio-header">
+                    <div>
+                        <div class="bio-name">Riley</div>
+                        <div style="font-family:'Permanent Marker',cursive;font-size:13px;color:var(--brown);margin-top:2px;">Side B — The closer</div>
+                    </div>
+                    <span class="bio-tag">track 11–13</span>
+                </div>
+
+                <p>Riley ends the tape. They've always been good at endings — the kind that don't try to wrap everything up but still feel complete. Their last track fades out over thirty-two seconds, and nobody agreed on whether to cut it shorter. Nobody did.</p>
+
+                <div class="pull-quote">
+                    <blockquote>An ending should leave room for what you're about to think. Not fill it.</blockquote>
+                    <cite>— Riley, scribbled on the inside of the case</cite>
+                </div>
+
+                <p>The handwriting on the back of the insert is Riley's. They were the only one whose writing was legible enough, and small enough to fit. They said they didn't want credit for it. It's credited to them anyway. Some things are too careful not to acknowledge.</p>
+
+                <div class="dedication">
+                    <div class="dedication-label">Dedicated to</div>
+                    <p class="dedication-text">"To the drive home after. To the part of the night that's yours alone."</p>
+                </div>
+
+                <div class="track-note">
+                    <i data-lucide="volume-1" class="track-icon"></i>
+                    <span>Turn up the volume before track 13. Trust the ending. It earns it.</span>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <!-- Shared closing note -->
+            <p style="font-family:'Permanent Marker',cursive;font-size:15px;color:var(--ink-dark);line-height:1.6;">
+                This tape was made across four cities, a lot of voice notes, and one very long shared document none of us want to re-read. It took three months and one argument about track order that turned out to not matter at all.
+            </p>
+            <p style="margin-top:8px;">
+                We made it for you. Specifically you — even if we didn't know your name yet.
+            </p>
+
+            <div class="actions">
+                <button class="btn btn-primary">
+                    <i data-lucide="play"></i>
+                    Play the tape
+                </button>
+                <button class="btn btn-secondary">
+                    <i data-lucide="list-music"></i>
+                    Track list
+                </button>
+            </div>
+
+            <!-- Page navigation -->
+            <nav class="page-nav" aria-label="Page navigation">
+                <button class="page-nav-btn">
+                    <i data-lucide="arrow-left"></i>
+                    Letters
+                </button>
+                <span class="page-counter">4 / 6</span>
+                <button class="page-nav-btn">
+                    Credits
+                    <i data-lucide="arrow-right"></i>
+                </button>
+            </nav>
+
+        </main>
+
+        <div class="tape-strip" aria-hidden="true"></div>
+
+    </div>
+
+    <script>
+        // Init Lucide icons
+        lucide.createIcons();
+
+        // Tab switching
+        const tabs = document.querySelectorAll('.tab');
+        const bios = document.querySelectorAll('.bio-block');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = tab.dataset.target;
+
+                tabs.forEach(t => {
+                    t.classList.remove('active');
+                    t.setAttribute('aria-selected', 'false');
+                });
+                bios.forEach(b => b.classList.remove('active'));
+
+                tab.classList.add('active');
+                tab.setAttribute('aria-selected', 'true');
+                document.getElementById(`bio-${target}`).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

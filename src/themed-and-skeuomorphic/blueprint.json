@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Themed & Skeuomorphic",
+					"href": "/themed-and-skeuomorphic/"
+				},
+				{
+					"text": "Blueprint Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Blueprint style mood board — Technical Drawing · Architectural",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Outline · Dark Mode · Technical · Monospaced · Professional",
+			"a_h1": "Blueprint Style",
+			"a_description": "White lines on deep engineering blue — the unmistakable visual language of architectural blueprints and technical drawings, translated to the screen. Every element is rendered as if drafted with a T-square and compass: precise grid lines, uppercase monospaced type, and the measured cadence of technical notation where every mark means something.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "blueprint"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "Blueprint styling appears on architecture firm portfolios, engineering company sites, and construction industry platforms. You'll find it on CAD software landing pages, technical documentation, hardware startup sites, and any project that wants to communicate precision, expertise, and the serious craft of building things.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "Architectural blueprint — white technical drawings on deep engineering blue. Background: rich blueprint blue (#003366). The .inner panel has no solid background — just a subtle grid pattern via repeating-linear-gradient: thin white lines (#ffffff at 8% opacity) every 24px both horizontally and vertically, creating the classic graph-paper grid. Text is all white or near-white (#e0eaf0) with a slight blue tint. The heading is rendered as if hand-drafted — all uppercase, wide letter-spacing, with a thin underline. A pseudo-element adds a title block rectangle in the bottom-right corner (a bordered box, like the information block on a real blueprint). Zero border-radius — blueprints are precise, angular, technical. Set in JetBrains Mono — a monospace font designed for developers whose clean, technical character set perfectly captures the measured precision of architectural notation. Heading at 26px, uppercase, 3px letter-spacing, line-height 1.2, white. Eyebrow at 11px, uppercase, 4px letter-spacing, color rgba(255,255,255,0.5). Body at 14px, line-height 1.7, color rgba(224,234,240,0.8). Buttons: outlined rectangles with no fill — primary has white border and text, secondary has a thinner border at lower opacity. Hover: fill with semi-transparent white. Alternatives: IBM Plex Mono (wider strokes), Fira Code (ligatures), Source Code Pro (neutral mono).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Blueprint style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/blueprint/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Blueprint style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/blueprint/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Blueprint style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/blueprint/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Blueprint style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/blueprint/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Blueprint style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Blueprint style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Blueprint website?",
+					"answer": "Architectural blueprint — white technical drawings on deep engineering blue. Background: rich blueprint blue (#003366). The .inner panel has no solid background — just a subtle grid pattern via repeating-linear-gradient: thin white lines (#ffffff at 8% opacity) every 24px both horizontally and vertically, creating the classic graph-paper grid. Text is all white or near-white (#e0eaf0) with a slight blue tint. The heading is rendered as if hand-drafted — all uppercase, wide letter-spacing, with a thin underline. A pseudo-element adds a title block rectangle in the bottom-right corner (a bordered box, like the information block on a real blueprint). Zero border-radius — blueprints are precise, angular, technical. Set in JetBrains Mono — a monospace font designed for developers whose clean, technical character set perfectly captures the measured precision of architectural notation. Heading at 26px, uppercase, 3px letter-spacing, line-height 1.2, white. Eyebrow at 11px, uppercase, 4px letter-spacing, color rgba(255,255,255,0.5). Body at 14px, line-height 1.7, color rgba(224,234,240,0.8). Buttons: outlined rectangles with no fill — primary has white border and text, secondary has a thinner border at lower opacity. Hover: fill with semi-transparent white. Alternatives: IBM Plex Mono (wider strokes), Fira Code (ligatures), Source Code Pro (neutral mono)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Blueprint work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Blueprint style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Blueprint look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Boarding Pass UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/boarding-pass-ui.jpg",
+						"href": "/themed-and-skeuomorphic/boarding-pass-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Hand-Crafted",
+						"Skeuomorphic",
+						"Organic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chalkboard style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/chalkboard.jpg",
+						"href": "/themed-and-skeuomorphic/chalkboard/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Textured",
+						"Dark",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "File Folder UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/file-folder-ui.jpg",
+						"href": "/themed-and-skeuomorphic/file-folder-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Skeuomorphic",
+						"Hand-Crafted",
+						"Dimensional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hacker Matrix Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/hacker-matrix-style.jpg",
+						"href": "/themed-and-skeuomorphic/hacker-matrix-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dark Mode",
+						"Monospaced",
+						"Neon"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Blueprint Style — UI Lookbook",
+		"description": "Explore the Blueprint style: Technical Drawing · Architectural. Color palettes, typography, design principles, and AI prompts for Blueprint UI design.",
+		"keywords": "Blueprint, blueprint, Outline, Dark Mode, Technical, Monospaced, Professional",
+		"og": {
+			"title": "Blueprint Style — UI Lookbook",
+			"description": "Explore the Blueprint style: Technical Drawing · Architectural. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/themed-and-skeuomorphic/blueprint/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/lifestyle.jpg",
+				"alt": "Blueprint Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Blueprint Style — UI Lookbook",
+			"description": "Explore the Blueprint style: Technical Drawing · Architectural. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/themed-and-skeuomorphic/blueprint/lifestyle.jpg",
+				"alt": "Blueprint Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "blueprint",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/themed-and-skeuomorphic/blueprint.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

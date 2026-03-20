@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Organic & Natural",
+					"href": "/organic-and-natural/"
+				},
+				{
+					"text": "Foliage Motifs Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Foliage Motifs style mood board — Natural · Leaf Patterns",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/organic-and-natural/foliage-motifs/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Organic · Natural · Illustrated · Illustration Era · Green Tones",
+			"a_h1": "Foliage Motifs Style",
+			"a_description": "Leaf-green accents, vine-like border treatments, and the ornamental beauty of botanical illustration integrated into every design surface — Foliage Motifs design weaves living patterns throughout the interface. The sage backgrounds and cream panels create the feeling of a well-tended conservatory, where the decorative language of leaves and growing things is as much a part of the structure as the content itself.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "foliage-motifs"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This decoratively natural style powers garden design publications, botanical illustration courses, plant identification apps, and nature journaling platforms. You'll see it on floral arrangement studios, herbalist websites, natural dye workshops, and illustrated field guide publishers — anywhere that the visual language of leaves, stems, and botanical forms adds decorative richness to functional design.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The decorative, illustration-rich aesthetic of foliage motifs — leaf patterns, vine borders, and the ornamental beauty of botanical illustrations woven into the design framework. Background: soft sage (#f0f2eb). The .inner panel has a cream background (#faf9f5) with a 1px border (#c8d0b8) and a left border accent (3px solid #4a7a3a) — a green vine climbing the margin. Colors: leaf green (#4a7a3a) as the primary accent — the rich green of healthy foliage in dappled sunlight. Deep forest (#1e2e18) for headings, olive (#6a7a58) for body text. The aesthetic is decorative and botanical — every surface could bear a pressed leaf or illustrated vine. Set in Cormorant Garamond — an elegant, refined serif that echoes the calligraphic quality of traditional botanical plate labels. Heading at weight 600, 26px, line-height 1.3, color #1e2e18. Eyebrow at weight 300, 11px, uppercase, 2px letter-spacing, color #4a7a3a. Body at weight 400, 15px, line-height 1.7, color #6a7a58. Buttons: primary — leaf green (#4a7a3a), cream text (#faf9f5), 6px border-radius. Secondary: transparent, green border. Alternatives: EB Garamond (classic), Lora (reading serif).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Foliage Motifs style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/foliage-motifs/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Foliage Motifs style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/foliage-motifs/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Foliage Motifs style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/foliage-motifs/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Foliage Motifs style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/foliage-motifs/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Foliage Motifs style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/foliage-motifs/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Foliage Motifs style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Foliage Motifs website?",
+					"answer": "The decorative, illustration-rich aesthetic of foliage motifs — leaf patterns, vine borders, and the ornamental beauty of botanical illustrations woven into the design framework. Background: soft sage (#f0f2eb). The .inner panel has a cream background (#faf9f5) with a 1px border (#c8d0b8) and a left border accent (3px solid #4a7a3a) — a green vine climbing the margin. Colors: leaf green (#4a7a3a) as the primary accent — the rich green of healthy foliage in dappled sunlight. Deep forest (#1e2e18) for headings, olive (#6a7a58) for body text. The aesthetic is decorative and botanical — every surface could bear a pressed leaf or illustrated vine. Set in Cormorant Garamond — an elegant, refined serif that echoes the calligraphic quality of traditional botanical plate labels. Heading at weight 600, 26px, line-height 1.3, color #1e2e18. Eyebrow at weight 300, 11px, uppercase, 2px letter-spacing, color #4a7a3a. Body at weight 400, 15px, line-height 1.7, color #6a7a58. Buttons: primary — leaf green (#4a7a3a), cream text (#faf9f5), 6px border-radius. Secondary: transparent, green border. Alternatives: EB Garamond (classic), Lora (reading serif)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Foliage Motifs work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Foliage Motifs style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Foliage Motifs look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Biophilic Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/biophilic-design.jpg",
+						"href": "/organic-and-natural/biophilic-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Illustrated"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Botanical Theme style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/botanical-theme.jpg",
+						"href": "/organic-and-natural/botanical-theme/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Earthy Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/earthy-palette.jpg",
+						"href": "/organic-and-natural/earthy-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Earthy",
+						"Earth Tones"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Eco Branding style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/eco-branding.jpg",
+						"href": "/organic-and-natural/eco-branding/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Earthy"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Foliage Motifs Style — UI Lookbook",
+		"description": "Explore the Foliage Motifs style: Natural · Leaf Patterns. Color palettes, typography, design principles, and AI prompts for Foliage Motifs UI design.",
+		"keywords": "Foliage Motifs, foliage-motifs, Organic, Natural, Illustrated, Illustration Era, Green Tones",
+		"og": {
+			"title": "Foliage Motifs Style — UI Lookbook",
+			"description": "Explore the Foliage Motifs style: Natural · Leaf Patterns. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/organic-and-natural/foliage-motifs/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/organic-and-natural/foliage-motifs/lifestyle.jpg",
+				"alt": "Foliage Motifs Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Foliage Motifs Style — UI Lookbook",
+			"description": "Explore the Foliage Motifs style: Natural · Leaf Patterns. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/organic-and-natural/foliage-motifs/lifestyle.jpg",
+				"alt": "Foliage Motifs Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "foliage-motifs",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/organic-and-natural/foliage-motifs.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

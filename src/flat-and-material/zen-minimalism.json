@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Flat & Material",
+					"href": "/flat-and-material/"
+				},
+				{
+					"text": "Zen Minimalism Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Zen Minimalism style mood board — Minimalism · Zen Calm",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/flat-and-material/zen-minimalism/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Minimal · Calm · Zen · Whitespace · Light",
+			"a_h1": "Zen Minimalism Style",
+			"a_description": "Warm cream surfaces, sage green accents, and the meditative calm of an interface designed to slow you down rather than speed you up — Zen Minimalism transforms digital spaces into contemplative environments. The serene color palette, generous whitespace, and calligraphic serif typography create an experience that feels less like browsing a website and more like sitting in a Japanese garden.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "zen-minimalism"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This contemplative style powers wellness brands, meditation app landing pages, spa and retreat websites, and mindfulness platforms. You'll see it on tea company sites, yoga studio pages, luxury hospitality brands, and any digital experience that wants visitors to exhale — where the interface itself becomes an act of intentional calm in the noise of the modern web.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The serene, contemplative aesthetic of zen-inspired minimalism — warm whitespace, organic proportions, and a meditative calm that transforms browsing into breathing. Background: warm cream (#faf8f5). The .inner panel has a slightly warmer background (#f5f0ea) with zero border and 4px border-radius — soft and organic, like handmade paper. Colors: muted sage green (#6b7c5e) as the primary accent — natural, grounding, and associated with zen gardens and tea ceremony. Warm dark (#2d2d2d) for headings, muted warm gray (#7a756e) for body text. The aesthetic is intentionally slow — generous spacing, soft colors, and a rhythm that encourages mindful reading rather than rapid scanning. Set in Cormorant Garamond — an elegant, refined serif with calligraphic qualities that echo the contemplative mood. Heading at weight 500, 28px, line-height 1.3, color #2d2d2d. Eyebrow at weight 300, 11px, uppercase, 3px letter-spacing, color #6b7c5e. Body at weight 400, 16px, line-height 1.8, color #7a756e. Buttons: primary — sage (#6b7c5e), white text, 4px border-radius. Secondary: transparent, sage border. Alternatives: EB Garamond (classic zen serif), Noto Serif JP (Japanese zen influence).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Zen Minimalism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/zen-minimalism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Zen Minimalism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/zen-minimalism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Zen Minimalism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/zen-minimalism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Zen Minimalism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/zen-minimalism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zen Minimalism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/zen-minimalism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Zen Minimalism style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Zen Minimalism website?",
+					"answer": "The serene, contemplative aesthetic of zen-inspired minimalism — warm whitespace, organic proportions, and a meditative calm that transforms browsing into breathing. Background: warm cream (#faf8f5). The .inner panel has a slightly warmer background (#f5f0ea) with zero border and 4px border-radius — soft and organic, like handmade paper. Colors: muted sage green (#6b7c5e) as the primary accent — natural, grounding, and associated with zen gardens and tea ceremony. Warm dark (#2d2d2d) for headings, muted warm gray (#7a756e) for body text. The aesthetic is intentionally slow — generous spacing, soft colors, and a rhythm that encourages mindful reading rather than rapid scanning. Set in Cormorant Garamond — an elegant, refined serif with calligraphic qualities that echo the contemplative mood. Heading at weight 500, 28px, line-height 1.3, color #2d2d2d. Eyebrow at weight 300, 11px, uppercase, 3px letter-spacing, color #6b7c5e. Body at weight 400, 16px, line-height 1.8, color #7a756e. Buttons: primary — sage (#6b7c5e), white text, 4px border-radius. Secondary: transparent, sage border. Alternatives: EB Garamond (classic zen serif), Noto Serif JP (Japanese zen influence)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Zen Minimalism work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Zen Minimalism style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Zen Minimalism look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Apple HIG Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/apple-hig-style.jpg",
+						"href": "/flat-and-material/apple-hig-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Elegant",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/bold-minimalism.jpg",
+						"href": "/flat-and-material/bold-minimalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Bold"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Carbon Design (IBM) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/carbon-design-ibm.jpg",
+						"href": "/flat-and-material/carbon-design-ibm/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Professional",
+						"Clean UI",
+						"Corporate"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Clean UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/clean-ui.jpg",
+						"href": "/flat-and-material/clean-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Whitespace"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Zen Minimalism Style — UI Lookbook",
+		"description": "Explore the Zen Minimalism style: Minimalism · Zen Calm. Color palettes, typography, design principles, and AI prompts for Zen Minimalism UI design.",
+		"keywords": "Zen Minimalism, zen-minimalism, Minimal, Calm, Zen, Whitespace, Light",
+		"og": {
+			"title": "Zen Minimalism Style — UI Lookbook",
+			"description": "Explore the Zen Minimalism style: Minimalism · Zen Calm. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/flat-and-material/zen-minimalism/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/zen-minimalism/lifestyle.jpg",
+				"alt": "Zen Minimalism Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Zen Minimalism Style — UI Lookbook",
+			"description": "Explore the Zen Minimalism style: Minimalism · Zen Calm. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/zen-minimalism/lifestyle.jpg",
+				"alt": "Zen Minimalism Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "zen-minimalism",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/flat-and-material/zen-minimalism.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

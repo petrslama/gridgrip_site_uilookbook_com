@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Cultural & Regional",
+					"href": "/cultural-and-regional/"
+				},
+				{
+					"text": "Swiss Graphic Style Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Swiss Graphic Style style mood board — Design Movement · International Style",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Grid · Sans-Serif · Professional · Balanced · Clean UI",
+			"a_h1": "Swiss Graphic Style Style",
+			"a_description": "Radical clarity through mathematical precision — the Swiss Graphic Style strips design to its purest essentials: sans-serif type, strict grid alignment, generous whitespace, and a single bold accent color against monochrome. Born in the 1950s at Basel and Zurich design schools, it proved that impeccable typography, systematic grids, and disciplined restraint could create designs of timeless power.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "swiss-graphic-style"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "Swiss Graphic Style is the foundation of corporate identity worldwide — you'll see its DNA in airline branding, museum signage systems, and multinational corporate identities. It appears on architecture firm sites, design education platforms, and typographic specimen pages — anywhere that treats systematic clarity as the highest design virtue.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The Swiss International Typographic Style — radical clarity through grid systems, sans-serif typography, and mathematical precision. Pure white background (#ffffff). Content organized on a strict invisible grid. A bold red (#e53935) accent — the color of the Swiss flag — appears only once: a thick left-border on the heading or a red rule line. Everything else is black (#000000), white, and gray (#888). Zero decoration. Zero border-radius. The design communicates through hierarchy alone: size, weight, and position. Set in Inter — a modern interpretation of the Helvetica/Univers tradition that defined Swiss graphic design, with metrics optimized for screen. Heading at weight 700, 32px, uppercase, 1px letter-spacing, line-height 1.1, black. Eyebrow at weight 400, 11px, uppercase, 4px letter-spacing, color #888. Body at weight 400, 15px, line-height 1.6, color #333. Buttons: primary — black fill, white text, 0 border-radius. Secondary: transparent, 1px black border. All interactions are minimal — hover changes are subtle. Alternatives: Helvetica Neue (the original Swiss choice), Univers (Frutiger's masterpiece), Jost (modern geometric).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Swiss Graphic Style style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/swiss-graphic-style/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Swiss Graphic Style style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/swiss-graphic-style/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Swiss Graphic Style style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/swiss-graphic-style/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Swiss Graphic Style style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/swiss-graphic-style/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Swiss Graphic Style style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Swiss Graphic Style style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Swiss Graphic Style website?",
+					"answer": "The Swiss International Typographic Style — radical clarity through grid systems, sans-serif typography, and mathematical precision. Pure white background (#ffffff). Content organized on a strict invisible grid. A bold red (#e53935) accent — the color of the Swiss flag — appears only once: a thick left-border on the heading or a red rule line. Everything else is black (#000000), white, and gray (#888). Zero decoration. Zero border-radius. The design communicates through hierarchy alone: size, weight, and position. Set in Inter — a modern interpretation of the Helvetica/Univers tradition that defined Swiss graphic design, with metrics optimized for screen. Heading at weight 700, 32px, uppercase, 1px letter-spacing, line-height 1.1, black. Eyebrow at weight 400, 11px, uppercase, 4px letter-spacing, color #888. Body at weight 400, 15px, line-height 1.6, color #333. Buttons: primary — black fill, white text, 0 border-radius. Secondary: transparent, 1px black border. All interactions are minimal — hover changes are subtle. Alternatives: Helvetica Neue (the original Swiss choice), Univers (Frutiger's masterpiece), Jost (modern geometric)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Swiss Graphic Style work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Swiss Graphic Style style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Swiss Graphic Style look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chinese Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/chinese-web-design.jpg",
+						"href": "/cultural-and-regional/chinese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold Colors",
+						"Dense",
+						"Content Heavy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dutch Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/dutch-design.jpg",
+						"href": "/cultural-and-regional/dutch-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold",
+						"Geometric",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japandi style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/japandi.jpg",
+						"href": "/cultural-and-regional/japandi/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Organic",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japanese Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/japanese-web-design.jpg",
+						"href": "/cultural-and-regional/japanese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dense",
+						"Content Heavy",
+						"Grid"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Swiss Graphic Style Style — UI Lookbook",
+		"description": "Explore the Swiss Graphic Style style: Design Movement · International Style. Color palettes, typography, design principles, and AI prompts for Swiss Graphic Style UI design.",
+		"keywords": "Swiss Graphic Style, swiss-graphic-style, Grid, Sans-Serif, Professional, Balanced, Clean UI",
+		"og": {
+			"title": "Swiss Graphic Style Style — UI Lookbook",
+			"description": "Explore the Swiss Graphic Style style: Design Movement · International Style. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/cultural-and-regional/swiss-graphic-style/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/lifestyle.jpg",
+				"alt": "Swiss Graphic Style Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Swiss Graphic Style Style — UI Lookbook",
+			"description": "Explore the Swiss Graphic Style style: Design Movement · International Style. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/swiss-graphic-style/lifestyle.jpg",
+				"alt": "Swiss Graphic Style Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "swiss-graphic-style",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/swiss-graphic-style.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

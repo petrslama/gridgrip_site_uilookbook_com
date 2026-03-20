@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Heavy Animation & Motion",
+					"href": "/heavy-animation-and-motion/"
+				},
+				{
+					"text": "Stagger Cascade Animation Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Stagger Cascade Animation style mood board — Motion Design · Stagger",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Animation · Moderate Motion · Engaging · Modern · Balanced",
+			"a_h1": "Stagger Cascade Animation Style",
+			"a_description": "Sequential reveals, cascading entrances, and the satisfying visual rhythm of elements appearing in precisely-timed waves — Stagger Cascade Animation design turns content loading into choreography. Each card, list item, and content block enters the viewport with a carefully calculated delay, creating a domino-like flow that guides the eye naturally through the page hierarchy.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "stagger-cascade-animation"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This rhythmic style powers feature comparison grids, team member sections, pricing tables, and portfolio galleries across modern web design. You'll see it on SaaS product pages where feature cards cascade in, agency portfolio grids where project thumbnails ripple into view, and dashboard interfaces where data cards stagger-load to create a sense of progressive discovery.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The rhythmic, choreographed aesthetic of stagger-cascade websites — lists, grids, and content blocks that enter the viewport in sequential delayed waves, creating a domino-like visual rhythm. Background: warm off-white (#fefdfb) with a natural, organic warmth. The .inner panel has a clean white background (#ffffff) with a very subtle shadow (0 1px 8px rgba(0,0,0,0.04)) and 10px border-radius — each card representing one 'step' in the cascade sequence. Colors: teal (#0d9488) as the primary accent — balanced, modern, and visually rhythmic as it appears in sequential reveals. Near-black (#18181b) for headings, medium gray (#71717a) for body text. The aesthetic is orderly and satisfying — the visual rhythm of staggered entrances creates a sense of precision and care. Set in Figtree — a clean, modern variable font with excellent readability and neutral character. Heading at weight 600, 26px, line-height 1.3, letter-spacing -0.3px, color #18181b. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #0d9488. Body at weight 400, 15px, line-height 1.7, color #71717a. Buttons: primary — teal (#0d9488), white text, 8px border-radius. Secondary: transparent, teal border. Alternatives: DM Sans (geometric neutral), Inter (ubiquitous UI).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Stagger Cascade Animation style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/stagger-cascade-animation/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Stagger Cascade Animation style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/stagger-cascade-animation/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Stagger Cascade Animation style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/stagger-cascade-animation/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Stagger Cascade Animation style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/stagger-cascade-animation/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Stagger Cascade Animation style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Stagger Cascade Animation style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Stagger Cascade Animation website?",
+					"answer": "The rhythmic, choreographed aesthetic of stagger-cascade websites — lists, grids, and content blocks that enter the viewport in sequential delayed waves, creating a domino-like visual rhythm. Background: warm off-white (#fefdfb) with a natural, organic warmth. The .inner panel has a clean white background (#ffffff) with a very subtle shadow (0 1px 8px rgba(0,0,0,0.04)) and 10px border-radius — each card representing one 'step' in the cascade sequence. Colors: teal (#0d9488) as the primary accent — balanced, modern, and visually rhythmic as it appears in sequential reveals. Near-black (#18181b) for headings, medium gray (#71717a) for body text. The aesthetic is orderly and satisfying — the visual rhythm of staggered entrances creates a sense of precision and care. Set in Figtree — a clean, modern variable font with excellent readability and neutral character. Heading at weight 600, 26px, line-height 1.3, letter-spacing -0.3px, color #18181b. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #0d9488. Body at weight 400, 15px, line-height 1.7, color #71717a. Buttons: primary — teal (#0d9488), white text, 8px border-radius. Secondary: transparent, teal border. Alternatives: DM Sans (geometric neutral), Inter (ubiquitous UI)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Stagger Cascade Animation work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Stagger Cascade Animation style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Stagger Cascade Animation look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Canvas Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/canvas-animation.jpg",
+						"href": "/heavy-animation-and-motion/canvas-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Canvas",
+						"Heavy Motion"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cursor Mouse Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/cursor-mouse-effects.jpg",
+						"href": "/heavy-animation-and-motion/cursor-mouse-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Interactive",
+						"Heavy Motion",
+						"Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Entrance Animations style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/entrance-animations.jpg",
+						"href": "/heavy-animation-and-motion/entrance-animations/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Moderate Motion",
+						"Engaging"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/gsap-powered-interactions.jpg",
+						"href": "/heavy-animation-and-motion/gsap-powered-interactions/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Advanced JS",
+						"Animation",
+						"Heavy Motion"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Stagger Cascade Animation Style — UI Lookbook",
+		"description": "Explore the Stagger Cascade Animation style: Motion Design · Stagger. Color palettes, typography, design principles, and AI prompts for Stagger Cascade Animation UI design.",
+		"keywords": "Stagger Cascade Animation, stagger-cascade-animation, Animation, Moderate Motion, Engaging, Modern, Balanced",
+		"og": {
+			"title": "Stagger Cascade Animation Style — UI Lookbook",
+			"description": "Explore the Stagger Cascade Animation style: Motion Design · Stagger. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/heavy-animation-and-motion/stagger-cascade-animation/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/lifestyle.jpg",
+				"alt": "Stagger Cascade Animation Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Stagger Cascade Animation Style — UI Lookbook",
+			"description": "Explore the Stagger Cascade Animation style: Motion Design · Stagger. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/stagger-cascade-animation/lifestyle.jpg",
+				"alt": "Stagger Cascade Animation Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "stagger-cascade-animation",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/heavy-animation-and-motion/stagger-cascade-animation.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

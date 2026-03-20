@@ -1,202 +1,200 @@
+@keyframes cassette-mixtape-ui-reel-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
 #cassette-mixtape-ui {
-    color: #2a2420;
-    font-family: 'Caveat', cursive;
-    border-radius: 6px;
-    overflow: hidden;
-    position: relative;
-    min-height: 100%;
+	color: #4a3f32;
+	font-family: "Barlow", sans-serif;
+	border-radius: 0;
+	overflow: hidden;
+	position: relative;
+	background: #2a2420;
+	padding-block: 64px;
 
-    .design-background {
-        width: 100%;
-        min-height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #2a2420;
-        background-image:
-            radial-gradient(ellipse at 30% 40%, rgba(212, 133, 74, 0.06) 0%, transparent 60%),
-            radial-gradient(ellipse at 70% 70%, rgba(196, 82, 74, 0.04) 0%, transparent 50%);
-        padding: 20px;
-        position: relative;
+	.a_eyebrow {
+		display: inline-block;
+		font-family: "Permanent Marker", cursive;
+		font-size: 10px;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		color: #8b7355;
+		margin: 0 0 12px;
+	}
 
-        /* Masking tape strip — top-left */
-        &::before {
-            content: '';
-            position: absolute;
-            top: 12px;
-            left: 24px;
-            width: 70px;
-            height: 22px;
-            background: rgba(245, 226, 192, 0.35);
-            border: 1px solid rgba(245, 226, 192, 0.15);
-            transform: rotate(-8deg);
-            z-index: 3;
-            border-radius: 1px;
-        }
+	.a_h1 {
+		font-family: "Permanent Marker", cursive;
+		font-size: clamp(24px, 4vw, 32px);
+		line-height: 1.25;
+		color: #f5edd6;
+		text-shadow:
+			2px 2px 0 rgba(139, 115, 85, 0.2),
+			0 1px 4px rgba(42, 36, 32, 0.15);
+		margin: 0 0 20px;
+	}
 
-        /* Masking tape strip — bottom-right */
-        &::after {
-            content: '';
-            position: absolute;
-            bottom: 14px;
-            right: 32px;
-            width: 60px;
-            height: 20px;
-            background: rgba(245, 226, 192, 0.3);
-            border: 1px solid rgba(245, 226, 192, 0.12);
-            transform: rotate(5deg);
-            z-index: 3;
-            border-radius: 1px;
-        }
-    }
+	.a_description {
+		font-family: "Barlow", sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 1.7;
+		color: rgba(245, 237, 214, 0.65);
+		max-width: 480px;
+		margin: 0 0 32px;
+	}
 
-    .design-container {
-        background: #f5e2c0;
-        background-image: repeating-linear-gradient(
-            to bottom,
-            transparent,
-            transparent 27px,
-            rgba(74, 55, 40, 0.12) 27px,
-            rgba(74, 55, 40, 0.12) 28px
-        );
-        padding: 36px 44px 40px 68px;
-        border-radius: 5px;
-        transform: rotate(-0.6deg);
-        position: relative;
-        box-shadow:
-            3px 5px 0 #e8d1a7,
-            6px 9px 0 rgba(74, 55, 40, 0.08);
+	.m_buttons {
+		position: relative;
+		z-index: 2;
+		display: inline-flex;
+		flex-wrap: wrap;
+		gap: 16px;
+		background-color: #f5edd6;
+		background-image: repeating-linear-gradient(
+			to bottom,
+			transparent,
+			transparent 23px,
+			rgba(180, 160, 120, 0.28) 23px,
+			rgba(180, 160, 120, 0.28) 24px
+		);
+		border-radius: 4px;
+		border: 8px solid #111008;
+		padding: 24px 28px;
+		margin-bottom: 64px;
+		box-shadow:
+			inset 0 1px 0 rgba(255, 255, 255, 0.55),
+			0 2px 8px rgba(0, 0, 0, 0.15);
 
-        /* Red margin line */
-        &::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 52px;
-            bottom: 0;
-            width: 1px;
-            background: rgba(196, 82, 74, 0.18);
-        }
+		/* Dark cassette housing strip behind the reels */
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			left: -8px;
+			right: -8px;
+			background-color: #111008;
+			z-index: -1;
+		}
 
-        /* Peeling corner */
-        &::before {
-            content: '';
-            position: absolute;
-            top: -1px;
-            right: -4px;
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(
-                225deg,
-                #2a2420 0%,
-                #2a2420 48%,
-                #e8d1a7 49%,
-                #f5e2c0 100%
-            );
-            border-radius: 0 5px 0 0;
-            z-index: 2;
-        }
-    }
+		&::before {
+			top: 100%;
+			bottom: -70px;
+			box-shadow:
+				inset 0 1px 0 rgba(255, 255, 255, 0.05),
+				inset 0 -2px 0 rgba(0, 0, 0, 0.4),
+				0 8px 20px rgba(0, 0, 0, 0.55),
+				0 2px 6px rgba(0, 0, 0, 0.3);
+		}
 
-    .eyebrow {
-        font-family: 'Special Elite', monospace;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        color: #8a8070;
-        margin: 0 0 10px;
-        transform: rotate(0.3deg);
+		&::after {
+			bottom: -82px;
+			height: 12px;
+			border-radius: 0 0 8px 8px;
+			background-color: #1c1812;
+			border-top: 1px solid rgba(255, 255, 255, 0.035);
+			box-shadow:
+				0 4px 12px rgba(0, 0, 0, 0.4);
+		}
+	}
 
-        &::before {
-            content: '◎ ';
-            color: #c4524a;
-            letter-spacing: 0px;
-        }
-    }
+	.a_button {
+		position: relative;
+		text-decoration: none;
+		font-size: 14px;
+		padding: 10px 22px;
+		border-radius: 4px;
+		line-height: 1;
+		transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
 
-    .title {
-        font-family: 'Permanent Marker', cursive;
-        font-size: 32px;
-        color: #2e1f14;
-        transform: rotate(-1.2deg);
-        line-height: 1.15;
-        margin: 0 0 16px;
-        position: relative;
+		span {
+			font-family: "Permanent Marker", cursive;
+		}
 
-        &::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 75%;
-            height: 3px;
-            background: #c4524a;
-            border-radius: 50%;
-            transform: rotate(0.8deg);
-            opacity: 0.5;
-        }
-    }
+		&.primary {
+			background: #b02a1e;
+			color: #f5edd6;
+			border: 2px solid #8e2218;
+			box-shadow: 2px 2px 0 #8e2218;
 
-    p {
-        font-family: 'Caveat', cursive;
-        font-size: 18px;
-        line-height: 1.55;
-        color: #6b5240;
-        max-width: 512px;
-        margin: 0 0 14px;
-        transform: rotate(0.2deg);
+			&:hover {
+				background: #8e2218;
+				box-shadow: 1px 1px 0 #8e2218;
+				transform: translate(1px, 1px);
+			}
+		}
 
-        &:last-of-type {
-            transform: rotate(-0.15deg);
-            color: #4a3728;
-            opacity: 0.75;
-        }
-    }
+		&.secondary {
+			background: transparent;
+			color: #2a2420;
+			border: 2px solid #c8b89a;
 
-    .btn-group {
-        display: flex;
-        margin-top: 24px;
-        gap: 12px;
-        flex-wrap: wrap;
-    }
+			&:hover {
+				background: rgba(200, 184, 154, 0.2);
+				border-color: #4a3f32;
+			}
+		}
 
-    .btn-group a {
-        text-decoration: none;
-        font-family: inherit;
-        font-size: 14px;
-        padding: 10px 24px;
-        border: none;
-        cursor: pointer;
-        transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
-    }
+		/* Reel window — spinning tape texture */
+		&::before {
+			content: "";
+			position: absolute;
+			top: calc(100% + 38px);
+			left: 50%;
+			translate: -50% 0;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: conic-gradient(
+				#1c0e06 0deg, #3a2010 22deg,
+				#1c0e06 44deg, #3a2010 66deg,
+				#1c0e06 88deg, #3a2010 110deg,
+				#1c0e06 132deg, #3a2010 154deg,
+				#1c0e06 176deg, #3a2010 198deg,
+				#1c0e06 220deg, #3a2010 242deg,
+				#1c0e06 264deg, #3a2010 286deg,
+				#1c0e06 308deg, #3a2010 330deg,
+				#1c0e06 352deg, #3a2010 360deg
+			);
+			border: 2.5px solid #262014;
+			box-shadow:
+				inset 0 3px 10px rgba(0, 0, 0, 0.95),
+				0 0 0 1px rgba(255, 255, 255, 0.025);
+			animation: cassette-mixtape-ui-reel-spin 3.8s linear infinite;
+		}
 
-    .btn-primary {
-        font-family: 'Permanent Marker', cursive;
-        background: #c4524a;
-        color: #faf0dc;
-        border-radius: 3px;
-        transform: rotate(-0.6deg);
-        box-shadow: 2px 3px 0 #8b2e28;
+		/* Inner hub — sits on top of the spinning tape */
+		&::after {
+			content: "";
+			position: absolute;
+			top: calc(100% + 46px);
+			left: 50%;
+			translate: -50% 0;
+			width: 24px;
+			height: 24px;
+			border-radius: 50%;
+			background: radial-gradient(circle at 38% 33%, #3c2e20, #17120d);
+			border: 1.5px solid #3c2e20;
+			box-shadow:
+				0 3px 8px rgba(0, 0, 0, 0.8),
+				inset 0 1px 0 rgba(255, 255, 255, 0.07);
+			z-index: 1;
+		}
+	}
 
-        &:hover {
-            transform: rotate(-0.6deg) translateY(-2px);
-            box-shadow: 3px 5px 0 #8b2e28;
-        }
-    }
+	.a_image {
+		border-radius: 6px;
+		overflow: hidden;
+		border: 3px solid #111008;
+		box-shadow:
+			0 20px 56px rgba(0, 0, 0, 0.5),
+			0 4px 12px rgba(0, 0, 0, 0.3),
+			inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 
-    .btn-secondary {
-        background: transparent;
-        color: #4a3728;
-        border: 1.5px dashed #6b5240;
-        border-radius: 3px;
-        transform: rotate(0.4deg);
-        font-family: 'Caveat', cursive;
-        font-size: 17px;
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
 
-        &:hover {
-            background: rgba(74, 55, 40, 0.05);
-            transform: rotate(0.4deg) translateY(-2px);
-            box-shadow: 2px 3px 0 rgba(74, 55, 40, 0.15);
-        }
-    }
 }

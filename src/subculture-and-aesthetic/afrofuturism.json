@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Subculture & Aesthetic",
+					"href": "/subculture-and-aesthetic/"
+				},
+				{
+					"text": "Afrofuturism Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Afrofuturism style mood board — Subculture · Future Heritage",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Futuristic · Bold Colors · Vibrant · Cultural · Expressive",
+			"a_h1": "Afrofuturism Style",
+			"a_description": "Ancient gold and cosmic indigo, heritage patterns and futuristic geometry, and the powerful vision of African cultures projected into tomorrow — Afrofuturism design creates the visual language of futures rooted in deep cultural memory. The rich gold accents against cosmic dark backgrounds evoke both ancient kingdoms and advanced civilizations, while bold geometric typography channels the energy of a movement that reimagines history and future simultaneously.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "afrofuturism"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This visionary style powers Black cultural institutions, Afrofuturist art galleries, heritage-forward fashion brands, and sci-fi community platforms. You'll see it on museum exhibition sites, Black-owned tech startup pages, diaspora cultural platforms, and creative projects inspired by the works of Octavia Butler, Sun Ra, and the visual world of Black Panther — where the future is built on the foundation of ancestral wisdom.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The powerful, heritage-future aesthetic of Afrofuturism — ancient patterns reimagined through futuristic lenses, bold color palettes, and the visionary intersection of African heritage and science fiction. Background: deep indigo-black (#0a0a1e) — the cosmic void from which futures emerge. The .inner panel has a dark background (#12122e) with a 2px left border in bright gold (#ffd700) and 8px border-radius — geometric precision with royal accents. Colors: rich gold (#ffd700) as the primary accent — the gold of ancient kingdoms and future civilizations. Bright violet (#9b59b6) as secondary. Off-white (#f0ece0) for headings, muted lavender (#a0a0c8) for body text. The aesthetic is regal and futuristic — Wakanda's design language, where advanced technology coexists with deep cultural roots. Set in Syne — a bold geometric typeface with Afrofuturist energy, designed at the Atelier National de Recherche Typographique in France. Heading at weight 700, 28px, line-height 1.2, color #f0ece0. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #ffd700. Body at weight 400, 15px, line-height 1.7, color #a0a0c8. Buttons: primary — gold (#ffd700), dark text (#0a0a1e), 4px border-radius. Secondary: transparent, violet border (#9b59b6). Alternatives: Outfit (modern geometric), Space Grotesk (futuristic).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Afrofuturism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/afrofuturism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Afrofuturism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/afrofuturism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Afrofuturism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/afrofuturism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Afrofuturism style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/afrofuturism/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Afrofuturism style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Afrofuturism style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Afrofuturism website?",
+					"answer": "The powerful, heritage-future aesthetic of Afrofuturism — ancient patterns reimagined through futuristic lenses, bold color palettes, and the visionary intersection of African heritage and science fiction. Background: deep indigo-black (#0a0a1e) — the cosmic void from which futures emerge. The .inner panel has a dark background (#12122e) with a 2px left border in bright gold (#ffd700) and 8px border-radius — geometric precision with royal accents. Colors: rich gold (#ffd700) as the primary accent — the gold of ancient kingdoms and future civilizations. Bright violet (#9b59b6) as secondary. Off-white (#f0ece0) for headings, muted lavender (#a0a0c8) for body text. The aesthetic is regal and futuristic — Wakanda's design language, where advanced technology coexists with deep cultural roots. Set in Syne — a bold geometric typeface with Afrofuturist energy, designed at the Atelier National de Recherche Typographique in France. Heading at weight 700, 28px, line-height 1.2, color #f0ece0. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #ffd700. Body at weight 400, 15px, line-height 1.7, color #a0a0c8. Buttons: primary — gold (#ffd700), dark text (#0a0a1e), 4px border-radius. Secondary: transparent, violet border (#9b59b6). Alternatives: Outfit (modern geometric), Space Grotesk (futuristic)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Afrofuturism work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Afrofuturism style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Afrofuturism look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Acid Graphics style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/acid-graphics.jpg",
+						"href": "/subculture-and-aesthetic/acid-graphics/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Vibrant",
+						"Neon",
+						"Bold Colors"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Animecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/animecore.jpg",
+						"href": "/subculture-and-aesthetic/animecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold Colors",
+						"Vibrant",
+						"Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cottagecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/cottagecore.jpg",
+						"href": "/subculture-and-aesthetic/cottagecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyberpop style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/cyberpop.jpg",
+						"href": "/subculture-and-aesthetic/cyberpop/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Futuristic",
+						"Bold Colors",
+						"Cute"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Afrofuturism Style — UI Lookbook",
+		"description": "Explore the Afrofuturism style: Subculture · Future Heritage. Color palettes, typography, design principles, and AI prompts for Afrofuturism UI design.",
+		"keywords": "Afrofuturism, afrofuturism, Futuristic, Bold Colors, Vibrant, Cultural, Expressive",
+		"og": {
+			"title": "Afrofuturism Style — UI Lookbook",
+			"description": "Explore the Afrofuturism style: Subculture · Future Heritage. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/subculture-and-aesthetic/afrofuturism/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/lifestyle.jpg",
+				"alt": "Afrofuturism Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Afrofuturism Style — UI Lookbook",
+			"description": "Explore the Afrofuturism style: Subculture · Future Heritage. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/afrofuturism/lifestyle.jpg",
+				"alt": "Afrofuturism Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Syne:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "afrofuturism",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/subculture-and-aesthetic/afrofuturism.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

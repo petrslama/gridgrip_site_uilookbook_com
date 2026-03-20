@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Retro & Nostalgia",
+					"href": "/retro-and-nostalgia/"
+				},
+				{
+					"text": "Early iOS Aqua Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Early iOS Aqua style mood board — Apple Design · 2001–2013",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Retro · Nostalgic · Glossy · Dimensional · Rounded",
+			"a_h1": "Early iOS Aqua Style",
+			"a_description": "Candy-colored gel buttons that look wet enough to lick, pinstripe textures, and the glossy sheen of a freshly polished interface — Early iOS Aqua is Apple's original skeuomorphic design language that made computers feel like beautiful physical objects. Every button had a highlight, every surface had depth, and the entire operating system looked like it was made of translucent, liquid-filled glass.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "early-ios-aqua"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "Early iOS Aqua styling nostalgically appears on Apple history fan sites, retro Mac communities, and design retrospective blogs. Modern designers reference it when building interfaces that want to feel premium and tactile — music production apps, photo editors, and creative tools that value that hand-polished, dimensional quality over flat minimalism.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The glossy, candy-colored Aqua interface language from Mac OS X and early iOS — gel-like buttons that look wet enough to lick, pinstripe backgrounds, and the most aggressively shiny UI ever created. Light gray-blue pinstripe background (#e8ecf1) created via a subtle 1px repeating-linear-gradient. The .inner panel is a clean white (#ffffff) card with a soft 1px border (#c8cdd3), gentle border-radius (12px), and a light drop shadow. Everything feels polished, rounded, and dimensional. Text is dark charcoal (#333333). The eyebrow is a muted blue-gray. The heading is bold and dark. Buttons are the star — pill-shaped with a glossy gel gradient: primary uses the classic Aqua blue (linear-gradient from #6cb3f5 to #1a82e2) with a white highlight band across the top half (inset box-shadow or gradient stop), rounded corners (8px). Secondary is a brushed-metal gray gradient. Set in Inter — a neutral humanist sans-serif that channels the Lucida Grande / Helvetica Neue sensibility of early Mac OS X. Heading at weight 700, 30px, letter-spacing -0.5px. Eyebrow at weight 500, 12px, uppercase, 2px letter-spacing, color #7a8a9a. Body at weight 400, 15px, line-height 1.6, color #444. Buttons at weight 600, 14px. Alternatives: SF Pro Display (Apple's actual font), Helvetica Neue (classic Mac), Nunito (rounder alternative).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Early iOS Aqua style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/early-ios-aqua/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Early iOS Aqua style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/early-ios-aqua/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Early iOS Aqua style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/early-ios-aqua/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Early iOS Aqua style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/early-ios-aqua/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Early iOS Aqua style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Early iOS Aqua style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Early iOS Aqua website?",
+					"answer": "The glossy, candy-colored Aqua interface language from Mac OS X and early iOS — gel-like buttons that look wet enough to lick, pinstripe backgrounds, and the most aggressively shiny UI ever created. Light gray-blue pinstripe background (#e8ecf1) created via a subtle 1px repeating-linear-gradient. The .inner panel is a clean white (#ffffff) card with a soft 1px border (#c8cdd3), gentle border-radius (12px), and a light drop shadow. Everything feels polished, rounded, and dimensional. Text is dark charcoal (#333333). The eyebrow is a muted blue-gray. The heading is bold and dark. Buttons are the star — pill-shaped with a glossy gel gradient: primary uses the classic Aqua blue (linear-gradient from #6cb3f5 to #1a82e2) with a white highlight band across the top half (inset box-shadow or gradient stop), rounded corners (8px). Secondary is a brushed-metal gray gradient. Set in Inter — a neutral humanist sans-serif that channels the Lucida Grande / Helvetica Neue sensibility of early Mac OS X. Heading at weight 700, 30px, letter-spacing -0.5px. Eyebrow at weight 500, 12px, uppercase, 2px letter-spacing, color #7a8a9a. Body at weight 400, 15px, line-height 1.6, color #444. Buttons at weight 600, 14px. Alternatives: SF Pro Display (Apple's actual font), Helvetica Neue (classic Mac), Nunito (rounder alternative)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Early iOS Aqua work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Early iOS Aqua style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Early iOS Aqua look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "70s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/70s-design.jpg",
+						"href": "/retro-and-nostalgia/70s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "80s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg",
+						"href": "/retro-and-nostalgia/80s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Neon"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "90s Web Revival style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/90s-web-revival.jpg",
+						"href": "/retro-and-nostalgia/90s-web-revival/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Early Web"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cassette Mixtape UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/cassette-mixtape-ui.jpg",
+						"href": "/retro-and-nostalgia/cassette-mixtape-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Hand-Crafted"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Early iOS Aqua Style — UI Lookbook",
+		"description": "Explore the Early iOS Aqua style: Apple Design · 2001–2013. Color palettes, typography, design principles, and AI prompts for Early iOS Aqua UI design.",
+		"keywords": "Early iOS Aqua, early-ios-aqua, Retro, Nostalgic, Glossy, Dimensional, Rounded",
+		"og": {
+			"title": "Early iOS Aqua Style — UI Lookbook",
+			"description": "Explore the Early iOS Aqua style: Apple Design · 2001–2013. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/retro-and-nostalgia/early-ios-aqua/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/lifestyle.jpg",
+				"alt": "Early iOS Aqua Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Early iOS Aqua Style — UI Lookbook",
+			"description": "Explore the Early iOS Aqua style: Apple Design · 2001–2013. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/early-ios-aqua/lifestyle.jpg",
+				"alt": "Early iOS Aqua Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "early-ios-aqua",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/early-ios-aqua.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

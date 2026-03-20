@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Flat & Material",
+					"href": "/flat-and-material/"
+				},
+				{
+					"text": "Whitespace Extreme Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Whitespace Extreme style mood board — Minimalism · Whitespace",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/flat-and-material/whitespace-extreme/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Whitespace · Minimal · Airy · Light · Centered",
+			"a_h1": "Whitespace Extreme Style",
+			"a_description": "Vast empty expanses framing tiny islands of content, line-heights that let text breathe across oceans of white, and the architectural drama of negative space taken to its absolute extreme — Whitespace Extreme design treats emptiness not as absence but as the primary design material. Every centimeter of white space is as intentional as every word of text.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "whitespace-extreme"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This ultra-spacious style powers luxury fashion editorials, gallery exhibition sites, high-end real estate presentations, and conceptual art portfolios. You'll see it on Celine, Bottega Veneta, and other luxury brands that understand the ultimate signal of value is having the confidence to leave most of the canvas empty — proving that in design, as in luxury, space itself is the most expensive commodity.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The breathtakingly spacious aesthetic of whitespace-extreme design — so much empty space that the content feels like it's floating in an infinite void. Background: pure white (#ffffff). The .inner panel is pure white (#ffffff) with zero container styling — content centered in a vast ocean of negative space with extremely generous padding (48px+). Colors: soft black (#222222) for headings — gentle contrast in all the whitespace. Light gray (#aaaaaa) for body text — receding into the background, barely present. Subtle warm accent (#c4a882) for the eyebrow — a whisper of warmth. The aesthetic is architectural — vast empty spaces framing small, precious content elements, like a single sculpture in a gallery. Set in Jost — a geometric sans-serif inspired by Futura, with the clean proportions that complement vast whitespace. Heading at weight 400, 22px, line-height 1.5, letter-spacing 0.5px, color #222222. Eyebrow at weight 300, 10px, uppercase, 4px letter-spacing, color #c4a882. Body at weight 300, 14px, line-height 2, color #aaaaaa. Buttons: primary — subtle (#222222), white text, 0 border-radius, very minimal. Secondary: transparent, thin border. Alternatives: Neue Montreal (Swiss geometric), DIN Next (geometric precision).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Whitespace Extreme style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/whitespace-extreme/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Whitespace Extreme style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/whitespace-extreme/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Whitespace Extreme style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/whitespace-extreme/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Whitespace Extreme style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/whitespace-extreme/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Whitespace Extreme style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/whitespace-extreme/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Whitespace Extreme style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Whitespace Extreme website?",
+					"answer": "The breathtakingly spacious aesthetic of whitespace-extreme design — so much empty space that the content feels like it's floating in an infinite void. Background: pure white (#ffffff). The .inner panel is pure white (#ffffff) with zero container styling — content centered in a vast ocean of negative space with extremely generous padding (48px+). Colors: soft black (#222222) for headings — gentle contrast in all the whitespace. Light gray (#aaaaaa) for body text — receding into the background, barely present. Subtle warm accent (#c4a882) for the eyebrow — a whisper of warmth. The aesthetic is architectural — vast empty spaces framing small, precious content elements, like a single sculpture in a gallery. Set in Jost — a geometric sans-serif inspired by Futura, with the clean proportions that complement vast whitespace. Heading at weight 400, 22px, line-height 1.5, letter-spacing 0.5px, color #222222. Eyebrow at weight 300, 10px, uppercase, 4px letter-spacing, color #c4a882. Body at weight 300, 14px, line-height 2, color #aaaaaa. Buttons: primary — subtle (#222222), white text, 0 border-radius, very minimal. Secondary: transparent, thin border. Alternatives: Neue Montreal (Swiss geometric), DIN Next (geometric precision)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Whitespace Extreme work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Whitespace Extreme style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Whitespace Extreme look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Apple HIG Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/apple-hig-style.jpg",
+						"href": "/flat-and-material/apple-hig-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Elegant",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/bold-minimalism.jpg",
+						"href": "/flat-and-material/bold-minimalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Bold"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Carbon Design (IBM) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/carbon-design-ibm.jpg",
+						"href": "/flat-and-material/carbon-design-ibm/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Professional",
+						"Clean UI",
+						"Corporate"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Clean UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/clean-ui.jpg",
+						"href": "/flat-and-material/clean-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Whitespace"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Whitespace Extreme Style — UI Lookbook",
+		"description": "Explore the Whitespace Extreme style: Minimalism · Whitespace. Color palettes, typography, design principles, and AI prompts for Whitespace Extreme UI design.",
+		"keywords": "Whitespace Extreme, whitespace-extreme, Whitespace, Minimal, Airy, Light, Centered",
+		"og": {
+			"title": "Whitespace Extreme Style — UI Lookbook",
+			"description": "Explore the Whitespace Extreme style: Minimalism · Whitespace. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/flat-and-material/whitespace-extreme/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/whitespace-extreme/lifestyle.jpg",
+				"alt": "Whitespace Extreme Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Whitespace Extreme Style — UI Lookbook",
+			"description": "Explore the Whitespace Extreme style: Minimalism · Whitespace. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/whitespace-extreme/lifestyle.jpg",
+				"alt": "Whitespace Extreme Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "whitespace-extreme",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/flat-and-material/whitespace-extreme.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

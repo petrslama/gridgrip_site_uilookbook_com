@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Cultural & Regional",
+					"href": "/cultural-and-regional/"
+				},
+				{
+					"text": "Chinese Web Design Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Chinese Web Design style mood board — Regional Style · China",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/cultural-and-regional/chinese-web-design/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Bold Colors · Dense · Content Heavy · Vibrant · Cultural",
+			"a_h1": "Chinese Web Design Style",
+			"a_description": "Bold reds, golden accents, dense information grids, and the unmistakable energy of a digital culture built around commerce and connection — Chinese Web Design reflects a market where visual boldness signals trustworthiness and content density signals thoroughness. The prominent red accents carry centuries of cultural significance, while the packed layouts serve users who expect comprehensive information at a glance.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "chinese-web-design"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This vibrant style powers China's massive e-commerce ecosystem, from Taobao product pages to JD.com storefronts, WeChat mini-programs, and corporate portals. You'll find it on travel booking platforms, real estate listings, food delivery services, and fintech dashboards — digital experiences designed for a market that values boldness, completeness, and visual energy over Western-style minimalism.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The bold, vibrant, information-packed aesthetic of Chinese commercial web design — energetic color palettes, dense content grids, and an emphasis on visual hierarchy through color rather than whitespace. Background: pure white (#ffffff) with sections divided by vivid accent bands. The .inner panel has a subtle warm background (#fffdf7) with a left red border accent (4px solid #e53935) — evoking the auspicious red of Chinese culture. Colors: primary red (#e53935) for accents, call-to-actions, and important labels. Gold (#d4a017) for premium/highlight elements. Deep charcoal (#222222) for headings, medium gray (#555555) for body text. The aesthetic is energetic, commerce-driven, and information-dense — every pixel serves a purpose, with bold colors guiding the eye through layered content. Set in Noto Sans SC — the standard for Simplified Chinese web typography with clean, balanced proportions. Heading at weight 700, 26px, line-height 1.3, color #222222. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #e53935. Body at weight 400, 14px, line-height 1.6, color #555555. Buttons: primary — vibrant red (#e53935), white text, 4px border-radius. Secondary: white background, red border and text. Alternatives: Source Han Sans SC (Adobe's Chinese sans), LXGW WenKai (elegant handwriting-inspired).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chinese Web Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/chinese-web-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chinese Web Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/chinese-web-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chinese Web Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/chinese-web-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chinese Web Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/chinese-web-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chinese Web Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/chinese-web-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Chinese Web Design style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Chinese Web Design website?",
+					"answer": "The bold, vibrant, information-packed aesthetic of Chinese commercial web design — energetic color palettes, dense content grids, and an emphasis on visual hierarchy through color rather than whitespace. Background: pure white (#ffffff) with sections divided by vivid accent bands. The .inner panel has a subtle warm background (#fffdf7) with a left red border accent (4px solid #e53935) — evoking the auspicious red of Chinese culture. Colors: primary red (#e53935) for accents, call-to-actions, and important labels. Gold (#d4a017) for premium/highlight elements. Deep charcoal (#222222) for headings, medium gray (#555555) for body text. The aesthetic is energetic, commerce-driven, and information-dense — every pixel serves a purpose, with bold colors guiding the eye through layered content. Set in Noto Sans SC — the standard for Simplified Chinese web typography with clean, balanced proportions. Heading at weight 700, 26px, line-height 1.3, color #222222. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #e53935. Body at weight 400, 14px, line-height 1.6, color #555555. Buttons: primary — vibrant red (#e53935), white text, 4px border-radius. Secondary: white background, red border and text. Alternatives: Source Han Sans SC (Adobe's Chinese sans), LXGW WenKai (elegant handwriting-inspired)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Chinese Web Design work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Chinese Web Design style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Chinese Web Design look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Dutch Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/dutch-design.jpg",
+						"href": "/cultural-and-regional/dutch-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold",
+						"Geometric",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japandi style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/japandi.jpg",
+						"href": "/cultural-and-regional/japandi/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Organic",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japanese Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/japanese-web-design.jpg",
+						"href": "/cultural-and-regional/japanese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dense",
+						"Content Heavy",
+						"Grid"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Korean Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/korean-web-design.jpg",
+						"href": "/cultural-and-regional/korean-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Clean UI",
+						"Modern",
+						"Professional"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Chinese Web Design Style — UI Lookbook",
+		"description": "Explore the Chinese Web Design style: Regional Style · China. Color palettes, typography, design principles, and AI prompts for Chinese Web Design UI design.",
+		"keywords": "Chinese Web Design, chinese-web-design, Bold Colors, Dense, Content Heavy, Vibrant, Cultural",
+		"og": {
+			"title": "Chinese Web Design Style — UI Lookbook",
+			"description": "Explore the Chinese Web Design style: Regional Style · China. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/cultural-and-regional/chinese-web-design/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/chinese-web-design/lifestyle.jpg",
+				"alt": "Chinese Web Design Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Chinese Web Design Style — UI Lookbook",
+			"description": "Explore the Chinese Web Design style: Regional Style · China. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/chinese-web-design/lifestyle.jpg",
+				"alt": "Chinese Web Design Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Ma+Shan+Zheng:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "chinese-web-design",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/chinese-web-design.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

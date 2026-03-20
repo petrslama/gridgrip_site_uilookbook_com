@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Heavy Animation & Motion",
+					"href": "/heavy-animation-and-motion/"
+				},
+				{
+					"text": "Particle Effects Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Particle Effects style mood board — Heavy Motion · Particles",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Heavy Motion · Generative · Advanced JS · Interactive · 3D",
+			"a_h1": "Particle Effects Style",
+			"a_description": "Swarms of luminous dots, connecting lines that trace invisible networks, and dynamic particle systems that breathe life into dark backgrounds — Particle Effects design creates atmospheric, generative environments behind clean interface elements. The deep dark blue backgrounds serve as infinite canvases where particle constellations suggest neural networks, star fields, or molecular structures in constant, mesmerizing motion.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "particle-effects"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This generative style powers AI and machine learning company websites, blockchain platforms, network visualization tools, and tech startup landing pages. You'll see it on cybersecurity dashboards, data analytics platforms, cryptocurrency exchanges, and scientific computing sites — anywhere that particle systems create an atmospheric backdrop suggesting complexity, connectivity, and the invisible data flows that power modern technology.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The atmospheric, generative aesthetic of particle-effect websites — swarms of dots, connecting lines, and dynamic particle systems that create living, breathing backgrounds behind clean UI. Background: deep dark blue (#080c18) — an infinite sky for particle constellations. The .inner panel uses a dark translucent background (rgba(8,12,24,0.9)) with a subtle border (1px solid rgba(99,102,241,0.15)) and 12px border-radius — content floating above the particle field. Colors: electric indigo (#6366f1) as the primary accent — matching the particle glow and connection lines. Soft white (#e8eaed) for headings, cool gray (#8b92a5) for body text. The aesthetic is cosmic and data-driven — particles suggest networks, neural connections, star fields, or molecular structures. Set in Outfit — a modern geometric sans-serif that's clean enough to read over busy particle backgrounds. Heading at weight 600, 26px, line-height 1.3, letter-spacing -0.3px, color #e8eaed. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #6366f1. Body at weight 400, 14px, line-height: 1.7, color #8b92a5. Buttons: primary — indigo (#6366f1), white text, 8px border-radius. Secondary: transparent, indigo border. Alternatives: Space Grotesk (technical geometric), DM Sans (clean modern).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Particle Effects style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/particle-effects/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Particle Effects style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/particle-effects/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Particle Effects style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/particle-effects/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Particle Effects style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/particle-effects/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Particle Effects style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Particle Effects style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Particle Effects website?",
+					"answer": "The atmospheric, generative aesthetic of particle-effect websites — swarms of dots, connecting lines, and dynamic particle systems that create living, breathing backgrounds behind clean UI. Background: deep dark blue (#080c18) — an infinite sky for particle constellations. The .inner panel uses a dark translucent background (rgba(8,12,24,0.9)) with a subtle border (1px solid rgba(99,102,241,0.15)) and 12px border-radius — content floating above the particle field. Colors: electric indigo (#6366f1) as the primary accent — matching the particle glow and connection lines. Soft white (#e8eaed) for headings, cool gray (#8b92a5) for body text. The aesthetic is cosmic and data-driven — particles suggest networks, neural connections, star fields, or molecular structures. Set in Outfit — a modern geometric sans-serif that's clean enough to read over busy particle backgrounds. Heading at weight 600, 26px, line-height 1.3, letter-spacing -0.3px, color #e8eaed. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #6366f1. Body at weight 400, 14px, line-height: 1.7, color #8b92a5. Buttons: primary — indigo (#6366f1), white text, 8px border-radius. Secondary: transparent, indigo border. Alternatives: Space Grotesk (technical geometric), DM Sans (clean modern)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Particle Effects work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Particle Effects style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Particle Effects look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Canvas Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/canvas-animation.jpg",
+						"href": "/heavy-animation-and-motion/canvas-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Canvas",
+						"Heavy Motion"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cursor Mouse Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/cursor-mouse-effects.jpg",
+						"href": "/heavy-animation-and-motion/cursor-mouse-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Interactive",
+						"Heavy Motion",
+						"Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Entrance Animations style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/entrance-animations.jpg",
+						"href": "/heavy-animation-and-motion/entrance-animations/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Moderate Motion",
+						"Engaging"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/gsap-powered-interactions.jpg",
+						"href": "/heavy-animation-and-motion/gsap-powered-interactions/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Advanced JS",
+						"Animation",
+						"Heavy Motion"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Particle Effects Style — UI Lookbook",
+		"description": "Explore the Particle Effects style: Heavy Motion · Particles. Color palettes, typography, design principles, and AI prompts for Particle Effects UI design.",
+		"keywords": "Particle Effects, particle-effects, Heavy Motion, Generative, Advanced JS, Interactive, 3D",
+		"og": {
+			"title": "Particle Effects Style — UI Lookbook",
+			"description": "Explore the Particle Effects style: Heavy Motion · Particles. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/heavy-animation-and-motion/particle-effects/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/lifestyle.jpg",
+				"alt": "Particle Effects Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Particle Effects Style — UI Lookbook",
+			"description": "Explore the Particle Effects style: Heavy Motion · Particles. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/particle-effects/lifestyle.jpg",
+				"alt": "Particle Effects Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "particle-effects",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/heavy-animation-and-motion/particle-effects.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Themed & Skeuomorphic",
+					"href": "/themed-and-skeuomorphic/"
+				},
+				{
+					"text": "Chalkboard Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Chalkboard style mood board — Skeuomorphic · Educational",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Textured · Dark · Warm · Hand-Crafted · Organic",
+			"a_h1": "Chalkboard Style",
+			"a_description": "Chalk-white text on a dusty green-black surface, slightly smudged edges, and the nostalgic warmth of a classroom chalkboard — this aesthetic transforms the screen into a slate surface where every word feels hand-written by a patient teacher. The grain of the board, the softness of the chalk, and the slightly uneven letterforms create an atmosphere that's warm, educational, and reassuringly analog.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "chalkboard"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "Chalkboard styling appears on educational platform landing pages, tutoring service sites, and restaurant menu boards. You'll find it on craft brewery taproom displays, school event pages, workshop announcement sites, and any project that wants to feel approachable, hand-crafted, and warmly pedagogical.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "A schoolroom chalkboard — dusty green-black surface with chalk-white text that has that characteristic soft, slightly textured quality. Background: deep chalkboard green (#2a3a2a) with a subtle grain texture via pseudo-element to simulate the slightly rough slate surface. The .inner panel has no distinct background — text lives directly on the chalkboard. A thin chalk line (dashed white border at 50% opacity) frames the content area. Chalk dust smudge effect at the bottom via a gradient pseudo-element (white-to-transparent at very low opacity). Text has a slightly rough, chalk-like quality — achieved with text-shadow at very low opacity in slightly offset positions. Set in Caveat for headings — a handwriting font that perfectly captures the loose, slightly uneven quality of chalk lettering on a blackboard. Patrick Hand for body — another handwriting font with more even letterforms for better readability at paragraph lengths. Heading in Caveat at 34px, line-height 1.2, color #e8e0d0 (warm chalk white, not pure white). Eyebrow in Patrick Hand at 14px, uppercase, 2px letter-spacing, color #a8c8a8 (faded green-chalk). Body in Patrick Hand at 16px, line-height 1.7, color #d0c8b8. Buttons: primary — chalk outline (2px solid #e8e0d0), no fill, chalk text; hover fills with semi-transparent white. Secondary: thinner chalk border. Alternatives: Indie Flower (bubbly handwriting), Kalam (brush-like), Handlee (casual).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chalkboard style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/chalkboard/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chalkboard style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/chalkboard/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chalkboard style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/chalkboard/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chalkboard style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/chalkboard/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Chalkboard style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Chalkboard style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Chalkboard website?",
+					"answer": "A schoolroom chalkboard — dusty green-black surface with chalk-white text that has that characteristic soft, slightly textured quality. Background: deep chalkboard green (#2a3a2a) with a subtle grain texture via pseudo-element to simulate the slightly rough slate surface. The .inner panel has no distinct background — text lives directly on the chalkboard. A thin chalk line (dashed white border at 50% opacity) frames the content area. Chalk dust smudge effect at the bottom via a gradient pseudo-element (white-to-transparent at very low opacity). Text has a slightly rough, chalk-like quality — achieved with text-shadow at very low opacity in slightly offset positions. Set in Caveat for headings — a handwriting font that perfectly captures the loose, slightly uneven quality of chalk lettering on a blackboard. Patrick Hand for body — another handwriting font with more even letterforms for better readability at paragraph lengths. Heading in Caveat at 34px, line-height 1.2, color #e8e0d0 (warm chalk white, not pure white). Eyebrow in Patrick Hand at 14px, uppercase, 2px letter-spacing, color #a8c8a8 (faded green-chalk). Body in Patrick Hand at 16px, line-height 1.7, color #d0c8b8. Buttons: primary — chalk outline (2px solid #e8e0d0), no fill, chalk text; hover fills with semi-transparent white. Secondary: thinner chalk border. Alternatives: Indie Flower (bubbly handwriting), Kalam (brush-like), Handlee (casual)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Chalkboard work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Chalkboard style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Chalkboard look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Blueprint style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/blueprint.jpg",
+						"href": "/themed-and-skeuomorphic/blueprint/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Outline",
+						"Dark Mode",
+						"Technical"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Boarding Pass UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/boarding-pass-ui.jpg",
+						"href": "/themed-and-skeuomorphic/boarding-pass-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Hand-Crafted",
+						"Skeuomorphic",
+						"Organic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "File Folder UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/file-folder-ui.jpg",
+						"href": "/themed-and-skeuomorphic/file-folder-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Skeuomorphic",
+						"Hand-Crafted",
+						"Dimensional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hacker Matrix Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/hacker-matrix-style.jpg",
+						"href": "/themed-and-skeuomorphic/hacker-matrix-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dark Mode",
+						"Monospaced",
+						"Neon"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Chalkboard Style — UI Lookbook",
+		"description": "Explore the Chalkboard style: Skeuomorphic · Educational. Color palettes, typography, design principles, and AI prompts for Chalkboard UI design.",
+		"keywords": "Chalkboard, chalkboard, Textured, Dark, Warm, Hand-Crafted, Organic",
+		"og": {
+			"title": "Chalkboard Style — UI Lookbook",
+			"description": "Explore the Chalkboard style: Skeuomorphic · Educational. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/themed-and-skeuomorphic/chalkboard/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/lifestyle.jpg",
+				"alt": "Chalkboard Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Chalkboard Style — UI Lookbook",
+			"description": "Explore the Chalkboard style: Skeuomorphic · Educational. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/themed-and-skeuomorphic/chalkboard/lifestyle.jpg",
+				"alt": "Chalkboard Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Caveat:wght@300;400;500;600;700&family=Patrick+Hand:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "chalkboard",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/themed-and-skeuomorphic/chalkboard.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

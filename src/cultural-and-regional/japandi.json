@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Cultural & Regional",
+					"href": "/cultural-and-regional/"
+				},
+				{
+					"text": "Japandi Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Japandi style mood board — Fusion Style · Japanese + Scandinavian",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/cultural-and-regional/japandi/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Minimal · Organic · Warm · Zen · Natural",
+			"a_h1": "Japandi Style",
+			"a_description": "The quiet harmony of Japanese minimalism meeting Scandinavian warmth — unbleached linen tones, organic textures, and the meditative calm of a space where every element has been considered and most have been gently removed. Japandi design finds beauty in the marriage of wabi-sabi imperfection and Nordic functionality, creating interfaces that feel like a warm cup of matcha in a sunlit, simply furnished room.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "japandi"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "Japandi styling dominates premium homeware brands, ceramic studio shops, and interior design portfolios. You'll find it on meditation app landing pages, sustainable lifestyle brands, tea companies, and architectural visualization studios — anywhere that values the tranquil intersection of Eastern restraint and Northern European coziness.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Japandi style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The harmonious fusion of Japanese wabi-sabi and Scandinavian hygge — warm minimalism with organic imperfection, natural materials, and meditative calm. Background: warm off-white (#f7f3ee) — not clinical white, but the color of unbleached linen. The .inner panel has no borders — just content floating in generous space. A single accent: a thin vertical line on the left (2px solid #c4a882, warm clay) suggesting a bamboo divider or tatami edge. Colors are earth-derived: warm stone (#8b7d6b), soft clay (#c4a882), deep charcoal (#2c2c28). No sharp edges in the color palette — everything soft, muted, natural. Set in Cormorant Garamond for headings — an elegant, refined serif whose delicate strokes and high contrast channel the calligraphic precision of Japanese brushwork while maintaining Western serif tradition. Body in DM Sans for clean readability. Heading at weight 600, 30px, letter-spacing -0.3px, line-height 1.2, color #2c2c28. Eyebrow at DM Sans, weight 400, 11px, uppercase, 3px letter-spacing, color #8b7d6b. Body at DM Sans, weight 400, 15px, line-height 1.8, color #5a5347. Buttons: understated pills with generous padding. Primary — warm clay (#8b7d6b), white text, 50px border-radius. Secondary: transparent with subtle warm border. Alternatives: Noto Serif JP (Japanese serif), Libre Baskerville (transitional serif), Source Serif 4 (modern workhorse).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Japandi style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/japandi/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japandi style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/japandi/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japandi style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/japandi/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japandi style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/japandi/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Japandi style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Japandi style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japandi style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japandi/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Japandi style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Japandi website?",
+					"answer": "The harmonious fusion of Japanese wabi-sabi and Scandinavian hygge — warm minimalism with organic imperfection, natural materials, and meditative calm. Background: warm off-white (#f7f3ee) — not clinical white, but the color of unbleached linen. The .inner panel has no borders — just content floating in generous space. A single accent: a thin vertical line on the left (2px solid #c4a882, warm clay) suggesting a bamboo divider or tatami edge. Colors are earth-derived: warm stone (#8b7d6b), soft clay (#c4a882), deep charcoal (#2c2c28). No sharp edges in the color palette — everything soft, muted, natural. Set in Cormorant Garamond for headings — an elegant, refined serif whose delicate strokes and high contrast channel the calligraphic precision of Japanese brushwork while maintaining Western serif tradition. Body in DM Sans for clean readability. Heading at weight 600, 30px, letter-spacing -0.3px, line-height 1.2, color #2c2c28. Eyebrow at DM Sans, weight 400, 11px, uppercase, 3px letter-spacing, color #8b7d6b. Body at DM Sans, weight 400, 15px, line-height 1.8, color #5a5347. Buttons: understated pills with generous padding. Primary — warm clay (#8b7d6b), white text, 50px border-radius. Secondary: transparent with subtle warm border. Alternatives: Noto Serif JP (Japanese serif), Libre Baskerville (transitional serif), Source Serif 4 (modern workhorse)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Japandi work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Japandi style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Japandi look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chinese Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/chinese-web-design.jpg",
+						"href": "/cultural-and-regional/chinese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold Colors",
+						"Dense",
+						"Content Heavy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dutch Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/dutch-design.jpg",
+						"href": "/cultural-and-regional/dutch-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold",
+						"Geometric",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japanese Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/japanese-web-design.jpg",
+						"href": "/cultural-and-regional/japanese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dense",
+						"Content Heavy",
+						"Grid"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Korean Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/korean-web-design.jpg",
+						"href": "/cultural-and-regional/korean-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Clean UI",
+						"Modern",
+						"Professional"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Japandi Style — UI Lookbook",
+		"description": "Explore the Japandi style: Fusion Style · Japanese + Scandinavian. Color palettes, typography, design principles, and AI prompts for Japandi UI design.",
+		"keywords": "Japandi, japandi, Minimal, Organic, Warm, Zen, Natural",
+		"og": {
+			"title": "Japandi Style — UI Lookbook",
+			"description": "Explore the Japandi style: Fusion Style · Japanese + Scandinavian. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/cultural-and-regional/japandi/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/japandi/lifestyle.jpg",
+				"alt": "Japandi Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Japandi Style — UI Lookbook",
+			"description": "Explore the Japandi style: Fusion Style · Japanese + Scandinavian. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/japandi/lifestyle.jpg",
+				"alt": "Japandi Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "japandi",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/japandi.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

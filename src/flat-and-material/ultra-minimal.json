@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Flat & Material",
+					"href": "/flat-and-material/"
+				},
+				{
+					"text": "Ultra-Minimal Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Ultra-Minimal style mood board — Minimalism · Extreme Reduction",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/flat-and-material/ultra-minimal/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Minimal · Whitespace · Airy · Light · Clean UI",
+			"a_h1": "Ultra-Minimal Style",
+			"a_description": "So minimal it almost disappears — Ultra-Minimal design pushes reduction past minimalism into near-invisibility. No borders, no shadows, no accent colors, no containers. Just typography floating in pure white space, where the weight difference between a light heading and lighter body text creates all the hierarchy the interface needs.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "ultra-minimal"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This extreme aesthetic powers high-fashion brand sites, gallery portfolios, conceptual design studios, and luxury real estate presentations. You'll see it on photographer portfolios where images need zero visual competition, architect websites where whitespace mirrors spatial design, and luxury brands where the absence of decoration is itself the ultimate luxury signal.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The absolute extreme of minimalist design — where even the minimal feels excessive. Background: pure white (#ffffff). The .inner panel is also pure white (#ffffff) with zero shadow, zero border, zero visual container — the content simply exists in space. Colors: pure black (#000000) for headings — the only contrast needed. Medium gray (#999999) for body text — intentionally light to recede from the typography. No accent color — the absence of color IS the design statement. The aesthetic is near-invisible — so minimal that the interface approaches transparency. Set in Helvetica Neue — the typeface of Swiss neutrality and minimal design heritage, perfectly invisible yet perfectly legible. Heading at weight 300, 24px, line-height 1.4, letter-spacing -0.2px, color #000000. Eyebrow at weight 400, 10px, uppercase, 3px letter-spacing, color #999999. Body at weight 300, 15px, line-height 1.8, color #999999. Buttons: primary — black (#000000), white text, 0 border-radius, thin and elegant. Secondary: transparent, very thin black border. Alternatives: Neue Haas Grotesk (original Helvetica), Suisse Intl (Swiss precision).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Ultra-Minimal style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/ultra-minimal/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Ultra-Minimal style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/ultra-minimal/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Ultra-Minimal style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/ultra-minimal/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Ultra-Minimal style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/flat-and-material/ultra-minimal/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Ultra-Minimal style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/flat-and-material/ultra-minimal/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Ultra-Minimal style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Ultra-Minimal website?",
+					"answer": "The absolute extreme of minimalist design — where even the minimal feels excessive. Background: pure white (#ffffff). The .inner panel is also pure white (#ffffff) with zero shadow, zero border, zero visual container — the content simply exists in space. Colors: pure black (#000000) for headings — the only contrast needed. Medium gray (#999999) for body text — intentionally light to recede from the typography. No accent color — the absence of color IS the design statement. The aesthetic is near-invisible — so minimal that the interface approaches transparency. Set in Helvetica Neue — the typeface of Swiss neutrality and minimal design heritage, perfectly invisible yet perfectly legible. Heading at weight 300, 24px, line-height 1.4, letter-spacing -0.2px, color #000000. Eyebrow at weight 400, 10px, uppercase, 3px letter-spacing, color #999999. Body at weight 300, 15px, line-height 1.8, color #999999. Buttons: primary — black (#000000), white text, 0 border-radius, thin and elegant. Secondary: transparent, very thin black border. Alternatives: Neue Haas Grotesk (original Helvetica), Suisse Intl (Swiss precision)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Ultra-Minimal work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Ultra-Minimal style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Ultra-Minimal look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Apple HIG Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/apple-hig-style.jpg",
+						"href": "/flat-and-material/apple-hig-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Elegant",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/bold-minimalism.jpg",
+						"href": "/flat-and-material/bold-minimalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Bold"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Carbon Design (IBM) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/carbon-design-ibm.jpg",
+						"href": "/flat-and-material/carbon-design-ibm/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Professional",
+						"Clean UI",
+						"Corporate"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Clean UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/flat-and-material/clean-ui.jpg",
+						"href": "/flat-and-material/clean-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Flat Design",
+						"Minimal",
+						"Whitespace"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Ultra-Minimal Style — UI Lookbook",
+		"description": "Explore the Ultra-Minimal style: Minimalism · Extreme Reduction. Color palettes, typography, design principles, and AI prompts for Ultra-Minimal UI design.",
+		"keywords": "Ultra-Minimal, ultra-minimal, Minimal, Whitespace, Airy, Light, Clean UI",
+		"og": {
+			"title": "Ultra-Minimal Style — UI Lookbook",
+			"description": "Explore the Ultra-Minimal style: Minimalism · Extreme Reduction. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/flat-and-material/ultra-minimal/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/ultra-minimal/lifestyle.jpg",
+				"alt": "Ultra-Minimal Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Ultra-Minimal Style — UI Lookbook",
+			"description": "Explore the Ultra-Minimal style: Minimalism · Extreme Reduction. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/flat-and-material/ultra-minimal/lifestyle.jpg",
+				"alt": "Ultra-Minimal Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "ultra-minimal",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/flat-and-material/ultra-minimal.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

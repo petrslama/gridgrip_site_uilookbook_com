@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Cultural & Regional",
+					"href": "/cultural-and-regional/"
+				},
+				{
+					"text": "Scandinavian Nordic Design Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Scandinavian Nordic Design style mood board — Regional Style · Northern Europe",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Minimal · Clean UI · Light · Whitespace · Professional",
+			"a_h1": "Scandinavian Nordic Design Style",
+			"a_description": "Pure white space, muted natural tones, and the radical simplicity of design that believes less is always more — Scandinavian Nordic Design brings the functional minimalism of Copenhagen, Stockholm, and Helsinki to the screen. Every element earns its place through purpose, not decoration, creating interfaces that feel as clean and considered as a whitewashed Nordic interior.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "scandinavian-nordic-design"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "Scandinavian design dominates furniture retailers, architectural firms, and lifestyle brands throughout Northern Europe and beyond. You'll find it on premium homeware shops, sustainable fashion labels, design studio portfolios, and any brand that wants to communicate quality through restraint — IKEA's digital presence, Muji-style product pages, and minimalist SaaS dashboards.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The pure, functional minimalism of Scandinavian design — clean white surfaces, muted natural tones, and an almost spiritual devotion to whitespace and restraint. Background: pure white (#ffffff). The .inner panel has no visible borders or shadows — just generous padding and breathing room. A single thin line (1px solid #e0e0e0) at the bottom of the heading for subtle structure. Colors are desaturated and natural: text in warm charcoal (#2d2d2d), muted accents in dusty blue (#7b9baf) or sage green (#8fa89b). No decoration, no gradients — beauty through proportion and negative space. Set in DM Sans — a geometric sans-serif with a low x-height and open counters that channels the Nordic modernist tradition of clean, functional typography. Heading at weight 700, 32px, letter-spacing -0.5px, line-height 1.2, color #2d2d2d. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #7b9baf. Body at weight 400, 15px, line-height 1.7, color #555. Buttons are minimal: primary — charcoal (#2d2d2d) background, white text, 0 border-radius (sharp, rational). Secondary: transparent, charcoal border, charcoal text. Hover: subtle background shift, no glow or transform. Alternatives: Inter (neutral humanist), Outfit (geometric), Plus Jakarta Sans (modern geometric).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Scandinavian Nordic Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/scandinavian-nordic-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Scandinavian Nordic Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/scandinavian-nordic-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Scandinavian Nordic Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/scandinavian-nordic-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Scandinavian Nordic Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/scandinavian-nordic-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Scandinavian Nordic Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Scandinavian Nordic Design style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Scandinavian Nordic Design website?",
+					"answer": "The pure, functional minimalism of Scandinavian design — clean white surfaces, muted natural tones, and an almost spiritual devotion to whitespace and restraint. Background: pure white (#ffffff). The .inner panel has no visible borders or shadows — just generous padding and breathing room. A single thin line (1px solid #e0e0e0) at the bottom of the heading for subtle structure. Colors are desaturated and natural: text in warm charcoal (#2d2d2d), muted accents in dusty blue (#7b9baf) or sage green (#8fa89b). No decoration, no gradients — beauty through proportion and negative space. Set in DM Sans — a geometric sans-serif with a low x-height and open counters that channels the Nordic modernist tradition of clean, functional typography. Heading at weight 700, 32px, letter-spacing -0.5px, line-height 1.2, color #2d2d2d. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #7b9baf. Body at weight 400, 15px, line-height 1.7, color #555. Buttons are minimal: primary — charcoal (#2d2d2d) background, white text, 0 border-radius (sharp, rational). Secondary: transparent, charcoal border, charcoal text. Hover: subtle background shift, no glow or transform. Alternatives: Inter (neutral humanist), Outfit (geometric), Plus Jakarta Sans (modern geometric)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Scandinavian Nordic Design work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Scandinavian Nordic Design style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Scandinavian Nordic Design look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chinese Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/chinese-web-design.jpg",
+						"href": "/cultural-and-regional/chinese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold Colors",
+						"Dense",
+						"Content Heavy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dutch Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/dutch-design.jpg",
+						"href": "/cultural-and-regional/dutch-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold",
+						"Geometric",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japandi style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/japandi.jpg",
+						"href": "/cultural-and-regional/japandi/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Organic",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japanese Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/japanese-web-design.jpg",
+						"href": "/cultural-and-regional/japanese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dense",
+						"Content Heavy",
+						"Grid"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Scandinavian Nordic Design Style — UI Lookbook",
+		"description": "Explore the Scandinavian Nordic Design style: Regional Style · Northern Europe. Color palettes, typography, design principles, and AI prompts for Scandinavian Nordic Design UI design.",
+		"keywords": "Scandinavian Nordic Design, scandinavian-nordic-design, Minimal, Clean UI, Light, Whitespace, Professional",
+		"og": {
+			"title": "Scandinavian Nordic Design Style — UI Lookbook",
+			"description": "Explore the Scandinavian Nordic Design style: Regional Style · Northern Europe. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/cultural-and-regional/scandinavian-nordic-design/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/lifestyle.jpg",
+				"alt": "Scandinavian Nordic Design Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Scandinavian Nordic Design Style — UI Lookbook",
+			"description": "Explore the Scandinavian Nordic Design style: Regional Style · Northern Europe. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/scandinavian-nordic-design/lifestyle.jpg",
+				"alt": "Scandinavian Nordic Design Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Cormorant:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "scandinavian-nordic-design",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/scandinavian-nordic-design.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

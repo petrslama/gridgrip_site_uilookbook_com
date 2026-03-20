@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Heavy Animation & Motion",
+					"href": "/heavy-animation-and-motion/"
+				},
+				{
+					"text": "Parallax Scrolling Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Parallax Scrolling style mood board — Heavy Motion · Scroll-Driven",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Parallax · Heavy Motion · Scroll-Triggered · Immersive Motion · Engaging",
+			"a_h1": "Parallax Scrolling Style",
+			"a_description": "Layered depth, cinematic scroll reveals, and the immersive feeling of moving through a visual narrative — Parallax Scrolling design transforms the browser into a storytelling stage where foreground and background move at different speeds. The floating content panels, dramatic shadows, and vivid accents create a sense of dimensional space that rewards the act of scrolling itself.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "parallax-scrolling"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This scroll-driven style powers product launch pages, brand storytelling experiences, creative agency portfolios, and interactive annual reports. You'll see it on automotive brand sites, luxury product reveals, tourism campaigns, and long-form editorial pieces — anywhere that transforms passive scrolling into an active, cinematic journey through layered visual content.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The immersive, scroll-driven aesthetic of parallax websites — layered depth, dramatic reveals, and the cinematic feeling of moving through a visual story. Background: rich dark (#111111) creating depth for layered content. The .inner panel floats with a white background (#ffffff) and generous padding — a content island amid the immersive scroll experience, with a soft shadow (0 8px 32px rgba(0,0,0,0.12)) suggesting elevation above background layers. Colors: vivid coral (#f43f5e) as the primary accent — energetic and attention-grabbing as content scrolls into view. Near-black (#1a1a1a) for headings, warm gray (#64748b) for body text. The aesthetic is cinematic and storytelling-driven — each scroll reveals a new scene. Set in Poppins — geometric, modern, with enough personality to carry narrative content. Heading at weight 700, 28px, line-height 1.2, letter-spacing -0.5px, color #1a1a1a. Eyebrow at weight 600, 11px, uppercase, 2px letter-spacing, color #f43f5e. Body at weight 400, 15px, line-height 1.7, color #64748b. Buttons: primary — vivid coral (#f43f5e), white text, 8px border-radius. Secondary: transparent, coral border. Alternatives: DM Sans (clean geometric), Outfit (modern geometric).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Parallax Scrolling style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/parallax-scrolling/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Parallax Scrolling style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/parallax-scrolling/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Parallax Scrolling style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/parallax-scrolling/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Parallax Scrolling style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/parallax-scrolling/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Parallax Scrolling style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Parallax Scrolling style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Parallax Scrolling website?",
+					"answer": "The immersive, scroll-driven aesthetic of parallax websites — layered depth, dramatic reveals, and the cinematic feeling of moving through a visual story. Background: rich dark (#111111) creating depth for layered content. The .inner panel floats with a white background (#ffffff) and generous padding — a content island amid the immersive scroll experience, with a soft shadow (0 8px 32px rgba(0,0,0,0.12)) suggesting elevation above background layers. Colors: vivid coral (#f43f5e) as the primary accent — energetic and attention-grabbing as content scrolls into view. Near-black (#1a1a1a) for headings, warm gray (#64748b) for body text. The aesthetic is cinematic and storytelling-driven — each scroll reveals a new scene. Set in Poppins — geometric, modern, with enough personality to carry narrative content. Heading at weight 700, 28px, line-height 1.2, letter-spacing -0.5px, color #1a1a1a. Eyebrow at weight 600, 11px, uppercase, 2px letter-spacing, color #f43f5e. Body at weight 400, 15px, line-height 1.7, color #64748b. Buttons: primary — vivid coral (#f43f5e), white text, 8px border-radius. Secondary: transparent, coral border. Alternatives: DM Sans (clean geometric), Outfit (modern geometric)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Parallax Scrolling work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Parallax Scrolling style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Parallax Scrolling look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Canvas Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/canvas-animation.jpg",
+						"href": "/heavy-animation-and-motion/canvas-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Canvas",
+						"Heavy Motion"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cursor Mouse Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/cursor-mouse-effects.jpg",
+						"href": "/heavy-animation-and-motion/cursor-mouse-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Interactive",
+						"Heavy Motion",
+						"Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Entrance Animations style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/entrance-animations.jpg",
+						"href": "/heavy-animation-and-motion/entrance-animations/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Moderate Motion",
+						"Engaging"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/gsap-powered-interactions.jpg",
+						"href": "/heavy-animation-and-motion/gsap-powered-interactions/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Advanced JS",
+						"Animation",
+						"Heavy Motion"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Parallax Scrolling Style — UI Lookbook",
+		"description": "Explore the Parallax Scrolling style: Heavy Motion · Scroll-Driven. Color palettes, typography, design principles, and AI prompts for Parallax Scrolling UI design.",
+		"keywords": "Parallax Scrolling, parallax-scrolling, Parallax, Heavy Motion, Scroll-Triggered, Immersive Motion, Engaging",
+		"og": {
+			"title": "Parallax Scrolling Style — UI Lookbook",
+			"description": "Explore the Parallax Scrolling style: Heavy Motion · Scroll-Driven. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/heavy-animation-and-motion/parallax-scrolling/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/lifestyle.jpg",
+				"alt": "Parallax Scrolling Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Parallax Scrolling Style — UI Lookbook",
+			"description": "Explore the Parallax Scrolling style: Heavy Motion · Scroll-Driven. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/parallax-scrolling/lifestyle.jpg",
+				"alt": "Parallax Scrolling Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "parallax-scrolling",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/heavy-animation-and-motion/parallax-scrolling.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

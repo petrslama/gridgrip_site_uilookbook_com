@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Subculture & Aesthetic",
+					"href": "/subculture-and-aesthetic/"
+				},
+				{
+					"text": "Dark Academia Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Dark Academia style mood board — Aesthetic · Scholarly & Moody",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Dark · Elegant · Serif · Professional · Nostalgic",
+			"a_h1": "Dark Academia Style",
+			"a_description": "Leather-bound tones, antique gold accents, and the brooding intellectualism of candlelit university libraries — Dark Academia brings the romantic nostalgia of classical education to digital spaces. The warm brown backgrounds and elegant Garamond typography create an atmosphere of late-night studying, poetry scribbled in margins, and the intoxicating smell of old books in oak-paneled reading rooms.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "dark-academia"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This scholarly style powers literary journal sites, antiquarian bookshop pages, classical music platforms, and liberal arts college homepages. You'll see it on poetry magazine archives, philosophy podcast sites, classics department pages, and literary fiction publishers — anywhere that the visual language needs to evoke tweed jackets, fountain pens, and the belief that a well-read life is a life well-lived.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The scholarly, romantically dark aesthetic of dark academia — leather-bound books, candlelit libraries, and the brooding intellectualism of ivy-covered universities translated into digital form. Background: deep warm brown (#1c1410). The .inner panel has a slightly lighter background (#241c16) with a 1px border (#3a2e24) — like aged wood paneling in a professor's study. Colors: antique gold (#c4a265) as the primary accent — the color of gilt book spines, old brass fixtures, and aged parchment edges. Warm cream (#e8dcc8) for headings, muted tan (#9a8a72) for body text. The aesthetic is scholarly and atmospheric — every serif echoes the weight of classical education. Set in EB Garamond — a revival of the classic Garamond with exceptional elegance, the typeface of literary journals and academic publishing. Heading at weight 600, 26px, line-height 1.3, color #e8dcc8. Eyebrow at weight 400, 11px, uppercase, 3px letter-spacing, color #c4a265. Body at weight 400, 16px, line-height 1.8, color #9a8a72. Buttons: primary — gold (#c4a265), dark text (#1c1410), 4px border-radius. Secondary: transparent, gold border. Alternatives: Cormorant Garamond (elegant display), Spectral (reading serif).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Dark Academia style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/dark-academia/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Academia style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/dark-academia/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Academia style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/dark-academia/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Academia style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/dark-academia/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Dark Academia style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Dark Academia style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Dark Academia website?",
+					"answer": "The scholarly, romantically dark aesthetic of dark academia — leather-bound books, candlelit libraries, and the brooding intellectualism of ivy-covered universities translated into digital form. Background: deep warm brown (#1c1410). The .inner panel has a slightly lighter background (#241c16) with a 1px border (#3a2e24) — like aged wood paneling in a professor's study. Colors: antique gold (#c4a265) as the primary accent — the color of gilt book spines, old brass fixtures, and aged parchment edges. Warm cream (#e8dcc8) for headings, muted tan (#9a8a72) for body text. The aesthetic is scholarly and atmospheric — every serif echoes the weight of classical education. Set in EB Garamond — a revival of the classic Garamond with exceptional elegance, the typeface of literary journals and academic publishing. Heading at weight 600, 26px, line-height 1.3, color #e8dcc8. Eyebrow at weight 400, 11px, uppercase, 3px letter-spacing, color #c4a265. Body at weight 400, 16px, line-height 1.8, color #9a8a72. Buttons: primary — gold (#c4a265), dark text (#1c1410), 4px border-radius. Secondary: transparent, gold border. Alternatives: Cormorant Garamond (elegant display), Spectral (reading serif)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Dark Academia work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Dark Academia style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Dark Academia look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Acid Graphics style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/acid-graphics.jpg",
+						"href": "/subculture-and-aesthetic/acid-graphics/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Vibrant",
+						"Neon",
+						"Bold Colors"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Afrofuturism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/afrofuturism.jpg",
+						"href": "/subculture-and-aesthetic/afrofuturism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Futuristic",
+						"Bold Colors",
+						"Vibrant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Animecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/animecore.jpg",
+						"href": "/subculture-and-aesthetic/animecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold Colors",
+						"Vibrant",
+						"Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cottagecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/cottagecore.jpg",
+						"href": "/subculture-and-aesthetic/cottagecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Warm"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Dark Academia Style — UI Lookbook",
+		"description": "Explore the Dark Academia style: Aesthetic · Scholarly & Moody. Color palettes, typography, design principles, and AI prompts for Dark Academia UI design.",
+		"keywords": "Dark Academia, dark-academia, Dark, Elegant, Serif, Professional, Nostalgic",
+		"og": {
+			"title": "Dark Academia Style — UI Lookbook",
+			"description": "Explore the Dark Academia style: Aesthetic · Scholarly & Moody. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/subculture-and-aesthetic/dark-academia/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/lifestyle.jpg",
+				"alt": "Dark Academia Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Dark Academia Style — UI Lookbook",
+			"description": "Explore the Dark Academia style: Aesthetic · Scholarly & Moody. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/dark-academia/lifestyle.jpg",
+				"alt": "Dark Academia Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=EB+Garamond:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "dark-academia",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/subculture-and-aesthetic/dark-academia.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

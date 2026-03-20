@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Heavy Animation & Motion",
+					"href": "/heavy-animation-and-motion/"
+				},
+				{
+					"text": "WebGL Shader Effects Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "WebGL Shader Effects style mood board — Heavy Motion · WebGL Shaders",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Heavy Motion · WebGL · Shaders · Advanced JS · 3D Animation",
+			"a_h1": "WebGL Shader Effects Style",
+			"a_description": "Fragment shaders painting pixels, noise functions generating organic distortions, and the raw mathematical beauty of GLSL running in real-time — WebGL Shader Effects design is where code becomes visual art. The pure black backgrounds serve as canvases for programs that manipulate every pixel, while hot magenta accents and monospace typography connect the visual output to the code that generates it.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "webgl-shader-effects"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This shader-driven style powers creative coding experiments, digital art portfolios, music visualizers, and immersive brand experiences. You'll see it on Shadertoy-inspired galleries, demo scene showcases, generative art platforms, and experimental interactive installations — anywhere that GLSL fragment and vertex shaders transform the browser into a real-time graphics processing canvas.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The experimental, code-art aesthetic of WebGL shader websites — raw GLSL-powered visuals, noise-driven distortions, and fragment shader artistry rendered directly in the browser. Background: pure black (#000000) — the void that shader programs paint upon. The .inner panel has a dark translucent background (rgba(255,255,255,0.03)) with a thin border (1px solid rgba(255,255,255,0.08)) — barely visible UI hovering over shader-generated visuals. Colors: hot magenta (#ec4899) as the primary accent — vibrant and electric, the kind of color that emerges from noise functions and UV manipulations. Light gray (#d1d5db) for headings, muted gray (#9ca3af) for body text. The aesthetic is deeply technical — code as art, math as beauty. Set in JetBrains Mono — because shader code IS the medium, and the monospace font connects the visual output to the GLSL source that created it. Heading at weight 700, 24px, line-height 1.3, color #d1d5db. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #ec4899. Body at weight 400, 13px, line-height 1.7, color #9ca3af. Buttons: primary — magenta (#ec4899), white text, 0 border-radius. Secondary: transparent, magenta border. Alternatives: Fira Code (ligature monospace), IBM Plex Mono (clean monospace).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "WebGL Shader Effects style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/webgl-shader-effects/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "WebGL Shader Effects style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/webgl-shader-effects/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "WebGL Shader Effects style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/webgl-shader-effects/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "WebGL Shader Effects style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/heavy-animation-and-motion/webgl-shader-effects/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "WebGL Shader Effects style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about WebGL Shader Effects style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a WebGL Shader Effects website?",
+					"answer": "The experimental, code-art aesthetic of WebGL shader websites — raw GLSL-powered visuals, noise-driven distortions, and fragment shader artistry rendered directly in the browser. Background: pure black (#000000) — the void that shader programs paint upon. The .inner panel has a dark translucent background (rgba(255,255,255,0.03)) with a thin border (1px solid rgba(255,255,255,0.08)) — barely visible UI hovering over shader-generated visuals. Colors: hot magenta (#ec4899) as the primary accent — vibrant and electric, the kind of color that emerges from noise functions and UV manipulations. Light gray (#d1d5db) for headings, muted gray (#9ca3af) for body text. The aesthetic is deeply technical — code as art, math as beauty. Set in JetBrains Mono — because shader code IS the medium, and the monospace font connects the visual output to the GLSL source that created it. Heading at weight 700, 24px, line-height 1.3, color #d1d5db. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #ec4899. Body at weight 400, 13px, line-height 1.7, color #9ca3af. Buttons: primary — magenta (#ec4899), white text, 0 border-radius. Secondary: transparent, magenta border. Alternatives: Fira Code (ligature monospace), IBM Plex Mono (clean monospace)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does WebGL Shader Effects work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the WebGL Shader Effects style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the WebGL Shader Effects look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Canvas Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/canvas-animation.jpg",
+						"href": "/heavy-animation-and-motion/canvas-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Canvas",
+						"Heavy Motion"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cursor Mouse Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/cursor-mouse-effects.jpg",
+						"href": "/heavy-animation-and-motion/cursor-mouse-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Interactive",
+						"Heavy Motion",
+						"Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Entrance Animations style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/entrance-animations.jpg",
+						"href": "/heavy-animation-and-motion/entrance-animations/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Animation",
+						"Moderate Motion",
+						"Engaging"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/heavy-animation-and-motion/gsap-powered-interactions.jpg",
+						"href": "/heavy-animation-and-motion/gsap-powered-interactions/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Advanced JS",
+						"Animation",
+						"Heavy Motion"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "WebGL Shader Effects Style — UI Lookbook",
+		"description": "Explore the WebGL Shader Effects style: Heavy Motion · WebGL Shaders. Color palettes, typography, design principles, and AI prompts for WebGL Shader Effects UI design.",
+		"keywords": "WebGL Shader Effects, webgl-shader-effects, Heavy Motion, WebGL, Shaders, Advanced JS, 3D Animation",
+		"og": {
+			"title": "WebGL Shader Effects Style — UI Lookbook",
+			"description": "Explore the WebGL Shader Effects style: Heavy Motion · WebGL Shaders. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/heavy-animation-and-motion/webgl-shader-effects/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/lifestyle.jpg",
+				"alt": "WebGL Shader Effects Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "WebGL Shader Effects Style — UI Lookbook",
+			"description": "Explore the WebGL Shader Effects style: Heavy Motion · WebGL Shaders. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/heavy-animation-and-motion/webgl-shader-effects/lifestyle.jpg",
+				"alt": "WebGL Shader Effects Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "webgl-shader-effects",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/heavy-animation-and-motion/webgl-shader-effects.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

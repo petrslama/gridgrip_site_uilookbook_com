@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Subculture & Aesthetic",
+					"href": "/subculture-and-aesthetic/"
+				},
+				{
+					"text": "Animecore Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Animecore style mood board — Aesthetic · Anime-Inspired",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/subculture-and-aesthetic/animecore/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Bold Colors · Vibrant · Playful · Cute · Expressive",
+			"a_h1": "Animecore Style",
+			"a_description": "Bold hot pinks, dramatic purple depths, and the explosive visual energy of Japanese animation — Animecore brings the dynamic expressiveness of anime aesthetics to web design. The vibrant accent colors pop against deep blue-purple backgrounds like cel-shaded highlights, while rounded typography and playful containers capture the friendly approachability of anime character design.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "animecore"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This vibrant style powers anime fan community platforms, manga reading sites, J-pop artist pages, and anime merchandise stores. You'll see it on cosplay portfolio sites, anime convention pages, fan art galleries, and gaming community hubs — anywhere that the visual language needs to channel the colorful energy, emotional expressiveness, and unabashed boldness of Japanese animation culture.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Animecore style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The vibrant, expressive aesthetic of anime-inspired web design — bold colors, dramatic contrasts, and the energetic visual language of Japanese animation translated into UI. Background: deep blue-purple (#1a1040) — the dramatic night sky of anime scenes. The .inner panel has a slightly lighter background (#221550) with a 2px border in hot pink (#ff3e8a) and 12px border-radius — bold and eye-catching like anime cel shading. Colors: hot pink (#ff3e8a) as the primary accent — the energy of magical girl transformations and action sequences. Bright white (#ffffff) for headings, soft lavender (#c0a8e0) for body text. Secondary cyan (#00e5ff) for highlights. The aesthetic is energetic, colorful, and expressive — every element has the dynamic intensity of a key animation frame. Set in M PLUS Rounded 1c — a rounded Japanese font that captures the friendly, expressive quality of anime title cards. Heading at weight 700, 26px, line-height 1.3, color #ffffff. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #ff3e8a. Body at weight 400, 14px, line-height 1.6, color #c0a8e0. Buttons: primary — hot pink (#ff3e8a), white text, 8px border-radius. Secondary: transparent, cyan border (#00e5ff). Alternatives: Kosugi Maru (rounded Japanese), Zen Maru Gothic (modern rounded).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Animecore style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/animecore/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Animecore style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/animecore/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Animecore style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/animecore/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Animecore style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/animecore/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Animecore style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Animecore style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Animecore style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/animecore/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Animecore style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Animecore website?",
+					"answer": "The vibrant, expressive aesthetic of anime-inspired web design — bold colors, dramatic contrasts, and the energetic visual language of Japanese animation translated into UI. Background: deep blue-purple (#1a1040) — the dramatic night sky of anime scenes. The .inner panel has a slightly lighter background (#221550) with a 2px border in hot pink (#ff3e8a) and 12px border-radius — bold and eye-catching like anime cel shading. Colors: hot pink (#ff3e8a) as the primary accent — the energy of magical girl transformations and action sequences. Bright white (#ffffff) for headings, soft lavender (#c0a8e0) for body text. Secondary cyan (#00e5ff) for highlights. The aesthetic is energetic, colorful, and expressive — every element has the dynamic intensity of a key animation frame. Set in M PLUS Rounded 1c — a rounded Japanese font that captures the friendly, expressive quality of anime title cards. Heading at weight 700, 26px, line-height 1.3, color #ffffff. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #ff3e8a. Body at weight 400, 14px, line-height 1.6, color #c0a8e0. Buttons: primary — hot pink (#ff3e8a), white text, 8px border-radius. Secondary: transparent, cyan border (#00e5ff). Alternatives: Kosugi Maru (rounded Japanese), Zen Maru Gothic (modern rounded)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Animecore work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Animecore style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Animecore look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Acid Graphics style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/acid-graphics.jpg",
+						"href": "/subculture-and-aesthetic/acid-graphics/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Vibrant",
+						"Neon",
+						"Bold Colors"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Afrofuturism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/afrofuturism.jpg",
+						"href": "/subculture-and-aesthetic/afrofuturism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Futuristic",
+						"Bold Colors",
+						"Vibrant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cottagecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/cottagecore.jpg",
+						"href": "/subculture-and-aesthetic/cottagecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyberpop style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/cyberpop.jpg",
+						"href": "/subculture-and-aesthetic/cyberpop/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Futuristic",
+						"Bold Colors",
+						"Cute"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Animecore Style — UI Lookbook",
+		"description": "Explore the Animecore style: Aesthetic · Anime-Inspired. Color palettes, typography, design principles, and AI prompts for Animecore UI design.",
+		"keywords": "Animecore, animecore, Bold Colors, Vibrant, Playful, Cute, Expressive",
+		"og": {
+			"title": "Animecore Style — UI Lookbook",
+			"description": "Explore the Animecore style: Aesthetic · Anime-Inspired. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/subculture-and-aesthetic/animecore/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/animecore/lifestyle.jpg",
+				"alt": "Animecore Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Animecore Style — UI Lookbook",
+			"description": "Explore the Animecore style: Aesthetic · Anime-Inspired. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/animecore/lifestyle.jpg",
+				"alt": "Animecore Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "animecore",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/subculture-and-aesthetic/animecore.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

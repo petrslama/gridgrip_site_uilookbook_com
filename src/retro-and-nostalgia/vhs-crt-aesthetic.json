@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Retro & Nostalgia",
+					"href": "/retro-and-nostalgia/"
+				},
+				{
+					"text": "VHS CRT Aesthetic Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "VHS CRT Aesthetic style mood board — Analog Media · 1980s–1990s",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Retro · Nostalgic · Distressed · Grain · Moody",
+			"a_h1": "VHS CRT Aesthetic Style",
+			"a_description": "Scan lines crawling across a dark screen, chromatic aberration bleeding red and cyan at the edges of every letter, and the warm hum of a cathode ray tube — VHS CRT aesthetic captures the analog imperfection of magnetic tape media. It's the tracking artifacts, the phosphor glow, the timestamp flicker of a paused VHS frame, turned into a deliberate visual language.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "vhs-crt-aesthetic"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "VHS CRT styling shows up on horror game landing pages, indie film festival sites, analog photography portfolios, and lo-fi music labels that embrace imperfection as identity. You'll find it on creepypasta archives, retro media blogs, found-footage film projects, and anywhere that wants to feel like a mysterious tape you found in a thrift store.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "Simulates the look of a VHS tape played on a CRT television — scan lines, color bleeding, tracking artifacts, and phosphor glow. Dark near-black background (#0a0a0a) with a faint blue-purple tint. A pseudo-element creates horizontal scan lines using repeating-linear-gradient (2px transparent, 1px rgba(0,0,0,0.3)). Another pseudo-element adds a subtle color-bleed effect — offset red and cyan shadows on text. The .inner panel has no distinct background, just the scan-line overlay. Text is slightly off-white (#d4d4d4) with a faint phosphor-green or amber tint. The heading gets chromatic aberration via text-shadow with offset red (#ff0040) and cyan (#00ffff) shadows. Set in VT323 — a monospace pixel font that perfectly channels the low-resolution character display of VHS on-screen text (timestamps, tracking info). Body text in Share Tech Mono for better readability at paragraph lengths while maintaining the CRT terminal feel. Heading in VT323 at 28px, line-height 1.3. Eyebrow in Share Tech Mono at 12px, uppercase, 3px letter-spacing, with a red tint. Body in Share Tech Mono at 15px, line-height 1.8. Buttons have a glitchy border effect — 1px solid with slight color offset. Primary: semi-transparent white background with scan-line overlay. Secondary: transparent with dotted border. Alternatives: IBM Plex Mono (cleaner CRT feel), Fira Code (modern terminal), Source Code Pro (neutral mono).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "VHS CRT Aesthetic style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/vhs-crt-aesthetic/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "VHS CRT Aesthetic style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/vhs-crt-aesthetic/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "VHS CRT Aesthetic style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/vhs-crt-aesthetic/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "VHS CRT Aesthetic style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/vhs-crt-aesthetic/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "VHS CRT Aesthetic style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about VHS CRT Aesthetic style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a VHS CRT Aesthetic website?",
+					"answer": "Simulates the look of a VHS tape played on a CRT television — scan lines, color bleeding, tracking artifacts, and phosphor glow. Dark near-black background (#0a0a0a) with a faint blue-purple tint. A pseudo-element creates horizontal scan lines using repeating-linear-gradient (2px transparent, 1px rgba(0,0,0,0.3)). Another pseudo-element adds a subtle color-bleed effect — offset red and cyan shadows on text. The .inner panel has no distinct background, just the scan-line overlay. Text is slightly off-white (#d4d4d4) with a faint phosphor-green or amber tint. The heading gets chromatic aberration via text-shadow with offset red (#ff0040) and cyan (#00ffff) shadows. Set in VT323 — a monospace pixel font that perfectly channels the low-resolution character display of VHS on-screen text (timestamps, tracking info). Body text in Share Tech Mono for better readability at paragraph lengths while maintaining the CRT terminal feel. Heading in VT323 at 28px, line-height 1.3. Eyebrow in Share Tech Mono at 12px, uppercase, 3px letter-spacing, with a red tint. Body in Share Tech Mono at 15px, line-height 1.8. Buttons have a glitchy border effect — 1px solid with slight color offset. Primary: semi-transparent white background with scan-line overlay. Secondary: transparent with dotted border. Alternatives: IBM Plex Mono (cleaner CRT feel), Fira Code (modern terminal), Source Code Pro (neutral mono)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does VHS CRT Aesthetic work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the VHS CRT Aesthetic style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the VHS CRT Aesthetic look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "70s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/70s-design.jpg",
+						"href": "/retro-and-nostalgia/70s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "80s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg",
+						"href": "/retro-and-nostalgia/80s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Neon"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "90s Web Revival style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/90s-web-revival.jpg",
+						"href": "/retro-and-nostalgia/90s-web-revival/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Early Web"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cassette Mixtape UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/cassette-mixtape-ui.jpg",
+						"href": "/retro-and-nostalgia/cassette-mixtape-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Hand-Crafted"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "VHS CRT Aesthetic Style — UI Lookbook",
+		"description": "Explore the VHS CRT Aesthetic style: Analog Media · 1980s–1990s. Color palettes, typography, design principles, and AI prompts for VHS CRT Aesthetic UI design.",
+		"keywords": "VHS CRT Aesthetic, vhs-crt-aesthetic, Retro, Nostalgic, Distressed, Grain, Moody",
+		"og": {
+			"title": "VHS CRT Aesthetic Style — UI Lookbook",
+			"description": "Explore the VHS CRT Aesthetic style: Analog Media · 1980s–1990s. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/retro-and-nostalgia/vhs-crt-aesthetic/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/lifestyle.jpg",
+				"alt": "VHS CRT Aesthetic Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "VHS CRT Aesthetic Style — UI Lookbook",
+			"description": "Explore the VHS CRT Aesthetic style: Analog Media · 1980s–1990s. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/vhs-crt-aesthetic/lifestyle.jpg",
+				"alt": "VHS CRT Aesthetic Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=VT323:wght@300;400;500;600;700&family=Share+Tech+Mono:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "vhs-crt-aesthetic",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/vhs-crt-aesthetic.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

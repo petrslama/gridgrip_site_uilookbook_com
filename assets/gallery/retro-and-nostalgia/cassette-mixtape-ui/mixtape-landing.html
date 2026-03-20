@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Mixtape For You — Zoe, Marco, Kai &amp; Riley</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+        /* ============================================================
+           RESET
+        ============================================================ */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ============================================================
+           TOKENS
+        ============================================================ */
+        :root {
+            --bg:             #2a2420;
+            --housing:        #111008;
+            --housing-mid:    #1c1812;
+            --housing-rim:    #262014;
+
+            --label-bg:       #f5edd6;
+            --label-border:   #c8b89a;
+            --label-ruled:    rgba(180, 160, 120, 0.28);
+
+            --c-heading:      #2a2420;   /* 11.7 : 1 on label-bg */
+            --c-eyebrow:      #6b5538;   /* 5.33 : 1 on label-bg — WCAG AA */
+            --c-body:         #4a3f32;   /* 7.73 : 1 on label-bg */
+            --c-cream:        #f5edd6;
+
+            --accent:         #b02a1e;   /* 5.18 : 1 w/ cream — WCAG AA */
+            --accent-hover:   #8e2218;
+
+            --tape-dark:      #1c0e06;
+            --tape-mid:       #3a2010;
+        }
+
+        /* ============================================================
+           BASE
+        ============================================================ */
+        html,
+        body {
+            min-height: 100%;
+        }
+
+        body {
+            background-color: var(--bg);
+            font-family: 'Barlow', sans-serif;
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--c-body);
+            overflow-x: hidden;
+        }
+
+        /* ============================================================
+           GHOST TEXT — song titles bleeding through the darkness
+        ============================================================ */
+        .bg-ghost {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 0;
+
+            span {
+                position: absolute;
+                font-family: 'Permanent Marker', cursive;
+                color: rgba(245, 237, 214, 0.038);
+                white-space: nowrap;
+                user-select: none;
+            }
+        }
+
+        /* ============================================================
+           DECORATIVE CORNER REELS
+        ============================================================ */
+        .deco-reel {
+            position: fixed;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 0;
+
+            &::after {
+                content: '';
+                position: absolute;
+                border-radius: 50%;
+                border: 1px solid rgba(255, 255, 255, 0.022);
+            }
+
+            &--1 {
+                width: 240px;
+                height: 240px;
+                bottom: -90px;
+                left: -90px;
+                border: 2px solid rgba(255, 255, 255, 0.028);
+
+                &::after { inset: 32px; }
+            }
+
+            &--2 {
+                width: 170px;
+                height: 170px;
+                top: -55px;
+                right: -55px;
+                border: 1.5px solid rgba(255, 255, 255, 0.022);
+
+                &::after { inset: 22px; }
+            }
+        }
+
+        /* ============================================================
+           PAGE SHELL
+        ============================================================ */
+        .page {
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 56px 24px 72px;
+            gap: 24px;
+        }
+
+        /* ============================================================
+           CASSETTE TAPE — pure CSS illustration
+        ============================================================ */
+        .cassette {
+            position: relative;
+            width: 440px;
+            height: 280px;
+            background: var(--housing);
+            border-radius: 9px;
+            animation: cassette-float 5s ease-in-out infinite;
+            cursor: default;
+            box-shadow:
+                0 0 0 1px rgba(255, 255, 255, 0.05),
+                0 28px 72px rgba(0, 0, 0, 0.85),
+                0 8px 20px rgba(0, 0, 0, 0.55),
+                inset 0 1px 0 rgba(255, 255, 255, 0.07),
+                inset 0 -2px 0 rgba(0, 0, 0, 0.4);
+
+            /* Plastic shine overlay — topmost layer */
+            &::after {
+                content: '';
+                position: absolute;
+                inset: 0;
+                border-radius: 9px;
+                background: linear-gradient(
+                    152deg,
+                    rgba(255, 255, 255, 0.07) 0%,
+                    rgba(255, 255, 255, 0) 38%
+                );
+                pointer-events: none;
+                z-index: 10;
+            }
+
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+
+        @keyframes cassette-float {
+            0%, 100% { transform: rotate(1.5deg) translateY(0px); }
+            50%       { transform: rotate(1.5deg) translateY(-9px); }
+        }
+
+        /* -- Top tape-access notch -- */
+        .cassette-notch {
+            position: absolute;
+            top: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 132px;
+            height: 22px;
+            background: var(--bg);
+            border-radius: 0 0 12px 12px;
+            z-index: 4;
+
+            /* Tape guide pegs */
+            &::before,
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 5px;
+                width: 7px;
+                height: 7px;
+                background: var(--housing-mid);
+                border-radius: 50%;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+            }
+
+            &::before { left: 22px; }
+            &::after  { right: 22px; }
+        }
+
+        /* -- Label -- */
+        .cassette-label {
+            position: absolute;
+            top: 18px;
+            left: 13px;
+            right: 13px;
+            height: 134px;
+            background-color: var(--label-bg);
+            background-image: repeating-linear-gradient(
+                to bottom,
+                transparent,
+                transparent 23px,
+                var(--label-ruled) 23px,
+                var(--label-ruled) 24px
+            );
+            border: 1.5px solid var(--label-border);
+            border-radius: 3px;
+            overflow: hidden;
+            z-index: 1;
+            box-shadow:
+                inset 0 1px 0 rgba(255, 255, 255, 0.55),
+                0 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .cassette-label-content {
+            padding: 11px 12px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cassette-eyebrow {
+            display: block;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--c-eyebrow);
+            margin-bottom: 3px;
+        }
+
+        .cassette-title {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 20px;
+            line-height: 1.25;
+            color: var(--c-heading);
+            text-shadow: 1px 1px 0 rgba(139, 115, 85, 0.2);
+        }
+
+        .cassette-meta {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 9px;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 9px;
+            color: var(--c-eyebrow);
+        }
+
+        /* Side A circle badge */
+        .side-badge {
+            position: absolute;
+            top: 10px;
+            right: 12px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 9px;
+            line-height: 1;
+            color: var(--accent);
+            z-index: 2;
+        }
+
+        /* -- Reel assembly -- */
+        .cassette-reels {
+            position: absolute;
+            bottom: 22px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 28px;
+            z-index: 1;
+        }
+
+        .reel-window {
+            position: relative;
+            flex-shrink: 0;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #080604;
+            border: 2.5px solid var(--housing-rim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow:
+                inset 0 3px 10px rgba(0, 0, 0, 0.95),
+                0 0 0 1px rgba(255, 255, 255, 0.025);
+
+            /* Spinning tape texture */
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                border-radius: 50%;
+                background: conic-gradient(
+                    var(--tape-dark)  0deg,   var(--tape-mid)   22deg,
+                    var(--tape-dark)  44deg,  var(--tape-mid)   66deg,
+                    var(--tape-dark)  88deg,  var(--tape-mid)  110deg,
+                    var(--tape-dark) 132deg,  var(--tape-mid)  154deg,
+                    var(--tape-dark) 176deg,  var(--tape-mid)  198deg,
+                    var(--tape-dark) 220deg,  var(--tape-mid)  242deg,
+                    var(--tape-dark) 264deg,  var(--tape-mid)  286deg,
+                    var(--tape-dark) 308deg,  var(--tape-mid)  330deg,
+                    var(--tape-dark) 352deg,  var(--tape-mid)  360deg
+                );
+                animation: tape-spin 3.8s linear infinite;
+            }
+        }
+
+        @keyframes tape-spin {
+            from { transform: rotate(0deg); }
+            to   { transform: rotate(360deg); }
+        }
+
+        .reel {
+            position: relative;
+            z-index: 1;
+            flex-shrink: 0;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 38% 33%, #3c2e20, #17120d);
+            border: 1.5px solid #3c2e20;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow:
+                0 3px 8px rgba(0, 0, 0, 0.8),
+                inset 0 1px 0 rgba(255, 255, 255, 0.07);
+
+            /* Three spoke marks */
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 6px;
+                border-radius: 50%;
+                background:
+                    radial-gradient(circle 2.5px at 50% 10%, rgba(80, 62, 42, 0.9), transparent),
+                    radial-gradient(circle 2.5px at 87% 73%, rgba(80, 62, 42, 0.9), transparent),
+                    radial-gradient(circle 2.5px at 13% 73%, rgba(80, 62, 42, 0.9), transparent);
+            }
+        }
+
+        .reel-hub {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--bg);
+            border: 1.5px solid #3c2e20;
+            position: relative;
+            z-index: 1;
+            flex-shrink: 0;
+        }
+
+        .cassette-peg {
+            flex-shrink: 0;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 35% 30%, #2a2018, #0c0a07);
+            border: 1.5px solid var(--housing-rim);
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        /* -- Bottom ridge -- */
+        .cassette-ridge {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 16px;
+            background: var(--housing-mid);
+            border-radius: 0 0 9px 9px;
+            border-top: 1px solid rgba(255, 255, 255, 0.035);
+            z-index: 0;
+        }
+
+        /* -- Screws -- */
+        .screw {
+            position: absolute;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 35% 30%, #302820, #0c0a07);
+            border: 1px solid #1e1814;
+            z-index: 2;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 18%;
+                right: 18%;
+                height: 1.5px;
+                background: rgba(255, 255, 255, 0.09);
+                transform: translateY(-50%);
+            }
+        }
+
+        .screw--tl { top: 9px;    left: 11px; }
+        .screw--tr { top: 9px;    right: 11px; }
+        .screw--bl { bottom: 22px; left: 11px; }
+        .screw--br { bottom: 22px; right: 11px; }
+        .screw--c  { bottom: 5px;  left: 50%; transform: translateX(-50%); }
+
+        /* ============================================================
+           INNER CONTENT PANEL — simulates a cassette label card
+        ============================================================ */
+        .inner {
+            position: relative;
+            width: 440px;
+            max-width: 100%;
+            background-color: var(--label-bg);
+            background-image: repeating-linear-gradient(
+                to bottom,
+                transparent,
+                transparent 23px,
+                var(--label-ruled) 23px,
+                var(--label-ruled) 24px
+            );
+            border: 1.5px solid var(--label-border);
+            border-radius: 4px;
+            padding: 32px 36px 36px;
+            transform: rotate(-1deg);
+            box-shadow:
+                0 16px 52px rgba(0, 0, 0, 0.55),
+                0 4px 12px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.6);
+
+            /* Aged-paper warm corner tint */
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                border-radius: 4px;
+                background: radial-gradient(
+                    ellipse 65% 55% at 96% 4%,
+                    rgba(215, 192, 150, 0.22) 0%,
+                    transparent 55%
+                );
+                pointer-events: none;
+            }
+        }
+
+        .eyebrow {
+            display: block;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--c-eyebrow);
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 28px;
+            line-height: 1.3;
+            color: var(--c-heading);
+            text-shadow:
+                2px 2px 0 rgba(139, 115, 85, 0.12),
+                0 1px 4px rgba(42, 36, 32, 0.07);
+            margin-bottom: 16px;
+        }
+
+        .teaser {
+            font-size: 15px;
+            line-height: 1.7;
+            font-weight: 400;
+            color: var(--c-body);
+            margin-bottom: 8px;
+        }
+
+        .from-line {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 13px;
+            color: var(--c-eyebrow);
+            margin-bottom: 28px;
+            letter-spacing: 0.3px;
+        }
+
+        /* ============================================================
+           BUTTON
+        ============================================================ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Barlow', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.4px;
+            padding: 11px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+
+            &--primary {
+                background: var(--accent);
+                color: var(--c-cream);
+                border: 2px solid var(--accent);
+
+                &:hover {
+                    background: var(--accent-hover);
+                    border-color: var(--accent-hover);
+                    transform: translateY(-2px);
+                    box-shadow: 0 6px 20px rgba(176, 42, 30, 0.38);
+                }
+
+                &:focus-visible {
+                    outline: 3px solid var(--accent);
+                    outline-offset: 3px;
+                }
+            }
+        }
+
+        /* ============================================================
+           REDUCED MOTION
+        ============================================================ */
+        @media (prefers-reduced-motion: reduce) {
+            .cassette { animation: none; transform: rotate(1.5deg); }
+            .reel-window::before { animation: none; }
+        }
+
+        /* ============================================================
+           RESPONSIVE — 480px
+        ============================================================ */
+        @media (max-width: 480px) {
+            .cassette {
+                width: 320px;
+                height: 204px;
+            }
+
+            .cassette-notch {
+                width: 96px;
+                height: 16px;
+            }
+
+            .cassette-label {
+                top: 14px;
+                left: 10px;
+                right: 10px;
+                height: 98px;
+            }
+
+            .cassette-eyebrow {
+                font-size: 8px;
+                letter-spacing: 1px;
+            }
+
+            .cassette-title { font-size: 16px; }
+
+            .cassette-reels {
+                bottom: 16px;
+                gap: 18px;
+            }
+
+            .reel-window {
+                width: 60px;
+                height: 60px;
+            }
+
+            .reel {
+                width: 32px;
+                height: 32px;
+            }
+
+            .reel-hub {
+                width: 10px;
+                height: 10px;
+            }
+
+            .cassette-peg {
+                width: 13px;
+                height: 13px;
+            }
+
+            .screw--bl,
+            .screw--br { bottom: 16px; }
+
+            .inner {
+                width: 320px;
+                padding: 24px 22px 28px;
+            }
+
+            .eyebrow { font-size: 12px; }
+
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Song titles bleeding through the darkness -->
+    <div class="bg-ghost" aria-hidden="true">
+        <span style="font-size: 13px; top: 7%;  left: 4%;  transform: rotate(-3deg)">track 01 — you'd be so nice</span>
+        <span style="font-size: 10px; top: 14%; right: 7%; transform: rotate(2deg)">three a.m. thoughts</span>
+        <span style="font-size: 12px; top: 70%; left: 3%;  transform: rotate(-1.5deg)">the one with the long intro</span>
+        <span style="font-size: 9px;  top: 87%; right: 5%; transform: rotate(1deg)">track 09 — favourite</span>
+        <span style="font-size: 11px; top: 30%; left: 1%;  transform: rotate(-2deg)">you know who you are</span>
+        <span style="font-size: 10px; top: 53%; right: 2%; transform: rotate(3deg)">play this one loud</span>
+        <span style="font-size: 15px; top: 43%; left: 62%; transform: rotate(-1deg)">side b ↓</span>
+        <span style="font-size: 9px;  top: 61%; left: 41%; transform: rotate(2deg)">vol. 1</span>
+    </div>
+
+    <div class="deco-reel deco-reel--1" aria-hidden="true"></div>
+    <div class="deco-reel deco-reel--2" aria-hidden="true"></div>
+
+    <main class="page">
+
+        <!-- HERO: CSS cassette tape illustration -->
+        <div
+            class="cassette"
+            role="img"
+            aria-label="Cassette tape mixtape: Made This For You, Side A — 14 songs, 47 minutes"
+        >
+            <div class="cassette-ridge" aria-hidden="true"></div>
+            <div class="cassette-notch" aria-hidden="true"></div>
+
+            <div class="cassette-label" aria-hidden="true">
+                <div class="cassette-label-content">
+                    <span class="cassette-eyebrow">Side A · Summer '24</span>
+                    <div class="cassette-title">Made This<br>For You ♥</div>
+                    <div class="cassette-meta">
+                        <span>14 songs</span>
+                        <span aria-hidden="true">·</span>
+                        <span>47 min</span>
+                    </div>
+                </div>
+                <div class="side-badge" aria-hidden="true">A</div>
+            </div>
+
+            <div class="cassette-reels" aria-hidden="true">
+                <div class="reel-window">
+                    <div class="reel">
+                        <div class="reel-hub"></div>
+                    </div>
+                </div>
+                <div class="cassette-peg"></div>
+                <div class="reel-window">
+                    <div class="reel">
+                        <div class="reel-hub"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="screw screw--tl" aria-hidden="true"></div>
+            <div class="screw screw--tr" aria-hidden="true"></div>
+            <div class="screw screw--bl" aria-hidden="true"></div>
+            <div class="screw screw--br" aria-hidden="true"></div>
+            <div class="screw screw--c"  aria-hidden="true"></div>
+        </div>
+
+        <!-- CONTENT PANEL — the liner note / label card -->
+        <div class="inner">
+            <span class="eyebrow">A Mixtape From The Gang</span>
+            <h1>Every song picked<br>just for you.</h1>
+            <p class="teaser">
+                We stayed up way too late, fought about track order,
+                and couldn't agree on anything — except that you
+                deserved something this good.
+            </p>
+            <p class="from-line">— Zoe · Marco · Kai · Riley</p>
+            <a href="#" class="btn btn--primary">
+                <i data-lucide="play" width="15" height="15"></i>
+                Press Play
+            </a>
+        </div>
+
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -9,167 +9,5871 @@
 		{
 			"fu_type": "o_design_images",
 			"a_h2": "Retro &amp; Nostalgia",
-			"a_description": "Design styles that draw from past decades &mdash; from 70s earth tones to 90s web chaos to Y2K shimmer &mdash; reimagined for the modern screen.",
 			"items": [
 				{
 					"a_image": {
-						"alt": "70s design style preview",
+						"alt": "70s Design style preview",
 						"width": "800",
 						"height": "600",
-						"src": "/assets/styles/retro-and-nostalgia/70s-design.jpg"
-					}
+						"src": "/assets/styles/retro-and-nostalgia/70s-design.jpg",
+						"href": "/retro-and-nostalgia/70s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Earthy",
+						"#Warm",
+						"#Organic"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "80s design style preview",
+						"alt": "80s Design style preview",
 						"width": "800",
 						"height": "600",
-						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg"
-					}
+						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg",
+						"href": "/retro-and-nostalgia/80s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Neon",
+						"#Bold Colors",
+						"#Vibrant"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "90s web revival style preview",
+						"alt": "90s Web Revival style preview",
 						"width": "800",
 						"height": "600",
-						"src": "/assets/styles/retro-and-nostalgia/90s-web-revival.jpg"
-					}
+						"src": "/assets/styles/retro-and-nostalgia/90s-web-revival.jpg",
+						"href": "/retro-and-nostalgia/90s-web-revival/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Early Web",
+						"#Bold Colors",
+						"#Playful"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "Cassette mixtape UI style preview",
+						"alt": "Cassette Mixtape UI style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "/assets/styles/retro-and-nostalgia/cassette-mixtape-ui.jpg",
+						"href": "/retro-and-nostalgia/cassette-mixtape-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Hand-Crafted",
+						"#Organic",
+						"#Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dial-Up Era Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dial%20Up%20Era%20Aesthetic&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fdial-up-era-aesthetic.jpg",
+						"href": "/retro-and-nostalgia/dial-up-era-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Early Web",
+						"#Nostalgic",
+						"#Grid",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Early iOS Aqua style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Early%20Ios%20Aqua&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fearly-ios-aqua.jpg",
+						"href": "/retro-and-nostalgia/early-ios-aqua/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Glossy",
+						"#Dimensional",
+						"#Rounded"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Frutiger Aero style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Frutiger%20Aero&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Ffrutiger-aero.jpg",
+						"href": "/retro-and-nostalgia/frutiger-aero/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Rounded",
+						"#Glossy",
+						"#Bold Colors"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GeoCities Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Geocities%20Aesthetic&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fgeocities-aesthetic.jpg",
+						"href": "/retro-and-nostalgia/geocities-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Early Web",
+						"#Scattered",
+						"#Busy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Mac OS Classic UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Mac%20Os%20Classic%20Ui&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fmac-os-classic-ui.jpg",
+						"href": "/retro-and-nostalgia/mac-os-classic-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Dimensional",
+						"#Professional",
+						"#Glossy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Neo-Aero style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Neo%20Aero&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fneo-aero.jpg",
+						"href": "/retro-and-nostalgia/neo-aero/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Airy",
+						"#Rounded",
+						"#Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Outrun style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Outrun&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Foutrun.jpg",
+						"href": "/retro-and-nostalgia/outrun/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Futuristic",
+						"#Gradient",
+						"#Neon",
+						"#Vibrant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Pixel Art UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Pixel%20Art%20Ui&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fpixel-art-ui.jpg",
+						"href": "/retro-and-nostalgia/pixel-art-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Pixelated",
+						"#8-Bit",
+						"#Bold Colors",
+						"#Nostalgic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Retro Futurism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Retro%20Futurism&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fretro-futurism.jpg",
+						"href": "/retro-and-nostalgia/retro-futurism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Futuristic",
+						"#Nostalgic",
+						"#Gradient",
+						"#Vibrant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Retro Vintage style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Retro%20Vintage&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fretro-vintage.jpg",
+						"href": "/retro-and-nostalgia/retro-vintage/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Vintage Reinterpreted",
+						"#Warm",
+						"#Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Synthwave style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Synthwave&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fsynthwave.jpg",
+						"href": "/retro-and-nostalgia/synthwave/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Neon",
+						"#Gradient",
+						"#Dark"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Teletext Ceefax style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Teletext%20Ceefax&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fteletext-ceefax.jpg",
+						"href": "/retro-and-nostalgia/teletext-ceefax/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Monospaced",
+						"#Grid",
+						"#Professional",
+						"#Technical"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "VHS CRT Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Vhs%20Crt%20Aesthetic&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fvhs-crt-aesthetic.jpg",
+						"href": "/retro-and-nostalgia/vhs-crt-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Distressed",
+						"#Grain",
+						"#Moody"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Webcore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Webcore&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fwebcore.jpg",
+						"href": "/retro-and-nostalgia/webcore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Early Web",
+						"#Nostalgic",
+						"#Bold Colors",
+						"#Scattered"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Windows 95 UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Windows%2095%20Ui&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fwindows-95-ui.jpg",
+						"href": "/retro-and-nostalgia/windows-95-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Nostalgic",
+						"#Flat Design",
+						"#Bold Colors",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Y2K Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Y2k%20Aesthetic&design=%2Fassets%2Fstyles%2Fretro-and-nostalgia%2Fy2k-aesthetic.jpg",
+						"href": "/retro-and-nostalgia/y2k-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Nostalgic",
+						"#Retro",
+						"#Gradient",
+						"#Bold Colors",
+						"#Glossy"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Themed &amp; Skeuomorphic",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Blueprint style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Blueprint&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fblueprint.jpg",
+						"href": "/themed-and-skeuomorphic/blueprint/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Outline",
+						"#Dark Mode",
+						"#Technical",
+						"#Monospaced",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Boarding Pass UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Boarding%20Pass%20Ui&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fboarding-pass-ui.jpg",
+						"href": "/themed-and-skeuomorphic/boarding-pass-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Skeuomorphic",
+						"#Organic",
+						"#Dimensional",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chalkboard style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Chalkboard&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fchalkboard.jpg",
+						"href": "/themed-and-skeuomorphic/chalkboard/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Textured",
+						"#Dark",
+						"#Warm",
+						"#Hand-Crafted",
+						"#Organic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "File Folder UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=File%20Folder%20Ui&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Ffile-folder-ui.jpg",
+						"href": "/themed-and-skeuomorphic/file-folder-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Skeuomorphic",
+						"#Hand-Crafted",
+						"#Dimensional",
+						"#Organic",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hacker Matrix Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Hacker%20Matrix%20Style&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fhacker-matrix-style.jpg",
+						"href": "/themed-and-skeuomorphic/hacker-matrix-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Monospaced",
+						"#Neon",
+						"#Technical",
+						"#Code Style"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Leather & Stitching UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Leather%20And%20Stitching%20Ui&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fleather-and-stitching-ui.jpg",
+						"href": "/themed-and-skeuomorphic/leather-and-stitching-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Textured",
+						"#Hand-Crafted",
+						"#Distressed",
+						"#Organic",
+						"#Nostalgic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Library Bookshelf UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Library%20Bookshelf%20Ui&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Flibrary-bookshelf-ui.jpg",
+						"href": "/themed-and-skeuomorphic/library-bookshelf-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Skeuomorphic",
+						"#Hand-Crafted",
+						"#Organic",
+						"#Warm",
+						"#Editorial"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Newsprint Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Newsprint%20Style&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fnewsprint-style.jpg",
+						"href": "/themed-and-skeuomorphic/newsprint-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Textured",
+						"#Grain",
+						"#Print Effect",
+						"#Organic",
+						"#Editorial"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Paper Stationery UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Paper%20Stationery%20Ui&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fpaper-stationery-ui.jpg",
+						"href": "/themed-and-skeuomorphic/paper-stationery-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Textured",
+						"#Hand-Crafted",
+						"#Warm",
+						"#Organic",
+						"#Nostalgic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Postcard UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Postcard%20Ui&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fpostcard-ui.jpg",
+						"href": "/themed-and-skeuomorphic/postcard-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Organic",
+						"#Warm",
+						"#Skeuomorphic",
+						"#Nostalgic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Recipe Card UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Recipe%20Card%20Ui&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Frecipe-card-ui.jpg",
+						"href": "/themed-and-skeuomorphic/recipe-card-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Card Layout",
+						"#Organic",
+						"#Warm",
+						"#Cozy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Rich Skeuomorphism (Apple Classic) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Rich%20Skeuomorphism%20Apple%20Classic&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Frich-skeuomorphism-apple-classic.jpg",
+						"href": "/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Skeuomorphism",
+						"#Dimensional",
+						"#Glossy",
+						"#Hand-Crafted",
+						"#Nostalgic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Skeuomorphism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Skeuomorphism&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fskeuomorphism.jpg",
+						"href": "/themed-and-skeuomorphic/skeuomorphism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Textured",
+						"#Dimensional",
+						"#Glossy",
+						"#Nostalgic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Terminal CLI Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Terminal%20Cli%20Aesthetic&design=%2Fassets%2Fstyles%2Fthemed-and-skeuomorphic%2Fterminal-cli-aesthetic.jpg",
+						"href": "/themed-and-skeuomorphic/terminal-cli-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Monospaced",
+						"#Dark Mode",
+						"#Technical",
+						"#Code Style",
+						"#Professional"
+					]
 				}
 			]
 		},
 		{
 			"fu_type": "o_design_images",
 			"a_h2": "Cultural &amp; Regional",
-			"a_description": "Web design shaped by geography and tradition &mdash; from Japanese density to Scandinavian minimalism to Swiss precision.",
 			"items": [
 				{
 					"a_image": {
-						"alt": "Chinese web design style preview",
+						"alt": "Chinese Web Design style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Chinese%20Web%20Design&design=%2Fassets%2Fstyles%2Fcultural-and-regional%2Fchinese-web-design.jpg",
+						"href": "/cultural-and-regional/chinese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Dense",
+						"#Content Heavy",
+						"#Vibrant",
+						"#Cultural"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "Dutch design style preview",
+						"alt": "Dutch Design style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Dutch%20Design&design=%2Fassets%2Fstyles%2Fcultural-and-regional%2Fdutch-design.jpg",
+						"href": "/cultural-and-regional/dutch-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold",
+						"#Geometric",
+						"#Professional",
+						"#Experimental",
+						"#Playful"
+					]
 				},
 				{
 					"a_image": {
 						"alt": "Japandi style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Japandi&design=%2Fassets%2Fstyles%2Fcultural-and-regional%2Fjapandi.jpg",
+						"href": "/cultural-and-regional/japandi/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Organic",
+						"#Warm",
+						"#Zen",
+						"#Natural"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "Japanese web design style preview",
+						"alt": "Japanese Web Design style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Japanese%20Web%20Design&design=%2Fassets%2Fstyles%2Fcultural-and-regional%2Fjapanese-web-design.jpg",
+						"href": "/cultural-and-regional/japanese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dense",
+						"#Content Heavy",
+						"#Grid",
+						"#Professional",
+						"#Cultural"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "Korean web design style preview",
+						"alt": "Korean Web Design style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Korean%20Web%20Design&design=%2Fassets%2Fstyles%2Fcultural-and-regional%2Fkorean-web-design.jpg",
+						"href": "/cultural-and-regional/korean-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Clean UI",
+						"#Modern",
+						"#Professional",
+						"#Balanced",
+						"#Cultural"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "Scandinavian Nordic design style preview",
+						"alt": "Scandinavian Nordic Design style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Scandinavian%20Nordic%20Design&design=%2Fassets%2Fstyles%2Fcultural-and-regional%2Fscandinavian-nordic-design.jpg",
+						"href": "/cultural-and-regional/scandinavian-nordic-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Clean UI",
+						"#Light",
+						"#Whitespace",
+						"#Professional"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "Swiss graphic style preview",
+						"alt": "Swiss Graphic Style style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Swiss%20Graphic%20Style&design=%2Fassets%2Fstyles%2Fcultural-and-regional%2Fswiss-graphic-style.jpg",
+						"href": "/cultural-and-regional/swiss-graphic-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Grid",
+						"#Sans-Serif",
+						"#Professional",
+						"#Balanced",
+						"#Clean UI"
+					]
 				},
 				{
 					"a_image": {
-						"alt": "Wabi-sabi style preview",
+						"alt": "Wabi-Sabi style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Wabi%20Sabi&design=%2Fassets%2Fstyles%2Fcultural-and-regional%2Fwabi-sabi.jpg",
+						"href": "/cultural-and-regional/wabi-sabi/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Textured",
+						"#Imperfect",
+						"#Warm",
+						"#Natural"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Heavy Animation &amp; Motion",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Canvas Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Canvas%20Animation&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fcanvas-animation.jpg",
+						"href": "/heavy-animation-and-motion/canvas-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Canvas",
+						"#Heavy Motion",
+						"#Advanced JS",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cursor Mouse Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Cursor%20Mouse%20Effects&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fcursor-mouse-effects.jpg",
+						"href": "/heavy-animation-and-motion/cursor-mouse-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Heavy Motion",
+						"#Advanced JS",
+						"#Engaging",
+						"#Experimental"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Entrance Animations style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Entrance%20Animations&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fentrance-animations.jpg",
+						"href": "/heavy-animation-and-motion/entrance-animations/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Moderate Motion",
+						"#Engaging",
+						"#Modern",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "GSAP-Powered Interactions style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Gsap%20Powered%20Interactions&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fgsap-powered-interactions.jpg",
+						"href": "/heavy-animation-and-motion/gsap-powered-interactions/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Advanced JS",
+						"#Animation",
+						"#Heavy Motion",
+						"#Interactive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hover-State Heavy style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Hover%20State%20Heavy&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fhover-state-heavy.jpg",
+						"href": "/heavy-animation-and-motion/hover-state-heavy/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Animation",
+						"#Micro-interactions",
+						"#Engaging",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Lottie-Heavy Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Lottie%20Heavy%20Animation&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Flottie-heavy-animation.jpg",
+						"href": "/heavy-animation-and-motion/lottie-heavy-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Heavy Motion",
+						"#Lottie Animation",
+						"#Engaging",
+						"#Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Morphing UI Elements style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Morphing%20Ui%20Elements&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fmorphing-ui-elements.jpg",
+						"href": "/heavy-animation-and-motion/morphing-ui-elements/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Heavy Motion",
+						"#Interactive",
+						"#Modern",
+						"#Engaging"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Page Transition Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Page%20Transition%20Effects&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fpage-transition-effects.jpg",
+						"href": "/heavy-animation-and-motion/page-transition-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Heavy Motion",
+						"#Engaging",
+						"#Modern",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Parallax Scrolling style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Parallax%20Scrolling&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fparallax-scrolling.jpg",
+						"href": "/heavy-animation-and-motion/parallax-scrolling/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Parallax",
+						"#Heavy Motion",
+						"#Scroll-Triggered",
+						"#Immersive Motion",
+						"#Engaging"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Particle Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Particle%20Effects&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fparticle-effects.jpg",
+						"href": "/heavy-animation-and-motion/particle-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Heavy Motion",
+						"#Generative",
+						"#Advanced JS",
+						"#Interactive",
+						"#3D"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Scroll-Triggered Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Scroll%20Triggered%20Effects&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fscroll-triggered-effects.jpg",
+						"href": "/heavy-animation-and-motion/scroll-triggered-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Scroll-Triggered",
+						"#Heavy Motion",
+						"#Moderate Motion",
+						"#Engaging",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Stagger Cascade Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Stagger%20Cascade%20Animation&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fstagger-cascade-animation.jpg",
+						"href": "/heavy-animation-and-motion/stagger-cascade-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Moderate Motion",
+						"#Engaging",
+						"#Modern",
+						"#Balanced"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Text Reveal Typing Effect style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Text%20Reveal%20Typing%20Effect&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Ftext-reveal-typing-effect.jpg",
+						"href": "/heavy-animation-and-motion/text-reveal-typing-effect/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Type as Hero",
+						"#Moderate Motion",
+						"#Interactive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Three.js Scene style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Three%20Js%20Scene&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fthree-js-scene.jpg",
+						"href": "/heavy-animation-and-motion/three-js-scene/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D Animation",
+						"#Three.js",
+						"#WebGL",
+						"#Heavy Motion",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "WebGL Shader Effects style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Webgl%20Shader%20Effects&design=%2Fassets%2Fstyles%2Fheavy-animation-and-motion%2Fwebgl-shader-effects.jpg",
+						"href": "/heavy-animation-and-motion/webgl-shader-effects/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Heavy Motion",
+						"#WebGL",
+						"#Shaders",
+						"#Advanced JS",
+						"#3D Animation"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Flat &amp; Material",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Apple HIG Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Apple%20Hig%20Style&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fapple-hig-style.jpg",
+						"href": "/flat-and-material/apple-hig-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Elegant",
+						"#Professional",
+						"#Clean UI",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bold Minimalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Bold%20Minimalism&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fbold-minimalism.jpg",
+						"href": "/flat-and-material/bold-minimalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Flat Design",
+						"#Minimal",
+						"#Bold",
+						"#Bold Colors",
+						"#Balanced"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Carbon Design (IBM) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Carbon%20Design%20Ibm&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fcarbon-design-ibm.jpg",
+						"href": "/flat-and-material/carbon-design-ibm/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Clean UI",
+						"#Corporate",
+						"#Modular Layout",
+						"#Dark Mode"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Clean UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Clean%20Ui&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fclean-ui.jpg",
+						"href": "/flat-and-material/clean-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Flat Design",
+						"#Minimal",
+						"#Whitespace",
+						"#Professional",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Content-First Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Content%20First%20Design&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fcontent-first-design.jpg",
+						"href": "/flat-and-material/content-first-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Content Heavy",
+						"#Whitespace",
+						"#Clean UI",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Corporate UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Corporate%20Ui&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fcorporate-ui.jpg",
+						"href": "/flat-and-material/corporate-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Corporate",
+						"#Flat Design",
+						"#Balanced",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Flat 2.0 style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Flat%202%200&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fflat-2-0.jpg",
+						"href": "/flat-and-material/flat-2-0/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Flat Design",
+						"#Soft Shadow",
+						"#Elevation",
+						"#Balanced",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Flat Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Flat%20Design&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fflat-design.jpg",
+						"href": "/flat-and-material/flat-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Flat Design",
+						"#Minimal",
+						"#Bold Colors",
+						"#Professional",
+						"#Balanced"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Fluent Design (Microsoft) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Fluent%20Design%20Microsoft&design=%2Fassets%2Fstyles%2Fflat-and-material%2Ffluent-design-microsoft.jpg",
+						"href": "/flat-and-material/fluent-design-microsoft/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Material Design",
+						"#Elevation",
+						"#Modern",
+						"#Professional",
+						"#Layered"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Material Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Material%20Design&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fmaterial-design.jpg",
+						"href": "/flat-and-material/material-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Material Design",
+						"#Elevation",
+						"#Flat Design",
+						"#Professional",
+						"#Modular Layout"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Material You (Material 3) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Material%20You%20Material%203&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fmaterial-you-material-3.jpg",
+						"href": "/flat-and-material/material-you-material-3/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Material Design",
+						"#Dynamic UI",
+						"#Adaptive UI",
+						"#Personalized UI",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Minimalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Minimalism&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fminimalism.jpg",
+						"href": "/flat-and-material/minimalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Flat Design",
+						"#Minimal",
+						"#Whitespace",
+						"#Clean UI",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Polaris (Shopify) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Polaris%20Shopify&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fpolaris-shopify.jpg",
+						"href": "/flat-and-material/polaris-shopify/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#E-commerce",
+						"#Modular Layout",
+						"#Clean UI",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Ultra-Minimal style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Ultra%20Minimal&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fultra-minimal.jpg",
+						"href": "/flat-and-material/ultra-minimal/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Whitespace",
+						"#Airy",
+						"#Light",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Whitespace Extreme style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Whitespace%20Extreme&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fwhitespace-extreme.jpg",
+						"href": "/flat-and-material/whitespace-extreme/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Whitespace",
+						"#Minimal",
+						"#Airy",
+						"#Light",
+						"#Centered"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Zen Minimalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Zen%20Minimalism&design=%2Fassets%2Fstyles%2Fflat-and-material%2Fzen-minimalism.jpg",
+						"href": "/flat-and-material/zen-minimalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Calm",
+						"#Zen",
+						"#Whitespace",
+						"#Light"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Subculture &amp; Aesthetic",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Acid Graphics style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Acid%20Graphics&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Facid-graphics.jpg",
+						"href": "/subculture-and-aesthetic/acid-graphics/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Vibrant",
+						"#Neon",
+						"#Bold Colors",
+						"#Abstract",
+						"#Experimental"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Afrofuturism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Afrofuturism&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fafrofuturism.jpg",
+						"href": "/subculture-and-aesthetic/afrofuturism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Futuristic",
+						"#Bold Colors",
+						"#Vibrant",
+						"#Cultural",
+						"#Expressive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Animecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Animecore&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fanimecore.jpg",
+						"href": "/subculture-and-aesthetic/animecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Vibrant",
+						"#Playful",
+						"#Cute",
+						"#Expressive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cottagecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Cottagecore&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fcottagecore.jpg",
+						"href": "/subculture-and-aesthetic/cottagecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Warm",
+						"#Earthy",
+						"#Cozy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyberpop style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Cyberpop&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fcyberpop.jpg",
+						"href": "/subculture-and-aesthetic/cyberpop/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Futuristic",
+						"#Bold Colors",
+						"#Cute",
+						"#Playful",
+						"#Techy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyberpunk style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Cyberpunk&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fcyberpunk.jpg",
+						"href": "/subculture-and-aesthetic/cyberpunk/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Futuristic",
+						"#Neon",
+						"#Bold Colors",
+						"#Techy",
+						"#Heavy Motion"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Academia style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dark%20Academia&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fdark-academia.jpg",
+						"href": "/subculture-and-aesthetic/dark-academia/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark",
+						"#Elegant",
+						"#Serif",
+						"#Professional",
+						"#Nostalgic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Darkcore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Darkcore&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fdarkcore.jpg",
+						"href": "/subculture-and-aesthetic/darkcore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark",
+						"#Moody",
+						"#Dark Mode",
+						"#Bold",
+						"#Gritty"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "DIY Punk style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Diy%20Punk&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fdiy-punk.jpg",
+						"href": "/subculture-and-aesthetic/diy-punk/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Raw",
+						"#Edgy",
+						"#Bold",
+						"#Rebellious",
+						"#Unpolished"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dreamcore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dreamcore&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fdreamcore.jpg",
+						"href": "/subculture-and-aesthetic/dreamcore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dreamy",
+						"#Soft",
+						"#Whimsical",
+						"#Organic",
+						"#Pastel"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Gothic Dark Fantasy style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Gothic%20Dark%20Fantasy&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fgothic-dark-fantasy.jpg",
+						"href": "/subculture-and-aesthetic/gothic-dark-fantasy/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark",
+						"#Moody",
+						"#Dark Mode",
+						"#Bold",
+						"#Angular"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Grunge style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Grunge&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fgrunge.jpg",
+						"href": "/subculture-and-aesthetic/grunge/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Raw",
+						"#Gritty",
+						"#Distressed",
+						"#Bold",
+						"#Edgy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Kawaii Cute style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Kawaii%20Cute&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fkawaii-cute.jpg",
+						"href": "/subculture-and-aesthetic/kawaii-cute/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Cute",
+						"#Kawaii",
+						"#Playful",
+						"#Rounded",
+						"#Vibrant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Lofi Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Lofi%20Aesthetic&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Flofi-aesthetic.jpg",
+						"href": "/subculture-and-aesthetic/lofi-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Earthy",
+						"#Hand-Crafted",
+						"#Indie"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Pop Art style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Pop%20Art&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fpop-art.jpg",
+						"href": "/subculture-and-aesthetic/pop-art/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Vibrant",
+						"#Playful",
+						"#Expressive",
+						"#Geometric"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Psychedelic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Psychedelic&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fpsychedelic.jpg",
+						"href": "/subculture-and-aesthetic/psychedelic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Vibrant",
+						"#Pattern-Heavy",
+						"#Organic",
+						"#Spiral"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Solarpunk style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Solarpunk&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fsolarpunk.jpg",
+						"href": "/subculture-and-aesthetic/solarpunk/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Vibrant",
+						"#Warm",
+						"#Hopeful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Steampunk style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Steampunk&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fsteampunk.jpg",
+						"href": "/subculture-and-aesthetic/steampunk/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Futuristic",
+						"#Metallic",
+						"#Vintage Reinterpreted",
+						"#Aged",
+						"#Industrial"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Vaporwave style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Vaporwave&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fvaporwave.jpg",
+						"href": "/subculture-and-aesthetic/vaporwave/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Nostalgic",
+						"#Gradient",
+						"#Neon",
+						"#Moody",
+						"#Dark Mode"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Weirdcore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Weirdcore&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fweirdcore.jpg",
+						"href": "/subculture-and-aesthetic/weirdcore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Abstract",
+						"#Experimental",
+						"#Bold",
+						"#Irregular",
+						"#Expressive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Witchcore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Witchcore&design=%2Fassets%2Fstyles%2Fsubculture-and-aesthetic%2Fwitchcore.jpg",
+						"href": "/subculture-and-aesthetic/witchcore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark",
+						"#Mystical",
+						"#Organic",
+						"#Natural",
+						"#Warm"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Organic &amp; Natural",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Biophilic Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Biophilic%20Design&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Fbiophilic-design.jpg",
+						"href": "/organic-and-natural/biophilic-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Illustrated",
+						"#Calm",
+						"#Zen"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Botanical Theme style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Botanical%20Theme&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Fbotanical-theme.jpg",
+						"href": "/organic-and-natural/botanical-theme/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Earthy",
+						"#Warm",
+						"#Green Tones"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Earthy Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Earthy%20Palette&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Fearthy-palette.jpg",
+						"href": "/organic-and-natural/earthy-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Earthy",
+						"#Earth Tones",
+						"#Natural",
+						"#Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Eco Branding style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Eco%20Branding&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Feco-branding.jpg",
+						"href": "/organic-and-natural/eco-branding/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Earthy",
+						"#Warm",
+						"#Green Tones"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Flowing Organic Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Flowing%20Organic%20Layout&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Fflowing-organic-layout.jpg",
+						"href": "/organic-and-natural/flowing-organic-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Fluid",
+						"#Asymmetric",
+						"#Broken Grid",
+						"#Natural"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Foliage Motifs style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Foliage%20Motifs&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Ffoliage-motifs.jpg",
+						"href": "/organic-and-natural/foliage-motifs/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Illustrated",
+						"#Illustration Era",
+						"#Green Tones"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Nature-Inspired Curves style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Nature%20Inspired%20Curves&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Fnature-inspired-curves.jpg",
+						"href": "/organic-and-natural/nature-inspired-curves/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Fluid",
+						"#Curved",
+						"#Natural",
+						"#Blob"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Organic Shape UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Organic%20Shape%20Ui&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Forganic-shape-ui.jpg",
+						"href": "/organic-and-natural/organic-shape-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Blob",
+						"#Fluid",
+						"#Soft"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Watercolor Background style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Watercolor%20Background&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Fwatercolor-background.jpg",
+						"href": "/organic-and-natural/watercolor-background/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Watercolor",
+						"#Soft",
+						"#Hand-Crafted",
+						"#Natural"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Woodgrain Texture style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Woodgrain%20Texture&design=%2Fassets%2Fstyles%2Forganic-and-natural%2Fwoodgrain-texture.jpg",
+						"href": "/organic-and-natural/woodgrain-texture/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Textured",
+						"#Natural",
+						"#Warm",
+						"#Earthy"
+					]
 				}
 			]
 		},
 		{
 			"fu_type": "o_design_images",
 			"a_h2": "Art &amp; Design Movements",
-			"a_description": "Timeless art movements translated into digital interfaces &mdash; from Art Deco geometry to Bauhaus functionalism.",
 			"items": [
 				{
 					"a_image": {
 						"alt": "Art Deco style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Art%20Deco&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fart-deco.jpg",
+						"href": "/art-and-design-movements/art-deco/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Elegant",
+						"#Geometric",
+						"#Angular",
+						"#Sharp",
+						"#Professional"
+					]
 				},
 				{
 					"a_image": {
 						"alt": "Art Nouveau style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Art%20Nouveau&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fart-nouveau.jpg",
+						"href": "/art-and-design-movements/art-nouveau/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Elegant",
+						"#Flowing",
+						"#Natural",
+						"#Vintage Reinterpreted"
+					]
 				},
 				{
 					"a_image": {
 						"alt": "Bauhaus style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Bauhaus&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fbauhaus.jpg",
+						"href": "/art-and-design-movements/bauhaus/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Geometric",
+						"#Grid",
+						"#Professional",
+						"#Sans-Serif",
+						"#Minimalism"
+					]
 				},
 				{
 					"a_image": {
 						"alt": "Constructivism style preview",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600"
-					}
+						"src": "https://placehold.co/800x600?text=Constructivism&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fconstructivism.jpg",
+						"href": "/art-and-design-movements/constructivism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold",
+						"#Angular",
+						"#Geometric",
+						"#Grid",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dadaism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dadaism&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fdadaism.jpg",
+						"href": "/art-and-design-movements/dadaism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Abstract",
+						"#Experimental",
+						"#Irregular",
+						"#Unconventional",
+						"#Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "De Stijl style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=De%20Stijl&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fde-stijl.jpg",
+						"href": "/art-and-design-movements/de-stijl/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Geometric",
+						"#Grid",
+						"#Angular",
+						"#Linear",
+						"#Primary Colors"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Expressionism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Expressionism&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fexpressionism.jpg",
+						"href": "/art-and-design-movements/expressionism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold",
+						"#Emotional",
+						"#Expressive",
+						"#Abstract",
+						"#Energetic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Futurism (Italian) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Futurism%20Italian&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Ffuturism-italian.jpg",
+						"href": "/art-and-design-movements/futurism-italian/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Futuristic",
+						"#Angular",
+						"#Dynamic",
+						"#Bold",
+						"#Energetic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Impressionism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Impressionism&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fimpressionism.jpg",
+						"href": "/art-and-design-movements/impressionism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Natural",
+						"#Textured",
+						"#Soft",
+						"#Watercolor"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Kinetic Art style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Kinetic%20Art&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fkinetic-art.jpg",
+						"href": "/art-and-design-movements/kinetic-art/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Heavy Motion",
+						"#Animation",
+						"#Immersive Motion",
+						"#Dynamic",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Mid-Century Modern style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Mid%20Century%20Modern&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fmid-century-modern.jpg",
+						"href": "/art-and-design-movements/mid-century-modern/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Elegant",
+						"#Warm",
+						"#Retro",
+						"#Organic",
+						"#Vintage Reinterpreted"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Modernism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Modernism&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fmodernism.jpg",
+						"href": "/art-and-design-movements/modernism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Geometric",
+						"#Grid",
+						"#Professional",
+						"#Minimalism",
+						"#Timeless"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Neoclassical Web style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Neoclassical%20Web&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fneoclassical-web.jpg",
+						"href": "/art-and-design-movements/neoclassical-web/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Elegant",
+						"#Refined",
+						"#Serif",
+						"#Professional",
+						"#Timeless"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Postmodernism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Postmodernism&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fpostmodernism.jpg",
+						"href": "/art-and-design-movements/postmodernism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Eclectic",
+						"#Experimental",
+						"#Playful",
+						"#Irregular",
+						"#Bold"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Suprematism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Suprematism&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fsuprematism.jpg",
+						"href": "/art-and-design-movements/suprematism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Geometric",
+						"#Abstract",
+						"#Angular",
+						"#Sharp",
+						"#Minimalism"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Surrealism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Surrealism&design=%2Fassets%2Fstyles%2Fart-and-design-movements%2Fsurrealism.jpg",
+						"href": "/art-and-design-movements/surrealism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Abstract",
+						"#Dreamy",
+						"#Whimsical",
+						"#Experimental",
+						"#Organic"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "AI &amp; Generative Design",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Adaptive Dynamic UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Adaptive%20Dynamic%20Ui&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fadaptive-dynamic-ui.jpg",
+						"href": "/ai-and-generative-design/adaptive-dynamic-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dynamic UI",
+						"#Personalized UI",
+						"#Adaptive",
+						"#Responsive Era",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "AI Chat Interface style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Ai%20Chat%20Interface&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fai-chat-interface.jpg",
+						"href": "/ai-and-generative-design/ai-chat-interface/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Modern",
+						"#Interactive",
+						"#SaaS",
+						"#Professional",
+						"#User-Centric"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "AI Co-Pilot UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Ai%20Co%20Pilot%20Ui&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fai-co-pilot-ui.jpg",
+						"href": "/ai-and-generative-design/ai-co-pilot-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#AI Aesthetic",
+						"#Interactive",
+						"#Professional",
+						"#Modern",
+						"#SaaS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "AI Dashboard style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Ai%20Dashboard&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fai-dashboard.jpg",
+						"href": "/ai-and-generative-design/ai-dashboard/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#AI Aesthetic",
+						"#Dashboard Data",
+						"#Professional",
+						"#Charts",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "AI-Generated Imagery UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Ai%20Generated%20Imagery%20Ui&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fai-generated-imagery-ui.jpg",
+						"href": "/ai-and-generative-design/ai-generated-imagery-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#AI Aesthetic",
+						"#Generative Art",
+						"#Modern",
+						"#Dynamic UI",
+						"#Creative"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Data-Driven Visualization style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Data%20Driven%20Visualization&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fdata-driven-visualization.jpg",
+						"href": "/ai-and-generative-design/data-driven-visualization/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Data Intensive",
+						"#Charts",
+						"#Data Visualization",
+						"#Professional",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Generative Art Background style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Generative%20Art%20Background&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fgenerative-art-background.jpg",
+						"href": "/ai-and-generative-design/generative-art-background/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Generative Art",
+						"#Procedural",
+						"#AI Aesthetic",
+						"#Artistic",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Personalized UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Personalized%20Ui&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fpersonalized-ui.jpg",
+						"href": "/ai-and-generative-design/personalized-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Personalized UI",
+						"#Dynamic UI",
+						"#Adaptive",
+						"#User-Centric",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Procedural Algorithmic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Procedural%20Algorithmic&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fprocedural-algorithmic.jpg",
+						"href": "/ai-and-generative-design/procedural-algorithmic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Algorithmic",
+						"#Procedural",
+						"#Generative",
+						"#AI Aesthetic",
+						"#Technical"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Prompt-Based UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Prompt%20Based%20Ui&design=%2Fassets%2Fstyles%2Fai-and-generative-design%2Fprompt-based-ui.jpg",
+						"href": "/ai-and-generative-design/prompt-based-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#AI Aesthetic",
+						"#Professional",
+						"#Modern",
+						"#Clean UI"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Illustrated &amp; Animated",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Brush Stroke UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Brush%20Stroke%20Ui&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fbrush-stroke-ui.jpg",
+						"href": "/illustrated-and-animated/brush-stroke-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Organic",
+						"#Sketch",
+						"#Artistic",
+						"#Expressive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Character-Driven UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Character%20Driven%20Ui&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fcharacter-driven-ui.jpg",
+						"href": "/illustrated-and-animated/character-driven-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Illustrated",
+						"#Playful",
+						"#Cute",
+						"#Expressive",
+						"#Engaging"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Collage Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Collage%20Style&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fcollage-style.jpg",
+						"href": "/illustrated-and-animated/collage-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Eclectic",
+						"#Playful",
+						"#Organic",
+						"#Asymmetric"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Comic Book Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Comic%20Book%20Style&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fcomic-book-style.jpg",
+						"href": "/illustrated-and-animated/comic-book-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Illustrated",
+						"#Bold",
+						"#Playful",
+						"#Expressive",
+						"#Energetic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Custom Illustration style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Custom%20Illustration&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fcustom-illustration.jpg",
+						"href": "/illustrated-and-animated/custom-illustration/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Illustration Era",
+						"#Hand-Crafted",
+						"#Organic",
+						"#Unique",
+						"#Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Doodle Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Doodle%20Aesthetic&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fdoodle-aesthetic.jpg",
+						"href": "/illustrated-and-animated/doodle-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Sketch",
+						"#Playful",
+						"#Organic",
+						"#Indie"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Flat Illustration Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Flat%20Illustration%20Style&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fflat-illustration-style.jpg",
+						"href": "/illustrated-and-animated/flat-illustration-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Flat Design",
+						"#Illustrated",
+						"#Playful",
+						"#Modern",
+						"#Bold Colors"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Icon-Heavy UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Icon%20Heavy%20Ui&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Ficon-heavy-ui.jpg",
+						"href": "/illustrated-and-animated/icon-heavy-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Illustrated",
+						"#Modern",
+						"#Professional",
+						"#Modular Layout",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Isometric Illustration style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Isometric%20Illustration&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fisometric-illustration.jpg",
+						"href": "/illustrated-and-animated/isometric-illustration/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Illustrated",
+						"#Isometric",
+						"#3D",
+						"#Playful",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Line Art Illustration style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Line%20Art%20Illustration&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fline-art-illustration.jpg",
+						"href": "/illustrated-and-animated/line-art-illustration/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Outline",
+						"#Hand-Crafted",
+						"#Minimal",
+						"#Artistic",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Lottie Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Lottie%20Animation&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Flottie-animation.jpg",
+						"href": "/illustrated-and-animated/lottie-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Lottie Animation",
+						"#Playful",
+						"#Engaging",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Paper Cut Layered style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Paper%20Cut%20Layered&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Fpaper-cut-layered.jpg",
+						"href": "/illustrated-and-animated/paper-cut-layered/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Layered",
+						"#Dimensional",
+						"#Playful",
+						"#Artistic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Risograph Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Risograph%20Style&design=%2Fassets%2Fstyles%2Fillustrated-and-animated%2Frisograph-style.jpg",
+						"href": "/illustrated-and-animated/risograph-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Grain",
+						"#Hand-Crafted",
+						"#Textured",
+						"#Print Effect",
+						"#Organic"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "3D &amp; Spatial",
+			"items": [
+				{
+					"a_image": {
+						"alt": "3D Icon Set UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=3d%20Icon%20Set%20Ui&design=%2Fassets%2Fstyles%2F3d-and-spatial%2F3d-icon-set-ui.jpg",
+						"href": "/3d-and-spatial/3d-icon-set-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Illustrated",
+						"#Modern",
+						"#Professional",
+						"#Dimensional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "3D Product Showcase style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=3d%20Product%20Showcase&design=%2Fassets%2Fstyles%2F3d-and-spatial%2F3d-product-showcase.jpg",
+						"href": "/3d-and-spatial/3d-product-showcase/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Dimensional",
+						"#Interactive",
+						"#Modern",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "AR-Ready Web UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Ar%20Ready%20Web%20Ui&design=%2Fassets%2Fstyles%2F3d-and-spatial%2Far-ready-web-ui.jpg",
+						"href": "/3d-and-spatial/ar-ready-web-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Futuristic",
+						"#Interactive",
+						"#Immersive Motion",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Depth-of-Field UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Depth%20Of%20Field%20Ui&design=%2Fassets%2Fstyles%2F3d-and-spatial%2Fdepth-of-field-ui.jpg",
+						"href": "/3d-and-spatial/depth-of-field-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Dimensional",
+						"#Layered Layout",
+						"#Elegant",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Floating Levitation UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Floating%20Levitation%20Ui&design=%2Fassets%2Fstyles%2F3d-and-spatial%2Ffloating-levitation-ui.jpg",
+						"href": "/3d-and-spatial/floating-levitation-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Dimensional",
+						"#Elevation",
+						"#Modern",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Metaverse UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Metaverse%20Ui&design=%2Fassets%2Fstyles%2F3d-and-spatial%2Fmetaverse-ui.jpg",
+						"href": "/3d-and-spatial/metaverse-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Futuristic",
+						"#Immersive Motion",
+						"#Interactive",
+						"#Experimental"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Spatial VisionOS UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Spatial%20Visionos%20Ui&design=%2Fassets%2Fstyles%2F3d-and-spatial%2Fspatial-visionos-ui.jpg",
+						"href": "/3d-and-spatial/spatial-visionos-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Dimensional",
+						"#Spatial",
+						"#Apple-Style",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Spline 3D Embed style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Spline%203d%20Embed&design=%2Fassets%2Fstyles%2F3d-and-spatial%2Fspline-3d-embed.jpg",
+						"href": "/3d-and-spatial/spline-3d-embed/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#3D Animation",
+						"#Interactive",
+						"#Immersive Motion",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Three.js Generative style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Three%20Js%20Generative&design=%2Fassets%2Fstyles%2F3d-and-spatial%2Fthree-js-generative.jpg",
+						"href": "/3d-and-spatial/three-js-generative/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Three.js",
+						"#Advanced JS",
+						"#Generative",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Voxel Art UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Voxel%20Art%20Ui&design=%2Fassets%2Fstyles%2F3d-and-spatial%2Fvoxel-art-ui.jpg",
+						"href": "/3d-and-spatial/voxel-art-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#3D",
+						"#Geometric",
+						"#Retro",
+						"#Pixelated",
+						"#Bold"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Memphis &amp; Maximalism",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Bold Colorful style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Bold%20Colorful&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Fbold-colorful.jpg",
+						"href": "/memphis-and-maximalism/bold-colorful/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold",
+						"#Bold Colors",
+						"#Vibrant",
+						"#Expressive",
+						"#Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cluttercore UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Cluttercore%20Ui&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Fcluttercore-ui.jpg",
+						"href": "/memphis-and-maximalism/cluttercore-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Content Heavy",
+						"#Dense",
+						"#Busy",
+						"#Pattern-Heavy",
+						"#Eclectic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Color Blocking style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Color%20Blocking&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Fcolor-blocking.jpg",
+						"href": "/memphis-and-maximalism/color-blocking/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Geometric",
+						"#Flat Design",
+						"#Vibrant",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dopamine Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dopamine%20Design&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Fdopamine-design.jpg",
+						"href": "/memphis-and-maximalism/dopamine-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Vibrant",
+						"#Playful",
+						"#Fun",
+						"#Expressive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Eclectic Mix style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Eclectic%20Mix&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Feclectic-mix.jpg",
+						"href": "/memphis-and-maximalism/eclectic-mix/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Eclectic",
+						"#Content Heavy",
+						"#Busy",
+						"#Dense",
+						"#Scattered"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Layered Chaos style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Layered%20Chaos&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Flayered-chaos.jpg",
+						"href": "/memphis-and-maximalism/layered-chaos/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Layered Layout",
+						"#Overlapping",
+						"#Dense",
+						"#Content Heavy",
+						"#Experimental"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Maximalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Maximalism&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Fmaximalism.jpg",
+						"href": "/memphis-and-maximalism/maximalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Content Heavy",
+						"#Bold Colors",
+						"#Pattern-Heavy",
+						"#Expressive",
+						"#Busy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Memphis Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Memphis%20Design&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Fmemphis-design.jpg",
+						"href": "/memphis-and-maximalism/memphis-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Playful",
+						"#Vibrant",
+						"#Rounded",
+						"#Geometric"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Neo-Memphis style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Neo%20Memphis&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Fneo-memphis.jpg",
+						"href": "/memphis-and-maximalism/neo-memphis/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Geometric",
+						"#Playful",
+						"#Modern",
+						"#Vibrant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Pattern-Heavy UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Pattern%20Heavy%20Ui&design=%2Fassets%2Fstyles%2Fmemphis-and-maximalism%2Fpattern-heavy-ui.jpg",
+						"href": "/memphis-and-maximalism/pattern-heavy-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Pattern-Heavy",
+						"#Content Heavy",
+						"#Dense",
+						"#Busy",
+						"#Geometric"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Data &amp; Visualization",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chart-Heavy UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Chart%20Heavy%20Ui&design=%2Fassets%2Fstyles%2Fdata-and-visualization%2Fchart-heavy-ui.jpg",
+						"href": "/data-and-visualization/chart-heavy-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Charts",
+						"#Data Intensive",
+						"#Professional",
+						"#Dashboard Data",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Data Dashboard style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Data%20Dashboard&design=%2Fassets%2Fstyles%2Fdata-and-visualization%2Fdata-dashboard.jpg",
+						"href": "/data-and-visualization/data-dashboard/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Data Intensive",
+						"#Dashboard Data",
+						"#Charts",
+						"#Professional",
+						"#Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Heatmap UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Heatmap%20Ui&design=%2Fassets%2Fstyles%2Fdata-and-visualization%2Fheatmap-ui.jpg",
+						"href": "/data-and-visualization/heatmap-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Data Visualization",
+						"#Charts",
+						"#Professional",
+						"#Data Intensive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Kanban Board UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Kanban%20Board%20Ui&design=%2Fassets%2Fstyles%2Fdata-and-visualization%2Fkanban-board-ui.jpg",
+						"href": "/data-and-visualization/kanban-board-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Dashboard Data",
+						"#Interactive",
+						"#Modular Layout",
+						"#Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Map-Centric UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Map%20Centric%20Ui&design=%2Fassets%2Fstyles%2Fdata-and-visualization%2Fmap-centric-ui.jpg",
+						"href": "/data-and-visualization/map-centric-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Data Intensive",
+						"#Balanced",
+						"#Interactive",
+						"#Modular Layout"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Real-Time Data UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Real%20Time%20Data%20Ui&design=%2Fassets%2Fstyles%2Fdata-and-visualization%2Freal-time-data-ui.jpg",
+						"href": "/data-and-visualization/real-time-data-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Data Intensive",
+						"#Charts",
+						"#Websocket",
+						"#Advanced JS",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Table-Heavy UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Table%20Heavy%20Ui&design=%2Fassets%2Fstyles%2Fdata-and-visualization%2Ftable-heavy-ui.jpg",
+						"href": "/data-and-visualization/table-heavy-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Data Intensive",
+						"#Tables",
+						"#Professional",
+						"#Balanced",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Timeline UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Timeline%20Ui&design=%2Fassets%2Fstyles%2Fdata-and-visualization%2Ftimeline-ui.jpg",
+						"href": "/data-and-visualization/timeline-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Data Visualization",
+						"#Modular Layout",
+						"#Professional",
+						"#Interactive",
+						"#Modern"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Photo &amp; Media Driven",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Behind-the-Scenes Raw style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Behind%20The%20Scenes%20Raw&design=%2Fassets%2Fstyles%2Fphoto-and-media-driven%2Fbehind-the-scenes-raw.jpg",
+						"href": "/photo-and-media-driven/behind-the-scenes-raw/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Raw",
+						"#Organic",
+						"#Authentic",
+						"#Unpolished",
+						"#Editorial"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Film Strip Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Film%20Strip%20Layout&design=%2Fassets%2Fstyles%2Fphoto-and-media-driven%2Ffilm-strip-layout.jpg",
+						"href": "/photo-and-media-driven/film-strip-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Gallery",
+						"#Horizontal Scroll",
+						"#Editorial",
+						"#Modular Layout",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Full-Screen Photo Background style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Full%20Screen%20Photo%20Background&design=%2Fassets%2Fstyles%2Fphoto-and-media-driven%2Ffull-screen-photo-background.jpg",
+						"href": "/photo-and-media-driven/full-screen-photo-background/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Full Bleed",
+						"#Content Heavy",
+						"#Image-Heavy",
+						"#Dramatic",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Image-Heavy Minimal style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Image%20Heavy%20Minimal&design=%2Fassets%2Fstyles%2Fphoto-and-media-driven%2Fimage-heavy-minimal.jpg",
+						"href": "/photo-and-media-driven/image-heavy-minimal/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Image-Heavy",
+						"#Whitespace",
+						"#Balanced",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Lightbox UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Lightbox%20Ui&design=%2Fassets%2Fstyles%2Fphoto-and-media-driven%2Flightbox-ui.jpg",
+						"href": "/photo-and-media-driven/lightbox-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Gallery",
+						"#Overlay",
+						"#Modal",
+						"#Interactive",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Lookbook style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Lookbook&design=%2Fassets%2Fstyles%2Fphoto-and-media-driven%2Flookbook.jpg",
+						"href": "/photo-and-media-driven/lookbook/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Editorial",
+						"#Magazine Layout",
+						"#Image-Heavy",
+						"#Premium",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Photo Grid Gallery style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Photo%20Grid%20Gallery&design=%2Fassets%2Fstyles%2Fphoto-and-media-driven%2Fphoto-grid-gallery.jpg",
+						"href": "/photo-and-media-driven/photo-grid-gallery/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Masonry",
+						"#Gallery",
+						"#Modular Layout",
+						"#Visual-Focused",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Video Background style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Video%20Background&design=%2Fassets%2Fstyles%2Fphoto-and-media-driven%2Fvideo-background.jpg",
+						"href": "/photo-and-media-driven/video-background/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Full Bleed",
+						"#Heavy Motion",
+						"#Immersive",
+						"#Dramatic",
+						"#Modern"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Morphism &amp; Surface",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Acrylic UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Acrylic%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Facrylic-ui.jpg",
+						"href": "/morphism-and-surface/acrylic-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Frosted Glass",
+						"#Glassmorphic",
+						"#Textured",
+						"#Transparent",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Aurora UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Aurora%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Faurora-ui.jpg",
+						"href": "/morphism-and-surface/aurora-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Gradient",
+						"#Glow",
+						"#Neon",
+						"#Vibrant",
+						"#Cool"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Claymorphism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Claymorphism&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Fclaymorphism.jpg",
+						"href": "/morphism-and-surface/claymorphism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Soft",
+						"#Rounded",
+						"#Dimensional",
+						"#Hand-Crafted",
+						"#Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Crystal UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Crystal%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Fcrystal-ui.jpg",
+						"href": "/morphism-and-surface/crystal-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Transparent",
+						"#Glossy",
+						"#Reflective",
+						"#Layered",
+						"#Cool"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Frosted Blurred Layers style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Frosted%20Blurred%20Layers&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Ffrosted-blurred-layers.jpg",
+						"href": "/morphism-and-surface/frosted-blurred-layers/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Frosted Glass",
+						"#Transparent",
+						"#Layered",
+						"#Glassmorphic",
+						"#Cool"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Frosted Dark UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Frosted%20Dark%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Ffrosted-dark-ui.jpg",
+						"href": "/morphism-and-surface/frosted-dark-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Frosted Glass",
+						"#Dark Mode",
+						"#Dark",
+						"#Transparent",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Frosted Gradient style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Frosted%20Gradient&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Ffrosted-gradient.jpg",
+						"href": "/morphism-and-surface/frosted-gradient/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Frosted Glass",
+						"#Gradient",
+						"#Transparent",
+						"#Modern",
+						"#Layered"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Gel UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Gel%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Fgel-ui.jpg",
+						"href": "/morphism-and-surface/gel-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Soft",
+						"#Glossy",
+						"#Dimensional",
+						"#Rounded",
+						"#Transparent"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Glassmorphism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Glassmorphism&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Fglassmorphism.jpg",
+						"href": "/morphism-and-surface/glassmorphism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Glassmorphic",
+						"#Frosted Glass",
+						"#Transparent",
+						"#Layered",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Inflated UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Inflated%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Finflated-ui.jpg",
+						"href": "/morphism-and-surface/inflated-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dimensional",
+						"#3D",
+						"#Rounded",
+						"#Glossy",
+						"#Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Liquid Glass UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Liquid%20Glass%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Fliquid-glass-ui.jpg",
+						"href": "/morphism-and-surface/liquid-glass-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Glassmorphic",
+						"#Fluid",
+						"#Transparent",
+						"#Glossy",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Metallic UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Metallic%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Fmetallic-ui.jpg",
+						"href": "/morphism-and-surface/metallic-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Metallic",
+						"#Chrome",
+						"#Reflective",
+						"#Glossy",
+						"#Cool"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Neumorphism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Neumorphism&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Fneumorphism.jpg",
+						"href": "/morphism-and-surface/neumorphism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Neumorphic",
+						"#Soft Shadow",
+						"#Elevation",
+						"#Soft",
+						"#Flat Design"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Soft UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Soft%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Fsoft-ui.jpg",
+						"href": "/morphism-and-surface/soft-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Soft Shadow",
+						"#Neumorphic",
+						"#Soft",
+						"#Rounded",
+						"#Calm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Translucent UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Translucent%20Ui&design=%2Fassets%2Fstyles%2Fmorphism-and-surface%2Ftranslucent-ui.jpg",
+						"href": "/morphism-and-surface/translucent-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Transparent",
+						"#Glassmorphic",
+						"#Layered",
+						"#Elevation",
+						"#Modern"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Minimalist &amp; Spacious",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Airy White Background style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Airy%20White%20Background&design=%2Fassets%2Fstyles%2Fminimalist-and-spacious%2Fairy-white-background.jpg",
+						"href": "/minimalist-and-spacious/airy-white-background/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Airy",
+						"#Light",
+						"#Whitespace",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Breathing Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Breathing%20Layout&design=%2Fassets%2Fstyles%2Fminimalist-and-spacious%2Fbreathing-layout.jpg",
+						"href": "/minimalist-and-spacious/breathing-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Whitespace",
+						"#Airy",
+						"#Centered",
+						"#Light"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Breathing Room Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Breathing%20Room%20Design&design=%2Fassets%2Fstyles%2Fminimalist-and-spacious%2Fbreathing-room-design.jpg",
+						"href": "/minimalist-and-spacious/breathing-room-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Whitespace",
+						"#Airy",
+						"#Light",
+						"#Calm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Empty Canvas Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Empty%20Canvas%20Aesthetic&design=%2Fassets%2Fstyles%2Fminimalist-and-spacious%2Fempty-canvas-aesthetic.jpg",
+						"href": "/minimalist-and-spacious/empty-canvas-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Whitespace",
+						"#Centered",
+						"#Light",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Negative Space UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Negative%20Space%20Ui&design=%2Fassets%2Fstyles%2Fminimalist-and-spacious%2Fnegative-space-ui.jpg",
+						"href": "/minimalist-and-spacious/negative-space-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Whitespace",
+						"#Airy",
+						"#Light",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Single Element Focus style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Single%20Element%20Focus&design=%2Fassets%2Fstyles%2Fminimalist-and-spacious%2Fsingle-element-focus.jpg",
+						"href": "/minimalist-and-spacious/single-element-focus/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Centered",
+						"#Whitespace",
+						"#Professional",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Sparse Grid style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Sparse%20Grid&design=%2Fassets%2Fstyles%2Fminimalist-and-spacious%2Fsparse-grid.jpg",
+						"href": "/minimalist-and-spacious/sparse-grid/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Grid",
+						"#Whitespace",
+						"#Centered",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Zen Whitespace style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Zen%20Whitespace&design=%2Fassets%2Fstyles%2Fminimalist-and-spacious%2Fzen-whitespace.jpg",
+						"href": "/minimalist-and-spacious/zen-whitespace/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Whitespace",
+						"#Airy",
+						"#Calm",
+						"#Zen"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Navigation &amp; Interaction",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Bottom Sheet UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Bottom%20Sheet%20Ui&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fbottom-sheet-ui.jpg",
+						"href": "/navigation-and-interaction/bottom-sheet-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Mobile",
+						"#Interactive",
+						"#Modal",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Breadcrumb-Heavy UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Breadcrumb%20Heavy%20Ui&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fbreadcrumb-heavy-ui.jpg",
+						"href": "/navigation-and-interaction/breadcrumb-heavy-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Balanced",
+						"#User-Centric",
+						"#Content Heavy",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Command Palette UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Command%20Palette%20Ui&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fcommand-palette-ui.jpg",
+						"href": "/navigation-and-interaction/command-palette-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Interactive",
+						"#SaaS",
+						"#Techy",
+						"#Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Context Menu UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Context%20Menu%20Ui&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fcontext-menu-ui.jpg",
+						"href": "/navigation-and-interaction/context-menu-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Professional",
+						"#User-Centric",
+						"#Balanced",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Floating Action Button style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Floating%20Action%20Button&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Ffloating-action-button.jpg",
+						"href": "/navigation-and-interaction/floating-action-button/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Modern",
+						"#Material Design",
+						"#Mobile",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Gesture-Based UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Gesture%20Based%20Ui&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fgesture-based-ui.jpg",
+						"href": "/navigation-and-interaction/gesture-based-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Mobile",
+						"#Modern",
+						"#User-Centric",
+						"#Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hamburger-Free Navigation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Hamburger%20Free%20Navigation&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fhamburger-free-navigation.jpg",
+						"href": "/navigation-and-interaction/hamburger-free-navigation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Modular Layout",
+						"#Mega Menu",
+						"#User-Centric",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Mega Menu Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Mega%20Menu%20Design&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fmega-menu-design.jpg",
+						"href": "/navigation-and-interaction/mega-menu-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Balanced",
+						"#Modular Layout",
+						"#Interactive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Progressive Disclosure style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Progressive%20Disclosure&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fprogressive-disclosure.jpg",
+						"href": "/navigation-and-interaction/progressive-disclosure/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Balanced",
+						"#User-Centric",
+						"#Interactive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Sidebar Navigation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Sidebar%20Navigation&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Fsidebar-navigation.jpg",
+						"href": "/navigation-and-interaction/sidebar-navigation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Modular Layout",
+						"#Balanced",
+						"#Single Column",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Tab Bar (Mobile-First) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Tab%20Bar%20Mobile%20First&design=%2Fassets%2Fstyles%2Fnavigation-and-interaction%2Ftab-bar-mobile-first.jpg",
+						"href": "/navigation-and-interaction/tab-bar-mobile-first/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Mobile",
+						"#Balanced",
+						"#Modular Layout",
+						"#Modern"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Experimental &amp; Avant-Garde",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Anti-Gravity Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Anti%20Gravity%20Layout&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fanti-gravity-layout.jpg",
+						"href": "/experimental-and-avant-garde/anti-gravity-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Broken Grid",
+						"#Deconstructed",
+						"#Heavy Motion",
+						"#Creative"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Deformable UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Deformable%20Ui&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fdeformable-ui.jpg",
+						"href": "/experimental-and-avant-garde/deformable-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Advanced JS",
+						"#Heavy Motion",
+						"#Reactive",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Experimental Web style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Experimental%20Web&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fexperimental-web.jpg",
+						"href": "/experimental-and-avant-garde/experimental-web/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Abstract",
+						"#Advanced JS",
+						"#Artistic",
+						"#Unconventional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Fragmented Shattered style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Fragmented%20Shattered&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Ffragmented-shattered.jpg",
+						"href": "/experimental-and-avant-garde/fragmented-shattered/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Irregular",
+						"#Abstract",
+						"#Heavy Motion",
+						"#Broken"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Generative Typography style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Generative%20Typography&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fgenerative-typography.jpg",
+						"href": "/experimental-and-avant-garde/generative-typography/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Type as Hero",
+						"#Algorithmic",
+						"#Advanced JS",
+						"#Dynamic UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Generative UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Generative%20Ui&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fgenerative-ui.jpg",
+						"href": "/experimental-and-avant-garde/generative-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Procedural",
+						"#Algorithmic",
+						"#AI Aesthetic",
+						"#Dynamic UI",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hypermedia Non-Linear style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Hypermedia%20Non%20Linear&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fhypermedia-non-linear.jpg",
+						"href": "/experimental-and-avant-garde/hypermedia-non-linear/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Interactive",
+						"#Advanced JS",
+						"#Unconventional",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hyperreality style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Hyperreality&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fhyperreality.jpg",
+						"href": "/experimental-and-avant-garde/hyperreality/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Immersive Motion",
+						"#Heavy Motion",
+						"#3D Animation",
+						"#Futuristic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Infinite Canvas style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Infinite%20Canvas&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Finfinite-canvas.jpg",
+						"href": "/experimental-and-avant-garde/infinite-canvas/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Horizontal Scroll",
+						"#Advanced JS",
+						"#Interactive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Physics-Based Animation style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Physics%20Based%20Animation&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fphysics-based-animation.jpg",
+						"href": "/experimental-and-avant-garde/physics-based-animation/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Heavy Motion",
+						"#Reactive",
+						"#Physics-Based",
+						"#Advanced JS",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Reactive Physics-Based style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Reactive%20Physics%20Based&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Freactive-physics-based.jpg",
+						"href": "/experimental-and-avant-garde/reactive-physics-based/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Physics-Based",
+						"#Advanced JS",
+						"#Heavy Motion",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Reactive Responsive Elements style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Reactive%20Responsive%20Elements&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Freactive-responsive-elements.jpg",
+						"href": "/experimental-and-avant-garde/reactive-responsive-elements/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Reactive",
+						"#Responsive Era",
+						"#Interactive",
+						"#Heavy Motion",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Reality-Bending UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Reality%20Bending%20Ui&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Freality-bending-ui.jpg",
+						"href": "/experimental-and-avant-garde/reality-bending-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Immersive Motion",
+						"#Heavy Motion",
+						"#Futuristic",
+						"#Abstract"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Shapeshifting Morphing UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Shapeshifting%20Morphing%20Ui&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fshapeshifting-morphing-ui.jpg",
+						"href": "/experimental-and-avant-garde/shapeshifting-morphing-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Animation",
+						"#Heavy Motion",
+						"#Reactive",
+						"#Advanced JS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Sound-Reactive UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Sound%20Reactive%20Ui&design=%2Fassets%2Fstyles%2Fexperimental-and-avant-garde%2Fsound-reactive-ui.jpg",
+						"href": "/experimental-and-avant-garde/sound-reactive-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Experimental",
+						"#Heavy Motion",
+						"#Advanced JS",
+						"#Interactive",
+						"#Immersive"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Luxury &amp; Prestige",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chandelier Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Chandelier%20Aesthetic&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fchandelier-aesthetic.jpg",
+						"href": "/luxury-and-prestige/chandelier-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Luxurious",
+						"#Premium",
+						"#Elegant",
+						"#Dark Mode",
+						"#Refined"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Crystal Gem UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Crystal%20Gem%20Ui&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fcrystal-gem-ui.jpg",
+						"href": "/luxury-and-prestige/crystal-gem-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Luxurious",
+						"#Reflective",
+						"#Glossy",
+						"#Premium",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Gold Accent UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Gold%20Accent%20Ui&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fgold-accent-ui.jpg",
+						"href": "/luxury-and-prestige/gold-accent-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Luxurious",
+						"#Premium",
+						"#Elegant",
+						"#Refined",
+						"#Dark Mode"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "High-End Boutique style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=High%20End%20Boutique&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fhigh-end-boutique.jpg",
+						"href": "/luxury-and-prestige/high-end-boutique/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Elegant",
+						"#Refined",
+						"#Premium",
+						"#Sophisticated",
+						"#Minimal"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Luxury Minimalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Luxury%20Minimalism&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fluxury-minimalism.jpg",
+						"href": "/luxury-and-prestige/luxury-minimalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Elegant",
+						"#Refined",
+						"#Whitespace",
+						"#Light"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Matte Black Luxe style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Matte%20Black%20Luxe&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fmatte-black-luxe.jpg",
+						"href": "/luxury-and-prestige/matte-black-luxe/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Premium",
+						"#Elegant",
+						"#Sophisticated",
+						"#Minimal"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Opulent Maximalist Luxury style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Opulent%20Maximalist%20Luxury&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fopulent-maximalist-luxury.jpg",
+						"href": "/luxury-and-prestige/opulent-maximalist-luxury/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Luxurious",
+						"#Premium",
+						"#Content Heavy",
+						"#Pattern-Heavy",
+						"#Ornate"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Silk Velvet Texture style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Silk%20Velvet%20Texture&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fsilk-velvet-texture.jpg",
+						"href": "/luxury-and-prestige/silk-velvet-texture/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Luxurious",
+						"#Premium",
+						"#Textured",
+						"#Refined",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Sophisticated Dark style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Sophisticated%20Dark&design=%2Fassets%2Fstyles%2Fluxury-and-prestige%2Fsophisticated-dark.jpg",
+						"href": "/luxury-and-prestige/sophisticated-dark/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Luxurious",
+						"#Premium",
+						"#Elegant",
+						"#Refined"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Typography Driven",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Display Font-Forward style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Display%20Font%20Forward&design=%2Fassets%2Fstyles%2Ftypography-driven%2Fdisplay-font-forward.jpg",
+						"href": "/typography-driven/display-font-forward/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Display Type",
+						"#Type as Hero",
+						"#Bold",
+						"#Expressive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Editorial Magazine Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Editorial%20Magazine%20Layout&design=%2Fassets%2Fstyles%2Ftypography-driven%2Feditorial-magazine-layout.jpg",
+						"href": "/typography-driven/editorial-magazine-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Magazine Layout",
+						"#Type as Hero",
+						"#Editorial",
+						"#Serif",
+						"#Balanced"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Exaggerated Hierarchy style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Exaggerated%20Hierarchy&design=%2Fassets%2Fstyles%2Ftypography-driven%2Fexaggerated-hierarchy.jpg",
+						"href": "/typography-driven/exaggerated-hierarchy/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Type as Hero",
+						"#Display Type",
+						"#Bold",
+						"#Expressive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Handwritten Type UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Handwritten%20Type%20Ui&design=%2Fassets%2Fstyles%2Ftypography-driven%2Fhandwritten-type-ui.jpg",
+						"href": "/typography-driven/handwritten-type-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Hand-Crafted",
+						"#Organic",
+						"#Playful",
+						"#Warm",
+						"#Sketch"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Kinetic Typography style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Kinetic%20Typography&design=%2Fassets%2Fstyles%2Ftypography-driven%2Fkinetic-typography.jpg",
+						"href": "/typography-driven/kinetic-typography/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Animation",
+						"#Type as Hero",
+						"#Moderate Motion",
+						"#Bold",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Monospaced Typography Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Monospaced%20Typography%20Layout&design=%2Fassets%2Fstyles%2Ftypography-driven%2Fmonospaced-typography-layout.jpg",
+						"href": "/typography-driven/monospaced-typography-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Monospaced",
+						"#Type as Hero",
+						"#Code Style",
+						"#Technical",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Oversized Type style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Oversized%20Type&design=%2Fassets%2Fstyles%2Ftypography-driven%2Foversized-type.jpg",
+						"href": "/typography-driven/oversized-type/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Type as Hero",
+						"#Display Type",
+						"#Bold",
+						"#Centered",
+						"#Minimal"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Serif Revival style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Serif%20Revival&design=%2Fassets%2Fstyles%2Ftypography-driven%2Fserif-revival.jpg",
+						"href": "/typography-driven/serif-revival/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Serif",
+						"#Type as Hero",
+						"#Elegant",
+						"#Professional",
+						"#Timeless"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Swiss Typographic (International Style) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Swiss%20Typographic%20International%20Style&design=%2Fassets%2Fstyles%2Ftypography-driven%2Fswiss-typographic-international-style.jpg",
+						"href": "/typography-driven/swiss-typographic-international-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Type as Hero",
+						"#Grid",
+						"#Professional",
+						"#Sans-Serif",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Type-Only (No Images) style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Type%20Only%20No%20Images&design=%2Fassets%2Fstyles%2Ftypography-driven%2Ftype-only-no-images.jpg",
+						"href": "/typography-driven/type-only-no-images/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Type as Hero",
+						"#Minimal",
+						"#Professional",
+						"#Whitespace",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Typewriter Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Typewriter%20Style&design=%2Fassets%2Fstyles%2Ftypography-driven%2Ftypewriter-style.jpg",
+						"href": "/typography-driven/typewriter-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Monospaced",
+						"#Nostalgic",
+						"#Retro",
+						"#Organic",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Typographic-First style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Typographic%20First&design=%2Fassets%2Fstyles%2Ftypography-driven%2Ftypographic-first.jpg",
+						"href": "/typography-driven/typographic-first/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Type as Hero",
+						"#Serif",
+						"#Type as Supporting",
+						"#Professional",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Variable Font UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Variable%20Font%20Ui&design=%2Fassets%2Fstyles%2Ftypography-driven%2Fvariable-font-ui.jpg",
+						"href": "/typography-driven/variable-font-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dynamic UI",
+						"#Type as Hero",
+						"#Personalized UI",
+						"#Modern",
+						"#Interactive"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Geometric &amp; Grid Based",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Asymmetric Grid Play style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Asymmetric%20Grid%20Play&design=%2Fassets%2Fstyles%2Fgeometric-and-grid-based%2Fasymmetric-grid-play.jpg",
+						"href": "/geometric-and-grid-based/asymmetric-grid-play/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Grid",
+						"#Asymmetric",
+						"#Broken Grid",
+						"#Creative",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Bento Box Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Bento%20Box%20Layout&design=%2Fassets%2Fstyles%2Fgeometric-and-grid-based%2Fbento-box-layout.jpg",
+						"href": "/geometric-and-grid-based/bento-box-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Modular Layout",
+						"#Grid",
+						"#Card Layout",
+						"#Modern",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Geometric Pattern Fill style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Geometric%20Pattern%20Fill&design=%2Fassets%2Fstyles%2Fgeometric-and-grid-based%2Fgeometric-pattern-fill.jpg",
+						"href": "/geometric-and-grid-based/geometric-pattern-fill/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Geometric",
+						"#Pattern-Heavy",
+						"#Grid",
+						"#Angular",
+						"#Sharp"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hexagonal Grid style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Hexagonal%20Grid&design=%2Fassets%2Fstyles%2Fgeometric-and-grid-based%2Fhexagonal-grid.jpg",
+						"href": "/geometric-and-grid-based/hexagonal-grid/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Geometric",
+						"#Grid",
+						"#Circular",
+						"#Radial",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Isometric Grid style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Isometric%20Grid&design=%2Fassets%2Fstyles%2Fgeometric-and-grid-based%2Fisometric-grid.jpg",
+						"href": "/geometric-and-grid-based/isometric-grid/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Geometric",
+						"#Grid",
+						"#Isometric",
+						"#3D",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Modular Component Grid style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Modular%20Component%20Grid&design=%2Fassets%2Fstyles%2Fgeometric-and-grid-based%2Fmodular-component-grid.jpg",
+						"href": "/geometric-and-grid-based/modular-component-grid/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Grid",
+						"#Modular Layout",
+						"#Card Layout",
+						"#Professional",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Radial Circular Pattern style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Radial%20Circular%20Pattern&design=%2Fassets%2Fstyles%2Fgeometric-and-grid-based%2Fradial-circular-pattern.jpg",
+						"href": "/geometric-and-grid-based/radial-circular-pattern/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Geometric",
+						"#Circular",
+						"#Radial",
+						"#Pattern-Heavy",
+						"#Rounded"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Strict Grid Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Strict%20Grid%20Layout&design=%2Fassets%2Fstyles%2Fgeometric-and-grid-based%2Fstrict-grid-layout.jpg",
+						"href": "/geometric-and-grid-based/strict-grid-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Grid",
+						"#Geometric",
+						"#Grid-Strict",
+						"#Professional",
+						"#Modular Layout"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Brutalism Family",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Anti-Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Anti%20Design&design=%2Fassets%2Fstyles%2Fbrutalism-family%2Fanti-design.jpg",
+						"href": "/brutalism-family/anti-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Brutalism",
+						"#Rebellious",
+						"#Edgy",
+						"#Unpolished",
+						"#Gritty"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Brutalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Brutalism&design=%2Fassets%2Fstyles%2Fbrutalism-family%2Fbrutalism.jpg",
+						"href": "/brutalism-family/brutalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Brutalism",
+						"#Raw",
+						"#Gritty",
+						"#Deconstructed",
+						"#Bold"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyberbrutalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Cyberbrutalism&design=%2Fassets%2Fstyles%2Fbrutalism-family%2Fcyberbrutalism.jpg",
+						"href": "/brutalism-family/cyberbrutalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Brutalism",
+						"#Futuristic",
+						"#Techy",
+						"#Bold",
+						"#Dark"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Deconstructed UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Deconstructed%20Ui&design=%2Fassets%2Fstyles%2Fbrutalism-family%2Fdeconstructed-ui.jpg",
+						"href": "/brutalism-family/deconstructed-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Deconstructed",
+						"#Irregular",
+						"#Raw",
+						"#Broken Grid",
+						"#Experimental"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Digital Brutalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Digital%20Brutalism&design=%2Fassets%2Fstyles%2Fbrutalism-family%2Fdigital-brutalism.jpg",
+						"href": "/brutalism-family/digital-brutalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Brutalism",
+						"#Outline",
+						"#Raw",
+						"#Bold",
+						"#Edgy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Neubrutalism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Neubrutalism&design=%2Fassets%2Fstyles%2Fbrutalism-family%2Fneubrutalism.jpg",
+						"href": "/brutalism-family/neubrutalism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Brutalism",
+						"#Bold",
+						"#Angular",
+						"#Dark",
+						"#Raw"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Raw HTML Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Raw%20Html%20Aesthetic&design=%2Fassets%2Fstyles%2Fbrutalism-family%2Fraw-html-aesthetic.jpg",
+						"href": "/brutalism-family/raw-html-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Raw",
+						"#Outline",
+						"#Wireframe",
+						"#Unpolished",
+						"#HTML + CSS"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Ugly Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Ugly%20Design&design=%2Fassets%2Fstyles%2Fbrutalism-family%2Fugly-design.jpg",
+						"href": "/brutalism-family/ugly-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Raw",
+						"#Gritty",
+						"#Unpolished",
+						"#Edgy",
+						"#Brutalism"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "E-Commerce &amp; SaaS",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Admin Panel UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Admin%20Panel%20Ui&design=%2Fassets%2Fstyles%2Fe-commerce-and-saas%2Fadmin-panel-ui.jpg",
+						"href": "/e-commerce-and-saas/admin-panel-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Dashboard Data",
+						"#Modular Layout",
+						"#Clean UI",
+						"#Dark Mode"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "E-commerce Storefront style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=E%20Commerce%20Storefront&design=%2Fassets%2Fstyles%2Fe-commerce-and-saas%2Fe-commerce-storefront.jpg",
+						"href": "/e-commerce-and-saas/e-commerce-storefront/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#E-commerce",
+						"#Professional",
+						"#Card Layout",
+						"#Modern",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Marketplace UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Marketplace%20Ui&design=%2Fassets%2Fstyles%2Fe-commerce-and-saas%2Fmarketplace-ui.jpg",
+						"href": "/e-commerce-and-saas/marketplace-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#E-commerce",
+						"#Card Layout",
+						"#Modern",
+						"#Professional",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Onboarding Flow UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Onboarding%20Flow%20Ui&design=%2Fassets%2Fstyles%2Fe-commerce-and-saas%2Fonboarding-flow-ui.jpg",
+						"href": "/e-commerce-and-saas/onboarding-flow-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#User-Centric",
+						"#Interactive",
+						"#Modern",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Pricing Page UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Pricing%20Page%20Ui&design=%2Fassets%2Fstyles%2Fe-commerce-and-saas%2Fpricing-page-ui.jpg",
+						"href": "/e-commerce-and-saas/pricing-page-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Card Layout",
+						"#Balanced",
+						"#Clean UI",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Product Landing Page style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Product%20Landing%20Page&design=%2Fassets%2Fstyles%2Fe-commerce-and-saas%2Fproduct-landing-page.jpg",
+						"href": "/e-commerce-and-saas/product-landing-page/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Centered",
+						"#Clean UI",
+						"#Modern",
+						"#Balanced"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "SaaS Dashboard UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Saas%20Dashboard%20Ui&design=%2Fassets%2Fstyles%2Fe-commerce-and-saas%2Fsaas-dashboard-ui.jpg",
+						"href": "/e-commerce-and-saas/saas-dashboard-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Dashboard Data",
+						"#Charts",
+						"#Modern",
+						"#Clean UI"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Accessibility &amp; Inclusive",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Accessibility-First UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Accessibility%20First%20Ui&design=%2Fassets%2Fstyles%2Faccessibility-and-inclusive%2Faccessibility-first-ui.jpg",
+						"href": "/accessibility-and-inclusive/accessibility-first-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Accessible",
+						"#High Contrast",
+						"#Readable",
+						"#Keyboard Friendly",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dyslexia-Friendly UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dyslexia%20Friendly%20Ui&design=%2Fassets%2Fstyles%2Faccessibility-and-inclusive%2Fdyslexia-friendly-ui.jpg",
+						"href": "/accessibility-and-inclusive/dyslexia-friendly-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Readable",
+						"#Accessible",
+						"#Professional",
+						"#Monospaced",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Gender-Neutral Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Gender%20Neutral%20Design&design=%2Fassets%2Fstyles%2Faccessibility-and-inclusive%2Fgender-neutral-design.jpg",
+						"href": "/accessibility-and-inclusive/gender-neutral-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Inclusive",
+						"#Professional",
+						"#Minimal",
+						"#Balanced",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "High-Contrast Mode style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=High%20Contrast%20Mode&design=%2Fassets%2Fstyles%2Faccessibility-and-inclusive%2Fhigh-contrast-mode.jpg",
+						"href": "/accessibility-and-inclusive/high-contrast-mode/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#High Contrast",
+						"#Bold",
+						"#Readable",
+						"#Bold Colors",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Large-Text Senior-Friendly style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Large%20Text%20Senior%20Friendly&design=%2Fassets%2Fstyles%2Faccessibility-and-inclusive%2Flarge-text-senior-friendly.jpg",
+						"href": "/accessibility-and-inclusive/large-text-senior-friendly/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Readable",
+						"#Professional",
+						"#Accessible",
+						"#Clean UI",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Reduced Motion UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Reduced%20Motion%20Ui&design=%2Fassets%2Fstyles%2Faccessibility-and-inclusive%2Freduced-motion-ui.jpg",
+						"href": "/accessibility-and-inclusive/reduced-motion-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Accessible",
+						"#Subtle Motion",
+						"#Static",
+						"#Professional",
+						"#Minimal"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Voice-Navigation UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Voice%20Navigation%20Ui&design=%2Fassets%2Fstyles%2Faccessibility-and-inclusive%2Fvoice-navigation-ui.jpg",
+						"href": "/accessibility-and-inclusive/voice-navigation-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Accessible",
+						"#Modern",
+						"#Professional",
+						"#User-Centric"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Card Play &amp; Component",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Accordion-Heavy UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Accordion%20Heavy%20Ui&design=%2Fassets%2Fstyles%2Fcard-play-and-component%2Faccordion-heavy-ui.jpg",
+						"href": "/card-play-and-component/accordion-heavy-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Modular Layout",
+						"#Professional",
+						"#Balanced",
+						"#User-Centric"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Card Play Tilted Cards style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Card%20Play%20Tilted%20Cards&design=%2Fassets%2Fstyles%2Fcard-play-and-component%2Fcard-play-tilted-cards.jpg",
+						"href": "/card-play-and-component/card-play-tilted-cards/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Card Layout",
+						"#Interactive",
+						"#Playful",
+						"#Modern",
+						"#Modular Layout"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Carousel Slider UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Carousel%20Slider%20Ui&design=%2Fassets%2Fstyles%2Fcard-play-and-component%2Fcarousel-slider-ui.jpg",
+						"href": "/card-play-and-component/carousel-slider-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Card Layout",
+						"#Interactive",
+						"#Horizontal Scroll",
+						"#Modern",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Pill Chip UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Pill%20Chip%20Ui&design=%2Fassets%2Fstyles%2Fcard-play-and-component%2Fpill-chip-ui.jpg",
+						"href": "/card-play-and-component/pill-chip-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Modern",
+						"#Modular Layout",
+						"#Balanced",
+						"#Professional",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Stacked Cards style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Stacked%20Cards&design=%2Fassets%2Fstyles%2Fcard-play-and-component%2Fstacked-cards.jpg",
+						"href": "/card-play-and-component/stacked-cards/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Card Layout",
+						"#Layered",
+						"#Modular Layout",
+						"#Interactive",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Tag Cloud UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Tag%20Cloud%20Ui&design=%2Fassets%2Fstyles%2Fcard-play-and-component%2Ftag-cloud-ui.jpg",
+						"href": "/card-play-and-component/tag-cloud-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Modular Layout",
+						"#Dense",
+						"#Professional",
+						"#Balanced",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Toast Notification UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Toast%20Notification%20Ui&design=%2Fassets%2Fstyles%2Fcard-play-and-component%2Ftoast-notification-ui.jpg",
+						"href": "/card-play-and-component/toast-notification-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Modular Layout",
+						"#Modern",
+						"#Professional",
+						"#Micro-interactions"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Token Badge System UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Token%20Badge%20System%20Ui&design=%2Fassets%2Fstyles%2Fcard-play-and-component%2Ftoken-badge-system-ui.jpg",
+						"href": "/card-play-and-component/token-badge-system-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Modular Layout",
+						"#Professional",
+						"#Balanced",
+						"#Modern",
+						"#Interactive"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Dark &amp; Moody",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Cinematic Dark style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Cinematic%20Dark&design=%2Fassets%2Fstyles%2Fdark-and-moody%2Fcinematic-dark.jpg",
+						"href": "/dark-and-moody/cinematic-dark/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Dark",
+						"#Moody",
+						"#Heavy Motion",
+						"#Dramatic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Gradient style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dark%20Gradient&design=%2Fassets%2Fstyles%2Fdark-and-moody%2Fdark-gradient.jpg",
+						"href": "/dark-and-moody/dark-gradient/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Gradient",
+						"#Moody",
+						"#Cool",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Luxury style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dark%20Luxury&design=%2Fassets%2Fstyles%2Fdark-and-moody%2Fdark-luxury.jpg",
+						"href": "/dark-and-moody/dark-luxury/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Luxurious",
+						"#Premium",
+						"#Elegant",
+						"#Refined"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Mode Neon Accents style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Dark%20Mode%20Neon%20Accents&design=%2Fassets%2Fstyles%2Fdark-and-moody%2Fdark-mode-neon-accents.jpg",
+						"href": "/dark-and-moody/dark-mode-neon-accents/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Neon",
+						"#Bold Colors",
+						"#Vibrant",
+						"#Moody"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Film Noir style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Film%20Noir&design=%2Fassets%2Fstyles%2Fdark-and-moody%2Ffilm-noir.jpg",
+						"href": "/dark-and-moody/film-noir/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Dark",
+						"#Moody",
+						"#High Contrast",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Midnight Blue UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Midnight%20Blue%20Ui&design=%2Fassets%2Fstyles%2Fdark-and-moody%2Fmidnight-blue-ui.jpg",
+						"href": "/dark-and-moody/midnight-blue-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Dark",
+						"#Cool",
+						"#Professional",
+						"#Calm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "OLED-Black UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Oled%20Black%20Ui&design=%2Fassets%2Fstyles%2Fdark-and-moody%2Foled-black-ui.jpg",
+						"href": "/dark-and-moody/oled-black-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Dark",
+						"#High Contrast",
+						"#Bold",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Shadow-Heavy UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Shadow%20Heavy%20Ui&design=%2Fassets%2Fstyles%2Fdark-and-moody%2Fshadow-heavy-ui.jpg",
+						"href": "/dark-and-moody/shadow-heavy-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Dark",
+						"#Soft Shadow",
+						"#Elevation",
+						"#Moody"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Sustainable &amp; Ethical",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Eco-Friendly Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Eco%20Friendly%20Palette&design=%2Fassets%2Fstyles%2Fsustainable-and-ethical%2Feco-friendly-palette.jpg",
+						"href": "/sustainable-and-ethical/eco-friendly-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Earthy",
+						"#Earth Tones",
+						"#Natural",
+						"#Minimal"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Lightweight Performance-First style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Lightweight%20Performance%20First&design=%2Fassets%2Fstyles%2Fsustainable-and-ethical%2Flightweight-performance-first.jpg",
+						"href": "/sustainable-and-ethical/lightweight-performance-first/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#HTML + CSS",
+						"#Performance-First",
+						"#Static",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Low-Carbon Green Web style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Low%20Carbon%20Green%20Web&design=%2Fassets%2Fstyles%2Fsustainable-and-ethical%2Flow-carbon-green-web.jpg",
+						"href": "/sustainable-and-ethical/low-carbon-green-web/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimalism",
+						"#Light",
+						"#Lightweight",
+						"#Performance-First",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "No-Image Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=No%20Image%20Design&design=%2Fassets%2Fstyles%2Fsustainable-and-ethical%2Fno-image-design.jpg",
+						"href": "/sustainable-and-ethical/no-image-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Type-Only",
+						"#Typography-First",
+						"#HTML + CSS",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Static Site Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Static%20Site%20Aesthetic&design=%2Fassets%2Fstyles%2Fsustainable-and-ethical%2Fstatic-site-aesthetic.jpg",
+						"href": "/sustainable-and-ethical/static-site-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#HTML + CSS",
+						"#Professional",
+						"#Technical",
+						"#Static"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "System Font UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=System%20Font%20Ui&design=%2Fassets%2Fstyles%2Fsustainable-and-ethical%2Fsystem-font-ui.jpg",
+						"href": "/sustainable-and-ethical/system-font-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Professional",
+						"#HTML + CSS",
+						"#Clean UI",
+						"#Modern"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Scroll &amp; Layout",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Broken Grid Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Broken%20Grid%20Layout&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Fbroken-grid-layout.jpg",
+						"href": "/scroll-and-layout/broken-grid-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Asymmetric",
+						"#Broken Grid",
+						"#Creative",
+						"#Experimental",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "F-Pattern Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=F%20Pattern%20Layout&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Ff-pattern-layout.jpg",
+						"href": "/scroll-and-layout/f-pattern-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Balanced",
+						"#Content Heavy",
+						"#Clean UI",
+						"#Readable"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Full-Bleed Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Full%20Bleed%20Layout&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Ffull-bleed-layout.jpg",
+						"href": "/scroll-and-layout/full-bleed-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Full Bleed",
+						"#Immersive",
+						"#Modern",
+						"#Image-Heavy",
+						"#Dramatic"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Horizontal Scroll Site style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Horizontal%20Scroll%20Site&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Fhorizontal-scroll-site.jpg",
+						"href": "/scroll-and-layout/horizontal-scroll-site/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Horizontal Scroll",
+						"#Immersive",
+						"#Modern",
+						"#Gallery",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Long-Form Storytelling style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Long%20Form%20Storytelling&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Flong-form-storytelling.jpg",
+						"href": "/scroll-and-layout/long-form-storytelling/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Immersive",
+						"#Scroll-Triggered",
+						"#Editorial",
+						"#Content Heavy",
+						"#Interactive"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "One-Page Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=One%20Page%20Design&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Fone-page-design.jpg",
+						"href": "/scroll-and-layout/one-page-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Long Scroll",
+						"#Modern",
+						"#Professional",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Overlap Colliding Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Overlap%20Colliding%20Layout&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Foverlap-colliding-layout.jpg",
+						"href": "/scroll-and-layout/overlap-colliding-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Layered",
+						"#Overlapping",
+						"#Creative",
+						"#Asymmetric",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Snap Scroll Sections style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Snap%20Scroll%20Sections&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Fsnap-scroll-sections.jpg",
+						"href": "/scroll-and-layout/snap-scroll-sections/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Full Bleed",
+						"#Interactive",
+						"#Modern",
+						"#Immersive",
+						"#Heavy Motion"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Split-Screen Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Split%20Screen%20Layout&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Fsplit-screen-layout.jpg",
+						"href": "/scroll-and-layout/split-screen-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Asymmetric",
+						"#Balanced",
+						"#Modern",
+						"#Interactive",
+						"#Bold"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Z-Pattern Layout style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Z%20Pattern%20Layout&design=%2Fassets%2Fstyles%2Fscroll-and-layout%2Fz-pattern-layout.jpg",
+						"href": "/scroll-and-layout/z-pattern-layout/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Balanced",
+						"#Grid",
+						"#Clean UI",
+						"#Modular Layout"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Texture &amp; Pattern",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Glitch Effect style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Glitch%20Effect&design=%2Fassets%2Fstyles%2Ftexture-and-pattern%2Fglitch-effect.jpg",
+						"href": "/texture-and-pattern/glitch-effect/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Distressed",
+						"#Experimental",
+						"#Edgy",
+						"#Bold",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Halftone Pattern style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Halftone%20Pattern&design=%2Fassets%2Fstyles%2Ftexture-and-pattern%2Fhalftone-pattern.jpg",
+						"href": "/texture-and-pattern/halftone-pattern/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Print Effect",
+						"#Retro",
+						"#Pattern-Heavy",
+						"#Bold",
+						"#Textured"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Noise Grain Overlay style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Noise%20Grain%20Overlay&design=%2Fassets%2Fstyles%2Ftexture-and-pattern%2Fnoise-grain-overlay.jpg",
+						"href": "/texture-and-pattern/noise-grain-overlay/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Grain",
+						"#Textured",
+						"#Organic",
+						"#Raw",
+						"#Distressed"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Gradient &amp; Color",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Black & White Web style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Black%20And%20White%20Web&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fblack-and-white-web.jpg",
+						"href": "/gradient-and-color/black-and-white-web/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Monochrome",
+						"#High Contrast",
+						"#Elegant",
+						"#Bold",
+						"#Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Duotone style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Duotone&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fduotone.jpg",
+						"href": "/gradient-and-color/duotone/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Bold Colors",
+						"#Modern",
+						"#Professional",
+						"#Balanced",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Earth Tone Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Earth%20Tone%20Palette&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fearth-tone-palette.jpg",
+						"href": "/gradient-and-color/earth-tone-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Earthy",
+						"#Warm",
+						"#Organic",
+						"#Natural",
+						"#Brown"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Gradient Mesh style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Gradient%20Mesh&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fgradient-mesh.jpg",
+						"href": "/gradient-and-color/gradient-mesh/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Gradient",
+						"#Vibrant",
+						"#Modern",
+						"#Artistic",
+						"#Fluid"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Holographic Iridescent style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Holographic%20Iridescent&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fholographic-iridescent.jpg",
+						"href": "/gradient-and-color/holographic-iridescent/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Gradient",
+						"#Vibrant",
+						"#Futuristic",
+						"#Modern",
+						"#Experimental"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Monochrome style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Monochrome&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fmonochrome.jpg",
+						"href": "/gradient-and-color/monochrome/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Monochrome",
+						"#Minimal",
+						"#Elegant",
+						"#Professional",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Muted Desaturated Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Muted%20Desaturated%20Palette&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fmuted-desaturated-palette.jpg",
+						"href": "/gradient-and-color/muted-desaturated-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Soft",
+						"#Calm",
+						"#Professional",
+						"#Balanced",
+						"#Elegant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Neon Glow style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Neon%20Glow&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fneon-glow.jpg",
+						"href": "/gradient-and-color/neon-glow/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Neon",
+						"#Dark Mode",
+						"#Vibrant",
+						"#Bold Colors",
+						"#Glow"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Pastel Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Pastel%20Palette&design=%2Fassets%2Fstyles%2Fgradient-and-color%2Fpastel-palette.jpg",
+						"href": "/gradient-and-color/pastel-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Soft",
+						"#Pastel",
+						"#Light",
+						"#Warm",
+						"#Calm"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "IndieWeb &amp; Personal",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Blog-First Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Blog%20First%20Design&design=%2Fassets%2Fstyles%2Findieweb-and-personal%2Fblog-first-design.jpg",
+						"href": "/indieweb-and-personal/blog-first-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Content Heavy",
+						"#Editorial",
+						"#Readable",
+						"#Serif",
+						"#Clean UI"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Digital Garden style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Digital%20Garden&design=%2Fassets%2Fstyles%2Findieweb-and-personal%2Fdigital-garden.jpg",
+						"href": "/indieweb-and-personal/digital-garden/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Organic",
+						"#Indie",
+						"#Personal",
+						"#Minimal",
+						"#Content Heavy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Link-in-Bio Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Link%20In%20Bio%20Style&design=%2Fassets%2Fstyles%2Findieweb-and-personal%2Flink-in-bio-style.jpg",
+						"href": "/indieweb-and-personal/link-in-bio-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Centered",
+						"#Mobile",
+						"#Single Column",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Personal Homepage style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Personal%20Homepage&design=%2Fassets%2Fstyles%2Findieweb-and-personal%2Fpersonal-homepage.jpg",
+						"href": "/indieweb-and-personal/personal-homepage/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Professional",
+						"#Clean UI",
+						"#Personal",
+						"#Modern"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Portfolio Showcase style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Portfolio%20Showcase&design=%2Fassets%2Fstyles%2Findieweb-and-personal%2Fportfolio-showcase.jpg",
+						"href": "/indieweb-and-personal/portfolio-showcase/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Minimal",
+						"#Gallery",
+						"#Professional",
+						"#Modern",
+						"#Visual-Focused"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Resume CV Web style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Resume%20Cv%20Web&design=%2Fassets%2Fstyles%2Findieweb-and-personal%2Fresume-cv-web.jpg",
+						"href": "/indieweb-and-personal/resume-cv-web/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Professional",
+						"#Minimal",
+						"#Single Column",
+						"#Clean UI",
+						"#Readable"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Gaming &amp; Interactive",
+			"items": [
+				{
+					"a_image": {
+						"alt": "8-Bit Retro Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=8%20Bit%20Retro%20Style&design=%2Fassets%2Fstyles%2Fgaming-and-interactive%2F8-bit-retro-style.jpg",
+						"href": "/gaming-and-interactive/8-bit-retro-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Retro",
+						"#Pixelated",
+						"#Bold Colors",
+						"#Nostalgic",
+						"#Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Game HUD UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Game%20Hud%20Ui&design=%2Fassets%2Fstyles%2Fgaming-and-interactive%2Fgame-hud-ui.jpg",
+						"href": "/gaming-and-interactive/game-hud-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Dark Mode",
+						"#Futuristic",
+						"#Interactive",
+						"#Techy",
+						"#Heavy Motion"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Gamification UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600?text=Gamification%20Ui&design=%2Fassets%2Fstyles%2Fgaming-and-interactive%2Fgamification-ui.jpg",
+						"href": "/gaming-and-interactive/gamification-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"#Interactive",
+						"#Playful",
+						"#Engaging",
+						"#Modern",
+						"#User-Centric"
+					]
 				}
 			]
 		}
 	],
 	"seo": {
 		"title": "UI Lookbook &mdash; Web Design Styles Collection",
-		"description": "A curated collection of web design styles. Each page is presented entirely in the aesthetic it describes.",
+		"description": "A curated collection of 333 web design styles. Each page is presented entirely in the aesthetic it describes.",
 		"keywords": "web design styles, UI design, design lookbook, CSS aesthetics",
 		"og": {
 			"title": "UI Lookbook — Web Design Styles Collection",
-			"description": "A curated collection of web design styles. Each page is presented entirely in the aesthetic it describes.",
+			"description": "A curated collection of 333 web design styles. Each page is presented entirely in the aesthetic it describes.",
 			"url": "https://uilookbook.com/",
 			"type": "website"
 		},
 		"twitter": {
 			"card": "summary_large_image",
 			"title": "UI Lookbook — Web Design Styles Collection",
-			"description": "A curated collection of web design styles. Each page is presented entirely in the aesthetic it describes."
+			"description": "A curated collection of 333 web design styles. Each page is presented entirely in the aesthetic it describes."
 		}
 	},
 	"settings": {

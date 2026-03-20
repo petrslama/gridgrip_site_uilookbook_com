@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Cultural & Regional",
+					"href": "/cultural-and-regional/"
+				},
+				{
+					"text": "Japanese Web Design Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Japanese Web Design style mood board — Regional Style · Japan",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/cultural-and-regional/japanese-web-design/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Dense · Content Heavy · Grid · Professional · Cultural",
+			"a_h1": "Japanese Web Design Style",
+			"a_description": "Dense grids of information, tiny text packed into every available pixel, bright red accent labels, and the methodical organization of a culture that values thoroughness over minimalism — Japanese Web Design reflects the unique information architecture of Japan's commercial internet. Where Western design removes, Japanese design adds: more links, more sections, more content, all organized in a surprisingly navigable grid system.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "japanese-web-design"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This information-dense style dominates Japanese e-commerce giants, newspaper sites, and corporate portals. You'll see it on railway company sites, department store pages, electronics retailers, and municipal government portals — anywhere that serves a Japanese audience accustomed to scanning dense, content-rich layouts efficiently.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The distinctive information-dense style of Japanese commercial websites — packed with content, multiple navigation levels, small text in tight grids, and an efficient use of every pixel. Background: clean white (#ffffff) with thin gray (#e0e0e0) dividers creating a grid-like sectioned layout. The .inner panel uses subtle colored section backgrounds — alternating between white and very light gray (#f8f8f8) blocks. Text is small and dense. Multiple visual elements compete for attention but are organized in a methodical grid. Accent colors: bright red (#e60012) for important labels (the red of Japan's flag), and deep navy (#1a237e). Borders and lines everywhere — thin 1px borders create a newspaper-like columnar feel. Set in Noto Sans JP — designed specifically for Japanese typography with excellent Latin character support, embodying the clean, neutral aesthetic of modern Japanese corporate design. Heading at weight 700, 24px, line-height 1.3, color #1a237e. Eyebrow at weight 500, 10px, uppercase, 2px letter-spacing, color #e60012 (red accent). Body at weight 400, 13px, line-height 1.5, color #333. Buttons are compact: primary — navy (#1a237e), white text, 2px border-radius. Secondary: white, navy border. Alternatives: M PLUS 1p (rounded Japanese), IBM Plex Sans JP (technical), Zen Kaku Gothic New (modern).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Japanese Web Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/japanese-web-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japanese Web Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/japanese-web-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japanese Web Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/japanese-web-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japanese Web Design style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/cultural-and-regional/japanese-web-design/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Japanese Web Design style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/cultural-and-regional/japanese-web-design/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Japanese Web Design style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Japanese Web Design website?",
+					"answer": "The distinctive information-dense style of Japanese commercial websites — packed with content, multiple navigation levels, small text in tight grids, and an efficient use of every pixel. Background: clean white (#ffffff) with thin gray (#e0e0e0) dividers creating a grid-like sectioned layout. The .inner panel uses subtle colored section backgrounds — alternating between white and very light gray (#f8f8f8) blocks. Text is small and dense. Multiple visual elements compete for attention but are organized in a methodical grid. Accent colors: bright red (#e60012) for important labels (the red of Japan's flag), and deep navy (#1a237e). Borders and lines everywhere — thin 1px borders create a newspaper-like columnar feel. Set in Noto Sans JP — designed specifically for Japanese typography with excellent Latin character support, embodying the clean, neutral aesthetic of modern Japanese corporate design. Heading at weight 700, 24px, line-height 1.3, color #1a237e. Eyebrow at weight 500, 10px, uppercase, 2px letter-spacing, color #e60012 (red accent). Body at weight 400, 13px, line-height 1.5, color #333. Buttons are compact: primary — navy (#1a237e), white text, 2px border-radius. Secondary: white, navy border. Alternatives: M PLUS 1p (rounded Japanese), IBM Plex Sans JP (technical), Zen Kaku Gothic New (modern)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Japanese Web Design work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Japanese Web Design style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Japanese Web Design look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Chinese Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/chinese-web-design.jpg",
+						"href": "/cultural-and-regional/chinese-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold Colors",
+						"Dense",
+						"Content Heavy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dutch Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/dutch-design.jpg",
+						"href": "/cultural-and-regional/dutch-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold",
+						"Geometric",
+						"Professional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Japandi style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/japandi.jpg",
+						"href": "/cultural-and-regional/japandi/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Minimal",
+						"Organic",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Korean Web Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/cultural-and-regional/korean-web-design.jpg",
+						"href": "/cultural-and-regional/korean-web-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Clean UI",
+						"Modern",
+						"Professional"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Japanese Web Design Style — UI Lookbook",
+		"description": "Explore the Japanese Web Design style: Regional Style · Japan. Color palettes, typography, design principles, and AI prompts for Japanese Web Design UI design.",
+		"keywords": "Japanese Web Design, japanese-web-design, Dense, Content Heavy, Grid, Professional, Cultural",
+		"og": {
+			"title": "Japanese Web Design Style — UI Lookbook",
+			"description": "Explore the Japanese Web Design style: Regional Style · Japan. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/cultural-and-regional/japanese-web-design/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/japanese-web-design/lifestyle.jpg",
+				"alt": "Japanese Web Design Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Japanese Web Design Style — UI Lookbook",
+			"description": "Explore the Japanese Web Design style: Regional Style · Japan. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/cultural-and-regional/japanese-web-design/lifestyle.jpg",
+				"alt": "Japanese Web Design Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "japanese-web-design",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/cultural-and-regional/japanese-web-design.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

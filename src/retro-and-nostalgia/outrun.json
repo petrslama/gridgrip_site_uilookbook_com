@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Retro & Nostalgia",
+					"href": "/retro-and-nostalgia/"
+				},
+				{
+					"text": "Outrun Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Outrun style mood board — Sunset Chrome Horizon",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/retro-and-nostalgia/outrun/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Retro · Futuristic · Gradient · Neon · Vibrant",
+			"a_h1": "Outrun Style",
+			"a_description": "Outrun channels the iconic 1986 arcade racing game aesthetic — an endless sunset highway rendered in hot gradients of orange, coral, magenta, and deep purple. Chrome-finished typography gleams against the dusky horizon while wireframe grids stretch toward a vanishing point, evoking the raw thrill of pixel-perfect speed and palm-tree silhouettes dissolving into a synthwave sky.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "outrun"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This style trades the cool cyan-and-blue neon of generic synthwave for a distinctly warmer palette rooted in the golden hour. Every element radiates sunset heat — from amber-glowing headlines to coral accent buttons — creating an unmistakably retro-futuristic atmosphere that feels like driving into an infinite digital dusk at 200 miles per hour.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Outrun style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "Design a web component card inspired by the Outrun aesthetic — the 1986 Sega arcade racing game's visual language of infinite sunset horizons, chrome typography, and vanishing-point wireframe grids. The palette centers on a warm sunset gradient spectrum: deep violet #1a0533 as the base background, transitioning through rich purple #3d1259, hot magenta-pink #e91e8c, blazing coral-orange #ff6a3d, and finishing with bright golden amber #ffb347. Accent with chrome silver #c0c0c0 and white-hot highlights #fff5e6. Typography uses Orbitron (Google Font) for headings — a geometric, squared-off display face that evokes LED dashboards and arcade marquees, capturing the mechanical precision of 80s digital readouts. Set h3 at 28px, font-weight 700, letter-spacing 2px, text-transform uppercase, color #ffb347 golden amber with a text-shadow of 0 0 20px rgba(255,106,61,0.6) for a hot chrome glow. Body text uses Rajdhani (Google Font) — a condensed geometric sans-serif with a technical, futuristic quality that pairs with Orbitron's angularity while remaining readable at smaller sizes. Set paragraphs at 15px, font-weight 500, line-height 1.7, letter-spacing 0px, color #e8c4f0 soft lavender for readability against dark backgrounds. The eyebrow label uses Orbitron at 11px, font-weight 600, letter-spacing 3px, text-transform uppercase, color #ff6a3d blazing coral. Buttons use Rajdhani at 14px, font-weight 700, letter-spacing 1px, text-transform uppercase. Primary button: background linear-gradient(135deg, #ff6a3d, #e91e8c), color #1a0533, border none, border-radius 4px, padding 10px 24px, box-shadow 0 0 15px rgba(233,30,140,0.4). Secondary button: background transparent, color #ffb347, border 1px solid #ffb347, border-radius 4px, padding 10px 24px. Alternative fonts: Audiowide or Exo 2 can substitute Orbitron; Chakra Petch or Play can substitute Rajdhani. The card background should feel like staring into an 80s arcade sunset — use a deep violet base with subtle gradient overlays suggesting the horizon line. All glowing effects should feel warm, not cool — oranges and pinks, never cyan or blue.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Outrun style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/outrun/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Outrun style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/outrun/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Outrun style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/outrun/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Outrun style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/outrun/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Outrun style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Outrun style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Outrun style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/outrun/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Outrun style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Outrun website?",
+					"answer": "Design a web component card inspired by the Outrun aesthetic — the 1986 Sega arcade racing game's visual language of infinite sunset horizons, chrome typography, and vanishing-point wireframe grids. The palette centers on a warm sunset gradient spectrum: deep violet #1a0533 as the base background, transitioning through rich purple #3d1259, hot magenta-pink #e91e8c, blazing coral-orange #ff6a3d, and finishing with bright golden amber #ffb347. Accent with chrome silver #c0c0c0 and white-hot highlights #fff5e6. Typography uses Orbitron (Google Font) for headings — a geometric, squared-off display face that evokes LED dashboards and arcade marquees, capturing the mechanical precision of 80s digital readouts. Set h3 at 28px, font-weight 700, letter-spacing 2px, text-transform uppercase, color #ffb347 golden amber with a text-shadow of 0 0 20px rgba(255,106,61,0.6) for a hot chrome glow. Body text uses Rajdhani (Google Font) — a condensed geometric sans-serif with a technical, futuristic quality that pairs with Orbitron's angularity while remaining readable at smaller sizes. Set paragraphs at 15px, font-weight 500, line-height 1.7, letter-spacing 0px, color #e8c4f0 soft lavender for readability against dark backgrounds. The eyebrow label uses Orbitron at 11px, font-weight 600, letter-spacing 3px, text-transform uppercase, color #ff6a3d blazing coral. Buttons use Rajdhani at 14px, font-weight 700, letter-spacing 1px, text-transform uppercase. Primary button: background linear-gradient(135deg, #ff6a3d, #e91e8c), color #1a0533, border none, border-radius 4px, padding 10px 24px, box-shadow 0 0 15px rgba(233,30,140,0.4). Secondary button: background transparent, color #ffb347, border 1px solid #ffb347, border-radius 4px, padding 10px 24px. Alternative fonts: Audiowide or Exo 2 can substitute Orbitron; Chakra Petch or Play can substitute Rajdhani. The card background should feel like staring into an 80s arcade sunset — use a deep violet base with subtle gradient overlays suggesting the horizon line. All glowing effects should feel warm, not cool — oranges and pinks, never cyan or blue."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Outrun work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Outrun style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Outrun look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "70s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/70s-design.jpg",
+						"href": "/retro-and-nostalgia/70s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "80s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg",
+						"href": "/retro-and-nostalgia/80s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Neon"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "90s Web Revival style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/90s-web-revival.jpg",
+						"href": "/retro-and-nostalgia/90s-web-revival/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Early Web"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cassette Mixtape UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/cassette-mixtape-ui.jpg",
+						"href": "/retro-and-nostalgia/cassette-mixtape-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Hand-Crafted"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Outrun Style — UI Lookbook",
+		"description": "Explore the Outrun style: Sunset Chrome Horizon. Color palettes, typography, design principles, and AI prompts for Outrun UI design.",
+		"keywords": "Outrun, outrun, Retro, Futuristic, Gradient, Neon, Vibrant",
+		"og": {
+			"title": "Outrun Style — UI Lookbook",
+			"description": "Explore the Outrun style: Sunset Chrome Horizon. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/retro-and-nostalgia/outrun/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/outrun/lifestyle.jpg",
+				"alt": "Outrun Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Outrun Style — UI Lookbook",
+			"description": "Explore the Outrun style: Sunset Chrome Horizon. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/outrun/lifestyle.jpg",
+				"alt": "Outrun Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Orbitron:wght@300;400;500;600;700&family=Share+Tech+Mono:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "outrun",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/outrun.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

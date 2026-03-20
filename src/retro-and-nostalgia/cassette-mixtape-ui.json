@@ -1,0 +1,634 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Retro & Nostalgia",
+					"href": "/retro-and-nostalgia/"
+				},
+				{
+					"text": "Cassette Mixtape UI Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Close-up portrait of a petite brown-haired young woman at a large-diaphragm condenser microphone, looking directly into the camera past the mic. Padded studio headphones around her neck, not yet on. Expression: calm, slightly amused, completely at ease. Warm rim light from behind, dark charcoal background. Very editorial, slightly overexposed, analog warmth, film grain, photorealistic.",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/studio-girl-microphone.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Retro · Nostalgic · Hand-Crafted · Organic · Warm",
+			"a_h1": "Cassette Mixtape UI Style",
+			"a_description": "The handmade warmth of a cassette tape label — Sharpie lettering on a creamy sticker, faint ruled lines, and the slightly crooked, deeply personal aesthetic of a mixtape made for someone you care about. Cassette Mixtape UI captures the analog intimacy of physical media, where every label was unique, every song choice was deliberate, and the act of recording was an act of love.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "cassette-mixtape-ui"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This aesthetic shows up on indie music platforms, lo-fi playlist curators, and personal blog sites that value authenticity over polish. You'll find it on vintage audio equipment shops, podcast landing pages, zine-style publications, and any creative project that wants to feel handmade, warm, and genuinely personal.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Dimly lit bedroom studio at night. A wooden desk covered in scattered cassette tapes, a dual-deck recorder with glowing VU meters, and a desk lamp casting warm amber light. Handwritten tracklists on cream paper, a Sharpie with its cap off, headphones draped over a tape stack. Shallow depth of field, cinematic warm tones, photorealistic.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/late-night-recording-desk.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "music",
+					"a_h3": "Music & Audio Platforms",
+					"a_description": "Lo-fi playlist curators, indie record labels, podcast landing pages, band merch stores, community radio stations, vinyl and cassette resellers"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Zine-style publication spread with handwritten notes, collage art, and cassette tape labels",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/mixtape-scrapbook-zine.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "pen-tool",
+					"a_h3": "Creative & Personal Projects",
+					"a_description": "Personal blogs, digital zines, love letter websites, poetry collections, handmade gift shops, wedding invitation pages, artist portfolios"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Vintage audio shop interior with shelves of cassette players, warm wood tones, handwritten price tags",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/vintage-audio-shop.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "store",
+					"a_h3": "Vintage & Nostalgia Retail",
+					"a_description": "Retro audio equipment shops, vintage clothing stores, thrift shop e-commerce, analog photography suppliers, secondhand bookstores"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The tactile, handmade warmth of a cassette tape mixtape — hand-written labels, plastic cassette housing, and the intimate gesture of making music for someone. Background is a warm charcoal (#2a2420) evoking dark plastic. The .inner panel simulates a cassette label: creamy off-white (#f5edd6) background with a subtle ruled-line pattern (horizontal lines every 24px via repeating-linear-gradient in faint gray), slight rotation (transform: rotate(-1deg)) for that handmade, slightly askew feeling, and a thin border (#c8b89a). Text feels hand-written and personal. Set in Permanent Marker for headings and eyebrow — a brush-style font that perfectly captures the handwritten Sharpie-on-cassette-label aesthetic. Body in Barlow — a slightly condensed, friendly sans-serif that balances readability with a youthful, informal energy. Heading in Permanent Marker at 28px, line-height 1.3, color #2a2420, slight text-shadow. Eyebrow in Permanent Marker at 14px, uppercase, 1px letter-spacing, color #8b7355. Body in Barlow at weight 400, 15px, line-height 1.7, color #4a3f32. Buttons: primary has a warm red (#c0392b) background (like a red Sharpie accent), cream text, slight border-radius (4px). Secondary: transparent with a brown border. Alternatives: Caveat (loopy handwriting), Patrick Hand (natural script), Kalam (Indian-inspired handwriting).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Cassette Mixtape UI — landing page with cassette housing, handwritten labels, and mixtape tracklist",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/cassette-mixtape-ui/mixtape-landing.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/cassette-mixtape-ui/mixtape-landing.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Landing Page",
+						"Cassette Housing",
+						"Handwritten",
+						"Tracklist"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cassette Mixtape UI — about page with ruled-line label texture and warm typography",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/cassette-mixtape-ui/about.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/cassette-mixtape-ui/about.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"About Page",
+						"Ruled Lines",
+						"Warm Typography",
+						"Personal"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cassette Mixtape UI — archive catalogue with color-coded mixtape cards",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/cassette-mixtape-ui/archive.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/cassette-mixtape-ui/archive.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Archive",
+						"Card Grid",
+						"Color Coded",
+						"Catalogue"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cassette Mixtape UI — tracklist page with Side A/B layout and playback controls",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/gallery/retro-and-nostalgia/cassette-mixtape-ui/tracklist.jpg",
+						"href": "/assets/gallery/retro-and-nostalgia/cassette-mixtape-ui/tracklist.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Tracklist",
+						"Side A/B",
+						"Playback",
+						"Music Player"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Black cassette tape with UI Look Book hand-written in Permanent Marker on a cream label — slightly askew, bold, personal",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/typography.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "pencil",
+					"a_h3": "Handwritten Imperfection",
+					"a_description": "Nothing is perfectly straight. Text tilts by a degree or two, elements sit slightly askew, and the whole composition has the off-kilter warmth of something made by hand — like a label stuck on just a little crooked, the way it always was when you did it yourself at 1 AM."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Creamy ruled notebook paper with faint horizontal lines, a red margin line, and slightly worn edges",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/ruled-lines.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "notebook",
+					"a_h3": "Ruled-Line Texture",
+					"a_description": "The label background is covered in faint horizontal lines, just like ruled notebook paper. A thin vertical red margin line on the left completes the school-notebook feel. The texture is quiet enough to read over but present enough to feel like you could run your finger across the page."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Four color swatches on a warm background: charcoal brown, creamy off-white, muted red, and soft brown",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/palette.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "palette",
+					"a_h3": "Warm Analog Palette",
+					"a_description": "Every color is warm, muted, and organic. Dark charcoal-brown replaces pure black. Creamy off-white replaces stark white. The only saturated accent is a dusty red — the color of a Sharpie underline or a heart drawn on a label. Nothing is cold, nothing is clinical."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Retro cassette label, vibrant, featuring bold \"Permanent Marker\" brush script and sleek \"Barlow\" sans-serif typography. \"I love you\" prominently displayed with a stylized red heart icon.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/marker-typography.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "type",
+					"a_h3": "Marker-on-Label Typography",
+					"a_description": "Headlines look like someone wrote them with a fat Sharpie directly on the cassette label — bold, expressive, and unmistakably personal. Body text stays readable with a friendly, informal typeface that feels like a note passed in class, not a corporate memo."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Extreme close-up macro shot of layered physical materials stacked on a flat surface: a dark charcoal plastic sheet as the base — scuffed, slightly reflective. On top, a creamy aged paper label with faint print, edges soft and fibrous. Overlapping strips of yellowed masking tape run diagonally across, slightly wrinkled, semi-transparent. One corner of the paper layer curls upward and peels back, casting a thin shadow beneath it. Each material has distinct texture depth — plastic, paper, tape. Studio product photography, single overhead light source, photorealistic, shallow depth of field, film grain.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/material-layers.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "layers",
+					"a_h3": "Physical Material Layers",
+					"a_description": "The design stacks physical materials the way an actual cassette does: dark plastic housing as the outer shell, a creamy paper label as the content surface, masking tape strips as decorative accents, and a peeling corner where the sticker lifts. Each layer has its own texture and depth, making the screen feel like something you could pick up."
+				},
+				{
+					"a_image_cover": {
+						"alt": "Vintage mixtape insert, torn notebook page, styled. Handwritten song titles, personal cursive, smudged ink. Heartfelt dedication, tiny doodles (stars, hearts, notes). Faint ruled lines, yellowed edges, torn margin. \"Side A/B\" columns. Warm, intimate, cherished. Lo-fi photography.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/intimate-scale.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "heart",
+					"a_h3": "Intimate Personal Scale",
+					"a_description": "A mixtape was always made for one person. The aesthetic keeps that intimacy — narrow content widths, generous padding, and a sense of closeness rather than grand display. The UI feels like something you hold in your hand, not something projected on a billboard."
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "Sharpie on Label",
+			"a_description": "The core mixtape palette — dark plastic housing, creamy paper label, and one red Sharpie accent",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Cassette Housing",
+					"hex": "#2a2420",
+					"a_description": "Page background, dark sections, header and footer"
+				},
+				{
+					"a_h3": "Label Cream",
+					"hex": "#f5edd6",
+					"a_description": "Content area background, card surfaces, input fields"
+				},
+				{
+					"a_h3": "Sharpie Red",
+					"hex": "#c0392b",
+					"a_description": "Primary buttons, underlines, accent highlights, active states"
+				},
+				{
+					"a_h3": "Ink Brown",
+					"hex": "#4a3f32",
+					"a_description": "Body text, secondary text, form labels"
+				},
+				{
+					"a_h3": "Label Border",
+					"hex": "#c8b89a",
+					"a_description": "Borders, dividers, ruled lines, secondary buttons"
+				},
+				{
+					"a_h3": "Faded Eyebrow",
+					"hex": "#8b7355",
+					"a_description": "Eyebrow text, captions, muted labels, metadata"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "Summer Road Trip",
+			"a_description": "A warmer, sun-bleached variation — the mixtape left on the dashboard of a car driving through golden-hour light",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Warm Asphalt",
+					"hex": "#3d342e",
+					"a_description": "Page background, dark sections — lighter and warmer than the original housing"
+				},
+				{
+					"a_h3": "Sunfaded Paper",
+					"hex": "#faf3e0",
+					"a_description": "Content area background — lighter, more yellow, like paper left in sunlight"
+				},
+				{
+					"a_h3": "Burnt Orange",
+					"hex": "#d4854a",
+					"a_description": "Primary buttons, accent highlights — a warm sunset orange replacing red"
+				},
+				{
+					"a_h3": "Dusty Cocoa",
+					"hex": "#6b5240",
+					"a_description": "Body text, secondary elements, borders"
+				},
+				{
+					"a_h3": "Bleached Tan",
+					"hex": "#e8d1a7",
+					"a_description": "Secondary backgrounds, card edges, subtle dividers"
+				}
+			],
+			"section_id": "summer-road-trip"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "Late Night Recording",
+			"a_description": "A darker, moodier take — the mixtape made at 2 AM with the desk lamp as the only light",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Midnight Plastic",
+					"hex": "#1a1510",
+					"a_description": "Page background, deep dark sections — near black with warm undertone"
+				},
+				{
+					"a_h3": "Lamp Glow",
+					"hex": "#e8d1a7",
+					"a_description": "Content area background — the warm circle of light from a desk lamp"
+				},
+				{
+					"a_h3": "Burgundy Ink",
+					"hex": "#8b2e28",
+					"a_description": "Primary buttons, underlines — a deeper, more serious red for darker contexts"
+				},
+				{
+					"a_h3": "Shadow Brown",
+					"hex": "#2e1f14",
+					"a_description": "Headlines, strong text — nearly black but still warm"
+				},
+				{
+					"a_h3": "Smoke",
+					"hex": "#8a8070",
+					"a_description": "Muted text, captions, secondary labels, timestamps"
+				}
+			],
+			"section_id": "late-night-recording"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "Bold, expressive brush and handwriting fonts that capture the look of writing on a cassette label with a fat marker.",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Permanent Marker",
+					"css": "font-family: 'Permanent Marker', cursive; font-weight: 400; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Caveat",
+					"css": "font-family: 'Caveat', cursive; font-weight: 700; font-size: 1.8rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Patrick Hand",
+					"css": "font-family: 'Patrick Hand', cursive; font-weight: 400; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Kalam",
+					"css": "font-family: 'Kalam', cursive; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Special Elite",
+					"css": "font-family: 'Special Elite', monospace; font-weight: 400; font-size: 1.3rem; line-height: 1.3;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "Marker Felt",
+					"css": "font-family: 'Marker Felt', cursive; font-weight: 400; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "Friendly, readable fonts that balance the handwritten headline energy with comfortable body copy — informal but not illegible.",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Barlow",
+					"css": "font-family: 'Barlow', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Caveat",
+					"css": "font-family: 'Caveat', cursive; font-weight: 400; font-size: 1.15rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Patrick Hand",
+					"css": "font-family: 'Patrick Hand', cursive; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "Helvetica Neue",
+					"css": "font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 300; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "Georgia",
+					"css": "font-family: Georgia, 'Times New Roman', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "Trebuchet MS",
+					"css": "font-family: 'Trebuchet MS', Helvetica, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "A wooden desk, present day. On the left: a laptop with a Spotify playlist on screen, cold blue light. On the right: a handwritten cassette label, slightly yellowed, Sharpie ink faded, a heart drawn in the corner. The cassette rests on top of the closed laptop lid. Quiet, melancholy, intimate. Studio photography, single soft window light from the left, film grain, warm shadow tones, photorealistic.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/girl-boombox-writing.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "The Compact Cassette Revolution",
+					"a_description": "Philips introduced the Compact Cassette in 1963 as a dictation format, but by the early 1970s it had become the first truly personal music medium. Unlike vinyl, a cassette was portable, recordable, and cheap. For the first time, anyone with a dual-deck recorder could curate their own album — selecting songs, ordering them, timing the sides. The blank label was the canvas: you wrote the tracklist by hand, decorated the edges, and the result was as personal as a letter."
+				},
+				{
+					"a_image_cover": {
+						"alt": "A wooden desk, present day. On the left: a laptop with a Spotify playlist on screen, cold blue light. On the right: a handwritten cassette label, slightly yellowed, Sharpie ink faded, a heart drawn in the corner. The cassette rests on top of the closed laptop lid. Quiet, melancholy, intimate. Studio photography, single soft window light from the left, film grain, warm shadow tones, photorealistic.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/boy-boombox-tapes.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "The Golden Age of the Mixtape",
+					"a_description": "The 1980s and early 1990s were the mixtape's peak. High-bias chrome tapes from Maxell and TDK became currency in music subcultures — hip-hop DJs distributed mixtapes on street corners, punk bands traded them through mail-order zines, and teenagers made them for crushes with agonizing care over every song transition. The label aesthetic solidified: Sharpie lettering on a cream sticker, sometimes with doodles, sometimes with a dedication. 'Home Taping Is Killing Music' warned the industry; listeners disagreed."
+				},
+				{
+					"a_image_cover": {
+						"alt": "A wooden desk, present day. On the left: a laptop with a Spotify playlist on screen, cold blue light. On the right: a handwritten cassette label, slightly yellowed, Sharpie ink faded, a heart drawn in the corner. The cassette rests on top of the closed laptop lid. Quiet, melancholy, intimate. Studio photography, single soft window light from the left, film grain, warm shadow tones, photorealistic.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/laptop-spotify-cassette.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "Nostalgia and the Handmade Web",
+					"a_description": "Affordable CD-Rs killed the mixtape in the late 1990s, and MP3s buried it. But the aesthetic survived as a symbol of analog intimacy in a digital world. Spotify playlists are functionally identical, but they lack the physical artifact — the handwriting, the wear on the shell, the commitment of a 90-minute tape you can't skip. Modern designers use the mixtape visual language for anything that wants to feel personal, handmade, and warm: indie music platforms, lo-fi brands, personal blogs, and creative portfolios that reject the sterile polish of contemporary UI."
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Cassette Mixtape UI style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Cassette Mixtape site?",
+					"answer": "The tactile, handmade warmth of a cassette tape mixtape — hand-written labels, plastic cassette housing, and the intimate gesture of making music for someone. Background is a warm charcoal (#2a2420) evoking dark plastic. The .inner panel simulates a cassette label: creamy off-white (#f5edd6) background with a subtle ruled-line pattern (horizontal lines every 24px via repeating-linear-gradient in faint gray), slight rotation (transform: rotate(-1deg)) for that handmade, slightly askew feeling, and a thin border (#c8b89a). Text feels hand-written and personal. Set in Permanent Marker for headings and eyebrow — a brush-style font that perfectly captures the handwritten Sharpie-on-cassette-label aesthetic. Body in Barlow — a slightly condensed, friendly sans-serif that balances readability with a youthful, informal energy. Heading in Permanent Marker at 28px, line-height 1.3, color #2a2420, slight text-shadow. Eyebrow in Permanent Marker at 14px, uppercase, 1px letter-spacing, color #8b7355. Body in Barlow at weight 400, 15px, line-height 1.7, color #4a3f32. Buttons: primary has a warm red (#c0392b) background (like a red Sharpie accent), cream text, slight border-radius (4px). Secondary: transparent with a brown border. Alternatives: Caveat (loopy handwriting), Patrick Hand (natural script), Kalam (Indian-inspired handwriting)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Cassette Mixtape work best for?",
+					"answer": "Anything where warmth, authenticity, and personal connection matter more than corporate polish. Indie music platforms, lo-fi playlist curators, podcast landing pages, and community radio stations are the natural fit. It also works for personal blogs, digital zines, handmade gift shops, vintage audio retailers, and creative portfolios. Avoid it for finance, healthcare, legal, enterprise SaaS, or any context where users need to trust institutional authority — the handwritten aesthetic reads as casual and personal, which is the opposite of what those industries need."
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "Sharpie on Label is the default — warm charcoal housing, creamy label, and red accent. It is the most versatile and the closest to an actual cassette tape. Summer Road Trip swaps the red for burnt orange and lightens everything, making it friendlier and more approachable — good for food, travel, or lifestyle brands. Late Night Recording goes darker and moodier with burgundy ink and near-black backgrounds — best for music, audio, or anything that wants a more intimate, atmospheric feel."
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Cassette Mixtape style?",
+					"answer": "When your audience has no relationship with physical media or analog culture — younger users who have never seen a cassette may find it confusing rather than nostalgic. Avoid it for data-heavy dashboards, complex forms, or anything requiring dense information architecture — the handwritten fonts and textured backgrounds compete with functional content. Corporate, medical, legal, and government sites need the visual authority that this style deliberately rejects."
+				},
+				{
+					"a_icon": "disc",
+					"a_h3": "What killed the mixtape and why does it still matter?",
+					"answer": "The CD-R killed the physical mixtape in the late 1990s, and the iPod buried it. But neither replacement carried the same emotional weight. A cassette mixtape was a physical object that took time to make — you had to record in real time, manage the tape length, write the label by hand. That labor was the point. A Spotify playlist takes thirty seconds; a mixtape took an afternoon. The aesthetic endures because it represents a kind of care and intentionality that digital media cannot replicate, which is exactly why designers reach for it when they want something to feel genuinely personal."
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Cassette Mixtape UI look?",
+					"answer": "Permanent Marker is the definitive choice for headlines — it looks exactly like writing on a label with a fat Sharpie. For a softer, more flowing alternative, Caveat offers loopy handwriting that feels like a ballpoint pen on notebook paper. Patrick Hand is the most natural and legible handwriting font, good for longer text. Special Elite adds a typewriter quality for eyebrows and metadata. For body text, Barlow is the practical choice — a slightly condensed sans-serif that is readable at small sizes while still feeling informal and youthful."
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "70s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/70s-design.jpg",
+						"href": "/retro-and-nostalgia/70s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "80s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg",
+						"href": "/retro-and-nostalgia/80s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Neon"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "90s Web Revival style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/90s-web-revival.jpg",
+						"href": "/retro-and-nostalgia/90s-web-revival/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Early Web"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dial-Up Era Aesthetic style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/dial-up-era-aesthetic.jpg",
+						"href": "/retro-and-nostalgia/dial-up-era-aesthetic/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Early Web",
+						"Nostalgic"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Cassette Mixtape UI Style — UI Lookbook",
+		"description": "Explore the Cassette Mixtape UI style: Analog Audio · 1970s–1990s. Color palettes, typography, design principles, and AI prompts for Cassette Mixtape UI UI design.",
+		"keywords": "Cassette Mixtape UI, cassette-mixtape-ui, Retro, Nostalgic, Hand-Crafted, Organic, Warm",
+		"og": {
+			"title": "Cassette Mixtape UI Style — UI Lookbook",
+			"description": "Explore the Cassette Mixtape UI style: Analog Audio · 1970s–1990s. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/retro-and-nostalgia/cassette-mixtape-ui/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/lifestyle.jpg",
+				"alt": "Cassette Mixtape UI Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Cassette Mixtape UI Style — UI Lookbook",
+			"description": "Explore the Cassette Mixtape UI style: Analog Audio · 1970s–1990s. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/cassette-mixtape-ui/lifestyle.jpg",
+				"alt": "Cassette Mixtape UI Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Caveat:wght@300;400;500;600;700&family=Permanent+Marker:wght@300;400;500;600;700&family=Special+Elite:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "cassette-mixtape-ui",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/cassette-mixtape-ui.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

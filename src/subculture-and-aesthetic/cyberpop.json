@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Subculture & Aesthetic",
+					"href": "/subculture-and-aesthetic/"
+				},
+				{
+					"text": "Cyberpop Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Cyberpop style mood board — Aesthetic · Futuristic Pop",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Futuristic · Bold Colors · Cute · Playful · Techy",
+			"a_h1": "Cyberpop Style",
+			"a_description": "Neon pastels, bubbly rounded surfaces, and the optimistic vision of a future where technology is cute, colorful, and friendly — Cyberpop merges cyberpunk's tech obsession with pop culture's playful energy. The electric purple accents and soft pink backgrounds create a digital candy shop where AI assistants are adorable and every interface element invites you to tap, swipe, and smile.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "cyberpop"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This playful-futuristic style powers Gen Z-focused social apps, kawaii tech product pages, neon-lit gaming accessories, and digital collectible platforms. You'll see it on virtual pet apps, colorful VPN marketing pages, LED lighting product sites, and mobile game landing pages — anywhere that wants to signal 'technology is fun' rather than 'technology is serious business.'",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The bright, bubbly-futuristic aesthetic of cyberpop — neon pastels, rounded tech surfaces, and the optimistic vision of a future that's cute, colorful, and user-friendly. Background: soft pink (#fff0f5). The .inner panel has a white background (#ffffff) with a playful gradient border effect (2px solid #e040fb) and 20px border-radius — bubbly and rounded like a friendly robot. Colors: electric purple (#e040fb) as the primary accent — the vibrant purple of LED strips and neon signs in a cute candy shop. Dark purple (#2d0a3e) for headings, medium purple-gray (#6a5a7a) for body text. The aesthetic is tech-optimistic and playful — a future where AI assistants are cute, interfaces are pastel, and technology is fun. Set in Exo 2 — a geometric sans-serif with slightly futuristic proportions and friendly rounded terminals. Heading at weight 700, 26px, line-height 1.3, color #2d0a3e. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #e040fb. Body at weight 400, 14px, line-height 1.6, color #6a5a7a. Buttons: primary — purple (#e040fb), white text, 50px border-radius (pill). Secondary: transparent, purple border, pill shape. Alternatives: Quicksand (rounded tech), Fredoka (bubbly display).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Cyberpop style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/cyberpop/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyberpop style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/cyberpop/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyberpop style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/cyberpop/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cyberpop style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/cyberpop/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Cyberpop style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Cyberpop style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Cyberpop website?",
+					"answer": "The bright, bubbly-futuristic aesthetic of cyberpop — neon pastels, rounded tech surfaces, and the optimistic vision of a future that's cute, colorful, and user-friendly. Background: soft pink (#fff0f5). The .inner panel has a white background (#ffffff) with a playful gradient border effect (2px solid #e040fb) and 20px border-radius — bubbly and rounded like a friendly robot. Colors: electric purple (#e040fb) as the primary accent — the vibrant purple of LED strips and neon signs in a cute candy shop. Dark purple (#2d0a3e) for headings, medium purple-gray (#6a5a7a) for body text. The aesthetic is tech-optimistic and playful — a future where AI assistants are cute, interfaces are pastel, and technology is fun. Set in Exo 2 — a geometric sans-serif with slightly futuristic proportions and friendly rounded terminals. Heading at weight 700, 26px, line-height 1.3, color #2d0a3e. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #e040fb. Body at weight 400, 14px, line-height 1.6, color #6a5a7a. Buttons: primary — purple (#e040fb), white text, 50px border-radius (pill). Secondary: transparent, purple border, pill shape. Alternatives: Quicksand (rounded tech), Fredoka (bubbly display)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Cyberpop work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Cyberpop style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Cyberpop look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Acid Graphics style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/acid-graphics.jpg",
+						"href": "/subculture-and-aesthetic/acid-graphics/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Vibrant",
+						"Neon",
+						"Bold Colors"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Afrofuturism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/afrofuturism.jpg",
+						"href": "/subculture-and-aesthetic/afrofuturism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Futuristic",
+						"Bold Colors",
+						"Vibrant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Animecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/animecore.jpg",
+						"href": "/subculture-and-aesthetic/animecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold Colors",
+						"Vibrant",
+						"Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cottagecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/cottagecore.jpg",
+						"href": "/subculture-and-aesthetic/cottagecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Warm"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Cyberpop Style — UI Lookbook",
+		"description": "Explore the Cyberpop style: Aesthetic · Futuristic Pop. Color palettes, typography, design principles, and AI prompts for Cyberpop UI design.",
+		"keywords": "Cyberpop, cyberpop, Futuristic, Bold Colors, Cute, Playful, Techy",
+		"og": {
+			"title": "Cyberpop Style — UI Lookbook",
+			"description": "Explore the Cyberpop style: Aesthetic · Futuristic Pop. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/subculture-and-aesthetic/cyberpop/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/lifestyle.jpg",
+				"alt": "Cyberpop Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Cyberpop Style — UI Lookbook",
+			"description": "Explore the Cyberpop style: Aesthetic · Futuristic Pop. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/cyberpop/lifestyle.jpg",
+				"alt": "Cyberpop Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "cyberpop",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/subculture-and-aesthetic/cyberpop.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

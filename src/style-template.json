@@ -582,10 +582,6 @@
 			{
 				"note": "Google Fonts",
 				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family={Font1}&family={Font2}&display=swap\">"
-			},
-			{
-				"note": "{style-slug}",
-				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/{category-slug}/{style-slug}.css\">"
 			}
 		],
 		"start_body_codes": [],

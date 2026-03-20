@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Subculture & Aesthetic",
+					"href": "/subculture-and-aesthetic/"
+				},
+				{
+					"text": "Psychedelic Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Psychedelic style mood board — Aesthetic · Mind-Expanding",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Bold Colors · Vibrant · Pattern-Heavy · Organic · Spiral",
+			"a_h1": "Psychedelic Style",
+			"a_description": "Swirling rainbow gradients, organic flowing forms, and the cosmic visual language of 60s counterculture — Psychedelic design turns screens into portals for mind-expanding visual experiences. Hot magenta, electric green, and vivid purple blend and flow against deep purple backgrounds, creating the digital equivalent of concert posters for shows where the music melts into light and the walls breathe.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "psychedelic"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This consciousness-expanding style powers music festival promotional sites, vintage record store pages, art gallery exhibitions, and counterculture community platforms. You'll see it on psychedelic rock band sites, hemp product brands, music visualization apps, and retro poster shops — anywhere that the visual language needs to channel the era when art, music, and color dissolved the boundaries of conventional perception.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The swirling, color-saturated aesthetic of psychedelic design — flowing organic forms, rainbow gradients, and the mind-expanding visual language of 60s counterculture concert posters. Background: deep purple (#1a0030) — the cosmic void from which psychedelic visions emerge. The .inner panel has a gradient background (linear-gradient(135deg, rgba(255,0,128,0.15), rgba(0,255,128,0.15), rgba(128,0,255,0.15))) with a 1px border (rgba(255,0,128,0.3)) and 16px border-radius — swirling color on darkness. Colors: hot magenta (#ff0080) as the primary accent. Electric green (#00ff80) and vivid purple (#8000ff) as secondary. Off-white (#f0e8ff) for headings, muted lavender (#a890c0) for body text. The aesthetic is organic and flowing — letterforms melt, colors blend, and hard edges dissolve into waves. Set in Abril Fatface — a high-contrast display face with organic curves that echo the flowing lettering of psychedelic poster art. Heading at weight 400, 30px, line-height 1.2, color #f0e8ff. Eyebrow at weight 400, 11px, uppercase, 3px letter-spacing, color #ff0080. Body at weight 400, 15px, line-height 1.7, color #a890c0. Buttons: primary — magenta (#ff0080), white text, 50px border-radius. Secondary: transparent, green border (#00ff80). Alternatives: Playfair Display (high contrast), Yeseva One (organic curves).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Psychedelic style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/psychedelic/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Psychedelic style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/psychedelic/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Psychedelic style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/psychedelic/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Psychedelic style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/subculture-and-aesthetic/psychedelic/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Psychedelic style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Psychedelic style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Psychedelic website?",
+					"answer": "The swirling, color-saturated aesthetic of psychedelic design — flowing organic forms, rainbow gradients, and the mind-expanding visual language of 60s counterculture concert posters. Background: deep purple (#1a0030) — the cosmic void from which psychedelic visions emerge. The .inner panel has a gradient background (linear-gradient(135deg, rgba(255,0,128,0.15), rgba(0,255,128,0.15), rgba(128,0,255,0.15))) with a 1px border (rgba(255,0,128,0.3)) and 16px border-radius — swirling color on darkness. Colors: hot magenta (#ff0080) as the primary accent. Electric green (#00ff80) and vivid purple (#8000ff) as secondary. Off-white (#f0e8ff) for headings, muted lavender (#a890c0) for body text. The aesthetic is organic and flowing — letterforms melt, colors blend, and hard edges dissolve into waves. Set in Abril Fatface — a high-contrast display face with organic curves that echo the flowing lettering of psychedelic poster art. Heading at weight 400, 30px, line-height 1.2, color #f0e8ff. Eyebrow at weight 400, 11px, uppercase, 3px letter-spacing, color #ff0080. Body at weight 400, 15px, line-height 1.7, color #a890c0. Buttons: primary — magenta (#ff0080), white text, 50px border-radius. Secondary: transparent, green border (#00ff80). Alternatives: Playfair Display (high contrast), Yeseva One (organic curves)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Psychedelic work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Psychedelic style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Psychedelic look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Acid Graphics style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/acid-graphics.jpg",
+						"href": "/subculture-and-aesthetic/acid-graphics/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Vibrant",
+						"Neon",
+						"Bold Colors"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Afrofuturism style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/afrofuturism.jpg",
+						"href": "/subculture-and-aesthetic/afrofuturism/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Futuristic",
+						"Bold Colors",
+						"Vibrant"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Animecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/animecore.jpg",
+						"href": "/subculture-and-aesthetic/animecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Bold Colors",
+						"Vibrant",
+						"Playful"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cottagecore style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/subculture-and-aesthetic/cottagecore.jpg",
+						"href": "/subculture-and-aesthetic/cottagecore/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Warm"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Psychedelic Style — UI Lookbook",
+		"description": "Explore the Psychedelic style: Aesthetic · Mind-Expanding. Color palettes, typography, design principles, and AI prompts for Psychedelic UI design.",
+		"keywords": "Psychedelic, psychedelic, Bold Colors, Vibrant, Pattern-Heavy, Organic, Spiral",
+		"og": {
+			"title": "Psychedelic Style — UI Lookbook",
+			"description": "Explore the Psychedelic style: Aesthetic · Mind-Expanding. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/subculture-and-aesthetic/psychedelic/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/lifestyle.jpg",
+				"alt": "Psychedelic Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Psychedelic Style — UI Lookbook",
+			"description": "Explore the Psychedelic style: Aesthetic · Mind-Expanding. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/subculture-and-aesthetic/psychedelic/lifestyle.jpg",
+				"alt": "Psychedelic Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "psychedelic",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/subculture-and-aesthetic/psychedelic.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

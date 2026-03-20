@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Organic & Natural",
+					"href": "/organic-and-natural/"
+				},
+				{
+					"text": "Flowing Organic Layout Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Flowing Organic Layout style mood board — Organic · Free-Form",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Organic · Fluid · Asymmetric · Broken Grid · Natural",
+			"a_h1": "Flowing Organic Layout Style",
+			"a_description": "Broken grids, asymmetric placement, and the natural flow of content arranged like stones in a river — Flowing Organic Layout rejects rigid structure in favor of compositions that feel grown rather than constructed. The terracotta accents and warm off-white backgrounds evoke sun-dried clay and natural pigments, while the free-form layout creates a reading experience that meanders rather than marches.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "flowing-organic-layout"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This free-flowing style powers artistic portfolio sites, creative agency about pages, artisanal brand stories, and editorial features. You'll see it on ceramic studio portfolios, landscape photography sites, wine region tourism pages, and any digital experience that wants to feel hand-crafted and intentionally irregular — where the layout itself communicates the organic, unforced nature of the content.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The free-flowing, asymmetric aesthetic of organic layouts — broken grids, overlapping elements, and compositions that reject rigid structure in favor of natural, river-like content flow. Background: warm off-white (#faf8f5). The .inner panel has a soft background (#f5f0e8) with no border and 20px border-radius — an asymmetric, organic container that feels hand-placed rather than grid-aligned. Colors: terracotta (#c4704a) as the primary accent — the warm, earthy orange of river clay and natural pigment. Dark warm (#2a1f18) for headings, muted brown (#7a6a58) for body text. The aesthetic is deliberately asymmetric — content flows like water around obstacles, not confined to columns and rows. Set in Lexend — a reading-optimized sans-serif with slightly wider proportions that enhance the relaxed, flowing feel. Heading at weight 600, 26px, line-height 1.3, color #2a1f18. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #c4704a. Body at weight 400, 15px, line-height 1.7, color #7a6a58. Buttons: primary — terracotta (#c4704a), cream text (#faf8f5), 12px border-radius. Secondary: transparent, terracotta border. Alternatives: Work Sans (friendly geometric), Nunito (rounded organic).",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Flowing Organic Layout style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/flowing-organic-layout/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Flowing Organic Layout style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/flowing-organic-layout/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Flowing Organic Layout style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/flowing-organic-layout/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Flowing Organic Layout style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/organic-and-natural/flowing-organic-layout/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Flowing Organic Layout style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Flowing Organic Layout style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Flowing Organic Layout website?",
+					"answer": "The free-flowing, asymmetric aesthetic of organic layouts — broken grids, overlapping elements, and compositions that reject rigid structure in favor of natural, river-like content flow. Background: warm off-white (#faf8f5). The .inner panel has a soft background (#f5f0e8) with no border and 20px border-radius — an asymmetric, organic container that feels hand-placed rather than grid-aligned. Colors: terracotta (#c4704a) as the primary accent — the warm, earthy orange of river clay and natural pigment. Dark warm (#2a1f18) for headings, muted brown (#7a6a58) for body text. The aesthetic is deliberately asymmetric — content flows like water around obstacles, not confined to columns and rows. Set in Lexend — a reading-optimized sans-serif with slightly wider proportions that enhance the relaxed, flowing feel. Heading at weight 600, 26px, line-height 1.3, color #2a1f18. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #c4704a. Body at weight 400, 15px, line-height 1.7, color #7a6a58. Buttons: primary — terracotta (#c4704a), cream text (#faf8f5), 12px border-radius. Secondary: transparent, terracotta border. Alternatives: Work Sans (friendly geometric), Nunito (rounded organic)."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Flowing Organic Layout work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Flowing Organic Layout style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Flowing Organic Layout look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Biophilic Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/biophilic-design.jpg",
+						"href": "/organic-and-natural/biophilic-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Illustrated"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Botanical Theme style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/botanical-theme.jpg",
+						"href": "/organic-and-natural/botanical-theme/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Earthy Palette style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/earthy-palette.jpg",
+						"href": "/organic-and-natural/earthy-palette/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Earthy",
+						"Earth Tones"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Eco Branding style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/organic-and-natural/eco-branding.jpg",
+						"href": "/organic-and-natural/eco-branding/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Organic",
+						"Natural",
+						"Earthy"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Flowing Organic Layout Style — UI Lookbook",
+		"description": "Explore the Flowing Organic Layout style: Organic · Free-Form. Color palettes, typography, design principles, and AI prompts for Flowing Organic Layout UI design.",
+		"keywords": "Flowing Organic Layout, flowing-organic-layout, Organic, Fluid, Asymmetric, Broken Grid, Natural",
+		"og": {
+			"title": "Flowing Organic Layout Style — UI Lookbook",
+			"description": "Explore the Flowing Organic Layout style: Organic · Free-Form. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/organic-and-natural/flowing-organic-layout/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/lifestyle.jpg",
+				"alt": "Flowing Organic Layout Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Flowing Organic Layout Style — UI Lookbook",
+			"description": "Explore the Flowing Organic Layout style: Organic · Free-Form. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/organic-and-natural/flowing-organic-layout/lifestyle.jpg",
+				"alt": "Flowing Organic Layout Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "flowing-organic-layout",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/organic-and-natural/flowing-organic-layout.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

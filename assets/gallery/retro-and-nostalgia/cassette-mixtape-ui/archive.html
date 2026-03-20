@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Archive — Mixtape Catalogue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg:           #2a2420;
+            --label-bg:     #f5edd6;
+            --label-border: #c8b89a;
+            --ink-dark:     #2a2420;
+            --ink-mid:      #6b4f2c; /* darkened from spec #8b7355 — AA pass on label-bg (6.25:1) */
+            --ink-body:     #4a3f32;
+            --cream:        #f5edd6;
+            --muted:        #c8b89a; /* AA pass on --bg (7.87:1) */
+
+            --c-zoe:   #c0392b; /* 4.61:1 on label-bg ✓ */
+            --c-sam:   #2c5f8a; /* 5.63:1 ✓ */
+            --c-elena: #3a6b4a; /* 5.24:1 ✓ */
+            --c-kai:   #7b52ab; /* 4.86:1 ✓ */
+            --c-riley: #955415; /* darkened from #c07830 — 4.97:1 ✓ */
+        }
+
+        @keyframes fade-up {
+            from { opacity: 0; transform: translateY(14px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        body {
+            background-color: var(--bg);
+            font-family: 'Barlow', sans-serif;
+            min-height: 100vh;
+            color: var(--cream);
+        }
+
+        /* ─── HEADER ──────────────────────────────────────────── */
+        .site-header {
+            padding: 52px 52px 0;
+
+            &::after {
+                content: '';
+                display: block;
+                margin-top: 44px;
+                height: 1px;
+                background: linear-gradient(
+                    to right,
+                    transparent,
+                    var(--label-border) 12%,
+                    var(--label-border) 88%,
+                    transparent
+                );
+            }
+
+            @media (max-width: 768px) {
+                padding: 32px 24px 0;
+            }
+        }
+
+        .header-label {
+            display: inline-block;
+            background-color: var(--label-bg);
+            background-image: repeating-linear-gradient(
+                transparent,
+                transparent 23px,
+                rgba(200, 184, 154, 0.35) 23px,
+                rgba(200, 184, 154, 0.35) 24px
+            );
+            border: 1.5px solid var(--label-border);
+            border-radius: 3px;
+            padding: 22px 36px 20px;
+            transform: rotate(-1deg);
+            box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.45);
+
+            .header-label__eyebrow {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: var(--ink-mid);
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-bottom: 10px;
+
+                i { width: 14px; height: 14px; flex-shrink: 0; }
+            }
+
+            h1 {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 44px;
+                line-height: 1.15;
+                color: var(--ink-dark);
+                text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.45);
+            }
+
+            .header-label__sub {
+                margin-top: 8px;
+                font-size: 11px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: var(--ink-body);
+            }
+        }
+
+        /* ─── TOOLBAR ─────────────────────────────────────────── */
+        .toolbar {
+            padding: 32px 52px 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px 6px;
+
+            @media (max-width: 768px) {
+                padding: 24px 24px 0;
+            }
+        }
+
+        .toolbar__group {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .toolbar__label {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--muted);
+            margin-right: 4px;
+            white-space: nowrap;
+        }
+
+        .toolbar__divider {
+            width: 1px;
+            height: 22px;
+            background: rgba(200, 184, 154, 0.18);
+            flex-shrink: 0;
+        }
+
+        /* ─── CHIPS ───────────────────────────────────────────── */
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 11px;
+            border-radius: 3px;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 13px;
+            cursor: pointer;
+            border: 1.5px solid rgba(200, 184, 154, 0.22);
+            background: transparent;
+            color: var(--muted);
+            transition: background 0.3s, color 0.3s, border-color 0.3s;
+
+            &:hover {
+                border-color: var(--muted);
+                color: var(--cream);
+            }
+
+            &.is-active {
+                background: var(--label-bg);
+                color: var(--ink-dark);
+                border-color: var(--label-border);
+            }
+
+            .chip__dot {
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                flex-shrink: 0;
+            }
+        }
+
+        /* ─── SORT ────────────────────────────────────────────── */
+        .sort-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-family: 'Barlow', sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            cursor: pointer;
+            border: 1.5px solid rgba(200, 184, 154, 0.18);
+            background: transparent;
+            color: rgba(200, 184, 154, 0.6);
+            transition: color 0.3s, border-color 0.3s, background 0.3s;
+
+            &:hover {
+                color: var(--cream);
+                border-color: var(--muted);
+            }
+
+            &.is-active {
+                color: var(--cream);
+                border-color: var(--muted);
+                background: rgba(245, 237, 214, 0.08);
+            }
+        }
+
+        /* ─── SEARCH ──────────────────────────────────────────── */
+        .search-wrap {
+            position: relative;
+            margin-left: auto;
+
+            @media (max-width: 600px) {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            i[data-lucide="search"] {
+                position: absolute;
+                left: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 13px;
+                height: 13px;
+                color: var(--muted);
+                pointer-events: none;
+            }
+
+            input {
+                width: 200px;
+                background: rgba(245, 237, 214, 0.05);
+                border: 1.5px solid rgba(200, 184, 154, 0.22);
+                border-radius: 3px;
+                padding: 6px 12px 6px 30px;
+                font-family: 'Barlow', sans-serif;
+                font-size: 13px;
+                color: var(--cream);
+                transition: width 0.3s, border-color 0.3s, background 0.3s;
+
+                &::placeholder { color: rgba(200, 184, 154, 0.5); }
+
+                &:focus {
+                    outline: none;
+                    width: 240px;
+                    border-color: var(--label-border);
+                    background: rgba(245, 237, 214, 0.09);
+                }
+
+                @media (max-width: 600px) {
+                    width: 100%;
+
+                    &:focus { width: 100%; }
+                }
+            }
+        }
+
+        /* ─── STATS BAR ───────────────────────────────────────── */
+        .stats-bar {
+            padding: 20px 52px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            @media (max-width: 768px) {
+                padding: 16px 24px;
+            }
+        }
+
+        .stats-bar__count {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 13px;
+            color: var(--cream);
+            background: rgba(245, 237, 214, 0.1);
+            padding: 2px 10px;
+            border-radius: 2px;
+        }
+
+        .stats-bar__label {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.7px;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        /* ─── GRID ────────────────────────────────────────────── */
+        .tape-grid {
+            padding: 4px 52px 80px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+            gap: 52px 36px;
+
+            @media (max-width: 768px) {
+                padding: 4px 24px 60px;
+                gap: 44px 20px;
+            }
+
+            @media (max-width: 480px) {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 36px 14px;
+            }
+        }
+
+        /* ─── TAPE CARD ───────────────────────────────────────── */
+        .tape-card {
+            cursor: pointer;
+            animation: fade-up 0.35s ease backwards;
+
+            &.is-hidden { display: none; }
+
+            .tape-card__inner {
+                background-color: var(--label-bg);
+                background-image: repeating-linear-gradient(
+                    transparent,
+                    transparent 23px,
+                    rgba(200, 184, 154, 0.32) 23px,
+                    rgba(200, 184, 154, 0.32) 24px
+                );
+                border: 1.5px solid var(--label-border);
+                border-radius: 3px;
+                transform: rotate(var(--rot, -1deg));
+                transition: transform 0.3s, box-shadow 0.3s;
+                box-shadow:
+                    3px 5px 0 rgba(0, 0, 0, 0.38),
+                    5px 10px 22px rgba(0, 0, 0, 0.42);
+                overflow: hidden;
+            }
+
+            &:hover .tape-card__inner {
+                transform: rotate(0deg) translateY(-7px);
+                box-shadow:
+                    5px 10px 0 rgba(0, 0, 0, 0.3),
+                    10px 22px 36px rgba(0, 0, 0, 0.58);
+            }
+
+            .tape-card__strip {
+                height: 7px;
+                background: var(--tape-color);
+            }
+
+            .tape-card__body {
+                padding: 14px 16px 13px;
+            }
+
+            .tape-card__eyebrow {
+                display: block;
+                font-family: 'Permanent Marker', cursive;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: var(--ink-mid);
+                margin-bottom: 5px;
+            }
+
+            .tape-card__title {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 20px;
+                line-height: 1.25;
+                color: var(--ink-dark);
+                text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+                margin-bottom: 10px;
+            }
+
+            .tape-card__sides {
+                display: flex;
+                gap: 4px;
+                margin-bottom: 10px;
+
+                span {
+                    font-size: 9px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    padding: 2px 6px;
+                    border: 1px solid var(--tape-color);
+                    color: var(--tape-color);
+                    border-radius: 2px;
+                }
+            }
+
+            .tape-card__rule {
+                height: 1px;
+                background: var(--label-border);
+                opacity: 0.5;
+                margin-bottom: 10px;
+            }
+
+            .tape-card__tracks {
+                list-style: none;
+
+                li {
+                    font-size: 10.5px;
+                    color: var(--ink-body);
+                    line-height: 1.75;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                    &.is-more {
+                        font-style: italic;
+                        color: var(--ink-mid);
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .tape-card__footer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 13px;
+                padding-top: 10px;
+                border-top: 1px solid rgba(200, 184, 154, 0.45);
+
+                time {
+                    font-size: 10.5px;
+                    font-weight: 600;
+                    letter-spacing: 0.3px;
+                    color: var(--ink-mid);
+                }
+
+                button {
+                    width: 26px;
+                    height: 26px;
+                    border-radius: 50%;
+                    background: var(--tape-color);
+                    border: none;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    transition: transform 0.3s;
+
+                    i {
+                        width: 11px;
+                        height: 11px;
+                        color: #ffffff;
+                        display: block;
+                    }
+
+                    &:hover { transform: scale(1.14); }
+                }
+            }
+        }
+
+        /* ─── EMPTY STATE ─────────────────────────────────────── */
+        .empty-state {
+            display: none;
+            grid-column: 1 / -1;
+            padding: 64px 0;
+            text-align: center;
+
+            &.is-visible { display: block; }
+
+            .empty-state__label {
+                display: inline-block;
+                background-color: var(--label-bg);
+                background-image: repeating-linear-gradient(
+                    transparent,
+                    transparent 23px,
+                    rgba(200, 184, 154, 0.35) 23px,
+                    rgba(200, 184, 154, 0.35) 24px
+                );
+                border: 1.5px solid var(--label-border);
+                border-radius: 3px;
+                padding: 28px 48px;
+                transform: rotate(-0.5deg);
+
+                p {
+                    font-family: 'Permanent Marker', cursive;
+                    font-size: 22px;
+                    color: var(--ink-mid);
+                }
+
+                small {
+                    display: block;
+                    margin-top: 8px;
+                    font-size: 12px;
+                    color: var(--ink-body);
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-label">
+            <div class="header-label__eyebrow">
+                <i data-lucide="archive"></i>
+                mixtape collective
+            </div>
+            <h1>The Archive</h1>
+            <p class="header-label__sub">crate-digging catalogue · Vol. I</p>
+        </div>
+    </header>
+
+    <nav class="toolbar" aria-label="Filter and sort tapes">
+        <div class="toolbar__group">
+            <span class="toolbar__label">Filter</span>
+            <button class="chip is-active" data-filter="all">All</button>
+            <button class="chip" data-filter="Zoe">
+                <span class="chip__dot" style="background: var(--c-zoe)"></span>Zoe
+            </button>
+            <button class="chip" data-filter="Sam">
+                <span class="chip__dot" style="background: var(--c-sam)"></span>Sam
+            </button>
+            <button class="chip" data-filter="Elena">
+                <span class="chip__dot" style="background: var(--c-elena)"></span>Elena
+            </button>
+            <button class="chip" data-filter="Kai">
+                <span class="chip__dot" style="background: var(--c-kai)"></span>Kai
+            </button>
+            <button class="chip" data-filter="Riley">
+                <span class="chip__dot" style="background: var(--c-riley)"></span>Riley
+            </button>
+        </div>
+        <div class="toolbar__divider"></div>
+        <div class="toolbar__group">
+            <span class="toolbar__label">Sort</span>
+            <button class="sort-btn is-active" data-sort="newest">Newest</button>
+            <button class="sort-btn" data-sort="oldest">Oldest</button>
+            <button class="sort-btn" data-sort="az">A–Z</button>
+        </div>
+        <div class="search-wrap">
+            <i data-lucide="search"></i>
+            <input type="text" id="search-input" placeholder="search tapes…" aria-label="Search tapes">
+        </div>
+    </nav>
+
+    <div class="stats-bar">
+        <span class="stats-bar__count" id="tape-count">12 tapes</span>
+        <span class="stats-bar__label">5 contributors</span>
+    </div>
+
+    <main class="tape-grid" id="tape-grid">
+        <div class="empty-state" id="empty-state">
+            <div class="empty-state__label">
+                <p>No tapes found.</p>
+                <small>try a different search or filter</small>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        const PERSON_COLORS = {
+            Zoe:   'var(--c-zoe)',
+            Sam:   'var(--c-sam)',
+            Elena: 'var(--c-elena)',
+            Kai:   'var(--c-kai)',
+            Riley: 'var(--c-riley)',
+        };
+
+        const tapes = [
+            {
+                id: 1, title: 'Summer Drives', person: 'Zoe',
+                tracks: ['Phoebe Bridgers – Savior Complex', 'boygenius – Not Strong Enough', 'The National – Bloodbuzz Ohio'],
+                count: 14, date: '2024-08', dateLabel: 'Aug 2024', rot: -1.8, sides: ['A', 'B'],
+            },
+            {
+                id: 2, title: 'Study Sesh Vol. 1', person: 'Sam',
+                tracks: ['Nils Frahm – Says', 'Floating Points – LesAlpx', 'Jon Hopkins – Open Eye Signal'],
+                count: 11, date: '2024-07', dateLabel: 'Jul 2024', rot: 1.2, sides: ['A'],
+            },
+            {
+                id: 3, title: 'Heartbreak Hotel', person: 'Elena',
+                tracks: ['Lana Del Rey – Video Games', 'Mitski – Nobody', 'Faye Webster – Right Side of My Neck'],
+                count: 9, date: '2024-06', dateLabel: 'Jun 2024', rot: -0.8, sides: ['A', 'B'],
+            },
+            {
+                id: 4, title: 'Dawn Patrol', person: 'Kai',
+                tracks: ["Four Tet – Angel Echoes", "Caribou – Can't Do Without You", 'Jamie xx – Loud Places'],
+                count: 13, date: '2024-05', dateLabel: 'May 2024', rot: 2.1, sides: ['A', 'B'],
+            },
+            {
+                id: 5, title: 'Nostalgia Trip', person: 'Riley',
+                tracks: ["No Doubt – Don't Speak", 'Alanis Morissette – Ironic', 'TLC – Waterfalls'],
+                count: 16, date: '2024-09', dateLabel: 'Sep 2024', rot: -1.4, sides: ['A', 'B'],
+            },
+            {
+                id: 6, title: 'Rain Day Mix', person: 'Zoe',
+                tracks: ['Nick Drake – Pink Moon', 'Elliott Smith – Between the Bars', 'Sufjan Stevens – Death With Dignity'],
+                count: 10, date: '2024-10', dateLabel: 'Oct 2024', rot: 1.7, sides: ['A'],
+            },
+            {
+                id: 7, title: 'The Grower', person: 'Sam',
+                tracks: ['Radiohead – Let Down', 'Talking Heads – This Must Be the Place', 'LCD Soundsystem – All My Friends'],
+                count: 12, date: '2024-04', dateLabel: 'Apr 2024', rot: -2.2, sides: ['A', 'B'],
+            },
+            {
+                id: 8, title: 'Golden Hour', person: 'Elena',
+                tracks: ['Kacey Musgraves – Golden Hour', 'Arlo Parks – Green Eyes', 'Rex Orange County – Pluto Projector'],
+                count: 8, date: '2024-11', dateLabel: 'Nov 2024', rot: 0.9, sides: ['A'],
+            },
+            {
+                id: 9, title: 'Night Frequency', person: 'Kai',
+                tracks: ['Boards of Canada – Roygbiv', 'Aphex Twin – Avril 14th', 'Brian Eno – An Ending'],
+                count: 15, date: '2024-03', dateLabel: 'Mar 2024', rot: -1.5, sides: ['A', 'B'],
+            },
+            {
+                id: 10, title: "Vintage '99", person: 'Riley',
+                tracks: ['Moby – Why Does My Heart Feel So Bad?', 'Fatboy Slim – Praise You', 'Daft Punk – One More Time'],
+                count: 18, date: '2024-02', dateLabel: 'Feb 2024', rot: 2.5, sides: ['A', 'B'],
+            },
+            {
+                id: 11, title: 'Beach Tape', person: 'Zoe',
+                tracks: ["Real Estate – It's Real", 'Vampire Weekend – Cape Cod Kwassa Kwassa', 'Mac DeMarco – Chamber of Reflection'],
+                count: 13, date: '2024-12', dateLabel: 'Dec 2024', rot: -0.6, sides: ['A', 'B'],
+            },
+            {
+                id: 12, title: 'Deep Cuts Only', person: 'Sam',
+                tracks: ['The War on Drugs – Under the Pressure', 'Destroyer – Kaputt', 'Silver Jews – Pretty Eyes'],
+                count: 11, date: '2025-01', dateLabel: 'Jan 2025', rot: 1.9, sides: ['A'],
+            },
+        ];
+
+        let activeFilter = 'all';
+        let activeSort   = 'newest';
+        let searchQuery  = '';
+
+        const grid       = document.getElementById('tape-grid');
+        const emptyState = document.getElementById('empty-state');
+        const tapeCount  = document.getElementById('tape-count');
+
+        const sorters = {
+            newest: (a, b) => b.date.localeCompare(a.date),
+            oldest: (a, b) => a.date.localeCompare(b.date),
+            az:     (a, b) => a.title.localeCompare(b.title),
+        };
+
+        const renderCards = () => {
+            grid.querySelectorAll('.tape-card').forEach(c => c.remove());
+
+            const q = searchQuery.toLowerCase();
+            const filtered = tapes
+                .filter(({ person, title, tracks }) => {
+                    const matchesPerson = activeFilter === 'all' || person === activeFilter;
+                    const matchesSearch = !q || [title, person, ...tracks].some(s => s.toLowerCase().includes(q));
+                    return matchesPerson && matchesSearch;
+                })
+                .sort(sorters[activeSort]);
+
+            if (filtered.length === 0) {
+                emptyState.classList.add('is-visible');
+                tapeCount.textContent = '0 tapes';
+            } else {
+                emptyState.classList.remove('is-visible');
+                tapeCount.textContent = `${filtered.length} tape${filtered.length !== 1 ? 's' : ''}`;
+
+                filtered.forEach(({ title, person, tracks, count, dateLabel, rot, sides }, index) => {
+                    const color     = PERSON_COLORS[person];
+                    const moreCount = count - 3;
+
+                    const card = document.createElement('article');
+                    card.className = 'tape-card';
+                    card.style.cssText = `--rot: ${rot}deg; --tape-color: ${color}; animation-delay: ${index * 0.055}s;`;
+
+                    const sidesHtml  = sides.map(s => `<span>Side ${s}</span>`).join('');
+                    const tracksHtml = tracks.slice(0, 3)
+                        .map((tr, i) => `<li>${String(i + 1).padStart(2, '0')}. ${tr}</li>`)
+                        .join('');
+                    const moreHtml   = moreCount > 0 ? `<li class="is-more">+${moreCount} more…</li>` : '';
+
+                    card.innerHTML = `
+                        <div class="tape-card__inner">
+                            <div class="tape-card__strip"></div>
+                            <div class="tape-card__body">
+                                <span class="tape-card__eyebrow">${person} · ${count} tracks</span>
+                                <h2 class="tape-card__title">${title}</h2>
+                                <div class="tape-card__sides">${sidesHtml}</div>
+                                <div class="tape-card__rule"></div>
+                                <ul class="tape-card__tracks">${tracksHtml}${moreHtml}</ul>
+                                <div class="tape-card__footer">
+                                    <time>${dateLabel}</time>
+                                    <button aria-label="Play ${title}">
+                                        <i data-lucide="play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+
+                    grid.insertBefore(card, emptyState);
+                });
+            }
+
+            lucide.createIcons();
+        };
+
+        document.querySelectorAll('.chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                document.querySelectorAll('.chip').forEach(c => c.classList.remove('is-active'));
+                chip.classList.add('is-active');
+                activeFilter = chip.dataset.filter;
+                renderCards();
+            });
+        });
+
+        document.querySelectorAll('.sort-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('is-active'));
+                btn.classList.add('is-active');
+                activeSort = btn.dataset.sort;
+                renderCards();
+            });
+        });
+
+        document.getElementById('search-input').addEventListener('input', ({ target: { value } }) => {
+            searchQuery = value.trim();
+            renderCards();
+        });
+
+        renderCards();
+    </script>
+
+</body>
+</html>

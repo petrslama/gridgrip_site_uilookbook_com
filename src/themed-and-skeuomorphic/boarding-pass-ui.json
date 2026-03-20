@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Themed & Skeuomorphic",
+					"href": "/themed-and-skeuomorphic/"
+				},
+				{
+					"text": "Boarding Pass UI Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Boarding Pass UI style mood board — Skeuomorphic · Travel",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Hand-Crafted · Skeuomorphic · Organic · Dimensional · Professional",
+			"a_h1": "Boarding Pass UI Style",
+			"a_description": "Bold destination codes, perforated edges, and the structured urgency of travel information — Boarding Pass UI mimics the distinctive card design of airline tickets with their strict columnar layouts, monospaced flight codes, and that satisfying tear-along-the-dotted-line perforation. It transforms the screen into a physical travel document, complete with airline-blue accents and utilitarian condensed type.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "boarding-pass-ui"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This aesthetic appears on travel booking platforms, airline loyalty program sites, and tourism startup landing pages. You'll find it on event ticketing apps, travel blog headers, transit system interfaces, and any project that wants to channel the structured excitement of departure — that moment when you hold your boarding pass and the journey begins.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "A physical boarding pass — the distinctive perforated card with bold destination codes, flight information in strict columns, and that airline-ticket materiality. Background: warm light gray (#e8e4de) simulating an airport counter surface. The .inner panel is the boarding pass itself: white (#ffffff) background with a dotted-line perforation along the right side (border-right: 2px dashed #ccc), and a colored accent band at the top (airline blue #1565c0). The layout feels structured and information-dense. Typography is utilitarian and airline-like. Set in Roboto Condensed for headings and labels — its condensed proportions channel the space-efficient typography of airline tickets and luggage tags. Roboto Mono for the eyebrow — monospaced type mimicking flight codes and gate numbers. Heading in Roboto Condensed at weight 700, 28px, uppercase, 2px letter-spacing, color #1565c0. Eyebrow in Roboto Mono at 12px, weight 400, uppercase, 3px letter-spacing, color #888. Body at 14px Roboto Condensed, weight 400, line-height 1.6, color #333. Buttons: primary — airline blue (#1565c0), white text, 4px border-radius. Secondary: transparent, blue border. Alternatives: Barlow Condensed, Oswald, IBM Plex Sans Condensed.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Boarding Pass UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/boarding-pass-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Boarding Pass UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/boarding-pass-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Boarding Pass UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/boarding-pass-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Boarding Pass UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/themed-and-skeuomorphic/boarding-pass-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Boarding Pass UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Boarding Pass UI style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Boarding Pass UI website?",
+					"answer": "A physical boarding pass — the distinctive perforated card with bold destination codes, flight information in strict columns, and that airline-ticket materiality. Background: warm light gray (#e8e4de) simulating an airport counter surface. The .inner panel is the boarding pass itself: white (#ffffff) background with a dotted-line perforation along the right side (border-right: 2px dashed #ccc), and a colored accent band at the top (airline blue #1565c0). The layout feels structured and information-dense. Typography is utilitarian and airline-like. Set in Roboto Condensed for headings and labels — its condensed proportions channel the space-efficient typography of airline tickets and luggage tags. Roboto Mono for the eyebrow — monospaced type mimicking flight codes and gate numbers. Heading in Roboto Condensed at weight 700, 28px, uppercase, 2px letter-spacing, color #1565c0. Eyebrow in Roboto Mono at 12px, weight 400, uppercase, 3px letter-spacing, color #888. Body at 14px Roboto Condensed, weight 400, line-height 1.6, color #333. Buttons: primary — airline blue (#1565c0), white text, 4px border-radius. Secondary: transparent, blue border. Alternatives: Barlow Condensed, Oswald, IBM Plex Sans Condensed."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Boarding Pass UI work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Boarding Pass UI style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Boarding Pass UI look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Blueprint style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/blueprint.jpg",
+						"href": "/themed-and-skeuomorphic/blueprint/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Outline",
+						"Dark Mode",
+						"Technical"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Chalkboard style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/chalkboard.jpg",
+						"href": "/themed-and-skeuomorphic/chalkboard/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Textured",
+						"Dark",
+						"Warm"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "File Folder UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/file-folder-ui.jpg",
+						"href": "/themed-and-skeuomorphic/file-folder-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Skeuomorphic",
+						"Hand-Crafted",
+						"Dimensional"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Hacker Matrix Style style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/themed-and-skeuomorphic/hacker-matrix-style.jpg",
+						"href": "/themed-and-skeuomorphic/hacker-matrix-style/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dark Mode",
+						"Monospaced",
+						"Neon"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Boarding Pass UI Style — UI Lookbook",
+		"description": "Explore the Boarding Pass UI style: Skeuomorphic · Travel. Color palettes, typography, design principles, and AI prompts for Boarding Pass UI UI design.",
+		"keywords": "Boarding Pass UI, boarding-pass-ui, Hand-Crafted, Skeuomorphic, Organic, Dimensional, Professional",
+		"og": {
+			"title": "Boarding Pass UI Style — UI Lookbook",
+			"description": "Explore the Boarding Pass UI style: Skeuomorphic · Travel. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/themed-and-skeuomorphic/boarding-pass-ui/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/lifestyle.jpg",
+				"alt": "Boarding Pass UI Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Boarding Pass UI Style — UI Lookbook",
+			"description": "Explore the Boarding Pass UI style: Skeuomorphic · Travel. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/themed-and-skeuomorphic/boarding-pass-ui/lifestyle.jpg",
+				"alt": "Boarding Pass UI Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "boarding-pass-ui",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/themed-and-skeuomorphic/boarding-pass-ui.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

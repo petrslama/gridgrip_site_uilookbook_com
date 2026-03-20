@@ -1,0 +1,640 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Dark & Moody",
+					"href": "/dark-and-moody/"
+				},
+				{
+					"text": "Midnight Blue UI Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "Midnight Blue UI style mood board — Dark · Deep Blue Night",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/lifestyle.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Dark Mode · Dark · Cool · Professional · Calm",
+			"a_h1": "Midnight Blue UI Style",
+			"a_description": "The distinctive visual language of Midnight Blue UI — combining dark mode, dark, cool elements to create interfaces that are immediately recognizable and purposefully designed. Every color, font choice, and spacing decision works together to evoke the specific mood and cultural context that defines this aesthetic, from the primary accent color to the carefully chosen typography.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "midnight-blue-ui"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This style finds its natural home across websites and applications that value dark mode and dark design principles. You'll see it on creative portfolios, brand microsites, specialized platforms, and digital experiences where the visual language itself communicates as powerfully as the content — proving that the right aesthetic choice can transform a standard layout into a memorable experience.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 1}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 2}",
+					"a_description": "{Specific examples, comma-separated}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style use case illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/use-cases.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Industry/Use Case 3}",
+					"a_description": "{Specific examples, comma-separated}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "The distinctive visual aesthetic of Midnight Blue UI — a design approach that creates unique, memorable interfaces. Background: dark (#0c1222). The .inner panel has a slightly lighter background with subtle border treatment and appropriate border-radius. Colors: #60a5fa as the primary accent for interactive elements and highlights. #c0d0e8 for headings, #6a7a9a for body text. The aesthetic captures the essence of midnight blue ui through careful color choices, spacing, and visual weight. Set in Inter — chosen for its visual character that complements this design style. Heading at weight 600-700, 24-28px, line-height 1.2-1.3. Eyebrow at weight 500, 11px, uppercase, 2-3px letter-spacing, color #60a5fa. Body at weight 400, 14-15px, line-height 1.6-1.7, color #6a7a9a. Buttons: primary — #60a5fa background with contrasting text. Secondary: transparent with #60a5fa border. Alternatives: system-ui (universal fallback), sans-serif stack.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Midnight Blue UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/dark-and-moody/midnight-blue-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Midnight Blue UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/dark-and-moody/midnight-blue-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Midnight Blue UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/dark-and-moody/midnight-blue-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Midnight Blue UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/dark-and-moody/midnight-blue-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					]
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 1 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 2 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 3 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 4 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 5 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style design principle illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/principle.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Principle 6 Name}",
+					"a_description": "{2-3 sentences explaining this design principle.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "{Palette Name}",
+			"a_description": "{What this palette represents — the core identity}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use: primary action, headlines, etc.}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#888888",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "{Palette 2 Name}",
+			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-2-slug}"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "{Palette 3 Name}",
+			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#000000",
+					"a_description": "{Where to use}"
+				},
+				{
+					"a_h3": "{Color Name}",
+					"hex": "#FFFFFF",
+					"a_description": "{Where to use}"
+				}
+			],
+			"section_id": "{palette-3-slug}"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Heading Fonts",
+			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+				}
+			],
+			"section_id": "typography"
+		},
+		{
+			"fu_type": "o_typography",
+			"a_eyebrow": "Typography",
+			"a_h2": "Text Fonts",
+			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"fonts": [
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "{Font Name}",
+					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "{Font Name}",
+					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				}
+			]
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Origins — what era/movement it came from}",
+					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Peak — the defining medium or movement}",
+					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+				},
+				{
+					"a_image_cover": {
+						"alt": "Midnight Blue UI style history illustration",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/history.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "{Modern Revival or Legacy}",
+					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Midnight Blue UI style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": "bot",
+					"a_h3": "What AI prompt generates a Midnight Blue UI website?",
+					"answer": "The distinctive visual aesthetic of Midnight Blue UI — a design approach that creates unique, memorable interfaces. Background: dark (#0c1222). The .inner panel has a slightly lighter background with subtle border treatment and appropriate border-radius. Colors: #60a5fa as the primary accent for interactive elements and highlights. #c0d0e8 for headings, #6a7a9a for body text. The aesthetic captures the essence of midnight blue ui through careful color choices, spacing, and visual weight. Set in Inter — chosen for its visual character that complements this design style. Heading at weight 600-700, 24-28px, line-height 1.2-1.3. Eyebrow at weight 500, 11px, uppercase, 2-3px letter-spacing, color #60a5fa. Body at weight 400, 14-15px, line-height 1.6-1.7, color #6a7a9a. Buttons: primary — #60a5fa background with contrasting text. Secondary: transparent with #60a5fa border. Alternatives: system-ui (universal fallback), sans-serif stack."
+				},
+				{
+					"a_icon": "briefcase",
+					"a_h3": "What industries does Midnight Blue UI work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": "swatch-book",
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": "circle-slash",
+					"a_h3": "When should I avoid using the Midnight Blue UI style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": "{lucide-icon}",
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": "type",
+					"a_h3": "What fonts best capture the Midnight Blue UI look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Cinematic Dark style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/dark-and-moody/cinematic-dark.jpg",
+						"href": "/dark-and-moody/cinematic-dark/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dark Mode",
+						"Dark",
+						"Moody"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Gradient style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/dark-and-moody/dark-gradient.jpg",
+						"href": "/dark-and-moody/dark-gradient/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dark Mode",
+						"Gradient",
+						"Moody"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Luxury style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/dark-and-moody/dark-luxury.jpg",
+						"href": "/dark-and-moody/dark-luxury/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dark Mode",
+						"Luxurious",
+						"Premium"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Dark Mode Neon Accents style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/dark-and-moody/dark-mode-neon-accents.jpg",
+						"href": "/dark-and-moody/dark-mode-neon-accents/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Dark Mode",
+						"Neon",
+						"Bold Colors"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Midnight Blue UI Style — UI Lookbook",
+		"description": "Explore the Midnight Blue UI style: Dark · Deep Blue Night. Color palettes, typography, design principles, and AI prompts for Midnight Blue UI UI design.",
+		"keywords": "Midnight Blue UI, midnight-blue-ui, Dark Mode, Dark, Cool, Professional, Calm",
+		"og": {
+			"title": "Midnight Blue UI Style — UI Lookbook",
+			"description": "Explore the Midnight Blue UI style: Dark · Deep Blue Night. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/dark-and-moody/midnight-blue-ui/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/lifestyle.jpg",
+				"alt": "Midnight Blue UI Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Midnight Blue UI Style — UI Lookbook",
+			"description": "Explore the Midnight Blue UI style: Dark · Deep Blue Night. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/dark-and-moody/midnight-blue-ui/lifestyle.jpg",
+				"alt": "Midnight Blue UI Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "midnight-blue-ui",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/dark-and-moody/midnight-blue-ui.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

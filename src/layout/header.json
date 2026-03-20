@@ -16,12 +16,128 @@
 					"href": "/#retro-and-nostalgia"
 				},
 				{
+					"label": "Themed & Skeuomorphic",
+					"href": "/#themed-and-skeuomorphic"
+				},
+				{
 					"label": "Cultural & Regional",
 					"href": "/#cultural-and-regional"
 				},
 				{
-					"label": "Art & Design",
+					"label": "Heavy Animation & Motion",
+					"href": "/#heavy-animation-and-motion"
+				},
+				{
+					"label": "Flat & Material",
+					"href": "/#flat-and-material"
+				},
+				{
+					"label": "Subculture & Aesthetic",
+					"href": "/#subculture-and-aesthetic"
+				},
+				{
+					"label": "Organic & Natural",
+					"href": "/#organic-and-natural"
+				},
+				{
+					"label": "Art & Design Movements",
 					"href": "/#art-and-design-movements"
+				},
+				{
+					"label": "AI & Generative Design",
+					"href": "/#ai-and-generative-design"
+				},
+				{
+					"label": "Illustrated & Animated",
+					"href": "/#illustrated-and-animated"
+				},
+				{
+					"label": "3D & Spatial",
+					"href": "/#3d-and-spatial"
+				},
+				{
+					"label": "Memphis & Maximalism",
+					"href": "/#memphis-and-maximalism"
+				},
+				{
+					"label": "Data & Visualization",
+					"href": "/#data-and-visualization"
+				},
+				{
+					"label": "Photo & Media Driven",
+					"href": "/#photo-and-media-driven"
+				},
+				{
+					"label": "Morphism & Surface",
+					"href": "/#morphism-and-surface"
+				},
+				{
+					"label": "Minimalist & Spacious",
+					"href": "/#minimalist-and-spacious"
+				},
+				{
+					"label": "Navigation & Interaction",
+					"href": "/#navigation-and-interaction"
+				},
+				{
+					"label": "Experimental & Avant-Garde",
+					"href": "/#experimental-and-avant-garde"
+				},
+				{
+					"label": "Luxury & Prestige",
+					"href": "/#luxury-and-prestige"
+				},
+				{
+					"label": "Typography Driven",
+					"href": "/#typography-driven"
+				},
+				{
+					"label": "Geometric & Grid Based",
+					"href": "/#geometric-and-grid-based"
+				},
+				{
+					"label": "Brutalism Family",
+					"href": "/#brutalism-family"
+				},
+				{
+					"label": "E-Commerce & SaaS",
+					"href": "/#e-commerce-and-saas"
+				},
+				{
+					"label": "Accessibility & Inclusive",
+					"href": "/#accessibility-and-inclusive"
+				},
+				{
+					"label": "Card Play & Component",
+					"href": "/#card-play-and-component"
+				},
+				{
+					"label": "Dark & Moody",
+					"href": "/#dark-and-moody"
+				},
+				{
+					"label": "Sustainable & Ethical",
+					"href": "/#sustainable-and-ethical"
+				},
+				{
+					"label": "Scroll & Layout",
+					"href": "/#scroll-and-layout"
+				},
+				{
+					"label": "Texture & Pattern",
+					"href": "/#texture-and-pattern"
+				},
+				{
+					"label": "Gradient & Color",
+					"href": "/#gradient-and-color"
+				},
+				{
+					"label": "IndieWeb & Personal",
+					"href": "/#indieweb-and-personal"
+				},
+				{
+					"label": "Gaming & Interactive",
+					"href": "/#gaming-and-interactive"
 				},
 				{
 					"label": "About",
