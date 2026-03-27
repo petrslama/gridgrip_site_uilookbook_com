@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 1}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 2}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 3}",
 					"a_description": "{Specific examples, comma-separated}"
 				}
@@ -107,7 +107,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -123,7 +124,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -139,7 +141,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -155,7 +158,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -173,7 +177,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 1 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -185,7 +189,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 2 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -197,7 +201,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 3 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -209,7 +213,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 4 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -221,7 +225,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 5 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -233,7 +237,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/vaporwave/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 6 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				}
@@ -498,32 +502,32 @@
 			"a_description": "Common questions about Vaporwave style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a Vaporwave website?",
 					"answer": "The dreamy, retro-digital aesthetic of vaporwave — pastel neon gradients, Roman statues in cyberspace, and the melancholic beauty of 90s consumer culture refracted through a digital prism. Background: deep purple-blue (#1a0a2e) — the infinite digital void. The .inner panel has a gradient background (linear-gradient(135deg, rgba(255,113,206,0.1), rgba(1,205,254,0.1))) with a 1px border (rgba(255,113,206,0.3)) and 8px border-radius — translucent and neon-tinted. Colors: hot pink (#ff71ce) as the primary accent — the signature vaporwave pink of neon signs and 90s graphics. Cyan (#01cdfe) as secondary. Soft pink-white (#ffe3f5) for headings, muted lavender (#b8a0c8) for body text. The aesthetic is nostalgic and surreal — consumer capitalism's ghost haunting an empty digital mall at 3am. Set in Bai Jamjuree — a modern sans-serif with slightly condensed proportions that echo Japanese-inspired vaporwave typography. Heading at weight 600, 26px, line-height 1.3, color #ffe3f5. Eyebrow at weight 500, 11px, uppercase, 3px letter-spacing, color #ff71ce. Body at weight 400, 14px, line-height 1.7, color #b8a0c8. Buttons: primary — hot pink (#ff71ce), dark text (#1a0a2e), 4px border-radius. Secondary: transparent, cyan border (#01cdfe). Alternatives: VT323 (retro pixel), Press Start 2P (pixel art)."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Vaporwave work best for?",
 					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "{Brief description of each palette and when to use it.}"
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Vaporwave style?",
 					"answer": "{Contexts where this style is a poor fit.}"
 				},
 				{
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Historical or cultural question about this style}",
 					"answer": "{Answer with cultural/historical context.}"
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Vaporwave look?",
 					"answer": "{Detailed typography recommendations with reasoning.}"
 				}

@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 1}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 2}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 3}",
 					"a_description": "{Specific examples, comma-separated}"
 				}
@@ -107,7 +107,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -123,7 +124,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -139,7 +141,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -155,7 +158,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -173,7 +177,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 1 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -185,7 +189,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 2 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -197,7 +201,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 3 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -209,7 +213,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 4 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -221,7 +225,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 5 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -233,7 +237,7 @@
 						"src": "/assets/imgs/flat-and-material/zen-minimalism/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 6 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				}
@@ -498,32 +502,32 @@
 			"a_description": "Common questions about Zen Minimalism style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a Zen Minimalism website?",
 					"answer": "The serene, contemplative aesthetic of zen-inspired minimalism — warm whitespace, organic proportions, and a meditative calm that transforms browsing into breathing. Background: warm cream (#faf8f5). The .inner panel has a slightly warmer background (#f5f0ea) with zero border and 4px border-radius — soft and organic, like handmade paper. Colors: muted sage green (#6b7c5e) as the primary accent — natural, grounding, and associated with zen gardens and tea ceremony. Warm dark (#2d2d2d) for headings, muted warm gray (#7a756e) for body text. The aesthetic is intentionally slow — generous spacing, soft colors, and a rhythm that encourages mindful reading rather than rapid scanning. Set in Cormorant Garamond — an elegant, refined serif with calligraphic qualities that echo the contemplative mood. Heading at weight 500, 28px, line-height 1.3, color #2d2d2d. Eyebrow at weight 300, 11px, uppercase, 3px letter-spacing, color #6b7c5e. Body at weight 400, 16px, line-height 1.8, color #7a756e. Buttons: primary — sage (#6b7c5e), white text, 4px border-radius. Secondary: transparent, sage border. Alternatives: EB Garamond (classic zen serif), Noto Serif JP (Japanese zen influence)."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Zen Minimalism work best for?",
 					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "{Brief description of each palette and when to use it.}"
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Zen Minimalism style?",
 					"answer": "{Contexts where this style is a poor fit.}"
 				},
 				{
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Historical or cultural question about this style}",
 					"answer": "{Answer with cultural/historical context.}"
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Zen Minimalism look?",
 					"answer": "{Detailed typography recommendations with reasoning.}"
 				}

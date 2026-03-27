@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "music",
+					"a_icon": {"icon": "music"},
 					"a_h3": "Music & Events",
 					"a_description": "Vinyl record shops, Music stores, Soul & funk music events"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases-food.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "beer",
+					"a_icon": {"icon": "beer"},
 					"a_h3": "Food & Drink",
 					"a_description": "Craft beer, Hot sauce, Specialty condiments, Artisan food brands"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/use-cases-lifestyle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "armchair",
+					"a_icon": {"icon": "armchair"},
 					"a_h3": "Lifestyle & Culture",
 					"a_description": "Vintage furniture, Home goods, Analog photography platforms, Retro-revival consumer brands, Editorial & culture magazines"
 				}
@@ -174,7 +174,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/earth-tones.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "leaf",
+					"a_icon": {"icon": "leaf"},
 					"a_h3": "Earth Over Artificial",
 					"a_description": "Natural pigments, organic warmth, and earthy saturation. Nothing cold, clinical, or synthetic — every hue is drawn from soil, spice, and harvest."
 				},
@@ -186,7 +186,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/slab-serif.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "Slab Serif Dominance",
 					"a_description": "Heavy, bracketed letterforms carry the visual weight of the layout. Headlines are graphic events, not just labels."
 				},
@@ -198,7 +198,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/sunburst.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "sun",
+					"a_icon": {"icon": "sun"},
 					"a_h3": "Sunburst Geometry",
 					"a_description": "Radial patterns, concentric rings, and sunburst motifs echo the era's love of decorative geometry rooted in optimism and warmth."
 				},
@@ -210,7 +210,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/soft-shapes.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "heart",
+					"a_icon": {"icon": "heart"},
 					"a_h3": "Warmth as Philosophy",
 					"a_description": "Rounded corners everywhere. Soft shadows, not hard edges. The 70s rejected the cold rationalism of modernism in favor of inviting, human-scale design."
 				},
@@ -222,7 +222,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/texture.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "hand",
+					"a_icon": {"icon": "hand"},
 					"a_h3": "Tactile Surface",
 					"a_description": "Paper, wood grain, and macramé texture are implied even on screen. Design should feel like it can be touched, held, and collected."
 				},
@@ -234,7 +234,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/70s-design/groovy.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "waves",
+					"a_icon": {"icon": "waves"},
 					"a_h3": "Groovy Motion",
 					"a_description": "Curves, waves, and fluid forms replace straight lines. Even static layouts suggest movement — a relaxed, swaying energy that the decade embodied."
 				}
@@ -493,32 +493,32 @@
 			"a_description": "Common questions about 70s design style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a 70s retro website?",
 					"answer": "Design a UI in 1970s retro style. Color palette: burnt orange #d95b2b, harvest gold #e8a838, avocado green #6b7c3e, dark brown #3a2518, warm cream #faf3e6. Typography: Alfa Slab One or heavy slab-serif for headlines, DM Sans or clean humanist sans for body text. Rounded corners throughout (border-radius 16–40px). Decorative elements: sunburst / radial patterns (repeating-conic-gradient), subtle gradient backgrounds with warm radial glows. Buttons: fully rounded pill shape (40px radius), burnt orange primary. Bottom accent stripe: 3-color band in orange / gold / green. No sharp angles, no cold colors, no flat minimalism. Warm paper texture feeling."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does 70s design work best for?",
 					"answer": "Food and drink brands — craft beer, hot sauce, artisan condiments — benefit most, as the style signals handcraft and authenticity. It also works well for music venues and vinyl shops, vintage furniture and home goods, lifestyle and culture publications, and any brand that wants to feel rooted, analog, and counter-corporate. It is less suited to fintech, SaaS, or any context where clinical precision and modernity are expected."
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "The Recommended Palette — burnt orange, harvest gold, avocado green on warm cream — is the versatile default and covers most use cases. Deep Harvest shifts to richer, more saturated tones like paprika and amber, suited to premium or vintage-positioned brands. Psychedelic 70s pushes saturation further with hot tangerine, sunflower, and olive, and adds plum for a festival-poster energy closer to album art than consumer branding."
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the 70s style?",
 					"answer": "Avoid it when your brand needs to communicate precision, innovation, or clinical trust — healthcare, finance, enterprise software, and deep tech are poor fits. It also struggles in contexts where a clean, minimal aesthetic is expected by the audience, such as productivity tools or professional services. If your brand has no genuine connection to craft, warmth, or analog culture, the style can read as forced nostalgia rather than authentic character."
 				},
 				{
-					"a_icon": "leaf",
+					"a_icon": {"icon": "leaf"},
 					"a_h3": "Why did earth tones dominate 1970s design?",
 					"answer": "The palette was a cultural response. The oil crisis and the growing environmental movement pushed designers and consumers away from the synthetic optimism of 1960s modernism — chrome, white, and primary colors — toward natural, organic references. Harvest gold, avocado green, and burnt orange were drawn from soil, spice, and harvest, signalling a desire for warmth, handcraft, and a reconnection with the natural world after a decade of industrial idealism."
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the 70s look?",
 					"answer": "Heavy slab serifs are the defining typographic choice. Alfa Slab One is the closest free match — its thick bracketed serifs and bold presence make headlines feel like graphic events. Roboto Slab and Zilla Slab work well at smaller sizes. For display use, Calistoga and Playfair Display add period warmth. For body text, pair with a clean humanist sans like DM Sans or Merriweather to balance the heaviness of the headline font."
 				}

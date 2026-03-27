@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 1}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 2}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 3}",
 					"a_description": "{Specific examples, comma-separated}"
 				}
@@ -107,7 +107,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -123,7 +124,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -139,7 +141,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -155,7 +158,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -173,7 +177,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 1 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -185,7 +189,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 2 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -197,7 +201,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 3 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -209,7 +213,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 4 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -221,7 +225,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 5 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -233,7 +237,7 @@
 						"src": "/assets/imgs/flat-and-material/fluent-design-microsoft/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 6 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				}
@@ -498,32 +502,32 @@
 			"a_description": "Common questions about Fluent Design (Microsoft) style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a Fluent Design (Microsoft) website?",
 					"answer": "The layered, light-aware aesthetic of Microsoft's Fluent Design System — acrylic blur effects, reveal highlights, and a depth system that uses light, shadow, and material to create hierarchy. Background: light gray (#f3f3f3). The .inner panel has a white background (#ffffff) with a subtle shadow (0 2px 4px rgba(0,0,0,0.04), 0 0 2px rgba(0,0,0,0.06)) and 8px border-radius — Fluent's 'card' surface with its characteristic thin border (1px solid rgba(0,0,0,0.06)). Colors: Microsoft blue (#0078d4) as the primary accent — the iconic Windows accent color. Near-black (#1b1b1b) for headings, dark gray (#605e5c) for body text. The aesthetic is clean and layered — surfaces stack with clear visual hierarchy through depth and light. Set in Segoe UI — Microsoft's system typeface, designed for screen clarity on Windows. Heading at weight 600, 24px, line-height 1.3, color #1b1b1b. Eyebrow at weight 600, 11px, uppercase, 1px letter-spacing, color #0078d4. Body at weight 400, 14px, line-height 1.5, color #605e5c. Buttons: primary — Microsoft blue (#0078d4), white text, 4px border-radius. Secondary: transparent, gray border. Alternatives: Noto Sans (cross-platform), Inter (modern alternative)."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Fluent Design (Microsoft) work best for?",
 					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "{Brief description of each palette and when to use it.}"
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Fluent Design (Microsoft) style?",
 					"answer": "{Contexts where this style is a poor fit.}"
 				},
 				{
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Historical or cultural question about this style}",
 					"answer": "{Answer with cultural/historical context.}"
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Fluent Design (Microsoft) look?",
 					"answer": "{Detailed typography recommendations with reasoning.}"
 				}

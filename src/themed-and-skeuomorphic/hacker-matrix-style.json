@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 1}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 2}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 3}",
 					"a_description": "{Specific examples, comma-separated}"
 				}
@@ -107,7 +107,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -123,7 +124,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -139,7 +141,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -155,7 +158,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -173,7 +177,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 1 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -185,7 +189,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 2 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -197,7 +201,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 3 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -209,7 +213,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 4 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -221,7 +225,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 5 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -233,7 +237,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/hacker-matrix-style/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 6 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				}
@@ -498,32 +502,32 @@
 			"a_description": "Common questions about Hacker Matrix Style style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a Hacker Matrix Style website?",
 					"answer": "The falling green code of The Matrix — pure black background with phosphor green text cascading down the screen. Background: true black (#000000). A pseudo-element creates the iconic matrix rain effect using a repeating pattern of fading green characters — a vertical gradient of green (#00ff41) characters at varying opacities. The .inner panel has no visible background — just text on the void. Text is all Matrix green (#00ff41) with varying brightness levels. The heading has a strong green glow (text-shadow with green blur). Everything feels like you're reading code in the Matrix — the world is green characters on black. Set in Share Tech Mono — a clean monospace font with slightly technical, futuristic character shapes that feel at home in the Matrix's digital rain. All elements monospaced. Heading at 26px, line-height 1.3, color #00ff41, strong green glow via text-shadow. Eyebrow at 12px, uppercase, 3px letter-spacing, color #008f25 (dimmer green). Body at 14px, line-height 1.7, color #00cc33 (medium green). Buttons: primary — green (#00ff41) background, black text, 0 border-radius (sharp). Secondary: transparent, green border. Hover adds intense glow. Alternatives: Fira Code, IBM Plex Mono, JetBrains Mono."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Hacker Matrix Style work best for?",
 					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "{Brief description of each palette and when to use it.}"
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Hacker Matrix Style style?",
 					"answer": "{Contexts where this style is a poor fit.}"
 				},
 				{
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Historical or cultural question about this style}",
 					"answer": "{Answer with cultural/historical context.}"
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Hacker Matrix Style look?",
 					"answer": "{Detailed typography recommendations with reasoning.}"
 				}

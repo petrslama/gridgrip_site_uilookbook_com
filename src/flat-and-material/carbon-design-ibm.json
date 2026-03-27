@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 1}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 2}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 3}",
 					"a_description": "{Specific examples, comma-separated}"
 				}
@@ -107,7 +107,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -123,7 +124,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -139,7 +141,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -155,7 +158,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -173,7 +177,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 1 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -185,7 +189,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 2 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -197,7 +201,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 3 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -209,7 +213,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 4 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -221,7 +225,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 5 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -233,7 +237,7 @@
 						"src": "/assets/imgs/flat-and-material/carbon-design-ibm/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 6 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				}
@@ -498,32 +502,32 @@
 			"a_description": "Common questions about Carbon Design (IBM) style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a Carbon Design (IBM) website?",
 					"answer": "The structured, enterprise-grade aesthetic of IBM's Carbon Design System — the 2x grid, systematic spacing, and the precise, no-nonsense design language of big enterprise software. Background: Carbon gray 10 (#f4f4f4). The .inner panel has a white background (#ffffff) with a subtle left border accent (3px solid #0f62fe) — Carbon's characteristic emphasis indicator. Colors: Carbon blue (#0f62fe) as the primary interactive color — IBM's signature blue, precise and trustworthy. Carbon gray 100 (#161616) for headings, Carbon gray 70 (#525252) for body text. The aesthetic is methodical and systematic — every decision backed by research, every component documented, every spacing value on the 2x grid. Set in IBM Plex Sans — IBM's open-source typeface, designed to embody IBM's brand spirit of precision and progress. Heading at weight 600, 24px, line-height 1.3, color #161616. Eyebrow at weight 500, 12px, uppercase, 1px letter-spacing, color #0f62fe. Body at weight 400, 14px, line-height 1.5, color #525252. Buttons: primary — Carbon blue (#0f62fe), white text, 0 border-radius (Carbon's sharp corners). Secondary: transparent, blue border, 0 border-radius. Alternatives: IBM Plex Mono (technical), IBM Plex Serif (editorial)."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Carbon Design (IBM) work best for?",
 					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "{Brief description of each palette and when to use it.}"
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Carbon Design (IBM) style?",
 					"answer": "{Contexts where this style is a poor fit.}"
 				},
 				{
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Historical or cultural question about this style}",
 					"answer": "{Answer with cultural/historical context.}"
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Carbon Design (IBM) look?",
 					"answer": "{Detailed typography recommendations with reasoning.}"
 				}

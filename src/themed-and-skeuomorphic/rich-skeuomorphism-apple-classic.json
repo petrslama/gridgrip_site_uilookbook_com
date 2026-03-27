@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 1}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 2}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 3}",
 					"a_description": "{Specific examples, comma-separated}"
 				}
@@ -107,7 +107,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -123,7 +124,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -139,7 +141,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -155,7 +158,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -173,7 +177,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 1 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -185,7 +189,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 2 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -197,7 +201,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 3 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -209,7 +213,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 4 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -221,7 +225,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 5 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -233,7 +237,7 @@
 						"src": "/assets/imgs/themed-and-skeuomorphic/rich-skeuomorphism-apple-classic/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 6 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				}
@@ -498,32 +502,32 @@
 			"a_description": "Common questions about Rich Skeuomorphism (Apple Classic) style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a Rich Skeuomorphism (Apple Classic) website?",
 					"answer": "Apple's peak skeuomorphic era — the brushed aluminum, linen drawer, and felt game table aesthetic of iOS 1–6 and OS X Lion. Background: fine linen texture in warm gray (#d4cfc7) via a subtle repeating-linear-gradient crosshatch pattern. The .inner panel is a bright white card with generous rounded corners (14px), a crisp 1px border (#b8b8b8), and a refined drop-shadow (0 2px 12px rgba(0,0,0,0.15)). A brushed-aluminum header bar at the top of the card: linear-gradient from #e8e8e8 to #cfcfcf with a 1px bottom border (#b0b0b0) — the classic iOS navigation bar look. Text is crisp dark gray (#1a1a1a) on white. The aesthetic is CLEAN skeuomorphism — not heavy leather, but polished aluminum and glass. Set in Inter — channeling the Helvetica Neue that Apple used across iOS. Heading at weight 700, 28px, letter-spacing -0.5px, line-height 1.2, color #1a1a1a. Eyebrow at weight 500, 12px, uppercase, 2px letter-spacing, color #007aff (Apple blue). Body at weight 400, 15px, line-height 1.6, color #333. Buttons: primary is the classic iOS blue (#007aff) glossy pill with white text, rounded (8px), gradient from #3d9aff to #007aff, inset white highlight. Secondary: white with thin gray border. Alternatives: SF Pro Display (native Apple), Nunito (rounded), DM Sans (geometric)."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Rich Skeuomorphism (Apple Classic) work best for?",
 					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "{Brief description of each palette and when to use it.}"
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Rich Skeuomorphism (Apple Classic) style?",
 					"answer": "{Contexts where this style is a poor fit.}"
 				},
 				{
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Historical or cultural question about this style}",
 					"answer": "{Answer with cultural/historical context.}"
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Rich Skeuomorphism (Apple Classic) look?",
 					"answer": "{Detailed typography recommendations with reasoning.}"
 				}

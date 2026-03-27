@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 1}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 2}",
 					"a_description": "{Specific examples, comma-separated}"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Industry/Use Case 3}",
 					"a_description": "{Specific examples, comma-separated}"
 				}
@@ -107,7 +107,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -123,7 +124,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -139,7 +141,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -155,7 +158,8 @@
 						"{Tag 2}",
 						"{Tag 3}",
 						"{Tag 4}"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -173,7 +177,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 1 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -185,7 +189,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 2 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -197,7 +201,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 3 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -209,7 +213,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 4 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -221,7 +225,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 5 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				},
@@ -233,7 +237,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/outrun/principle.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Principle 6 Name}",
 					"a_description": "{2-3 sentences explaining this design principle.}"
 				}
@@ -498,32 +502,32 @@
 			"a_description": "Common questions about Outrun style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a Outrun website?",
 					"answer": "Design a web component card inspired by the Outrun aesthetic — the 1986 Sega arcade racing game's visual language of infinite sunset horizons, chrome typography, and vanishing-point wireframe grids. The palette centers on a warm sunset gradient spectrum: deep violet #1a0533 as the base background, transitioning through rich purple #3d1259, hot magenta-pink #e91e8c, blazing coral-orange #ff6a3d, and finishing with bright golden amber #ffb347. Accent with chrome silver #c0c0c0 and white-hot highlights #fff5e6. Typography uses Orbitron (Google Font) for headings — a geometric, squared-off display face that evokes LED dashboards and arcade marquees, capturing the mechanical precision of 80s digital readouts. Set h3 at 28px, font-weight 700, letter-spacing 2px, text-transform uppercase, color #ffb347 golden amber with a text-shadow of 0 0 20px rgba(255,106,61,0.6) for a hot chrome glow. Body text uses Rajdhani (Google Font) — a condensed geometric sans-serif with a technical, futuristic quality that pairs with Orbitron's angularity while remaining readable at smaller sizes. Set paragraphs at 15px, font-weight 500, line-height 1.7, letter-spacing 0px, color #e8c4f0 soft lavender for readability against dark backgrounds. The eyebrow label uses Orbitron at 11px, font-weight 600, letter-spacing 3px, text-transform uppercase, color #ff6a3d blazing coral. Buttons use Rajdhani at 14px, font-weight 700, letter-spacing 1px, text-transform uppercase. Primary button: background linear-gradient(135deg, #ff6a3d, #e91e8c), color #1a0533, border none, border-radius 4px, padding 10px 24px, box-shadow 0 0 15px rgba(233,30,140,0.4). Secondary button: background transparent, color #ffb347, border 1px solid #ffb347, border-radius 4px, padding 10px 24px. Alternative fonts: Audiowide or Exo 2 can substitute Orbitron; Chakra Petch or Play can substitute Rajdhani. The card background should feel like staring into an 80s arcade sunset — use a deep violet base with subtle gradient overlays suggesting the horizon line. All glowing effects should feel warm, not cool — oranges and pinks, never cyan or blue."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Outrun work best for?",
 					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "{Brief description of each palette and when to use it.}"
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Outrun style?",
 					"answer": "{Contexts where this style is a poor fit.}"
 				},
 				{
-					"a_icon": "{lucide-icon}",
+					"a_icon": {"icon": "{lucide-icon}"},
 					"a_h3": "{Historical or cultural question about this style}",
 					"answer": "{Answer with cultural/historical context.}"
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Outrun look?",
 					"answer": "{Detailed typography recommendations with reasoning.}"
 				}

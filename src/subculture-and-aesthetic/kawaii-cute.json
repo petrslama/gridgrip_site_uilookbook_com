@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "shopping-bag",
+					"a_icon": {"icon": "shopping-bag"},
 					"a_h3": "Character Merchandise & Stationery",
 					"a_description": "Sanrio licensed stores, sticker shops, washi tape brands, plushie retailers, gacha capsule toy sites, kawaii subscription boxes"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/use-cases-pets.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "heart",
+					"a_icon": {"icon": "heart"},
 					"a_h3": "Kids & Pet Content Platforms",
 					"a_description": "Children's educational apps, pet care trackers, baby product shops, nursery decor stores, kids' party planning sites"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/use-cases-fashion.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "sparkles",
+					"a_icon": {"icon": "sparkles"},
 					"a_h3": "Kawaii Fashion & Food Brands",
 					"a_description": "Harajuku fashion labels, bubble tea chains, macaron bakeries, cute cafe menus, J-fashion resale platforms, decoden phone case shops"
 				}
@@ -173,7 +173,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-roundness.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "circle",
+					"a_icon": {"icon": "circle"},
 					"a_h3": "Maximum Roundness",
 					"a_description": "Every element gets the most generous border-radius it can handle — buttons become pills, cards become pillows, avatars become perfect circles. Sharp corners feel hostile in kawaii design; softness communicates safety and approachability. If it has an edge, round it until it looks huggable."
 				},
@@ -185,7 +185,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-palette.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "palette",
+					"a_icon": {"icon": "palette"},
 					"a_h3": "Pastel-First Palette",
 					"a_description": "The color language lives in the tinted-white range — pinks, lavenders, mints, and peaches that feel like they were mixed with whipped cream. Saturated accents like bubblegum pink appear only for primary actions and emphasis. Dark values exist only for text, never for backgrounds or large surfaces."
 				},
@@ -197,7 +197,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-mascot.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "smile",
+					"a_icon": {"icon": "smile"},
 					"a_h3": "Mascot & Character Energy",
 					"a_description": "Kawaii interfaces feel like they have a personality — even without a literal mascot. Buttons look like they could bounce, empty states have faces, and icons feel more like friends than functional glyphs. The goal is to make every touchpoint feel like interacting with a character, not a machine."
 				},
@@ -209,7 +209,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-typography.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "Bubbly Typography",
 					"a_description": "Typefaces must have rounded terminals and soft geometry — no sharp serifs, no angular grotesks. Fonts like Fredoka and Nunito feel like they were inflated with air. Weight stays at medium to semibold for headings; anything too heavy loses the lightness, anything too thin loses the warmth."
 				},
@@ -221,7 +221,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-decorative.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "star",
+					"a_icon": {"icon": "star"},
 					"a_h3": "Decorative Delight",
 					"a_description": "Kawaii design embraces ornament — polka-dot backgrounds, heart separators, star accents, and sparkle effects. These details are not clutter; they are the emotional texture that separates cute from merely clean. Every empty space is an opportunity for a tiny decorative moment that makes the user smile."
 				},
@@ -233,7 +233,7 @@
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-context.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "sun-moon",
+					"a_icon": {"icon": "sun-moon"},
 					"a_h3": "Cute in Every Context",
 					"a_description": "The kawaii aesthetic must survive dark mode, dense dashboards, and small screens without losing its soul. The pink accent stays pink whether it sits on cotton-candy white or deep plum. Rounded corners stay rounded at every breakpoint. Cuteness is not a surface treatment — it is baked into every spacing token, every radius, every shadow."
 				}
@@ -492,32 +492,32 @@
 			"a_description": "Common questions about Kawaii Cute style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates a Kawaii Cute website?",
 					"answer": "The irresistibly adorable aesthetic of kawaii — rounded everything, pastel pink sweetness, and the Japanese culture of cuteness translated into bubbly, friendly interfaces. Background: soft pink (#fff0f5) — cotton candy warmth. The .inner panel has a white background (#ffffff) with a 2px border in bubblegum pink (#ff69b4) and 24px border-radius — extra-rounded because everything in kawaii land has soft edges. Colors: bubblegum pink (#ff69b4) as the primary accent — the undisputed color of cute. Dark pink-brown (#4a2040) for headings, medium pink-gray (#8a6a7a) for body text. The aesthetic is maximum cuteness — hearts, stars, rounded corners, and the belief that everything is better when it's adorable. Set in Fredoka — an extra-rounded, bubbly sans-serif that looks like it was designed for a happy cartoon character. Heading at weight 600, 24px, line-height 1.3, color #4a2040. Eyebrow at weight 500, 11px, uppercase, 2px letter-spacing, color #ff69b4. Body at weight 400, 14px, line-height 1.6, color #8a6a7a. Buttons: primary — pink (#ff69b4), white text, 50px border-radius (maximum pill). Secondary: transparent, pink border, pill shape. Alternatives: Nunito (rounded friendly), M PLUS Rounded 1c (Japanese rounded)."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Kawaii Cute work best for?",
 					"answer": "Kawaii Cute is ideal for character merchandise stores (Sanrio, Sumikko Gurashi), stationery and sticker shops, bubble tea and dessert brands, children's educational apps, pet care platforms, kawaii fashion labels, and any product targeting fans of Japanese pop culture. It also works well for mood trackers, habit apps, and gamified experiences where emotional warmth increases engagement. Avoid it for corporate finance, legal services, healthcare diagnostics, government portals, and any context where playfulness would undermine trust or perceived authority."
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "Bubblegum Dream is the classic — use it when pink is your brand's identity and you want the instantly recognizable kawaii look. Pastel Rainbow works when you need color variety for categories, tags, or status indicators without leaving the kawaii world. Strawberry Milk is for brands that want kawaii energy with more depth and warmth — think dessert shops, premium stationery, or products targeting an older kawaii audience that wants cute without feeling childish."
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Kawaii Cute style?",
 					"answer": "Skip Kawaii Cute for enterprise software, B2B dashboards, legal or compliance platforms, medical and diagnostic tools, financial advisory services, and anything where the user needs to feel that the system is authoritative rather than friendly. The rounded shapes and pastel colors actively reduce perceived seriousness — that is the point of kawaii, but it becomes a liability when trust depends on gravitas. Also avoid it for text-heavy editorial sites where bubbly typography would hurt sustained reading."
 				},
 				{
-					"a_icon": "globe",
+					"a_icon": {"icon": "globe"},
 					"a_h3": "Is kawaii only a Japanese style, or can it work globally?",
 					"answer": "Kawaii originated in 1970s Japan as a teenage handwriting rebellion and became a global cultural export through Sanrio, anime, and Harajuku fashion. Today it is one of the most internationally recognized design aesthetics — LINE stickers in Southeast Asia, Duolingo's mascot-driven UX in the West, and KakaoFriends in South Korea all use kawaii principles. The core toolkit — rounded corners, pastel colors, anthropomorphic characters, and emotional warmth — translates across cultures because it taps into a universal response to soft, non-threatening shapes. You do not need a Japanese product to use kawaii design, but respecting its cultural roots adds authenticity."
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Kawaii Cute look?",
 					"answer": "The defining trait is rounded terminals — every letterform should look soft and inflated. Fredoka is the go-to: extra-rounded, bubbly, and available in weights from 300 to 700. Nunito is a versatile alternative with rounder shapes than most sans-serifs. M PLUS Rounded 1c is perfect when you need Japanese character support alongside Latin. Baloo 2 adds a playful bounce. Comfortaa and Quicksand are geometric options with soft curves. For body text, use the same families at lighter weights — Nunito 400 or Fredoka 400 read comfortably at small sizes. Avoid anything with sharp serifs, high contrast, or angular geometry — those break the kawaii spell instantly."
 				}

@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/neon-arcade-room.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "music",
+					"a_icon": {"icon": "music"},
 					"a_h3": "Music & Gaming",
 					"a_description": "Synthwave artists, Electronic music festivals, Retro arcade bars, Gaming tournaments, Audio hardware launches"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/neon-mall-storefront.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "shirt",
+					"a_icon": {"icon": "shirt"},
 					"a_h3": "Fashion & Nightlife",
 					"a_description": "Neon-forward fashion brands, 80s sportswear labels, Nightclub promotions, Energy drink campaigns"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/vhs-rental-shop.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "gamepad-2",
+					"a_icon": {"icon": "gamepad-2"},
 					"a_h3": "Tech & Entertainment",
 					"a_description": "Gaming peripheral brands, VHS-era nostalgia products, Retro tech collectibles, Themed entertainment venues"
 				}
@@ -173,7 +173,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/neon-light-orbs.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "lightbulb",
+					"a_icon": {"icon": "lightbulb"},
 					"a_h3": "Light Emits, Not Reflects",
 					"a_description": "Every colored element appears to glow from within. Neon text-shadows, box-shadows with color, and radial gradients simulate light emission. The background is always dark — color exists only where light is."
 				},
@@ -185,7 +185,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/perspective-grid-sunset.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "grid-3x3",
+					"a_icon": {"icon": "grid-3x3"},
 					"a_h3": "The Infinite Grid",
 					"a_description": "The perspective floor grid is the signature motif — lines converging toward a vanishing point, implying infinite digital space. It anchors every composition in the outrun visual canon."
 				},
@@ -197,7 +197,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/retro-sunset.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "sun",
+					"a_icon": {"icon": "sun"},
 					"a_h3": "The Outrun Sunset",
 					"a_description": "The striped gradient sun — orange to magenta to purple, bisected by horizontal lines — is the era's most iconic symbol. It represents the horizon between the real and the digital, dusk as a permanent state."
 				},
@@ -209,7 +209,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/synthwave-typography.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "Geometric Display Type",
 					"a_description": "Heavy, wide, uppercase letterforms with mechanical precision. Orbitron, Exo, and similar geometric sans-serifs dominate — typography that looks engineered, not handwritten. Glow effects make headlines feel like neon signage."
 				},
@@ -221,7 +221,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/chrome-logo.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "sparkles",
+					"a_icon": {"icon": "sparkles"},
 					"a_h3": "Chrome & Glass",
 					"a_description": "Metallic gradients, glossy reflections, and glass-like transparency give interfaces a high-tech, premium feel. The 80s loved the machine aesthetic — polished surfaces that look like they belong in a cockpit."
 				},
@@ -233,7 +233,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/80s-design/crt-control-panel.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "monitor",
+					"a_icon": {"icon": "monitor"},
 					"a_h3": "CRT Texture",
 					"a_description": "Scanlines, screen curvature, and subtle noise reference the CRT monitors and VHS tapes of the era. These artifacts add analog warmth to the digital-first aesthetic — imperfection as character."
 				}
@@ -492,37 +492,37 @@
 			"a_description": "Common questions about 80s design style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "AI Chat Prompt — Claude & ChatGPT",
 					"answer": "Design a UI in 1980s synthwave/outrun style. Color palette: hot magenta #ff2d95, electric cyan #00f0ff, neon purple #b026ff, sunset orange #ff6a00, deep void black #120025. Typography: Orbitron or geometric sans-serif for headlines (uppercase, wide letter-spacing), Exo 2 or clean sans for body text. Dark background everywhere — color only from neon glows. Text-shadow and box-shadow with neon colors (0 0 20px rgba(255,45,149,0.6)). Decorative elements: perspective grid floor (repeating-linear-gradient with perspective transform), outrun sunset circle (gradient with horizontal stripe cutout), CRT scanlines (repeating-linear-gradient, 2px). Buttons: gradient magenta-to-purple with glow shadow. No light backgrounds, no warm earth tones, no organic shapes."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does 80s design work best for?",
 					"answer": "Music and gaming lead the list — synthwave artists, electronic festivals, retro arcade bars, and gaming tournament branding are natural fits. Nightlife and energy drinks benefit from the nocturnal, electric energy. Fashion brands with a streetwear or sportswear edge, VHS-era nostalgia products, and themed entertainment venues (escape rooms, retro bars) all carry the aesthetic well. It also works for indie games and audio hardware launches where a bold, high-contrast identity is expected. It is poorly suited to corporate SaaS, healthcare, or any context that requires warmth, approachability, or daylight."
 				},
 				{
-					"a_icon": "layers",
+					"a_icon": {"icon": "layers"},
 					"a_h3": "What is the difference between synthwave, vaporwave, and cyberpunk?",
 					"answer": "All three draw from the 80s, but the mood and palette diverge sharply. Synthwave is nostalgic and cinematic — outrun sunsets, perspective grids, and magenta-cyan on deep black, rooted in the feeling of driving at night. Vaporwave is ironic and dreamlike — pastel pink and teal, glitchy Roman statues, mall aesthetics, early Macintosh UI fragments, slower and more melancholic. Cyberpunk is dystopian and aggressive — acid green terminal text, industrial chrome, rain-soaked neon cities, closer to Blade Runner than Miami Vice. For branding, synthwave is the most commercially accessible; cyberpunk is the most niche and high-risk."
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the 80s look?",
 					"answer": "Geometric, wide, uppercase display faces dominate. Orbitron is the closest free match — heavy, mechanical, and built for neon. Audiowide and Oxanium offer similar energy with slightly softer geometry. Rajdhani works well across both headlines and body copy when a consistent technical feel is needed. Bruno Ace SC adds a sci-fi edge suited to gaming or hardware contexts. For body text, pair any display face with Exo 2 or Share Tech — both stay readable on dark backgrounds without breaking the futuristic register. Avoid humanist or handwritten faces entirely; the 80s aesthetic is engineered, not organic."
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "Neon Nightride — hot magenta, electric cyan, neon purple on void black — is the versatile default and the most widely recognized synthwave palette. Miami Vice softens the contrast with flamingo pink and ocean teal on deep navy, better suited to fashion, lifestyle, or any context where the core palette feels too aggressive. Cyberpunk Chrome shifts to acid green and hot pink on near-black obsidian, with chrome silver for UI elements — the harshest and most industrial of the three, suited to gaming peripherals, security software, or brands that lean into a dystopian edge."
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the 80s style?",
 					"answer": "Avoid it whenever your brand needs to communicate trust, clarity, or daylight — healthcare, finance, enterprise software, and legal services are poor fits. The dark background and neon palette also struggle in print and in high-ambient-light environments where contrast drops. If your audience skews older and has no connection to gaming, electronic music, or nightlife culture, the references will not land. Use it only when you can commit fully — half-implemented neon on a light background reads as inconsistent, not retro. The aesthetic rewards commitment and punishes compromise."
 				},
 				{
-					"a_icon": "zap",
+					"a_icon": {"icon": "zap"},
 					"a_h3": "Why did neon on black define 80s design?",
 					"answer": "The palette was technological, not natural. The dominant screens of the era — CRT arcade monitors, early computer displays, and television sets — emitted light rather than reflecting it, making dark backgrounds with bright phosphor colors the default visual environment. Neon tube signage, the defining street aesthetic of Tokyo and Miami, reinforced the same logic: color as emission, not pigment. Blade Runner (1982) and Tron (1982) gave these everyday realities a cinematic mythology, and New Wave album art translated both into graphic design. The result was a complete inversion of 70s earth-tone logic — where the decade before had sought warmth and organics, the 80s embraced the synthetic and the electric."
 				}
@@ -541,7 +541,8 @@
 						"src": "https://placehold.co/800x600",
 						"loading": "lazy"
 					},
-					"tags": []
+					"tags": [],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -551,7 +552,8 @@
 						"src": "https://placehold.co/800x600",
 						"loading": "lazy"
 					},
-					"tags": []
+					"tags": [],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -561,7 +563,8 @@
 						"src": "https://placehold.co/800x600",
 						"loading": "lazy"
 					},
-					"tags": []
+					"tags": [],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -571,7 +574,8 @@
 						"src": "https://placehold.co/800x600",
 						"loading": "lazy"
 					},
-					"tags": []
+					"tags": [],
+					"ignore": "1"
 				}
 			]
 		}

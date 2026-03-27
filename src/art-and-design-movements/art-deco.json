@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/hotel-lobby-gold-columns.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "gem",
+					"a_icon": {"icon": "gem"},
 					"a_h3": "Luxury & Hospitality",
 					"a_description": "Boutique hotel websites, fine dining restaurants, premium real estate, jewelry brands, high-end event venues, luxury travel agencies"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/perfume-bottle-gold-fan.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "Fashion & Beauty",
 					"a_description": "Haute couture lookbooks, perfume and cosmetics brands, fashion editorial sites, styling portfolios, luxury e-commerce, beauty subscription boxes"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/architect-desk-blueprints.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "building",
+					"a_icon": {"icon": "building"},
 					"a_h3": "Architecture & Design Studios",
 					"a_description": "Interior design portfolios, architecture firms, design agency websites, museum exhibition pages, gallery catalogs, cultural institution microsites"
 				}
@@ -173,7 +173,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/brass-sunburst-elevator-door.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "triangle",
+					"a_icon": {"icon": "triangle"},
 					"a_h3": "Geometric Symmetry",
 					"a_description": "Every element follows a strict geometric grid. Sunbursts, chevrons, and stepped forms create visual rhythm. Layouts are centered and balanced — symmetry communicates order, wealth, and intentional design."
 				},
@@ -185,7 +185,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/gold-leaf-brush-macro.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "sun",
+					"a_icon": {"icon": "sun"},
 					"a_h3": "Metallic Opulence",
 					"a_description": "Gold, brass, and chrome are signature materials translated into digital accents. Metallic tones against dark backgrounds create depth and luxury. Use sparingly — every gold element should feel earned, not decorative noise."
 				},
@@ -197,7 +197,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/deco-skyscraper-crown-dusk.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "layers",
+					"a_icon": {"icon": "layers"},
 					"a_h3": "Vertical Emphasis",
 					"a_description": "Tall, narrow proportions dominate — from skyscraper-inspired layouts to elongated type. Vertical lines draw the eye upward, suggesting aspiration and grandeur. Padding is generous vertically, tight horizontally."
 				},
@@ -209,7 +209,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/hand-deco-invitation-card.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "Elegant Typography",
 					"a_description": "High-contrast serifs and geometric display faces carry the style. Letter-spacing is wide and deliberate, especially in uppercase labels. Headlines command attention through weight and proportion, never through size alone."
 				},
@@ -221,7 +221,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/brass-wall-sconce-dark.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "minus",
+					"a_icon": {"icon": "minus"},
 					"a_h3": "Restrained Ornamentation",
 					"a_description": "Decoration exists but is controlled. A single gold line, a subtle border, a chevron divider — each ornament serves a structural purpose. The style rejects clutter; every decorative element earns its place through function or rhythm."
 				},
@@ -233,7 +233,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-deco/deco-vase-marble-pedestal.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "contrast",
+					"a_icon": {"icon": "contrast"},
 					"a_h3": "High Contrast Drama",
 					"a_description": "Dark backgrounds meet bright metallic accents with almost no middle ground. This extreme contrast creates visual drama and forces hierarchy. Content emerges from shadow — nothing competes for attention because the palette is ruthlessly simple."
 				}
@@ -492,32 +492,32 @@
 			"a_description": "Common questions about Art Deco style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates an Art Deco website?",
 					"answer": "The distinctive visual aesthetic of Art Deco — a design approach that creates unique, memorable interfaces. Background: dark (#0a0a14). The .inner panel has a slightly lighter background with subtle border treatment and appropriate border-radius. Colors: #c5a55a as the primary accent for interactive elements and highlights. #e8e0d0 for headings, #8a8a9a for body text. The aesthetic captures the essence of art deco through careful color choices, spacing, and visual weight. Set in Playfair Display — chosen for its visual character that complements this design style. Heading at weight 600-700, 24-28px, line-height 1.2-1.3. Eyebrow at weight 500, 11px, uppercase, 2-3px letter-spacing, color #c5a55a. Body at weight 400, 14-15px, line-height 1.6-1.7, color #8a8a9a. Buttons: primary — #c5a55a background with contrasting text. Secondary: transparent with #c5a55a border. Alternatives: system-ui (universal fallback), serif stack."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Art Deco work best for?",
 					"answer": "Luxury hospitality (boutique hotels, fine dining), fashion and beauty brands, architecture and interior design studios, premium real estate, jewelry, high-end event venues, and cultural institutions like museums or galleries. It also works well for fintech and wealth management products that want to project trust and sophistication. Avoid it for casual consumer apps, children's products, healthcare, or anything that needs to feel approachable and informal — Art Deco communicates exclusivity, which can alienate audiences expecting warmth."
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "Midnight & Gold is the classic choice — the signature dark-and-gold combination works for most Art Deco projects and is immediately recognizable. Choose Champagne Tower when you need slightly warmer, softer tones — it's better for content-heavy pages where pure gold on black might feel too intense. Pick Emerald Ballroom when you want to stand out from the typical gold palette — the jewel-toned emerald accent adds freshness while the gold trim keeps it grounded in the Art Deco tradition."
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Art Deco style?",
 					"answer": "Skip Art Deco for anything that needs to feel casual, playful, or accessible to a broad audience. It struggles with mobile-first apps that need large tap targets and simple navigation — the geometric ornamentation loses impact at small sizes. Avoid it for SaaS dashboards with dense data tables, e-commerce with hundreds of products, or any context where users need speed over atmosphere. The dark palette also creates accessibility challenges — ensure sufficient contrast ratios, especially for body text."
 				},
 				{
-					"a_icon": "landmark",
+					"a_icon": {"icon": "landmark"},
 					"a_h3": "What's the difference between Art Deco and Art Nouveau?",
 					"answer": "Think elves versus dwarves. Art Nouveau (1890s–1910s) is the elven kingdom — organic flowing curves, vines, flowers, everything grown rather than built. Art Deco (1920s–1930s) is the dwarven stronghold — geometric, angular, hammered from metal and stone with machine precision. Where Art Nouveau curves, Art Deco steps. Where Art Nouveau draws from nature, Art Deco draws from industry. In UI design, Art Nouveau translates to flowing illustrations and earthy palettes (Rivendell vibes), while Art Deco becomes sharp geometric borders, metallic accents, and vertical emphasis (straight out of Erebor)."
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Art Deco look?",
 					"answer": "For headlines, use high-contrast serifs or geometric display faces: Playfair Display for elegant contrast, Cinzel for classical authority, Bodoni Moda for sharp high-contrast, or Poiret One for geometric lightness. For body text, pair with Cormorant Garamond (refined serif), Lora (sturdy transitional), or Raleway (clean geometric sans). The key is generous letter-spacing — especially in uppercase eyebrows and labels. Set eyebrows at 2-3px letter-spacing, headings at 0.02em. System fallbacks: Georgia for headings, Palatino for body."
 				}

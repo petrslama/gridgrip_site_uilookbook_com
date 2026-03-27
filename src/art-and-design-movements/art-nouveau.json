@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/woman-conservatory-stained-glass.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "flower-2",
+					"a_icon": {"icon": "flower-2"},
 					"a_h3": "Botanical & Wellness",
 					"a_description": "Botanical gardens, organic skincare brands, herbal tea companies, wellness retreats, aromatherapy products, florists, garden design studios"
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/ceramic-vase-potters-wheel.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "paintbrush",
+					"a_icon": {"icon": "paintbrush"},
 					"a_h3": "Artisan & Craft",
 					"a_description": "Handmade jewelry shops, ceramic studios, artisanal food brands, letterpress printers, independent bookshops, bespoke furniture makers"
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/museum-stained-glass-gallery.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "landmark",
+					"a_icon": {"icon": "landmark"},
 					"a_h3": "Cultural Institutions",
 					"a_description": "Art museums, heritage foundations, literary magazines, fine art galleries, historic preservation societies, classical music venues, theatre companies"
 				}
@@ -173,7 +173,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/wrought-iron-whiplash-railing.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "waves",
+					"a_icon": {"icon": "waves"},
 					"a_h3": "The Whiplash Curve",
 					"a_description": "Every line flows. Art Nouveau rejects straight edges and right angles in favor of sinuous, organic curves that mimic vines, tendrils, and water. In UI design, this translates to generous border-radius, flowing section dividers, and layout shapes that guide the eye along a natural path rather than snapping to a rigid grid."
 				},
@@ -185,7 +185,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/pressed-iris-botanical-frame.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "leaf",
+					"a_icon": {"icon": "leaf"},
 					"a_h3": "Nature as Blueprint",
 					"a_description": "Flowers, insects, birds, and botanical forms are not decoration — they are the structural vocabulary. Every ornamental element derives from observable nature: the symmetry of a dragonfly wing, the spiral of a fern frond, the branching of a tree. In digital design, this means organic illustrations, botanical motifs, and color palettes drawn from earth, foliage, and sky."
 				},
@@ -197,7 +197,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/nouveau-interior-flowing-doorframe.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "infinity",
+					"a_icon": {"icon": "infinity"},
 					"a_h3": "Total Design",
 					"a_description": "Art Nouveau aspired to Gesamtkunstwerk — the total work of art where every element shares a unified visual language. The same curve appears in the typography, the layout, the icons, and the illustrations. In UI design, this means consistent visual rhythm across all components: buttons echo the border-radius of cards, icons share the line weight of body text, and spacing follows one harmonic scale."
 				},
@@ -209,7 +209,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/tiffany-wisteria-lamp-desk.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "palette",
+					"a_icon": {"icon": "palette"},
 					"a_h3": "Warm Material Palette",
 					"a_description": "The colors of Art Nouveau come from natural materials: aged parchment, tarnished copper, moss, dried flowers, stained glass. Backgrounds are warm cream or soft sage, never clinical white. Accents are muted earth tones — olive green, dusty rose, amber gold — that feel handmade rather than synthetic. Avoid saturated primaries; everything should look like it was mixed from pigment, not picked from a color wheel."
 				},
@@ -221,7 +221,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/nouveau-poster-asymmetric-table.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "move-diagonal",
+					"a_icon": {"icon": "move-diagonal"},
 					"a_h3": "Asymmetric Balance",
 					"a_description": "Layouts are balanced but never mirrored. A heavy illustration on the left is counterweighted by a cluster of text on the right. Negative space is distributed unevenly, creating visual tension that keeps the eye moving. In UI design, this means off-center hero compositions, staggered grid items, and content that breathes rather than locking into rigid symmetry."
 				},
@@ -233,7 +233,7 @@
 						"src": "/assets/imgs/art-and-design-movements/art-nouveau/carved-floral-cabinet-panel.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "frame",
+					"a_icon": {"icon": "frame"},
 					"a_h3": "Ornament as Structure",
 					"a_description": "In Art Nouveau, decoration is never applied on top — it is the structure itself. A railing does not have vines added to it; the railing is the vine. In UI design, this means borders that are also illustrations, dividers that are also ornamental motifs, and buttons whose shape is the decoration. If you can remove the ornament without changing the layout, it was applied wrong."
 				}
@@ -492,32 +492,32 @@
 			"a_description": "Common questions about Art Nouveau style, color palettes, and usage.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "What AI prompt generates an Art Nouveau website?",
 					"answer": "The distinctive visual aesthetic of Art Nouveau — a design approach that creates unique, memorable interfaces. Background: light (#faf8f2). The .inner panel has a clean background with subtle border treatment and appropriate border-radius. Colors: #6b705c as the primary accent for interactive elements and highlights. #2d2a24 for headings, #6a6258 for body text. The aesthetic captures the essence of art nouveau through careful color choices, spacing, and visual weight. Set in Cormorant Garamond — chosen for its visual character that complements this design style. Heading at weight 600-700, 24-28px, line-height 1.2-1.3. Eyebrow at weight 500, 11px, uppercase, 2-3px letter-spacing, color #6b705c. Body at weight 400, 14-15px, line-height 1.6-1.7, color #6a6258. Buttons: primary — #6b705c background with contrasting text. Secondary: transparent with #6b705c border. Alternatives: system-ui (universal fallback), serif stack."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does Art Nouveau work best for?",
 					"answer": "Botanical and wellness brands (organic skincare, herbal products, garden centers), artisan and craft businesses (handmade jewelry, ceramics, letterpress), cultural institutions (museums, galleries, literary magazines, theatre), and heritage hospitality (boutique B&Bs, wine estates, historic hotels). It also works well for editorial and publishing sites that want to feel literary rather than corporate. Avoid it for tech startups, data-heavy dashboards, fast-paced e-commerce with hundreds of SKUs, or anything that needs to feel cutting-edge and minimal — Art Nouveau communicates craftsmanship and tradition, which can read as slow in contexts that demand speed."
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "Mucha's Garden is the classic choice — the warm parchment-and-sage combination is immediately recognizable as Art Nouveau and works for most projects. Choose Tiffany Glass when you need a darker, more dramatic palette — the deep forest background with amber accents works well for evening-themed experiences, galleries, or luxury brands. Pick Klimt's Kiss when you want warmth and richness without going dark — the copper and burgundy on cream evokes Vienna Secession paintings and suits heritage brands, wine labels, and cultural projects."
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the Art Nouveau style?",
 					"answer": "Skip Art Nouveau for anything that needs to feel modern, fast, or technical. It struggles with SaaS dashboards, developer tools, fintech, and mobile-first utility apps where efficiency matters more than atmosphere. The ornamental nature of the style adds visual weight that slows down task-oriented interfaces. Avoid it for brands targeting younger audiences who associate serif fonts and muted palettes with being outdated. The flowing, asymmetric layouts can also create accessibility challenges — screen readers and keyboard navigation work best with predictable, structured layouts."
 				},
 				{
-					"a_icon": "landmark",
+					"a_icon": {"icon": "landmark"},
 					"a_h3": "What's the difference between Art Nouveau and Art Deco?",
 					"answer": "Think elves versus dwarves. Art Nouveau (1890s–1910s) is the elven kingdom — organic flowing curves, vines, flowers, everything grown rather than built. Art Deco (1920s–1930s) is the dwarven stronghold — geometric, angular, hammered from metal and stone with machine precision. Where Art Nouveau curves, Art Deco steps. Where Art Nouveau draws from nature, Art Deco draws from industry. In UI design, Art Nouveau translates to flowing illustrations and earthy palettes (Rivendell vibes), while Art Deco becomes sharp geometric borders, metallic accents, and vertical emphasis (straight out of Erebor). Art Nouveau came first; Art Deco was partly a reaction against its organic excess."
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the Art Nouveau look?",
 					"answer": "For headlines, use flowing high-contrast serifs: Cormorant Garamond for elegant, light strokes, Playfair Display for bold editorial contrast, Marcellus for classical restraint, or Abril Fatface for dramatic display weight. For body text, pair with Cormorant Garamond at regular weight (refined serif), Lora (sturdy transitional), EB Garamond (old-style book face), or Crimson Text (warm humanist). The key is organic rhythm — avoid geometric sans-serifs and anything that feels mechanical. Letter-spacing should be subtle, not the aggressive tracking used in Art Deco. System fallbacks: Georgia for headings, Palatino for body."
 				}

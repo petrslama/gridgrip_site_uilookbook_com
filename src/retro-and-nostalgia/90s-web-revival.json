@@ -57,7 +57,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/romantic-networking.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "heart",
+					"a_icon": {"icon": "heart"},
 					"a_h3": "Romantic Networking",
 					"a_description": "When you want to impress an attractive web designer and she has a known soft spot for the confidently incompetent. Open with 'I built this myself,' show her your tiled starfield background, and watch her eyes fill with a mix of pity and fascination."
 				},
@@ -69,7 +69,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/life-insurance.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "shield-alert",
+					"a_icon": {"icon": "shield-alert"},
 					"a_h3": "Life Insurance Optimization",
 					"a_description": "When you've maxed out your life insurance and have nothing left to lose. Show a senior front-end developer your beveled gray buttons with Comic Sans headlines. They will find you. The police will find what's left. Your family will be comfortable."
 				},
@@ -81,7 +81,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/career-counseling.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "Career Counseling",
 					"a_description": "When you've decided web design isn't for you but lack the courage to quit. Just send your boss a link to the homepage. HR will schedule your exit interview before the page finishes loading its 47 animated GIFs."
 				}
@@ -174,7 +174,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/beveled-everything.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "square",
+					"a_icon": {"icon": "square"},
 					"a_h3": "Beveled Everything",
 					"a_description": "The signature UI element: 3D beveled borders using CSS outset/inset border-style. Buttons, panels, and image frames all have that raised, tactile Windows 95 look. Click states swap outset to inset, creating a physical push-button feel."
 				},
@@ -186,7 +186,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/tiled-backgrounds.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "grid-2x2",
+					"a_icon": {"icon": "grid-2x2"},
 					"a_h3": "Tiled Backgrounds",
 					"a_description": "Every page needs a repeating background pattern — checkerboards, starfields, diagonal stripes, or tiny icons tiled infinitely. These were born from bandwidth constraints (one tiny image repeated) but became the era's most recognizable visual signature."
 				},
@@ -198,7 +198,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/rainbow-dividers.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "minus",
+					"a_icon": {"icon": "minus"},
 					"a_h3": "Rainbow Dividers & Hazard Stripes",
 					"a_description": "Sections are separated by rainbow gradient horizontal rules or yellow-black construction hazard stripes. Nothing is subtle — every visual break is an event. The aesthetic celebrates excess over restraint."
 				},
@@ -210,7 +210,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/pixel-fonts.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "terminal",
+					"a_icon": {"icon": "terminal"},
 					"a_h3": "Pixel Fonts & Monospace",
 					"a_description": "Headlines in pixelated bitmap-style fonts (Press Start 2P, VT323) and body text in Courier or monospace. Typography feels like it belongs on a terminal or in a DOS prompt — crude, blocky, and unapologetically low-resolution."
 				},
@@ -222,7 +222,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/maximum-color.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "zap",
+					"a_icon": {"icon": "zap"},
 					"a_h3": "Maximum Color, Zero Restraint",
 					"a_description": "The 216-color web-safe palette was a constraint, but early web designers used every single color at once. Link blue, visited purple, hot pink, lime green, bright yellow — all on the same page. Color harmony is optional; visual energy is mandatory."
 				},
@@ -234,7 +234,7 @@
 						"src": "/assets/imgs/retro-and-nostalgia/90s-web-revival/badges-counters.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "badge-info",
+					"a_icon": {"icon": "badge-info"},
 					"a_h3": "Badges, Counters & Webrings",
 					"a_description": "The page footer is a museum of micro-artifacts: hit counters in bordered boxes, 'Best viewed in Netscape' badges, webring navigation (prev/next/random), and 'Under Construction' signs. Each one is a tiny declaration of identity and community membership."
 				}
@@ -493,37 +493,37 @@
 			"a_description": "Ready-to-use prompts for generating 90s web revival UI designs with AI tools.",
 			"items": [
 				{
-					"a_icon": "bot",
+					"a_icon": {"icon": "bot"},
 					"a_h3": "AI Chat Prompt — Claude & ChatGPT",
 					"answer": "Design a UI in 1990s web revival style. Color palette: link blue #0000ff, visited purple #800080, hot pink #ff00ff, lime green #00ff00, bright yellow #ffff00, silver gray #c0c0c0, white #ffffff. Typography: Comic Sans MS or playful rounded sans-serif for headlines, Courier New or monospace for body text. Beveled/embossed borders (outset/inset border-style, 3px), visible table-cell aesthetic. Decorative elements: tiled repeating background patterns (repeating-linear-gradient checkerboard or diagonal stripes), horizontal rule separators (rainbow gradient), \"under construction\" yellow-black hazard stripe (repeating-linear-gradient 45deg). Buttons: beveled 3D look (outset border, gray gradients, active state with inset border), pixelated cursor feel. Hit counter / guestbook badge aesthetic — small bordered boxes with monospace text. No smooth gradients, no rounded corners, no subtle shadows, no modern minimalism. Raw, unpolished, maximalist web 1.0 energy."
 				},
 				{
-					"a_icon": "briefcase",
+					"a_icon": {"icon": "briefcase"},
 					"a_h3": "What industries does 90s web design work best for?",
 					"answer": "Trick question — none. But if you are determined to ruin your career in public, some contexts absorb the damage better than others. Retro bars and arcade venues can carry it as ironic self-awareness. Escape rooms and themed entertainment can pass it off as deliberate kitsch. Indie music acts and zine culture have low enough aesthetic standards that nobody will notice. Nostalgia merchandise stores can lean into it as authentic period branding. Everyone else — healthcare, finance, SaaS, legal, food, fashion, literally any other industry — will simply lose clients and gain a reputation."
 				},
 				{
-					"a_icon": "swatch-book",
+					"a_icon": {"icon": "swatch-book"},
 					"a_h3": "Which color palette should I choose?",
 					"answer": "Web-Safe Classic — link blue, visited purple, hot pink on white — is the most recognizable and the least offensive of several bad options. GeoCities Neon escalates to electric yellow, aqua, and red on black, which is louder, more saturated, and harder to look at directly for more than thirty seconds. Windows 95 Desktop — teal, navy, and silver — is the most coherent of the three and the closest thing here to actual usability. It is the palette of a sensible person making the wrong choice for legitimate reasons."
 				},
 				{
-					"a_icon": "type",
+					"a_icon": {"icon": "type"},
 					"a_h3": "What fonts best capture the 90s web look?",
 					"answer": "Press Start 2P is the most accurate — a pixelated bitmap face that belongs on a CRT monitor and nowhere else. VT323 offers the same terminal energy at a more readable size. Silkscreen is the modern compromise for people who want the pixel aesthetic without sacrificing their users' eyesight entirely. Comic Neue is the acceptable substitute for Comic Sans MS — rounder, slightly less aggressively cheerful, equally inappropriate in a professional context. For body text, Courier New remains the authentic choice, in the same way that a flat tire remains the authentic choice for getting somewhere slowly and unhappily."
 				},
 				{
-					"a_icon": "circle-slash",
+					"a_icon": {"icon": "circle-slash"},
 					"a_h3": "When should I avoid using the 90s style?",
 					"answer": "Always. The answer is always. It is the correct answer in every situation. But since you are reading this, you have already stopped listening, so: specifically avoid it when legibility matters, when your audience includes anyone over fifty or under twenty-five who lacks the nostalgic reference point, when your brand needs to communicate competence, when you are charging more than fifteen dollars for anything, and when you would like to still have clients by the end of the quarter. The aesthetic is a statement. That statement is: I know exactly what I am doing and I have chosen chaos."
 				},
 				{
-					"a_icon": "zap",
+					"a_icon": {"icon": "zap"},
 					"a_h3": "Why did 90s web design look so bad?",
 					"answer": "Because everyone could suddenly make it and nobody knew how. Mosaic and Netscape gave publishing to the masses in 1993 and 1994 — people with zero design training, a dial-up connection, and an opinion. The tools were limited: 216 web-safe colors, table-based layouts, 28.8k modems that punished large images, and HTML elements like blink and marquee that should never have existed. The result was raw, maximalist, and completely sincere. Every tiled starfield background and every animated GIF was placed there with genuine pride. That sincerity is, embarrassingly, what makes it compelling thirty years later."
 				},
 				{
-					"a_icon": "badge-info",
+					"a_icon": {"icon": "badge-info"},
 					"a_h3": "What is a webring and why did people use them?",
 					"answer": "A webring was a circular chain of personal websites on a shared topic — fan pages, hobbyist sites, early blogs — connected by prev/next/random navigation links at the bottom of each page. Before search engines were reliable, webrings were how you found more of what you already liked. They were hand-curated, community-maintained, and completely decentralized. GeoCities had thousands of them. Yahoo killed GeoCities in 2009, and most webrings died with it. The concept has been periodically revived by people who are nostalgic for a web that felt like a neighborhood rather than a mall, which is a sentiment that says more about the current state of the internet than it does about the 90s."
 				}
@@ -542,7 +542,8 @@
 						"src": "https://placehold.co/800x600",
 						"loading": "lazy"
 					},
-					"tags": []
+					"tags": [],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -552,7 +553,8 @@
 						"src": "https://placehold.co/800x600",
 						"loading": "lazy"
 					},
-					"tags": []
+					"tags": [],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -562,7 +564,8 @@
 						"src": "https://placehold.co/800x600",
 						"loading": "lazy"
 					},
-					"tags": []
+					"tags": [],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -572,7 +575,8 @@
 						"src": "https://placehold.co/800x600",
 						"loading": "lazy"
 					},
-					"tags": []
+					"tags": [],
+					"ignore": "1"
 				}
 			]
 		}

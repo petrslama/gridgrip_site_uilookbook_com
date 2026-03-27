@@ -93,7 +93,8 @@
 						"#Nostalgic",
 						"#Grid",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -110,7 +111,8 @@
 						"#Glossy",
 						"#Dimensional",
 						"#Rounded"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -127,7 +129,8 @@
 						"#Rounded",
 						"#Glossy",
 						"#Bold Colors"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -144,7 +147,8 @@
 						"#Early Web",
 						"#Scattered",
 						"#Busy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -161,7 +165,8 @@
 						"#Dimensional",
 						"#Professional",
 						"#Glossy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -178,7 +183,8 @@
 						"#Airy",
 						"#Rounded",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -195,7 +201,8 @@
 						"#Gradient",
 						"#Neon",
 						"#Vibrant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -212,7 +219,8 @@
 						"#8-Bit",
 						"#Bold Colors",
 						"#Nostalgic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -229,7 +237,8 @@
 						"#Nostalgic",
 						"#Gradient",
 						"#Vibrant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -246,7 +255,8 @@
 						"#Vintage Reinterpreted",
 						"#Warm",
 						"#Earthy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -263,7 +273,8 @@
 						"#Neon",
 						"#Gradient",
 						"#Dark"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -280,7 +291,8 @@
 						"#Grid",
 						"#Professional",
 						"#Technical"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -297,7 +309,8 @@
 						"#Distressed",
 						"#Grain",
 						"#Moody"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -314,7 +327,8 @@
 						"#Nostalgic",
 						"#Bold Colors",
 						"#Scattered"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -331,7 +345,8 @@
 						"#Flat Design",
 						"#Bold Colors",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -348,7 +363,8 @@
 						"#Gradient",
 						"#Bold Colors",
 						"#Glossy"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -371,7 +387,8 @@
 						"#Technical",
 						"#Monospaced",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -388,7 +405,8 @@
 						"#Organic",
 						"#Dimensional",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -405,7 +423,8 @@
 						"#Warm",
 						"#Hand-Crafted",
 						"#Organic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -422,7 +441,8 @@
 						"#Dimensional",
 						"#Organic",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -439,7 +459,8 @@
 						"#Neon",
 						"#Technical",
 						"#Code Style"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -456,7 +477,8 @@
 						"#Distressed",
 						"#Organic",
 						"#Nostalgic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -473,7 +495,8 @@
 						"#Organic",
 						"#Warm",
 						"#Editorial"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -490,7 +513,8 @@
 						"#Print Effect",
 						"#Organic",
 						"#Editorial"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -507,7 +531,8 @@
 						"#Warm",
 						"#Organic",
 						"#Nostalgic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -524,7 +549,8 @@
 						"#Warm",
 						"#Skeuomorphic",
 						"#Nostalgic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -541,7 +567,8 @@
 						"#Organic",
 						"#Warm",
 						"#Cozy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -558,7 +585,8 @@
 						"#Glossy",
 						"#Hand-Crafted",
 						"#Nostalgic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -575,7 +603,8 @@
 						"#Dimensional",
 						"#Glossy",
 						"#Nostalgic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -592,7 +621,8 @@
 						"#Technical",
 						"#Code Style",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -615,7 +645,8 @@
 						"#Content Heavy",
 						"#Vibrant",
 						"#Cultural"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -632,7 +663,8 @@
 						"#Professional",
 						"#Experimental",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -649,7 +681,8 @@
 						"#Warm",
 						"#Zen",
 						"#Natural"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -666,7 +699,8 @@
 						"#Grid",
 						"#Professional",
 						"#Cultural"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -683,7 +717,8 @@
 						"#Professional",
 						"#Balanced",
 						"#Cultural"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -700,7 +735,8 @@
 						"#Light",
 						"#Whitespace",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -717,7 +753,8 @@
 						"#Professional",
 						"#Balanced",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -734,7 +771,8 @@
 						"#Imperfect",
 						"#Warm",
 						"#Natural"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -757,7 +795,8 @@
 						"#Heavy Motion",
 						"#Advanced JS",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -774,7 +813,8 @@
 						"#Advanced JS",
 						"#Engaging",
 						"#Experimental"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -791,7 +831,8 @@
 						"#Engaging",
 						"#Modern",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -808,7 +849,8 @@
 						"#Heavy Motion",
 						"#Interactive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -825,7 +867,8 @@
 						"#Micro-interactions",
 						"#Engaging",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -842,7 +885,8 @@
 						"#Lottie Animation",
 						"#Engaging",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -859,7 +903,8 @@
 						"#Interactive",
 						"#Modern",
 						"#Engaging"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -876,7 +921,8 @@
 						"#Engaging",
 						"#Modern",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -893,7 +939,8 @@
 						"#Scroll-Triggered",
 						"#Immersive Motion",
 						"#Engaging"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -910,7 +957,8 @@
 						"#Advanced JS",
 						"#Interactive",
 						"#3D"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -927,7 +975,8 @@
 						"#Moderate Motion",
 						"#Engaging",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -944,7 +993,8 @@
 						"#Engaging",
 						"#Modern",
 						"#Balanced"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -961,7 +1011,8 @@
 						"#Moderate Motion",
 						"#Interactive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -978,7 +1029,8 @@
 						"#WebGL",
 						"#Heavy Motion",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -995,7 +1047,8 @@
 						"#Shaders",
 						"#Advanced JS",
 						"#3D Animation"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -1018,7 +1071,8 @@
 						"#Professional",
 						"#Clean UI",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1035,7 +1089,8 @@
 						"#Bold",
 						"#Bold Colors",
 						"#Balanced"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1052,7 +1107,8 @@
 						"#Corporate",
 						"#Modular Layout",
 						"#Dark Mode"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1069,7 +1125,8 @@
 						"#Whitespace",
 						"#Professional",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1086,7 +1143,8 @@
 						"#Whitespace",
 						"#Clean UI",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1103,7 +1161,8 @@
 						"#Flat Design",
 						"#Balanced",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1120,7 +1179,8 @@
 						"#Elevation",
 						"#Balanced",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1137,7 +1197,8 @@
 						"#Bold Colors",
 						"#Professional",
 						"#Balanced"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1154,7 +1215,8 @@
 						"#Modern",
 						"#Professional",
 						"#Layered"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1171,7 +1233,8 @@
 						"#Flat Design",
 						"#Professional",
 						"#Modular Layout"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1188,7 +1251,8 @@
 						"#Adaptive UI",
 						"#Personalized UI",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1205,7 +1269,8 @@
 						"#Whitespace",
 						"#Clean UI",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1222,7 +1287,8 @@
 						"#Modular Layout",
 						"#Clean UI",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1239,7 +1305,8 @@
 						"#Airy",
 						"#Light",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1256,7 +1323,8 @@
 						"#Airy",
 						"#Light",
 						"#Centered"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1273,7 +1341,8 @@
 						"#Zen",
 						"#Whitespace",
 						"#Light"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -1296,7 +1365,8 @@
 						"#Bold Colors",
 						"#Abstract",
 						"#Experimental"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1313,7 +1383,8 @@
 						"#Vibrant",
 						"#Cultural",
 						"#Expressive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1330,7 +1401,8 @@
 						"#Playful",
 						"#Cute",
 						"#Expressive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1347,7 +1419,8 @@
 						"#Warm",
 						"#Earthy",
 						"#Cozy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1364,7 +1437,8 @@
 						"#Cute",
 						"#Playful",
 						"#Techy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1381,7 +1455,8 @@
 						"#Bold Colors",
 						"#Techy",
 						"#Heavy Motion"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1398,7 +1473,8 @@
 						"#Serif",
 						"#Professional",
 						"#Nostalgic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1415,7 +1491,8 @@
 						"#Dark Mode",
 						"#Bold",
 						"#Gritty"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1432,7 +1509,8 @@
 						"#Bold",
 						"#Rebellious",
 						"#Unpolished"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1449,7 +1527,8 @@
 						"#Whimsical",
 						"#Organic",
 						"#Pastel"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1466,7 +1545,8 @@
 						"#Dark Mode",
 						"#Bold",
 						"#Angular"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1483,7 +1563,8 @@
 						"#Distressed",
 						"#Bold",
 						"#Edgy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1517,7 +1598,8 @@
 						"#Earthy",
 						"#Hand-Crafted",
 						"#Indie"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1534,7 +1616,8 @@
 						"#Playful",
 						"#Expressive",
 						"#Geometric"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1551,7 +1634,8 @@
 						"#Pattern-Heavy",
 						"#Organic",
 						"#Spiral"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1568,7 +1652,8 @@
 						"#Vibrant",
 						"#Warm",
 						"#Hopeful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1585,7 +1670,8 @@
 						"#Vintage Reinterpreted",
 						"#Aged",
 						"#Industrial"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1602,7 +1688,8 @@
 						"#Neon",
 						"#Moody",
 						"#Dark Mode"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1619,7 +1706,8 @@
 						"#Bold",
 						"#Irregular",
 						"#Expressive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1636,7 +1724,8 @@
 						"#Organic",
 						"#Natural",
 						"#Warm"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -1659,7 +1748,8 @@
 						"#Illustrated",
 						"#Calm",
 						"#Zen"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1676,7 +1766,8 @@
 						"#Earthy",
 						"#Warm",
 						"#Green Tones"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1693,7 +1784,8 @@
 						"#Earth Tones",
 						"#Natural",
 						"#Warm"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1710,7 +1802,8 @@
 						"#Earthy",
 						"#Warm",
 						"#Green Tones"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1727,7 +1820,8 @@
 						"#Asymmetric",
 						"#Broken Grid",
 						"#Natural"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1744,7 +1838,8 @@
 						"#Illustrated",
 						"#Illustration Era",
 						"#Green Tones"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1761,7 +1856,8 @@
 						"#Curved",
 						"#Natural",
 						"#Blob"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1778,7 +1874,8 @@
 						"#Blob",
 						"#Fluid",
 						"#Soft"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1795,7 +1892,8 @@
 						"#Soft",
 						"#Hand-Crafted",
 						"#Natural"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1812,7 +1910,8 @@
 						"#Natural",
 						"#Warm",
 						"#Earthy"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -1869,7 +1968,8 @@
 						"#Professional",
 						"#Sans-Serif",
 						"#Minimalism"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1886,7 +1986,8 @@
 						"#Geometric",
 						"#Grid",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1903,7 +2004,8 @@
 						"#Irregular",
 						"#Unconventional",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1920,7 +2022,8 @@
 						"#Angular",
 						"#Linear",
 						"#Primary Colors"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1937,7 +2040,8 @@
 						"#Expressive",
 						"#Abstract",
 						"#Energetic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1954,7 +2058,8 @@
 						"#Dynamic",
 						"#Bold",
 						"#Energetic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1971,7 +2076,8 @@
 						"#Textured",
 						"#Soft",
 						"#Watercolor"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -1988,7 +2094,8 @@
 						"#Immersive Motion",
 						"#Dynamic",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2005,7 +2112,8 @@
 						"#Retro",
 						"#Organic",
 						"#Vintage Reinterpreted"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2022,7 +2130,8 @@
 						"#Professional",
 						"#Minimalism",
 						"#Timeless"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2039,7 +2148,8 @@
 						"#Serif",
 						"#Professional",
 						"#Timeless"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2056,7 +2166,8 @@
 						"#Playful",
 						"#Irregular",
 						"#Bold"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2073,7 +2184,8 @@
 						"#Angular",
 						"#Sharp",
 						"#Minimalism"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2090,7 +2202,8 @@
 						"#Whimsical",
 						"#Experimental",
 						"#Organic"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -2113,7 +2226,8 @@
 						"#Adaptive",
 						"#Responsive Era",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2130,7 +2244,8 @@
 						"#SaaS",
 						"#Professional",
 						"#User-Centric"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2147,7 +2262,8 @@
 						"#Professional",
 						"#Modern",
 						"#SaaS"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2164,7 +2280,8 @@
 						"#Professional",
 						"#Charts",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2181,7 +2298,8 @@
 						"#Modern",
 						"#Dynamic UI",
 						"#Creative"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2198,7 +2316,8 @@
 						"#Data Visualization",
 						"#Professional",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2215,7 +2334,8 @@
 						"#AI Aesthetic",
 						"#Artistic",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2232,7 +2352,8 @@
 						"#Adaptive",
 						"#User-Centric",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2249,7 +2370,8 @@
 						"#Generative",
 						"#AI Aesthetic",
 						"#Technical"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2266,7 +2388,8 @@
 						"#Professional",
 						"#Modern",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -2289,7 +2412,8 @@
 						"#Sketch",
 						"#Artistic",
 						"#Expressive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2306,7 +2430,8 @@
 						"#Cute",
 						"#Expressive",
 						"#Engaging"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2323,7 +2448,8 @@
 						"#Playful",
 						"#Organic",
 						"#Asymmetric"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2340,7 +2466,8 @@
 						"#Playful",
 						"#Expressive",
 						"#Energetic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2357,7 +2484,8 @@
 						"#Organic",
 						"#Unique",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2374,7 +2502,8 @@
 						"#Playful",
 						"#Organic",
 						"#Indie"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2391,7 +2520,8 @@
 						"#Playful",
 						"#Modern",
 						"#Bold Colors"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2408,7 +2538,8 @@
 						"#Professional",
 						"#Modular Layout",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2425,7 +2556,8 @@
 						"#3D",
 						"#Playful",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2442,7 +2574,8 @@
 						"#Minimal",
 						"#Artistic",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2459,7 +2592,8 @@
 						"#Playful",
 						"#Engaging",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2476,7 +2610,8 @@
 						"#Dimensional",
 						"#Playful",
 						"#Artistic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2493,7 +2628,8 @@
 						"#Textured",
 						"#Print Effect",
 						"#Organic"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -2516,7 +2652,8 @@
 						"#Modern",
 						"#Professional",
 						"#Dimensional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2533,7 +2670,8 @@
 						"#Interactive",
 						"#Modern",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2550,7 +2688,8 @@
 						"#Interactive",
 						"#Immersive Motion",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2567,7 +2706,8 @@
 						"#Layered Layout",
 						"#Elegant",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2584,7 +2724,8 @@
 						"#Elevation",
 						"#Modern",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2601,7 +2742,8 @@
 						"#Immersive Motion",
 						"#Interactive",
 						"#Experimental"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2618,7 +2760,8 @@
 						"#Spatial",
 						"#Apple-Style",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2635,7 +2778,8 @@
 						"#Interactive",
 						"#Immersive Motion",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2652,7 +2796,8 @@
 						"#Advanced JS",
 						"#Generative",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2669,7 +2814,8 @@
 						"#Retro",
 						"#Pixelated",
 						"#Bold"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -2692,7 +2838,8 @@
 						"#Vibrant",
 						"#Expressive",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2709,7 +2856,8 @@
 						"#Busy",
 						"#Pattern-Heavy",
 						"#Eclectic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2726,7 +2874,8 @@
 						"#Flat Design",
 						"#Vibrant",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2743,7 +2892,8 @@
 						"#Playful",
 						"#Fun",
 						"#Expressive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2760,7 +2910,8 @@
 						"#Busy",
 						"#Dense",
 						"#Scattered"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2777,7 +2928,8 @@
 						"#Dense",
 						"#Content Heavy",
 						"#Experimental"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2794,7 +2946,8 @@
 						"#Pattern-Heavy",
 						"#Expressive",
 						"#Busy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2811,7 +2964,8 @@
 						"#Vibrant",
 						"#Rounded",
 						"#Geometric"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2828,7 +2982,8 @@
 						"#Playful",
 						"#Modern",
 						"#Vibrant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2845,7 +3000,8 @@
 						"#Dense",
 						"#Busy",
 						"#Geometric"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -2868,7 +3024,8 @@
 						"#Professional",
 						"#Dashboard Data",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2885,7 +3042,8 @@
 						"#Charts",
 						"#Professional",
 						"#Advanced JS"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2902,7 +3060,8 @@
 						"#Professional",
 						"#Data Intensive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2919,7 +3078,8 @@
 						"#Interactive",
 						"#Modular Layout",
 						"#Advanced JS"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2936,7 +3096,8 @@
 						"#Balanced",
 						"#Interactive",
 						"#Modular Layout"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2953,7 +3114,8 @@
 						"#Websocket",
 						"#Advanced JS",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2970,7 +3132,8 @@
 						"#Professional",
 						"#Balanced",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -2987,7 +3150,8 @@
 						"#Professional",
 						"#Interactive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -3010,7 +3174,8 @@
 						"#Authentic",
 						"#Unpolished",
 						"#Editorial"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3027,7 +3192,8 @@
 						"#Editorial",
 						"#Modular Layout",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3044,7 +3210,8 @@
 						"#Image-Heavy",
 						"#Dramatic",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3061,7 +3228,8 @@
 						"#Whitespace",
 						"#Balanced",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3078,7 +3246,8 @@
 						"#Modal",
 						"#Interactive",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3095,7 +3264,8 @@
 						"#Image-Heavy",
 						"#Premium",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3112,7 +3282,8 @@
 						"#Modular Layout",
 						"#Visual-Focused",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3129,7 +3300,8 @@
 						"#Immersive",
 						"#Dramatic",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -3152,7 +3324,8 @@
 						"#Textured",
 						"#Transparent",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3169,7 +3342,8 @@
 						"#Neon",
 						"#Vibrant",
 						"#Cool"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3186,7 +3360,8 @@
 						"#Dimensional",
 						"#Hand-Crafted",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3203,7 +3378,8 @@
 						"#Reflective",
 						"#Layered",
 						"#Cool"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3220,7 +3396,8 @@
 						"#Layered",
 						"#Glassmorphic",
 						"#Cool"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3237,7 +3414,8 @@
 						"#Dark",
 						"#Transparent",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3254,7 +3432,8 @@
 						"#Transparent",
 						"#Modern",
 						"#Layered"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3271,7 +3450,8 @@
 						"#Dimensional",
 						"#Rounded",
 						"#Transparent"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3288,7 +3468,8 @@
 						"#Transparent",
 						"#Layered",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3305,7 +3486,8 @@
 						"#Rounded",
 						"#Glossy",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3322,7 +3504,8 @@
 						"#Transparent",
 						"#Glossy",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3339,7 +3522,8 @@
 						"#Reflective",
 						"#Glossy",
 						"#Cool"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3356,7 +3540,8 @@
 						"#Elevation",
 						"#Soft",
 						"#Flat Design"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3373,7 +3558,8 @@
 						"#Soft",
 						"#Rounded",
 						"#Calm"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3390,7 +3576,8 @@
 						"#Layered",
 						"#Elevation",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -3413,7 +3600,8 @@
 						"#Light",
 						"#Whitespace",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3430,7 +3618,8 @@
 						"#Airy",
 						"#Centered",
 						"#Light"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3447,7 +3636,8 @@
 						"#Airy",
 						"#Light",
 						"#Calm"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3464,7 +3654,8 @@
 						"#Centered",
 						"#Light",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3481,7 +3672,8 @@
 						"#Airy",
 						"#Light",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3498,7 +3690,8 @@
 						"#Whitespace",
 						"#Professional",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3515,7 +3708,8 @@
 						"#Whitespace",
 						"#Centered",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3532,7 +3726,8 @@
 						"#Airy",
 						"#Calm",
 						"#Zen"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -3555,7 +3750,8 @@
 						"#Interactive",
 						"#Modal",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3572,7 +3768,8 @@
 						"#User-Centric",
 						"#Content Heavy",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3589,7 +3786,8 @@
 						"#SaaS",
 						"#Techy",
 						"#Advanced JS"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3606,7 +3804,8 @@
 						"#User-Centric",
 						"#Balanced",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3623,7 +3822,8 @@
 						"#Material Design",
 						"#Mobile",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3640,7 +3840,8 @@
 						"#Modern",
 						"#User-Centric",
 						"#Advanced JS"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3657,7 +3858,8 @@
 						"#Mega Menu",
 						"#User-Centric",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3674,7 +3876,8 @@
 						"#Modular Layout",
 						"#Interactive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3691,7 +3894,8 @@
 						"#User-Centric",
 						"#Interactive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3708,7 +3912,8 @@
 						"#Balanced",
 						"#Single Column",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3725,7 +3930,8 @@
 						"#Balanced",
 						"#Modular Layout",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -3748,7 +3954,8 @@
 						"#Deconstructed",
 						"#Heavy Motion",
 						"#Creative"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3765,7 +3972,8 @@
 						"#Heavy Motion",
 						"#Reactive",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3782,7 +3990,8 @@
 						"#Advanced JS",
 						"#Artistic",
 						"#Unconventional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3799,7 +4008,8 @@
 						"#Abstract",
 						"#Heavy Motion",
 						"#Broken"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3816,7 +4026,8 @@
 						"#Algorithmic",
 						"#Advanced JS",
 						"#Dynamic UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3833,7 +4044,8 @@
 						"#AI Aesthetic",
 						"#Dynamic UI",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3850,7 +4062,8 @@
 						"#Advanced JS",
 						"#Unconventional",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3867,7 +4080,8 @@
 						"#Heavy Motion",
 						"#3D Animation",
 						"#Futuristic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3884,7 +4098,8 @@
 						"#Advanced JS",
 						"#Interactive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3901,7 +4116,8 @@
 						"#Physics-Based",
 						"#Advanced JS",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3918,7 +4134,8 @@
 						"#Advanced JS",
 						"#Heavy Motion",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3935,7 +4152,8 @@
 						"#Interactive",
 						"#Heavy Motion",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3952,7 +4170,8 @@
 						"#Heavy Motion",
 						"#Futuristic",
 						"#Abstract"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3969,7 +4188,8 @@
 						"#Heavy Motion",
 						"#Reactive",
 						"#Advanced JS"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -3986,7 +4206,8 @@
 						"#Advanced JS",
 						"#Interactive",
 						"#Immersive"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -4009,7 +4230,8 @@
 						"#Elegant",
 						"#Dark Mode",
 						"#Refined"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4026,7 +4248,8 @@
 						"#Glossy",
 						"#Premium",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4043,7 +4266,8 @@
 						"#Elegant",
 						"#Refined",
 						"#Dark Mode"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4060,7 +4284,8 @@
 						"#Premium",
 						"#Sophisticated",
 						"#Minimal"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4077,7 +4302,8 @@
 						"#Refined",
 						"#Whitespace",
 						"#Light"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4094,7 +4320,8 @@
 						"#Elegant",
 						"#Sophisticated",
 						"#Minimal"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4111,7 +4338,8 @@
 						"#Content Heavy",
 						"#Pattern-Heavy",
 						"#Ornate"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4128,7 +4356,8 @@
 						"#Textured",
 						"#Refined",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4145,7 +4374,8 @@
 						"#Premium",
 						"#Elegant",
 						"#Refined"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -4168,7 +4398,8 @@
 						"#Bold",
 						"#Expressive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4185,7 +4416,8 @@
 						"#Editorial",
 						"#Serif",
 						"#Balanced"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4202,7 +4434,8 @@
 						"#Bold",
 						"#Expressive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4219,7 +4452,8 @@
 						"#Playful",
 						"#Warm",
 						"#Sketch"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4236,7 +4470,8 @@
 						"#Moderate Motion",
 						"#Bold",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4253,7 +4488,8 @@
 						"#Code Style",
 						"#Technical",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4270,7 +4506,8 @@
 						"#Bold",
 						"#Centered",
 						"#Minimal"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4287,7 +4524,8 @@
 						"#Elegant",
 						"#Professional",
 						"#Timeless"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4304,7 +4542,8 @@
 						"#Professional",
 						"#Sans-Serif",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4321,7 +4560,8 @@
 						"#Professional",
 						"#Whitespace",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4338,7 +4578,8 @@
 						"#Retro",
 						"#Organic",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4355,7 +4596,8 @@
 						"#Type as Supporting",
 						"#Professional",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4372,7 +4614,8 @@
 						"#Personalized UI",
 						"#Modern",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -4395,7 +4638,8 @@
 						"#Broken Grid",
 						"#Creative",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4412,7 +4656,8 @@
 						"#Card Layout",
 						"#Modern",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4429,7 +4674,8 @@
 						"#Grid",
 						"#Angular",
 						"#Sharp"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4446,7 +4692,8 @@
 						"#Circular",
 						"#Radial",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4463,7 +4710,8 @@
 						"#Isometric",
 						"#3D",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4480,7 +4728,8 @@
 						"#Card Layout",
 						"#Professional",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4497,7 +4746,8 @@
 						"#Radial",
 						"#Pattern-Heavy",
 						"#Rounded"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4514,7 +4764,8 @@
 						"#Grid-Strict",
 						"#Professional",
 						"#Modular Layout"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -4537,7 +4788,8 @@
 						"#Edgy",
 						"#Unpolished",
 						"#Gritty"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4554,7 +4806,8 @@
 						"#Gritty",
 						"#Deconstructed",
 						"#Bold"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4571,7 +4824,8 @@
 						"#Techy",
 						"#Bold",
 						"#Dark"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4588,7 +4842,8 @@
 						"#Raw",
 						"#Broken Grid",
 						"#Experimental"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4605,7 +4860,8 @@
 						"#Raw",
 						"#Bold",
 						"#Edgy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4622,7 +4878,8 @@
 						"#Angular",
 						"#Dark",
 						"#Raw"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4639,7 +4896,8 @@
 						"#Wireframe",
 						"#Unpolished",
 						"#HTML + CSS"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4656,7 +4914,8 @@
 						"#Unpolished",
 						"#Edgy",
 						"#Brutalism"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -4679,7 +4938,8 @@
 						"#Modular Layout",
 						"#Clean UI",
 						"#Dark Mode"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4696,7 +4956,8 @@
 						"#Card Layout",
 						"#Modern",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4713,7 +4974,8 @@
 						"#Modern",
 						"#Professional",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4730,7 +4992,8 @@
 						"#Interactive",
 						"#Modern",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4747,7 +5010,8 @@
 						"#Balanced",
 						"#Clean UI",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4764,7 +5028,8 @@
 						"#Clean UI",
 						"#Modern",
 						"#Balanced"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4781,7 +5046,8 @@
 						"#Charts",
 						"#Modern",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -4804,7 +5070,8 @@
 						"#Readable",
 						"#Keyboard Friendly",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4821,7 +5088,8 @@
 						"#Professional",
 						"#Monospaced",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4838,7 +5106,8 @@
 						"#Minimal",
 						"#Balanced",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4855,7 +5124,8 @@
 						"#Readable",
 						"#Bold Colors",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4872,7 +5142,8 @@
 						"#Accessible",
 						"#Clean UI",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4889,7 +5160,8 @@
 						"#Static",
 						"#Professional",
 						"#Minimal"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4906,7 +5178,8 @@
 						"#Modern",
 						"#Professional",
 						"#User-Centric"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -4929,7 +5202,8 @@
 						"#Professional",
 						"#Balanced",
 						"#User-Centric"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4946,7 +5220,8 @@
 						"#Playful",
 						"#Modern",
 						"#Modular Layout"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4963,7 +5238,8 @@
 						"#Horizontal Scroll",
 						"#Modern",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4980,7 +5256,8 @@
 						"#Balanced",
 						"#Professional",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -4997,7 +5274,8 @@
 						"#Modular Layout",
 						"#Interactive",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5014,7 +5292,8 @@
 						"#Professional",
 						"#Balanced",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5031,7 +5310,8 @@
 						"#Modern",
 						"#Professional",
 						"#Micro-interactions"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5048,7 +5328,8 @@
 						"#Balanced",
 						"#Modern",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -5071,7 +5352,8 @@
 						"#Moody",
 						"#Heavy Motion",
 						"#Dramatic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5088,7 +5370,8 @@
 						"#Moody",
 						"#Cool",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5105,7 +5388,8 @@
 						"#Premium",
 						"#Elegant",
 						"#Refined"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5122,7 +5406,8 @@
 						"#Bold Colors",
 						"#Vibrant",
 						"#Moody"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5139,7 +5424,8 @@
 						"#Moody",
 						"#High Contrast",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5156,7 +5442,8 @@
 						"#Cool",
 						"#Professional",
 						"#Calm"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5173,7 +5460,8 @@
 						"#High Contrast",
 						"#Bold",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5190,7 +5478,8 @@
 						"#Soft Shadow",
 						"#Elevation",
 						"#Moody"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -5213,7 +5502,8 @@
 						"#Earth Tones",
 						"#Natural",
 						"#Minimal"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5230,7 +5520,8 @@
 						"#Performance-First",
 						"#Static",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5247,7 +5538,8 @@
 						"#Lightweight",
 						"#Performance-First",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5264,7 +5556,8 @@
 						"#Typography-First",
 						"#HTML + CSS",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5281,7 +5574,8 @@
 						"#Professional",
 						"#Technical",
 						"#Static"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5298,7 +5592,8 @@
 						"#HTML + CSS",
 						"#Clean UI",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -5321,7 +5616,8 @@
 						"#Creative",
 						"#Experimental",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5338,7 +5634,8 @@
 						"#Content Heavy",
 						"#Clean UI",
 						"#Readable"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5355,7 +5652,8 @@
 						"#Modern",
 						"#Image-Heavy",
 						"#Dramatic"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5372,7 +5670,8 @@
 						"#Modern",
 						"#Gallery",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5389,7 +5688,8 @@
 						"#Editorial",
 						"#Content Heavy",
 						"#Interactive"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5406,7 +5706,8 @@
 						"#Modern",
 						"#Professional",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5423,7 +5724,8 @@
 						"#Creative",
 						"#Asymmetric",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5440,7 +5742,8 @@
 						"#Modern",
 						"#Immersive",
 						"#Heavy Motion"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5457,7 +5760,8 @@
 						"#Modern",
 						"#Interactive",
 						"#Bold"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5474,7 +5778,8 @@
 						"#Grid",
 						"#Clean UI",
 						"#Modular Layout"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -5497,7 +5802,8 @@
 						"#Edgy",
 						"#Bold",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5514,7 +5820,8 @@
 						"#Pattern-Heavy",
 						"#Bold",
 						"#Textured"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5531,7 +5838,8 @@
 						"#Organic",
 						"#Raw",
 						"#Distressed"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -5554,7 +5862,8 @@
 						"#Elegant",
 						"#Bold",
 						"#Professional"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5571,7 +5880,8 @@
 						"#Professional",
 						"#Balanced",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5588,7 +5898,8 @@
 						"#Organic",
 						"#Natural",
 						"#Brown"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5605,7 +5916,8 @@
 						"#Modern",
 						"#Artistic",
 						"#Fluid"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5622,7 +5934,8 @@
 						"#Futuristic",
 						"#Modern",
 						"#Experimental"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5639,7 +5952,8 @@
 						"#Elegant",
 						"#Professional",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5656,7 +5970,8 @@
 						"#Professional",
 						"#Balanced",
 						"#Elegant"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5673,7 +5988,8 @@
 						"#Vibrant",
 						"#Bold Colors",
 						"#Glow"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5690,7 +6006,8 @@
 						"#Light",
 						"#Warm",
 						"#Calm"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -5713,7 +6030,8 @@
 						"#Readable",
 						"#Serif",
 						"#Clean UI"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5730,7 +6048,8 @@
 						"#Personal",
 						"#Minimal",
 						"#Content Heavy"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5747,7 +6066,8 @@
 						"#Mobile",
 						"#Single Column",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5764,7 +6084,8 @@
 						"#Clean UI",
 						"#Personal",
 						"#Modern"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5781,7 +6102,8 @@
 						"#Professional",
 						"#Modern",
 						"#Visual-Focused"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5798,7 +6120,8 @@
 						"#Single Column",
 						"#Clean UI",
 						"#Readable"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		},
@@ -5821,7 +6144,8 @@
 						"#Bold Colors",
 						"#Nostalgic",
 						"#Playful"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5838,7 +6162,8 @@
 						"#Interactive",
 						"#Techy",
 						"#Heavy Motion"
-					]
+					],
+					"ignore": "1"
 				},
 				{
 					"a_image": {
@@ -5855,7 +6180,8 @@
 						"#Engaging",
 						"#Modern",
 						"#User-Centric"
-					]
+					],
+					"ignore": "1"
 				}
 			]
 		}
