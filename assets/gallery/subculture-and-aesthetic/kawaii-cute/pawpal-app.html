@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawPal — Pet Care Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --pink:          #ff69b4;
+            --pink-hover:    #e55aa0;
+            --pink-light:    #ffb3d9;
+            --pink-pale:     #ffe0f0;
+            --pink-bg:       #fff0f5;
+            --border:        #ffd6eb;
+            --dark:          #4a2040;
+            --mid:           #8a6a7a;
+            --white:         #ffffff;
+            --green:         #16a34a;
+            --green-bg:      #dcfce7;
+            --orange:        #ea580c;
+            --orange-bg:     #ffedd5;
+            --shadow-sm:     0 4px 20px rgba(255, 105, 180, 0.15);
+            --shadow-md:     0 8px 32px rgba(255, 105, 180, 0.25);
+            --shadow-nav:    0 -8px 32px rgba(255, 105, 180, 0.12);
+        }
+
+        body {
+            font-family: 'Fredoka', sans-serif;
+            background: var(--pink-bg);
+            color: var(--mid);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* ── App shell ───────────────────────────────────── */
+        .app {
+            width: 100%;
+            max-width: 420px;
+            min-height: 100vh;
+            background: var(--pink-bg);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 90px;
+
+            @media (min-width: 768px) {
+                box-shadow: 0 0 60px rgba(255, 105, 180, 0.1);
+            }
+        }
+
+        /* ── Decorative floaters ─────────────────────────── */
+        .floater {
+            position: fixed;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.35;
+            font-size: 18px;
+            animation: floatDrift 9s ease-in-out infinite;
+
+            &:nth-child(2) {
+                animation-delay: -3s;
+                animation-duration: 11s;
+            }
+
+            &:nth-child(3) {
+                animation-delay: -6s;
+                animation-duration: 8s;
+            }
+
+            &:nth-child(4) {
+                animation-delay: -1.5s;
+                animation-duration: 13s;
+            }
+        }
+
+        @keyframes floatDrift {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            33%       { transform: translateY(-14px) rotate(6deg); }
+            66%       { transform: translateY(-7px) rotate(-5deg); }
+        }
+
+        /* ── Header ──────────────────────────────────────── */
+        .app-header {
+            padding: 22px 20px 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 1;
+
+            .header-left {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+            }
+
+            .eyebrow {
+                font-size: 11px;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: var(--pink);
+            }
+
+            h1 {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 1.3;
+                color: var(--dark);
+
+                span {
+                    color: var(--pink);
+                }
+            }
+
+            .header-actions {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .header-btn {
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                background: var(--white);
+                border: 2px solid var(--border);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: all 0.3s;
+                color: var(--mid);
+                position: relative;
+
+                &:hover {
+                    border-color: var(--pink);
+                    color: var(--pink);
+                    transform: scale(1.05);
+                }
+            }
+
+            .notif-dot {
+                width: 8px;
+                height: 8px;
+                background: var(--pink);
+                border-radius: 50%;
+                border: 2px solid var(--white);
+                position: absolute;
+                top: 1px;
+                right: 1px;
+            }
+        }
+
+        /* ── Scroll area ─────────────────────────────────── */
+        .app-content {
+            flex: 1;
+            padding: 14px 18px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ── Screens ─────────────────────────────────────── */
+        .screen {
+            display: none;
+            flex-direction: column;
+            gap: 14px;
+            animation: fadeUp 0.3s ease;
+
+            &.active {
+                display: flex;
+            }
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(14px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ── Inner panel ─────────────────────────────────── */
+        .inner {
+            background: var(--white);
+            border: 2px solid var(--pink);
+            border-radius: 24px;
+            padding: 20px;
+            box-shadow: var(--shadow-sm);
+            transition: box-shadow 0.3s, transform 0.3s;
+
+            &:hover {
+                box-shadow: var(--shadow-md);
+                transform: translateY(-2px);
+            }
+        }
+
+        .inner-soft {
+            background: var(--white);
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            padding: 16px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+
+            &:hover {
+                border-color: var(--pink);
+                box-shadow: var(--shadow-sm);
+            }
+        }
+
+        /* ── Section header ──────────────────────────────── */
+        .section-hd {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 14px;
+
+            h3 {
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--dark);
+                display: flex;
+                align-items: center;
+                gap: 7px;
+            }
+        }
+
+        /* ── Buttons ─────────────────────────────────────── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+            text-decoration: none;
+            white-space: nowrap;
+
+            &.btn-primary {
+                background: var(--pink);
+                color: var(--white);
+                border-radius: 50px;
+                padding: 10px 22px;
+
+                &:hover {
+                    background: var(--pink-hover);
+                    transform: translateY(-2px);
+                    box-shadow: 0 6px 20px rgba(255, 105, 180, 0.45);
+                }
+
+                &:active {
+                    transform: translateY(0);
+                }
+            }
+
+            &.btn-secondary {
+                background: transparent;
+                color: var(--pink);
+                border: 2px solid var(--pink);
+                border-radius: 50px;
+                padding: 8px 20px;
+
+                &:hover {
+                    background: var(--pink-pale);
+                    transform: translateY(-2px);
+                }
+            }
+
+            &.btn-icon {
+                background: var(--pink-pale);
+                color: var(--pink);
+                border-radius: 50%;
+                width: 34px;
+                height: 34px;
+                padding: 0;
+                justify-content: center;
+                flex-shrink: 0;
+
+                &:hover {
+                    background: var(--pink);
+                    color: var(--white);
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        /* ── Tag chip ────────────────────────────────────── */
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: var(--pink-pale);
+            color: var(--dark);
+            border-radius: 50px;
+            padding: 4px 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        /* ═══════════════════════════════════════════════════
+           SCREEN 1 — PET PROFILE
+        ═══════════════════════════════════════════════════ */
+
+        /* ── Pet hero card ───────────────────────────────── */
+        .pet-hero {
+            border-radius: 28px;
+            background: linear-gradient(148deg, #ff85c2 0%, #ff69b4 45%, #e8509f 100%);
+            padding: 22px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 36px rgba(255, 105, 180, 0.45);
+
+            .hero-deco-1 {
+                position: absolute;
+                font-size: 100px;
+                opacity: 0.1;
+                right: -14px;
+                top: -14px;
+                line-height: 1;
+                pointer-events: none;
+                user-select: none;
+            }
+
+            .hero-deco-2 {
+                position: absolute;
+                font-size: 36px;
+                opacity: 0.14;
+                bottom: 14px;
+                right: 24px;
+                pointer-events: none;
+                user-select: none;
+            }
+
+            .pet-row {
+                display: flex;
+                align-items: flex-end;
+                gap: 14px;
+                margin-bottom: 14px;
+            }
+
+            .pet-avatar {
+                width: 78px;
+                height: 78px;
+                border-radius: 50%;
+                background: rgba(255,255,255,0.28);
+                border: 3px solid rgba(255,255,255,0.55);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 40px;
+                flex-shrink: 0;
+                transition: transform 0.3s;
+
+                &:hover {
+                    transform: scale(1.06);
+                }
+            }
+
+            .pet-name-block {
+                h2 {
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 1.2;
+                    color: var(--white);
+                }
+
+                p {
+                    font-size: 13px;
+                    color: rgba(255,255,255,0.85);
+                    margin-top: 2px;
+                }
+            }
+
+            .since-pill {
+                display: inline-flex;
+                align-items: center;
+                gap: 5px;
+                background: rgba(255,255,255,0.22);
+                backdrop-filter: blur(6px);
+                border: 1px solid rgba(255,255,255,0.35);
+                border-radius: 50px;
+                padding: 5px 14px;
+                font-size: 12px;
+                font-weight: 500;
+                color: var(--white);
+                margin-bottom: 16px;
+            }
+
+            .pet-stats {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 8px;
+
+                .stat {
+                    background: rgba(255,255,255,0.18);
+                    backdrop-filter: blur(6px);
+                    border: 1px solid rgba(255,255,255,0.28);
+                    border-radius: 16px;
+                    padding: 10px 6px;
+                    text-align: center;
+                    transition: background 0.3s;
+
+                    &:hover {
+                        background: rgba(255,255,255,0.28);
+                    }
+
+                    .stat-val {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: var(--white);
+                        line-height: 1.2;
+                    }
+
+                    .stat-lbl {
+                        font-size: 11px;
+                        color: rgba(255,255,255,0.8);
+                        margin-top: 2px;
+                        line-height: 1.3;
+                    }
+                }
+            }
+        }
+
+        /* ── Quick actions bar ───────────────────────────── */
+        .quick-actions {
+            display: flex;
+            gap: 9px;
+            flex-wrap: wrap;
+        }
+
+        /* ── Health grid ─────────────────────────────────── */
+        .health-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+
+            .metric-card {
+                background: var(--pink-bg);
+                border-radius: 16px;
+                padding: 14px;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                transition: background 0.3s;
+
+                &:hover {
+                    background: var(--pink-pale);
+                }
+
+                .mc-icon {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 9px;
+                    background: var(--white);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--pink);
+                    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.18);
+                }
+
+                .mc-val {
+                    font-size: 19px;
+                    font-weight: 600;
+                    color: var(--dark);
+                    line-height: 1;
+                }
+
+                .mc-lbl {
+                    font-size: 12px;
+                    color: var(--mid);
+                    line-height: 1.3;
+                }
+
+                .mc-status {
+                    font-size: 11px;
+                    color: var(--green);
+                    font-weight: 500;
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+
+                    &::before {
+                        content: '';
+                        display: inline-block;
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background: var(--green);
+                        flex-shrink: 0;
+                    }
+                }
+            }
+        }
+
+        /* ── Mascot encouragement ────────────────────────── */
+        .mascot-card {
+            background: linear-gradient(135deg, #fff0f5 0%, #ffe8f5 100%);
+            border: 2px solid var(--border);
+            border-radius: 22px;
+            padding: 18px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+
+            .mascot-bubble {
+                flex-shrink: 0;
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                background: var(--pink);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 28px;
+                box-shadow: 0 6px 20px rgba(255, 105, 180, 0.4);
+                animation: mascotFloat 3.5s ease-in-out infinite;
+            }
+
+            .mascot-text {
+                flex: 1;
+
+                h4 {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: var(--dark);
+                    margin-bottom: 3px;
+                }
+
+                p {
+                    font-size: 13px;
+                    color: var(--mid);
+                    line-height: 1.55;
+                }
+            }
+        }
+
+        @keyframes mascotFloat {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            40%       { transform: translateY(-6px) rotate(3deg); }
+            70%       { transform: translateY(-3px) rotate(-2deg); }
+        }
+
+        /* ═══════════════════════════════════════════════════
+           SCREEN 2 — FEEDING SCHEDULE
+        ═══════════════════════════════════════════════════ */
+
+        .feeding-banner {
+            background: linear-gradient(135deg, var(--pink-pale) 0%, #fff5fb 100%);
+            border: 2px solid var(--border);
+            border-radius: 22px;
+            padding: 18px;
+
+            .banner-top {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                margin-bottom: 14px;
+
+                .banner-emoji {
+                    font-size: 40px;
+                    line-height: 1;
+                }
+
+                .banner-text {
+                    h3 {
+                        font-size: 17px;
+                        font-weight: 600;
+                        color: var(--dark);
+                        line-height: 1.3;
+                    }
+
+                    p {
+                        font-size: 13px;
+                        color: var(--mid);
+                        margin-top: 2px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+
+            .prog-wrap {
+                background: var(--border);
+                border-radius: 50px;
+                height: 8px;
+                overflow: hidden;
+
+                .prog-fill {
+                    height: 100%;
+                    width: 66%;
+                    background: linear-gradient(90deg, var(--pink), var(--pink-light));
+                    border-radius: 50px;
+                    transition: width 0.3s;
+                }
+            }
+
+            .prog-meta {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 7px;
+                font-size: 12px;
+                color: var(--mid);
+            }
+        }
+
+        .meal-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+
+            .meal-row {
+                display: flex;
+                align-items: center;
+                gap: 13px;
+
+                .meal-badge {
+                    flex-shrink: 0;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 10px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 0.4px;
+                    line-height: 1.2;
+                    transition: transform 0.3s;
+
+                    &:hover {
+                        transform: scale(1.08);
+                    }
+
+                    &.done {
+                        background: var(--green-bg);
+                        color: var(--green);
+                    }
+
+                    &.next {
+                        background: var(--pink);
+                        color: var(--white);
+                        animation: pulseSoft 2.2s infinite;
+                    }
+
+                    &.pending {
+                        background: var(--pink-pale);
+                        color: var(--mid);
+                    }
+                }
+
+                .meal-info {
+                    flex: 1;
+
+                    h4 {
+                        font-size: 15px;
+                        font-weight: 600;
+                        color: var(--dark);
+                        margin-bottom: 2px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                        color: var(--mid);
+                        line-height: 1.45;
+                    }
+                }
+
+                .meal-amount {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: var(--dark);
+                    text-align: right;
+
+                    span {
+                        display: block;
+                        font-size: 11px;
+                        font-weight: 400;
+                        color: var(--mid);
+                    }
+                }
+            }
+        }
+
+        @keyframes pulseSoft {
+            0%, 100% { transform: scale(1); }
+            50%       { transform: scale(1.06); }
+        }
+
+        /* ═══════════════════════════════════════════════════
+           SCREEN 3 — VET APPOINTMENTS
+        ═══════════════════════════════════════════════════ */
+
+        .appt-hero {
+            background: linear-gradient(140deg, #fce4f5 0%, #f5cce9 100%);
+            border: 2px solid var(--border);
+            border-radius: 26px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+
+            .appt-bg-deco {
+                position: absolute;
+                right: 14px;
+                top: 14px;
+                font-size: 54px;
+                opacity: 0.12;
+                pointer-events: none;
+                user-select: none;
+            }
+
+            .date-pill {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                background: var(--pink);
+                color: var(--white);
+                border-radius: 50px;
+                padding: 5px 14px;
+                font-size: 13px;
+                font-weight: 500;
+                margin-bottom: 12px;
+            }
+
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+                color: var(--dark);
+                margin-bottom: 14px;
+                line-height: 1.3;
+                max-width: 260px;
+            }
+
+            .doc-row {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 14px;
+
+                .doc-av {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background: var(--pink-pale);
+                    border: 2px solid var(--pink-light);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 20px;
+                    flex-shrink: 0;
+                }
+
+                .doc-meta {
+                    h5 {
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: var(--dark);
+                        line-height: 1.2;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        color: var(--mid);
+                    }
+                }
+            }
+
+            .appt-note {
+                background: rgba(255,255,255,0.65);
+                backdrop-filter: blur(4px);
+                border: 1px solid rgba(255,105,180,0.18);
+                border-radius: 14px;
+                padding: 12px;
+                font-size: 13px;
+                color: var(--mid);
+                line-height: 1.65;
+            }
+        }
+
+        .info-chips {
+            display: flex;
+            gap: 10px;
+
+            .chip {
+                flex: 1;
+                background: var(--white);
+                border: 2px solid var(--border);
+                border-radius: 18px;
+                padding: 12px 8px;
+                text-align: center;
+                transition: border-color 0.3s, box-shadow 0.3s;
+
+                &:hover {
+                    border-color: var(--pink);
+                    box-shadow: var(--shadow-sm);
+                }
+
+                .chip-icon {
+                    color: var(--pink);
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 4px;
+                }
+
+                .chip-val {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: var(--dark);
+                    line-height: 1.2;
+                }
+
+                .chip-lbl {
+                    font-size: 11px;
+                    color: var(--mid);
+                    margin-top: 2px;
+                }
+            }
+        }
+
+        .appt-actions {
+            display: flex;
+            gap: 10px;
+
+            .btn {
+                flex: 1;
+                justify-content: center;
+            }
+        }
+
+        .past-list {
+            display: flex;
+            flex-direction: column;
+
+            .past-item {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 11px 0;
+
+                & + & {
+                    border-top: 1px solid var(--border);
+                }
+
+                .past-dot {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background: var(--pink-light);
+                    flex-shrink: 0;
+                }
+
+                .past-info {
+                    flex: 1;
+
+                    h5 {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: var(--dark);
+                        line-height: 1.3;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        color: var(--mid);
+                    }
+                }
+
+                .past-date {
+                    font-size: 12px;
+                    color: var(--mid);
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        /* ═══════════════════════════════════════════════════
+           SCREEN 4 — VACCINATIONS
+        ═══════════════════════════════════════════════════ */
+
+        .vax-progress-card {
+            background: var(--white);
+            border: 2px solid var(--pink);
+            border-radius: 24px;
+            padding: 18px 20px;
+            box-shadow: var(--shadow-sm);
+
+            .vp-top {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 14px;
+
+                .vp-left {
+                    .eyebrow {
+                        font-size: 11px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        color: var(--pink);
+                        margin-bottom: 3px;
+                    }
+
+                    h3 {
+                        font-size: 19px;
+                        font-weight: 600;
+                        color: var(--dark);
+                    }
+                }
+
+                .vp-count {
+                    text-align: right;
+
+                    .count-num {
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: var(--pink);
+                        line-height: 1;
+                    }
+
+                    .count-lbl {
+                        font-size: 12px;
+                        color: var(--mid);
+                        margin-top: 2px;
+                    }
+                }
+            }
+
+            .vp-bar {
+                background: var(--pink-bg);
+                border-radius: 50px;
+                height: 9px;
+                overflow: hidden;
+
+                .vp-fill {
+                    height: 100%;
+                    width: 80%;
+                    background: linear-gradient(90deg, var(--pink) 0%, var(--pink-light) 100%);
+                    border-radius: 50px;
+                }
+            }
+
+            .vp-legend {
+                display: flex;
+                gap: 14px;
+                margin-top: 10px;
+
+                .leg-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    font-size: 12px;
+                    color: var(--mid);
+
+                    .leg-dot {
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                        flex-shrink: 0;
+
+                        &.done    { background: var(--pink); }
+                        &.overdue { background: #fb923c; }
+                        &.future  { background: var(--border); }
+                    }
+                }
+            }
+        }
+
+        .vax-timeline {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding-left: 2px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 19px;
+                top: 12px;
+                bottom: 12px;
+                width: 2px;
+                background: linear-gradient(180deg, var(--pink) 60%, var(--border) 100%);
+                border-radius: 2px;
+            }
+
+            .vax-row {
+                display: flex;
+                gap: 14px;
+                padding-bottom: 16px;
+                position: relative;
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
+
+                .vax-node {
+                    flex-shrink: 0;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    margin-top: 6px;
+                    z-index: 1;
+                    border: 3px solid var(--pink-bg);
+                    transition: transform 0.3s;
+
+                    &.done {
+                        background: var(--pink);
+                        box-shadow: 0 0 0 3px var(--pink-pale);
+                    }
+
+                    &.overdue {
+                        background: #fb923c;
+                        box-shadow: 0 0 0 3px #fff7ed;
+                    }
+
+                    &.future {
+                        background: var(--border);
+                        box-shadow: 0 0 0 3px var(--pink-bg);
+                    }
+                }
+
+                &:hover .vax-node {
+                    transform: scale(1.35);
+                }
+
+                .vax-card {
+                    flex: 1;
+                    background: var(--white);
+                    border: 1.5px solid var(--border);
+                    border-radius: 18px;
+                    padding: 14px;
+                    transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+
+                    &:hover {
+                        border-color: var(--pink);
+                        box-shadow: var(--shadow-sm);
+                        transform: translateX(2px);
+                    }
+
+                    .vax-name {
+                        font-size: 15px;
+                        font-weight: 600;
+                        color: var(--dark);
+                        margin-bottom: 3px;
+                    }
+
+                    .vax-meta {
+                        font-size: 12px;
+                        color: var(--mid);
+                        line-height: 1.55;
+                        margin-bottom: 9px;
+                    }
+
+                    .status-badge {
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 4px;
+                        border-radius: 50px;
+                        padding: 3px 11px;
+                        font-size: 11px;
+                        font-weight: 500;
+
+                        &.done    { background: var(--green-bg);   color: var(--green); }
+                        &.overdue { background: var(--orange-bg);  color: var(--orange); }
+                        &.future  { background: var(--pink-pale);  color: var(--pink); }
+                    }
+                }
+            }
+        }
+
+        /* ── Empty state ─────────────────────────────────── */
+        .empty-state {
+            text-align: center;
+            padding: 44px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+
+            .empty-mascot {
+                width: 80px;
+                height: 80px;
+                background: var(--pink);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 38px;
+                box-shadow: 0 8px 26px rgba(255, 105, 180, 0.4);
+                animation: mascotFloat 3.5s ease-in-out infinite;
+            }
+
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                color: var(--dark);
+            }
+
+            p {
+                font-size: 14px;
+                color: var(--mid);
+                line-height: 1.6;
+                max-width: 220px;
+            }
+        }
+
+        /* ── Bottom navigation ───────────────────────────── */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 420px;
+            background: var(--white);
+            border-top: 2px solid var(--border);
+            padding: 8px 6px 22px;
+            display: flex;
+            z-index: 100;
+            border-radius: 28px 28px 0 0;
+            box-shadow: var(--shadow-nav);
+
+            .nav-btn {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 4px;
+                padding: 8px 4px;
+                cursor: pointer;
+                transition: all 0.3s;
+                border: none;
+                background: none;
+                font-family: 'Fredoka', sans-serif;
+
+                .nav-pill {
+                    width: 46px;
+                    height: 34px;
+                    border-radius: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.3s;
+                    color: var(--mid);
+                    position: relative;
+                }
+
+                .nav-lbl {
+                    font-size: 11px;
+                    font-weight: 500;
+                    color: var(--mid);
+                    transition: color 0.3s;
+                    line-height: 1;
+                }
+
+                .nav-notif {
+                    width: 7px;
+                    height: 7px;
+                    background: var(--pink);
+                    border-radius: 50%;
+                    border: 2px solid var(--white);
+                    position: absolute;
+                    top: 0;
+                    right: 3px;
+                }
+
+                &.active {
+                    .nav-pill {
+                        background: var(--pink-pale);
+                        color: var(--pink);
+                    }
+
+                    .nav-lbl {
+                        color: var(--pink);
+                        font-weight: 600;
+                    }
+                }
+
+                &:hover:not(.active) {
+                    .nav-pill {
+                        background: var(--pink-bg);
+                        color: var(--pink);
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app">
+
+    <!-- Background floaters -->
+    <span class="floater" style="top: 12%; left: 4%;">🌸</span>
+    <span class="floater" style="top: 38%; right: 2%;">💕</span>
+    <span class="floater" style="top: 65%; left: 2%;">⭐</span>
+    <span class="floater" style="top: 82%; right: 5%;">🌷</span>
+
+    <!-- ── Header ─────────────────────────────────────── -->
+    <header class="app-header">
+        <div class="header-left">
+            <span class="eyebrow">Good morning ✨</span>
+            <h1>Hello, <span>Yuki</span>! 🌸</h1>
+        </div>
+        <div class="header-actions">
+            <button class="header-btn" aria-label="Notifications">
+                <i data-lucide="bell" style="width:18px; height:18px;"></i>
+                <span class="notif-dot"></span>
+            </button>
+            <button class="header-btn" aria-label="Settings">
+                <i data-lucide="settings" style="width:18px; height:18px;"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ── Screen container ───────────────────────────── -->
+    <main class="app-content">
+
+        <!-- ╔══════════════════════════════════════════════╗ -->
+        <!-- ║  SCREEN 1 — PET PROFILE                     ║ -->
+        <!-- ╚══════════════════════════════════════════════╝ -->
+        <section class="screen active" id="screen-home" aria-label="Pet profile">
+
+            <!-- Hero -->
+            <div class="pet-hero">
+                <span class="hero-deco-1">🐾</span>
+                <span class="hero-deco-2">💕</span>
+
+                <div class="pet-row">
+                    <div class="pet-avatar" role="img" aria-label="Cat emoji">🐈</div>
+                    <div class="pet-name-block">
+                        <h2>Mochi</h2>
+                        <p>Scottish Fold · Female · Indoor</p>
+                    </div>
+                </div>
+
+                <div class="since-pill">
+                    <i data-lucide="heart" style="width:12px; height:12px;"></i>
+                    Best buddies since 12. 3. 2021
+                </div>
+
+                <div class="pet-stats">
+                    <div class="stat">
+                        <div class="stat-val">4</div>
+                        <div class="stat-lbl">Years old</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-val">4.2 kg</div>
+                        <div class="stat-lbl">Weight</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-val">😻</div>
+                        <div class="stat-lbl">Mood today</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mascot encouragement card -->
+            <div class="mascot-card">
+                <div class="mascot-bubble" role="img" aria-label="PawPal mascot cat">🐱</div>
+                <div class="mascot-text">
+                    <h4>Mochi is purrfect today! ✨</h4>
+                    <p>Don't forget her evening meal at 18:30 and a cuddle session! 💕</p>
+                </div>
+            </div>
+
+            <!-- Quick actions -->
+            <div class="inner">
+                <div class="section-hd">
+                    <h3>
+                        <i data-lucide="zap" style="width:16px; height:16px; color:#ff69b4;"></i>
+                        Quick actions
+                    </h3>
+                </div>
+                <div class="quick-actions">
+                    <button class="btn btn-primary">
+                        <i data-lucide="plus" style="width:14px; height:14px;"></i>
+                        Log meal
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i data-lucide="calendar" style="width:14px; height:14px;"></i>
+                        Book vet
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i data-lucide="activity" style="width:14px; height:14px;"></i>
+                        Health log
+                    </button>
+                </div>
+            </div>
+
+            <!-- Health metrics -->
+            <div class="inner">
+                <div class="section-hd">
+                    <h3>
+                        <i data-lucide="heart-pulse" style="width:16px; height:16px; color:#ff69b4;"></i>
+                        Health snapshot
+                    </h3>
+                    <button class="btn btn-icon" aria-label="View all">
+                        <i data-lucide="chevron-right" style="width:16px; height:16px;"></i>
+                    </button>
+                </div>
+                <div class="health-grid">
+                    <div class="metric-card">
+                        <div class="mc-icon">
+                            <i data-lucide="scale" style="width:15px; height:15px;"></i>
+                        </div>
+                        <div class="mc-val">4.2 kg</div>
+                        <div class="mc-lbl">Body weight</div>
+                        <div class="mc-status">Healthy range</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="mc-icon">
+                            <i data-lucide="thermometer" style="width:15px; height:15px;"></i>
+                        </div>
+                        <div class="mc-val">38.4 °C</div>
+                        <div class="mc-lbl">Temperature</div>
+                        <div class="mc-status">Normal</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="mc-icon">
+                            <i data-lucide="droplets" style="width:15px; height:15px;"></i>
+                        </div>
+                        <div class="mc-val">120 ml</div>
+                        <div class="mc-lbl">Water today</div>
+                        <div class="mc-status">On track</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="mc-icon">
+                            <i data-lucide="moon" style="width:15px; height:15px;"></i>
+                        </div>
+                        <div class="mc-val">16 h</div>
+                        <div class="mc-lbl">Sleep today</div>
+                        <div class="mc-status">Normal</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ╔══════════════════════════════════════════════╗ -->
+        <!-- ║  SCREEN 2 — FEEDING SCHEDULE                ║ -->
+        <!-- ╚══════════════════════════════════════════════╝ -->
+        <section class="screen" id="screen-feeding" aria-label="Feeding schedule">
+
+            <!-- Daily summary -->
+            <div class="feeding-banner">
+                <div class="banner-top">
+                    <span class="banner-emoji">🍱</span>
+                    <div class="banner-text">
+                        <h3>Today's feeding plan</h3>
+                        <p>Mochi had 2 of 3 meals today. One more to go! 🌸</p>
+                    </div>
+                </div>
+                <div class="prog-wrap">
+                    <div class="prog-fill"></div>
+                </div>
+                <div class="prog-meta">
+                    <span>2 / 3 meals done</span>
+                    <span>Next: 18:30</span>
+                </div>
+            </div>
+
+            <!-- Meal list -->
+            <div class="inner">
+                <div class="section-hd">
+                    <h3>
+                        <i data-lucide="clock" style="width:16px; height:16px; color:#ff69b4;"></i>
+                        Meal schedule
+                    </h3>
+                    <button class="btn btn-icon" aria-label="Add meal">
+                        <i data-lucide="plus" style="width:16px; height:16px;"></i>
+                    </button>
+                </div>
+
+                <div class="meal-list">
+                    <div class="meal-row">
+                        <div class="meal-badge done" aria-label="Completed">
+                            <i data-lucide="check" style="width:18px; height:18px;"></i>
+                        </div>
+                        <div class="meal-info">
+                            <h4>Morning breakfast</h4>
+                            <p>Wet food — Salmon &amp; tuna · 07:30</p>
+                        </div>
+                        <div class="meal-amount">80 g <span>wet</span></div>
+                    </div>
+
+                    <div class="meal-row">
+                        <div class="meal-badge done" aria-label="Completed">
+                            <i data-lucide="check" style="width:18px; height:18px;"></i>
+                        </div>
+                        <div class="meal-info">
+                            <h4>Afternoon snack</h4>
+                            <p>Dry kibble — Indoor cat · 13:00</p>
+                        </div>
+                        <div class="meal-amount">30 g <span>dry</span></div>
+                    </div>
+
+                    <div class="meal-row">
+                        <div class="meal-badge next" aria-label="Up next">
+                            <span style="font-size: 9px; line-height: 1.2; text-align: center;">18:30<br>next</span>
+                        </div>
+                        <div class="meal-info">
+                            <h4>Evening dinner</h4>
+                            <p>Wet food — Chicken pâté · 18:30</p>
+                        </div>
+                        <div class="meal-amount">80 g <span>wet</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feeding notes -->
+            <div class="inner">
+                <div class="section-hd">
+                    <h3>
+                        <i data-lucide="notebook-pen" style="width:16px; height:16px; color:#ff69b4;"></i>
+                        Feeding notes
+                    </h3>
+                </div>
+                <p style="font-size: 14px; color: var(--mid); line-height: 1.65;">
+                    Mochi prefers her bowl slightly elevated. Avoid fish-only diet — rotate proteins weekly. Always ensure fresh water is available beside the bowl. 💧
+                </p>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px;">
+                    <span class="tag">🐟 Fish lover</span>
+                    <span class="tag">🌿 Grain-free</span>
+                    <span class="tag">💊 Omega-3</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ╔══════════════════════════════════════════════╗ -->
+        <!-- ║  SCREEN 3 — VET APPOINTMENTS                ║ -->
+        <!-- ╚══════════════════════════════════════════════╝ -->
+        <section class="screen" id="screen-appts" aria-label="Vet appointments">
+
+            <!-- Upcoming hero card -->
+            <div class="appt-hero">
+                <span class="appt-bg-deco">🏥</span>
+
+                <div class="date-pill">
+                    <i data-lucide="calendar" style="width:13px; height:13px;"></i>
+                    28. 3. 2026 · 10:30
+                </div>
+
+                <h3>Annual checkup &amp; dental cleaning</h3>
+
+                <div class="doc-row">
+                    <div class="doc-av" role="img" aria-label="Doctor">👩‍⚕️</div>
+                    <div class="doc-meta">
+                        <h5>MVDr. Alžběta Horáčková</h5>
+                        <p>Veterinary Clinic PawCare · Brno</p>
+                    </div>
+                </div>
+
+                <div class="appt-note">
+                    🗒️ Bring vaccination booklet. Mochi should fast for 4 hours before the appointment. Dental cleaning may require mild sedation — arrange a quiet recovery space at home.
+                </div>
+            </div>
+
+            <!-- Info chips -->
+            <div class="info-chips">
+                <div class="chip">
+                    <div class="chip-icon">
+                        <i data-lucide="clock" style="width:16px; height:16px;"></i>
+                    </div>
+                    <div class="chip-val">~45 min</div>
+                    <div class="chip-lbl">Duration</div>
+                </div>
+                <div class="chip">
+                    <div class="chip-icon">
+                        <i data-lucide="map-pin" style="width:16px; height:16px;"></i>
+                    </div>
+                    <div class="chip-val">Brno</div>
+                    <div class="chip-lbl">Location</div>
+                </div>
+                <div class="chip">
+                    <div class="chip-icon">
+                        <i data-lucide="bell" style="width:16px; height:16px;"></i>
+                    </div>
+                    <div class="chip-val">7 days</div>
+                    <div class="chip-lbl">Reminder</div>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="appt-actions">
+                <button class="btn btn-primary">
+                    <i data-lucide="navigation" style="width:14px; height:14px;"></i>
+                    Directions
+                </button>
+                <button class="btn btn-secondary">
+                    <i data-lucide="edit-3" style="width:14px; height:14px;"></i>
+                    Reschedule
+                </button>
+            </div>
+
+            <!-- Past visits -->
+            <div class="inner">
+                <div class="section-hd">
+                    <h3>
+                        <i data-lucide="history" style="width:16px; height:16px; color:#ff69b4;"></i>
+                        Previous visits
+                    </h3>
+                    <button class="btn btn-icon" aria-label="Add appointment">
+                        <i data-lucide="plus" style="width:16px; height:16px;"></i>
+                    </button>
+                </div>
+                <div class="past-list">
+                    <div class="past-item">
+                        <div class="past-dot"></div>
+                        <div class="past-info">
+                            <h5>Routine vaccination booster</h5>
+                            <p>MVDr. Horáčková · PawCare Brno</p>
+                        </div>
+                        <span class="past-date">14. 9. 2025</span>
+                    </div>
+                    <div class="past-item">
+                        <div class="past-dot"></div>
+                        <div class="past-info">
+                            <h5>Upset stomach — consultation</h5>
+                            <p>MVDr. Novák · Vet Emergency Brno</p>
+                        </div>
+                        <span class="past-date">3. 5. 2025</span>
+                    </div>
+                    <div class="past-item">
+                        <div class="past-dot"></div>
+                        <div class="past-info">
+                            <h5>Annual checkup &amp; microchip</h5>
+                            <p>MVDr. Horáčková · PawCare Brno</p>
+                        </div>
+                        <span class="past-date">20. 3. 2025</span>
+                    </div>
+                    <div class="past-item">
+                        <div class="past-dot"></div>
+                        <div class="past-info">
+                            <h5>First vet visit &amp; health check</h5>
+                            <p>MVDr. Horáčková · PawCare Brno</p>
+                        </div>
+                        <span class="past-date">15. 4. 2021</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ╔══════════════════════════════════════════════╗ -->
+        <!-- ║  SCREEN 4 — VACCINATION TIMELINE            ║ -->
+        <!-- ╚══════════════════════════════════════════════╝ -->
+        <section class="screen" id="screen-vax" aria-label="Vaccination timeline">
+
+            <!-- Progress card -->
+            <div class="vax-progress-card">
+                <div class="vp-top">
+                    <div class="vp-left">
+                        <div class="eyebrow">Passport status</div>
+                        <h3>Mochi's vaccinations</h3>
+                    </div>
+                    <div class="vp-count">
+                        <div class="count-num">4 / 5</div>
+                        <div class="count-lbl">up to date</div>
+                    </div>
+                </div>
+                <div class="vp-bar">
+                    <div class="vp-fill"></div>
+                </div>
+                <div class="vp-legend">
+                    <div class="leg-item">
+                        <div class="leg-dot done"></div>
+                        Done
+                    </div>
+                    <div class="leg-item">
+                        <div class="leg-dot overdue"></div>
+                        Overdue
+                    </div>
+                    <div class="leg-item">
+                        <div class="leg-dot future"></div>
+                        Upcoming
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline -->
+            <div class="inner">
+                <div class="section-hd">
+                    <h3>
+                        <i data-lucide="shield-check" style="width:16px; height:16px; color:#ff69b4;"></i>
+                        Full timeline
+                    </h3>
+                </div>
+
+                <div class="vax-timeline">
+
+                    <div class="vax-row">
+                        <div class="vax-node done"></div>
+                        <div class="vax-card">
+                            <div class="vax-name">Feline Distemper (FVRCP)</div>
+                            <div class="vax-meta">
+                                Given: 15. 4. 2021 · Booster: 15. 4. 2024<br>
+                                MVDr. Horáčková · PawCare Brno
+                            </div>
+                            <span class="status-badge done">
+                                <i data-lucide="check" style="width:11px; height:11px;"></i>
+                                Up to date
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="vax-row">
+                        <div class="vax-node done"></div>
+                        <div class="vax-card">
+                            <div class="vax-name">Rabies</div>
+                            <div class="vax-meta">
+                                Given: 15. 4. 2024 · Next: 15. 4. 2027<br>
+                                MVDr. Horáčková · PawCare Brno
+                            </div>
+                            <span class="status-badge done">
+                                <i data-lucide="check" style="width:11px; height:11px;"></i>
+                                Up to date
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="vax-row">
+                        <div class="vax-node done"></div>
+                        <div class="vax-card">
+                            <div class="vax-name">Feline Leukaemia (FeLV) — primary</div>
+                            <div class="vax-meta">
+                                Given: 12. 9. 2023 · Booster was due: 12. 9. 2025<br>
+                                MVDr. Horáčková · PawCare Brno
+                            </div>
+                            <span class="status-badge done">
+                                <i data-lucide="check" style="width:11px; height:11px;"></i>
+                                Up to date
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="vax-row">
+                        <div class="vax-node overdue"></div>
+                        <div class="vax-card">
+                            <div class="vax-name">Feline Leukaemia — annual booster</div>
+                            <div class="vax-meta">
+                                Due: 12. 9. 2025 · Overdue by ~6 months<br>
+                                Recommended: MVDr. Horáčková
+                            </div>
+                            <span class="status-badge overdue">
+                                <i data-lucide="alert-triangle" style="width:11px; height:11px;"></i>
+                                Overdue — book soon!
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="vax-row">
+                        <div class="vax-node future"></div>
+                        <div class="vax-card">
+                            <div class="vax-name">FVRCP — 3-year booster</div>
+                            <div class="vax-meta">
+                                Scheduled: 15. 4. 2027 · Reminder: 30 days before<br>
+                                MVDr. Horáčková · PawCare Brno
+                            </div>
+                            <span class="status-badge future">
+                                <i data-lucide="clock" style="width:11px; height:11px;"></i>
+                                Upcoming
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 18px;">
+                    <i data-lucide="plus" style="width:14px; height:14px;"></i>
+                    Add vaccination record
+                </button>
+            </div>
+
+            <!-- Empty state mascot teaser (shown at bottom as encouragement) -->
+            <div class="inner-soft" style="text-align: center; padding: 20px;">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <div style="
+                        width: 44px;
+                        height: 44px;
+                        background: var(--pink);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 22px;
+                        flex-shrink: 0;
+                        animation: mascotFloat 3.5s ease-in-out infinite;
+                    " role="img" aria-label="PawPal mascot">🐱</div>
+                    <p style="font-size: 13px; color: var(--mid); line-height: 1.6; text-align: left;">
+                        <strong style="color: var(--dark);">Reminder:</strong> Mochi's FeLV booster is overdue. Book with Dr. Horáčková at your next appointment! 💕
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ── Bottom navigation ───────────────────────────── -->
+    <nav class="bottom-nav" aria-label="Main navigation">
+
+        <button class="nav-btn active" data-screen="home" aria-label="Pet profile">
+            <div class="nav-pill">
+                <i data-lucide="paw-print" style="width:20px; height:20px;"></i>
+            </div>
+            <span class="nav-lbl">Profile</span>
+        </button>
+
+        <button class="nav-btn" data-screen="feeding" aria-label="Feeding schedule">
+            <div class="nav-pill">
+                <i data-lucide="utensils" style="width:20px; height:20px;"></i>
+            </div>
+            <span class="nav-lbl">Feeding</span>
+        </button>
+
+        <button class="nav-btn" data-screen="appts" aria-label="Vet appointments">
+            <div class="nav-pill" style="position: relative;">
+                <i data-lucide="stethoscope" style="width:20px; height:20px;"></i>
+                <span class="nav-notif" aria-label="1 upcoming appointment"></span>
+            </div>
+            <span class="nav-lbl">Vet</span>
+        </button>
+
+        <button class="nav-btn" data-screen="vax" aria-label="Vaccination timeline">
+            <div class="nav-pill">
+                <i data-lucide="shield" style="width:20px; height:20px;"></i>
+            </div>
+            <span class="nav-lbl">Vaccines</span>
+        </button>
+
+    </nav>
+
+</div>
+
+<script>
+    // ── Lucide icons ──────────────────────────────────────
+    lucide.createIcons();
+
+    // ── Tab navigation ────────────────────────────────────
+    const navBtns  = document.querySelectorAll('.nav-btn');
+    const screens  = document.querySelectorAll('.screen');
+    const content  = document.querySelector('.app-content');
+
+    const switchScreen = (screenId) => {
+        navBtns.forEach(b => b.classList.remove('active'));
+        screens.forEach(s => s.classList.remove('active'));
+
+        const targetBtn    = document.querySelector(`[data-screen="${screenId}"]`);
+        const targetScreen = document.getElementById(`screen-${screenId}`);
+
+        targetBtn?.classList.add('active');
+        targetScreen?.classList.add('active');
+        content.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    navBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const { screen } = btn.dataset;
+            switchScreen(screen);
+        });
+    });
+
+    // ── Meal badge re-init after icon inject ──────────────
+    // Re-run createIcons after any dynamic insertions
+    document.addEventListener('DOMContentLoaded', () => lucide.createIcons());
+</script>
+
+</body>
+</html>

@@ -198,3 +198,41 @@
 	}
 
 }
+
+/* Palette mode */
+html.palette body {
+	--color_primary: #c0392b;
+	--color_primary-hover: #a0301f;
+	--color_accent: #8b7355;
+	--color_text: #4a3f32;
+	--color_text-muted: #8b7355;
+	--color_text-inverted: #f5edd6;
+	--color_border: #c8b89a;
+	--bg_body: #2a2420;
+	--bg_surface: #f5edd6;
+	--font-heading: "Permanent Marker", cursive;
+	--font-body: "Barlow", sans-serif;
+	--radius-sm: 0;
+	--radius-md: 0;
+	--radius-lg: 0;
+
+	.m_section_title .a_h2 {
+		color: #f5edd6;
+	}
+
+	.m_section_title .a_eyebrow {
+		color: #c8b89a;
+	}
+
+	.m_section_title .a_description {
+		color: #c8b89a;
+	}
+
+	.o_header {
+		border-color: #4a3f32;
+	}
+
+	.o_footer {
+		border-color: #4a3f32;
+	}
+}

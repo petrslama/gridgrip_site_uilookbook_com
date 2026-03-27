@@ -51,8 +51,9 @@ if (!url || !output) {
 			}
 		}
 
-		// Fill the viewport
+		// Fill the viewport, remove border-radius to avoid black corners
 		hero.style.minHeight = "600px";
+		hero.style.borderRadius = "0";
 
 		// Remove scripts
 		document.querySelectorAll("script").forEach((s) => s.remove());

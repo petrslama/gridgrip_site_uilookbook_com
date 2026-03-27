@@ -619,8 +619,28 @@
 		"start_head_codes": [],
 		"head_codes": [
 			{
-				"note": "Google Fonts",
-				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Caveat:wght@300;400;500;600;700&family=Permanent+Marker:wght@300;400;500;600;700&family=Special+Elite:wght@300;400;500;600;700&display=swap\">"
+				"note": "Google: Permanent Marker",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap\">"
+			},
+			{
+				"note": "Google: Caveat",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap\">"
+			},
+			{
+				"note": "Google: Patrick Hand",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap\">"
+			},
+			{
+				"note": "Google: Kalam",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Special Elite",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Special+Elite&display=swap\">"
+			},
+			{
+				"note": "Google: Barlow",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap\">"
 			},
 			{
 				"note": "cassette-mixtape-ui",

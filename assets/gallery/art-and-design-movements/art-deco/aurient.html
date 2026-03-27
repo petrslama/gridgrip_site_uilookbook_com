@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurient — The Continuous Brand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg:               #0a0a14;
+            --surface:          #0e0e1a;
+            --surface-alt:      #111120;
+            --gold:             #c5a55a;
+            --gold-dim:         rgba(197, 165, 90, 0.10);
+            --gold-border:      rgba(197, 165, 90, 0.22);
+            --gold-mid:         rgba(197, 165, 90, 0.45);
+            --heading:          #e8e0d0;
+            --body:             #8a8a9a;
+            --r:                3px;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to   { opacity: 1; transform: translateY(0);    }
+        }
+
+        @keyframes shimmer {
+            from { background-position: -400% center; }
+            to   { background-position:  400% center; }
+        }
+
+        /* ── Document ───────────────────────────────────────── */
+        body {
+            background-color: var(--bg);
+            background-image:
+                linear-gradient(rgba(197, 165, 90, 0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(197, 165, 90, 0.025) 1px, transparent 1px);
+            background-size: 48px 48px;
+            color: var(--body);
+            font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            line-height: 1.65;
+            min-height: 100vh;
+            padding: 48px 24px;
+        }
+
+        .page {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* ── Main panel ─────────────────────────────────────── */
+        .inner {
+            background: var(--surface);
+            background-image: radial-gradient(ellipse at 50% 0%, rgba(197, 165, 90, 0.05) 0%, transparent 55%);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--r);
+            padding: 72px 80px;
+            position: relative;
+            overflow: hidden;
+
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 7px;
+                border: 1px solid rgba(197, 165, 90, 0.07);
+                border-radius: 1px;
+                pointer-events: none;
+                z-index: 0;
+            }
+        }
+
+        /* ── Corner ornaments ───────────────────────────────── */
+        .corner {
+            position: absolute;
+            width: 44px;
+            height: 44px;
+            pointer-events: none;
+            z-index: 2;
+
+            &.tl { top: 18px; left: 18px; border-top: 1px solid var(--gold); border-left: 1px solid var(--gold); }
+            &.tr { top: 18px; right: 18px; border-top: 1px solid var(--gold); border-right: 1px solid var(--gold); }
+            &.bl { bottom: 18px; left: 18px; border-bottom: 1px solid var(--gold); border-left: 1px solid var(--gold); }
+            &.br { bottom: 18px; right: 18px; border-bottom: 1px solid var(--gold); border-right: 1px solid var(--gold); }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 22px;
+                height: 22px;
+            }
+
+            &.tl::after { top: 8px; left: 8px; border-top: 1px solid rgba(197, 165, 90, 0.32); border-left: 1px solid rgba(197, 165, 90, 0.32); }
+            &.tr::after { top: 8px; right: 8px; border-top: 1px solid rgba(197, 165, 90, 0.32); border-right: 1px solid rgba(197, 165, 90, 0.32); }
+            &.bl::after { bottom: 8px; left: 8px; border-bottom: 1px solid rgba(197, 165, 90, 0.32); border-left: 1px solid rgba(197, 165, 90, 0.32); }
+            &.br::after { bottom: 8px; right: 8px; border-bottom: 1px solid rgba(197, 165, 90, 0.32); border-right: 1px solid rgba(197, 165, 90, 0.32); }
+        }
+
+        /* ── Ornamental divider ─────────────────────────────── */
+        .ornament {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 48px 0;
+
+            &::before,
+            &::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, var(--gold-mid), transparent);
+            }
+
+            .d {
+                width: 7px;
+                height: 7px;
+                background: var(--gold);
+                transform: rotate(45deg);
+                flex-shrink: 0;
+            }
+
+            .d-sm {
+                width: 4px;
+                height: 4px;
+                background: rgba(197, 165, 90, 0.5);
+                transform: rotate(45deg);
+                flex-shrink: 0;
+            }
+        }
+
+        /* ── Eyebrow ────────────────────────────────────────── */
+        .eyebrow {
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        /* ── Site header ────────────────────────────────────── */
+        .site-header {
+            text-align: center;
+            animation: fadeUp 0.8s ease both;
+
+            .brand-name {
+                font-size: 44px;
+                font-weight: 700;
+                letter-spacing: 8px;
+                text-transform: uppercase;
+                line-height: 1;
+                margin: 16px 0 8px;
+                background: linear-gradient(90deg, var(--gold) 0%, #e8d08a 45%, var(--gold) 100%);
+                background-size: 300% auto;
+                background-clip: text;
+                color: transparent;
+                animation: shimmer 6s linear infinite;
+            }
+
+            .tagline {
+                font-size: 11px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: var(--body);
+            }
+        }
+
+        /* ── Thesis ─────────────────────────────────────────── */
+        .thesis {
+            text-align: center;
+            max-width: 620px;
+            margin: 0 auto;
+            animation: fadeUp 0.8s 0.1s ease both;
+
+            h1 {
+                font-size: 27px;
+                font-weight: 600;
+                font-style: italic;
+                color: var(--heading);
+                line-height: 1.25;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 1.7;
+                color: var(--body);
+            }
+        }
+
+        /* ── Coherence split ────────────────────────────────── */
+        .split-section {
+            animation: fadeUp 0.8s 0.2s ease both;
+        }
+
+        .split-labels {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            margin-bottom: 18px;
+
+            span {
+                font-size: 10px;
+                letter-spacing: 2.5px;
+                text-transform: uppercase;
+                color: var(--gold);
+                opacity: 0.65;
+            }
+        }
+
+        .split {
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+        }
+
+        /* ── Label card ─────────────────────────────────────── */
+        .label-card {
+            width: 194px;
+            flex-shrink: 0;
+            background: #0b0b17;
+            border: 1px solid var(--gold-mid);
+            border-radius: 2px;
+            padding: 18px 14px 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 5px;
+                border: 1px solid rgba(197, 165, 90, 0.17);
+                border-radius: 1px;
+                pointer-events: none;
+            }
+
+            .lc-band {
+                width: 100%;
+                border-top: 1px solid var(--gold-mid);
+                border-bottom: 1px solid var(--gold-mid);
+                padding: 3px 0;
+                margin-bottom: 14px;
+                background: repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 5px,
+                    rgba(197, 165, 90, 0.09) 5px,
+                    rgba(197, 165, 90, 0.09) 6px
+                );
+
+                span {
+                    font-size: 7.5px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: var(--gold);
+                }
+            }
+
+            .lc-house {
+                font-size: 8.5px;
+                letter-spacing: 2.5px;
+                text-transform: uppercase;
+                color: var(--gold);
+                margin-bottom: 8px;
+            }
+
+            .lc-name {
+                font-size: 25px;
+                font-weight: 700;
+                color: var(--heading);
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                line-height: 1;
+                margin-bottom: 4px;
+            }
+
+            .lc-sub {
+                font-size: 8.5px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: var(--body);
+                margin-bottom: 14px;
+            }
+
+            .lc-rule {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                width: 100%;
+                margin-bottom: 14px;
+
+                &::before,
+                &::after {
+                    content: '';
+                    flex: 1;
+                    height: 1px;
+                    background: var(--gold-mid);
+                }
+
+                .d {
+                    width: 5px;
+                    height: 5px;
+                    background: var(--gold);
+                    transform: rotate(45deg);
+                    flex-shrink: 0;
+                }
+            }
+
+            .lc-product {
+                font-size: 13px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: var(--heading);
+                margin-bottom: 4px;
+            }
+
+            .lc-vintage {
+                font-size: 12px;
+                font-style: italic;
+                color: var(--gold);
+                margin-bottom: 14px;
+            }
+
+            .lc-desc {
+                font-size: 9px;
+                font-style: italic;
+                color: var(--body);
+                line-height: 1.65;
+                margin-bottom: 14px;
+                opacity: 0.8;
+            }
+
+            .lc-specs {
+                font-size: 8px;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                color: var(--body);
+                line-height: 1.9;
+                opacity: 0.72;
+            }
+
+            .lc-serial {
+                margin-top: 12px;
+                padding-top: 8px;
+                border-top: 1px solid rgba(197, 165, 90, 0.15);
+                width: 100%;
+                font-size: 8px;
+                letter-spacing: 1.5px;
+                color: var(--gold);
+                opacity: 0.55;
+            }
+        }
+
+        /* ── Bridge ─────────────────────────────────────────── */
+        .bridge {
+            width: 68px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .bridge-line {
+                flex: 1;
+                width: 1px;
+                background: linear-gradient(to bottom, transparent, rgba(197, 165, 90, 0.4), transparent);
+            }
+
+            .bridge-mid {
+                padding: 10px 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+
+                .bd {
+                    width: 7px;
+                    height: 7px;
+                    background: var(--gold);
+                    transform: rotate(45deg);
+                    flex-shrink: 0;
+                }
+
+                .bridge-label {
+                    font-size: 7.5px;
+                    letter-spacing: 1.8px;
+                    text-transform: uppercase;
+                    color: var(--gold);
+                    opacity: 0.65;
+                    writing-mode: vertical-lr;
+                    text-orientation: mixed;
+                    transform: rotate(180deg);
+                    line-height: 1;
+                }
+            }
+        }
+
+        /* ── Digital card ───────────────────────────────────── */
+        .digital-card {
+            flex: 1;
+            max-width: 400px;
+            background: #0b0b17;
+            border: 1px solid var(--gold-mid);
+            border-radius: 2px;
+            overflow: hidden;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 5px;
+                border: 1px solid rgba(197, 165, 90, 0.17);
+                border-radius: 1px;
+                pointer-events: none;
+                z-index: 1;
+            }
+
+            .dc-tabs {
+                display: flex;
+                border-bottom: 1px solid var(--gold-border);
+                background: rgba(197, 165, 90, 0.03);
+            }
+
+            .tab {
+                flex: 1;
+                padding: 11px 0;
+                font-family: 'Playfair Display', Georgia, serif;
+                font-size: 10.5px;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                color: var(--body);
+                background: transparent;
+                border: none;
+                border-bottom: 2px solid transparent;
+                position: relative;
+                top: 1px;
+                cursor: pointer;
+                transition: color 0.3s, border-color 0.3s;
+
+                &:hover { color: var(--heading); }
+
+                &.active {
+                    color: var(--gold);
+                    border-bottom-color: var(--gold);
+                }
+            }
+
+            .dc-body {
+                padding: 24px 24px 26px;
+
+                .dc-eyebrow {
+                    font-size: 10.5px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: var(--gold);
+                    margin-bottom: 10px;
+                }
+
+                .dc-title {
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: var(--heading);
+                    line-height: 1.2;
+                    margin-bottom: 14px;
+                }
+
+                .dc-notes {
+                    font-size: 13px;
+                    font-style: italic;
+                    color: var(--body);
+                    line-height: 1.7;
+                    padding-bottom: 18px;
+                    border-bottom: 1px solid var(--gold-border);
+                    margin-bottom: 18px;
+                }
+
+                .dc-meta {
+                    display: flex;
+                    gap: 18px;
+                    margin-bottom: 22px;
+
+                    .meta {
+                        display: flex;
+                        align-items: center;
+                        gap: 6px;
+                        font-size: 10.5px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: var(--body);
+
+                        i { color: var(--gold); }
+                    }
+                }
+
+                .dc-price-row {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 10px;
+                    margin-bottom: 20px;
+
+                    .price {
+                        font-size: 26px;
+                        font-weight: 600;
+                        color: var(--heading);
+                    }
+
+                    .price-note {
+                        font-size: 11px;
+                        letter-spacing: 0.5px;
+                        color: var(--body);
+                    }
+                }
+
+                .dc-actions {
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+
+        /* ── Buttons ────────────────────────────────────────── */
+        .btn-primary {
+            flex: 1;
+            padding: 11px 18px;
+            background: var(--gold);
+            color: #07070f;
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+
+            &:hover {
+                background: #dbbf6e;
+                transform: translateY(-1px);
+            }
+        }
+
+        .btn-secondary {
+            flex: 1;
+            padding: 11px 18px;
+            background: transparent;
+            color: var(--gold);
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border: 1px solid var(--gold-mid);
+            border-radius: 2px;
+            cursor: pointer;
+            transition: background 0.3s, border-color 0.3s;
+
+            &:hover {
+                background: var(--gold-dim);
+                border-color: var(--gold);
+            }
+        }
+
+        /* ── Split annotation ───────────────────────────────── */
+        .split-annotation {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px 40px;
+            margin-top: 22px;
+            padding-top: 18px;
+            border-top: 1px solid var(--gold-border);
+
+            .ann {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 11px;
+                letter-spacing: 0.5px;
+                color: var(--body);
+
+                .dot {
+                    width: 5px;
+                    height: 5px;
+                    background: var(--gold);
+                    border-radius: 50%;
+                    flex-shrink: 0;
+                    opacity: 0.75;
+                }
+            }
+        }
+
+        /* ── Pillars ────────────────────────────────────────── */
+        .pillars-section {
+            animation: fadeUp 0.8s 0.3s ease both;
+
+            .section-heading {
+                text-align: center;
+                font-size: 10.5px;
+                font-weight: 500;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: var(--gold);
+                opacity: 0.7;
+                margin-bottom: 36px;
+            }
+        }
+
+        .pillars {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+        }
+
+        .pillar {
+            background: var(--surface-alt);
+            border: 1px solid var(--gold-border);
+            padding: 32px 28px 28px;
+            position: relative;
+            transition: border-color 0.3s, background 0.3s;
+
+            &:first-child { border-radius: 2px 0 0 2px; }
+            &:last-child  { border-radius: 0 2px 2px 0; }
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 2px;
+                background: var(--gold);
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: transform 0.3s;
+            }
+
+            &:hover {
+                border-color: rgba(197, 165, 90, 0.4);
+                background: rgba(197, 165, 90, 0.03);
+
+                &::after { transform: scaleX(1); }
+            }
+
+            .pillar-num {
+                font-size: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: var(--gold);
+                opacity: 0.55;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-bottom: 18px;
+
+                &::after {
+                    content: '';
+                    flex: 0 0 28px;
+                    height: 1px;
+                    background: rgba(197, 165, 90, 0.35);
+                }
+            }
+
+            .pillar-icon {
+                color: var(--gold);
+                margin-bottom: 14px;
+                opacity: 0.8;
+            }
+
+            h3 {
+                font-size: 17px;
+                font-weight: 600;
+                color: var(--heading);
+                line-height: 1.3;
+                margin-bottom: 12px;
+            }
+
+            p {
+                font-size: 13.5px;
+                line-height: 1.7;
+                color: var(--body);
+            }
+        }
+
+        /* ── CTA ────────────────────────────────────────────── */
+        .cta-section {
+            text-align: center;
+            animation: fadeUp 0.8s 0.4s ease both;
+
+            h2 {
+                font-size: 26px;
+                font-weight: 600;
+                font-style: italic;
+                color: var(--heading);
+                line-height: 1.25;
+                margin: 12px 0 18px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 1.7;
+                color: var(--body);
+                max-width: 480px;
+                margin: 0 auto 32px;
+            }
+
+            .cta-actions {
+                display: flex;
+                justify-content: center;
+                gap: 14px;
+
+                .btn-primary,
+                .btn-secondary {
+                    flex: 0 0 auto;
+                    padding: 14px 38px;
+                    font-size: 11.5px;
+                }
+            }
+        }
+
+        /* ── Footer ─────────────────────────────────────────── */
+        .site-footer {
+            text-align: center;
+            margin-top: 48px;
+            font-size: 10px;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--body);
+            opacity: 0.35;
+        }
+
+        /* ── Responsive ─────────────────────────────────────── */
+        @media (max-width: 900px) {
+            .inner { padding: 56px 48px; }
+        }
+
+        @media (max-width: 768px) {
+            body  { padding: 24px 16px; }
+            .inner { padding: 48px 28px; }
+
+            .split {
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+            }
+
+            .bridge { display: none; }
+
+            .split-labels { gap: 40px; }
+
+            .label-card {
+                width: 100%;
+                max-width: 280px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .digital-card {
+                width: 100%;
+                max-width: 420px;
+            }
+
+            .pillars {
+                grid-template-columns: 1fr;
+
+                .pillar {
+                    &:first-child { border-radius: 2px 2px 0 0; }
+                    &:last-child  { border-radius: 0 0 2px 2px; }
+                }
+            }
+
+            .cta-section .cta-actions {
+                flex-direction: column;
+                align-items: center;
+
+                .btn-primary,
+                .btn-secondary {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+        }
+
+        @media (max-width: 480px) {
+            .inner { padding: 40px 20px; }
+
+            .site-header .brand-name { font-size: 34px; letter-spacing: 5px; }
+
+            .thesis h1 { font-size: 22px; }
+
+            .split-annotation { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="inner">
+
+        <div class="corner tl"></div>
+        <div class="corner tr"></div>
+        <div class="corner bl"></div>
+        <div class="corner br"></div>
+
+        <!-- ── Header ─────────────────────────────── -->
+        <header class="site-header">
+            <div class="eyebrow">Maison Aurient &nbsp;·&nbsp; Est.&nbsp;MCMXXVII</div>
+            <div class="brand-name">AURIENT</div>
+            <div class="tagline">Grand Cru Spirits &nbsp;·&nbsp; Highland, Scotland</div>
+        </header>
+
+        <div class="ornament">
+            <div class="d-sm"></div>
+            <div class="d"></div>
+            <div class="d-sm"></div>
+        </div>
+
+        <!-- ── Thesis ─────────────────────────────── -->
+        <section class="thesis">
+            <h1>The Brand Does Not Fragment<br>at the Digital Threshold</h1>
+            <p>When bottle label and website share the same vocabulary of ornamental restraint and warm gold, the booking or purchase moment inherits the full weight of the physical object. Prestige is not lost in translation — it arrives intact.</p>
+        </section>
+
+        <div class="ornament">
+            <div class="d-sm"></div>
+            <div class="d"></div>
+            <div class="d-sm"></div>
+        </div>
+
+        <!-- ── Coherence split ─────────────────────── -->
+        <section class="split-section">
+            <div class="split-labels">
+                <span>Bottle Label</span>
+                <span>Digital Interface</span>
+            </div>
+
+            <div class="split">
+
+                <!-- Label card -->
+                <div class="label-card">
+                    <div class="lc-band"><span>Distillerie Aurient</span></div>
+                    <div class="lc-house">Maison de Prestige</div>
+                    <div class="lc-name">AURIENT</div>
+                    <div class="lc-sub">Single Malt Whisky</div>
+                    <div class="lc-rule"><div class="d"></div></div>
+                    <div class="lc-product">Prestige Reserve</div>
+                    <div class="lc-vintage">Vintage 2003</div>
+                    <div class="lc-desc">Aged twenty years in<br>Oloroso sherry casks.<br>Highland, Scotland.</div>
+                    <div class="lc-rule"><div class="d"></div></div>
+                    <div class="lc-specs">
+                        Cask Strength · Unfiltered<br>
+                        58.4 % vol &nbsp;·&nbsp; 70 cl<br>
+                        Bottled by Hand
+                    </div>
+                    <div class="lc-serial">No.&nbsp;0847 of 1,200</div>
+                </div>
+
+                <!-- Bridge -->
+                <div class="bridge">
+                    <div class="bridge-line"></div>
+                    <div class="bridge-mid">
+                        <div class="bd"></div>
+                        <div class="bridge-label">One Vocabulary</div>
+                        <div class="bd"></div>
+                    </div>
+                    <div class="bridge-line"></div>
+                </div>
+
+                <!-- Digital card -->
+                <div class="digital-card">
+                    <div class="dc-tabs">
+                        <button class="tab active">Heritage</button>
+                        <button class="tab">Reserve</button>
+                        <button class="tab">Tasting</button>
+                    </div>
+                    <div class="dc-body">
+                        <div class="dc-eyebrow">Single Malt &nbsp;·&nbsp; Vintage 2003</div>
+                        <div class="dc-title">Aurient Prestige Reserve</div>
+                        <div class="dc-notes">
+                            Dark honey, dried fig, and aged sandalwood on the nose. Warm oak, dark chocolate, and candied orange peel on the palate, with a finish of singular, unhurried length.
+                        </div>
+                        <div class="dc-meta">
+                            <div class="meta">
+                                <i data-lucide="droplets" style="width:14px;height:14px;"></i>
+                                58.4 % ABV
+                            </div>
+                            <div class="meta">
+                                <i data-lucide="package" style="width:14px;height:14px;"></i>
+                                70 cl
+                            </div>
+                            <div class="meta">
+                                <i data-lucide="award" style="width:14px;height:14px;"></i>
+                                96 pts
+                            </div>
+                        </div>
+                        <div class="dc-price-row">
+                            <div class="price">£ 285</div>
+                            <div class="price-note">per bottle &nbsp;·&nbsp; inc. VAT</div>
+                        </div>
+                        <div class="dc-actions">
+                            <button class="btn-primary">Reserve a Bottle</button>
+                            <button class="btn-secondary">Join Waiting List</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.split -->
+
+            <div class="split-annotation">
+                <div class="ann"><div class="dot"></div> Identical border ornament language</div>
+                <div class="ann"><div class="dot"></div> Continuous gold palette</div>
+                <div class="ann"><div class="dot"></div> Single typeface hierarchy</div>
+            </div>
+        </section>
+
+        <div class="ornament">
+            <div class="d-sm"></div>
+            <div class="d"></div>
+            <div class="d-sm"></div>
+        </div>
+
+        <!-- ── Pillars ─────────────────────────────── -->
+        <section class="pillars-section">
+            <div class="section-heading">The Argument for Coherence</div>
+            <div class="pillars">
+
+                <div class="pillar">
+                    <div class="pillar-num">I</div>
+                    <div class="pillar-icon">
+                        <i data-lucide="hexagon" style="width:22px;height:22px;"></i>
+                    </div>
+                    <h3>Ornamental Restraint</h3>
+                    <p>The same geometric border language carries from physical label to digital frame. Neither surface adds decoration beyond necessity — the ornament serves as punctuation, not noise.</p>
+                </div>
+
+                <div class="pillar">
+                    <div class="pillar-num">II</div>
+                    <div class="pillar-icon">
+                        <i data-lucide="sun" style="width:22px;height:22px;"></i>
+                    </div>
+                    <h3>Chromatic Unity</h3>
+                    <p>Warm gold on deep night. The palette admits no variation across channels. What is printed is what is lit. The eye learns the brand before the mind does.</p>
+                </div>
+
+                <div class="pillar">
+                    <div class="pillar-num">III</div>
+                    <div class="pillar-icon">
+                        <i data-lucide="type" style="width:22px;height:22px;"></i>
+                    </div>
+                    <h3>Typographic Voice</h3>
+                    <p>A single typeface governs both surfaces. Its weight shifts from heavy to italic in the same pattern on label as on screen. The brand speaks with one voice, always.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="ornament">
+            <div class="d-sm"></div>
+            <div class="d"></div>
+            <div class="d-sm"></div>
+        </div>
+
+        <!-- ── CTA ─────────────────────────────────── -->
+        <section class="cta-section">
+            <div class="eyebrow">Experience the Coherence</div>
+            <h2>The Prestige of the Physical<br>Arrives Intact Online</h2>
+            <p>A brand that holds its nerve — that refuses to simplify or cheapen itself for the digital channel — earns the trust of those who know the difference.</p>
+            <div class="cta-actions">
+                <button class="btn-primary">Explore the Collection</button>
+                <button class="btn-secondary">Book a Private Tasting</button>
+            </div>
+        </section>
+
+    </div><!-- /.inner -->
+
+    <footer class="site-footer">
+        &copy; 2026 Maison Aurient &nbsp;·&nbsp; MCMXXVII &nbsp;·&nbsp; Highland, Scotland
+    </footer>
+</div>
+
+<script>
+    lucide.createIcons();
+
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', ({ currentTarget }) => {
+            currentTarget.closest('.dc-tabs')
+                .querySelectorAll('.tab')
+                .forEach(t => t.classList.remove('active'));
+            currentTarget.classList.add('active');
+        });
+    });
+
+    // Staggered scroll reveal
+    const revealEls = document.querySelectorAll(
+        '.thesis, .split-section, .pillars-section, .cta-section'
+    );
+
+    revealEls.forEach(el => { el.style.animationPlayState = 'paused'; });
+
+    const observer = new IntersectionObserver(
+        entries => {
+            entries.forEach(({ target, isIntersecting }) => {
+                if (isIntersecting) {
+                    target.style.animationPlayState = 'running';
+                    observer.unobserve(target);
+                }
+            });
+        },
+        { threshold: 0.08 }
+    );
+
+    revealEls.forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

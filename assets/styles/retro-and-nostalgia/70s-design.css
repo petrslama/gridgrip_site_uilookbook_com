@@ -165,7 +165,8 @@
 	}
 }
 
-html.light body {
+/* Palette mode */
+html.palette body {
 	--color_primary: #D95B2B;
 	--color_primary-hover: #C04522;
 	--color_accent: #6B7C3E;
@@ -175,4 +176,10 @@ html.light body {
 	--color_border: #E8D5C4;
 	--bg_body: #FAF3E6;
 	--bg_surface: #FFF8F0;
+	--font-heading: "Alfa Slab One", serif;
+	--font-body: "DM Sans", sans-serif;
+	--radius-sm: 8px;
+	--radius-md: 16px;
+	--radius-lg: 24px;
+
 }

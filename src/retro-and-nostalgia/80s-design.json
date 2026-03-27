@@ -604,8 +604,32 @@
 		"start_head_codes": [],
 		"head_codes": [
 			{
-				"note": "Google Fonts",
-				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&family=Rajdhani:wght@400;500;600;700&family=Oxanium:wght@400;500;600;700&family=Bruno+Ace+SC&family=Share+Tech&display=swap\">"
+				"note": "Google: Orbitron",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap\">"
+			},
+			{
+				"note": "Google: Exo 2",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&display=swap\">"
+			},
+			{
+				"note": "Google: Audiowide",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Audiowide&display=swap\">"
+			},
+			{
+				"note": "Google: Rajdhani",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap\">"
+			},
+			{
+				"note": "Google: Oxanium",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oxanium:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Bruno Ace SC",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap\">"
+			},
+			{
+				"note": "Google: Share Tech",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Share+Tech&display=swap\">"
 			},
 			{
 				"note": "80s-design",

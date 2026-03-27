@@ -394,20 +394,8 @@
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "Rockwell",
-					"css": "font-family: Rockwell, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
 					"family": "Georgia",
 					"css": "font-family: Georgia, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "Palatino",
-					"css": "font-family: Palatino, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
 				}
 			],
 			"section_id": "typography"
@@ -449,6 +437,12 @@
 					"a_eyebrow": "System",
 					"family": "Charter",
 					"css": "font-family: Charter, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "System",
+					"family": "Optima",
+					"css": "font-family: Optima, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
 				}
 			]
 		},
@@ -581,8 +575,32 @@
 		"start_head_codes": [],
 		"head_codes": [
 			{
-				"note": "Google Fonts",
-				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;700&family=Calistoga&family=Merriweather:wght@400;700&family=Zilla+Slab:wght@400;700&display=swap\">"
+				"note": "Google: Alfa Slab One",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap\">"
+			},
+			{
+				"note": "Google: DM Sans",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;600&display=swap\">"
+			},
+			{
+				"note": "Google: Playfair Display",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Roboto Slab",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Calistoga",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Calistoga&display=swap\">"
+			},
+			{
+				"note": "Google: Zilla Slab",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Merriweather",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Merriweather&display=swap\">"
 			},
 			{
 				"note": "70s-design",

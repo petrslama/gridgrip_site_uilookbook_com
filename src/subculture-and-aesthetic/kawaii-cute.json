@@ -19,10 +19,10 @@
 		{
 			"fu_type": "o_hero",
 			"a_image": {
-				"alt": "Kawaii Cute style mood board — Aesthetic · Adorable & Sweet",
+				"alt": "Cheerful young Japanese woman in a pastel pink Harajuku outfit — oversized bow headband, fluffy cardigan, pleated skirt — hugging a giant round plushie in a kawaii stationery shop. Shelves of soft toys, cute erasers, and pastel washi tape behind her. Bubblegum pink and lavender tones, soft diffused light, shallow depth of field, warm and dreamy, photorealistic, 8k.",
 				"width": "1024",
 				"height": "768",
-				"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/lifestyle.jpg",
+				"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/kawaii-shop-girl.jpg",
 				"loading": "eager"
 			},
 			"a_eyebrow": "Cute · Kawaii · Playful · Rounded · Vibrant",
@@ -51,39 +51,39 @@
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style use case illustration",
+						"alt": "Flat lay of kawaii stationery on a pastel pink desk — sparkly gel pens, star-shaped sticky notes, a round plushie keychain, washi tape rolls in candy colors, and a small notebook with a smiling cloud on the cover. Soft overhead light, cotton-candy color palette, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/use-cases.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 1}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "shopping-bag",
+					"a_h3": "Character Merchandise & Stationery",
+					"a_description": "Sanrio licensed stores, sticker shops, washi tape brands, plushie retailers, gacha capsule toy sites, kawaii subscription boxes"
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style use case illustration",
+						"alt": "A fluffy golden retriever puppy wearing a tiny pink bow tie, sitting inside a pastel-colored pet bed shaped like a strawberry. Soft toys and treats scattered around, warm pink ambient light, shallow depth of field, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/use-cases.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/use-cases-pets.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 2}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "heart",
+					"a_h3": "Kids & Pet Content Platforms",
+					"a_description": "Children's educational apps, pet care trackers, baby product shops, nursery decor stores, kids' party planning sites"
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style use case illustration",
+						"alt": "Close-up of a bubble tea cup with pink tapioca pearls, held by a hand with pastel nail art. Blurred Harajuku street background with neon signs and pastel storefronts. Warm afternoon light, bubblegum pink tones, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/use-cases.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/use-cases-fashion.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 3}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "sparkles",
+					"a_h3": "Kawaii Fashion & Food Brands",
+					"a_description": "Harajuku fashion labels, bubble tea chains, macaron bakeries, cute cafe menus, J-fashion resale platforms, decoden phone case shops"
 				}
 			]
 		},
@@ -95,66 +95,66 @@
 			"items": [
 				{
 					"a_image": {
-						"alt": "Kawaii Cute style UI example",
+						"alt": "Mochi & Stars — Kawaii shop with pink gradient hero, pill buttons, and product categories",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/example.html",
+						"src": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/kawaii-shop.jpg",
+						"href": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/kawaii-shop.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"E-commerce",
+						"Product Categories",
+						"Pink Gradient",
+						"Pill Buttons"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Kawaii Cute style UI example",
+						"alt": "Ladybug Daily — Dark kawaii mood tracker with day streak, pink accent buttons, and ladybug mascot",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/example.html",
+						"src": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/ladybug-daily.jpg",
+						"href": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/ladybug-daily.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Mood Tracker",
+						"Dark Mode",
+						"Mobile App",
+						"Mascot"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Kawaii Cute style UI example",
+						"alt": "PawPal — Kawaii pet care app with pink cards, health snapshot, and quick actions",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/example.html",
+						"src": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/pawpal-app.jpg",
+						"href": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/pawpal-app.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Pet Care",
+						"Mobile App",
+						"Dashboard",
+						"Cards"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Kawaii Cute style UI example",
+						"alt": "Piggy Savings — Dark kawaii savings tracker with progress bars, goal cards, and pink accents",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/example.html",
+						"src": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/piggy-savings.jpg",
+						"href": "/assets/gallery/subculture-and-aesthetic/kawaii-cute/piggy-savings.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Finance",
+						"Dark Mode",
+						"Progress Bars",
+						"Goal Tracker"
 					]
 				}
 			]
@@ -167,115 +167,115 @@
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style design principle illustration",
+						"alt": "Extreme close-up of a UI button on a phone screen — perfectly round pill shape with bubblegum pink background, white rounded text, and a subtle shadow beneath. The button sits on a soft lavender card with rounded corners. Macro lens, studio lighting, shallow depth of field, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-roundness.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 1 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "circle",
+					"a_h3": "Maximum Roundness",
+					"a_description": "Every element gets the most generous border-radius it can handle — buttons become pills, cards become pillows, avatars become perfect circles. Sharp corners feel hostile in kawaii design; softness communicates safety and approachability. If it has an edge, round it until it looks huggable."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style design principle illustration",
+						"alt": "A painter's palette floating on a cloud, each well filled with a different pastel color — baby pink, mint green, lavender, soft peach, powder blue. Tiny sparkles and hearts drift around it. Dreamy sky background, cotton-candy atmosphere, soft diffused light, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-palette.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 2 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "palette",
+					"a_h3": "Pastel-First Palette",
+					"a_description": "The color language lives in the tinted-white range — pinks, lavenders, mints, and peaches that feel like they were mixed with whipped cream. Saturated accents like bubblegum pink appear only for primary actions and emphasis. Dark values exist only for text, never for backgrounds or large surfaces."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style design principle illustration",
+						"alt": "A tiny round mascot character — simple dot eyes, rosy cheeks, stubby arms — sitting on top of a smartphone, waving at the viewer. The phone screen shows a kawaii app interface with pink UI elements. White background with floating hearts and stars, soft studio light, photorealistic 3D render, 8k.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-mascot.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 3 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "smile",
+					"a_h3": "Mascot & Character Energy",
+					"a_description": "Kawaii interfaces feel like they have a personality — even without a literal mascot. Buttons look like they could bounce, empty states have faces, and icons feel more like friends than functional glyphs. The goal is to make every touchpoint feel like interacting with a character, not a machine."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style design principle illustration",
+						"alt": "The word 'Hello' written in a bubbly rounded sans-serif font, each letter a different pastel color — pink H, lavender e, mint l, peach l, sky blue o. Letters cast soft pink shadows on a white surface. Clean studio setup, overhead view, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-typography.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 4 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "type",
+					"a_h3": "Bubbly Typography",
+					"a_description": "Typefaces must have rounded terminals and soft geometry — no sharp serifs, no angular grotesks. Fonts like Fredoka and Nunito feel like they were inflated with air. Weight stays at medium to semibold for headings; anything too heavy loses the lightness, anything too thin loses the warmth."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style design principle illustration",
+						"alt": "A decorative pattern of tiny repeating elements on a soft pink background — small hearts, five-pointed stars, polka dots, and sparkles arranged in a regular grid. Each element is slightly translucent bubblegum pink. Flat overhead view, seamless textile feel, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-decorative.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 5 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "star",
+					"a_h3": "Decorative Delight",
+					"a_description": "Kawaii design embraces ornament — polka-dot backgrounds, heart separators, star accents, and sparkle effects. These details are not clutter; they are the emotional texture that separates cute from merely clean. Every empty space is an opportunity for a tiny decorative moment that makes the user smile."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style design principle illustration",
+						"alt": "Two side-by-side phone screens showing the same kawaii app — one in light mode with soft pink background and white cards, the other in dark mode with deep magenta background and dark plum cards. Both have bubblegum pink accent buttons and rounded elements. Clean studio shot, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/principle-context.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 6 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "sun-moon",
+					"a_h3": "Cute in Every Context",
+					"a_description": "The kawaii aesthetic must survive dark mode, dense dashboards, and small screens without losing its soul. The pink accent stays pink whether it sits on cotton-candy white or deep plum. Rounded corners stay rounded at every breakpoint. Cuteness is not a surface treatment — it is baked into every spacing token, every radius, every shadow."
 				}
 			]
 		},
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #1",
-			"a_h2": "{Palette Name}",
-			"a_description": "{What this palette represents — the core identity}",
+			"a_h2": "Bubblegum Dream",
+			"a_description": "The core kawaii palette — bubblegum pink as the unmistakable accent, dark pink-brown for readable headings, and a cotton-candy background that wraps everything in warmth.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use: primary action, headlines, etc.}"
+					"a_h3": "Bubblegum Pink",
+					"hex": "#ff69b4",
+					"a_description": "Primary accent — buttons, links, icons, active states, and anything that needs to say 'tap me'"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Pink-Brown",
+					"hex": "#4a2040",
+					"a_description": "Headings and high-emphasis text — warm enough to feel kawaii, dark enough to read"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Pink-Gray",
+					"hex": "#8a6a7a",
+					"a_description": "Body text, captions, and secondary labels — soft but legible against light backgrounds"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Cotton Candy",
+					"hex": "#fff0f5",
+					"a_description": "Page background and large surfaces — the warm pink tint that makes white feel too cold"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "White",
+					"hex": "#ffffff",
+					"a_description": "Cards, panels, and input backgrounds — clean contrast against the tinted page"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#888888",
-					"a_description": "{Where to use}"
+					"a_h3": "Rose Mist",
+					"hex": "#ffb3d9",
+					"a_description": "Borders, dividers, decorative dots, and subtle accents — the halfway point between pink and white"
 				}
 			],
 			"section_id": "color-palettes"
@@ -283,130 +283,118 @@
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #2",
-			"a_h2": "{Palette 2 Name}",
-			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"a_h2": "Pastel Rainbow",
+			"a_description": "A multicolor expansion for interfaces that need variety beyond pink — each pastel is equally soft, so nothing fights for attention. Use when the product has categories, tags, or status indicators that benefit from color coding.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Sakura Pink",
+					"hex": "#ffb7d5",
+					"a_description": "Primary category, default state, and the anchor color that ties back to the core palette"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Lavender Puff",
+					"hex": "#d5b3ff",
+					"a_description": "Secondary category, selected states, and tags — purple that stays playful"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Mint Cream",
+					"hex": "#a8e6cf",
+					"a_description": "Success states, positive indicators, and tertiary categories — fresh without being clinical"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Peach Sorbet",
+					"hex": "#ffcba4",
+					"a_description": "Warnings, attention badges, and warm accent moments — friendly orange-pink"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "Sky Floss",
+					"hex": "#b3e0ff",
+					"a_description": "Informational states, links in alternate contexts, and cool-toned balance"
 				}
 			],
-			"section_id": "{palette-2-slug}"
+			"section_id": "pastel-rainbow"
 		},
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #3",
-			"a_h2": "{Palette 3 Name}",
-			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"a_h2": "Strawberry Milk",
+			"a_description": "A richer, more saturated take — deeper pinks and a warm cream base for brands that want kawaii energy with a slightly more grown-up, dessert-shop warmth. Less airy than Bubblegum Dream, more indulgent.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Hot Pink",
+					"hex": "#ff1493",
+					"a_description": "Primary accent — bolder and more energetic than bubblegum, for brands that want to turn up the volume"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Berry Jam",
+					"hex": "#8b1a4a",
+					"a_description": "Headings and emphasis text — deeper and warmer than pink-brown, with a berry richness"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Mauve",
+					"hex": "#a0607a",
+					"a_description": "Body text and secondary content — sits between berry and gray for comfortable reading"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Vanilla Cream",
+					"hex": "#fff5ee",
+					"a_description": "Page background — warm cream that pairs with the deeper pinks without feeling sterile"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "Rose Petal",
+					"hex": "#ffe0ef",
+					"a_description": "Cards, tags, and soft fills — the blush layer between cream and hot pink"
 				}
 			],
-			"section_id": "{palette-3-slug}"
+			"section_id": "strawberry-milk"
 		},
 		{
 			"fu_type": "o_typography",
 			"a_eyebrow": "Typography",
 			"a_h2": "Heading Fonts",
-			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"a_description": "Kawaii headlines demand extra-rounded, bubbly typefaces with soft terminals and generous curves. Every letterform should look inflated — like it was drawn with a fat marker by someone who thinks sharp corners are mean.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"fonts": [
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Fredoka",
+					"css": "font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 1.5rem; line-height: 1.3;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Nunito",
+					"css": "font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.3;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "M PLUS Rounded 1c",
+					"css": "font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.3;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Baloo 2",
+					"css": "font-family: 'Baloo 2', sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.3;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Trebuchet MS",
+					"css": "font-family: Trebuchet MS, sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.3;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+					"family": "Arial Rounded MT Bold",
+					"css": "font-family: Arial Rounded MT Bold, sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.3;"
 				}
 			],
 			"section_id": "typography"
@@ -415,39 +403,45 @@
 			"fu_type": "o_typography",
 			"a_eyebrow": "Typography",
 			"a_h2": "Text Fonts",
-			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"a_description": "Body copy in kawaii interfaces needs rounded, friendly sans-serifs that stay legible at small sizes without introducing any visual sharpness. The text should feel like a gentle conversation, never a formal notice.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"fonts": [
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+					"family": "Nunito",
+					"css": "font-family: 'Nunito', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+					"family": "Fredoka",
+					"css": "font-family: 'Fredoka', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Quicksand",
+					"css": "font-family: 'Quicksand', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Varela Round",
+					"css": "font-family: 'Varela Round', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+					"family": "Verdana",
+					"css": "font-family: Verdana, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+					"family": "Trebuchet MS",
+					"css": "font-family: Trebuchet MS, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
 				}
 			]
 		},
@@ -459,36 +453,36 @@
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style history illustration",
+						"alt": "Japanese schoolgirls in the 1970s writing in round, childlike handwriting with fat felt-tip pens — decorating notebook margins with tiny hearts, stars, and cartoon faces. A wooden school desk scattered with stationery and cute stickers. Warm film-grain tones, nostalgic atmosphere, photorealistic, 8k.",
 						"width": "1024",
 						"height": "768",
 						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/history.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Origins — what era/movement it came from}",
-					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+					"a_h3": "1970s Japan — Bubbly Handwriting Rebellion",
+					"a_description": "Kawaii culture began in 1970s Japan when teenage girls started writing in a deliberately childlike, rounded handwriting style called marui ji (round writing). The trend was a soft rebellion — rejecting the rigid vertical strokes of traditional Japanese script in favor of something playful and personal. Teachers banned it, which only made it more popular. Stationery companies like Sanrio noticed and began producing products that matched the aesthetic, laying the commercial foundation for an entire culture of cute."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style history illustration",
+						"alt": "1980s Japanese stationery shop shelf, overflowing with pastel kawaii treasures: character pencil cases, glimmering stickers, tiny plushies, retro lunchboxes. Warm, soft retail light, hyperrealistic, vibrant saturated colors.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/history.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/history-sanrio.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Peak — the defining medium or movement}",
-					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+					"a_h3": "Sanrio & the Global Cuteness Explosion",
+					"a_description": "Hello Kitty launched in 1974 and became the face of kawaii worldwide by the 1980s. Sanrio proved that cuteness was not just a decoration — it was a business model. The aesthetic expanded into fashion through Harajuku street style, into media through anime and manga, and into product design through everything from rice cookers to airline liveries. By the 1990s, kawaii was Japan's most recognizable cultural export after sushi, and its design language — rounded forms, pastel colors, anthropomorphic characters — had become a universal visual vocabulary for friendliness."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Kawaii Cute style history illustration",
+						"alt": "Flat-lay top-down, photorealistic 8k. Modern smartphone on white marble. Screen: pastel pink UI, pill buttons, rounded cards, soft shadows, tiny kawaii mascot. Beside: sealed bubble tea, pastel sleeve, pastel pink mechanical keyboard, round keycaps. Soft diffused daylight.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/history.jpg",
+						"src": "/assets/imgs/subculture-and-aesthetic/kawaii-cute/history-digital.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Modern Revival or Legacy}",
-					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+					"a_h3": "Digital Kawaii — From Stickers to UI Systems",
+					"a_description": "Today kawaii design principles drive billion-dollar digital products. LINE stickers, Duolingo's owl, and Notion's emoji-based UX all borrow from the kawaii playbook — round shapes, friendly faces, and the belief that software should feel emotionally warm. The style has evolved beyond Japanese pop culture into a universal UX strategy: rounded corners reduce cognitive load, pastel palettes lower visual stress, and mascot-driven onboarding increases engagement. Kawaii is no longer just cute — it is a proven design framework for making technology feel human."
 				}
 			]
 		},
@@ -505,27 +499,27 @@
 				{
 					"a_icon": "briefcase",
 					"a_h3": "What industries does Kawaii Cute work best for?",
-					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+					"answer": "Kawaii Cute is ideal for character merchandise stores (Sanrio, Sumikko Gurashi), stationery and sticker shops, bubble tea and dessert brands, children's educational apps, pet care platforms, kawaii fashion labels, and any product targeting fans of Japanese pop culture. It also works well for mood trackers, habit apps, and gamified experiences where emotional warmth increases engagement. Avoid it for corporate finance, legal services, healthcare diagnostics, government portals, and any context where playfulness would undermine trust or perceived authority."
 				},
 				{
 					"a_icon": "swatch-book",
 					"a_h3": "Which color palette should I choose?",
-					"answer": "{Brief description of each palette and when to use it.}"
+					"answer": "Bubblegum Dream is the classic — use it when pink is your brand's identity and you want the instantly recognizable kawaii look. Pastel Rainbow works when you need color variety for categories, tags, or status indicators without leaving the kawaii world. Strawberry Milk is for brands that want kawaii energy with more depth and warmth — think dessert shops, premium stationery, or products targeting an older kawaii audience that wants cute without feeling childish."
 				},
 				{
 					"a_icon": "circle-slash",
 					"a_h3": "When should I avoid using the Kawaii Cute style?",
-					"answer": "{Contexts where this style is a poor fit.}"
+					"answer": "Skip Kawaii Cute for enterprise software, B2B dashboards, legal or compliance platforms, medical and diagnostic tools, financial advisory services, and anything where the user needs to feel that the system is authoritative rather than friendly. The rounded shapes and pastel colors actively reduce perceived seriousness — that is the point of kawaii, but it becomes a liability when trust depends on gravitas. Also avoid it for text-heavy editorial sites where bubbly typography would hurt sustained reading."
 				},
 				{
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Historical or cultural question about this style}",
-					"answer": "{Answer with cultural/historical context.}"
+					"a_icon": "globe",
+					"a_h3": "Is kawaii only a Japanese style, or can it work globally?",
+					"answer": "Kawaii originated in 1970s Japan as a teenage handwriting rebellion and became a global cultural export through Sanrio, anime, and Harajuku fashion. Today it is one of the most internationally recognized design aesthetics — LINE stickers in Southeast Asia, Duolingo's mascot-driven UX in the West, and KakaoFriends in South Korea all use kawaii principles. The core toolkit — rounded corners, pastel colors, anthropomorphic characters, and emotional warmth — translates across cultures because it taps into a universal response to soft, non-threatening shapes. You do not need a Japanese product to use kawaii design, but respecting its cultural roots adds authenticity."
 				},
 				{
 					"a_icon": "type",
 					"a_h3": "What fonts best capture the Kawaii Cute look?",
-					"answer": "{Detailed typography recommendations with reasoning.}"
+					"answer": "The defining trait is rounded terminals — every letterform should look soft and inflated. Fredoka is the go-to: extra-rounded, bubbly, and available in weights from 300 to 700. Nunito is a versatile alternative with rounder shapes than most sans-serifs. M PLUS Rounded 1c is perfect when you need Japanese character support alongside Latin. Baloo 2 adds a playful bounce. Comfortaa and Quicksand are geometric options with soft curves. For body text, use the same families at lighter weights — Nunito 400 or Fredoka 400 read comfortably at small sizes. Avoid anything with sharp serifs, high contrast, or angular geometry — those break the kawaii spell instantly."
 				}
 			],
 			"section_id": "faq"
@@ -625,8 +619,28 @@
 		"start_head_codes": [],
 		"head_codes": [
 			{
-				"note": "Google Fonts",
-				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap\">"
+				"note": "Google: Fredoka",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap\">"
+			},
+			{
+				"note": "Google: Nunito",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap\">"
+			},
+			{
+				"note": "Google: M PLUS Rounded 1c",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Baloo 2",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Quicksand",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap\">"
+			},
+			{
+				"note": "Google: Varela Round",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Varela+Round&display=swap\">"
 			},
 			{
 				"note": "kawaii-cute",

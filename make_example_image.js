@@ -34,6 +34,13 @@ if (!input || !output) {
 	const outputPath = path.resolve(output);
 
 	const page = await browser.newPage();
+
+	await page.setCookie({
+		name: "site",
+		value: "uilookbook_com",
+		domain: "localhost",
+	});
+
 	await page.setViewport({ width: 1200, height: 900, deviceScaleFactor: 2 });
 	await page.goto(url, { waitUntil: "networkidle2" });
 

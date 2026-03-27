@@ -130,7 +130,7 @@
 	}
 
 	.a_description {
-		font-family: "Courier New", Courier, monospace;
+		font-family: 'Space Mono', monospace;
 		font-size: 13px;
 		font-weight: 400;
 		line-height: 1.7;
@@ -147,7 +147,7 @@
 	}
 
 	.a_button {
-		font-family: "Courier New", monospace;
+		font-family: 'Space Mono', monospace;
 		font-size: 12px;
 		font-weight: bold;
 		letter-spacing: 1px;
@@ -190,5 +190,26 @@
 				border-style: inset;
 			}
 		}
+	}
+}
+
+html.palette body {
+	--color_primary: #0000FF;
+	--color_primary-hover: #800080;
+	--color_accent: #FF00FF;
+	--color_text: #000000;
+	--color_text-muted: #808080;
+	--color_text-inverted: #FFFFFF;
+	--color_border: #C0C0C0;
+	--bg_body: #FFFFFF;
+	--bg_surface: #C0C0C0;
+	--font-heading: 'Comic Sans MS', 'Comic Neue', cursive;
+	--font-body: 'Space Mono', monospace;
+	--radius-sm: 0;
+	--radius-md: 0;
+	--radius-lg: 0;
+
+	.a_h3{
+		--font-body: 'Comic Sans MS', 'Comic Neue', cursive;
 	}
 }

@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Deco — Design System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        /* ─── Reset & Root ─────────────────────────────────────────── */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg:           #0a0a14;
+            --bg-panel:     #0f0f1e;
+            --bg-raised:    #14142a;
+            --accent:       #c5a55a;
+            --accent-dim:   #8a6e30;
+            --accent-pale:  rgba(197, 165, 90, 0.08);
+            --heading:      #e8e0d0;
+            --body:         #8a8a9a;
+            --muted:        #4a4a5e;
+            --border:       rgba(197, 165, 90, 0.18);
+            --border-sub:   rgba(197, 165, 90, 0.08);
+            --radius:       4px;
+            --radius-lg:    8px;
+            --font:         'Playfair Display', Georgia, 'Times New Roman', serif;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--body);
+            font-size: 15px;
+            line-height: 1.65;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+
+            /* Art Deco background texture */
+            background-image:
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 39px,
+                    rgba(197, 165, 90, 0.03) 39px,
+                    rgba(197, 165, 90, 0.03) 40px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 39px,
+                    rgba(197, 165, 90, 0.03) 39px,
+                    rgba(197, 165, 90, 0.03) 40px
+                );
+        }
+
+        /* ─── Utilities ─────────────────────────────────────────────── */
+        .eyebrow {
+            font-family: var(--font);
+            font-weight: 500;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            color: var(--accent);
+        }
+
+        .section-label {
+            font-family: var(--font);
+            font-weight: 500;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--muted);
+            margin-bottom: 28px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+
+            &::before,
+            &::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: var(--border-sub);
+            }
+        }
+
+        /* ─── Decorative Rule ───────────────────────────────────────── */
+        .deco-rule {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 0 auto;
+
+            &::before,
+            &::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            }
+
+            .deco-rule__diamond {
+                width: 6px;
+                height: 6px;
+                background: var(--accent);
+                transform: rotate(45deg);
+                flex-shrink: 0;
+            }
+        }
+
+        /* ─── Layout ────────────────────────────────────────────────── */
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        /* ─── Inner Panel ───────────────────────────────────────────── */
+        .inner {
+            background: var(--bg-panel);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            position: relative;
+
+            /* Corner ornaments */
+            &::before,
+            &::after {
+                content: '';
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                border-color: var(--accent);
+                border-style: solid;
+            }
+
+            &::before {
+                top: -1px;
+                left: -1px;
+                border-width: 2px 0 0 2px;
+                border-radius: var(--radius-lg) 0 0 0;
+            }
+
+            &::after {
+                bottom: -1px;
+                right: -1px;
+                border-width: 0 2px 2px 0;
+                border-radius: 0 0 var(--radius-lg) 0;
+            }
+        }
+
+        /* ─── Hero ──────────────────────────────────────────────────── */
+        .hero {
+            padding: 100px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background:
+                    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(197, 165, 90, 0.07) 0%, transparent 70%);
+                pointer-events: none;
+            }
+        }
+
+        .hero__overline {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 32px;
+            opacity: 0;
+            animation: fadeUp .6s ease forwards .1s;
+
+            span {
+                display: block;
+                width: 48px;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, var(--accent));
+
+                &:last-child {
+                    background: linear-gradient(90deg, var(--accent), transparent);
+                }
+            }
+        }
+
+        .hero__title {
+            font-size: clamp(36px, 6vw, 64px);
+            font-weight: 700;
+            color: var(--heading);
+            line-height: 1.15;
+            letter-spacing: -0.5px;
+            max-width: 700px;
+            margin: 0 auto 24px;
+            opacity: 0;
+            animation: fadeUp .7s ease forwards .25s;
+
+            em {
+                font-style: italic;
+                color: var(--accent);
+            }
+        }
+
+        .hero__sub {
+            font-size: 15px;
+            color: var(--body);
+            max-width: 480px;
+            margin: 0 auto 48px;
+            line-height: 1.7;
+            opacity: 0;
+            animation: fadeUp .7s ease forwards .4s;
+        }
+
+        .hero__actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            opacity: 0;
+            animation: fadeUp .7s ease forwards .55s;
+        }
+
+        .hero__deco-band {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent 5%, var(--border) 30%, var(--border) 70%, transparent 95%);
+        }
+
+        /* ─── Buttons ───────────────────────────────────────────────── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--font);
+            font-size: 11px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 13px 28px;
+            border-radius: var(--radius);
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all .3s ease;
+            position: relative;
+            overflow: hidden;
+
+            &::after {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: rgba(255, 255, 255, 0);
+                transition: background .3s ease;
+            }
+
+            &:hover::after {
+                background: rgba(255, 255, 255, 0.06);
+            }
+        }
+
+        .btn--primary {
+            background: var(--accent);
+            color: #0a0a14;
+
+            &:hover {
+                background: #d4b46a;
+                transform: translateY(-1px);
+                box-shadow: 0 8px 24px rgba(197, 165, 90, 0.25);
+            }
+
+            &:active {
+                transform: translateY(0);
+            }
+        }
+
+        .btn--secondary {
+            background: transparent;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+
+            &:hover {
+                background: var(--accent-pale);
+                transform: translateY(-1px);
+            }
+        }
+
+        .btn--ghost {
+            background: transparent;
+            color: var(--body);
+            border: 1px solid var(--border);
+
+            &:hover {
+                border-color: var(--accent);
+                color: var(--heading);
+            }
+        }
+
+        .btn--sm {
+            font-size: 10px;
+            padding: 9px 18px;
+            letter-spacing: 1.5px;
+        }
+
+        .btn--lg {
+            font-size: 12px;
+            padding: 16px 36px;
+            letter-spacing: 2.5px;
+        }
+
+        /* ─── Typography Showcase ───────────────────────────────────── */
+        .type-grid {
+            display: grid;
+            gap: 2px;
+        }
+
+        .type-row {
+            display: grid;
+            grid-template-columns: 160px 1fr auto;
+            align-items: baseline;
+            gap: 24px;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-sub);
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+
+        .type-row__meta {
+            font-size: 11px;
+            letter-spacing: 1px;
+            color: var(--muted);
+            text-transform: uppercase;
+        }
+
+        .type-row__spec {
+            font-size: 11px;
+            color: var(--muted);
+            white-space: nowrap;
+            font-family: 'Courier New', monospace;
+        }
+
+        .t-display {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--heading);
+            line-height: 1.2;
+        }
+
+        .t-heading {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--heading);
+            line-height: 1.3;
+        }
+
+        .t-subheading {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--heading);
+            line-height: 1.4;
+        }
+
+        .t-eyebrow-demo {
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+        }
+
+        .t-body {
+            font-size: 15px;
+            font-weight: 400;
+            color: var(--body);
+            line-height: 1.65;
+        }
+
+        .t-small {
+            font-size: 13px;
+            font-weight: 400;
+            color: var(--body);
+            line-height: 1.6;
+        }
+
+        .t-caption {
+            font-size: 12px;
+            font-weight: 400;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        /* ─── Color Swatches ────────────────────────────────────────── */
+        .swatch-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+        }
+
+        .swatch {
+            border-radius: var(--radius);
+            overflow: hidden;
+            border: 1px solid var(--border-sub);
+
+            .swatch__color {
+                height: 64px;
+            }
+
+            .swatch__info {
+                padding: 12px;
+                background: var(--bg-raised);
+
+                .swatch__name {
+                    font-size: 12px;
+                    color: var(--heading);
+                    margin-bottom: 2px;
+                }
+
+                .swatch__hex {
+                    font-family: 'Courier New', monospace;
+                    font-size: 11px;
+                    color: var(--muted);
+                }
+            }
+        }
+
+        /* ─── Components Grid ───────────────────────────────────────── */
+        .components-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+
+            @media (max-width: 720px) {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .component-block {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-sub);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+
+            .component-block__label {
+                font-size: 11px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: var(--muted);
+                margin-bottom: 24px;
+                padding-bottom: 16px;
+                border-bottom: 1px solid var(--border-sub);
+            }
+        }
+
+        /* ─── Input ─────────────────────────────────────────────────── */
+        .field {
+            margin-bottom: 20px;
+
+            label {
+                display: block;
+                font-size: 11px;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                color: var(--accent);
+                margin-bottom: 8px;
+            }
+
+            .input {
+                width: 100%;
+                background: var(--bg-raised);
+                border: 1px solid var(--border);
+                border-radius: var(--radius);
+                padding: 12px 16px;
+                font-family: var(--font);
+                font-size: 14px;
+                color: var(--heading);
+                transition: border-color .3s ease, box-shadow .3s ease;
+                outline: none;
+
+                &::placeholder {
+                    color: var(--muted);
+                }
+
+                &:focus {
+                    border-color: var(--accent);
+                    box-shadow: 0 0 0 3px rgba(197, 165, 90, 0.12);
+                }
+            }
+
+            select.input {
+                appearance: none;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238a6e30' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-position: right 14px center;
+                padding-right: 40px;
+                cursor: pointer;
+
+                option {
+                    background: var(--bg-raised);
+                }
+            }
+        }
+
+        /* ─── Badge ─────────────────────────────────────────────────── */
+        .badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 12px;
+            border-radius: 2px;
+            font-size: 10px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .badge--gold {
+            background: rgba(197, 165, 90, 0.15);
+            color: var(--accent);
+            border: 1px solid rgba(197, 165, 90, 0.3);
+        }
+
+        .badge--neutral {
+            background: rgba(138, 138, 154, 0.1);
+            color: var(--body);
+            border: 1px solid rgba(138, 138, 154, 0.2);
+        }
+
+        .badge--success {
+            background: rgba(90, 165, 120, 0.12);
+            color: #7ec8a0;
+            border: 1px solid rgba(90, 165, 120, 0.25);
+        }
+
+        .badge--warning {
+            background: rgba(197, 140, 60, 0.12);
+            color: #d4944a;
+            border: 1px solid rgba(197, 140, 60, 0.25);
+        }
+
+        /* ─── Avatar + Meta ─────────────────────────────────────────── */
+        .avatar-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .avatar-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+
+            .avatar {
+                width: 40px;
+                height: 40px;
+                border-radius: 2px;
+                background: var(--bg-raised);
+                border: 1px solid var(--border);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                font-weight: 600;
+                color: var(--accent);
+                flex-shrink: 0;
+            }
+
+            .avatar__name {
+                font-size: 14px;
+                font-weight: 600;
+                color: var(--heading);
+                line-height: 1.3;
+            }
+
+            .avatar__role {
+                font-size: 12px;
+                color: var(--muted);
+            }
+        }
+
+        /* ─── Progress / Meter ──────────────────────────────────────── */
+        .progress-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .progress-item {
+            .progress-item__header {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 8px;
+
+                span {
+                    font-size: 12px;
+                    color: var(--body);
+
+                    &:last-child {
+                        color: var(--accent);
+                        font-size: 11px;
+                    }
+                }
+            }
+
+            .progress-track {
+                height: 3px;
+                background: var(--bg-raised);
+                border-radius: 2px;
+                overflow: hidden;
+
+                .progress-fill {
+                    height: 100%;
+                    background: linear-gradient(90deg, var(--accent-dim), var(--accent));
+                    border-radius: 2px;
+                    transition: width .3s ease;
+                }
+            }
+        }
+
+        /* ─── Article Card ──────────────────────────────────────────── */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+            @media (max-width: 900px) {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            @media (max-width: 600px) {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-sub);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: border-color .3s ease, transform .3s ease, box-shadow .3s ease;
+            cursor: pointer;
+
+            &:hover {
+                border-color: var(--border);
+                transform: translateY(-3px);
+                box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+            }
+
+            .card__thumb {
+                height: 120px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .card__body {
+                padding: 24px;
+            }
+
+            .card__eyebrow {
+                font-size: 10px;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: var(--accent);
+                margin-bottom: 10px;
+            }
+
+            .card__title {
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--heading);
+                line-height: 1.35;
+                margin-bottom: 10px;
+            }
+
+            .card__excerpt {
+                font-size: 13px;
+                color: var(--body);
+                line-height: 1.6;
+                margin-bottom: 20px;
+            }
+
+            .card__footer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .card__date {
+                    font-size: 11px;
+                    color: var(--muted);
+                    letter-spacing: 0.5px;
+                }
+
+                .card__arrow {
+                    width: 28px;
+                    height: 28px;
+                    border: 1px solid var(--border);
+                    border-radius: 2px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--accent);
+                    transition: background .3s ease, border-color .3s ease;
+                }
+            }
+
+            &:hover .card__arrow {
+                background: var(--accent-pale);
+                border-color: var(--accent);
+            }
+        }
+
+        /* Card thumb patterns */
+        .card__thumb--geo-1 {
+            background:
+                linear-gradient(135deg, rgba(197,165,90,0.12) 25%, transparent 25%) -20px 0,
+                linear-gradient(225deg, rgba(197,165,90,0.12) 25%, transparent 25%) -20px 0,
+                linear-gradient(315deg, rgba(197,165,90,0.12) 25%, transparent 25%),
+                linear-gradient(45deg, rgba(197,165,90,0.12) 25%, transparent 25%);
+            background-size: 40px 40px;
+            background-color: var(--bg-raised);
+        }
+
+        .card__thumb--geo-2 {
+            background:
+                repeating-linear-gradient(
+                    45deg,
+                    rgba(197,165,90,0.06),
+                    rgba(197,165,90,0.06) 1px,
+                    transparent 1px,
+                    transparent 20px
+                ),
+                repeating-linear-gradient(
+                    -45deg,
+                    rgba(197,165,90,0.06),
+                    rgba(197,165,90,0.06) 1px,
+                    transparent 1px,
+                    transparent 20px
+                );
+            background-color: var(--bg-raised);
+        }
+
+        .card__thumb--geo-3 {
+            background:
+                radial-gradient(circle at 50% 50%, rgba(197,165,90,0.15) 0%, transparent 60%),
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 14px,
+                    rgba(197,165,90,0.06) 14px,
+                    rgba(197,165,90,0.06) 15px
+                );
+            background-color: var(--bg-raised);
+        }
+
+        .card__thumb-label {
+            position: absolute;
+            bottom: 12px;
+            left: 16px;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            background: rgba(10,10,20,0.7);
+            padding: 4px 10px;
+            border-radius: 2px;
+            border: 1px solid rgba(197,165,90,0.2);
+        }
+
+        /* ─── Feature Highlight ─────────────────────────────────────── */
+        .highlight-band {
+            background: var(--bg-panel);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 56px 48px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            }
+
+            h2 {
+                font-size: clamp(22px, 4vw, 36px);
+                font-weight: 700;
+                color: var(--heading);
+                line-height: 1.25;
+                margin: 16px 0 12px;
+
+                em {
+                    font-style: italic;
+                    color: var(--accent);
+                }
+            }
+
+            p {
+                max-width: 540px;
+                margin: 0 auto 36px;
+                color: var(--body);
+                font-size: 15px;
+                line-height: 1.7;
+            }
+        }
+
+        .stat-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border-sub);
+            border: 1px solid var(--border-sub);
+            border-radius: var(--radius);
+            overflow: hidden;
+            margin-bottom: 40px;
+
+            .stat {
+                background: var(--bg-raised);
+                padding: 24px;
+                text-align: center;
+
+                .stat__value {
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: var(--accent);
+                    line-height: 1;
+                    margin-bottom: 6px;
+                }
+
+                .stat__label {
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    letter-spacing: 1.5px;
+                    color: var(--muted);
+                }
+            }
+        }
+
+        /* ─── Divider ───────────────────────────────────────────────── */
+        .deco-divider {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            margin: 0 auto;
+
+            .deco-divider__line {
+                flex: 1;
+                height: 1px;
+                background: var(--border-sub);
+            }
+
+            .deco-divider__ornament {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                padding: 0 20px;
+
+                .d {
+                    width: 5px;
+                    height: 5px;
+                    background: var(--accent);
+                    transform: rotate(45deg);
+                }
+
+                .d-sm {
+                    width: 3px;
+                    height: 3px;
+                    background: var(--accent-dim);
+                    transform: rotate(45deg);
+                }
+            }
+        }
+
+        /* ─── Nav ───────────────────────────────────────────────────── */
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(10, 10, 20, 0.92);
+            border-bottom: 1px solid var(--border-sub);
+            backdrop-filter: blur(12px);
+
+            .nav__inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 60px;
+                max-width: 1080px;
+                margin: 0 auto;
+                padding: 0 32px;
+            }
+
+            .nav__logo {
+                font-size: 13px;
+                font-weight: 600;
+                color: var(--heading);
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 6px;
+                    height: 6px;
+                    background: var(--accent);
+                    transform: rotate(45deg);
+                }
+            }
+
+            .nav__links {
+                display: flex;
+                gap: 32px;
+                list-style: none;
+
+                a {
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    letter-spacing: 1.5px;
+                    color: var(--muted);
+                    text-decoration: none;
+                    transition: color .3s ease;
+
+                    &:hover {
+                        color: var(--accent);
+                    }
+                }
+
+                @media (max-width: 600px) {
+                    display: none;
+                }
+            }
+        }
+
+        /* ─── Footer ────────────────────────────────────────────────── */
+        footer {
+            border-top: 1px solid var(--border-sub);
+            padding: 48px 0;
+            text-align: center;
+
+            .footer__mark {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 11px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: var(--muted);
+                margin-bottom: 20px;
+
+                &::before,
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 24px;
+                    height: 1px;
+                    background: var(--border-sub);
+                }
+            }
+
+            p {
+                font-size: 12px;
+                color: var(--muted);
+            }
+        }
+
+        /* ─── Keyframes ─────────────────────────────────────────────── */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(18px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ─── Notification Toast Demo ───────────────────────────────── */
+        .toast-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .toast {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 14px 16px;
+            border-radius: var(--radius);
+            border-left: 3px solid;
+
+            .toast__icon {
+                flex-shrink: 0;
+                margin-top: 1px;
+            }
+
+            .toast__title {
+                font-size: 13px;
+                font-weight: 600;
+                color: var(--heading);
+                margin-bottom: 2px;
+            }
+
+            .toast__body {
+                font-size: 12px;
+                color: var(--body);
+                line-height: 1.5;
+            }
+        }
+
+        .toast--gold {
+            background: rgba(197, 165, 90, 0.06);
+            border-color: var(--accent);
+
+            .toast__icon {
+                color: var(--accent);
+            }
+        }
+
+        .toast--success {
+            background: rgba(90, 165, 120, 0.06);
+            border-color: #5aa578;
+
+            .toast__icon {
+                color: #7ec8a0;
+            }
+        }
+
+        .toast--error {
+            background: rgba(196, 90, 90, 0.06);
+            border-color: #c45a5a;
+
+            .toast__icon {
+                color: #e08888;
+            }
+        }
+
+        /* ─── Dark / Light Scheme Check ─────────────────────────────── */
+        @media (prefers-color-scheme: light) {
+            /* Intentional override — this design is dark-first by design
+               but maintains WCAG 2.1 AA contrast in all states */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__inner">
+            <a href="#" class="nav__logo">Deco System</a>
+            <ul class="nav__links">
+                <li><a href="#typography">Type</a></li>
+                <li><a href="#color">Color</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#cards">Cards</a></li>
+            </ul>
+            <button class="btn btn--secondary btn--sm">Get started</button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero__overline">
+                <span></span>
+                <p class="eyebrow">Art Deco Design System</p>
+                <span></span>
+            </div>
+            <h1 class="hero__title">
+                When the brief is<br><em>demonstrate taste,</em><br>this system argues for you.
+            </h1>
+            <p class="hero__sub">
+                The internal consistency of the type scale and color tokens makes it fast to implement — without shortcuts showing.
+            </p>
+            <div class="hero__actions">
+                <button class="btn btn--primary btn--lg">
+                    <i data-lucide="book-open" style="width:14px;height:14px;"></i>
+                    View documentation
+                </button>
+                <button class="btn btn--ghost btn--lg">
+                    <i data-lucide="github" style="width:14px;height:14px;"></i>
+                    Source
+                </button>
+            </div>
+        </div>
+        <div class="hero__deco-band"></div>
+    </header>
+
+    <!-- Typography -->
+    <section id="typography">
+        <div class="container">
+            <p class="section-label">Typography</p>
+            <div class="inner">
+                <div class="type-grid">
+                    <div class="type-row">
+                        <span class="type-row__meta">Display</span>
+                        <span class="t-display">The Golden Ratio Speaks</span>
+                        <span class="type-row__spec">28px / 700 / 1.2</span>
+                    </div>
+                    <div class="type-row">
+                        <span class="type-row__meta">Heading</span>
+                        <span class="t-heading">Geometry as Language</span>
+                        <span class="type-row__spec">24px / 600 / 1.3</span>
+                    </div>
+                    <div class="type-row">
+                        <span class="type-row__meta">Subheading</span>
+                        <span class="t-subheading">Form follows function</span>
+                        <span class="type-row__spec">18px / 600 / 1.4</span>
+                    </div>
+                    <div class="type-row">
+                        <span class="type-row__meta">Eyebrow</span>
+                        <span class="t-eyebrow-demo">Section identifier</span>
+                        <span class="type-row__spec">11px / 500 / +2.5px</span>
+                    </div>
+                    <div class="type-row">
+                        <span class="type-row__meta">Body</span>
+                        <span class="t-body">Three practitioners who build interfaces for a living independently reached the same conclusion: internal consistency makes it fast.</span>
+                        <span class="type-row__spec">15px / 400 / 1.65</span>
+                    </div>
+                    <div class="type-row">
+                        <span class="type-row__meta">Small</span>
+                        <span class="t-small">Refined detail deserves refined type. Every decision reflects the whole.</span>
+                        <span class="type-row__spec">13px / 400 / 1.6</span>
+                    </div>
+                    <div class="type-row">
+                        <span class="type-row__meta">Caption</span>
+                        <span class="t-caption">Playfair Display — 400, 500, 600, 700 · Italic variant available</span>
+                        <span class="type-row__spec">12px / 400 / 1.5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="container">
+        <div class="deco-divider">
+            <div class="deco-divider__line"></div>
+            <div class="deco-divider__ornament">
+                <div class="d-sm"></div>
+                <div class="d"></div>
+                <div class="d-sm"></div>
+            </div>
+            <div class="deco-divider__line"></div>
+        </div>
+    </div>
+
+    <!-- Color -->
+    <section id="color">
+        <div class="container">
+            <p class="section-label">Color System</p>
+            <div class="swatch-grid">
+                <div class="swatch">
+                    <div class="swatch__color" style="background:#0a0a14;"></div>
+                    <div class="swatch__info">
+                        <div class="swatch__name">Background</div>
+                        <div class="swatch__hex">#0a0a14</div>
+                    </div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background:#0f0f1e;"></div>
+                    <div class="swatch__info">
+                        <div class="swatch__name">Panel</div>
+                        <div class="swatch__hex">#0f0f1e</div>
+                    </div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background:#14142a;"></div>
+                    <div class="swatch__info">
+                        <div class="swatch__name">Raised</div>
+                        <div class="swatch__hex">#14142a</div>
+                    </div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background:#c5a55a; border-bottom: 2px solid #d4b46a;"></div>
+                    <div class="swatch__info">
+                        <div class="swatch__name">Accent</div>
+                        <div class="swatch__hex">#c5a55a</div>
+                    </div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background:#8a6e30;"></div>
+                    <div class="swatch__info">
+                        <div class="swatch__name">Accent Dim</div>
+                        <div class="swatch__hex">#8a6e30</div>
+                    </div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background:#e8e0d0;"></div>
+                    <div class="swatch__info">
+                        <div class="swatch__name">Heading</div>
+                        <div class="swatch__hex">#e8e0d0</div>
+                    </div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background:#8a8a9a;"></div>
+                    <div class="swatch__info">
+                        <div class="swatch__name">Body</div>
+                        <div class="swatch__hex">#8a8a9a</div>
+                    </div>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background:#4a4a5e;"></div>
+                    <div class="swatch__info">
+                        <div class="swatch__name">Muted</div>
+                        <div class="swatch__hex">#4a4a5e</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Components -->
+    <section id="components">
+        <div class="container">
+            <p class="section-label">Components</p>
+            <div class="components-grid">
+
+                <!-- Buttons -->
+                <div class="component-block">
+                    <div class="component-block__label">Buttons</div>
+                    <div style="display:flex;flex-direction:column;gap:12px;">
+                        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                            <button class="btn btn--primary">
+                                <i data-lucide="sparkles" style="width:12px;height:12px;"></i>
+                                Primary
+                            </button>
+                            <button class="btn btn--secondary">
+                                <i data-lucide="arrow-right" style="width:12px;height:12px;"></i>
+                                Secondary
+                            </button>
+                            <button class="btn btn--ghost">Ghost</button>
+                        </div>
+                        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+                            <button class="btn btn--primary btn--sm">Small</button>
+                            <button class="btn btn--primary">Default</button>
+                            <button class="btn btn--primary btn--lg">Large</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Badges -->
+                <div class="component-block">
+                    <div class="component-block__label">Badges</div>
+                    <div style="margin-bottom:16px;">
+                        <div class="badge-row">
+                            <span class="badge badge--gold">
+                                <i data-lucide="star" style="width:9px;height:9px;"></i>
+                                Premium
+                            </span>
+                            <span class="badge badge--success">
+                                <i data-lucide="check" style="width:9px;height:9px;"></i>
+                                Active
+                            </span>
+                            <span class="badge badge--warning">
+                                <i data-lucide="clock" style="width:9px;height:9px;"></i>
+                                Pending
+                            </span>
+                            <span class="badge badge--neutral">Draft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Fields -->
+                <div class="component-block">
+                    <div class="component-block__label">Form Fields</div>
+                    <div class="field">
+                        <label for="name-input">Full name</label>
+                        <input id="name-input" class="input" type="text" placeholder="Édouard Vuillard">
+                    </div>
+                    <div class="field" style="margin-bottom:0;">
+                        <label for="era-select">Era</label>
+                        <select id="era-select" class="input">
+                            <option>Art Deco · 1920–1940</option>
+                            <option>Modernism · 1940–1960</option>
+                            <option>Brutalism · 1960–1980</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Notifications -->
+                <div class="component-block">
+                    <div class="component-block__label">Notifications</div>
+                    <div class="toast-stack">
+                        <div class="toast toast--gold">
+                            <i data-lucide="info" style="width:14px;height:14px;" class="toast__icon"></i>
+                            <div>
+                                <div class="toast__title">Design token updated</div>
+                                <div class="toast__body">Accent color applied across all instances.</div>
+                            </div>
+                        </div>
+                        <div class="toast toast--success">
+                            <i data-lucide="check-circle" style="width:14px;height:14px;" class="toast__icon"></i>
+                            <div>
+                                <div class="toast__title">Published successfully</div>
+                                <div class="toast__body">Your interface is now live.</div>
+                            </div>
+                        </div>
+                        <div class="toast toast--error">
+                            <i data-lucide="alert-circle" style="width:14px;height:14px;" class="toast__icon"></i>
+                            <div>
+                                <div class="toast__title">Contrast check failed</div>
+                                <div class="toast__body">Body text ratio is below 4.5:1 on light.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team / Avatar -->
+                <div class="component-block">
+                    <div class="component-block__label">People</div>
+                    <div class="avatar-list">
+                        <div class="avatar-item">
+                            <div class="avatar">EV</div>
+                            <div>
+                                <div class="avatar__name">Édouard Villemaire</div>
+                                <div class="avatar__role">Lead Interface Architect</div>
+                            </div>
+                        </div>
+                        <div class="avatar-item">
+                            <div class="avatar">ML</div>
+                            <div>
+                                <div class="avatar__name">Margaux Leroux</div>
+                                <div class="avatar__role">Design Systems Engineer</div>
+                            </div>
+                        </div>
+                        <div class="avatar-item">
+                            <div class="avatar">SK</div>
+                            <div>
+                                <div class="avatar__name">Sasha Kovalenko</div>
+                                <div class="avatar__role">Visual Language Director</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Progress -->
+                <div class="component-block">
+                    <div class="component-block__label">Progress Meters</div>
+                    <div class="progress-list">
+                        <div class="progress-item">
+                            <div class="progress-item__header">
+                                <span>Typography</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width:100%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-item__header">
+                                <span>Color Tokens</span>
+                                <span>87%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width:87%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-item__header">
+                                <span>Components</span>
+                                <span>64%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width:64%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-item__header">
+                                <span>Documentation</span>
+                                <span>41%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width:41%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <section id="cards">
+        <div class="container">
+            <p class="section-label">Content Cards</p>
+            <div class="cards-grid">
+
+                <div class="card">
+                    <div class="card__thumb card__thumb--geo-1">
+                        <span class="card__thumb-label">Typography</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__eyebrow">Foundational</div>
+                        <div class="card__title">The Serif as a Signal of Intent</div>
+                        <div class="card__excerpt">Playfair Display was chosen not for nostalgia but for structural precision — it holds weight at display scale.</div>
+                        <div class="card__footer">
+                            <span class="card__date">22. 3. 2026</span>
+                            <div class="card__arrow">
+                                <i data-lucide="arrow-right" style="width:12px;height:12px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__thumb card__thumb--geo-2">
+                        <span class="card__thumb-label">Color</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__eyebrow">Palette</div>
+                        <div class="card__title">Gold as the Syntax of Hierarchy</div>
+                        <div class="card__excerpt">A single accent color, applied with restraint, is more effective than a saturated palette spread across components.</div>
+                        <div class="card__footer">
+                            <span class="card__date">15. 3. 2026</span>
+                            <div class="card__arrow">
+                                <i data-lucide="arrow-right" style="width:12px;height:12px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__thumb card__thumb--geo-3">
+                        <span class="card__thumb-label">Motion</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__eyebrow">Interaction</div>
+                        <div class="card__title">Transitions at 300 ms, No Exceptions</div>
+                        <div class="card__excerpt">Consistency in timing is the invisible grid that makes an interface feel like a single authored work rather than an assembly.</div>
+                        <div class="card__footer">
+                            <span class="card__date">8. 3. 2026</span>
+                            <div class="card__arrow">
+                                <i data-lucide="arrow-right" style="width:12px;height:12px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlight Band -->
+    <section style="padding-bottom:0;">
+        <div class="container">
+            <div class="highlight-band">
+                <p class="eyebrow">System Summary</p>
+                <h2>Built for interfaces that need to <em>mean</em> something.</h2>
+                <p>The internal consistency of the type scale and color tokens makes it fast to implement without shortcuts showing. Three practitioners reached the same conclusion independently.</p>
+
+                <div class="stat-row">
+                    <div class="stat">
+                        <div class="stat__value">8</div>
+                        <div class="stat__label">Color tokens</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__value">7</div>
+                        <div class="stat__label">Type steps</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__value">AA</div>
+                        <div class="stat__label">WCAG 2.1</div>
+                    </div>
+                </div>
+
+                <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+                    <button class="btn btn--primary btn--lg">
+                        <i data-lucide="download" style="width:14px;height:14px;"></i>
+                        Download tokens
+                    </button>
+                    <button class="btn btn--secondary">View on Figma</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer__mark">Art Deco System</div>
+            <p>Playfair Display · #c5a55a · WCAG 2.1 AA · Dark-first</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

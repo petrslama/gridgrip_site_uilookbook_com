@@ -19,10 +19,10 @@
 		{
 			"fu_type": "o_hero",
 			"a_image": {
-				"alt": "Art Nouveau style mood board — Art Movement · Organic Elegance",
+				"alt": "An Alphonse Mucha-style illustration of a young woman standing in full figure, facing slightly to the side. She wears a flowing ivory silk dress with sinuous fabric folds rendered in fine ink line work. Her auburn hair is loosely pinned with a jeweled dragonfly clip, with loose strands curling organically around her shoulders. She holds a single long-stemmed white lily. Behind her, a gilded circular halo and an ornate botanical border of tropical leaves, orchids, and sinuous wrought-iron arch motifs. Warm stained-glass colors in the background — deep amber, emerald green, and ivory — casting soft organic light across the composition. Rich saturated palette, polished gold line work on bright white paper. Vivid freshly printed colors — no fading, no yellowing, crisp ink saturation. Ornate medallion corners, decorative border, characteristic Mucha flat decorative style with subtle watercolor fill. No photographic elements, pure illustration.",
 				"width": "1024",
 				"height": "768",
-				"src": "/assets/imgs/art-and-design-movements/art-nouveau/lifestyle.jpg",
+				"src": "/assets/imgs/art-and-design-movements/art-nouveau/mucha-woman-lilies-golden-halo.jpg",
 				"loading": "eager"
 			},
 			"a_eyebrow": "Organic · Elegant · Flowing · Natural · Vintage Reinterpreted",
@@ -45,45 +45,45 @@
 		{
 			"fu_type": "o_style_guide",
 			"a_h2": "When to Use",
-			"a_description": "This style finds its natural home across websites and applications that value organic and elegant design principles. You'll see it on creative portfolios, brand microsites, specialized platforms, and digital experiences where the visual language itself communicates as powerfully as the content — proving that the right aesthetic choice can transform a standard layout into a memorable experience.",
+			"a_description": "Art Nouveau works best where the visual language itself communicates craftsmanship, nature, and timeless elegance — from botanical brands to cultural institutions.",
 			"copy_label": "Click to copy prompt",
 			"copied_label": "Prompt copied!",
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style use case illustration",
+						"alt": "A woman in a flowing ivory silk dress standing in a conservatory filled with tropical plants and stained glass panels. Sinuous wrought-iron arches frame the scene. Warm golden light filters through green and amber glass, casting organic shadow patterns across the stone floor. Her auburn hair is loosely pinned with a jeweled dragonfly clip. She holds a single long-stemmed lily. Art Nouveau interior, soft diffused light, editorial fashion photography, full body shot, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/use-cases.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/woman-conservatory-stained-glass.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 1}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "flower-2",
+					"a_h3": "Botanical & Wellness",
+					"a_description": "Botanical gardens, organic skincare brands, herbal tea companies, wellness retreats, aromatherapy products, florists, garden design studios"
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style use case illustration",
+						"alt": "Close-up of a ceramic vase being shaped on a potter's wheel. The form is tall and sinuous with an asymmetric lip. Warm studio light, clay-dusted hands visible, shallow depth of field. Behind it, shelves of hand-glazed pieces in sage green and dusty rose. Editorial craft photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/use-cases.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/ceramic-vase-potters-wheel.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 2}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "paintbrush",
+					"a_h3": "Artisan & Craft",
+					"a_description": "Handmade jewelry shops, ceramic studios, artisanal food brands, letterpress printers, independent bookshops, bespoke furniture makers"
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style use case illustration",
+						"alt": "A museum Art Nouveau gallery with a large stained glass panel mounted on a white wall, backlit to reveal flowing floral patterns in amber, green, and rose. Polished wooden floors, a single visitor viewed from behind. Soft ambient lighting, architectural photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/use-cases.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/museum-stained-glass-gallery.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 3}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "landmark",
+					"a_h3": "Cultural Institutions",
+					"a_description": "Art museums, heritage foundations, literary magazines, fine art galleries, historic preservation societies, classical music venues, theatre companies"
 				}
 			]
 		},
@@ -91,70 +91,70 @@
 			"fu_type": "o_design_images",
 			"a_eyebrow": "Prompt",
 			"a_h2": "Built From This",
-			"a_description": "The distinctive visual aesthetic of Art Nouveau — a design approach that creates unique, memorable interfaces. Background: light (#faf8f2). The .inner panel has a clean background with subtle border treatment and appropriate border-radius. Colors: #6b705c as the primary accent for interactive elements and highlights. #2d2a24 for headings, #6a6258 for body text. The aesthetic captures the essence of art nouveau through careful color choices, spacing, and visual weight. Set in Cormorant Garamond — chosen for its visual character that complements this design style. Heading at weight 600-700, 24-28px, line-height 1.2-1.3. Eyebrow at weight 500, 11px, uppercase, 2-3px letter-spacing, color #6b705c. Body at weight 400, 14-15px, line-height 1.6-1.7, color #6a6258. Buttons: primary — #6b705c background with contrasting text. Secondary: transparent with #6b705c border. Alternatives: system-ui (universal fallback), serif stack.",
+			"a_description": "The distinctive visual aesthetic of Art Nouveau — organic line work, botanical ornament, and restrained craftsmanship applied to web interfaces. Background: #faf8f2. The .inner panel uses a clean background with a subtle border treatment and moderate border-radius. Colors: #6b705c as the primary accent for interactive elements and highlights, #2d2a24 for headings, #6a6258 for body text. The aesthetic is carried through careful color choices, generous spacing, and typographic weight — not decorative imagery. Set in Cormorant Garamond — its high stroke contrast and calligraphic character are a natural match for this style. Fallback stack: Georgia, \"Times New Roman\", serif. Heading at weight 600–700, 24–28 px, line-height 1.2–1.3. Eyebrow at weight 500, 11 px, uppercase, 2–3 px letter-spacing, color #6b705c — verify contrast at this size, minimum 4.5 : 1 against background. Body at weight 400, 14–15 px, line-height 1.6–1.7, color #6a6258. Buttons: primary — #6b705c background with white text; secondary — transparent with 1px solid #6b705c border.",
 			"items": [
 				{
 					"a_image": {
-						"alt": "Art Nouveau style UI example",
+						"alt": "Art Nouveau — museum permanent collection page with organic navigation and gallery layout",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/art-and-design-movements/art-nouveau/example.html",
+						"src": "/assets/gallery/art-and-design-movements/art-nouveau/art-nouveau-museum.jpg",
+						"href": "/assets/gallery/art-and-design-movements/art-nouveau/art-nouveau-museum.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Museum",
+						"Gallery",
+						"Collection",
+						"Culture"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Art Nouveau style UI example",
+						"alt": "Art Nouveau — boutique hotel site with floral motifs and elegant booking layout",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/art-and-design-movements/art-nouveau/example.html",
+						"src": "/assets/gallery/art-and-design-movements/art-nouveau/hotel-art-nouveau.jpg",
+						"href": "/assets/gallery/art-and-design-movements/art-nouveau/hotel-art-nouveau.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Hotel",
+						"Boutique",
+						"Hospitality",
+						"Booking"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Art Nouveau style UI example",
+						"alt": "Art Nouveau — jewelry product page with dragonfly brooch and ornamental details",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/art-and-design-movements/art-nouveau/example.html",
+						"src": "/assets/gallery/art-and-design-movements/art-nouveau/libellule.jpg",
+						"href": "/assets/gallery/art-and-design-movements/art-nouveau/libellule.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Product",
+						"Jewelry",
+						"Luxury",
+						"Detail"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Art Nouveau style UI example",
+						"alt": "Art Nouveau — pottery studio site with class schedules and earthy craft aesthetic",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/art-and-design-movements/art-nouveau/example.html",
+						"src": "/assets/gallery/art-and-design-movements/art-nouveau/pottery-class.jpg",
+						"href": "/assets/gallery/art-and-design-movements/art-nouveau/pottery-class.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Studio",
+						"Pottery",
+						"Craft",
+						"Classes"
 					]
 				}
 			]
@@ -167,115 +167,115 @@
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style design principle illustration",
+						"alt": "Close-up of a wrought-iron balcony railing with whiplash curves and vine-like tendrils. The iron is painted dark green, set against a warm cream limestone facade. Morning light catches the flowing metalwork, casting organic shadows. Architectural detail photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/wrought-iron-whiplash-railing.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 1 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "waves",
+					"a_h3": "The Whiplash Curve",
+					"a_description": "Every line flows. Art Nouveau rejects straight edges and right angles in favor of sinuous, organic curves that mimic vines, tendrils, and water. In UI design, this translates to generous border-radius, flowing section dividers, and layout shapes that guide the eye along a natural path rather than snapping to a rigid grid."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style design principle illustration",
+						"alt": "A well-preserved vintage lithograph poster in the style of Alphonse Mucha, lying flat on a rough-hewn oak table. The poster depicts a young woman in profile with flowing auburn hair and a floral crown of white lilies and red poppies, surrounded by a gilded circular halo and an ornate botanical border with medallion corners. Rich saturated palette — deep forest green, warm vermillion, ivory cream, and polished gold line work on warm white paper. The printed surface shows subtle halftone dot grain visible under raking light, consistent with fine chromolithography. No foxing, no yellowing — pristine gallery-stored condition. The poster contains only one text element: the words 'UI Look Book' rendered in large Art Nouveau serif lettering at the top, with ornate Mucha-style flourishes integrated into the letterforms. No other text, labels, captions, or decorative script anywhere on the poster. Warm raking overhead light from upper left casts a soft directional shadow along the poster's slightly curled bottom edge. Shot from directly above, centered. Medium format camera, 50mm equivalent, f/5.6, natural indoor light, photorealistic, 8K.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/pressed-iris-botanical-frame.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 2 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "leaf",
+					"a_h3": "Nature as Blueprint",
+					"a_description": "Flowers, insects, birds, and botanical forms are not decoration — they are the structural vocabulary. Every ornamental element derives from observable nature: the symmetry of a dragonfly wing, the spiral of a fern frond, the branching of a tree. In digital design, this means organic illustrations, botanical motifs, and color palettes drawn from earth, foliage, and sky."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style design principle illustration",
+						"alt": "Interior of an Art Nouveau room — a curved wooden doorframe flows seamlessly into the wall molding, which becomes a ceiling ornament. The same sinuous line runs through the door handle, the light fixture, and the mosaic floor. Warm ambient light, wide angle, interior architecture photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/nouveau-interior-flowing-doorframe.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 3 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "infinity",
+					"a_h3": "Total Design",
+					"a_description": "Art Nouveau aspired to Gesamtkunstwerk — the total work of art where every element shares a unified visual language. The same curve appears in the typography, the layout, the icons, and the illustrations. In UI design, this means consistent visual rhythm across all components: buttons echo the border-radius of cards, icons share the line weight of body text, and spacing follows one harmonic scale."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style design principle illustration",
+						"alt": "A Tiffany stained glass lamp on a dark wooden desk, glowing warm amber and green through glass pieces shaped like wisteria flowers. Each piece is irregular, fitted together like a mosaic. Soft warm light, dark background, product photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/tiffany-wisteria-lamp-desk.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 4 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "palette",
+					"a_h3": "Warm Material Palette",
+					"a_description": "The colors of Art Nouveau come from natural materials: aged parchment, tarnished copper, moss, dried flowers, stained glass. Backgrounds are warm cream or soft sage, never clinical white. Accents are muted earth tones — olive green, dusty rose, amber gold — that feel handmade rather than synthetic. Avoid saturated primaries; everything should look like it was mixed from pigment, not picked from a color wheel."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style design principle illustration",
+						"alt": "An Art Nouveau poster design lying flat on a wooden table. The composition is asymmetric — a tall female figure stands to the left, her flowing hair and dress creating a diagonal sweep across the frame. Floral borders frame the right side. Warm overhead light, vintage print texture, flat lay photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/nouveau-poster-asymmetric-table.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 5 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "move-diagonal",
+					"a_h3": "Asymmetric Balance",
+					"a_description": "Layouts are balanced but never mirrored. A heavy illustration on the left is counterweighted by a cluster of text on the right. Negative space is distributed unevenly, creating visual tension that keeps the eye moving. In UI design, this means off-center hero compositions, staggered grid items, and content that breathes rather than locking into rigid symmetry."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style design principle illustration",
+						"alt": "Detail of a carved wooden cabinet panel showing interlocking floral relief — lilies and vines that form the structural frame of the panel itself. The ornament is load-bearing, not applied. Warm side light, macro detail on the wood grain and carved curves. Furniture photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/carved-floral-cabinet-panel.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 6 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "frame",
+					"a_h3": "Ornament as Structure",
+					"a_description": "In Art Nouveau, decoration is never applied on top — it is the structure itself. A railing does not have vines added to it; the railing is the vine. In UI design, this means borders that are also illustrations, dividers that are also ornamental motifs, and buttons whose shape is the decoration. If you can remove the ornament without changing the layout, it was applied wrong."
 				}
 			]
 		},
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #1",
-			"a_h2": "{Palette Name}",
-			"a_description": "{What this palette represents — the core identity}",
+			"a_h2": "Mucha's Garden",
+			"a_description": "The signature Art Nouveau palette — warm parchment backgrounds with muted sage and earth tones, evoking botanical illustrations and aged print posters",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use: primary action, headlines, etc.}"
+					"a_h3": "Parchment",
+					"hex": "#faf8f2",
+					"a_description": "Page background, light sections, base canvas"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Warm Linen",
+					"hex": "#f0ebe0",
+					"a_description": "Card surfaces, elevated panels, form backgrounds"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Sage",
+					"hex": "#6b705c",
+					"a_description": "Primary buttons, accent lines, icons, active states"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Dark Walnut",
+					"hex": "#2d2a24",
+					"a_description": "Headings, hero titles, high-contrast text"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "Warm Stone",
+					"hex": "#6a6258",
+					"a_description": "Body text, descriptions, secondary labels"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#888888",
-					"a_description": "{Where to use}"
+					"a_h3": "Dusty Rose",
+					"hex": "#b5838d",
+					"a_description": "Secondary accent, hover states, decorative highlights"
 				}
 			],
 			"section_id": "color-palettes"
@@ -283,130 +283,118 @@
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #2",
-			"a_h2": "{Palette 2 Name}",
-			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"a_h2": "Tiffany Glass",
+			"a_description": "A richer, jewel-toned variation — deep forest greens and amber golds inspired by stained glass panels and leaded lampshades",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Deep Forest",
+					"hex": "#1a2a1a",
+					"a_description": "Page background — dark with warm green undertone"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Moss Panel",
+					"hex": "#243024",
+					"a_description": "Card surfaces, panels, elevated content areas"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Amber Glass",
+					"hex": "#c9a227",
+					"a_description": "Primary buttons, accent lines, interactive highlights"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Pale Gold",
+					"hex": "#e8dcc0",
+					"a_description": "Headings, hero titles, high-emphasis text"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "Lichen",
+					"hex": "#8a9a7a",
+					"a_description": "Body text, descriptions, form labels"
 				}
 			],
-			"section_id": "{palette-2-slug}"
+			"section_id": "tiffany-glass"
 		},
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #3",
-			"a_h2": "{Palette 3 Name}",
-			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"a_h2": "Klimt's Kiss",
+			"a_description": "A warmer, more saturated take — burnished copper and deep burgundy on cream, inspired by Vienna Secession paintings and gilded mosaics",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Old Cream",
+					"hex": "#f5f0e4",
+					"a_description": "Page background — warm ivory with golden undertone"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Vellum",
+					"hex": "#ece5d4",
+					"a_description": "Card surfaces, panels, form backgrounds"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Burnished Copper",
+					"hex": "#a0522d",
+					"a_description": "Primary buttons, accent lines, active elements"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Burgundy",
+					"hex": "#6b2737",
+					"a_description": "Secondary accent, borders, decorative lines"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "Charcoal Brown",
+					"hex": "#2a2220",
+					"a_description": "Headings, hero titles, high-contrast text"
 				}
 			],
-			"section_id": "{palette-3-slug}"
+			"section_id": "klimts-kiss"
 		},
 		{
 			"fu_type": "o_typography",
 			"a_eyebrow": "Typography",
 			"a_h2": "Heading Fonts",
-			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"a_description": "Flowing, high-contrast serifs and decorative display faces that echo the organic curves and ornamental elegance of Art Nouveau lettering.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"fonts": [
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Cormorant Garamond",
+					"css": "font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 1.6rem; line-height: 1.15;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Playfair Display",
+					"css": "font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Marcellus",
+					"css": "font-family: 'Marcellus', serif; font-weight: 400; font-size: 1.5rem; line-height: 1.2;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Abril Fatface",
+					"css": "font-family: 'Abril Fatface', serif; font-weight: 400; font-size: 1.5rem; line-height: 1.15;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "EB Garamond",
+					"css": "font-family: 'EB Garamond', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+					"family": "Georgia",
+					"css": "font-family: Georgia, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
 				}
 			],
 			"section_id": "typography"
@@ -415,39 +403,45 @@
 			"fu_type": "o_typography",
 			"a_eyebrow": "Typography",
 			"a_h2": "Text Fonts",
-			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"a_description": "Warm, readable body fonts with just enough character to maintain the period feel — refined enough for long-form content, never sterile.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"fonts": [
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+					"family": "Cormorant Garamond",
+					"css": "font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+					"family": "Lora",
+					"css": "font-family: 'Lora', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "EB Garamond",
+					"css": "font-family: 'EB Garamond', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Crimson Text",
+					"css": "font-family: 'Crimson Text', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Libre Baskerville",
+					"css": "font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 0.95rem; line-height: 1.7;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+					"family": "Palatino",
+					"css": "font-family: Palatino, \"Palatino Linotype\", serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
 				}
 			]
 		},
@@ -459,36 +453,36 @@
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style history illustration",
+						"alt": "A Parisian Métro entrance at dusk — Hector Guimard's iconic cast-iron arch with sinuous green stalks and amber glass canopy. The entrance glows warm against a deep blue twilight sky. A few pedestrians in period clothing walk past on wet cobblestones. Cinematic wide angle, warm-cool contrast, photorealistic historical recreation.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/history.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/paris-metro-guimard-entrance.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Origins — what era/movement it came from}",
-					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+					"a_h3": "The New Art — Paris & Brussels, 1890s",
+					"a_description": "Art Nouveau emerged in the early 1890s as a deliberate break from historicism — a generation of artists and architects rejecting the recycled classical styles of the 19th century. The movement drew its name from Siegfried Bing's Parisian gallery L'Art Nouveau, but its roots spread simultaneously across Europe: Victor Horta's flowing ironwork in Brussels, Hector Guimard's organic Métro entrances in Paris, and the Vienna Secession's revolt against academic tradition. The shared conviction was radical: art should pervade everyday life, and nature — not antiquity — should be its source."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style history illustration",
+						"alt": "A large Alphonse Mucha-style poster displayed in a contemporary gallery, mounted in a slim dark walnut frame against a smooth cream wall. The poster depicts a young woman in profile with flowing auburn hair and a floral crown, surrounded by a gilded circular halo and an ornate botanical border with medallion corners. Rich saturated palette — deep forest green, warm vermillion, ivory cream, and polished gold line work on bright white paper. Vivid, freshly printed colors — no fading, no yellowing, no foxing, crisp ink saturation as if printed yesterday. The poster surface is smooth and slightly glossy. Two warm gallery spotlights illuminate the piece from above at 45°, casting a soft even glow with no harsh glare on the surface. The surrounding wall is clean matte cream. Shot straight-on, centered, 85mm equivalent, f/5.6, photorealistic, 8K.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/history.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/mucha-poster-gallery-display.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Peak — the defining medium or movement}",
-					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+					"a_h3": "The Golden Age — Mucha, Gaudí, Tiffany, 1895–1910",
+					"a_description": "Art Nouveau reached its apex in the years around 1900, producing some of the most recognizable visual art in Western history. Alphonse Mucha's lithograph posters turned commercial advertising into fine art. Antoni Gaudí bent Barcelona's skyline into organic sculpture with Casa Batlló and Park Güell. Louis Comfort Tiffany transformed stained glass into luminous botanical gardens. Gustav Klimt fused Byzantine gold with sensual naturalism. The movement touched everything — furniture, jewelry, architecture, illustration, typography — making it the last style to truly unify art and craft before modernism split them apart."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Nouveau style history illustration",
+						"alt": "A modern laptop open on a wooden desk, screen facing the viewer. The laptop display shows a single full-screen Art Nouveau-inspired hero page. The screen contains exactly two elements: the text 'UI Look Book' in large elegant Art Nouveau serif lettering at the top center, and below it a large decorative illustration of a young woman in profile in the style of Alphonse Mucha — flowing auburn hair, floral crown, gilded circular halo. Deep forest green background on screen. No navigation, no buttons, no body text, no lorem ipsum, no other UI elements visible on the screen. A small potted fern sits to the right of the laptop. Soft diffused natural light from a window to the left. The desk surface is warm oak with visible wood grain. Shot at slight eye level angle, 35mm equivalent, f/4, photorealistic, 8K.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-nouveau/history.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-nouveau/laptop-nouveau-website-fern.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Modern Revival or Legacy}",
-					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+					"a_h3": "Digital Revival — 2010s to Present",
+					"a_description": "Art Nouveau's influence never fully faded — it resurfaced in psychedelic posters of the 1960s, in Hayao Miyazaki's animated worlds, and in the organic typography of independent publishers. In digital design, the style found new life as brands sought alternatives to the flat, geometric minimalism that dominated the 2010s. Botanical illustration, flowing serif typography, and warm earthy palettes became markers of authenticity and craft. Wellness brands, artisan shops, and cultural institutions adopted Art Nouveau's principles to signal that their products are grown, not manufactured — proving that the most nature-inspired design movement in history translates beautifully to screens."
 				}
 			]
 		},
@@ -499,33 +493,33 @@
 			"items": [
 				{
 					"a_icon": "bot",
-					"a_h3": "What AI prompt generates a Art Nouveau website?",
+					"a_h3": "What AI prompt generates an Art Nouveau website?",
 					"answer": "The distinctive visual aesthetic of Art Nouveau — a design approach that creates unique, memorable interfaces. Background: light (#faf8f2). The .inner panel has a clean background with subtle border treatment and appropriate border-radius. Colors: #6b705c as the primary accent for interactive elements and highlights. #2d2a24 for headings, #6a6258 for body text. The aesthetic captures the essence of art nouveau through careful color choices, spacing, and visual weight. Set in Cormorant Garamond — chosen for its visual character that complements this design style. Heading at weight 600-700, 24-28px, line-height 1.2-1.3. Eyebrow at weight 500, 11px, uppercase, 2-3px letter-spacing, color #6b705c. Body at weight 400, 14-15px, line-height 1.6-1.7, color #6a6258. Buttons: primary — #6b705c background with contrasting text. Secondary: transparent with #6b705c border. Alternatives: system-ui (universal fallback), serif stack."
 				},
 				{
 					"a_icon": "briefcase",
 					"a_h3": "What industries does Art Nouveau work best for?",
-					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+					"answer": "Botanical and wellness brands (organic skincare, herbal products, garden centers), artisan and craft businesses (handmade jewelry, ceramics, letterpress), cultural institutions (museums, galleries, literary magazines, theatre), and heritage hospitality (boutique B&Bs, wine estates, historic hotels). It also works well for editorial and publishing sites that want to feel literary rather than corporate. Avoid it for tech startups, data-heavy dashboards, fast-paced e-commerce with hundreds of SKUs, or anything that needs to feel cutting-edge and minimal — Art Nouveau communicates craftsmanship and tradition, which can read as slow in contexts that demand speed."
 				},
 				{
 					"a_icon": "swatch-book",
 					"a_h3": "Which color palette should I choose?",
-					"answer": "{Brief description of each palette and when to use it.}"
+					"answer": "Mucha's Garden is the classic choice — the warm parchment-and-sage combination is immediately recognizable as Art Nouveau and works for most projects. Choose Tiffany Glass when you need a darker, more dramatic palette — the deep forest background with amber accents works well for evening-themed experiences, galleries, or luxury brands. Pick Klimt's Kiss when you want warmth and richness without going dark — the copper and burgundy on cream evokes Vienna Secession paintings and suits heritage brands, wine labels, and cultural projects."
 				},
 				{
 					"a_icon": "circle-slash",
 					"a_h3": "When should I avoid using the Art Nouveau style?",
-					"answer": "{Contexts where this style is a poor fit.}"
+					"answer": "Skip Art Nouveau for anything that needs to feel modern, fast, or technical. It struggles with SaaS dashboards, developer tools, fintech, and mobile-first utility apps where efficiency matters more than atmosphere. The ornamental nature of the style adds visual weight that slows down task-oriented interfaces. Avoid it for brands targeting younger audiences who associate serif fonts and muted palettes with being outdated. The flowing, asymmetric layouts can also create accessibility challenges — screen readers and keyboard navigation work best with predictable, structured layouts."
 				},
 				{
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Historical or cultural question about this style}",
-					"answer": "{Answer with cultural/historical context.}"
+					"a_icon": "landmark",
+					"a_h3": "What's the difference between Art Nouveau and Art Deco?",
+					"answer": "Think elves versus dwarves. Art Nouveau (1890s–1910s) is the elven kingdom — organic flowing curves, vines, flowers, everything grown rather than built. Art Deco (1920s–1930s) is the dwarven stronghold — geometric, angular, hammered from metal and stone with machine precision. Where Art Nouveau curves, Art Deco steps. Where Art Nouveau draws from nature, Art Deco draws from industry. In UI design, Art Nouveau translates to flowing illustrations and earthy palettes (Rivendell vibes), while Art Deco becomes sharp geometric borders, metallic accents, and vertical emphasis (straight out of Erebor). Art Nouveau came first; Art Deco was partly a reaction against its organic excess."
 				},
 				{
 					"a_icon": "type",
 					"a_h3": "What fonts best capture the Art Nouveau look?",
-					"answer": "{Detailed typography recommendations with reasoning.}"
+					"answer": "For headlines, use flowing high-contrast serifs: Cormorant Garamond for elegant, light strokes, Playfair Display for bold editorial contrast, Marcellus for classical restraint, or Abril Fatface for dramatic display weight. For body text, pair with Cormorant Garamond at regular weight (refined serif), Lora (sturdy transitional), EB Garamond (old-style book face), or Crimson Text (warm humanist). The key is organic rhythm — avoid geometric sans-serifs and anything that feels mechanical. Letter-spacing should be subtle, not the aggressive tracking used in Art Deco. System fallbacks: Georgia for headings, Palatino for body."
 				}
 			],
 			"section_id": "faq"
@@ -599,24 +593,24 @@
 	],
 	"seo": {
 		"title": "Art Nouveau Style — UI Lookbook",
-		"description": "Explore the Art Nouveau style: Art Movement · Organic Elegance. Color palettes, typography, design principles, and AI prompts for Art Nouveau UI design.",
+		"description": "Explore the Art Nouveau style: Art Movement · 1890s–1910s. Color palettes, typography, design principles, and AI prompts for Art Nouveau UI design.",
 		"keywords": "Art Nouveau, art-nouveau, Organic, Elegant, Flowing, Natural, Vintage Reinterpreted",
 		"og": {
 			"title": "Art Nouveau Style — UI Lookbook",
-			"description": "Explore the Art Nouveau style: Art Movement · Organic Elegance. Color palettes, typography, design principles, and AI prompts.",
+			"description": "Explore the Art Nouveau style: Art Movement · 1890s–1910s. Color palettes, typography, design principles, and AI prompts.",
 			"url": "https://uilookbook.com/art-and-design-movements/art-nouveau/",
 			"type": "article",
 			"image": {
-				"src": "/assets/imgs/art-and-design-movements/art-nouveau/lifestyle.jpg",
+				"src": "/assets/imgs/art-and-design-movements/art-nouveau/mucha-woman-lilies-golden-halo.jpg",
 				"alt": "Art Nouveau Style — UI Lookbook"
 			}
 		},
 		"twitter": {
 			"card": "summary_large_image",
 			"title": "Art Nouveau Style — UI Lookbook",
-			"description": "Explore the Art Nouveau style: Art Movement · Organic Elegance. Color palettes, typography, design principles, and AI prompts.",
+			"description": "Explore the Art Nouveau style: Art Movement · 1890s–1910s. Color palettes, typography, design principles, and AI prompts.",
 			"image": {
-				"src": "/assets/imgs/art-and-design-movements/art-nouveau/lifestyle.jpg",
+				"src": "/assets/imgs/art-and-design-movements/art-nouveau/mucha-woman-lilies-golden-halo.jpg",
 				"alt": "Art Nouveau Style — UI Lookbook"
 			}
 		}
@@ -625,8 +619,36 @@
 		"start_head_codes": [],
 		"head_codes": [
 			{
-				"note": "Google Fonts",
-				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap\">"
+				"note": "Google: Cormorant Garamond",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap\">"
+			},
+			{
+				"note": "Google: Playfair Display",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Marcellus",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Marcellus&display=swap\">"
+			},
+			{
+				"note": "Google: Abril Fatface",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap\">"
+			},
+			{
+				"note": "Google: EB Garamond",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap\">"
+			},
+			{
+				"note": "Google: Lora",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Lora&display=swap\">"
+			},
+			{
+				"note": "Google: Crimson Text",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap\">"
+			},
+			{
+				"note": "Google: Libre Baskerville",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap\">"
 			},
 			{
 				"note": "art-nouveau",

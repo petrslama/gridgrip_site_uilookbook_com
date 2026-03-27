@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Florale — Boutique Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg:           #faf8f2;
+            --accent:       #6b705c;
+            --heading:      #2d2a24;
+            --body:         #6a6258;
+            --border:       #d8d2c4;
+            --inner-bg:     #ffffff;
+            --white:        #ffffff;
+            --radius:       10px;
+            --radius-lg:    16px;
+            --font-serif:   "Cormorant Garamond", Georgia, "Times New Roman", serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-serif);
+            background-color: var(--bg);
+            color: var(--body);
+            font-size: 15px;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── Eyebrow ───────────────────────────────────────────────────── */
+        .eyebrow {
+            display: block;
+            font-family: var(--font-serif);
+            font-weight: 500;
+            font-size: 11px;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+
+        /* ── Typography ────────────────────────────────────────────────── */
+        h1, h2, h3 {
+            font-family: var(--font-serif);
+            color: var(--heading);
+            line-height: 1.25;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: clamp(34px, 5vw, 52px);
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            font-size: clamp(24px, 3.5vw, 34px);
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--body);
+        }
+
+        /* ── Buttons ───────────────────────────────────────────────────── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--font-serif);
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 13px 28px;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: background-color .3s, color .3s, border-color .3s, opacity .3s;
+
+            &.btn-primary {
+                background-color: var(--accent);
+                color: var(--white);
+                border-color: var(--accent);
+
+                &:hover {
+                    background-color: #575d4a;
+                    border-color: #575d4a;
+                }
+            }
+
+            &.btn-secondary {
+                background-color: transparent;
+                color: var(--accent);
+                border-color: var(--accent);
+
+                &:hover {
+                    background-color: var(--accent);
+                    color: var(--white);
+                }
+            }
+        }
+
+        /* ── Layout helpers ────────────────────────────────────────────── */
+        .container {
+            max-width: 1180px;
+            margin-inline: auto;
+            padding-inline: 32px;
+        }
+
+        .inner {
+            background: var(--inner-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+        }
+
+        /* ── NAV ───────────────────────────────────────────────────────── */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(250, 248, 242, 0.92);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border);
+            transition: box-shadow .3s;
+
+            .nav-inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 72px;
+            }
+
+            .nav-logo {
+                display: flex;
+                flex-direction: column;
+                line-height: 1;
+                text-decoration: none;
+
+                .logo-name {
+                    font-family: var(--font-serif);
+                    font-weight: 700;
+                    font-size: 22px;
+                    color: var(--heading);
+                    letter-spacing: 0.5px;
+                }
+
+                .logo-sub {
+                    font-family: var(--font-serif);
+                    font-weight: 400;
+                    font-size: 10px;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    color: var(--accent);
+                    margin-top: 2px;
+                }
+            }
+
+            .nav-links {
+                display: flex;
+                list-style: none;
+                gap: 36px;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    font-family: var(--font-serif);
+                    font-size: 13px;
+                    font-weight: 500;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                    color: var(--body);
+                    transition: color .3s;
+
+                    &:hover {
+                        color: var(--accent);
+                    }
+                }
+            }
+
+            .nav-cta {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+            }
+
+            @media (max-width: 768px) {
+                .nav-links {
+                    display: none;
+                }
+            }
+        }
+
+        /* ── HERO ──────────────────────────────────────────────────────── */
+        .hero {
+            padding-block: 80px 72px;
+
+            .hero-inner {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 64px;
+                align-items: center;
+
+                @media (max-width: 900px) {
+                    grid-template-columns: 1fr;
+                    gap: 48px;
+                }
+            }
+
+            .hero-content {
+                max-width: 520px;
+
+                h1 {
+                    margin-bottom: 20px;
+
+                    em {
+                        font-style: italic;
+                        color: var(--accent);
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 1.75;
+                    margin-bottom: 36px;
+                    max-width: 420px;
+                }
+
+                .hero-actions {
+                    display: flex;
+                    gap: 14px;
+                    flex-wrap: wrap;
+                }
+            }
+
+            .hero-image-wrap {
+                position: relative;
+
+                .inner {
+                    overflow: hidden;
+                    padding: 0;
+
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                        aspect-ratio: 4/3;
+                        object-fit: cover;
+                        transition: transform .3s;
+
+                        &:hover {
+                            transform: scale(1.02);
+                        }
+                    }
+                }
+
+                .image-caption {
+                    position: absolute;
+                    bottom: -1px;
+                    left: -1px;
+                    right: -1px;
+                    background: linear-gradient(to top, rgba(45,42,36,.72) 0%, transparent 100%);
+                    padding: 28px 24px 18px;
+                    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+
+                    span {
+                        font-family: var(--font-serif);
+                        font-size: 11px;
+                        font-weight: 500;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        color: rgba(255,255,255,.82);
+                    }
+                }
+            }
+
+            .hero-stats {
+                display: flex;
+                gap: 40px;
+                margin-top: 48px;
+                padding-top: 36px;
+                border-top: 1px solid var(--border);
+
+                .stat {
+                    .stat-value {
+                        display: block;
+                        font-family: var(--font-serif);
+                        font-size: 28px;
+                        font-weight: 700;
+                        color: var(--heading);
+                        line-height: 1.1;
+                    }
+
+                    .stat-label {
+                        font-size: 11px;
+                        letter-spacing: 1.5px;
+                        text-transform: uppercase;
+                        color: var(--body);
+                        margin-top: 4px;
+                    }
+                }
+            }
+        }
+
+        /* ── DIVIDER ornament ──────────────────────────────────────────── */
+        .ornament-divider {
+            text-align: center;
+            padding-block: 16px;
+            color: var(--border);
+            font-size: 22px;
+            letter-spacing: 12px;
+            user-select: none;
+        }
+
+        /* ── BOOKING BAR ───────────────────────────────────────────────── */
+        .booking-bar {
+            padding-block: 0 64px;
+
+            .inner {
+                padding: 28px 36px;
+                display: flex;
+                align-items: flex-end;
+                gap: 20px;
+                flex-wrap: wrap;
+
+                @media (max-width: 900px) {
+                    padding: 24px 24px;
+                }
+            }
+
+            .field-group {
+                display: flex;
+                gap: 20px;
+                flex: 1;
+                flex-wrap: wrap;
+            }
+
+            .field {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                min-width: 140px;
+                flex: 1;
+
+                label {
+                    font-size: 10px;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: var(--accent);
+                }
+
+                input, select {
+                    font-family: var(--font-serif);
+                    font-size: 15px;
+                    color: var(--heading);
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px solid var(--border);
+                    padding: 6px 0;
+                    outline: none;
+                    transition: border-color .3s;
+                    cursor: pointer;
+
+                    &:focus {
+                        border-color: var(--accent);
+                    }
+                }
+
+                select {
+                    appearance: none;
+                }
+            }
+
+            .field-divider {
+                width: 1px;
+                height: 40px;
+                background: var(--border);
+                align-self: flex-end;
+                margin-bottom: 6px;
+
+                @media (max-width: 680px) {
+                    display: none;
+                }
+            }
+        }
+
+        /* ── AMENITIES ─────────────────────────────────────────────────── */
+        .amenities {
+            padding-block: 64px;
+
+            .section-header {
+                text-align: center;
+                margin-bottom: 56px;
+
+                h2 {
+                    margin-bottom: 16px;
+                }
+
+                p {
+                    max-width: 480px;
+                    margin-inline: auto;
+                    font-size: 16px;
+                }
+            }
+
+            .amenities-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 24px;
+
+                @media (max-width: 900px) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                @media (max-width: 540px) {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            .amenity-card {
+                .inner {
+                    padding: 32px 28px;
+                    height: 100%;
+                    transition: border-color .3s, box-shadow .3s;
+
+                    &:hover {
+                        border-color: var(--accent);
+                        box-shadow: 0 4px 20px rgba(107,112,92,.10);
+                    }
+                }
+
+                .amenity-icon {
+                    width: 44px;
+                    height: 44px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--accent);
+                    margin-bottom: 18px;
+                    border: 1px solid var(--border);
+                    border-radius: 8px;
+
+                    i[data-lucide] {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                h3 {
+                    font-size: 19px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 1.65;
+                }
+            }
+        }
+
+        /* ── ROOMS ─────────────────────────────────────────────────────── */
+        .rooms {
+            padding-block: 64px;
+            background: linear-gradient(180deg, var(--bg) 0%, #f3f0e8 100%);
+
+            .section-header {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                margin-bottom: 48px;
+                gap: 24px;
+                flex-wrap: wrap;
+            }
+
+            .rooms-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 28px;
+
+                @media (max-width: 960px) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                @media (max-width: 600px) {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            .room-card {
+                .inner {
+                    overflow: hidden;
+                    padding: 0;
+                    transition: box-shadow .3s;
+
+                    &:hover {
+                        box-shadow: 0 8px 32px rgba(45,42,36,.12);
+                    }
+
+                    &:hover .room-thumb img {
+                        transform: scale(1.04);
+                    }
+                }
+
+                .room-thumb {
+                    overflow: hidden;
+                    aspect-ratio: 4/3;
+                    background: linear-gradient(135deg, #e8e4da, #d8d2c4);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: transform .3s;
+                    }
+
+                    .room-thumb-placeholder {
+                        color: var(--border);
+                        opacity: .5;
+
+                        i[data-lucide] {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+
+                    .room-badge {
+                        position: absolute;
+                        top: 14px;
+                        left: 14px;
+                        background: var(--inner-bg);
+                        color: var(--accent);
+                        font-size: 10px;
+                        font-weight: 500;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        padding: 5px 10px;
+                        border-radius: 3px;
+                        border: 1px solid var(--border);
+                    }
+                }
+
+                .room-body {
+                    padding: 24px 24px 20px;
+                }
+
+                .room-meta {
+                    display: flex;
+                    gap: 16px;
+                    margin-bottom: 10px;
+
+                    .meta-item {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        font-size: 12px;
+                        color: var(--body);
+
+                        i[data-lucide] {
+                            width: 13px;
+                            height: 13px;
+                            color: var(--accent);
+                        }
+                    }
+                }
+
+                h3 {
+                    font-size: 20px;
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    font-size: 13.5px;
+                    line-height: 1.6;
+                    margin-bottom: 20px;
+                }
+
+                .room-footer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 16px;
+                    border-top: 1px solid var(--border);
+
+                    .room-price {
+                        .price-amount {
+                            font-size: 24px;
+                            font-weight: 700;
+                            color: var(--heading);
+                            line-height: 1;
+                        }
+
+                        .price-unit {
+                            font-size: 11px;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                            color: var(--body);
+                            margin-top: 3px;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ── EXPERIENCE / PULL QUOTE ───────────────────────────────────── */
+        .experience {
+            padding-block: 88px;
+
+            .inner {
+                padding: 72px 64px;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+
+                @media (max-width: 768px) {
+                    padding: 48px 32px;
+                }
+            }
+
+            .quote-mark {
+                display: block;
+                font-family: var(--font-serif);
+                font-size: 120px;
+                line-height: 1;
+                color: var(--accent);
+                opacity: .12;
+                position: absolute;
+                top: 8px;
+                left: 36px;
+                user-select: none;
+            }
+
+            blockquote {
+                font-family: var(--font-serif);
+                font-size: clamp(20px, 3vw, 28px);
+                font-weight: 400;
+                font-style: italic;
+                color: var(--heading);
+                line-height: 1.55;
+                max-width: 680px;
+                margin-inline: auto;
+                margin-bottom: 28px;
+            }
+
+            cite {
+                font-size: 11px;
+                font-weight: 500;
+                letter-spacing: 2.5px;
+                text-transform: uppercase;
+                color: var(--accent);
+                font-style: normal;
+            }
+        }
+
+        /* ── LOCATION ──────────────────────────────────────────────────── */
+        .location-section {
+            padding-block: 64px 96px;
+
+            .location-inner {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 48px;
+                align-items: center;
+
+                @media (max-width: 860px) {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            .location-content {
+                h2 {
+                    margin-bottom: 18px;
+                }
+
+                p {
+                    font-size: 15px;
+                    margin-bottom: 32px;
+                    max-width: 400px;
+                }
+
+                .location-list {
+                    list-style: none;
+                    margin-bottom: 36px;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+                        padding-block: 12px;
+                        border-bottom: 1px solid var(--border);
+                        font-size: 14px;
+                        color: var(--body);
+
+                        &:first-child {
+                            border-top: 1px solid var(--border);
+                        }
+
+                        i[data-lucide] {
+                            width: 15px;
+                            height: 15px;
+                            color: var(--accent);
+                            flex-shrink: 0;
+                        }
+
+                        strong {
+                            font-weight: 600;
+                            color: var(--heading);
+                        }
+                    }
+                }
+            }
+
+            .location-map-placeholder {
+                .inner {
+                    aspect-ratio: 1;
+                    background: linear-gradient(145deg, #edeae0, #e0dcd2);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 14px;
+                    color: var(--body);
+                    font-size: 13px;
+
+                    i[data-lucide] {
+                        width: 36px;
+                        height: 36px;
+                        color: var(--accent);
+                        opacity: .6;
+                    }
+
+                    span {
+                        font-size: 11px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+
+        /* ── FOOTER ────────────────────────────────────────────────────── */
+        footer {
+            background: var(--heading);
+            color: rgba(255,255,255,.65);
+            padding-block: 60px 32px;
+
+            .footer-grid {
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr 1fr;
+                gap: 48px;
+                margin-bottom: 52px;
+
+                @media (max-width: 860px) {
+                    grid-template-columns: 1fr 1fr;
+                }
+
+                @media (max-width: 540px) {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            .footer-brand {
+                .logo-name {
+                    font-family: var(--font-serif);
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: var(--white);
+                    display: block;
+                    margin-bottom: 4px;
+                }
+
+                .logo-sub {
+                    font-size: 10px;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    color: rgba(255,255,255,.4);
+                    display: block;
+                    margin-bottom: 18px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 1.65;
+                    color: rgba(255,255,255,.55);
+                    max-width: 260px;
+                }
+            }
+
+            .footer-col {
+                h4 {
+                    font-family: var(--font-serif);
+                    font-size: 11px;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: rgba(255,255,255,.4);
+                    margin-bottom: 18px;
+                }
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        margin-bottom: 10px;
+
+                        a {
+                            font-size: 14px;
+                            color: rgba(255,255,255,.65);
+                            text-decoration: none;
+                            transition: color .3s;
+
+                            &:hover {
+                                color: var(--white);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer-bottom {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 28px;
+                border-top: 1px solid rgba(255,255,255,.1);
+                gap: 16px;
+                flex-wrap: wrap;
+
+                p {
+                    font-size: 12px;
+                    color: rgba(255,255,255,.35);
+                }
+
+                .footer-socials {
+                    display: flex;
+                    gap: 16px;
+
+                    a {
+                        color: rgba(255,255,255,.35);
+                        transition: color .3s;
+
+                        i[data-lucide] {
+                            width: 16px;
+                            height: 16px;
+                        }
+
+                        &:hover {
+                            color: rgba(255,255,255,.8);
+                        }
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#" class="nav-logo">
+                    <span class="logo-name">Maison Florale</span>
+                    <span class="logo-sub">Boutique Hotel · Est. 1904</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#amenities">Amenities</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#">Restaurant</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#" class="btn btn-primary">Reserve</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <span class="eyebrow">Art Nouveau Heritage · Brussels</span>
+                    <h1>Where Line<br>Meets <em>Living</em></h1>
+                    <p>A house of sinuous forms and deliberate beauty. Nineteen rooms inside a landmarked 1904 residence — each one a quiet study in the craft that shaped a century.</p>
+                    <div class="hero-actions">
+                        <a href="#rooms" class="btn btn-primary">
+                            <i data-lucide="bed-double"></i>
+                            Explore Rooms
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i data-lucide="calendar"></i>
+                            Check Availability
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-value">19</span>
+                            <span class="stat-label">Rooms</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">1904</span>
+                            <span class="stat-label">Est.</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">9.2</span>
+                            <span class="stat-label">Guest Score</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrap">
+                    <div class="inner">
+                        <img
+                            src="/assets/imgs/art-and-design-movements/art-nouveau/nouveau-interior-flowing-doorframe.jpg"
+                            alt="Interior of an Art Nouveau room — a curved wooden doorframe flows seamlessly into the wall molding, which becomes a ceiling ornament. The same sinuous line runs through the door handle, the light fixture, and the mosaic floor. Warm ambient light, wide angle, interior architecture photography, photorealistic."
+                            width="1024"
+                            height="768"
+                            loading="lazy"
+                        >
+                        <div class="image-caption">
+                            <span>Grand Salon — Main Floor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING BAR -->
+    <section class="booking-bar">
+        <div class="container">
+            <div class="inner">
+                <div class="field-group">
+                    <div class="field">
+                        <label for="checkin">Arrival</label>
+                        <input type="date" id="checkin" name="checkin">
+                    </div>
+                    <div class="field-divider"></div>
+                    <div class="field">
+                        <label for="checkout">Departure</label>
+                        <input type="date" id="checkout" name="checkout">
+                    </div>
+                    <div class="field-divider"></div>
+                    <div class="field">
+                        <label for="guests">Guests</label>
+                        <select id="guests" name="guests">
+                            <option>1 Guest</option>
+                            <option selected>2 Guests</option>
+                            <option>3 Guests</option>
+                            <option>4 Guests</option>
+                        </select>
+                    </div>
+                    <div class="field-divider"></div>
+                    <div class="field">
+                        <label for="room-type">Room Type</label>
+                        <select id="room-type" name="room-type">
+                            <option selected>Any Room</option>
+                            <option>Standard</option>
+                            <option>Deluxe</option>
+                            <option>Suite</option>
+                        </select>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-primary">
+                    <i data-lucide="search"></i>
+                    Search
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ORNAMENT -->
+    <div class="ornament-divider" aria-hidden="true">· · ·</div>
+
+    <!-- AMENITIES -->
+    <section class="amenities" id="amenities">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">The House Offers</span>
+                <h2>Crafted for Lingering</h2>
+                <p>Every amenity chosen not for abundance, but for harmony with the house's character and its unhurried pace.</p>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <div class="inner">
+                        <div class="amenity-icon"><i data-lucide="utensils"></i></div>
+                        <h3>Garden Restaurant</h3>
+                        <p>Seasonal menus composed around the rhythms of the Ardennes larder. Breakfast is unhurried; dinner is an event.</p>
+                    </div>
+                </div>
+                <div class="amenity-card">
+                    <div class="inner">
+                        <div class="amenity-icon"><i data-lucide="wine"></i></div>
+                        <h3>Cellar Bar</h3>
+                        <p>Natural wines, Belgian lambic, and small-batch spirits in a vaulted space unchanged since 1908.</p>
+                    </div>
+                </div>
+                <div class="amenity-card">
+                    <div class="inner">
+                        <div class="amenity-icon"><i data-lucide="sparkles"></i></div>
+                        <h3>Spa & Hammam</h3>
+                        <p>A discreet retreat on the lower ground floor. Botanical treatments, steam room, and private soaking tubs.</p>
+                    </div>
+                </div>
+                <div class="amenity-card">
+                    <div class="inner">
+                        <div class="amenity-icon"><i data-lucide="library"></i></div>
+                        <h3>Reading Library</h3>
+                        <p>Curated shelves of design history, literature, and illustrated tomes. Open to guests around the clock.</p>
+                    </div>
+                </div>
+                <div class="amenity-card">
+                    <div class="inner">
+                        <div class="amenity-icon"><i data-lucide="bike"></i></div>
+                        <h3>Cycle Hire</h3>
+                        <p>Restored Gazelle city bikes for exploring the neighbourhood, the parks, and the canal paths beyond.</p>
+                    </div>
+                </div>
+                <div class="amenity-card">
+                    <div class="inner">
+                        <div class="amenity-icon"><i data-lucide="coffee"></i></div>
+                        <h3>Morning Ritual</h3>
+                        <p>Hand-poured single-origin coffee and fresh viennoiseries delivered to your room — no dining room required.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ORNAMENT -->
+    <div class="ornament-divider" aria-hidden="true">· · ·</div>
+
+    <!-- ROOMS -->
+    <section class="rooms" id="rooms">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <span class="eyebrow">Accommodation</span>
+                    <h2>Nineteen Rooms,<br>Each Its Own World</h2>
+                </div>
+                <a href="#" class="btn btn-secondary">All Rooms</a>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <div class="inner">
+                        <div class="room-thumb">
+                            <div class="room-badge">Standard</div>
+                            <div class="room-thumb-placeholder">
+                                <i data-lucide="image"></i>
+                            </div>
+                        </div>
+                        <div class="room-body">
+                            <div class="room-meta">
+                                <span class="meta-item"><i data-lucide="maximize-2"></i> 22 m²</span>
+                                <span class="meta-item"><i data-lucide="users"></i> 2 guests</span>
+                            </div>
+                            <h3>Chambre Lierre</h3>
+                            <p>Street-facing, second floor. Original parquet, pressed linen, and a brass bed forged to the house's own pattern.</p>
+                            <div class="room-footer">
+                                <div class="room-price">
+                                    <div class="price-amount">€195</div>
+                                    <div class="price-unit">per night</div>
+                                </div>
+                                <a href="#" class="btn btn-secondary">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="inner">
+                        <div class="room-thumb">
+                            <div class="room-badge">Deluxe</div>
+                            <div class="room-thumb-placeholder">
+                                <i data-lucide="image"></i>
+                            </div>
+                        </div>
+                        <div class="room-body">
+                            <div class="room-meta">
+                                <span class="meta-item"><i data-lucide="maximize-2"></i> 34 m²</span>
+                                <span class="meta-item"><i data-lucide="users"></i> 2 guests</span>
+                            </div>
+                            <h3>Chambre Muguet</h3>
+                            <p>Garden-facing on the first floor. A bay window seat overlooking the courtyard, clawfoot bath, and William Morris wallcovering.</p>
+                            <div class="room-footer">
+                                <div class="room-price">
+                                    <div class="price-amount">€285</div>
+                                    <div class="price-unit">per night</div>
+                                </div>
+                                <a href="#" class="btn btn-secondary">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="inner">
+                        <div class="room-thumb">
+                            <div class="room-badge">Suite</div>
+                            <div class="room-thumb-placeholder">
+                                <i data-lucide="image"></i>
+                            </div>
+                        </div>
+                        <div class="room-body">
+                            <div class="room-meta">
+                                <span class="meta-item"><i data-lucide="maximize-2"></i> 58 m²</span>
+                                <span class="meta-item"><i data-lucide="users"></i> 2–3 guests</span>
+                            </div>
+                            <h3>Suite Horta</h3>
+                            <p>The corner suite. Named for the architect whose hand shaped this district. A sitting room, dressing room, and original stained glass intact.</p>
+                            <div class="room-footer">
+                                <div class="room-price">
+                                    <div class="price-amount">€420</div>
+                                    <div class="price-unit">per night</div>
+                                </div>
+                                <a href="#" class="btn btn-secondary">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PULL QUOTE -->
+    <section class="experience">
+        <div class="container">
+            <div class="inner">
+                <span class="quote-mark" aria-hidden="true">"</span>
+                <blockquote>
+                    There are no right angles here — only lines that begin somewhere and find their way, inevitably, to something beautiful.
+                </blockquote>
+                <cite>Guest Journal — Room 7, October 2024</cite>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="location-section" id="location">
+        <div class="container">
+            <div class="location-inner">
+                <div class="location-content">
+                    <span class="eyebrow">Getting Here</span>
+                    <h2>Ixelles, Brussels</h2>
+                    <p>Set in the quietly prosperous streets of Ixelles — ten minutes from the Grand-Place, five from the Horta Museum, and a short walk from the finest Nouveau buildings in private hands.</p>
+                    <ul class="location-list">
+                        <li>
+                            <i data-lucide="train"></i>
+                            <span><strong>Brussels-Central</strong> — 12 min by tram</span>
+                        </li>
+                        <li>
+                            <i data-lucide="plane"></i>
+                            <span><strong>Brussels Airport</strong> — 35 min by train</span>
+                        </li>
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span><strong>Horta Museum</strong> — 7 min on foot</span>
+                        </li>
+                        <li>
+                            <i data-lucide="building-2"></i>
+                            <span><strong>Palais Royal</strong> — 15 min on foot</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">
+                        <i data-lucide="map"></i>
+                        View on Map
+                    </a>
+                </div>
+                <div class="location-map-placeholder">
+                    <div class="inner">
+                        <i data-lucide="map-pin"></i>
+                        <span>Interactive Map</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-name">Maison Florale</span>
+                    <span class="logo-sub">Boutique Hotel · Est. 1904</span>
+                    <p>A landmarked Art Nouveau residence reimagined as nineteen rooms for those who value beauty over novelty.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Hotel</h4>
+                    <ul>
+                        <li><a href="#">Rooms & Suites</a></li>
+                        <li><a href="#">Restaurant</a></li>
+                        <li><a href="#">Cellar Bar</a></li>
+                        <li><a href="#">Spa</a></li>
+                        <li><a href="#">Meetings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#">The House</a></li>
+                        <li><a href="#">Neighbourhood</a></li>
+                        <li><a href="#">Art Nouveau Trail</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Stay in Touch</h4>
+                    <ul>
+                        <li><a href="#">reservations@maisonflorale.be</a></li>
+                        <li><a href="#">+32 2 000 00 00</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Maison Florale. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="Pinterest"><i data-lucide="pin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // Subtle nav shadow on scroll
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            nav.style.boxShadow = window.scrollY > 8
+                ? '0 2px 16px rgba(45,42,36,.08)'
+                : 'none';
+        }, { passive: true });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ladybug ♡ daily</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --pink-bg:      #fff0f5;
+            --pink-primary: #ff69b4;
+            --pink-dark:    #e0458f;
+            --pink-light:   #ffb3d9;
+            --pink-pale:    #ffe4f0;
+            --heading:      #4a2040;
+            --body-text:    #8a6a7a;
+            --white:        #ffffff;
+            --r-panel:      24px;
+            --r-pill:       50px;
+            --t:            .3s ease;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Fredoka', sans-serif;
+            background-color: var(--pink-bg);
+            background-image: radial-gradient(circle, #ff69b420 1.5px, transparent 1.5px);
+            background-size: 22px 22px;
+            color: var(--body-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 24px 16px 56px;
+        }
+
+        /* ── App shell ── */
+        .app {
+            width: 100%;
+            max-width: 400px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ── Screens ── */
+        .screen {
+            display: none;
+
+            &.active {
+                display: block;
+                animation: rise .3s ease both;
+            }
+        }
+
+        @keyframes rise {
+            from { opacity: 0; transform: translateY(14px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ── Panel ── */
+        .inner {
+            background: var(--white);
+            border: 2px solid var(--pink-primary);
+            border-radius: var(--r-panel);
+            padding: 32px 28px;
+        }
+
+        /* ── Type scale ── */
+        .eyebrow {
+            font-weight: 500;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--pink-primary);
+            margin-bottom: 8px;
+        }
+
+        h1, h2 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 1.3;
+            color: var(--heading);
+            margin-bottom: 8px;
+        }
+
+        p.body {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--body-text);
+        }
+
+        .divider {
+            height: 1px;
+            background: var(--pink-pale);
+            margin: 20px 0;
+        }
+
+        /* ── Buttons ── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            height: 50px;
+            padding: 0 28px;
+            border-radius: var(--r-pill);
+            border: none;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all var(--t);
+            text-decoration: none;
+
+            i {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+            }
+
+            &.btn-primary {
+                background: var(--pink-primary);
+                color: var(--white);
+
+                &:hover:not(:disabled) {
+                    background: var(--pink-dark);
+                    transform: translateY(-2px);
+                    box-shadow: 0 8px 24px #ff69b440;
+                }
+
+                &:active:not(:disabled) {
+                    transform: translateY(0);
+                    box-shadow: none;
+                }
+
+                &:disabled {
+                    opacity: .45;
+                    cursor: not-allowed;
+                }
+            }
+
+            &.btn-secondary {
+                background: transparent;
+                color: var(--pink-primary);
+                border: 2px solid var(--pink-primary);
+
+                &:hover {
+                    background: var(--pink-pale);
+                }
+            }
+
+            &.btn-full {
+                width: 100%;
+            }
+
+            &.btn-cta {
+                font-size: 16px;
+                letter-spacing: .5px;
+            }
+        }
+
+        /* ── Header ── */
+        .app-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            .logo {
+                font-weight: 600;
+                font-size: 18px;
+                color: var(--heading);
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                /* Inline mini ladybug */
+                .lb-logo {
+                    position: relative;
+                    display: inline-block;
+                    width: 22px;
+                    height: 20px;
+                    vertical-align: middle;
+
+                    .lbl-body {
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 20px;
+                        height: 13px;
+                        background: #e83030;
+                        border-radius: 50% 50% 44% 44%;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: 1.5px;
+                            height: 100%;
+                            background: #1a0a0a;
+                        }
+                    }
+
+                    .lbl-head {
+                        position: absolute;
+                        top: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 12px;
+                        height: 9px;
+                        background: #1a0a0a;
+                        border-radius: 50% 50% 40% 40%;
+                        z-index: 1;
+                    }
+                }
+            }
+
+            .icon-btn {
+                width: 38px;
+                height: 38px;
+                background: var(--white);
+                border: 2px solid var(--pink-pale);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: border-color var(--t);
+
+                i {
+                    width: 16px;
+                    height: 16px;
+                    color: var(--pink-primary);
+                }
+
+                &:hover {
+                    border-color: var(--pink-primary);
+                }
+            }
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--body-text);
+            font-family: 'Fredoka', sans-serif;
+            font-size: 13px;
+            padding: 4px 0;
+            transition: color var(--t);
+
+            i { width: 14px; height: 14px; }
+
+            &:hover { color: var(--pink-primary); }
+        }
+
+        /* ── Progress ── */
+        .progress-bar {
+            height: 4px;
+            background: var(--pink-pale);
+            border-radius: 2px;
+            margin-bottom: 28px;
+            overflow: hidden;
+
+            .fill {
+                height: 100%;
+                background: var(--pink-primary);
+                border-radius: 2px;
+                transition: width var(--t);
+            }
+        }
+
+        /* ── Ladybug illustration ── */
+        .ladybug-wrap {
+            display: flex;
+            justify-content: center;
+            margin: 8px 0 28px;
+        }
+
+        .ladybug {
+            position: relative;
+            width: 96px;
+            height: 92px;
+            animation: lb-float 3.2s ease-in-out infinite;
+
+            /* Antennae */
+            .lb-ant {
+                position: absolute;
+                top: 3px;
+                width: 2px;
+                height: 22px;
+                background: #1a0a0a;
+                border-radius: 1px;
+                z-index: 5;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: -7px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 9px;
+                    height: 9px;
+                    background: var(--pink-primary);
+                    border-radius: 50%;
+                    box-shadow: 0 0 0 2px var(--white);
+                }
+
+                &.ant-l {
+                    left: 27px;
+                    transform: rotate(-28deg);
+                    transform-origin: bottom center;
+                }
+
+                &.ant-r {
+                    right: 27px;
+                    transform: rotate(28deg);
+                    transform-origin: bottom center;
+                }
+            }
+
+            /* Head */
+            .lb-head {
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 38px;
+                height: 30px;
+                background: #1a0a0a;
+                border-radius: 52% 52% 42% 42%;
+                z-index: 4;
+
+                /* Eyes */
+                .lb-eye {
+                    position: absolute;
+                    bottom: 6px;
+                    width: 10px;
+                    height: 10px;
+                    background: var(--white);
+                    border-radius: 50%;
+
+                    &.eye-l { left: 4px; }
+                    &.eye-r { right: 4px; }
+
+                    /* Pupil */
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: 2px;
+                        right: 2px;
+                        width: 4px;
+                        height: 4px;
+                        background: #1a0a0a;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            /* Body */
+            .lb-body {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 82px;
+                height: 66px;
+                background: #e83030;
+                border-radius: 50% 50% 44% 44%;
+                z-index: 1;
+
+                /* Wing highlight */
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 9px;
+                    left: 11px;
+                    width: 20px;
+                    height: 11px;
+                    background: rgba(255, 255, 255, .22);
+                    border-radius: 50%;
+                    transform: rotate(-18deg);
+                }
+
+                .lb-line {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 2.5px;
+                    height: 100%;
+                    background: #1a0a0a;
+                    z-index: 2;
+                }
+            }
+
+            /* Spots */
+            .lb-spot {
+                position: absolute;
+                background: #1a0a0a;
+                border-radius: 50%;
+                z-index: 3;
+
+                &.sp-1 { width: 15px; height: 15px; bottom: 40px; left:  8px; }
+                &.sp-2 { width: 15px; height: 15px; bottom: 40px; right:  8px; }
+                &.sp-3 { width: 12px; height: 12px; bottom: 18px; left: 13px; }
+                &.sp-4 { width: 12px; height: 12px; bottom: 18px; right: 13px; }
+                &.sp-5 { width:  9px; height:  9px; bottom: 56px; left: 22px; }
+                &.sp-6 { width:  9px; height:  9px; bottom: 56px; right: 22px; }
+            }
+
+            /* Cheeks */
+            .lb-cheek {
+                position: absolute;
+                bottom: 44px;
+                width: 12px;
+                height: 7px;
+                background: #ff8080;
+                border-radius: 50%;
+                opacity: .6;
+                z-index: 4;
+
+                &.ch-l { left: 10px; }
+                &.ch-r { right: 10px; }
+            }
+        }
+
+        @keyframes lb-float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            35%       { transform: translateY(-9px) rotate(-3deg); }
+            65%       { transform: translateY(-4px) rotate(2deg); }
+        }
+
+        /* ── Streak bar ── */
+        .streak-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--pink-pale);
+            border-radius: 18px;
+            padding: 14px 18px;
+            margin-bottom: 20px;
+
+            .streak-left {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                .streak-icon {
+                    width: 40px;
+                    height: 40px;
+                    background: var(--pink-primary);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    i { color: var(--white); width: 18px; height: 18px; }
+                }
+
+                .streak-text {
+                    .s-num {
+                        font-weight: 600;
+                        font-size: 24px;
+                        color: var(--heading);
+                        line-height: 1;
+                    }
+
+                    .s-lbl {
+                        font-size: 11px;
+                        color: var(--body-text);
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+
+            .streak-dots {
+                display: flex;
+                gap: 5px;
+
+                .dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: var(--pink-light);
+                    transition: background var(--t);
+
+                    &.on { background: var(--pink-primary); }
+                }
+            }
+        }
+
+        /* ── Mood grid ── */
+        .mood-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin: 22px 0 20px;
+
+            .mood-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+                padding: 12px 4px 10px;
+                background: var(--pink-pale);
+                border: 2px solid transparent;
+                border-radius: 16px;
+                cursor: pointer;
+                transition: all var(--t);
+                user-select: none;
+
+                .mood-emoji {
+                    font-size: 26px;
+                    line-height: 1;
+                }
+
+                .mood-label {
+                    font-size: 10px;
+                    font-weight: 500;
+                    color: var(--body-text);
+                    text-align: center;
+                }
+
+                &:hover {
+                    border-color: var(--pink-light);
+                    transform: translateY(-3px);
+                }
+
+                &.selected {
+                    border-color: var(--pink-primary);
+                    background: #fff0f5;
+                    transform: translateY(-5px);
+                    box-shadow: 0 8px 20px #ff69b435;
+                }
+            }
+        }
+
+        /* ── Tag chips ── */
+        .tags-label {
+            font-weight: 500;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--pink-primary);
+            margin-bottom: 10px;
+        }
+
+        .tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 22px;
+
+            .tag {
+                background: var(--pink-pale);
+                color: var(--pink-primary);
+                border: 2px solid transparent;
+                border-radius: 20px;
+                padding: 5px 14px;
+                font-size: 12px;
+                font-weight: 500;
+                font-family: 'Fredoka', sans-serif;
+                cursor: pointer;
+                transition: all var(--t);
+
+                &:hover, &.on {
+                    border-color: var(--pink-primary);
+                    background: #fff0f5;
+                }
+            }
+        }
+
+        /* ── Gratitude inputs ── */
+        .gratitude-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 22px 0;
+
+            .g-item {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .g-num {
+                    width: 28px;
+                    height: 28px;
+                    flex-shrink: 0;
+                    background: var(--pink-primary);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: var(--white);
+                }
+
+                input {
+                    flex: 1;
+                    border: 2px solid var(--pink-pale);
+                    border-radius: 14px;
+                    padding: 11px 16px;
+                    font-family: 'Fredoka', sans-serif;
+                    font-size: 14px;
+                    color: var(--heading);
+                    background: var(--white);
+                    outline: none;
+                    transition: border-color var(--t);
+
+                    &::placeholder { color: var(--pink-light); }
+                    &:focus { border-color: var(--pink-primary); }
+                }
+            }
+        }
+
+        /* ── Tip card ── */
+        .tip-card {
+            background: var(--pink-pale);
+            border-radius: 16px;
+            padding: 14px 16px;
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            align-items: flex-start;
+
+            .tip-icon { flex-shrink: 0; i { width: 16px; height: 16px; color: var(--pink-primary); } }
+
+            p {
+                font-size: 13px;
+                font-style: italic;
+                color: var(--body-text);
+                line-height: 1.5;
+            }
+        }
+
+        /* ── Success ring ── */
+        .success-ring {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 22px;
+
+            .ring-outer {
+                width: 82px;
+                height: 82px;
+                background: var(--pink-pale);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: pop .35s cubic-bezier(.175, .885, .32, 1.275) both;
+
+                .ring-inner {
+                    width: 60px;
+                    height: 60px;
+                    background: var(--pink-primary);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    i { color: var(--white); width: 26px; height: 26px; }
+                }
+            }
+        }
+
+        @keyframes pop {
+            from { transform: scale(0); opacity: 0; }
+            to   { transform: scale(1); opacity: 1; }
+        }
+
+        /* ── Week grid ── */
+        .week-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 6px;
+            margin: 18px 0;
+
+            .week-day {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+
+                .day-lbl {
+                    font-size: 10px;
+                    color: var(--body-text);
+                    text-transform: uppercase;
+                    letter-spacing: .3px;
+                }
+
+                .day-dot {
+                    width: 34px;
+                    height: 34px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 15px;
+                    background: var(--pink-pale);
+
+                    &.m1 { background: #ffd0d0; }
+                    &.m2 { background: #fde0ea; }
+                    &.m3 { background: #fff0c0; }
+                    &.m4 { background: #d0f0e4; }
+                    &.m5 { background: #d0e4ff; }
+                    &.today {
+                        border: 2.5px solid var(--pink-primary);
+                        box-shadow: 0 0 0 3px #ff69b420;
+                    }
+                    &.empty { opacity: .3; }
+                }
+            }
+        }
+
+        /* ── Stats row ── */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 16px 0;
+
+            .stat-card {
+                background: var(--pink-pale);
+                border-radius: 16px;
+                padding: 14px 10px;
+                text-align: center;
+
+                .sv {
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: var(--heading);
+                    line-height: 1;
+                    margin-bottom: 4px;
+                }
+
+                .sl {
+                    font-size: 10px;
+                    color: var(--body-text);
+                    text-transform: uppercase;
+                    letter-spacing: .5px;
+                }
+            }
+        }
+
+        /* ── Gratitude highlights ── */
+        .g-highlights {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 14px;
+
+            .g-hi {
+                background: var(--pink-pale);
+                border-radius: 14px;
+                padding: 11px 16px;
+                font-size: 13px;
+                color: var(--body-text);
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .g-hi-dot {
+                    width: 6px;
+                    height: 6px;
+                    flex-shrink: 0;
+                    background: var(--pink-primary);
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        /* ── Nav dots ── */
+        .nav-dots {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 22px;
+
+            .nav-dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: var(--pink-light);
+                transition: all var(--t);
+
+                &.active {
+                    width: 22px;
+                    border-radius: 4px;
+                    background: var(--pink-primary);
+                }
+            }
+        }
+
+        /* ── Floating decorations ── */
+        .floaties {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 0;
+
+            .floatie {
+                position: absolute;
+                color: var(--pink-primary);
+                opacity: .12;
+                animation: drift 6s ease-in-out infinite;
+
+                &:nth-child(1)  { top:  8%; left:  5%; font-size: 22px; animation-delay:   0s; }
+                &:nth-child(2)  { top: 18%; right:  7%; font-size: 16px; animation-delay: 1.3s; }
+                &:nth-child(3)  { top: 54%; left:  4%; font-size: 14px; animation-delay: 2.1s; }
+                &:nth-child(4)  { top: 72%; right:  5%; font-size: 24px; animation-delay:  .6s; }
+                &:nth-child(5)  { top: 40%; left: 13%; font-size: 18px; animation-delay:  3s; }
+                &:nth-child(6)  { top: 30%; right:  3%; font-size: 20px; animation-delay: 1.8s; }
+                &:nth-child(7)  { top: 85%; left: 18%; font-size: 13px; animation-delay:  .3s; }
+                &:nth-child(8)  { top: 63%; right: 14%; font-size: 15px; animation-delay: 2.6s; }
+                &:nth-child(9)  { top: 25%; left: 22%; font-size: 11px; animation-delay:  .9s; }
+                &:nth-child(10) { top: 92%; right: 22%; font-size: 18px; animation-delay: 3.5s; }
+            }
+        }
+
+        @keyframes drift {
+            0%, 100% { transform: translateY(0) rotate(0deg)  scale(1); }
+            38%       { transform: translateY(-13px) rotate(7deg) scale(1.06); }
+            70%       { transform: translateY(-5px) rotate(-4deg) scale(.97); }
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 480px) {
+            body { padding: 16px 12px 40px; }
+            .inner { padding: 24px 18px; }
+            h1, h2 { font-size: 21px; }
+        }
+
+        /* ── Dark mode ── */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --pink-bg:    #190813;
+                --pink-pale:  #2e1020;
+                --pink-light: #7a3060;
+                --heading:    #f8d5e8;
+                --body-text:  #c09ab0;
+                --white:      #231018;
+            }
+
+            body {
+                background-image: radial-gradient(circle, #ff69b414 1.5px, transparent 1.5px);
+            }
+
+            .inner { border-color: #d43f88; }
+
+            .lb-body { background: #c82020; }
+
+            .lbl-body { background: #c82020 !important; }
+
+            .btn.btn-primary { color: #fff; }
+
+            .floaties .floatie { opacity: .07; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="floaties" aria-hidden="true">
+        <span class="floatie">♡</span>
+        <span class="floatie">✦</span>
+        <span class="floatie">♡</span>
+        <span class="floatie">✿</span>
+        <span class="floatie">˚</span>
+        <span class="floatie">♡</span>
+        <span class="floatie">✦</span>
+        <span class="floatie">˚</span>
+        <span class="floatie">✦</span>
+        <span class="floatie">♡</span>
+    </div>
+
+    <div class="app">
+
+        <!-- ══════════════════════════════
+             SCREEN 1 — Home
+        ══════════════════════════════ -->
+        <div class="screen active" id="s-home">
+
+            <header class="app-header">
+                <div class="logo">
+                    <span class="lb-logo" aria-hidden="true">
+                        <span class="lbl-body"></span>
+                        <span class="lbl-head"></span>
+                    </span>
+                    ladybug ♡
+                </div>
+                <button class="icon-btn" aria-label="Settings">
+                    <i data-lucide="settings"></i>
+                </button>
+            </header>
+
+            <div class="inner">
+
+                <div class="ladybug-wrap">
+                    <div class="ladybug" role="img" aria-label="Cute ladybug mascot">
+                        <div class="lb-ant ant-l"></div>
+                        <div class="lb-ant ant-r"></div>
+                        <div class="lb-head">
+                            <div class="lb-eye eye-l"></div>
+                            <div class="lb-eye eye-r"></div>
+                        </div>
+                        <div class="lb-body">
+                            <div class="lb-line"></div>
+                        </div>
+                        <div class="lb-spot sp-1"></div>
+                        <div class="lb-spot sp-2"></div>
+                        <div class="lb-spot sp-3"></div>
+                        <div class="lb-spot sp-4"></div>
+                        <div class="lb-spot sp-5"></div>
+                        <div class="lb-spot sp-6"></div>
+                        <div class="lb-cheek ch-l"></div>
+                        <div class="lb-cheek ch-r"></div>
+                    </div>
+                </div>
+
+                <p class="eyebrow">good morning ✦</p>
+                <h1>How's your heart today?</h1>
+                <p class="body">Your ladybug is here for you. Take one tiny moment — it only takes a minute, and you deserve it ♡</p>
+
+                <div class="divider"></div>
+
+                <div class="streak-bar">
+                    <div class="streak-left">
+                        <div class="streak-icon">
+                            <i data-lucide="flame"></i>
+                        </div>
+                        <div class="streak-text">
+                            <div class="s-num" id="home-streak">7</div>
+                            <div class="s-lbl">day streak</div>
+                        </div>
+                    </div>
+                    <div class="streak-dots" id="home-dots"></div>
+                </div>
+
+                <button class="btn btn-primary btn-full btn-cta" onclick="go('s-mood')">
+                    I'm okay ♡
+                </button>
+
+                <button class="btn btn-secondary btn-full" onclick="go('s-reflection')" style="margin-top: 10px;">
+                    <i data-lucide="calendar-days"></i>
+                    Weekly reflection
+                </button>
+
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════
+             SCREEN 2 — Mood check-in
+        ══════════════════════════════ -->
+        <div class="screen" id="s-mood">
+
+            <header class="app-header">
+                <button class="back-btn" onclick="go('s-home')">
+                    <i data-lucide="arrow-left"></i>
+                    Back
+                </button>
+            </header>
+
+            <div class="inner">
+
+                <div class="progress-bar">
+                    <div class="fill" style="width: 33%"></div>
+                </div>
+
+                <p class="eyebrow">step 1 of 2 ✦</p>
+                <h2>How are you feeling?</h2>
+                <p class="body">No judgment here — every single feeling is welcome ♡</p>
+
+                <div class="mood-grid">
+                    <div class="mood-item" data-mood="1" onclick="pickMood(this)">
+                        <span class="mood-emoji">😞</span>
+                        <span class="mood-label">Rough</span>
+                    </div>
+                    <div class="mood-item" data-mood="2" onclick="pickMood(this)">
+                        <span class="mood-emoji">😔</span>
+                        <span class="mood-label">Low</span>
+                    </div>
+                    <div class="mood-item" data-mood="3" onclick="pickMood(this)">
+                        <span class="mood-emoji">😐</span>
+                        <span class="mood-label">Okay</span>
+                    </div>
+                    <div class="mood-item" data-mood="4" onclick="pickMood(this)">
+                        <span class="mood-emoji">😊</span>
+                        <span class="mood-label">Good</span>
+                    </div>
+                    <div class="mood-item" data-mood="5" onclick="pickMood(this)">
+                        <span class="mood-emoji">🌟</span>
+                        <span class="mood-label">Amazing</span>
+                    </div>
+                </div>
+
+                <p class="tags-label">What's behind it? (optional)</p>
+                <div class="tag-row">
+                    <button class="tag" onclick="toggleTag(this)">anxious</button>
+                    <button class="tag" onclick="toggleTag(this)">tired</button>
+                    <button class="tag" onclick="toggleTag(this)">hopeful</button>
+                    <button class="tag" onclick="toggleTag(this)">stressed</button>
+                    <button class="tag" onclick="toggleTag(this)">grateful</button>
+                    <button class="tag" onclick="toggleTag(this)">lonely</button>
+                    <button class="tag" onclick="toggleTag(this)">excited</button>
+                    <button class="tag" onclick="toggleTag(this)">calm</button>
+                    <button class="tag" onclick="toggleTag(this)">overwhelmed</button>
+                    <button class="tag" onclick="toggleTag(this)">peaceful</button>
+                </div>
+
+                <button class="btn btn-primary btn-full" id="mood-next" onclick="go('s-gratitude')" disabled>
+                    Next
+                    <i data-lucide="arrow-right"></i>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════
+             SCREEN 3 — Gratitude
+        ══════════════════════════════ -->
+        <div class="screen" id="s-gratitude">
+
+            <header class="app-header">
+                <button class="back-btn" onclick="go('s-mood')">
+                    <i data-lucide="arrow-left"></i>
+                    Back
+                </button>
+            </header>
+
+            <div class="inner">
+
+                <div class="progress-bar">
+                    <div class="fill" style="width: 66%"></div>
+                </div>
+
+                <p class="eyebrow">step 2 of 2 ✦</p>
+                <h2>Three tiny sparks of joy ♡</h2>
+                <p class="body">What made you smile today? Even something teeny tiny counts.</p>
+
+                <div class="gratitude-list">
+                    <div class="g-item">
+                        <div class="g-num">1</div>
+                        <input type="text" id="g1" placeholder="e.g. warm coffee this morning…">
+                    </div>
+                    <div class="g-item">
+                        <div class="g-num">2</div>
+                        <input type="text" id="g2" placeholder="e.g. a kind message from a friend…">
+                    </div>
+                    <div class="g-item">
+                        <div class="g-num">3</div>
+                        <input type="text" id="g3" placeholder="e.g. soft sunlight through the window…">
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon"><i data-lucide="heart"></i></div>
+                    <p>"Gratitude turns what we have into enough." You're doing so well ♡</p>
+                </div>
+
+                <button class="btn btn-primary btn-full btn-cta" onclick="finish()">
+                    I'm okay ♡
+                </button>
+
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════
+             SCREEN 4 — Done
+        ══════════════════════════════ -->
+        <div class="screen" id="s-done">
+
+            <div class="inner">
+
+                <div class="success-ring">
+                    <div class="ring-outer">
+                        <div class="ring-inner">
+                            <i data-lucide="check"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="eyebrow" style="text-align: center;">you did it ♡</p>
+                <h2 style="text-align: center;">See you tomorrow, sunshine!</h2>
+                <p class="body" style="text-align: center;">Your ladybug is so proud of you for showing up today ♡</p>
+
+                <div class="divider"></div>
+
+                <p class="eyebrow">This week at a glance</p>
+                <div class="week-grid" id="done-week"></div>
+
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="sv" id="done-streak">8</div>
+                        <div class="sl">Day streak</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="sv" id="done-gratitudes">21</div>
+                        <div class="sl">Gratitudes</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="sv">😊</div>
+                        <div class="sl">Avg. mood</div>
+                    </div>
+                </div>
+
+                <button class="btn btn-secondary btn-full" onclick="go('s-home')">
+                    <i data-lucide="home"></i>
+                    Back to home
+                </button>
+
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════
+             SCREEN 5 — Weekly reflection
+        ══════════════════════════════ -->
+        <div class="screen" id="s-reflection">
+
+            <header class="app-header">
+                <button class="back-btn" onclick="go('s-home')">
+                    <i data-lucide="arrow-left"></i>
+                    Back
+                </button>
+            </header>
+
+            <div class="inner">
+
+                <p class="eyebrow">weekly reflection ✦</p>
+                <h2>Your week in feelings</h2>
+                <p class="body">Look how consistently you've been showing up ♡</p>
+
+                <div class="week-grid" id="refl-week"></div>
+
+                <div class="divider"></div>
+
+                <p class="eyebrow">Gratitude highlights</p>
+                <div class="g-highlights" id="refl-highlights">
+                    <div class="g-hi"><span class="g-hi-dot"></span>warm coffee this morning</div>
+                    <div class="g-hi"><span class="g-hi-dot"></span>a long walk in the park</div>
+                    <div class="g-hi"><span class="g-hi-dot"></span>my cat sitting on my lap</div>
+                    <div class="g-hi"><span class="g-hi-dot"></span>finishing a chapter of my book</div>
+                    <div class="g-hi"><span class="g-hi-dot"></span>a really good night's sleep</div>
+                </div>
+
+                <div class="stats-row" style="margin-top: 20px;">
+                    <div class="stat-card">
+                        <div class="sv" id="refl-streak">7</div>
+                        <div class="sl">Check-ins</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="sv" id="refl-gratitudes">21</div>
+                        <div class="sl">Gratitudes</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="sv">😊</div>
+                        <div class="sl">Avg. mood</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Nav progress dots -->
+        <div class="nav-dots" id="nav-dots" aria-hidden="true">
+            <div class="nav-dot active" data-s="s-home"></div>
+            <div class="nav-dot" data-s="s-mood"></div>
+            <div class="nav-dot" data-s="s-gratitude"></div>
+            <div class="nav-dot" data-s="s-done"></div>
+        </div>
+
+    </div><!-- /.app -->
+
+    <script>
+        /* ── Helpers ── */
+        const $ = (id) => document.getElementById(id);
+        const defaultWeek = () =>
+            [3, 4, 2, 5, 4, 3, null].map(m => ({ mood: m, done: m !== null }));
+
+        /* ── State ── */
+        const state = {
+            streak: parseInt(localStorage.getItem('lb-streak') || '7'),
+            mood: null,
+            gratitudeCount: parseInt(localStorage.getItem('lb-gratitudes') || '18'),
+            weekData: (() => {
+                try {
+                    return JSON.parse(localStorage.getItem('lb-week')) || defaultWeek();
+                } catch { return defaultWeek(); }
+            })(),
+        };
+
+        const DAYS   = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
+        const EMOJIS = { 1: '😞', 2: '😔', 3: '😐', 4: '😊', 5: '🌟' };
+        const NAV    = ['s-home', 's-mood', 's-gratitude', 's-done'];
+
+        /* ── Navigation ── */
+        const go = (id) => {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            $(id).classList.add('active');
+
+            $('nav-dots').style.display = id === 's-reflection' ? 'none' : 'flex';
+            document.querySelectorAll('.nav-dot').forEach(dot =>
+                dot.classList.toggle('active', dot.dataset.s === id)
+            );
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            lucide.createIcons();
+        };
+
+        /* ── Mood selection ── */
+        const pickMood = (el) => {
+            document.querySelectorAll('.mood-item').forEach(m => m.classList.remove('selected'));
+            el.classList.add('selected');
+            state.mood = parseInt(el.dataset.mood);
+            $('mood-next').disabled = false;
+        };
+
+        /* ── Tag toggle ── */
+        const toggleTag = (el) => el.classList.toggle('on');
+
+        /* ── Complete check-in ── */
+        const finish = () => {
+            state.streak += 1;
+            state.gratitudeCount += 3;
+            localStorage.setItem('lb-streak', state.streak);
+            localStorage.setItem('lb-gratitudes', state.gratitudeCount);
+
+            const todayIdx = (new Date().getDay() + 6) % 7;
+            state.weekData[todayIdx] = { mood: state.mood || 4, done: true };
+            localStorage.setItem('lb-week', JSON.stringify(state.weekData));
+
+            $('done-streak').textContent      = state.streak;
+            $('done-gratitudes').textContent  = state.gratitudeCount;
+            $('refl-streak').textContent      = state.streak;
+            $('refl-gratitudes').textContent  = state.gratitudeCount;
+            $('home-streak').textContent      = state.streak;
+
+            renderStreakDots();
+            renderWeek('done-week');
+            renderWeek('refl-week');
+            go('s-done');
+        };
+
+        /* ── Streak dots ── */
+        const renderStreakDots = () => {
+            const filled = state.streak % 7 || 7;
+            $('home-streak').textContent = state.streak;
+            $('home-dots').innerHTML = Array.from({ length: 7 }, (_, i) =>
+                `<div class="dot${i < filled ? ' on' : ''}"></div>`
+            ).join('');
+        };
+
+        /* ── Week grid ── */
+        const renderWeek = (id) => {
+            const el = $(id);
+            if (!el) return;
+
+            const todayIdx = (new Date().getDay() + 6) % 7;
+            el.innerHTML = state.weekData.map(({ mood, done }, i) => {
+                const mClass  = done ? `m${mood}` : 'empty';
+                const tClass  = i === todayIdx ? ' today' : '';
+                const content = done ? EMOJIS[mood] : '·';
+                return `
+                    <div class="week-day">
+                        <span class="day-lbl">${DAYS[i]}</span>
+                        <div class="day-dot ${mClass}${tClass}">${content}</div>
+                    </div>
+                `;
+            }).join('');
+        };
+
+        /* ── Init ── */
+        renderStreakDots();
+        renderWeek('done-week');
+        renderWeek('refl-week');
+        lucide.createIcons();
+    </script>
+
+</body>
+</html>

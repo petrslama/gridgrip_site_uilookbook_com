@@ -437,6 +437,12 @@
 					"a_eyebrow": "System",
 					"family": "Times New Roman",
 					"css": "font-family: 'Times New Roman', Times, serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "IBM Plex Mono",
+					"css": "font-family: 'IBM Plex Mono', monospace; font-weight: 400; font-size: 1rem; line-height: 1.7;"
 				}
 			]
 		},
@@ -599,8 +605,28 @@
 		"start_head_codes": [],
 		"head_codes": [
 			{
-				"note": "Google Fonts",
-				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Comic+Neue:wght@400;700&family=Silkscreen:wght@400;700&family=Space+Mono:wght@400;700&display=swap\">"
+				"note": "Google: Press Start 2P",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap\">"
+			},
+			{
+				"note": "Google: VT323",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=VT323&display=swap\">"
+			},
+			{
+				"note": "Google: Silkscreen",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap\">"
+			},
+			{
+				"note": "Google: Comic Neue",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap\">"
+			},
+			{
+				"note": "Google: Space Mono",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap\">"
+			},
+			{
+				"note": "Google: IBM Plex Mono",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap\">"
 			},
 			{
 				"note": "90s-web-revival",

@@ -15,6 +15,23 @@ Pages are organized into categories (e.g. `retro-and-nostalgia/`, `cultural-and-
 6. `o_use_cases` — ideal use cases list
 7. `o_history` — 3 paragraphs of history
 
+### Theme toggle (header)
+4 modes: Light (sun), Dark (moon), Auto (monitor), Themed/Palette (palette). Stored in `localStorage.theme` as `light` / `dark` / `palette` / removed for auto. Adds class to `<html>`.
+
+### Google Fonts in `head_codes`
+Each page must load **all** Google Fonts referenced in its `o_typography` sections (heading + text fonts) via separate `<link>` tags in `settings.head_codes`. Rules:
+- One `<link>` per font family
+- `"note": "Google: {Font Name}"` prefix to distinguish from other head codes
+- Only load actually used `font-weight` values — check the `css` field in each `o_typography` font entry + the hero CSS for weights used there
+- The `o_typography` component renders fonts via inline `style` but does **not** load them — fonts must be in `head_codes` or they fall back to system fonts
+- System fonts (Georgia, Palatino, etc.) don't need a `<link>`
+
+### Palette mode CSS
+Each per-style CSS file (`assets/styles/{category}/{slug}.css`) ends with a `html.palette body { ... }` block. See template CLAUDE.md for the full structure. Values come from the page's primary color palette + first heading/text fonts. Beyond the standard custom properties, add extra overrides if the default template styling clashes with the style's aesthetic (e.g. `--color_border` with a style-appropriate value, `--bg_surface` contrast, etc.).
+
+### Hero CSS — font usage
+The hero `.a_description` must use the **first text font** (from "Text Fonts" `o_typography` section), not the heading font. Headings, eyebrow, and buttons use the heading font.
+
 ## Card Preview Images
 
 Each style has a card preview image at `assets/styles/{category}/{slug}.jpg` (800x600 JPEG).

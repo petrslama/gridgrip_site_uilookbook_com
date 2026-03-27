@@ -262,11 +262,181 @@
 	}
 }
 
-/* Easter egg: neon glow swatches in dark mode */
-html.dark .o_color_palette .swatch {
-	box-shadow: 0 0 12px var(--hex);
+/* Palette mode */
+html.palette body {
+	--color_primary: #FF2D95;
+	--color_primary-hover: #ff5aad;
+	--color_accent: #00F0FF;
+	--color_text: #E8E0F0;
+	--color_text-muted: #9a90a8;
+	--color_text-inverted: #120025;
+	--color_border: rgba(176, 38, 255, 0.25);
+	--bg_body: #120025;
+	--bg_surface: #1a0a35;
+	--font-heading: "Orbitron", sans-serif;
+	--font-body: "Exo 2", sans-serif;
+	--radius-sm: 0;
+	--radius-md: 0;
+	--radius-lg: 0;
 
-	&:hover {
-		box-shadow: 0 0 24px var(--hex), 0 0 48px var(--hex);
+	/* CRT scanlines — fixed so they cover the full viewport regardless of scroll */
+	&::before {
+		content: "";
+		position: fixed;
+		inset: 0;
+		background: repeating-linear-gradient(
+			0deg,
+			transparent,
+			transparent 2px,
+			rgba(255, 255, 255, 0.012) 2px,
+			rgba(255, 255, 255, 0.012) 4px
+		);
+		pointer-events: none;
+		z-index: 9999;
+	}
+
+	/* ── Header / Footer ─────────────────────────────────────────── */
+
+	.o_header {
+		border-bottom: 1px solid rgba(255, 45, 149, 0.3);
+		box-shadow: 0 1px 20px rgba(255, 45, 149, 0.1);
+	}
+
+	.o_footer {
+		border-top: 1px solid rgba(0, 240, 255, 0.2);
+		box-shadow: 0 -1px 20px rgba(0, 240, 255, 0.08);
+	}
+
+	/* ── Section separators ──────────────────────────────────────── */
+
+	.o_style_guide,
+	.o_faq,
+	.o_typography,
+	.o_color_palette,
+	.o_design_images {
+		border-top: 1px solid rgba(176, 38, 255, 0.15);
+	}
+
+	/* ── Typography ──────────────────────────────────────────────── */
+
+	.a_eyebrow {
+		font-family: "Orbitron", sans-serif;
+		color: #00f0ff;
+		text-shadow:
+			0 0 20px rgba(0, 240, 255, 0.6),
+			0 0 60px rgba(0, 240, 255, 0.2);
+	}
+
+	.a_h2 {
+		font-family: "Orbitron", sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: #fff;
+		text-shadow:
+			0 0 20px rgba(255, 45, 149, 0.7),
+			0 0 60px rgba(255, 45, 149, 0.3),
+			0 0 100px rgba(176, 38, 255, 0.2);
+	}
+
+	.a_h3 {
+		font-family: "Orbitron", sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: #00f0ff;
+		text-shadow:
+			0 0 15px rgba(0, 240, 255, 0.5),
+			0 0 40px rgba(0, 240, 255, 0.2);
+	}
+
+
+	/* ── Images ──────────────────────────────────────────────────── */
+
+	.a_image,
+	.a_image_cover {
+		border: 1px solid rgba(176, 38, 255, 0.3);
+		box-shadow:
+			0 0 20px rgba(176, 38, 255, 0.1),
+			0 0 60px rgba(255, 45, 149, 0.05);
+		transition: box-shadow 0.3s ease, border-color 0.3s ease;
+
+		&:hover {
+			border-color: rgba(176, 38, 255, 0.5);
+			box-shadow:
+				0 0 30px rgba(176, 38, 255, 0.2),
+				0 0 80px rgba(255, 45, 149, 0.1);
+		}
+	}
+
+	/* ── Cards (typography) ──────────────────────────────────────── */
+
+	.o_typography .card {
+		border-color: rgba(176, 38, 255, 0.2);
+		box-shadow: 0 0 12px rgba(176, 38, 255, 0.06);
+		transition: box-shadow 0.3s ease, border-color 0.3s ease;
+
+		&:hover {
+			border-color: rgba(176, 38, 255, 0.4);
+			box-shadow: 0 0 20px rgba(176, 38, 255, 0.12);
+		}
+	}
+
+	/* ── FAQ details ─────────────────────────────────────────────── */
+
+	details {
+		border-color: rgba(176, 38, 255, 0.25);
+		transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+		summary {
+			transition: color 0.3s ease, text-shadow 0.3s ease;
+
+			&:hover {
+				color: #ff2d95;
+				text-shadow: 0 0 15px rgba(255, 45, 149, 0.4);
+			}
+		}
+
+		&[open] {
+			border-color: rgba(255, 45, 149, 0.35);
+			box-shadow: 0 0 20px rgba(255, 45, 149, 0.07);
+		}
+	}
+
+	/* ── Tags ────────────────────────────────────────────────────── */
+
+	.tag {
+		border-color: rgba(0, 240, 255, 0.3);
+		color: #00f0ff;
+		text-shadow: 0 0 8px rgba(0, 240, 255, 0.3);
+	}
+
+	/* ── Color swatches ──────────────────────────────────────────── */
+
+	.o_color_palette .swatch {
+		box-shadow: 0 0 12px var(--hex);
+		transition: box-shadow 0.3s ease;
+
+		&:hover {
+			box-shadow:
+				0 0 24px var(--hex),
+				0 0 48px var(--hex);
+		}
+	}
+
+	/* ── Links ───────────────────────────────────────────────────── */
+
+	a:not([class]) {
+		color: #00F0FF;
+		text-shadow: 0 0 8px rgba(0, 240, 255, 0.3);
+		transition: text-shadow 0.3s ease;
+
+		&:hover {
+			text-shadow: 0 0 16px rgba(0, 240, 255, 0.5);
+		}
+	}
+
+	.a_logo span {
+		background: #E8E0F0;
+		color: #120025;
+		text-shadow: none;
 	}
 }

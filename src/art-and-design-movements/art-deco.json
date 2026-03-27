@@ -19,10 +19,10 @@
 		{
 			"fu_type": "o_hero",
 			"a_image": {
-				"alt": "Art Deco style mood board — Art Movement · 1920s–1930s",
+				"alt": "A woman in a black silk evening gown standing in front of a massive Art Deco sunburst mirror with polished brass rays. She holds a gold cocktail glass, her free hand resting elegantly at her side. Behind her, geometric chevron wallpaper in deep midnight blue and gold. Her hair is finger-waved in a 1920s bob. Dramatic single spotlight from above, deep shadows, the gold mirror catches and scatters warm light across the dark room. Fashion editorial photography, full body shot, photorealistic.",
 				"width": "1024",
 				"height": "768",
-				"src": "/assets/imgs/art-and-design-movements/art-deco/lifestyle.jpg",
+				"src": "/assets/imgs/art-and-design-movements/art-deco/woman-sunburst-mirror.jpg",
 				"loading": "eager"
 			},
 			"a_eyebrow": "Elegant · Geometric · Angular · Sharp · Professional",
@@ -51,39 +51,39 @@
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style use case illustration",
+						"alt": "Grand hotel lobby at night. Black marble floors with gold geometric inlay patterns, tall fluted columns with gilded capitals, a chevron-patterned ceiling with recessed amber lighting. A single velvet armchair in deep emerald green faces a polished brass reception desk. Art Deco sconces cast warm pools of light on cream walls. Cinematic wide shot, shallow depth of field, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/use-cases.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/hotel-lobby-gold-columns.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 1}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "gem",
+					"a_h3": "Luxury & Hospitality",
+					"a_description": "Boutique hotel websites, fine dining restaurants, premium real estate, jewelry brands, high-end event venues, luxury travel agencies"
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style use case illustration",
+						"alt": "Close-up of a perfume bottle on a mirrored tray. The bottle is geometric with faceted glass and a gold cap. Behind it, a fan-shaped Art Deco mirror reflects soft warm light. Dark background, single dramatic side light, shallow depth of field, editorial product photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/use-cases.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/perfume-bottle-gold-fan.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 2}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "briefcase",
+					"a_h3": "Fashion & Beauty",
+					"a_description": "Haute couture lookbooks, perfume and cosmetics brands, fashion editorial sites, styling portfolios, luxury e-commerce, beauty subscription boxes"
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style use case illustration",
+						"alt": "Architect's desk with rolled blueprints, a brass compass, and a fountain pen resting on cream paper with geometric sketches. A small maquette of a skyscraper with stepped setbacks stands to the side. Warm desk lamp light, dark wood surface, overhead shot, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/use-cases.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/architect-desk-blueprints.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Industry/Use Case 3}",
-					"a_description": "{Specific examples, comma-separated}"
+					"a_icon": "building",
+					"a_h3": "Architecture & Design Studios",
+					"a_description": "Interior design portfolios, architecture firms, design agency websites, museum exhibition pages, gallery catalogs, cultural institution microsites"
 				}
 			]
 		},
@@ -95,66 +95,66 @@
 			"items": [
 				{
 					"a_image": {
-						"alt": "Art Deco style UI example",
+						"alt": "Art Deco — design system with color tokens, typography scale, and component library",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/art-and-design-movements/art-deco/example.html",
+						"src": "/assets/gallery/art-and-design-movements/art-deco/art-deco.jpg",
+						"href": "/assets/gallery/art-and-design-movements/art-deco/art-deco.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Design System",
+						"Tokens",
+						"Components",
+						"Typography"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Art Deco style UI example",
+						"alt": "Art Deco — luxury hotel site with gold accents, elegant layout, and reservation flow",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/art-and-design-movements/art-deco/example.html",
+						"src": "/assets/gallery/art-and-design-movements/art-deco/aurelian-hotel.jpg",
+						"href": "/assets/gallery/art-and-design-movements/art-deco/aurelian-hotel.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Hotel",
+						"Luxury",
+						"Hospitality",
+						"Booking"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Art Deco style UI example",
+						"alt": "Art Deco — brand identity page with gold geometric patterns and serif typography",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/art-and-design-movements/art-deco/example.html",
+						"src": "/assets/gallery/art-and-design-movements/art-deco/aurient.jpg",
+						"href": "/assets/gallery/art-and-design-movements/art-deco/aurient.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Brand",
+						"Identity",
+						"Geometric",
+						"Corporate"
 					]
 				},
 				{
 					"a_image": {
-						"alt": "Art Deco style UI example",
+						"alt": "Art Deco — perfume product page with dark palette, gold accents, and editorial layout",
 						"width": "800",
 						"height": "600",
-						"src": "https://placehold.co/800x600",
-						"href": "/assets/gallery/art-and-design-movements/art-deco/example.html",
+						"src": "/assets/gallery/art-and-design-movements/art-deco/elysee-noir.jpg",
+						"href": "/assets/gallery/art-and-design-movements/art-deco/elysee-noir.html",
 						"loading": "lazy"
 					},
 					"tags": [
-						"{Tag 1}",
-						"{Tag 2}",
-						"{Tag 3}",
-						"{Tag 4}"
+						"Product",
+						"Perfume",
+						"Editorial",
+						"E-commerce"
 					]
 				}
 			]
@@ -167,115 +167,115 @@
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style design principle illustration",
+						"alt": "Close-up of a polished brass Art Deco elevator door with sunburst pattern radiating from the center, geometric chevron borders etched into the metal. Dark marble wall surrounds the frame. Single overhead spotlight, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/brass-sunburst-elevator-door.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 1 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "triangle",
+					"a_h3": "Geometric Symmetry",
+					"a_description": "Every element follows a strict geometric grid. Sunbursts, chevrons, and stepped forms create visual rhythm. Layouts are centered and balanced — symmetry communicates order, wealth, and intentional design."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style design principle illustration",
+						"alt": "Gold leaf being applied to a dark surface with a fine brush. The gold catches light against the deep black background, creating stark contrast. Macro photography, shallow depth of field, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/gold-leaf-brush-macro.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 2 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "sun",
+					"a_h3": "Metallic Opulence",
+					"a_description": "Gold, brass, and chrome are signature materials translated into digital accents. Metallic tones against dark backgrounds create depth and luxury. Use sparingly — every gold element should feel earned, not decorative noise."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style design principle illustration",
+						"alt": "The stepped crown of an Art Deco skyscraper at dusk, seen from below. Each tier steps inward with sharp geometric precision. The sky behind is deep indigo, and the building's edges catch the last warm light. Dramatic low angle, architectural photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/deco-skyscraper-crown-dusk.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 3 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "layers",
+					"a_h3": "Vertical Emphasis",
+					"a_description": "Tall, narrow proportions dominate — from skyscraper-inspired layouts to elongated type. Vertical lines draw the eye upward, suggesting aspiration and grandeur. Padding is generous vertically, tight horizontally."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style design principle illustration",
+						"alt": "A hand holding a cream-colored invitation card with embossed gold Art Deco borders and text \"UI Look Book\". The typography is clean, serif, with generous letter-spacing. Dark velvet tablecloth beneath. Soft directional light, studio photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/hand-deco-invitation-card.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 4 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "type",
+					"a_h3": "Elegant Typography",
+					"a_description": "High-contrast serifs and geometric display faces carry the style. Letter-spacing is wide and deliberate, especially in uppercase labels. Headlines command attention through weight and proportion, never through size alone."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style design principle illustration",
+						"alt": "A single Art Deco wall sconce on a dark wall, casting a precise fan-shaped beam of warm light upward. The sconce is frosted glass with brass geometric framing. Minimal composition, dramatic lighting, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/brass-wall-sconce-dark.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 5 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "minus",
+					"a_h3": "Restrained Ornamentation",
+					"a_description": "Decoration exists but is controlled. A single gold line, a subtle border, a chevron divider — each ornament serves a structural purpose. The style rejects clutter; every decorative element earns its place through function or rhythm."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style design principle illustration",
+						"alt": "A dark room with a single spotlight illuminating a geometric Art Deco vase on a marble pedestal. Sharp shadows, deep blacks, the gold-rimmed vase glows against the darkness. Dramatic chiaroscuro lighting, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/principle.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/deco-vase-marble-pedestal.jpg",
 						"loading": "lazy"
 					},
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Principle 6 Name}",
-					"a_description": "{2-3 sentences explaining this design principle.}"
+					"a_icon": "contrast",
+					"a_h3": "High Contrast Drama",
+					"a_description": "Dark backgrounds meet bright metallic accents with almost no middle ground. This extreme contrast creates visual drama and forces hierarchy. Content emerges from shadow — nothing competes for attention because the palette is ruthlessly simple."
 				}
 			]
 		},
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #1",
-			"a_h2": "{Palette Name}",
-			"a_description": "{What this palette represents — the core identity}",
+			"a_h2": "Midnight & Gold",
+			"a_description": "The signature Art Deco palette — deep midnight backgrounds with polished gold accents, evoking the glamour of 1920s luxury",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use: primary action, headlines, etc.}"
+					"a_h3": "Midnight",
+					"hex": "#0a0a14",
+					"a_description": "Page background, dark sections, base canvas"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Deep Panel",
+					"hex": "#0f0f1e",
+					"a_description": "Card surfaces, elevated panels, sidebar backgrounds"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Polished Gold",
+					"hex": "#c5a55a",
+					"a_description": "Primary buttons, accent lines, icons, active states"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Ivory",
+					"hex": "#e8e0d0",
+					"a_description": "Headings, hero titles, high-contrast text"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "Pewter",
+					"hex": "#8a8a9a",
+					"a_description": "Body text, descriptions, secondary labels"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#888888",
-					"a_description": "{Where to use}"
+					"a_h3": "Dim Gold",
+					"hex": "#8a6e30",
+					"a_description": "Hover states, visited links, muted accents"
 				}
 			],
 			"section_id": "color-palettes"
@@ -283,130 +283,118 @@
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #2",
-			"a_h2": "{Palette 2 Name}",
-			"a_description": "{How this differs from palette #1 — darker, lighter, more saturated, etc.}",
+			"a_h2": "Champagne Tower",
+			"a_description": "A lighter, warmer variation — cream and champagne tones on dark charcoal, like candlelight in a marble lobby",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Charcoal",
+					"hex": "#121218",
+					"a_description": "Page background — slightly warmer than midnight"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Onyx Panel",
+					"hex": "#1a1a24",
+					"a_description": "Card surfaces, content panels, form backgrounds"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Champagne",
+					"hex": "#d4b87a",
+					"a_description": "Primary buttons, accent lines, interactive highlights"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Warm Cream",
+					"hex": "#f0e6d0",
+					"a_description": "Headings, hero titles, high-emphasis text"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "Silver Mist",
+					"hex": "#9a96a6",
+					"a_description": "Body text, descriptions, form labels"
 				}
 			],
-			"section_id": "{palette-2-slug}"
+			"section_id": "champagne-tower"
 		},
 		{
 			"fu_type": "o_color_palette",
 			"a_eyebrow": "Color Palette #3",
-			"a_h2": "{Palette 3 Name}",
-			"a_description": "{How this differs — bolder, experimental, etc.}",
+			"a_h2": "Emerald Ballroom",
+			"a_description": "A bolder, jewel-toned take — emerald green replaces gold as the accent, inspired by Art Deco jade and malachite motifs",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"colors": [
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Black Marble",
+					"hex": "#08080e",
+					"a_description": "Page background — near black with cool undertone"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Obsidian",
+					"hex": "#10101c",
+					"a_description": "Card surfaces, panels, elevated content areas"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Emerald",
+					"hex": "#2a9d6a",
+					"a_description": "Primary buttons, accent lines, success states, active elements"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#000000",
-					"a_description": "{Where to use}"
+					"a_h3": "Gold Trim",
+					"hex": "#c5a55a",
+					"a_description": "Secondary accent, borders, decorative lines, eyebrows"
 				},
 				{
-					"a_h3": "{Color Name}",
-					"hex": "#FFFFFF",
-					"a_description": "{Where to use}"
+					"a_h3": "Pale Stone",
+					"hex": "#d8d0c0",
+					"a_description": "Headings, hero titles, high-contrast text"
 				}
 			],
-			"section_id": "{palette-3-slug}"
+			"section_id": "emerald-ballroom"
 		},
 		{
 			"fu_type": "o_typography",
 			"a_eyebrow": "Typography",
 			"a_h2": "Heading Fonts",
-			"a_description": "{What kind of typefaces define this style's headlines.}",
+			"a_description": "Elegant, high-contrast serifs and display faces that echo the geometric precision and vertical emphasis of Art Deco lettering.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"fonts": [
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Playfair Display",
+					"css": "font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Cinzel",
+					"css": "font-family: 'Cinzel', serif; font-weight: 600; font-size: 1.5rem; line-height: 1.15;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Cormorant Garamond",
+					"css": "font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 1.6rem; line-height: 1.15;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Bodoni Moda",
+					"css": "font-family: 'Bodoni Moda', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
+					"family": "Poiret One",
+					"css": "font-family: 'Poiret One', cursive; font-weight: 400; font-size: 1.6rem; line-height: 1.2;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+					"family": "Georgia",
+					"css": "font-family: Georgia, serif; font-weight: 700; font-size: 1.5rem; line-height: 1.15;"
 				}
 			],
 			"section_id": "typography"
@@ -415,39 +403,45 @@
 			"fu_type": "o_typography",
 			"a_eyebrow": "Typography",
 			"a_h2": "Text Fonts",
-			"a_description": "{What kind of typefaces work for body copy in this style.}",
+			"a_description": "Readable, refined body fonts that complement the ornamental headlines — clean enough for long-form content while maintaining the period feel.",
 			"copy_label": "Copy",
 			"copied_label": "Copied!",
 			"fonts": [
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
+					"family": "Cormorant Garamond",
+					"css": "font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "Google",
-					"family": "{Font Name}",
-					"css": "font-family: '{Font Name}', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+					"family": "Lora",
+					"css": "font-family: 'Lora', serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Raleway",
+					"css": "font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.65;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Libre Baskerville",
+					"css": "font-family: 'Libre Baskerville', serif; font-weight: 400; font-size: 0.95rem; line-height: 1.7;"
+				},
+				{
+					"fu_type": "font",
+					"a_eyebrow": "Google",
+					"family": "Josefin Sans",
+					"css": "font-family: 'Josefin Sans', sans-serif; font-weight: 300; font-size: 1rem; line-height: 1.65;"
 				},
 				{
 					"fu_type": "font",
 					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.6;"
-				},
-				{
-					"fu_type": "font",
-					"a_eyebrow": "System",
-					"family": "{Font Name}",
-					"css": "font-family: {Font Name}, serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+					"family": "Palatino",
+					"css": "font-family: Palatino, \"Palatino Linotype\", serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
 				}
 			]
 		},
@@ -459,36 +453,36 @@
 			"items": [
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style history illustration",
+						"alt": "The 1925 Paris Exposition des Arts Décoratifs. A wide shot of the exhibition entrance gate at twilight — geometric concrete towers with stepped crowns, illuminated by warm amber spotlights. Crowds in 1920s attire gather below. Vintage color palette, cinematic wide angle, photorealistic historical recreation.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/history.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/paris-1925-exposition-entrance.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Origins — what era/movement it came from}",
-					"a_description": "{Paragraph about the cultural context and emergence of this style.}"
+					"a_h3": "Born from the Exposition — Paris, 1925",
+					"a_description": "Art Deco crystallized at the 1925 Exposition Internationale des Arts Décoratifs et Industriels Modernes in Paris. The movement emerged as a reaction against the organic curves of Art Nouveau, embracing instead the machine age, geometric abstraction, and the bold confidence of post-World War I modernity. It drew from Cubism, Futurism, ancient Egyptian and Aztec motifs, and the streamlined forms of new technologies — automobiles, ocean liners, and skyscrapers."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style history illustration",
+						"alt": "The Chrysler Building crown at golden hour, seen from a nearby rooftop. Stainless steel arches and triangular windows catch the sunset light, creating geometric patterns of light and shadow. The Manhattan skyline stretches behind. Warm cinematic tones, architectural photography, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/history.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/chrysler-building-golden-hour.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Peak — the defining medium or movement}",
-					"a_description": "{Paragraph about the style's golden age — who shaped it, where it appeared, what made it iconic.}"
+					"a_h3": "The Skyscraper Age — New York, 1930s",
+					"a_description": "Art Deco reached its peak in the late 1920s and 1930s, defining the skylines of New York, Chicago, and Miami. The Chrysler Building (1930) and Empire State Building (1931) became its most iconic monuments — their stepped setbacks, geometric spires, and lavish lobbies embodied the style's fusion of industrial ambition and decorative elegance. The aesthetic spread to every surface: cinema palaces, hotel interiors, jewelry, fashion, poster art, and the emerging field of industrial design."
 				},
 				{
 					"a_image_cover": {
-						"alt": "Art Deco style history illustration",
+						"alt": "A modern laptop on a dark desk showing a website with Art Deco design — gold accents, geometric patterns, serif typography on a dark background. Beside it, a coffee cup with a geometric gold pattern. Soft ambient lighting, present day, clean composition, photorealistic.",
 						"width": "1024",
 						"height": "768",
-						"src": "/assets/imgs/art-and-design-movements/art-deco/history.jpg",
+						"src": "/assets/imgs/art-and-design-movements/art-deco/laptop-deco-website-coffee.jpg",
 						"loading": "lazy"
 					},
-					"a_h3": "{Modern Revival or Legacy}",
-					"a_description": "{Paragraph about how this style is used today — what brands, industries, or movements have adopted it.}"
+					"a_h3": "Digital Revival — 2010s to Present",
+					"a_description": "Art Deco never fully disappeared — it resurfaced with every wave of nostalgia for glamour and geometric precision. The 2013 film The Great Gatsby triggered a major revival, and the style found a natural home in digital design. Luxury brands, hotel websites, and premium SaaS products adopted its dark-and-gold palette, geometric borders, and serif typography. In UI design, Art Deco translates as high-contrast dark themes, metallic accents, generous whitespace, and carefully letterspaced uppercase labels — proving that a century-old aesthetic can feel native to modern screens."
 				}
 			]
 		},
@@ -499,33 +493,33 @@
 			"items": [
 				{
 					"a_icon": "bot",
-					"a_h3": "What AI prompt generates a Art Deco website?",
+					"a_h3": "What AI prompt generates an Art Deco website?",
 					"answer": "The distinctive visual aesthetic of Art Deco — a design approach that creates unique, memorable interfaces. Background: dark (#0a0a14). The .inner panel has a slightly lighter background with subtle border treatment and appropriate border-radius. Colors: #c5a55a as the primary accent for interactive elements and highlights. #e8e0d0 for headings, #8a8a9a for body text. The aesthetic captures the essence of art deco through careful color choices, spacing, and visual weight. Set in Playfair Display — chosen for its visual character that complements this design style. Heading at weight 600-700, 24-28px, line-height 1.2-1.3. Eyebrow at weight 500, 11px, uppercase, 2-3px letter-spacing, color #c5a55a. Body at weight 400, 14-15px, line-height 1.6-1.7, color #8a8a9a. Buttons: primary — #c5a55a background with contrasting text. Secondary: transparent with #c5a55a border. Alternatives: system-ui (universal fallback), serif stack."
 				},
 				{
 					"a_icon": "briefcase",
 					"a_h3": "What industries does Art Deco work best for?",
-					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+					"answer": "Luxury hospitality (boutique hotels, fine dining), fashion and beauty brands, architecture and interior design studios, premium real estate, jewelry, high-end event venues, and cultural institutions like museums or galleries. It also works well for fintech and wealth management products that want to project trust and sophistication. Avoid it for casual consumer apps, children's products, healthcare, or anything that needs to feel approachable and informal — Art Deco communicates exclusivity, which can alienate audiences expecting warmth."
 				},
 				{
 					"a_icon": "swatch-book",
 					"a_h3": "Which color palette should I choose?",
-					"answer": "{Brief description of each palette and when to use it.}"
+					"answer": "Midnight & Gold is the classic choice — the signature dark-and-gold combination works for most Art Deco projects and is immediately recognizable. Choose Champagne Tower when you need slightly warmer, softer tones — it's better for content-heavy pages where pure gold on black might feel too intense. Pick Emerald Ballroom when you want to stand out from the typical gold palette — the jewel-toned emerald accent adds freshness while the gold trim keeps it grounded in the Art Deco tradition."
 				},
 				{
 					"a_icon": "circle-slash",
 					"a_h3": "When should I avoid using the Art Deco style?",
-					"answer": "{Contexts where this style is a poor fit.}"
+					"answer": "Skip Art Deco for anything that needs to feel casual, playful, or accessible to a broad audience. It struggles with mobile-first apps that need large tap targets and simple navigation — the geometric ornamentation loses impact at small sizes. Avoid it for SaaS dashboards with dense data tables, e-commerce with hundreds of products, or any context where users need speed over atmosphere. The dark palette also creates accessibility challenges — ensure sufficient contrast ratios, especially for body text."
 				},
 				{
-					"a_icon": "{lucide-icon}",
-					"a_h3": "{Historical or cultural question about this style}",
-					"answer": "{Answer with cultural/historical context.}"
+					"a_icon": "landmark",
+					"a_h3": "What's the difference between Art Deco and Art Nouveau?",
+					"answer": "Think elves versus dwarves. Art Nouveau (1890s–1910s) is the elven kingdom — organic flowing curves, vines, flowers, everything grown rather than built. Art Deco (1920s–1930s) is the dwarven stronghold — geometric, angular, hammered from metal and stone with machine precision. Where Art Nouveau curves, Art Deco steps. Where Art Nouveau draws from nature, Art Deco draws from industry. In UI design, Art Nouveau translates to flowing illustrations and earthy palettes (Rivendell vibes), while Art Deco becomes sharp geometric borders, metallic accents, and vertical emphasis (straight out of Erebor)."
 				},
 				{
 					"a_icon": "type",
 					"a_h3": "What fonts best capture the Art Deco look?",
-					"answer": "{Detailed typography recommendations with reasoning.}"
+					"answer": "For headlines, use high-contrast serifs or geometric display faces: Playfair Display for elegant contrast, Cinzel for classical authority, Bodoni Moda for sharp high-contrast, or Poiret One for geometric lightness. For body text, pair with Cormorant Garamond (refined serif), Lora (sturdy transitional), or Raleway (clean geometric sans). The key is generous letter-spacing — especially in uppercase eyebrows and labels. Set eyebrows at 2-3px letter-spacing, headings at 0.02em. System fallbacks: Georgia for headings, Palatino for body."
 				}
 			],
 			"section_id": "faq"
@@ -625,8 +619,40 @@
 		"start_head_codes": [],
 		"head_codes": [
 			{
-				"note": "Google Fonts",
-				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap\">"
+				"note": "Google: Playfair Display",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap\">"
+			},
+			{
+				"note": "Google: Cinzel",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap\">"
+			},
+			{
+				"note": "Google: Cormorant Garamond",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap\">"
+			},
+			{
+				"note": "Google: Bodoni Moda",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap\">"
+			},
+			{
+				"note": "Google: Poiret One",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Poiret+One&display=swap\">"
+			},
+			{
+				"note": "Google: Lora",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Lora&display=swap\">"
+			},
+			{
+				"note": "Google: Raleway",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Raleway&display=swap\">"
+			},
+			{
+				"note": "Google: Libre Baskerville",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap\">"
+			},
+			{
+				"note": "Google: Josefin Sans",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap\">"
 			},
 			{
 				"note": "art-deco",

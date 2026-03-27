@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggy 🌸 — Savings Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --pink:        #ff69b4;
+            --pink-dark:   #4a2040;
+            --pink-mid:    #8a6a7a;
+            --pink-bg:     #fff0f5;
+            --pink-light:  #ffe0ef;
+            --pink-pale:   #fff8fb;
+            --white:       #ffffff;
+            --radius:      24px;
+            --pill:        50px;
+            --btn-text:    #4a2040;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --pink:       #ff85c2;
+                --pink-dark:  #f5c6e0;
+                --pink-mid:   #c9a0b8;
+                --pink-bg:    #1a0a14;
+                --pink-light: #3d1a30;
+                --pink-pale:  #220f1b;
+                --white:      #2a1525;
+                --btn-text:   #1a0a14;
+            }
+        }
+
+        body {
+            font-family: 'Fredoka', sans-serif;
+            background: var(--pink-bg);
+            color: var(--pink-mid);
+            font-size: 14px;
+            line-height: 1.6;
+            min-height: 100dvh;
+            display: flex;
+            justify-content: center;
+
+            /* Subtle floating hearts in bg */
+            &::before {
+                content: '♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡';
+                position: fixed;
+                top: 0; left: 0;
+                width: 100%;
+                height: 100%;
+                font-size: 18px;
+                color: rgba(255, 105, 180, 0.08);
+                letter-spacing: 40px;
+                line-height: 80px;
+                pointer-events: none;
+                z-index: 0;
+                word-break: break-all;
+            }
+        }
+
+        #app {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 480px;
+            padding-bottom: 110px;
+        }
+
+        /* ── Typography ── */
+        .heading {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 1.3;
+            color: var(--pink-dark);
+        }
+
+        .eyebrow {
+            font-weight: 500;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--pink);
+        }
+
+        /* ── Inner panel ── */
+        .inner {
+            background: var(--white);
+            border: 2px solid var(--pink);
+            border-radius: var(--radius);
+            padding: 24px;
+        }
+
+        /* ── Buttons ── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-radius: var(--pill);
+            font-family: 'Fredoka', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+
+            &:active { transform: scale(0.95); }
+
+            &.btn-primary {
+                background: var(--pink);
+                color: var(--btn-text);
+
+                &:hover:not(:disabled) {
+                    box-shadow: 0 8px 24px rgba(255, 105, 180, 0.45);
+                    transform: translateY(-2px);
+                }
+            }
+
+            &.btn-secondary {
+                background: transparent;
+                color: var(--pink);
+                border: 2px solid var(--pink);
+
+                &:hover:not(:disabled) { background: var(--pink-light); }
+            }
+
+            &.btn-full { width: 100%; }
+
+            &:disabled {
+                opacity: 0.45;
+                cursor: not-allowed;
+                transform: none !important;
+                box-shadow: none !important;
+            }
+        }
+
+        /* ── Screen wrapper ── */
+        .screen {
+            padding: 24px 16px;
+            animation: screenIn 0.3s ease;
+        }
+
+        @keyframes screenIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ── FAB ── */
+        .fab {
+            position: fixed;
+            bottom: 32px;
+            right: max(20px, calc(50% - 220px));
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--pink);
+            color: var(--btn-text);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 8px 28px rgba(255, 105, 180, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            z-index: 10;
+
+            &:hover {
+                transform: scale(1.12) rotate(12deg);
+                box-shadow: 0 14px 36px rgba(255, 105, 180, 0.6);
+            }
+
+            &:active { transform: scale(0.94); }
+        }
+
+        /* ═══════════════════════════════════
+           ONBOARDING
+        ═══════════════════════════════════ */
+        .onboarding {
+            & .ob-header {
+                text-align: center;
+                padding: 32px 0 28px;
+
+                & .app-logo {
+                    font-size: 56px;
+                    line-height: 1;
+                    margin-bottom: 10px;
+                    display: block;
+                    animation: pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+                }
+
+                & .heading { margin-bottom: 8px; }
+
+                & p {
+                    color: var(--pink-mid);
+                    font-size: 14px;
+                }
+            }
+
+            & .step-dots {
+                display: flex;
+                justify-content: center;
+                gap: 8px;
+                margin-bottom: 28px;
+
+                & .dot {
+                    height: 8px;
+                    border-radius: 4px;
+                    background: var(--pink-light);
+                    transition: all 0.3s ease;
+                    width: 8px;
+
+                    &.active {
+                        width: 28px;
+                        background: var(--pink);
+                    }
+
+                    &.done {
+                        background: var(--pink);
+                        opacity: 0.4;
+                    }
+                }
+            }
+
+            & .cat-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+                margin-bottom: 28px;
+
+                & .cat-btn {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 6px;
+                    padding: 16px 6px;
+                    background: var(--white);
+                    border: 2px solid var(--pink-light);
+                    border-radius: 18px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    font-family: 'Fredoka', sans-serif;
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: var(--pink-mid);
+
+                    & span.cat-emoji { font-size: 26px; }
+
+                    &:hover {
+                        border-color: var(--pink);
+                        transform: translateY(-3px);
+                        box-shadow: 0 6px 16px rgba(255, 105, 180, 0.18);
+                    }
+
+                    &.selected {
+                        border-color: var(--pink);
+                        background: var(--pink-light);
+                        color: var(--pink-dark);
+                        font-weight: 600;
+                        transform: translateY(-2px);
+                    }
+                }
+            }
+
+            & .form-group {
+                margin-bottom: 18px;
+
+                & label {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 13px;
+                    color: var(--pink-dark);
+                    margin-bottom: 8px;
+                }
+
+                & input {
+                    width: 100%;
+                    padding: 13px 18px;
+                    border: 2px solid var(--pink-light);
+                    border-radius: 16px;
+                    font-family: 'Fredoka', sans-serif;
+                    font-size: 15px;
+                    color: var(--pink-dark);
+                    background: var(--white);
+                    outline: none;
+                    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+                    &:focus {
+                        border-color: var(--pink);
+                        box-shadow: 0 0 0 4px rgba(255, 105, 180, 0.14);
+                    }
+
+                    &::placeholder {
+                        color: var(--pink-mid);
+                        opacity: 0.55;
+                    }
+                }
+
+                & .input-prefix {
+                    position: relative;
+
+                    & .pfx {
+                        position: absolute;
+                        left: 18px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: var(--pink);
+                        pointer-events: none;
+                    }
+
+                    & input { padding-left: 34px; }
+                }
+            }
+
+            & .ob-footer {
+                display: flex;
+                gap: 12px;
+                margin-top: 8px;
+
+                & .btn-back-icon {
+                    flex-shrink: 0;
+                    width: 52px;
+                    height: 52px;
+                    padding: 0;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        /* ═══════════════════════════════════
+           DASHBOARD
+        ═══════════════════════════════════ */
+        .dashboard {
+            & .dash-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 28px 0 20px;
+
+                & .avatar {
+                    width: 46px;
+                    height: 46px;
+                    border-radius: 50%;
+                    background: var(--pink-light);
+                    border: 2px solid var(--pink);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 24px;
+                    flex-shrink: 0;
+                }
+            }
+
+            & .summary-card {
+                background: var(--pink);
+                border-radius: var(--radius);
+                padding: 28px 28px 24px;
+                margin-bottom: 24px;
+                position: relative;
+                overflow: hidden;
+
+                &::after {
+                    content: '♡';
+                    position: absolute;
+                    right: 16px;
+                    top: -8px;
+                    font-size: 90px;
+                    color: rgba(255, 255, 255, 0.18);
+                    line-height: 1;
+                    pointer-events: none;
+                }
+
+                & .eyebrow {
+                    color: rgba(74, 32, 64, 0.65);
+                    margin-bottom: 6px;
+                }
+
+                & .total-amount {
+                    font-size: 42px;
+                    font-weight: 600;
+                    color: var(--pink-dark);
+                    line-height: 1;
+                    margin-bottom: 4px;
+                }
+
+                & .total-sub {
+                    font-size: 13px;
+                    color: var(--pink-dark);
+                    opacity: 0.7;
+                }
+
+                & .summary-pills {
+                    display: flex;
+                    gap: 8px;
+                    margin-top: 16px;
+                    flex-wrap: wrap;
+
+                    & .s-pill {
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 5px;
+                        padding: 5px 12px;
+                        background: rgba(255, 255, 255, 0.35);
+                        border-radius: 20px;
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: var(--pink-dark);
+                    }
+                }
+            }
+
+            & .section-row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 14px;
+            }
+
+            & .badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 4px;
+                padding: 4px 11px;
+                background: var(--pink-light);
+                border-radius: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                color: var(--pink);
+
+                & i { width: 12px; height: 12px; }
+            }
+
+            & .goals-stack {
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+            }
+        }
+
+        /* ── Goal Card ── */
+        .goal-card {
+            background: var(--white);
+            border: 2px solid var(--pink);
+            border-radius: var(--radius);
+            padding: 20px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 14px 36px rgba(255, 105, 180, 0.2);
+            }
+
+            & .gc-top {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-bottom: 16px;
+                gap: 12px;
+            }
+
+            & .gc-left {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                & .gc-emoji {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 16px;
+                    background: var(--pink-light);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 26px;
+                    flex-shrink: 0;
+                }
+
+                & .gc-name {
+                    font-weight: 600;
+                    font-size: 17px;
+                    color: var(--pink-dark);
+                    margin-bottom: 2px;
+                }
+
+                & .gc-sub {
+                    font-size: 12px;
+                    color: var(--pink-mid);
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+
+                    & i { width: 11px; height: 11px; }
+                }
+            }
+
+            & .gc-pct {
+                font-weight: 600;
+                font-size: 22px;
+                color: var(--pink);
+                flex-shrink: 0;
+            }
+
+            & .progress-track {
+                height: 12px;
+                background: var(--pink-light);
+                border-radius: 6px;
+                overflow: hidden;
+                margin-bottom: 10px;
+
+                & .progress-fill {
+                    height: 100%;
+                    border-radius: 6px;
+                    background: linear-gradient(90deg, #ff69b4, #ff9dd0);
+                    transition: width 0.9s cubic-bezier(0.34, 1.56, 0.64, 1);
+                }
+            }
+
+            & .gc-amounts {
+                display: flex;
+                justify-content: space-between;
+                font-size: 12px;
+                color: var(--pink-mid);
+
+                & strong {
+                    color: var(--pink-dark);
+                    font-weight: 600;
+                }
+            }
+        }
+
+        /* ── Empty state ── */
+        .empty-state {
+            text-align: center;
+            padding: 48px 20px;
+
+            & .es-emoji { font-size: 52px; margin-bottom: 14px; }
+            & h3 { font-size: 18px; font-weight: 600; color: var(--pink-dark); margin-bottom: 8px; }
+            & p  { margin-bottom: 24px; }
+        }
+
+        /* ═══════════════════════════════════
+           GOAL DETAIL
+        ═══════════════════════════════════ */
+        .goal-detail {
+            & .back-btn {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                color: var(--pink);
+                font-weight: 600;
+                font-size: 14px;
+                cursor: pointer;
+                background: none;
+                border: none;
+                font-family: 'Fredoka', sans-serif;
+                padding: 0;
+                margin-bottom: 20px;
+                transition: gap 0.3s ease, opacity 0.3s ease;
+
+                & i { width: 18px; height: 18px; }
+                &:hover { opacity: 0.75; }
+            }
+
+            & .hero {
+                background: var(--pink);
+                border-radius: var(--radius);
+                padding: 28px 24px 24px;
+                text-align: center;
+                margin-bottom: 20px;
+                position: relative;
+                overflow: hidden;
+
+                &::before {
+                    content: '✦';
+                    position: absolute;
+                    right: 20px; top: 12px;
+                    font-size: 40px;
+                    color: rgba(255, 255, 255, 0.2);
+                }
+
+                & .hero-emoji  { font-size: 56px; line-height: 1; margin-bottom: 10px; display: block; }
+                & .hero-name   { font-size: 26px; font-weight: 600; color: var(--pink-dark); margin-bottom: 3px; }
+                & .hero-sub    { font-size: 13px; color: var(--pink-dark); opacity: 0.75; margin-bottom: 18px; }
+
+                & .hero-track {
+                    height: 14px;
+                    background: rgba(74, 32, 64, 0.18);
+                    border-radius: 7px;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+
+                    & .hero-fill {
+                        height: 100%;
+                        background: var(--white);
+                        border-radius: 7px;
+                        transition: width 0.9s cubic-bezier(0.34, 1.56, 0.64, 1);
+                    }
+                }
+
+                & .hero-stats {
+                    display: flex;
+                    justify-content: space-around;
+
+                    & .stat {
+                        & .stat-v { font-size: 22px; font-weight: 600; color: var(--pink-dark); }
+                        & .stat-l { font-size: 11px; color: var(--pink-dark); opacity: 0.65; text-transform: uppercase; letter-spacing: 1px; }
+                    }
+                }
+            }
+
+            & .contrib-form {
+                margin-bottom: 20px;
+
+                & .form-row {
+                    display: flex;
+                    gap: 10px;
+
+                    & .fg {
+                        flex: 1;
+
+                        & label {
+                            display: block;
+                            font-weight: 600;
+                            font-size: 12px;
+                            color: var(--pink-dark);
+                            margin-bottom: 6px;
+                        }
+
+                        & input {
+                            width: 100%;
+                            padding: 11px 14px;
+                            border: 2px solid var(--pink-light);
+                            border-radius: 14px;
+                            font-family: 'Fredoka', sans-serif;
+                            font-size: 14px;
+                            color: var(--pink-dark);
+                            background: var(--white);
+                            outline: none;
+                            transition: border-color 0.3s ease;
+
+                            &:focus { border-color: var(--pink); }
+                        }
+                    }
+                }
+            }
+
+            & .history {
+                & .section-row {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 14px;
+                }
+
+                & .h-list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                & .h-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 14px;
+                    padding: 14px 16px;
+                    background: var(--white);
+                    border: 2px solid var(--pink-light);
+                    border-radius: 16px;
+
+                    & .h-icon {
+                        width: 38px;
+                        height: 38px;
+                        border-radius: 50%;
+                        background: var(--pink-light);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 16px;
+                        flex-shrink: 0;
+                    }
+
+                    & .h-info {
+                        flex: 1;
+                        & .h-note { font-weight: 600; font-size: 14px; color: var(--pink-dark); }
+                        & .h-date { font-size: 12px; color: var(--pink-mid); }
+                    }
+
+                    & .h-amount {
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: var(--pink);
+                        flex-shrink: 0;
+                    }
+                }
+
+                & .h-empty {
+                    text-align: center;
+                    padding: 32px;
+                    color: var(--pink-mid);
+                    font-size: 14px;
+                }
+            }
+        }
+
+        /* ═══════════════════════════════════
+           MILESTONE MODAL
+        ═══════════════════════════════════ */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(74, 32, 64, 0.55);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 200;
+            padding: 20px;
+            animation: screenIn 0.3s ease;
+
+            & .modal {
+                background: var(--white);
+                border: 2px solid var(--pink);
+                border-radius: var(--radius);
+                padding: 44px 32px 36px;
+                text-align: center;
+                max-width: 360px;
+                width: 100%;
+                animation: popIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+                & .m-emoji {
+                    font-size: 68px;
+                    line-height: 1;
+                    margin-bottom: 14px;
+                    display: block;
+                    animation: bounce 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+                }
+
+                & .m-heading {
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: var(--pink-dark);
+                    margin-bottom: 10px;
+                }
+
+                & .m-body {
+                    color: var(--pink-mid);
+                    font-size: 14px;
+                    margin-bottom: 32px;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        @keyframes popIn {
+            from { transform: scale(0.75); opacity: 0; }
+            to   { transform: scale(1);    opacity: 1; }
+        }
+
+        @keyframes pop {
+            from { transform: scale(0.6); }
+            to   { transform: scale(1);   }
+        }
+
+        @keyframes bounce {
+            0%   { transform: translateY(0) scale(1); }
+            40%  { transform: translateY(-18px) scale(1.1); }
+            70%  { transform: translateY(-8px) scale(1.05); }
+            100% { transform: translateY(0) scale(1); }
+        }
+
+        /* Confetti layer */
+        #confetti-canvas {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 199;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 480px) {
+            body    { padding: 0; }
+            .screen { padding: 20px 14px; }
+        }
+
+        @media (min-width: 481px) {
+            body { padding: 0 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <canvas id="confetti-canvas"></canvas>
+
+    <script>
+        /* ═══════════════════════════════════════
+           STATE
+        ═══════════════════════════════════════ */
+        const state = {
+            screen: 'dashboard',          // 'onboarding' | 'dashboard' | 'detail'
+            ob: {                          // onboarding scratch
+                step: 1,
+                cat: null,
+                emoji: '',
+                name: '',
+                target: '',
+                deadline: ''
+            },
+            goals: [
+                {
+                    id: 1, emoji: '✈️', name: 'Japan Trip',
+                    target: 3000, saved: 1500, deadline: '2026-12-01',
+                    contributions: [
+                        { id: 1, amount: 500,  date: '2026-01-15', note: 'Birthday money 🎂' },
+                        { id: 2, amount: 600,  date: '2026-02-10', note: 'Monthly savings' },
+                        { id: 3, amount: 400,  date: '2026-03-05', note: 'Freelance project' }
+                    ],
+                    milestones: [25]
+                },
+                {
+                    id: 2, emoji: '💻', name: 'New Laptop',
+                    target: 1200, saved: 320, deadline: '2026-09-01',
+                    contributions: [
+                        { id: 1, amount: 200, date: '2026-02-20', note: 'Saved from paycheck' },
+                        { id: 2, amount: 120, date: '2026-03-10', note: 'Sold old stuff' }
+                    ],
+                    milestones: []
+                },
+                {
+                    id: 3, emoji: '🛡️', name: 'Emergency Fund',
+                    target: 5000, saved: 4800, deadline: null,
+                    contributions: [
+                        { id: 1, amount: 1000, date: '2025-10-01', note: 'First deposit' },
+                        { id: 2, amount: 500,  date: '2025-11-01', note: 'Monthly' },
+                        { id: 3, amount: 500,  date: '2025-12-01', note: 'Monthly' },
+                        { id: 4, amount: 500,  date: '2026-01-01', note: 'Monthly' },
+                        { id: 5, amount: 500,  date: '2026-02-01', note: 'Monthly' },
+                        { id: 6, amount: 500,  date: '2026-03-01', note: 'Monthly' },
+                        { id: 7, amount: 800,  date: '2026-03-15', note: 'Tax refund ✨' }
+                    ],
+                    milestones: [25, 50, 75]
+                }
+            ],
+            selectedId: null,
+            celebration: null,   // { goal, milestone }
+            nextId: 4,
+            nextCId: 20
+        };
+
+        const CATS = [
+            { id: 'travel',    emoji: '✈️', label: 'Travel'   },
+            { id: 'tech',      emoji: '💻', label: 'Tech'     },
+            { id: 'home',      emoji: '🏠', label: 'Home'     },
+            { id: 'education', emoji: '🎓', label: 'Study'    },
+            { id: 'fun',       emoji: '🎉', label: 'Fun'      },
+            { id: 'emergency', emoji: '🛡️', label: 'Safety'  },
+            { id: 'fashion',   emoji: '👗', label: 'Fashion'  },
+            { id: 'health',    emoji: '💊', label: 'Health'   },
+            { id: 'other',     emoji: '💖', label: 'Other'    }
+        ];
+
+        /* ═══════════════════════════════════════
+           HELPERS
+        ═══════════════════════════════════════ */
+        const fmt = n => new Intl.NumberFormat('en-US', {
+            style: 'currency', currency: 'USD', maximumFractionDigits: 0
+        }).format(n);
+
+        const fmtDate = d => new Date(d).toLocaleDateString('en-US', {
+            month: 'short', day: 'numeric', year: 'numeric'
+        });
+
+        const pct = (saved, target) => Math.min(100, Math.round((saved / target) * 100));
+
+        const daysLeft = deadline => {
+            if (!deadline) return null;
+            const diff = new Date(deadline) - new Date();
+            return Math.max(0, Math.ceil(diff / 86400000));
+        };
+
+        const greeting = () => {
+            const h = new Date().getHours();
+            if (h < 12) return 'Good morning ☀️';
+            if (h < 17) return 'Good afternoon 🌤';
+            return 'Good evening 🌙';
+        };
+
+        /* ═══════════════════════════════════════
+           RENDER
+        ═══════════════════════════════════════ */
+        const render = () => {
+            const app = document.getElementById('app');
+
+            let html = '';
+            if (state.screen === 'onboarding') {
+                html = renderOnboarding();
+            } else if (state.screen === 'dashboard') {
+                html = renderDashboard();
+            } else if (state.screen === 'detail') {
+                html = renderDetail();
+            }
+
+            if (state.celebration) {
+                html += renderCelebration();
+            }
+
+            app.innerHTML = html;
+            lucide.createIcons();
+            attachEvents();
+
+            if (state.celebration) startConfetti();
+        };
+
+        /* ── Onboarding ── */
+        const renderOnboarding = () => {
+            const { step, cat, name, target, deadline } = state.ob;
+
+            const dots = [1, 2, 3].map(i =>
+                `<span class="dot ${i === step ? 'active' : i < step ? 'done' : ''}"></span>`
+            ).join('');
+
+            let body = '';
+
+            if (step === 1) {
+                const grid = CATS.map(c => `
+                    <button class="cat-btn${cat === c.id ? ' selected' : ''}"
+                            data-cat="${c.id}" data-emoji="${c.emoji}">
+                        <span class="cat-emoji">${c.emoji}</span>
+                        <span>${c.label}</span>
+                    </button>
+                `).join('');
+
+                body = `
+                    <div class="ob-header">
+                        <span class="app-logo">🐷</span>
+                        <span class="eyebrow">Welcome to Piggy</span>
+                        <h1 class="heading">What are you saving for? 🌸</h1>
+                    </div>
+                    <div class="step-dots">${dots}</div>
+                    <div class="cat-grid">${grid}</div>
+                    <button class="btn btn-primary btn-full" id="ob-next1" ${!cat ? 'disabled' : ''}>
+                        Next <i data-lucide="arrow-right"></i>
+                    </button>
+                `;
+
+            } else if (step === 2) {
+                body = `
+                    <div class="ob-header">
+                        <span class="app-logo">${state.ob.emoji || '✨'}</span>
+                        <h1 class="heading">Name your goal 💕</h1>
+                    </div>
+                    <div class="step-dots">${dots}</div>
+                    <div class="form-group">
+                        <label>Goal name</label>
+                        <input id="ob-name" type="text" placeholder="e.g. Dream vacation, New MacBook…"
+                               value="${name}" maxlength="40" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label>Target amount</label>
+                        <div class="input-prefix">
+                            <span class="pfx">$</span>
+                            <input id="ob-target" type="number" placeholder="0" value="${target}" min="1">
+                        </div>
+                    </div>
+                    <div class="ob-footer">
+                        <button class="btn btn-secondary btn-back-icon" id="ob-back">
+                            <i data-lucide="arrow-left"></i>
+                        </button>
+                        <button class="btn btn-primary btn-full" id="ob-next2"
+                                ${!name || !target ? 'disabled' : ''}>
+                            Next <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                `;
+
+            } else {
+                body = `
+                    <div class="ob-header">
+                        <span class="app-logo">📅</span>
+                        <h1 class="heading">Set a deadline? ✨</h1>
+                        <p>Totally optional — but goals with deadlines get hit faster!</p>
+                    </div>
+                    <div class="step-dots">${dots}</div>
+                    <div class="form-group">
+                        <label>Target date (optional)</label>
+                        <input id="ob-deadline" type="date" value="${deadline}"
+                               min="${new Date().toISOString().split('T')[0]}">
+                    </div>
+                    <div class="ob-footer">
+                        <button class="btn btn-secondary btn-back-icon" id="ob-back">
+                            <i data-lucide="arrow-left"></i>
+                        </button>
+                        <button class="btn btn-primary btn-full" id="ob-finish">
+                            Let's go! 🌸
+                        </button>
+                    </div>
+                    <button class="btn btn-secondary btn-full" id="ob-skip"
+                            style="margin-top:12px">
+                        Skip for now
+                    </button>
+                `;
+            }
+
+            return `<div class="screen onboarding">${body}</div>`;
+        };
+
+        /* ── Dashboard ── */
+        const renderDashboard = () => {
+            const totalSaved  = state.goals.reduce((s, g) => s + g.saved, 0);
+            const totalTarget = state.goals.reduce((s, g) => s + g.target, 0);
+            const completed   = state.goals.filter(g => pct(g.saved, g.target) === 100).length;
+
+            const cards = state.goals.map(g => {
+                const p    = pct(g.saved, g.target);
+                const days = daysLeft(g.deadline);
+                return `
+                    <div class="goal-card" data-gid="${g.id}">
+                        <div class="gc-top">
+                            <div class="gc-left">
+                                <div class="gc-emoji">${g.emoji}</div>
+                                <div>
+                                    <div class="gc-name">${g.name}</div>
+                                    <div class="gc-sub">
+                                        <i data-lucide="${days !== null ? 'clock' : 'infinity'}"></i>
+                                        ${days !== null ? `${days} days left` : 'No deadline'}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gc-pct">${p}%</div>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" style="width:${p}%"></div>
+                        </div>
+                        <div class="gc-amounts">
+                            <span><strong>${fmt(g.saved)}</strong> saved</span>
+                            <span>of ${fmt(g.target)}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            const empty = state.goals.length === 0 ? `
+                <div class="empty-state">
+                    <div class="es-emoji">🌸</div>
+                    <h3>No goals yet!</h3>
+                    <p>Tap the pink button below to create your first savings goal.</p>
+                </div>
+            ` : '';
+
+            return `
+                <div class="screen dashboard">
+                    <div class="dash-header">
+                        <div>
+                            <div class="eyebrow">Your savings</div>
+                            <h1 class="heading">${greeting()}</h1>
+                        </div>
+                        <div class="avatar">🐷</div>
+                    </div>
+
+                    <div class="summary-card">
+                        <div class="eyebrow">Total saved</div>
+                        <div class="total-amount">${fmt(totalSaved)}</div>
+                        <div class="total-sub">of ${fmt(totalTarget)} total across ${state.goals.length} goal${state.goals.length !== 1 ? 's' : ''}</div>
+                        <div class="summary-pills">
+                            <span class="s-pill">🏆 ${completed} completed</span>
+                            <span class="s-pill">🎯 ${state.goals.length - completed} in progress</span>
+                        </div>
+                    </div>
+
+                    <div class="section-row">
+                        <span class="eyebrow" style="margin-bottom:0">My goals</span>
+                        <span class="badge">
+                            <i data-lucide="star"></i> ${state.goals.length}
+                        </span>
+                    </div>
+
+                    <div class="goals-stack">
+                        ${cards}
+                        ${empty}
+                    </div>
+                </div>
+                <button class="fab" id="fab" aria-label="Add goal">
+                    <i data-lucide="plus"></i>
+                </button>
+            `;
+        };
+
+        /* ── Goal Detail ── */
+        const renderDetail = () => {
+            const g = state.goals.find(g => g.id === state.selectedId);
+            if (!g) { state.screen = 'dashboard'; return renderDashboard(); }
+
+            const p         = pct(g.saved, g.target);
+            const remaining = Math.max(0, g.target - g.saved);
+            const days      = daysLeft(g.deadline);
+
+            const items = [...g.contributions].reverse().map(c => `
+                <div class="h-item">
+                    <div class="h-icon">💰</div>
+                    <div class="h-info">
+                        <div class="h-note">${c.note}</div>
+                        <div class="h-date">${fmtDate(c.date)}</div>
+                    </div>
+                    <div class="h-amount">+${fmt(c.amount)}</div>
+                </div>
+            `).join('');
+
+            return `
+                <div class="screen goal-detail">
+                    <button class="back-btn" id="back-btn">
+                        <i data-lucide="chevron-left"></i>
+                        Back to goals
+                    </button>
+
+                    <div class="hero">
+                        <span class="hero-emoji">${g.emoji}</span>
+                        <div class="hero-name">${g.name}</div>
+                        <div class="hero-sub">${fmt(g.saved)} saved of ${fmt(g.target)}</div>
+                        <div class="hero-track">
+                            <div class="hero-fill" style="width:${p}%"></div>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <div class="stat-v">${p}%</div>
+                                <div class="stat-l">Progress</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-v">${fmt(remaining)}</div>
+                                <div class="stat-l">Left</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-v">${days !== null ? days : '∞'}</div>
+                                <div class="stat-l">Days</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner contrib-form">
+                        <div class="eyebrow" style="margin-bottom:14px">Add contribution ✨</div>
+                        <div class="form-row">
+                            <div class="fg">
+                                <label>Amount ($)</label>
+                                <input id="c-amount" type="number" placeholder="50" min="1">
+                            </div>
+                            <div class="fg">
+                                <label>Note</label>
+                                <input id="c-note" type="text" placeholder="Monthly savings">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-full" id="add-btn" style="margin-top:16px">
+                            <i data-lucide="plus-circle"></i>
+                            Add money
+                        </button>
+                    </div>
+
+                    <div class="history">
+                        <div class="section-row">
+                            <span class="eyebrow" style="margin-bottom:0">History</span>
+                            <span class="badge">
+                                <i data-lucide="list"></i> ${g.contributions.length}
+                            </span>
+                        </div>
+                        <div class="h-list">
+                            ${items || '<div class="h-empty">No contributions yet 🌸</div>'}
+                        </div>
+                    </div>
+                </div>
+            `;
+        };
+
+        /* ── Celebration Modal ── */
+        const renderCelebration = () => {
+            const { goal, milestone } = state.celebration;
+            const isDone = milestone === 100;
+            return `
+                <div class="modal-overlay" id="celebration">
+                    <div class="modal">
+                        <span class="m-emoji">${isDone ? '🏆' : '🌸'}</span>
+                        <h2 class="m-heading">${isDone ? 'You did it!' : 'Milestone hit!'} 🌸</h2>
+                        <p class="m-body">
+                            ${isDone
+                                ? `You've smashed your ${fmt(goal.target)} goal for <strong>${goal.name}</strong>! You're absolutely amazing! 💖`
+                                : `You've hit <strong>${milestone}%</strong> of your <strong>${goal.name}</strong> goal! Keep going, you've got this! ✨`
+                            }
+                        </p>
+                        <button class="btn btn-primary btn-full" id="close-modal">
+                            ${isDone ? 'Woohoo! 🎉' : 'Keep saving! 💕'}
+                        </button>
+                    </div>
+                </div>
+            `;
+        };
+
+        /* ═══════════════════════════════════════
+           EVENTS
+        ═══════════════════════════════════════ */
+        const attachEvents = () => {
+
+            /* Onboarding */
+            if (state.screen === 'onboarding') {
+                document.querySelectorAll('.cat-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        state.ob.cat   = btn.dataset.cat;
+                        state.ob.emoji = btn.dataset.emoji;
+                        render();
+                    });
+                });
+
+                on('ob-next1', 'click', () => { state.ob.step = 2; render(); });
+
+                onInput('ob-name', v => {
+                    state.ob.name = v;
+                    setDisabled('ob-next2', !v || !state.ob.target);
+                });
+
+                onInput('ob-target', v => {
+                    state.ob.target = v;
+                    setDisabled('ob-next2', !state.ob.name || !v);
+                });
+
+                on('ob-next2', 'click', () => { state.ob.step = 3; render(); });
+
+                onInput('ob-deadline', v => { state.ob.deadline = v; });
+
+                on('ob-finish', 'click', () => finishOnboarding(state.ob.deadline));
+                on('ob-skip',   'click', () => finishOnboarding(null));
+                on('ob-back',   'click', () => { state.ob.step--; render(); });
+            }
+
+            /* Dashboard */
+            document.querySelectorAll('.goal-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    state.selectedId = parseInt(card.dataset.gid);
+                    state.screen = 'detail';
+                    render();
+                });
+            });
+
+            on('fab', 'click', () => {
+                state.ob = { step: 1, cat: null, emoji: '', name: '', target: '', deadline: '' };
+                state.screen = 'onboarding';
+                render();
+            });
+
+            /* Detail */
+            on('back-btn', 'click', () => { state.screen = 'dashboard'; render(); });
+
+            on('add-btn', 'click', () => {
+                const amount = parseFloat(document.getElementById('c-amount')?.value);
+                const note   = (document.getElementById('c-note')?.value || '').trim() || 'Savings 🌸';
+                if (!amount || amount <= 0) return;
+
+                const g = state.goals.find(g => g.id === state.selectedId);
+                if (!g) return;
+
+                const before = pct(g.saved, g.target);
+                g.saved += amount;
+                g.contributions.push({
+                    id: state.nextCId++,
+                    amount,
+                    date: new Date().toISOString().split('T')[0],
+                    note
+                });
+
+                const after  = pct(g.saved, g.target);
+                const hit    = [25, 50, 75, 100].find(m =>
+                    after >= m && before < m && !g.milestones.includes(m)
+                );
+
+                if (hit) {
+                    g.milestones.push(hit);
+                    state.celebration = { goal: g, milestone: hit };
+                }
+
+                render();
+            });
+
+            /* Celebration close */
+            on('close-modal', 'click', () => {
+                state.celebration = null;
+                stopConfetti();
+                render();
+            });
+        };
+
+        const on = (id, ev, fn) => {
+            const el = document.getElementById(id);
+            if (el) el.addEventListener(ev, fn);
+        };
+
+        const onInput = (id, fn) => {
+            const el = document.getElementById(id);
+            if (el) el.addEventListener('input', e => fn(e.target.value));
+        };
+
+        const setDisabled = (id, val) => {
+            const el = document.getElementById(id);
+            if (el) el.disabled = val;
+        };
+
+        const finishOnboarding = deadline => {
+            const { cat, emoji, name, target } = state.ob;
+            state.goals.push({
+                id: state.nextId++,
+                emoji, name, target: parseFloat(target),
+                saved: 0, deadline: deadline || null,
+                contributions: [], milestones: []
+            });
+            state.screen = 'dashboard';
+            state.ob = { step: 1, cat: null, emoji: '', name: '', target: '', deadline: '' };
+            render();
+        };
+
+        /* ═══════════════════════════════════════
+           CONFETTI
+        ═══════════════════════════════════════ */
+        let rafId = null;
+        const particles = [];
+        const COLORS = ['#ff69b4', '#fff0f5', '#ff9dd0', '#ffb3d9', '#4a2040'];
+
+        const startConfetti = () => {
+            const canvas = document.getElementById('confetti-canvas');
+            const ctx    = canvas.getContext('2d');
+            canvas.width  = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            particles.length = 0;
+            for (let i = 0; i < 130; i++) {
+                particles.push({
+                    x:  Math.random() * canvas.width,
+                    y:  Math.random() * canvas.height - canvas.height * 0.5,
+                    vx: (Math.random() - 0.5) * 3,
+                    vy: Math.random() * 3 + 2,
+                    w:  Math.random() * 10 + 5,
+                    h:  Math.random() * 6 + 3,
+                    rot: Math.random() * 360,
+                    rv: (Math.random() - 0.5) * 8,
+                    color: COLORS[Math.floor(Math.random() * COLORS.length)],
+                    shape: Math.random() > 0.5 ? 'rect' : 'circle'
+                });
+            }
+
+            const tick = () => {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                particles.forEach(p => {
+                    p.x   += p.vx;
+                    p.y   += p.vy;
+                    p.rot += p.rv;
+                    if (p.y > canvas.height) { p.y = -20; p.x = Math.random() * canvas.width; }
+
+                    ctx.save();
+                    ctx.translate(p.x, p.y);
+                    ctx.rotate(p.rot * Math.PI / 180);
+                    ctx.fillStyle = p.color;
+
+                    if (p.shape === 'rect') {
+                        ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+                    } else {
+                        ctx.beginPath();
+                        ctx.arc(0, 0, p.w / 2, 0, Math.PI * 2);
+                        ctx.fill();
+                    }
+                    ctx.restore();
+                });
+                rafId = requestAnimationFrame(tick);
+            };
+            tick();
+        };
+
+        const stopConfetti = () => {
+            if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+            const canvas = document.getElementById('confetti-canvas');
+            canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
+        };
+
+        /* ── Boot ── */
+        render();
+    </script>
+</body>
+</html>

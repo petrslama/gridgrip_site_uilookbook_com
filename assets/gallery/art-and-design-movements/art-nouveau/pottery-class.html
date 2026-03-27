@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier du Sol — Pottery Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #faf8f2;
+            --accent: #6b705c;
+            --heading: #2d2a24;
+            --body: #6a6258;
+            --panel-bg: #ffffff;
+            --panel-border: #e4dfd4;
+            --rule: #d8d2c6;
+            --white: #ffffff;
+            --font: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font);
+            background-color: var(--bg);
+            color: var(--body);
+            font-size: 15px;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── Typography helpers ── */
+        .eyebrow {
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--accent);
+            display: block;
+            margin-bottom: 0.75rem;
+        }
+
+        h1, h2, h3 {
+            font-family: var(--font);
+            color: var(--heading);
+            line-height: 1.25;
+        }
+
+        h1 {
+            font-size: clamp(38px, 6vw, 62px);
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            font-size: clamp(24px, 3.5vw, 32px);
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--body);
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        /* ── Layout ── */
+        .container {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 6rem 0;
+        }
+
+        /* ── Rule ornament ── */
+        .rule-ornament {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+
+            &::before,
+            &::after {
+                content: "";
+                flex: 1;
+                height: 1px;
+                background: var(--rule);
+            }
+
+            &::before {
+                max-width: 48px;
+            }
+
+            & .ornament-dot {
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: var(--accent);
+                opacity: 0.6;
+            }
+        }
+
+        /* ── Buttons ── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: var(--font);
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 0.875rem 2rem;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: background-color .3s, color .3s, border-color .3s, transform .3s;
+
+            &:hover {
+                transform: translateY(-1px);
+            }
+
+            &:active {
+                transform: translateY(0);
+            }
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--white);
+            border: 1px solid var(--accent);
+
+            &:hover {
+                background: var(--heading);
+                border-color: var(--heading);
+            }
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+
+            &:hover {
+                background: var(--accent);
+                color: var(--white);
+            }
+        }
+
+        /* ── Inner panel ── */
+        .inner {
+            background: var(--panel-bg);
+            border: 1px solid var(--panel-border);
+            border-radius: 6px;
+        }
+
+        /* ── Nav ── */
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(250, 248, 242, 0.94);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--rule);
+
+            & .nav-inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1.25rem 2rem;
+                max-width: 1120px;
+                margin: 0 auto;
+            }
+
+            & .nav-logo {
+                font-size: 20px;
+                font-weight: 700;
+                color: var(--heading);
+                text-decoration: none;
+                letter-spacing: 0.5px;
+
+                & em {
+                    font-style: italic;
+                    font-weight: 400;
+                    color: var(--accent);
+                }
+            }
+
+            & .nav-links {
+                display: flex;
+                align-items: center;
+                gap: 2.5rem;
+                list-style: none;
+
+                & a {
+                    font-size: 13px;
+                    font-weight: 500;
+                    letter-spacing: 1.2px;
+                    text-transform: uppercase;
+                    color: var(--body);
+                    text-decoration: none;
+                    transition: color .3s;
+
+                    &:hover {
+                        color: var(--accent);
+                    }
+                }
+            }
+
+            & .nav-cta {
+                padding: 0.6rem 1.5rem;
+                font-size: 12px;
+            }
+        }
+
+        /* ── Hero ── */
+        .hero {
+            padding: 5rem 0 0;
+            overflow: hidden;
+
+            & .hero-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 4rem;
+                align-items: start;
+            }
+
+            & .hero-content {
+                padding-top: 3rem;
+            }
+
+            & .hero-headline {
+                margin-bottom: 1.5rem;
+
+                & em {
+                    font-style: italic;
+                    color: var(--accent);
+                }
+            }
+
+            & .hero-lead {
+                font-size: 17px;
+                line-height: 1.7;
+                margin-bottom: 2.5rem;
+                max-width: 420px;
+            }
+
+            & .hero-actions {
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+                margin-bottom: 3.5rem;
+            }
+
+            & .hero-meta {
+                display: flex;
+                gap: 3rem;
+                padding-top: 2rem;
+                border-top: 1px solid var(--rule);
+
+                & .meta-item {
+                    & strong {
+                        display: block;
+                        font-size: 28px;
+                        font-weight: 600;
+                        color: var(--heading);
+                        line-height: 1;
+                        margin-bottom: 0.25rem;
+                    }
+
+                    & span {
+                        font-size: 12px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: var(--body);
+                        opacity: 0.75;
+                    }
+                }
+            }
+
+            & .hero-image {
+                position: relative;
+
+                & img {
+                    width: 100%;
+                    height: 580px;
+                    object-fit: cover;
+                    border-radius: 4px 4px 0 0;
+                    display: block;
+                }
+
+                & .image-caption {
+                    position: absolute;
+                    bottom: 1.25rem;
+                    left: 1.25rem;
+                    right: 1.25rem;
+                    padding: 0.875rem 1.25rem;
+                    border-radius: 3px;
+
+                    & p {
+                        font-size: 12px;
+                        font-style: italic;
+                        color: var(--body);
+                        opacity: 0.85;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        /* ── Intro strip ── */
+        .intro-strip {
+            padding: 3rem 0;
+            border-top: 1px solid var(--rule);
+            border-bottom: 1px solid var(--rule);
+            background: var(--panel-bg);
+
+            & .strip-inner {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 4rem;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+
+            & .strip-item {
+                display: flex;
+                align-items: center;
+                gap: 0.875rem;
+                color: var(--body);
+                font-size: 14px;
+
+                & .strip-icon {
+                    color: var(--accent);
+                    opacity: 0.8;
+                    flex-shrink: 0;
+                }
+            }
+        }
+
+        /* ── Classes section ── */
+        .classes {
+            & .section-header {
+                max-width: 540px;
+                margin-bottom: 3.5rem;
+
+                & h2 {
+                    margin-bottom: 0.875rem;
+                }
+
+                & p {
+                    font-size: 16px;
+                    line-height: 1.7;
+                }
+            }
+
+            & .classes-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1.5rem;
+            }
+
+            & .class-card {
+                padding: 2rem;
+                transition: border-color .3s, box-shadow .3s, transform .3s;
+
+                &:hover {
+                    border-color: var(--accent);
+                    box-shadow: 0 8px 32px rgba(107, 112, 92, 0.1);
+                    transform: translateY(-3px);
+                }
+
+                & .card-icon {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    background: var(--bg);
+                    border: 1px solid var(--panel-border);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 1.5rem;
+                    color: var(--accent);
+                }
+
+                & h3 {
+                    font-size: 20px;
+                    margin-bottom: 0.5rem;
+                }
+
+                & .card-level {
+                    font-size: 11px;
+                    font-weight: 500;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                    color: var(--accent);
+                    margin-bottom: 0.875rem;
+                    display: block;
+                }
+
+                & p {
+                    font-size: 14px;
+                    margin-bottom: 1.5rem;
+                }
+
+                & .card-footer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 1.25rem;
+                    border-top: 1px solid var(--panel-border);
+
+                    & .card-price {
+                        font-size: 22px;
+                        font-weight: 600;
+                        color: var(--heading);
+
+                        & small {
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: var(--body);
+                        }
+                    }
+
+                    & a {
+                        font-size: 12px;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: var(--accent);
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        gap: 0.3rem;
+                        transition: gap .3s, color .3s;
+
+                        &:hover {
+                            gap: 0.6rem;
+                            color: var(--heading);
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ── Philosophy ── */
+        .philosophy {
+            background: var(--panel-bg);
+            border-top: 1px solid var(--rule);
+            border-bottom: 1px solid var(--rule);
+
+            & .philosophy-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 6rem;
+                align-items: center;
+            }
+
+            & .philosophy-content {
+                & blockquote {
+                    font-size: 24px;
+                    font-style: italic;
+                    font-weight: 400;
+                    color: var(--heading);
+                    line-height: 1.5;
+                    border-left: 2px solid var(--accent);
+                    padding-left: 1.75rem;
+                    margin: 2rem 0 2.5rem;
+                }
+
+                & p {
+                    margin-bottom: 1.25rem;
+                }
+            }
+
+            & .philosophy-aside {
+                & .aside-list {
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.25rem;
+
+                    & li {
+                        display: flex;
+                        gap: 1rem;
+                        align-items: flex-start;
+                        padding: 1.5rem;
+
+                        & .aside-icon {
+                            color: var(--accent);
+                            flex-shrink: 0;
+                            margin-top: 2px;
+                        }
+
+                        & strong {
+                            display: block;
+                            font-size: 15px;
+                            font-weight: 600;
+                            color: var(--heading);
+                            margin-bottom: 0.3rem;
+                        }
+
+                        & span {
+                            font-size: 13px;
+                            color: var(--body);
+                            line-height: 1.6;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ── Schedule ── */
+        .schedule {
+            & .schedule-header {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                margin-bottom: 2.5rem;
+                gap: 2rem;
+                flex-wrap: wrap;
+            }
+
+            & .schedule-table {
+                width: 100%;
+                border-collapse: collapse;
+
+                & thead {
+                    & tr {
+                        border-bottom: 2px solid var(--rule);
+                    }
+
+                    & th {
+                        font-size: 11px;
+                        font-weight: 500;
+                        letter-spacing: 1.5px;
+                        text-transform: uppercase;
+                        color: var(--accent);
+                        text-align: left;
+                        padding: 0 1rem 1rem;
+
+                        &:first-child {
+                            padding-left: 1.5rem;
+                        }
+
+                        &:last-child {
+                            padding-right: 1.5rem;
+                            text-align: right;
+                        }
+                    }
+                }
+
+                & tbody {
+                    & tr {
+                        border-bottom: 1px solid var(--panel-border);
+                        transition: background .3s;
+
+                        &:hover {
+                            background: var(--bg);
+                        }
+
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                    }
+
+                    & td {
+                        padding: 1.25rem 1rem;
+                        font-size: 14px;
+                        color: var(--body);
+                        vertical-align: middle;
+
+                        &:first-child {
+                            padding-left: 1.5rem;
+                        }
+
+                        &:last-child {
+                            padding-right: 1.5rem;
+                            text-align: right;
+                        }
+                    }
+
+                    & .td-class {
+                        font-weight: 600;
+                        font-size: 15px;
+                        color: var(--heading);
+                    }
+
+                    & .td-badge {
+                        display: inline-block;
+                        font-size: 10px;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        padding: 0.2rem 0.6rem;
+                        border-radius: 2px;
+                        background: var(--bg);
+                        border: 1px solid var(--panel-border);
+                        color: var(--body);
+
+                        &.badge-available {
+                            background: rgba(107, 112, 92, 0.08);
+                            border-color: rgba(107, 112, 92, 0.25);
+                            color: var(--accent);
+                        }
+
+                        &.badge-few {
+                            background: rgba(180, 140, 90, 0.08);
+                            border-color: rgba(180, 140, 90, 0.25);
+                            color: #8a6a40;
+                        }
+
+                        &.badge-full {
+                            opacity: 0.55;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ── Testimonials ── */
+        .testimonials {
+            background: var(--heading);
+
+            & .eyebrow {
+                color: rgba(250, 248, 242, 0.5);
+            }
+
+            & h2 {
+                color: var(--bg);
+                margin-bottom: 3rem;
+            }
+
+            & .testimonials-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1.5rem;
+            }
+
+            & .testimonial-card {
+                background: rgba(250, 248, 242, 0.05);
+                border: 1px solid rgba(250, 248, 242, 0.1);
+                border-radius: 6px;
+                padding: 2rem;
+
+                & .quote-mark {
+                    font-size: 48px;
+                    font-weight: 700;
+                    color: var(--accent);
+                    line-height: 1;
+                    margin-bottom: 1rem;
+                    opacity: 0.6;
+                }
+
+                & blockquote {
+                    font-size: 16px;
+                    font-style: italic;
+                    color: rgba(250, 248, 242, 0.85);
+                    line-height: 1.65;
+                    margin-bottom: 1.5rem;
+                    font-weight: 400;
+                }
+
+                & .testimonial-author {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.75rem;
+                    padding-top: 1.25rem;
+                    border-top: 1px solid rgba(250, 248, 242, 0.1);
+
+                    & .author-avatar {
+                        width: 36px;
+                        height: 36px;
+                        border-radius: 50%;
+                        background: var(--accent);
+                        opacity: 0.5;
+                        flex-shrink: 0;
+                    }
+
+                    & strong {
+                        display: block;
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: var(--bg);
+                    }
+
+                    & span {
+                        font-size: 12px;
+                        color: rgba(250, 248, 242, 0.45);
+                        letter-spacing: 0.5px;
+                    }
+                }
+            }
+        }
+
+        /* ── CTA / Enrol ── */
+        .enrol {
+            text-align: center;
+
+            & .enrol-inner {
+                padding: 4rem;
+                max-width: 680px;
+                margin: 0 auto;
+
+                & h2 {
+                    margin-bottom: 1rem;
+                }
+
+                & p {
+                    font-size: 17px;
+                    margin-bottom: 2.5rem;
+                }
+
+                & .enrol-actions {
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            background: var(--panel-bg);
+            border-top: 1px solid var(--rule);
+            padding: 3.5rem 0 2rem;
+
+            & .footer-grid {
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr 1fr;
+                gap: 3rem;
+                padding-bottom: 3rem;
+                border-bottom: 1px solid var(--rule);
+                margin-bottom: 2rem;
+            }
+
+            & .footer-brand {
+                & .footer-logo {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: var(--heading);
+                    margin-bottom: 0.75rem;
+
+                    & em {
+                        font-style: italic;
+                        font-weight: 400;
+                        color: var(--accent);
+                    }
+                }
+
+                & p {
+                    font-size: 13px;
+                    line-height: 1.65;
+                    max-width: 240px;
+                    margin-bottom: 1.25rem;
+                }
+
+                & .footer-social {
+                    display: flex;
+                    gap: 0.75rem;
+
+                    & a {
+                        width: 34px;
+                        height: 34px;
+                        border: 1px solid var(--panel-border);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: var(--body);
+                        transition: border-color .3s, color .3s;
+
+                        &:hover {
+                            border-color: var(--accent);
+                            color: var(--accent);
+                        }
+                    }
+                }
+            }
+
+            & .footer-col {
+                & h4 {
+                    font-size: 11px;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: var(--accent);
+                    margin-bottom: 1.25rem;
+                }
+
+                & ul {
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.625rem;
+
+                    & a {
+                        font-size: 13px;
+                        color: var(--body);
+                        text-decoration: none;
+                        transition: color .3s;
+
+                        &:hover {
+                            color: var(--accent);
+                        }
+                    }
+                }
+            }
+
+            & .footer-bottom {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                & p {
+                    font-size: 12px;
+                    color: var(--body);
+                    opacity: 0.6;
+                }
+            }
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 900px) {
+            .hero .hero-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero .hero-image img {
+                height: 380px;
+            }
+
+            .classes .classes-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .philosophy .philosophy-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+
+            .testimonials .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .site-footer .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .site-nav .nav-links {
+                display: none;
+            }
+
+            .intro-strip .strip-inner {
+                gap: 2rem;
+            }
+
+            .schedule .schedule-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .enrol .enrol-inner {
+                padding: 2.5rem 1.5rem;
+            }
+
+            .site-footer .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="site-nav" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">Atelier <em>du Sol</em></a>
+            <ul class="nav-links">
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#philosophy">Studio</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#enrol" class="btn btn-primary nav-cta">Book a Class</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="eyebrow">Ceramic Arts · Praha&nbsp;2</span>
+                    <h1 class="hero-headline">Shape&nbsp;clay.<br><em>Shape yourself.</em></h1>
+                    <p class="hero-lead">An intimate studio where beginners find their hands and practitioners refine their eye. Wheel throwing, hand-building, and glazing — taught in the tradition of considered craft.</p>
+                    <div class="hero-actions">
+                        <a href="#classes" class="btn btn-primary">
+                            <i data-lucide="calendar" width="14" height="14"></i>
+                            Browse Classes
+                        </a>
+                        <a href="#philosophy" class="btn btn-secondary">
+                            Our Approach
+                        </a>
+                    </div>
+                    <div class="hero-meta">
+                        <div class="meta-item">
+                            <strong>12</strong>
+                            <span>Max per session</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>8</strong>
+                            <span>Years open</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>3</strong>
+                            <span>Kilns on site</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img
+                        src="/assets/imgs/art-and-design-movements/art-nouveau/ceramic-vase-potters-wheel.jpg"
+                        alt="Close-up of a ceramic vase being shaped on a potter's wheel. The form is tall and sinuous with an asymmetric lip. Warm studio light, clay-dusted hands visible, shallow depth of field. Behind it, shelves of hand-glazed pieces in sage green and dusty rose. Editorial craft photography, photorealistic."
+                        width="1024"
+                        height="768"
+                        loading="lazy"
+                    >
+                    <div class="image-caption inner">
+                        <p>Wheel-thrown stoneware, studio collection — Spring firing 2025.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Intro strip -->
+    <div class="intro-strip">
+        <div class="container">
+            <div class="strip-inner">
+                <div class="strip-item">
+                    <i data-lucide="map-pin" width="18" height="18" class="strip-icon"></i>
+                    Korunní 47, Praha 2
+                </div>
+                <div class="strip-item">
+                    <i data-lucide="clock" width="18" height="18" class="strip-icon"></i>
+                    Tue – Sat, 9:00 – 19:00
+                </div>
+                <div class="strip-item">
+                    <i data-lucide="flame" width="18" height="18" class="strip-icon"></i>
+                    All materials included
+                </div>
+                <div class="strip-item">
+                    <i data-lucide="award" width="18" height="18" class="strip-icon"></i>
+                    Open to all levels
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Classes -->
+    <section class="classes" id="classes">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Our Offerings</span>
+                <div class="rule-ornament"><div class="ornament-dot"></div></div>
+                <h2>Classes &amp; Workshops</h2>
+                <p>Each course is structured to build genuine skill — not just produce objects. Small cohorts, attentive instruction.</p>
+            </div>
+            <div class="classes-grid">
+
+                <div class="class-card inner">
+                    <div class="card-icon">
+                        <i data-lucide="circle" width="20" height="20"></i>
+                    </div>
+                    <span class="card-level">All Levels</span>
+                    <h3>Foundations of the Wheel</h3>
+                    <p>Six-week course covering centering, opening, pulling, and collar. You will leave with a set of vessels and an understanding of form.</p>
+                    <div class="card-footer">
+                        <div class="card-price">3 200 Kč <small>/ course</small></div>
+                        <a href="#enrol">Enrol <i data-lucide="arrow-right" width="12" height="12"></i></a>
+                    </div>
+                </div>
+
+                <div class="class-card inner">
+                    <div class="card-icon">
+                        <i data-lucide="layers" width="20" height="20"></i>
+                    </div>
+                    <span class="card-level">Beginner – Intermediate</span>
+                    <h3>Hand-Building Intensive</h3>
+                    <p>Slab, coil, and pinch construction over four sessions. Ideal alongside wheel work or as a standalone introduction to form.</p>
+                    <div class="card-footer">
+                        <div class="card-price">1 900 Kč <small>/ course</small></div>
+                        <a href="#enrol">Enrol <i data-lucide="arrow-right" width="12" height="12"></i></a>
+                    </div>
+                </div>
+
+                <div class="class-card inner">
+                    <div class="card-icon">
+                        <i data-lucide="droplets" width="20" height="20"></i>
+                    </div>
+                    <span class="card-level">Intermediate</span>
+                    <h3>Glaze &amp; Surface</h3>
+                    <p>Understanding glaze chemistry, colour layering, wax resist, and slip decoration. A focused eight-hour workshop across two Saturdays.</p>
+                    <div class="card-footer">
+                        <div class="card-price">1 400 Kč <small>/ workshop</small></div>
+                        <a href="#enrol">Enrol <i data-lucide="arrow-right" width="12" height="12"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy -->
+    <section class="philosophy" id="philosophy">
+        <div class="container">
+            <div class="philosophy-grid">
+                <div class="philosophy-content">
+                    <span class="eyebrow">The Studio</span>
+                    <div class="rule-ornament"><div class="ornament-dot"></div></div>
+                    <h2>Craft as a patient practice</h2>
+                    <blockquote>"The pot is the potter — unhurried, attentive, honest."</blockquote>
+                    <p>We do not teach ceramics as a hobby. We teach it as a discipline that rewards sustained attention and tolerates no shortcuts. Clay remembers every hesitation and every conviction.</p>
+                    <p>Our studio is calm, unhurried, and equipped for serious work. Three electric wheels, two kick wheels, a slab roller, and kilns fired in earthenware, stoneware, and raku.</p>
+                    <a href="#schedule" class="btn btn-primary" style="margin-top: 1rem;">View Schedule</a>
+                </div>
+                <div class="philosophy-aside">
+                    <ul class="aside-list">
+                        <li class="inner">
+                            <i data-lucide="users" width="20" height="20" class="aside-icon"></i>
+                            <div>
+                                <strong>Small cohorts</strong>
+                                <span>Never more than 12 students per session. Every student receives individual attention at the wheel.</span>
+                            </div>
+                        </li>
+                        <li class="inner">
+                            <i data-lucide="package" width="20" height="20" class="aside-icon"></i>
+                            <div>
+                                <strong>Materials included</strong>
+                                <span>Stoneware and earthenware clay, underglazes, studio glazes, and kiln firings are all covered in course fees.</span>
+                            </div>
+                        </li>
+                        <li class="inner">
+                            <i data-lucide="repeat" width="20" height="20" class="aside-icon"></i>
+                            <div>
+                                <strong>Open studio access</strong>
+                                <span>Students enrolled in ongoing courses may use the studio independently during off-peak hours.</span>
+                            </div>
+                        </li>
+                        <li class="inner">
+                            <i data-lucide="book-open" width="20" height="20" class="aside-icon"></i>
+                            <div>
+                                <strong>Czech &amp; English taught</strong>
+                                <span>All courses are available in both languages. We also welcome Erasmus and international students.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <div class="schedule-header">
+                <div>
+                    <span class="eyebrow">April 2025</span>
+                    <div class="rule-ornament"><div class="ornament-dot"></div></div>
+                    <h2>Upcoming Sessions</h2>
+                </div>
+                <a href="#enrol" class="btn btn-secondary">
+                    <i data-lucide="calendar-plus" width="14" height="14"></i>
+                    Reserve a Spot
+                </a>
+            </div>
+            <div class="inner">
+                <table class="schedule-table" aria-label="Upcoming class schedule">
+                    <thead>
+                        <tr>
+                            <th scope="col">Class</th>
+                            <th scope="col">Day &amp; Time</th>
+                            <th scope="col">Dates</th>
+                            <th scope="col">Tutor</th>
+                            <th scope="col">Availability</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="td-class">Foundations of the Wheel</td>
+                            <td>Tuesday, 18:00 – 20:30</td>
+                            <td>1. 4. – 6. 5. 2025</td>
+                            <td>Jana Horáková</td>
+                            <td><span class="td-badge badge-available">4 places left</span></td>
+                        </tr>
+                        <tr>
+                            <td class="td-class">Foundations of the Wheel</td>
+                            <td>Saturday, 10:00 – 12:30</td>
+                            <td>5. 4. – 10. 5. 2025</td>
+                            <td>Tomáš Blecha</td>
+                            <td><span class="td-badge badge-few">2 places left</span></td>
+                        </tr>
+                        <tr>
+                            <td class="td-class">Hand-Building Intensive</td>
+                            <td>Thursday, 17:00 – 20:00</td>
+                            <td>3. 4. – 24. 4. 2025</td>
+                            <td>Jana Horáková</td>
+                            <td><span class="td-badge badge-available">Available</span></td>
+                        </tr>
+                        <tr>
+                            <td class="td-class">Glaze &amp; Surface</td>
+                            <td>Saturday, 10:00 – 14:00</td>
+                            <td>12. 4. &amp; 26. 4. 2025</td>
+                            <td>Tomáš Blecha</td>
+                            <td><span class="td-badge badge-full">Full</span></td>
+                        </tr>
+                        <tr>
+                            <td class="td-class">Glaze &amp; Surface</td>
+                            <td>Saturday, 10:00 – 14:00</td>
+                            <td>10. 5. &amp; 24. 5. 2025</td>
+                            <td>Tomáš Blecha</td>
+                            <td><span class="td-badge badge-available">Available</span></td>
+                        </tr>
+                        <tr>
+                            <td class="td-class">Raku Firing Day</td>
+                            <td>Sunday, 9:00 – 17:00</td>
+                            <td>27. 4. 2025</td>
+                            <td>Jana Horáková</td>
+                            <td><span class="td-badge badge-few">3 places left</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <span class="eyebrow">From Students</span>
+            <h2>What the clay teaches</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <blockquote>I arrived believing I had no patience. Six weeks later I understood that centering clay is simply a very honest form of listening.</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" aria-hidden="true"></div>
+                        <div>
+                            <strong>Markéta V.</strong>
+                            <span>Foundations of the Wheel, March 2025</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <blockquote>Jana teaches with a rigour I did not expect from a short course. My understanding of form and proportion changed after the very first session.</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" aria-hidden="true"></div>
+                        <div>
+                            <strong>Ondřej K.</strong>
+                            <span>Hand-Building Intensive, January 2025</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <blockquote>The glaze workshop demystified something I had been afraid of for years. I finally understand what I am doing — and why it sometimes fails.</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" aria-hidden="true"></div>
+                        <div>
+                            <strong>Eliška R.</strong>
+                            <span>Glaze &amp; Surface, February 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrol CTA -->
+    <section class="enrol" id="enrol">
+        <div class="container">
+            <div class="enrol-inner inner">
+                <span class="eyebrow">Reserve Your Place</span>
+                <div class="rule-ornament"><div class="ornament-dot"></div></div>
+                <h2>Begin with your hands</h2>
+                <p>Places are limited and fill quickly. Write to us, or come by the studio any open day — we are glad to show you around before you commit.</p>
+                <div class="enrol-actions">
+                    <a href="mailto:studio@atelierdusol.cz" class="btn btn-primary">
+                        <i data-lucide="mail" width="14" height="14"></i>
+                        Send an Enquiry
+                    </a>
+                    <a href="tel:+420733000000" class="btn btn-secondary">
+                        <i data-lucide="phone" width="14" height="14"></i>
+                        +420 733 000 000
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">Atelier <em>du Sol</em></div>
+                    <p>A working ceramic studio in Praha 2. Teaching wheel throwing, hand-building, and glaze since 2017.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram" width="16" height="16"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-lucide="facebook" width="16" height="16"></i></a>
+                        <a href="#" aria-label="Pinterest"><i data-lucide="image" width="16" height="16"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Classes</h4>
+                    <ul>
+                        <li><a href="#">Foundations</a></li>
+                        <li><a href="#">Hand-Building</a></li>
+                        <li><a href="#">Glaze &amp; Surface</a></li>
+                        <li><a href="#">Raku Day</a></li>
+                        <li><a href="#">Gift Vouchers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Studio</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Tutors</a></li>
+                        <li><a href="#">Open Studio</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Visit</h4>
+                    <ul>
+                        <li><a href="#">Korunní 47, Praha 2</a></li>
+                        <li><a href="#">Tue – Sat, 9 – 19</a></li>
+                        <li><a href="#">studio@atelierdusol.cz</a></li>
+                        <li><a href="#">+420 733 000 000</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Atelier du Sol, s.r.o. All rights reserved.</p>
+                <p>Privacy Policy · Terms of Use</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

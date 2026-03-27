@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum of Art Nouveau — Permanent Collection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg:           #faf8f2;
+            --inner-bg:     #ffffff;
+            --accent:       #6b705c;
+            --heading:      #2d2a24;
+            --body:         #6a6258;
+            --border:       #d6d0c4;
+            --border-light: #ece8df;
+            --radius:       6px;
+            --radius-lg:    12px;
+            --transition:   .3s ease;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+            background: var(--bg);
+            color: var(--body);
+            font-size: 15px;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* ─── NAV ──────────────────────────────────────── */
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--bg);
+            border-bottom: 1px solid var(--border-light);
+
+            .nav__inner {
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 0 2rem;
+                height: 64px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .nav__logo {
+                display: flex;
+                flex-direction: column;
+                gap: 1px;
+                text-decoration: none;
+
+                .nav__logo-eyebrow {
+                    font-size: 9px;
+                    font-weight: 500;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    color: var(--accent);
+                }
+
+                .nav__logo-name {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: var(--heading);
+                    line-height: 1.1;
+                }
+            }
+
+            .nav__links {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                list-style: none;
+
+                a {
+                    font-size: 13px;
+                    font-weight: 500;
+                    letter-spacing: .5px;
+                    color: var(--body);
+                    text-decoration: none;
+                    transition: color var(--transition);
+
+                    &:hover {
+                        color: var(--heading);
+                    }
+                }
+            }
+
+            .nav__cta {
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #fff;
+                background: var(--accent);
+                border: none;
+                padding: .55rem 1.25rem;
+                border-radius: var(--radius);
+                cursor: pointer;
+                text-decoration: none;
+                transition: opacity var(--transition);
+
+                &:hover {
+                    opacity: .85;
+                }
+            }
+        }
+
+        /* ─── BUTTONS ──────────────────────────────────── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .5rem;
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: .7rem 1.5rem;
+            border-radius: var(--radius);
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: background var(--transition), color var(--transition), opacity var(--transition), border-color var(--transition);
+
+            &--primary {
+                background: var(--accent);
+                color: #fff;
+                border-color: var(--accent);
+
+                &:hover {
+                    opacity: .85;
+                }
+            }
+
+            &--secondary {
+                background: transparent;
+                color: var(--accent);
+                border-color: var(--accent);
+
+                &:hover {
+                    background: var(--accent);
+                    color: #fff;
+                }
+            }
+        }
+
+        /* ─── HERO ─────────────────────────────────────── */
+        .hero {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 4rem 2rem 3rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+
+            .hero__content {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .hero__eyebrow {
+                font-size: 11px;
+                font-weight: 500;
+                letter-spacing: 2.5px;
+                text-transform: uppercase;
+                color: var(--accent);
+                display: flex;
+                align-items: center;
+                gap: .6rem;
+
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    width: 24px;
+                    height: 1px;
+                    background: var(--accent);
+                }
+            }
+
+            .hero__heading {
+                font-size: clamp(32px, 4vw, 48px);
+                font-weight: 700;
+                color: var(--heading);
+                line-height: 1.15;
+                letter-spacing: -.3px;
+
+                em {
+                    font-style: italic;
+                    font-weight: 600;
+                }
+            }
+
+            .hero__body {
+                font-size: 16px;
+                line-height: 1.7;
+                color: var(--body);
+                max-width: 44ch;
+            }
+
+            .hero__actions {
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
+                margin-top: .5rem;
+            }
+
+            .hero__image {
+                position: relative;
+                border-radius: var(--radius-lg);
+                overflow: hidden;
+                border: 1px solid var(--border);
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    transition: transform var(--transition);
+                }
+
+                &:hover img {
+                    transform: scale(1.02);
+                }
+
+                .hero__image-caption {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    padding: 1rem 1.25rem;
+                    background: linear-gradient(transparent, rgba(45,42,36,.55));
+                    font-size: 12px;
+                    font-style: italic;
+                    color: rgba(255,255,255,.85);
+                    letter-spacing: .2px;
+                }
+            }
+        }
+
+        /* ─── DIVIDER ──────────────────────────────────── */
+        .divider {
+            max-width: 1100px;
+            margin: .5rem auto;
+            padding: 0 2rem;
+
+            hr {
+                border: none;
+                border-top: 1px solid var(--border-light);
+            }
+        }
+
+        /* ─── STATS ────────────────────────────────────── */
+        .stats {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem 2.5rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: var(--border-light);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+
+            .stat {
+                background: var(--bg);
+                padding: 2rem 1.5rem;
+                display: flex;
+                flex-direction: column;
+                gap: .35rem;
+
+                &:first-child { border-radius: var(--radius-lg) 0 0 var(--radius-lg); }
+                &:last-child  { border-radius: 0 var(--radius-lg) var(--radius-lg) 0; }
+
+                .stat__value {
+                    font-size: 36px;
+                    font-weight: 700;
+                    color: var(--heading);
+                    line-height: 1;
+                }
+
+                .stat__label {
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                    color: var(--body);
+                }
+            }
+        }
+
+        /* ─── SECTION WRAPPER ──────────────────────────── */
+        .section {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section__header {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            margin-bottom: 2.5rem;
+            gap: 1rem;
+
+            .section__meta {
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+            }
+
+            .section__eyebrow {
+                font-size: 11px;
+                font-weight: 500;
+                letter-spacing: 2.5px;
+                text-transform: uppercase;
+                color: var(--accent);
+            }
+
+            .section__title {
+                font-size: 28px;
+                font-weight: 700;
+                color: var(--heading);
+                line-height: 1.2;
+            }
+        }
+
+        /* ─── EXHIBITIONS GRID ─────────────────────────── */
+        .exhibitions {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+
+            .card {
+                background: var(--inner-bg);
+                border: 1px solid var(--border);
+                border-radius: var(--radius-lg);
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                transition: box-shadow var(--transition), transform var(--transition);
+
+                &:hover {
+                    box-shadow: 0 8px 32px rgba(45,42,36,.08);
+                    transform: translateY(-2px);
+                }
+
+                .card__body {
+                    padding: 1.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5rem;
+                    flex: 1;
+                }
+
+                .card__tag {
+                    display: inline-block;
+                    align-self: flex-start;
+                    font-size: 10px;
+                    font-weight: 600;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                    color: var(--accent);
+                    background: rgba(107,112,92,.1);
+                    padding: .25rem .65rem;
+                    border-radius: 100px;
+                    margin-bottom: .25rem;
+                }
+
+                .card__date {
+                    font-size: 11px;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: var(--body);
+                    opacity: .7;
+                }
+
+                .card__title {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: var(--heading);
+                    line-height: 1.25;
+                }
+
+                .card__desc {
+                    font-size: 14px;
+                    line-height: 1.65;
+                    color: var(--body);
+                    margin-top: .25rem;
+                }
+
+                .card__footer {
+                    padding: 1rem 1.5rem 1.5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-top: 1px solid var(--border-light);
+                    margin-top: auto;
+
+                    .card__link {
+                        font-size: 12px;
+                        font-weight: 600;
+                        letter-spacing: .8px;
+                        text-transform: uppercase;
+                        color: var(--accent);
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        gap: .4rem;
+                        transition: gap var(--transition);
+
+                        &:hover {
+                            gap: .7rem;
+                        }
+                    }
+
+                    .card__rooms {
+                        font-size: 12px;
+                        color: var(--body);
+                        opacity: .65;
+                        display: flex;
+                        align-items: center;
+                        gap: .3rem;
+                    }
+                }
+
+                &--featured {
+                    grid-column: span 2;
+
+                    .card__body {
+                        padding: 2rem;
+                    }
+
+                    .card__title {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+
+        /* ─── HIGHLIGHT PANEL ──────────────────────────── */
+        .highlight-wrap {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+
+            .highlight {
+                background: var(--inner-bg);
+                border: 1px solid var(--border);
+                border-radius: var(--radius-lg);
+                overflow: hidden;
+                display: grid;
+                grid-template-columns: 1fr 400px;
+
+                .highlight__content {
+                    padding: 3.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.25rem;
+                    justify-content: center;
+
+                    .highlight__eyebrow {
+                        font-size: 11px;
+                        font-weight: 500;
+                        letter-spacing: 2.5px;
+                        text-transform: uppercase;
+                        color: var(--accent);
+                    }
+
+                    .highlight__heading {
+                        font-size: 28px;
+                        font-weight: 700;
+                        color: var(--heading);
+                        line-height: 1.25;
+                    }
+
+                    .highlight__body {
+                        font-size: 15px;
+                        line-height: 1.7;
+                        color: var(--body);
+                        max-width: 48ch;
+                    }
+
+                    .highlight__meta {
+                        display: flex;
+                        gap: 2.5rem;
+                        margin-top: .5rem;
+
+                        .meta__item {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .2rem;
+
+                            .meta__label {
+                                font-size: 10px;
+                                font-weight: 600;
+                                letter-spacing: 1.5px;
+                                text-transform: uppercase;
+                                color: var(--body);
+                                opacity: .65;
+                            }
+
+                            .meta__value {
+                                font-size: 14px;
+                                font-weight: 600;
+                                color: var(--heading);
+                            }
+                        }
+                    }
+                }
+
+                .highlight__aside {
+                    background: var(--border-light);
+                    padding: 3rem 2.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5rem;
+                    justify-content: center;
+
+                    .aside__heading {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: var(--heading);
+                        letter-spacing: .3px;
+                    }
+
+                    .aside__item {
+                        display: flex;
+                        gap: 1rem;
+                        align-items: flex-start;
+                        padding-bottom: 1.25rem;
+                        border-bottom: 1px solid var(--border);
+
+                        &:last-child {
+                            border-bottom: none;
+                            padding-bottom: 0;
+                        }
+
+                        .aside__icon {
+                            width: 36px;
+                            height: 36px;
+                            border-radius: 50%;
+                            background: rgba(107,112,92,.12);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-shrink: 0;
+                            color: var(--accent);
+                        }
+
+                        .aside__label {
+                            font-size: 13px;
+                            font-weight: 600;
+                            color: var(--heading);
+                            line-height: 1.3;
+                        }
+
+                        .aside__sub {
+                            font-size: 12px;
+                            color: var(--body);
+                            opacity: .75;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ─── VISIT ────────────────────────────────────── */
+        .visit {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+
+            .visit__card {
+                background: var(--inner-bg);
+                border: 1px solid var(--border);
+                border-radius: var(--radius-lg);
+                padding: 2rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                .visit__icon {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: var(--radius);
+                    background: rgba(107,112,92,.1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--accent);
+                }
+
+                .visit__title {
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: var(--heading);
+                    line-height: 1.25;
+                }
+
+                .visit__body {
+                    font-size: 14px;
+                    line-height: 1.65;
+                    color: var(--body);
+                    flex: 1;
+                }
+
+                .visit__detail {
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: var(--accent);
+                    display: flex;
+                    align-items: center;
+                    gap: .4rem;
+                    letter-spacing: .3px;
+                }
+            }
+        }
+
+        /* ─── NEWSLETTER ───────────────────────────────── */
+        .newsletter-wrap {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem 5rem;
+
+            .newsletter {
+                background: var(--heading);
+                border-radius: var(--radius-lg);
+                padding: 3.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 3rem;
+
+                .newsletter__eyebrow {
+                    font-size: 11px;
+                    font-weight: 500;
+                    letter-spacing: 2.5px;
+                    text-transform: uppercase;
+                    color: rgba(250,248,242,.55);
+                    margin-bottom: .6rem;
+                }
+
+                .newsletter__heading {
+                    font-size: 26px;
+                    font-weight: 700;
+                    color: var(--bg);
+                    line-height: 1.25;
+                }
+
+                .newsletter__sub {
+                    font-size: 14px;
+                    color: rgba(250,248,242,.6);
+                    margin-top: .4rem;
+                }
+
+                .newsletter__form {
+                    display: flex;
+                    gap: .75rem;
+                    flex-shrink: 0;
+
+                    input[type="email"] {
+                        font-family: inherit;
+                        font-size: 14px;
+                        color: var(--heading);
+                        background: var(--bg);
+                        border: 1px solid transparent;
+                        border-radius: var(--radius);
+                        padding: .7rem 1.25rem;
+                        width: 260px;
+                        outline: none;
+                        transition: border-color var(--transition);
+
+                        &::placeholder {
+                            color: var(--body);
+                            opacity: .6;
+                        }
+
+                        &:focus {
+                            border-color: var(--accent);
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ─── FOOTER ───────────────────────────────────── */
+        .footer {
+            border-top: 1px solid var(--border-light);
+
+            .footer__inner {
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 3rem 2rem;
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr 1fr;
+                gap: 3rem;
+            }
+
+            .footer__brand {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                .footer__logo {
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: var(--heading);
+                }
+
+                .footer__tagline {
+                    font-size: 14px;
+                    font-style: italic;
+                    color: var(--body);
+                    line-height: 1.6;
+                    max-width: 28ch;
+                }
+
+                .footer__social {
+                    display: flex;
+                    gap: .75rem;
+                    margin-top: .25rem;
+
+                    a {
+                        width: 36px;
+                        height: 36px;
+                        border: 1px solid var(--border);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: var(--body);
+                        text-decoration: none;
+                        transition: background var(--transition), border-color var(--transition), color var(--transition);
+
+                        &:hover {
+                            background: var(--accent);
+                            border-color: var(--accent);
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            .footer__col {
+                display: flex;
+                flex-direction: column;
+                gap: .75rem;
+
+                .footer__col-title {
+                    font-size: 11px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: var(--heading);
+                    margin-bottom: .25rem;
+                }
+
+                a {
+                    font-size: 14px;
+                    color: var(--body);
+                    text-decoration: none;
+                    transition: color var(--transition);
+
+                    &:hover {
+                        color: var(--heading);
+                    }
+                }
+            }
+
+            .footer__bottom {
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 1.5rem 2rem;
+                border-top: 1px solid var(--border-light);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1rem;
+
+                p {
+                    font-size: 12px;
+                    color: var(--body);
+                    opacity: .65;
+                }
+            }
+        }
+
+        /* ─── RESPONSIVE ───────────────────────────────── */
+        @media (max-width: 1024px) {
+            .hero {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+
+                .hero__image { order: -1; }
+                .hero__body  { max-width: 100%; }
+            }
+
+            .exhibitions {
+                grid-template-columns: 1fr 1fr;
+
+                .card--featured { grid-column: span 2; }
+            }
+
+            .highlight-wrap .highlight {
+                grid-template-columns: 1fr;
+
+                .highlight__aside { border-top: 1px solid var(--border); }
+            }
+
+            .footer__inner {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav .nav__links { display: none; }
+
+            .stats {
+                grid-template-columns: 1fr 1fr;
+
+                .stat:first-child { border-radius: var(--radius-lg) 0 0 0; }
+                .stat:last-child  { border-radius: 0 0 var(--radius-lg) 0; }
+            }
+
+            .exhibitions {
+                grid-template-columns: 1fr;
+
+                .card--featured { grid-column: span 1; }
+            }
+
+            .visit { grid-template-columns: 1fr; }
+
+            .newsletter-wrap .newsletter {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 2.5rem;
+
+                .newsletter__form {
+                    flex-direction: column;
+                    width: 100%;
+
+                    input[type="email"] { width: 100%; }
+                }
+            }
+
+            .footer__inner { grid-template-columns: 1fr; }
+
+            .section__header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav" aria-label="Primary navigation">
+        <div class="nav__inner">
+            <a href="/" class="nav__logo" aria-label="Museum of Art Nouveau — home">
+                <span class="nav__logo-eyebrow">Museum of</span>
+                <span class="nav__logo-name">Art Nouveau</span>
+            </a>
+            <ul class="nav__links" role="list">
+                <li><a href="#exhibitions">Exhibitions</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#programme">Programme</a></li>
+                <li><a href="#visit">Visit</a></li>
+                <li><a href="#shop">Shop</a></li>
+            </ul>
+            <a href="#tickets" class="nav__cta">Get Tickets</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero__content">
+            <span class="hero__eyebrow">Permanent Collection</span>
+            <h1 class="hero__heading" id="hero-heading">
+                The organic beauty of <em>fin de siècle</em>
+            </h1>
+            <p class="hero__body">
+                Art Nouveau brought a new understanding of form, line, and material at the turn
+                of the twentieth century. Our collections trace that vision in full depth —
+                from stained glass and jewellery to typography and architectural ornament.
+            </p>
+            <div class="hero__actions">
+                <a href="#exhibitions" class="btn btn--primary">
+                    <i data-lucide="compass" width="14" height="14"></i>
+                    Explore the collection
+                </a>
+                <a href="#visit" class="btn btn--secondary">Plan your visit</a>
+            </div>
+        </div>
+        <figure class="hero__image">
+            <img
+                src="/assets/imgs/art-and-design-movements/art-nouveau/museum-stained-glass-gallery.jpg"
+                alt="A museum Art Nouveau gallery with a large stained glass panel mounted on a white wall, backlit to reveal flowing floral patterns in amber, green, and rose. Polished wooden floors, a single visitor viewed from behind. Soft ambient lighting, architectural photography, photorealistic."
+                width="1024"
+                height="768"
+                loading="lazy"
+            >
+            <figcaption class="hero__image-caption">
+                Stained Glass Gallery, ground floor — collection 1895–1915
+            </figcaption>
+        </figure>
+    </section>
+
+    <!-- STATS -->
+    <div class="divider"><hr></div>
+    <div class="stats" role="region" aria-label="Museum at a glance">
+        <div class="stat">
+            <span class="stat__value">4,200+</span>
+            <span class="stat__label">Collection objects</span>
+        </div>
+        <div class="stat">
+            <span class="stat__value">12</span>
+            <span class="stat__label">Permanent galleries</span>
+        </div>
+        <div class="stat">
+            <span class="stat__value">1898</span>
+            <span class="stat__label">Year founded</span>
+        </div>
+        <div class="stat">
+            <span class="stat__value">38 countries</span>
+            <span class="stat__label">Origins represented</span>
+        </div>
+    </div>
+    <div class="divider"><hr></div>
+
+    <!-- EXHIBITIONS -->
+    <section class="section" id="exhibitions" aria-labelledby="exhibitions-heading">
+        <div class="section__header">
+            <div class="section__meta">
+                <span class="section__eyebrow">On now</span>
+                <h2 class="section__title" id="exhibitions-heading">Exhibitions &amp; Galleries</h2>
+            </div>
+            <a href="/exhibitions" class="btn btn--secondary">All exhibitions</a>
+        </div>
+
+        <div class="exhibitions">
+            <article class="card card--featured">
+                <div class="card__body">
+                    <span class="card__tag">Permanent</span>
+                    <p class="card__date">Year-round — Galleries A1–A4</p>
+                    <h3 class="card__title">Light through Glass — Stained Glass of the European Art Nouveau</h3>
+                    <p class="card__desc">
+                        An extensive collection of stained glass from the workshops of Tiffany, Gallé,
+                        and their Central European contemporaries. Each panel is installed so that
+                        natural light passes through it across the course of the day, continuously
+                        transforming the character of the space.
+                    </p>
+                </div>
+                <div class="card__footer">
+                    <a href="/exhibitions/stained-glass" class="card__link">
+                        View exhibition
+                        <i data-lucide="arrow-right" width="13" height="13"></i>
+                    </a>
+                    <span class="card__rooms">
+                        <i data-lucide="layout-grid" width="12" height="12"></i>
+                        4 galleries
+                    </span>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__body">
+                    <span class="card__tag">Temporary</span>
+                    <p class="card__date">15 March 2026 — 31 August 2026</p>
+                    <h3 class="card__title">Alphonse Mucha — Posters &amp; Decorative Panels</h3>
+                    <p class="card__desc">
+                        A selection from the iconic output of the Czech master of Art Nouveau,
+                        supplemented by study materials and period photographs of his Parisian studio.
+                    </p>
+                </div>
+                <div class="card__footer">
+                    <a href="/exhibitions/mucha" class="card__link">
+                        View exhibition
+                        <i data-lucide="arrow-right" width="13" height="13"></i>
+                    </a>
+                    <span class="card__rooms">
+                        <i data-lucide="layout-grid" width="12" height="12"></i>
+                        2 galleries
+                    </span>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__body">
+                    <span class="card__tag">Thematic</span>
+                    <p class="card__date">1 June 2026 — 30 November 2026</p>
+                    <h3 class="card__title">Organic Form — Jewellery &amp; Metalwork</h3>
+                    <p class="card__desc">
+                        Gold and silverwork by Lalique and his peers — nature as the primary source
+                        of formal inspiration, rendered in enamel, horn, and precious stone.
+                    </p>
+                </div>
+                <div class="card__footer">
+                    <a href="/exhibitions/jewellery" class="card__link">
+                        View exhibition
+                        <i data-lucide="arrow-right" width="13" height="13"></i>
+                    </a>
+                    <span class="card__rooms">
+                        <i data-lucide="layout-grid" width="12" height="12"></i>
+                        1 gallery
+                    </span>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__body">
+                    <span class="card__tag">Permanent</span>
+                    <p class="card__date">Year-round — Gallery C2</p>
+                    <h3 class="card__title">Book Typography &amp; Poster Art</h3>
+                    <p class="card__desc">
+                        Art Nouveau transformed the way letterform shares space with image.
+                        A curated selection of prints, posters, and bindings from the years 1890–1910.
+                    </p>
+                </div>
+                <div class="card__footer">
+                    <a href="/exhibitions/typography" class="card__link">
+                        View exhibition
+                        <i data-lucide="arrow-right" width="13" height="13"></i>
+                    </a>
+                    <span class="card__rooms">
+                        <i data-lucide="layout-grid" width="12" height="12"></i>
+                        1 gallery
+                    </span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- HIGHLIGHT PANEL -->
+    <div class="highlight-wrap">
+        <div class="highlight">
+            <div class="highlight__content">
+                <span class="highlight__eyebrow">New acquisition</span>
+                <h2 class="highlight__heading">
+                    An Art Nouveau salon from a Viennese villa — an interior intact
+                </h2>
+                <p class="highlight__body">
+                    After two years of conservation work, we present a fully preserved salon
+                    interior from 1903, relocated from a private Viennese villa. Furniture,
+                    wallcoverings, light fittings, and decorative objects form a rare, coherent whole.
+                </p>
+                <div class="highlight__meta">
+                    <div class="meta__item">
+                        <span class="meta__label">Opens</span>
+                        <span class="meta__value">12 April 2026</span>
+                    </div>
+                    <div class="meta__item">
+                        <span class="meta__label">Location</span>
+                        <span class="meta__value">Gallery B3, first floor</span>
+                    </div>
+                    <div class="meta__item">
+                        <span class="meta__label">Admission</span>
+                        <span class="meta__value">Included with entry</span>
+                    </div>
+                </div>
+                <a href="/collection/viennese-salon" class="btn btn--primary" style="margin-top:.5rem; align-self:flex-start;">
+                    About the acquisition
+                </a>
+            </div>
+            <aside class="highlight__aside" aria-label="Practical information">
+                <h3 class="aside__heading">Practical information</h3>
+                <div class="aside__item">
+                    <div class="aside__icon">
+                        <i data-lucide="clock" width="16" height="16"></i>
+                    </div>
+                    <div>
+                        <div class="aside__label">Opening hours</div>
+                        <div class="aside__sub">Tue–Sun, 10:00–18:00</div>
+                    </div>
+                </div>
+                <div class="aside__item">
+                    <div class="aside__icon">
+                        <i data-lucide="ticket" width="16" height="16"></i>
+                    </div>
+                    <div>
+                        <div class="aside__label">Admission</div>
+                        <div class="aside__sub">Adults £18 — Concessions £9</div>
+                    </div>
+                </div>
+                <div class="aside__item">
+                    <div class="aside__icon">
+                        <i data-lucide="map-pin" width="16" height="16"></i>
+                    </div>
+                    <div>
+                        <div class="aside__label">Address</div>
+                        <div class="aside__sub">12 Liberty Square, London</div>
+                    </div>
+                </div>
+                <div class="aside__item">
+                    <div class="aside__icon">
+                        <i data-lucide="users" width="16" height="16"></i>
+                    </div>
+                    <div>
+                        <div class="aside__label">Groups &amp; schools</div>
+                        <div class="aside__sub">Book online or at the front desk</div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- VISIT -->
+    <section class="section" id="visit" aria-labelledby="visit-heading" style="padding-top:0;">
+        <div class="section__header">
+            <div class="section__meta">
+                <span class="section__eyebrow">Plan your visit</span>
+                <h2 class="section__title" id="visit-heading">Everything you need to know</h2>
+            </div>
+        </div>
+        <div class="visit">
+            <div class="visit__card">
+                <div class="visit__icon">
+                    <i data-lucide="compass" width="20" height="20"></i>
+                </div>
+                <h3 class="visit__title">Curator-led Tours</h3>
+                <p class="visit__body">
+                    Guided tours with a member of the curatorial team run every Saturday
+                    at 11:00 and 14:00. Duration approximately 75 minutes.
+                    Advance booking required.
+                </p>
+                <span class="visit__detail">
+                    <i data-lucide="calendar" width="13" height="13"></i>
+                    Every Saturday
+                </span>
+            </div>
+            <div class="visit__card">
+                <div class="visit__icon">
+                    <i data-lucide="headphones" width="20" height="20"></i>
+                </div>
+                <h3 class="visit__title">Audio Guide</h3>
+                <p class="visit__body">
+                    Download the app or borrow a device at the front desk. Available in English,
+                    French, German, and Spanish. Covers 48 stops across all galleries.
+                </p>
+                <span class="visit__detail">
+                    <i data-lucide="smartphone" width="13" height="13"></i>
+                    iOS &amp; Android
+                </span>
+            </div>
+            <div class="visit__card">
+                <div class="visit__icon">
+                    <i data-lucide="accessibility" width="20" height="20"></i>
+                </div>
+                <h3 class="visit__title">Accessibility</h3>
+                <p class="visit__body">
+                    All exhibition spaces are fully step-free. Lifts, wheelchairs, and hearing
+                    loops are available throughout the building. Assistance dogs are welcome.
+                </p>
+                <span class="visit__detail">
+                    <i data-lucide="check-circle" width="13" height="13"></i>
+                    Fully accessible
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <div class="newsletter-wrap">
+        <div class="newsletter">
+            <div>
+                <p class="newsletter__eyebrow">Stay informed</p>
+                <h2 class="newsletter__heading">Be the first to hear about new exhibitions</h2>
+                <p class="newsletter__sub">Sent approximately once a month. No noise, no spam.</p>
+            </div>
+            <div class="newsletter__form">
+                <label for="email-input" class="sr-only">Your email address</label>
+                <input
+                    type="email"
+                    id="email-input"
+                    placeholder="your@email.com"
+                    autocomplete="email"
+                >
+                <button class="btn btn--primary" type="button">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <span class="footer__logo">Museum of Art Nouveau</span>
+                <p class="footer__tagline">
+                    Form, line, and material in dialogue with nature — since 1898.
+                </p>
+                <nav class="footer__social" aria-label="Social media">
+                    <a href="#" aria-label="Instagram">
+                        <i data-lucide="instagram" width="15" height="15"></i>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <i data-lucide="facebook" width="15" height="15"></i>
+                    </a>
+                    <a href="#" aria-label="X / Twitter">
+                        <i data-lucide="twitter" width="15" height="15"></i>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <i data-lucide="youtube" width="15" height="15"></i>
+                    </a>
+                </nav>
+            </div>
+            <div class="footer__col">
+                <span class="footer__col-title">Visit</span>
+                <a href="/visit">Opening hours</a>
+                <a href="/tickets">Tickets &amp; pricing</a>
+                <a href="/access">Accessibility</a>
+                <a href="/directions">Getting here</a>
+                <a href="/cloakroom">Cloakroom &amp; facilities</a>
+            </div>
+            <div class="footer__col">
+                <span class="footer__col-title">Explore</span>
+                <a href="/exhibitions">Exhibitions</a>
+                <a href="/collection">Collection</a>
+                <a href="/research">Research</a>
+                <a href="/archive">Archive</a>
+                <a href="/publications">Publications</a>
+            </div>
+            <div class="footer__col">
+                <span class="footer__col-title">About</span>
+                <a href="/about">About the museum</a>
+                <a href="/news">News</a>
+                <a href="/support">Support us</a>
+                <a href="/press">Press</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2026 Museum of Art Nouveau. All rights reserved.</p>
+            <p>Privacy policy · Cookie settings · Accessibility statement</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
