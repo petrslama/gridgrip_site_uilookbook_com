@@ -1,0 +1,100 @@
+{
+	"fu_type": "o_style_guide",
+	"fu_label": "Style Guide",
+	"fu_row__labels": [
+		{
+			"fu_label": "Style Guide"
+		},
+		{
+			"fu_label": "[a_h2]"
+		}
+	],
+	"fields": [
+		{
+			"fu_type": "from_definition",
+			"definition": "a_fu_type"
+		},
+		{
+			"fu_type": "tabs",
+			"tabs": [
+				{
+					"fu_label": "Content",
+					"fields": [
+						{
+							"fu_type": "from_definition",
+							"definition": "m_section_title"
+						},
+						{
+							"fu_type": "text",
+							"fu_label": "Copy Label",
+							"fu_name": "copy_label",
+							"fu_placeholder": "Click to copy prompt"
+						},
+						{
+							"fu_type": "text",
+							"fu_label": "Copied Label",
+							"fu_name": "copied_label",
+							"fu_placeholder": "Prompt copied"
+						},
+						{
+							"fu_type": "repeater_single",
+							"fu_label": "Principles",
+							"fu_name": "items",
+							"fu_repeater__labels": [
+								{
+									"fu_label": "Principle"
+								},
+								{
+									"fu_label": "[a_h3]"
+								}
+							],
+							"templates": [
+								{
+									"fu_type": "principle",
+									"fu_label": "Principle",
+									"fu_row__labels": [
+										{
+											"fu_label": "[a_h3]"
+										}
+									],
+									"fields": [
+										{
+											"fu_type": "from_definition",
+											"definition": "a_fu_type"
+										},
+										{
+											"fu_type": "from_definition",
+											"definition": "a_image_cover"
+										},
+										{
+											"fu_type": "textarea",
+											"fu_label": "Prompt",
+											"fu_name": "prompt"
+										},
+										{
+											"fu_type": "from_definition",
+											"definition": "a_h3"
+										},
+										{
+											"fu_type": "from_definition",
+											"definition": "a_description"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fu_label": "Settings",
+					"fields": [
+						{
+							"fu_type": "from_definition",
+							"definition": "m_section_settings"
+						}
+					]
+				}
+			]
+		}
+	]
+}

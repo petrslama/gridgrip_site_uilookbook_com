@@ -1,0 +1,7 @@
+.a_icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-color: currentColor;
+	mask: var(--icon) center / contain no-repeat;
+}

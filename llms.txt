@@ -1,27 +1,58 @@
-# Example Company
+# UI Lookbook
 
-> Short one-line description of what the company/website does.
+> Design style encyclopedia — color palettes, typography, design principles, and AI prompts for 333+ UI styles.
 
 ## About
 
-A few sentences about the company, its mission, and what visitors will find on the site.
+UI Lookbook documents visual and UI design styles from across design history, cultural movements, and modern web trends. Each style page includes curated color palettes, font recommendations, design principles, use cases, historical context, and ready-to-use AI prompts for generating designs in that style.
 
 ## Main Pages
 
-- [Home](https://www.example.com/): Brief description
-- [About](https://www.example.com/about/): Brief description
-- [Services](https://www.example.com/services/): Brief description
-- [Blog](https://www.example.com/blog/): Brief description
-- [Contact](https://www.example.com/contact/): Brief description
+- [Home](https://uilookbook.com/): Browse all design styles organized by category
+- [Sitemap](https://uilookbook.com/sitemap/): Full list of all style pages
 
-## Key Facts
+## Categories (32)
 
-- Founded: 2020
-- Location: Prague, Czech Republic
-- Industry: ...
+- Retro & Nostalgia (20 styles): 70s, 80s, 90s, synthwave, pixel art, VHS/CRT, Y2K, and more
+- Cultural & Regional (8): Japanese, Chinese, Korean, Swiss, Scandinavian, Dutch, and more
+- Art & Design Movements (16): Art Deco, Art Nouveau, Bauhaus, Constructivism, and more
+- Flat & Material (16): Flat design, Material Design, and related styles
+- Morphism & Surface (15): Glassmorphism, neumorphism, claymorphism, and more
+- Experimental & Avant-Garde (15): Boundary-pushing design experiments
+- Heavy Animation & Motion (15): Motion-first design approaches
+- Subculture & Aesthetic (21): Cottagecore, cyberpunk, vaporwave, and more
+- Themed & Skeuomorphic (14): Real-world material mimicry and themed design
+- Illustrated & Animated (13): Illustration and animation-forward styles
+- Typography-Driven (13): Type-first design approaches
+- Navigation & Interaction (11): Interaction pattern-focused styles
+- 3D & Spatial (10): 3D elements and spatial design
+- AI & Generative Design (10): AI-influenced and generative design styles
+- Memphis & Maximalism (10): Bold, pattern-heavy, maximalist styles
+- Organic & Natural (10): Nature-inspired and organic design
+- Scroll & Layout (10): Scroll-driven and layout-focused design
+- Gradient & Color (9): Gradient-heavy and color-forward styles
+- Luxury & Prestige (9): High-end, editorial, and premium styles
+- Brutalism Family (8): Web brutalism, neo-brutalism, and related styles
+- Card, Play & Component (8): Card-based and component-driven design
+- Dark & Moody (8): Dark themes and atmospheric design
+- Data & Visualization (8): Dashboard and data visualization styles
+- Geometric & Grid-Based (8): Grid systems and geometric patterns
+- Minimalist & Spacious (8): Clean, whitespace-driven design styles
+- Photo & Media-Driven (8): Photography and media-forward design
+- Accessibility & Inclusive (7): Accessibility-first design approaches
+- E-Commerce & SaaS (7): Commercial and product-focused styles
+- IndieWeb & Personal (6): Personal web and indie design
+- Sustainable & Ethical (6): Eco-conscious and ethical design
+- Gaming & Interactive (3): Game-inspired UI design
+- Texture & Pattern (3): Texture and pattern-driven design
 
-## Contact
+## What Each Style Page Contains
 
-- Email: info@example.com
-- Phone: +420 ...
-- Address: ...
+- Color palettes (3 palettes per style, with hex codes and usage guidance)
+- Typography recommendations (heading and text fonts, Google + system)
+- Design principles (6 principles with explanations)
+- Use cases (industries and contexts where the style works best)
+- AI prompt (ready-to-use prompt for generating designs in this style)
+- History (origins, peak era, modern revival)
+- Example screenshots (AI-generated example UIs)
+- Similar styles (related design styles to explore)

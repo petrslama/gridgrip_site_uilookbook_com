@@ -1,0 +1,87 @@
+{
+	"fu_type": "o_design_images",
+	"fu_label": "Design Images",
+	"fu_row__labels": [
+		{
+			"fu_label": "Design Images"
+		},
+		{
+			"fu_label": "[a_h2]"
+		}
+	],
+	"fields": [
+		{
+			"fu_type": "from_definition",
+			"definition": "a_fu_type"
+		},
+		{
+			"fu_type": "tabs",
+			"tabs": [
+				{
+					"fu_label": "Content",
+					"fields": [
+						{
+							"fu_type": "from_definition",
+							"definition": "m_section_title"
+						},
+						{
+							"fu_type": "repeater_single",
+							"fu_label": "Images",
+							"fu_name": "items",
+							"fu_repeater__labels": [
+								{
+									"fu_label": "Image"
+								},
+								{
+									"fu_label": "Alt"
+								}
+							],
+							"templates": [
+								{
+									"fu_row__labels": [
+										{
+											"fu_label": "[src]"
+										},
+										{
+											"fu_label": "[alt]"
+										}
+									],
+									"fields": [
+										{
+											"fu_type": "from_definition",
+											"definition": "a_image"
+										},
+										{
+											"fu_type": "repeater_array",
+											"fu_label": "Tags",
+											"fu_name": "tags"
+										},
+										{
+											"fu_type": "text",
+											"fu_label": "Ignore",
+											"fu_name": "ignore"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fu_label": "Settings",
+					"fields": [
+						{
+							"fu_type": "from_definition",
+							"definition": "m_section_settings"
+						},
+						{
+							"fu_type": "text",
+							"fu_label": "Ignore",
+							"fu_name": "ignore"
+						}
+					]
+				}
+			]
+		}
+	]
+}

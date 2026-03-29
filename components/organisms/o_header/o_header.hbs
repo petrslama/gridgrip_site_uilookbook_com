@@ -1,0 +1,23 @@
+<section class="o_header container">
+	<div>
+		{{> a_logo }}
+	</div>
+	{{> a_theme_toggle }}
+	<button type="button" class="menu-toggle"
+		{{#if aria_label}}
+		 aria-label="{{aria_label}}"
+		{{/if}}
+		 aria-expanded="false"
+		 aria-controls="main-nav">
+		{{> a_icon icon='menu' }}
+		{{> a_icon icon='x' }}
+	</button>
+</section>
+<nav id="main-nav" class="container">
+	{{#each navigation}}
+	<a href="{{href}}"
+		{{#if target}}
+		 target="{{target}}"
+		{{/if}}>{{label}}</a>
+	{{/each}}
+</nav>

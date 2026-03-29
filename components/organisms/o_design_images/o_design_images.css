@@ -1,0 +1,27 @@
+.o_design_images {
+
+	.a_description {
+		max-width: 100%;
+	}
+
+	.design {
+		border: 1px solid var(--color_border);
+		border-radius: var(--radius-md);
+		overflow: hidden;
+		background: var(--bg_surface);
+	}
+
+	.tags {
+		padding: .5rem 1rem 1rem;
+	}
+
+	.tag {
+		font-size: .75rem;
+		line-height: 1;
+		color: var(--text_secondary);
+
+		&:not(:last-child):after{
+			content: ',';
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.a_theme_toggle {
+	display: block;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	padding: 0;
+	color: var(--color_text-muted);
+	align-self: center;
+	font-size: 0;
+
+	&:hover {
+		color: var(--color_text);
+	}
+
+	&.active {
+		color: var(--color_text);
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			inset: -.5rem;
+			border-radius: var(--radius-md);
+			background: currentColor;
+			opacity: .1;
+		}
+	}
+}

@@ -1,73 +1,77 @@
 # Site: uilookbook_com
 
-UI Lookbook — design style showcase. Template: `uilookbook`.
+UI Lookbook — design style encyclopedia. Template: `inSite`.
 
 ## Style Detail Pages
 
-Pages are organized into categories (e.g. `retro-and-nostalgia/`, `cultural-and-regional/`, `flat-and-material/`).
+7 complete styles in `src/` across 3 categories. 328 incomplete styles in `todo/` across 32 categories. Each page follows `style-template.json`.
 
 ### Page structure
-1. `o_breadcrumbs` — navigation breadcrumb
-2. `o_hero` — hero with image, eyebrow, title, description, buttons
-3. `o_color_palette` — primary palette + alt palettes
-4. `o_typography` — fonts + alternatives
-5. `o_design_principles` — 6 principles with icons
-6. `o_use_cases` — ideal use cases list
-7. `o_history` — 3 paragraphs of history
+1. `o_breadcrumbs` — Home > Category > Style
+2. `o_hero` — image, eyebrow keywords, h1, description, anchor buttons
+3. `o_style_guide` "When to Use" — 3 cards (icon, title, description) with industry/use case examples
+4. `o_design_images` "Built From This" — AI prompt in `a_description` + 4 gallery example screenshots with tags
+5. `o_style_guide` "Design Principles" — 6 cards explaining core design principles
+6. `o_color_palette` x3 — primary palette (6 colors) + 2 alternates (5 colors each), each with `section_id`
+7. `o_typography` "Heading Fonts" — 8 fonts (5 Google, 3 system) with `section_id: "typography"`
+8. `o_typography` "Text Fonts" — 5 fonts (2 Google, 3 system)
+9. `o_style_guide` "History" — 3 cards (origins, peak era, modern revival)
+10. `o_faq` — 6 questions (AI prompt, industries, palette choice, when to avoid, cultural/historical, fonts)
+11. `o_design_images` "Similar Designs" — links to related styles
 
-### Theme toggle (header)
-4 modes: Light (sun), Dark (moon), Auto (monitor), Themed/Palette (palette). Stored in `localStorage.theme` as `light` / `dark` / `palette` / removed for auto. Adds class to `<html>`.
+### Site-level components
+This site has its own `components/` directory that overrides the `inSite` template components. Edit these when making site-specific changes.
 
 ### Google Fonts in `head_codes`
-Each page must load **all** Google Fonts referenced in its `o_typography` sections (heading + text fonts) via separate `<link>` tags in `settings.head_codes`. Rules:
-- One `<link>` per font family
-- `"note": "Google: {Font Name}"` prefix to distinguish from other head codes
-- Only load actually used `font-weight` values — check the `css` field in each `o_typography` font entry + the hero CSS for weights used there
-- The `o_typography` component renders fonts via inline `style` but does **not** load them — fonts must be in `head_codes` or they fall back to system fonts
-- System fonts (Georgia, Palatino, etc.) don't need a `<link>`
+Each page loads fonts via `settings.head_codes` with a single `<link>` tag:
+```json
+{
+    "note": "Google Fonts",
+    "code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family={Font1}&family={Font2}&display=swap\">"
+}
+```
+Only load Google Fonts actually referenced in `o_typography` sections. System fonts (Georgia, Palatino, etc.) don't need loading. Only include `font-weight` values actually used in the `css` fields.
 
 ### Palette mode CSS
-Each per-style CSS file (`assets/styles/{category}/{slug}.css`) ends with a `html.palette body { ... }` block. See template CLAUDE.md for the full structure. Values come from the page's primary color palette + first heading/text fonts. Beyond the standard custom properties, add extra overrides if the default template styling clashes with the style's aesthetic (e.g. `--color_border` with a style-appropriate value, `--bg_surface` contrast, etc.).
+Per-style CSS files live at `assets/styles/{category}/{slug}.css`. Each contains a `html.palette body { ... }` block with custom properties derived from the page's primary color palette and first heading/text fonts. Add extra overrides (e.g. `--color_border`, `--bg_surface`) when the default template styling clashes with the style's aesthetic.
 
 ### Hero CSS — font usage
-The hero `.a_description` must use the **first text font** (from "Text Fonts" `o_typography` section), not the heading font. Headings, eyebrow, and buttons use the heading font.
+The hero `.a_description` uses the **first text font** (from "Text Fonts" `o_typography`), not the heading font. Headings, eyebrow, and buttons use the heading font.
+
+### `o_style_guide` — copy prompt feature
+Each `o_style_guide` section has `copy_label` / `copied_label` fields. Cards with `a_image_cover` alt text serve double duty: the alt text is an AI image generation prompt that users can copy.
+
+### `o_design_images` — gallery examples
+Items have `"ignore": "1"` to hide unpopulated entries. Images link to standalone HTML gallery pages at `/assets/gallery/{category}/{style}/{example}.html`. Tags describe the example (e.g. "Landing Page", "Dark Mode").
+
+## Directory: `todo/`
+
+328 incomplete styles live in `todo/{category}/{style}.json` — JSON content exists but no assets (hero images, palette CSS, card preview, gallery). Move a style back to `src/{category}/` when completing it.
 
 ## Card Preview Images
 
-Each style has a card preview image at `assets/styles/{category}/{slug}.jpg` (800x600 JPEG).
+Each style has a card image at `assets/styles/{category}/{slug}.jpg` (800x600 JPEG).
 
-Generate with `make_design_image.js` (Puppeteer + Sharp):
+Generate with `make_design_image.js`:
 ```bash
 cd site/uilookbook_com
 node make_design_image.js "http://localhost/{category}/{slug}/" "assets/styles/{category}/{slug}.jpg"
 ```
-
-The script:
-1. Opens the page in headless Chrome (800x600 @2x, site cookie set)
-2. Strips header, footer, and all sections except `o_hero`
-3. Removes the image column (second `.col-6`), makes text column full-width
-4. Sets `min-height: 600px` on the hero
-5. Waits 1s for fonts/animations to settle
-6. Screenshots and resizes to 800x600 via Sharp (Lanczos3, JPEG quality 90)
-
-Requires `puppeteer` and `sharp` (`npm install` in project root).
+Strips the page to hero-only, removes image column, screenshots at 2x, resizes to 800x600.
 
 ## Gallery Example Screenshots
 
-Standalone HTML gallery pages (e.g. AI-generated examples) have their own screenshot script.
-
-Generate with `make_example_image.js` (Puppeteer + Sharp):
+Generate with `make_example_image.js`:
 ```bash
 cd site/uilookbook_com
-node make_example_image.js "assets/gallery/retro-and-nostalgia/90s-web-revival/mygames90s.html" "assets/gallery/retro-and-nostalgia/90s-web-revival/mygames90s.jpg"
+node make_example_image.js "assets/gallery/{category}/{style}/{example}.html" "assets/gallery/{category}/{style}/{example}.jpg"
 ```
+Simple full-page screenshot at 1200x900 @2x, resized to 800x600.
 
-The script:
-1. Opens the file in headless Chrome (1200x900 @2x) — accepts local paths or URLs
-2. Waits 1.5s for fonts/animations to settle
-3. Screenshots and resizes to 800x600 via Sharp (Lanczos3, JPEG quality 90)
-4. No DOM manipulation — simple full-page screenshot
+## SEO
 
-**Two scripts:**
-- `make_design_image.js` — for site pages (strips to o_hero only)
-- `make_example_image.js` — for standalone HTML files (simple screenshot)
+Each page has:
+- `seo.title`: "{Style Name} Style — UI Lookbook"
+- `seo.description`: includes key visual traits + "Color palettes, typography, design principles, and AI prompts"
+- `seo.keywords`: style name + related terms
+- OG and Twitter cards with `summary_large_image`

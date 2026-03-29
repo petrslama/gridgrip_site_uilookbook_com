@@ -1,0 +1,16 @@
+<section class="o_typography grid" {{{sectionId}}}
+	 style="--copied_label:'{{copied_label}}';--copy_label:'{{copy_label}}';">
+	<div class="col-3 typo-title">
+		{{> m_section_title }}
+	</div>
+	{{#each fonts}}
+	<div class="card col-3"
+	 data-css="{{css}}">
+		{{> a_eyebrow }}
+		{{#if family}}
+		<div class="title"
+		 style="{{css}}">{{family}}</div>
+		{{/if}}
+	</div>
+	{{/each}}
+</section>

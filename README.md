@@ -1,53 +1,64 @@
-# Site: uilookbook_com
+# UI Lookbook
 
-UI Lookbook — design style showcase. Each page documents a design aesthetic (color palette, typography, principles, history, similar styles).
+Design style encyclopedia. Each page documents a UI/visual style with color palettes, typography, design principles, use cases, history, AI prompts, and example screenshots.
 
-## Template
-
-`uilookbook`
+- **URL**: https://uilookbook.com
+- **Template**: `inSite`
+- **Pages**: 7 complete style pages + home, sitemap, 404 (328 incomplete in `todo/`)
+- **Categories**: 3 active (32 total)
 
 ## Directory Structure
 
 ```
-settings.json         # Template selection + site settings
-src/                  # Page content (JSON)
-  layout/             # Global layout pieces (header, footer)
-  home.json           # Homepage — grid of all design style cards
-  about.json          # About page
-  404.json            # Error page
-  sitemap.json        # Sitemap page
-  retro-and-nostalgia/         # Style detail pages
-  cultural-and-regional/       # Style detail pages
-  art-and-design-movements/    # Style detail pages
-html/                 # Generated static HTML (gitignored)
+settings.json
+src/
+  layout/                    # header.json, footer.json
+  home.json                  # Homepage — grid of all style cards
+  sitemap.json               # Sitemap page
+  404.json                   # Error page
+  style-template.json        # Template JSON for new style pages
+  art-and-design-movements/  # art-deco, art-nouveau
+  retro-and-nostalgia/       # 70s-design, 80s-design, 90s-web-revival, cassette-mixtape-ui
+  subculture-and-aesthetic/  # kawaii-cute
+todo/
+  {category}/                # 328 incomplete styles (JSON only, no assets)
+    {style}.json
+html/                        # Generated static HTML (gitignored)
+components/                  # Site-level components (override inSite template)
+  atoms/                     #   a_button, a_description, a_eyebrow, a_fu_type, a_h1, a_h2, a_h3, a_icon, a_image, a_image_cover, a_logo, a_theme_toggle
+  molecules/                 #   m_buttons, m_section_settings, m_section_title
+  organisms/                 #   o_breadcrumbs, o_color_palette, o_design_images, o_faq, o_footer, o_header, o_hero, o_html, o_style_guide, o_typography
+  roots/                     #   r_debug, r_html
 assets/
-  styles/             # Per-style scoped CSS (one file per design style)
-    retro-and-nostalgia/
-    cultural-and-regional/
-    art-and-design-movements/
+  imgs/                      # Hero images by category
+  styles/                    # Per-style palette CSS + card preview JPGs
+  gallery/                   # Standalone HTML example pages (28 files) + screenshots
+  lucide/                    # Lucide icon font (CSS + WOFF2)
 ```
 
-## Pages
+## Categories (32)
 
-| Page | Source JSON | Description |
-|------|-------------|-------------|
-| Home | `src/home.json` | All design style cards |
-| About | `src/about.json` | About page |
-| 404 | `src/404.json` | Error page |
-| Sitemap | `src/sitemap.json` | Sitemap |
-| 70s Design | `src/retro-and-nostalgia/70s-design.json` | Style detail |
-| 80s Design | `src/retro-and-nostalgia/80s-design.json` | Style detail |
-| 90s Web Revival | `src/retro-and-nostalgia/90s-web-revival.json` | Style detail |
-| Cassette Mixtape UI | `src/retro-and-nostalgia/cassette-mixtape-ui.json` | Style detail |
-| Chinese Web Design | `src/cultural-and-regional/chinese-web-design.json` | Style detail |
-| Dutch Design | `src/cultural-and-regional/dutch-design.json` | Style detail |
-| Japandi | `src/cultural-and-regional/japandi.json` | Style detail |
-| Japanese Web Design | `src/cultural-and-regional/japanese-web-design.json` | Style detail |
-| Korean Web Design | `src/cultural-and-regional/korean-web-design.json` | Style detail |
-| Scandinavian/Nordic Design | `src/cultural-and-regional/scandinavian-nordic-design.json` | Style detail |
-| Swiss Graphic Style | `src/cultural-and-regional/swiss-graphic-style.json` | Style detail |
-| Wabi-Sabi | `src/cultural-and-regional/wabi-sabi.json` | Style detail |
-| Art Deco | `src/art-and-design-movements/art-deco.json` | Style detail |
-| Art Nouveau | `src/art-and-design-movements/art-nouveau.json` | Style detail |
-| Bauhaus | `src/art-and-design-movements/bauhaus.json` | Style detail |
-| Constructivism | `src/art-and-design-movements/constructivism.json` | Style detail |
+Active (in `src/`): art-and-design-movements, retro-and-nostalgia, subculture-and-aesthetic
+
+Incomplete (in `todo/`): 3d-and-spatial, accessibility-and-inclusive, ai-and-generative-design, art-and-design-movements, brutalism-family, card-play-and-component, cultural-and-regional, dark-and-moody, data-and-visualization, e-commerce-and-saas, experimental-and-avant-garde, flat-and-material, gaming-and-interactive, geometric-and-grid-based, gradient-and-color, heavy-animation-and-motion, illustrated-and-animated, indieweb-and-personal, luxury-and-prestige, memphis-and-maximalism, minimalist-and-spacious, morphism-and-surface, navigation-and-interaction, organic-and-natural, photo-and-media-driven, retro-and-nostalgia, scroll-and-layout, subculture-and-aesthetic, sustainable-and-ethical, texture-and-pattern, themed-and-skeuomorphic, typography-driven
+
+## Style Detail Page Structure
+
+Each page follows `style-template.json`:
+
+1. `o_breadcrumbs` — Home > Category > Style
+2. `o_hero` — image, eyebrow keywords, h1, description, buttons
+3. `o_style_guide` "When to Use" — 3 cards with use cases
+4. `o_design_images` "Built From This" — AI prompt + 4 example screenshots
+5. `o_style_guide` "Design Principles" — 6 principle cards
+6. `o_color_palette` x3 — primary + 2 alternative palettes (6/5/5 colors)
+7. `o_typography` "Heading Fonts" — 8 fonts (5 Google + 3 system)
+8. `o_typography` "Text Fonts" — 5 fonts (2 Google + 3 system)
+9. `o_style_guide` "History" — 3 cards (origins, peak, modern revival)
+10. `o_faq` — 6 questions
+11. `o_design_images` "Similar Designs" — related style links
+
+## Scripts
+
+- `make_design_image.js` — captures style page hero as 800x600 card preview image (Puppeteer + Sharp)
+- `make_example_image.js` — screenshots standalone gallery HTML files as 800x600 thumbnails

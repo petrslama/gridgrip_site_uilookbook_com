@@ -1,0 +1,29 @@
+{{#if items}}
+<section class="o_breadcrumbs container" {{{sectionId}}}>
+	<nav aria-label="Breadcrumb">
+		{{#each items}}
+		{{#if href}}
+		<a href="{{href}}">{{text}}</a>
+		{{else}}
+		<span aria-current="page">{{text}}</span>
+		{{/if}}
+		{{/each}}
+	</nav>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{{#each items}}
+			{
+				"@type": "ListItem",
+				"position": {{inc @index}},
+				"name": {{json text}}{{#if href}},
+				"item": {{json href}}{{/if}}
+			}{{#unless @last}},{{/unless}}
+			{{/each}}
+		]
+	}
+	</script>
+</section>
+{{/if}}

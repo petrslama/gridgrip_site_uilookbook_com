@@ -1,0 +1,20 @@
+{{#unless ignore}}
+<section class="o_design_images grid" {{{sectionId}}}>
+	{{> m_section_title }}
+
+	{{#each items}}
+	{{#unless ignore}}
+	<div class="col-6 design">
+		{{> a_image }}
+		{{#if tags}}
+		<div class="tags">
+			{{#each tags}}
+			<span class="tag">{{this}}</span>
+			{{/each}}
+		</div>
+		{{/if}}
+	</div>
+	{{/unless}}
+	{{/each}}
+</section>
+{{/unless}}

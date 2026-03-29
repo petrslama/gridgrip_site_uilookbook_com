@@ -1,0 +1,49 @@
+.o_typography {
+
+	.typo-title {
+		grid-row: span 3;
+	}
+
+	.card {
+		padding: 1rem;
+		background-color: var(--bg_surface);
+		border: 1px solid var(--color_border);
+		border-radius: var(--radius-md);
+		cursor: pointer;
+		transition: all .3s ease;
+		position: relative;
+
+		&::before {
+			content: var(--copy_label);
+			position: absolute;
+			top: .75rem;
+			right: .75rem;
+			background: var(--bg_surface);
+			border: 1px solid var(--color_border);
+			border-radius: var(--radius-sm);
+			padding: .25rem .75rem;
+			font-size: .75rem;
+			font-family: var(--font-sans);
+			color: var(--color_text-muted);
+			white-space: nowrap;
+			opacity: 0;
+			transition: opacity .3s;
+			pointer-events: none;
+		}
+
+		&:hover::before {
+			opacity: 1;
+		}
+
+		&.copied::before {
+			content: var(--copied_label);
+			opacity: 1;
+		}
+
+		&:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 4px 12px rgb(0 0 0 / 0.08);
+		}
+	}
+
+}

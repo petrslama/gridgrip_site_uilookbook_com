@@ -1,0 +1,27 @@
+.o_breadcrumbs {
+	padding-block: 1rem;
+	background: var(--bg_surface);
+
+	nav {
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+		font-size: .875rem;
+		line-height: 1.33;
+		color: var(--color_text-muted);
+
+		a {
+			color: var(--color_text);
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		> :not(:first-child)::before {
+			content: "/";
+			margin-right: .5rem;
+		}
+	}
+}

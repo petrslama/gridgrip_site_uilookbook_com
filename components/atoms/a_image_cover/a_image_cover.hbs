@@ -1,0 +1,17 @@
+{{#if a_image_cover.src}}
+<div class="a_image_cover">
+	<img
+	 src="{{a_image_cover.src}}"
+	 alt="{{a_image_cover.alt}}"
+	{{#if a_image_cover.width}}
+	 width="{{a_image_cover.width}}"
+	{{/if}}
+	{{#if a_image_cover.height}}
+	 height="{{a_image_cover.height}}"
+	{{/if}}
+	{{#if a_image_cover.loading}}
+	 loading="{{a_image_cover.loading}}"
+	{{/if}}
+	 />
+</div>
+{{/if}}

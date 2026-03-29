@@ -1,0 +1,14 @@
+<section class="o_color_palette grid" {{{sectionId}}}
+	 style="--copied_label:'{{copied_label}}';--copy_label:'{{copy_label}}';">
+	<div class="col-3 palette-title">
+		{{> m_section_title }}
+	</div>
+	{{#each colors}}
+	<div class="swatch col-1"
+		 style="--hex:{{hex}};"
+		 data-hex="{{hex}}">
+		{{> a_h3 }}
+		{{> a_description a_description=hex}}
+	</div>
+	{{/each}}
+</section>

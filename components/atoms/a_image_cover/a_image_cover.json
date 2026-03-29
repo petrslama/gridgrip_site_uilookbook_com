@@ -1,0 +1,52 @@
+{
+	"fu_name": "a_image_cover",
+	"fields": [
+		{
+			"fu_type": "group",
+			"fu_name": "a_image_cover",
+			"fields": [
+				{
+					"fu_type": "text",
+					"fu_label": "Alt",
+					"fu_name": "alt"
+				},
+				{
+					"fu_type": "number",
+					"fu_label": "Width",
+					"fu_name": "width"
+				},
+				{
+					"fu_type": "number",
+					"fu_label": "Height",
+					"fu_name": "height"
+				},
+				{
+					"fu_type": "text",
+					"fu_label": "Src",
+					"fu_name": "src",
+					"fu_list": "datalist__image_sources",
+					"width": "fullwidth"
+				},
+				{
+					"fu_type": "select",
+					"fu_label": "Loading",
+					"fu_name": "loading",
+					"values": [
+						{
+							"fu_label": "Default",
+							"fu_value": ""
+						},
+						{
+							"fu_label": "Lazy",
+							"fu_value": "lazy"
+						},
+						{
+							"fu_label": "Eager",
+							"fu_value": "eager"
+						}
+					]
+				}
+			]
+		}
+	]
+}
