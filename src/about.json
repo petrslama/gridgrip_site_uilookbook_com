@@ -1,0 +1,30 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_hero",
+			"a_eyebrow": "About",
+			"a_h1": "About UI Lookbook",
+			"a_description": "A curated encyclopedia of web design styles. Each page is presented entirely in the aesthetic it describes &mdash; the design is the content."
+		},
+		{
+			"fu_type": "o_html",
+			"wrap": "1",
+			"html": "<h2>What is UI Lookbook?</h2>\n<p>UI Lookbook is a visual encyclopedia of web design styles. From retro aesthetics to modern minimalism, each style page is designed entirely in the aesthetic it describes &mdash; giving you an immersive feel for the design language, not just a description of it.</p>\n<p>Every style includes curated color palettes, typography pairings, design principles, and AI prompts to help you bring the aesthetic to life in your own projects.</p>\n<h2>Who is it for?</h2>\n<p>Designers, developers, and creative teams looking for inspiration or a starting point for their next project. Whether you&rsquo;re building a brand, redesigning a website, or exploring new visual directions &mdash; UI Lookbook helps you find and understand the style that fits.</p>\n<h2>How it works</h2>\n<p>Browse styles by category, explore color palettes and font pairings, and use the built-in AI prompts to generate images and layouts in any style. Each page is a self-contained reference you can return to anytime.</p>"
+		}
+	],
+	"seo": {
+		"title": "About — UI Lookbook",
+		"description": "Learn about UI Lookbook — a curated encyclopedia of web design styles with color palettes, typography, design principles, and AI prompts.",
+		"og": {
+			"title": "About — UI Lookbook",
+			"description": "A curated encyclopedia of web design styles. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/about/",
+			"type": "website"
+		},
+		"twitter": {
+			"card": "summary",
+			"title": "About — UI Lookbook",
+			"description": "A curated encyclopedia of web design styles. Color palettes, typography, design principles, and AI prompts."
+		}
+	}
+}
