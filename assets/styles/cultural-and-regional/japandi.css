@@ -1,144 +1,144 @@
 #japandi {
-    color: #26201A;
-    font-family: 'Jost', sans-serif;
-    border-radius: 0;
-    overflow: hidden;
-    position: relative;
-    min-height: 100%;
+	color: #26201A;
+	font-family: 'Jost', sans-serif;
+	border-radius: 0;
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
 
-    .design-background {
-        width: 100%;
-        min-height: 100%;
-        padding: 32px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #EDE7DA;
-        background-image:
-            radial-gradient(ellipse 65% 50% at 18% 12%, rgba(125, 150, 128, 0.13) 0%, transparent 65%),
-            radial-gradient(ellipse 55% 65% at 82% 88%, rgba(158, 139, 118, 0.12) 0%, transparent 60%),
-            radial-gradient(ellipse 40% 40% at 55% 45%, rgba(232, 224, 210, 0.4) 0%, transparent 70%);
-        position: relative;
+	.design-background {
+		width: 100%;
+		min-height: 100%;
+		padding: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #EDE7DA;
+		background-image:
+			radial-gradient(ellipse 65% 50% at 18% 12%, rgba(125, 150, 128, 0.13) 0%, transparent 65%),
+			radial-gradient(ellipse 55% 65% at 82% 88%, rgba(158, 139, 118, 0.12) 0%, transparent 60%),
+			radial-gradient(ellipse 40% 40% at 55% 45%, rgba(232, 224, 210, 0.4) 0%, transparent 70%);
+		position: relative;
 
-        &::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background-image:
-                repeating-linear-gradient(
-                    0deg,
-                    transparent,
-                    transparent 3px,
-                    rgba(44, 36, 22, 0.012) 3px,
-                    rgba(44, 36, 22, 0.012) 4px
-                );
-            pointer-events: none;
-        }
-    }
+		&::before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background-image:
+				repeating-linear-gradient(
+					0deg,
+					transparent,
+					transparent 3px,
+					rgba(44, 36, 22, 0.012) 3px,
+					rgba(44, 36, 22, 0.012) 4px
+				);
+			pointer-events: none;
+		}
+	}
 
-    .design-container {
-        max-width: 620px;
-        width: 100%;
-        background: #F8F4EE;
-        padding: 48px 44px;
-        position: relative;
-        box-shadow:
-            0 1px 3px rgba(38, 32, 26, 0.04),
-            0 8px 48px rgba(38, 32, 26, 0.07),
-            0 32px 80px rgba(38, 32, 26, 0.04);
-        border-top: 1.5px solid #7D9680;
+	.design-container {
+		max-width: 620px;
+		width: 100%;
+		background: #F8F4EE;
+		padding: 48px 44px;
+		position: relative;
+		box-shadow:
+			0 1px 3px rgba(38, 32, 26, 0.04),
+			0 8px 48px rgba(38, 32, 26, 0.07),
+			0 32px 80px rgba(38, 32, 26, 0.04);
+		border-top: 1.5px solid #7D9680;
 
-        &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 2px;
-            height: 64px;
-            background: linear-gradient(to bottom, #7D9680, transparent);
-        }
-    }
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 2px;
+			height: 64px;
+			background: linear-gradient(to bottom, #7D9680, transparent);
+		}
+	}
 
-    .eyebrow {
-        font-size: 10px;
-        font-weight: 400;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        color: #9E8B76;
-        margin-bottom: 22px;
-    }
+	.eyebrow {
+		font-size: 10px;
+		font-weight: 400;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #9E8B76;
+		margin-bottom: 22px;
+	}
 
-    .title {
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 36px;
-        font-weight: 300;
-        color: #26201A;
-        line-height: 1.08;
-        letter-spacing: -1px;
-        margin-bottom: 24px;
+	.title {
+		font-family: 'Cormorant Garamond', serif;
+		font-size: 36px;
+		font-weight: 300;
+		color: #26201A;
+		line-height: 1.08;
+		letter-spacing: -1px;
+		margin-bottom: 24px;
 
-        &::after {
-            content: '';
-            display: block;
-            width: 32px;
-            height: 1px;
-            background: linear-gradient(to right, #7D9680, transparent);
-            margin-top: 24px;
-        }
-    }
+		&::after {
+			content: '';
+			display: block;
+			width: 32px;
+			height: 1px;
+			background: linear-gradient(to right, #7D9680, transparent);
+			margin-top: 24px;
+		}
+	}
 
-    p {
-        font-size: 14px;
-        font-weight: 300;
-        color: #47392B;
-        line-height: 1.85;
-        max-width: 512px;
+	p {
+		font-size: 14px;
+		font-weight: 300;
+		color: #47392B;
+		line-height: 1.85;
+		max-width: 512px;
 
-        & + p {
-            margin-top: 18px;
-        }
-    }
+		& + p {
+			margin-top: 18px;
+		}
+	}
 
-    .btn-group {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 36px;
-    }
+	.btn-group {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+		margin-top: 36px;
+	}
 
-    .btn-group a {
-        text-decoration: none;
-        font-family: inherit;
-        font-size: 10px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        padding: 14px 26px;
-        cursor: pointer;
-    }
+	.btn-group a {
+		text-decoration: none;
+		font-family: inherit;
+		font-size: 10px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 14px 26px;
+		cursor: pointer;
+	}
 
-    .btn-primary {
-        font-weight: 500;
-        background: #26201A;
-        color: #F8F4EE;
-        border: none;
-        transition: background 0.3s;
+	.btn-primary {
+		font-weight: 500;
+		background: #26201A;
+		color: #F8F4EE;
+		border: none;
+		transition: background 0.3s;
 
-        &:hover {
-            background: #47392B;
-        }
-    }
+		&:hover {
+			background: #47392B;
+		}
+	}
 
-    .btn-secondary {
-        font-weight: 400;
-        background: transparent;
-        color: #47392B;
-        border: 1px solid #BFB5A6;
-        transition: border-color 0.3s, background 0.3s, color 0.3s;
+	.btn-secondary {
+		font-weight: 400;
+		background: transparent;
+		color: #47392B;
+		border: 1px solid #BFB5A6;
+		transition: border-color 0.3s, background 0.3s, color 0.3s;
 
-        &:hover {
-            border-color: #9E8B76;
-            background: #E5DDD0;
-            color: #26201A;
-        }
-    }
+		&:hover {
+			border-color: #9E8B76;
+			background: #E5DDD0;
+			color: #26201A;
+		}
+	}
 }

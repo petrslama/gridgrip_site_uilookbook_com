@@ -1,170 +1,170 @@
 #wabi-sabi {
-    color: #1a1308;
-    font-family: 'Crimson Pro', serif;
-    overflow: hidden;
-    position: relative;
-    min-height: 100%;
+	color: #1a1308;
+	font-family: 'Crimson Pro', serif;
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
 
-    .design-background {
-        width: 100%;
-        min-height: 100%;
-        justify-content: center;
-        padding: 40px 32px;
-        background-color: #c4bba8;
-        background-image:
-            radial-gradient(ellipse 88% 88% at 50% 50%, transparent 28%, rgba(14, 9, 2, 0.34) 100%),
-            radial-gradient(ellipse 64% 50% at 16% 58%, rgba(152, 112, 60, 0.22) 0%, transparent 62%),
-            radial-gradient(ellipse 40% 55% at 82% 14%, rgba(94, 108, 78, 0.13) 0%, transparent 54%),
-            radial-gradient(ellipse 26% 20% at 56% 90%, rgba(98, 76, 40, 0.16) 0%, transparent 46%);
-        display: flex;
-        align-items: center;
-        position: relative;
+	.design-background {
+		width: 100%;
+		min-height: 100%;
+		justify-content: center;
+		padding: 40px 32px;
+		background-color: #c4bba8;
+		background-image:
+			radial-gradient(ellipse 88% 88% at 50% 50%, transparent 28%, rgba(14, 9, 2, 0.34) 100%),
+			radial-gradient(ellipse 64% 50% at 16% 58%, rgba(152, 112, 60, 0.22) 0%, transparent 62%),
+			radial-gradient(ellipse 40% 55% at 82% 14%, rgba(94, 108, 78, 0.13) 0%, transparent 54%),
+			radial-gradient(ellipse 26% 20% at 56% 90%, rgba(98, 76, 40, 0.16) 0%, transparent 46%);
+		display: flex;
+		align-items: center;
+		position: relative;
 
-        &::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.74' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='512' height='512' filter='url(%23n)'/%3E%3C/svg%3E");
-            opacity: 0.06;
-            pointer-events: none;
-            z-index: 0;
-        }
+		&::before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.74' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='512' height='512' filter='url(%23n)'/%3E%3C/svg%3E");
+			opacity: 0.06;
+			pointer-events: none;
+			z-index: 0;
+		}
 
-        &::after {
-            content: '侘寂';
-            position: absolute;
-            right: -16px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-family: 'Noto Serif JP', serif;
-            font-weight: 200;
-            font-size: 192px;
-            color: #1a1308;
-            opacity: 0.04;
-            line-height: 0.88;
-            letter-spacing: -2px;
-            pointer-events: none;
-            z-index: 0;
-            white-space: nowrap;
-        }
-    }
+		&::after {
+			content: '侘寂';
+			position: absolute;
+			right: -16px;
+			top: 50%;
+			transform: translateY(-50%);
+			font-family: 'Noto Serif JP', serif;
+			font-weight: 200;
+			font-size: 192px;
+			color: #1a1308;
+			opacity: 0.04;
+			line-height: 0.88;
+			letter-spacing: -2px;
+			pointer-events: none;
+			z-index: 0;
+			white-space: nowrap;
+		}
+	}
 
-    .design-container {
-        position: relative;
-        z-index: 1;
-        max-width: 560px;
-        padding: 0 0 0 24px;
-    }
+	.design-container {
+		position: relative;
+		z-index: 1;
+		max-width: 560px;
+		padding: 0 0 0 24px;
+	}
 
-    .eyebrow {
-        font-family: 'Crimson Pro', serif;
-        font-size: 11px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        color: #9c6845;
-        font-weight: 400;
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
-        gap: 12px;
+	.eyebrow {
+		font-family: 'Crimson Pro', serif;
+		font-size: 11px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: #9c6845;
+		font-weight: 400;
+		margin-bottom: 20px;
+		display: flex;
+		align-items: center;
+		gap: 12px;
 
-        &::before {
-            content: '';
-            flex-shrink: 0;
-            width: 32px;
-            height: 1px;
-            background: linear-gradient(to right, transparent, #9c6845);
-            opacity: 0.75;
-        }
-    }
+		&::before {
+			content: '';
+			flex-shrink: 0;
+			width: 32px;
+			height: 1px;
+			background: linear-gradient(to right, transparent, #9c6845);
+			opacity: 0.75;
+		}
+	}
 
-    .title {
-        font-family: 'IM Fell English', serif;
-        font-size: 48px;
-        font-weight: 400;
-        color: #1a1308;
-        line-height: 0.88;
-        letter-spacing: -1px;
-        font-style: italic;
-        margin: 0;
+	.title {
+		font-family: 'IM Fell English', serif;
+		font-size: 48px;
+		font-weight: 400;
+		color: #1a1308;
+		line-height: 0.88;
+		letter-spacing: -1px;
+		font-style: italic;
+		margin: 0;
 
-        &::after {
-            content: '';
-            display: block;
-            width: 58%;
-            height: 1px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            background: linear-gradient(
-                to right,
-                #c6a44a,
-                rgba(160, 104, 50, 0.35),
-                transparent
-            );
-            opacity: 0.7;
-        }
-    }
+		&::after {
+			content: '';
+			display: block;
+			width: 58%;
+			height: 1px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			background: linear-gradient(
+				to right,
+				#c6a44a,
+				rgba(160, 104, 50, 0.35),
+				transparent
+			);
+			opacity: 0.7;
+		}
+	}
 
-    p {
-        font-family: 'Crimson Pro', serif;
-        font-size: 15px;
-        line-height: 1.84;
-        color: #1a1308;
-        opacity: 0.74;
-        max-width: 54ch;
-        font-weight: 300;
+	p {
+		font-family: 'Crimson Pro', serif;
+		font-size: 15px;
+		line-height: 1.84;
+		color: #1a1308;
+		opacity: 0.74;
+		max-width: 54ch;
+		font-weight: 300;
 
-        & + p {
-            margin-top: 14px;
-        }
-    }
+		& + p {
+			margin-top: 14px;
+		}
+	}
 
-    .btn-group {
-        display: flex;
-        gap: 24px;
-        align-items: center;
-        margin-top: 28px;
-    }
+	.btn-group {
+		display: flex;
+		gap: 24px;
+		align-items: center;
+		margin-top: 28px;
+	}
 
-    .btn-group a {
-        text-decoration: none;
-        font-family: inherit;
-        cursor: pointer;
-    }
+	.btn-group a {
+		text-decoration: none;
+		font-family: inherit;
+		cursor: pointer;
+	}
 
-    .btn-primary {
-        font-size: 11px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        font-weight: 600;
-        color: #ede5d0;
-        background: #1a1308;
-        border: none;
-        padding: 12px 28px;
-        border-radius: 2px;
-        transition: background 0.3s, letter-spacing 0.3s;
+	.btn-primary {
+		font-size: 11px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #ede5d0;
+		background: #1a1308;
+		border: none;
+		padding: 12px 28px;
+		border-radius: 2px;
+		transition: background 0.3s, letter-spacing 0.3s;
 
-        &:hover {
-            background: #9c6845;
-            letter-spacing: 4px;
-        }
-    }
+		&:hover {
+			background: #9c6845;
+			letter-spacing: 4px;
+		}
+	}
 
-    .btn-secondary {
-        font-size: 11px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        font-weight: 300;
-        color: #8c8070;
-        background: transparent;
-        border: none;
-        border-bottom: 1px solid rgba(140, 128, 112, 0.42);
-        padding: 1px 0 4px;
-        transition: color 0.3s, border-bottom-color 0.3s;
+	.btn-secondary {
+		font-size: 11px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-weight: 300;
+		color: #8c8070;
+		background: transparent;
+		border: none;
+		border-bottom: 1px solid rgba(140, 128, 112, 0.42);
+		padding: 1px 0 4px;
+		transition: color 0.3s, border-bottom-color 0.3s;
 
-        &:hover {
-            color: #9c6845;
-            border-bottom-color: #9c6845;
-        }
-    }
+		&:hover {
+			color: #9c6845;
+			border-bottom-color: #9c6845;
+		}
+	}
 }

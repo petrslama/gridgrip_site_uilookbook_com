@@ -1,271 +1,271 @@
 #chinese-web-design {
-    color: #1a0500;
-    font-family: 'Noto Serif SC', Georgia, serif;
-    border-radius: 0;
-    overflow: hidden;
-    position: relative;
-    min-height: 100%;
+	color: #1a0500;
+	font-family: 'Noto Serif SC', Georgia, serif;
+	border-radius: 0;
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
 
-    .design-background {
-        width: 100%;
-        min-height: 100%;
-        padding: 48px 40px;
-        background-color: #cc0000;
-        background-image:
-            repeating-linear-gradient(
-                0deg,
-                transparent,
-                transparent 39px,
-                rgba(212, 160, 23, 0.08) 39px,
-                rgba(212, 160, 23, 0.08) 40px
-            ),
-            repeating-linear-gradient(
-                90deg,
-                transparent,
-                transparent 39px,
-                rgba(212, 160, 23, 0.08) 39px,
-                rgba(212, 160, 23, 0.08) 40px
-            );
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        overflow: hidden;
+	.design-background {
+		width: 100%;
+		min-height: 100%;
+		padding: 48px 40px;
+		background-color: #cc0000;
+		background-image:
+			repeating-linear-gradient(
+				0deg,
+				transparent,
+				transparent 39px,
+				rgba(212, 160, 23, 0.08) 39px,
+				rgba(212, 160, 23, 0.08) 40px
+			),
+			repeating-linear-gradient(
+				90deg,
+				transparent,
+				transparent 39px,
+				rgba(212, 160, 23, 0.08) 39px,
+				rgba(212, 160, 23, 0.08) 40px
+			);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		overflow: hidden;
 
-        &::before {
-            content: '福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            font-size: 18px;
-            color: rgba(212, 160, 23, 0.12);
-            letter-spacing: 38px;
-            pointer-events: none;
-            white-space: nowrap;
-            overflow: hidden;
-            padding: 6px 13px;
-            font-family: 'Ma Shan Zheng', serif;
-            background: linear-gradient(90deg, #8b0000, #cc0000);
-            border-bottom: 2px solid #d4a017;
-        }
+		&::before {
+			content: '福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福 福';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			font-size: 18px;
+			color: rgba(212, 160, 23, 0.12);
+			letter-spacing: 38px;
+			pointer-events: none;
+			white-space: nowrap;
+			overflow: hidden;
+			padding: 6px 13px;
+			font-family: 'Ma Shan Zheng', serif;
+			background: linear-gradient(90deg, #8b0000, #cc0000);
+			border-bottom: 2px solid #d4a017;
+		}
 
-        &::after {
-            content: '★ 欢迎光临 ★ WELCOME ★ 欢迎光临 ★ WELCOME ★ 欢迎光临 ★ WELCOME ★';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            font-size: 11px;
-            color: #d4a017;
-            letter-spacing: 4px;
-            pointer-events: none;
-            white-space: nowrap;
-            overflow: hidden;
-            padding: 8px 16px;
-            text-align: center;
-            background: #8b0000;
-            border-top: 2px solid #d4a017;
-            font-family: 'Ma Shan Zheng', serif;
-        }
+		&::after {
+			content: '★ 欢迎光临 ★ WELCOME ★ 欢迎光临 ★ WELCOME ★ 欢迎光临 ★ WELCOME ★';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			font-size: 11px;
+			color: #d4a017;
+			letter-spacing: 4px;
+			pointer-events: none;
+			white-space: nowrap;
+			overflow: hidden;
+			padding: 8px 16px;
+			text-align: center;
+			background: #8b0000;
+			border-top: 2px solid #d4a017;
+			font-family: 'Ma Shan Zheng', serif;
+		}
 
-        .design-container {
-            position: relative;
-            max-width: 760px;
-            width: 100%;
-            background: #fff8e7;
-            padding: 0;
-            border: 6px solid #d4a017;
-            box-shadow:
-                0 0 0 10px #cc0000,
-                0 0 0 12px #d4a017,
-                0 0 0 20px #8b0000,
-                0 30px 80px rgba(0, 0, 0, 0.6);
+		.design-container {
+			position: relative;
+			max-width: 760px;
+			width: 100%;
+			background: #fff8e7;
+			padding: 0;
+			border: 6px solid #d4a017;
+			box-shadow:
+				0 0 0 10px #cc0000,
+				0 0 0 12px #d4a017,
+				0 0 0 20px #8b0000,
+				0 30px 80px rgba(0, 0, 0, 0.6);
 
-            &::before {
-                content: '◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆';
-                display: block;
-                background: linear-gradient(135deg, #e8000a, #8b0000);
-                color: #ffd700;
-                font-size: 9px;
-                letter-spacing: 6px;
-                text-align: center;
-                padding: 7px 16px;
-                overflow: hidden;
-                border-bottom: 3px solid #d4a017;
-            }
+			&::before {
+				content: '◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆';
+				display: block;
+				background: linear-gradient(135deg, #e8000a, #8b0000);
+				color: #ffd700;
+				font-size: 9px;
+				letter-spacing: 6px;
+				text-align: center;
+				padding: 7px 16px;
+				overflow: hidden;
+				border-bottom: 3px solid #d4a017;
+			}
 
-            &::after {
-                content: '─────────── 中 国 风 格 设 计 ───────────';
-                display: block;
-                background: linear-gradient(135deg, #8b0000, #e8000a);
-                color: #fff3b0;
-                font-size: 10px;
-                letter-spacing: 6px;
-                text-align: center;
-                padding: 9px 16px;
-                overflow: hidden;
-                border-top: 3px solid #d4a017;
-                font-family: 'Ma Shan Zheng', serif;
-            }
+			&::after {
+				content: '─────────── 中 国 风 格 设 计 ───────────';
+				display: block;
+				background: linear-gradient(135deg, #8b0000, #e8000a);
+				color: #fff3b0;
+				font-size: 10px;
+				letter-spacing: 6px;
+				text-align: center;
+				padding: 9px 16px;
+				overflow: hidden;
+				border-top: 3px solid #d4a017;
+				font-family: 'Ma Shan Zheng', serif;
+			}
 
-            .eyebrow {
-                margin: 0;
-                display: flex;
-                align-items: center;
-                gap: 12px;
-                font-size: 10px;
-                font-weight: 700;
-                letter-spacing: 3px;
-                text-transform: uppercase;
-                color: #fff8e7;
-                background: linear-gradient(90deg, #e8000a 0%, #8b0000 100%);
-                padding: 10px 24px;
-                border-bottom: 2px solid #d4a017;
-                position: relative;
+			.eyebrow {
+				margin: 0;
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				font-size: 10px;
+				font-weight: 700;
+				letter-spacing: 3px;
+				text-transform: uppercase;
+				color: #fff8e7;
+				background: linear-gradient(90deg, #e8000a 0%, #8b0000 100%);
+				padding: 10px 24px;
+				border-bottom: 2px solid #d4a017;
+				position: relative;
 
-                &::before {
-                    content: '★';
-                    color: #ffd700;
-                    font-size: 13px;
-                }
+				&::before {
+					content: '★';
+					color: #ffd700;
+					font-size: 13px;
+				}
 
-                &::after {
-                    content: '★';
-                    color: #ffd700;
-                    font-size: 13px;
-                    margin-left: auto;
-                }
-            }
+				&::after {
+					content: '★';
+					color: #ffd700;
+					font-size: 13px;
+					margin-left: auto;
+				}
+			}
 
-            .title {
-                margin: 0;
-                font-size: 32px;
-                font-weight: 900;
-                color: #cc0000;
-                line-height: 1.1;
-                padding: 19px 24px 13px;
-                border-bottom: 3px double #d4a017;
-                text-shadow: 2px 2px 0 rgba(212, 160, 23, 0.3);
-                position: relative;
+			.title {
+				margin: 0;
+				font-size: 32px;
+				font-weight: 900;
+				color: #cc0000;
+				line-height: 1.1;
+				padding: 19px 24px 13px;
+				border-bottom: 3px double #d4a017;
+				text-shadow: 2px 2px 0 rgba(212, 160, 23, 0.3);
+				position: relative;
 
-                &::after {
-                    content: '中';
-                    position: absolute;
-                    right: 24px;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    font-family: 'Ma Shan Zheng', serif;
-                    font-size: 56px;
-                    color: rgba(200, 0, 0, 0.08);
-                    pointer-events: none;
-                    line-height: 1;
-                }
-            }
+				&::after {
+					content: '中';
+					position: absolute;
+					right: 24px;
+					top: 50%;
+					transform: translateY(-50%);
+					font-family: 'Ma Shan Zheng', serif;
+					font-size: 56px;
+					color: rgba(200, 0, 0, 0.08);
+					pointer-events: none;
+					line-height: 1;
+				}
+			}
 
-            p {
-                margin: 0;
-                font-size: 13px;
-                line-height: 1.75;
-                color: #1a0500;
-                padding: 14px 24px;
-                max-width: 512px;
-                border-bottom: 1px solid rgba(212, 160, 23, 0.35);
+			p {
+				margin: 0;
+				font-size: 13px;
+				line-height: 1.75;
+				color: #1a0500;
+				padding: 14px 24px;
+				max-width: 512px;
+				border-bottom: 1px solid rgba(212, 160, 23, 0.35);
 
-                &:last-of-type {
-                    border-bottom: 2px solid #d4a017;
-                    background: linear-gradient(180deg, transparent, rgba(212, 160, 23, 0.04));
-                }
+				&:last-of-type {
+					border-bottom: 2px solid #d4a017;
+					background: linear-gradient(180deg, transparent, rgba(212, 160, 23, 0.04));
+				}
 
-                &::first-letter {
-                    font-size: 26px;
-                    font-weight: 900;
-                    color: #e8000a;
-                    float: left;
-                    line-height: 1;
-                    margin-right: 4px;
-                    margin-top: 2px;
-                }
-            }
+				&::first-letter {
+					font-size: 26px;
+					font-weight: 900;
+					color: #e8000a;
+					float: left;
+					line-height: 1;
+					margin-right: 4px;
+					margin-top: 2px;
+				}
+			}
 
-            .btn-group {
-                display: flex;
-                gap: 12px;
-                padding: 16px 24px;
-                background: linear-gradient(180deg, #fff3b0 0%, #fff3c0 100%);
-                align-items: center;
-                justify-content: center;
-                flex-wrap: wrap;
-            }
+			.btn-group {
+				display: flex;
+				gap: 12px;
+				padding: 16px 24px;
+				background: linear-gradient(180deg, #fff3b0 0%, #fff3c0 100%);
+				align-items: center;
+				justify-content: center;
+				flex-wrap: wrap;
+			}
 
-            .btn-group a {
-        text-decoration: none;
-                font-family: inherit;
-                font-size: 12px;
-                font-weight: 700;
-                letter-spacing: 1px;
-                cursor: pointer;
-                transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
-                position: relative;
-            }
+			.btn-group a {
+		text-decoration: none;
+				font-family: inherit;
+				font-size: 12px;
+				font-weight: 700;
+				letter-spacing: 1px;
+				cursor: pointer;
+				transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+				position: relative;
+			}
 
-            .btn-primary {
-                background: linear-gradient(135deg, #e8000a 0%, #8b0000 100%);
-                color: #ffd700;
-                padding: 10px 29px;
-                border: 2px solid #d4a017;
-                box-shadow:
-                    inset 0 1px 0 rgba(255, 215, 0, 0.3),
-                    3px 3px 0 #8b0000;
-                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+			.btn-primary {
+				background: linear-gradient(135deg, #e8000a 0%, #8b0000 100%);
+				color: #ffd700;
+				padding: 10px 29px;
+				border: 2px solid #d4a017;
+				box-shadow:
+					inset 0 1px 0 rgba(255, 215, 0, 0.3),
+					3px 3px 0 #8b0000;
+				text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 
-                &::before {
-                    content: '★ ';
-                    color: #ffd700;
-                }
+				&::before {
+					content: '★ ';
+					color: #ffd700;
+				}
 
-                &::after {
-                    content: ' ★';
-                    color: #ffd700;
-                }
+				&::after {
+					content: ' ★';
+					color: #ffd700;
+				}
 
-                &:hover {
-                    background: linear-gradient(135deg, #ff1a1a 0%, #e8000a 100%);
-                    transform: translate(-2px, -2px);
-                    box-shadow:
-                        inset 0 1px 0 rgba(255, 215, 0, 0.4),
-                        5px 5px 0 #8b0000;
-                }
+				&:hover {
+					background: linear-gradient(135deg, #ff1a1a 0%, #e8000a 100%);
+					transform: translate(-2px, -2px);
+					box-shadow:
+						inset 0 1px 0 rgba(255, 215, 0, 0.4),
+						5px 5px 0 #8b0000;
+				}
 
-                &:active {
-                    transform: translate(1px, 1px);
-                    box-shadow: 1px 1px 0 #8b0000;
-                }
-            }
+				&:active {
+					transform: translate(1px, 1px);
+					box-shadow: 1px 1px 0 #8b0000;
+				}
+			}
 
-            .btn-secondary {
-                background: #fff8e7;
-                color: #cc0000;
-                padding: 10px 29px;
-                border: 2px solid #d4a017;
-                box-shadow:
-                    inset 0 1px 0 rgba(255, 255, 255, 0.8),
-                    3px 3px 0 rgba(212, 160, 23, 0.4);
+			.btn-secondary {
+				background: #fff8e7;
+				color: #cc0000;
+				padding: 10px 29px;
+				border: 2px solid #d4a017;
+				box-shadow:
+					inset 0 1px 0 rgba(255, 255, 255, 0.8),
+					3px 3px 0 rgba(212, 160, 23, 0.4);
 
-                &:hover {
-                    background: #ffd700;
-                    color: #8b0000;
-                    transform: translate(-2px, -2px);
-                    box-shadow:
-                        inset 0 1px 0 rgba(255, 255, 255, 0.9),
-                        5px 5px 0 rgba(212, 160, 23, 0.5);
-                }
+				&:hover {
+					background: #ffd700;
+					color: #8b0000;
+					transform: translate(-2px, -2px);
+					box-shadow:
+						inset 0 1px 0 rgba(255, 255, 255, 0.9),
+						5px 5px 0 rgba(212, 160, 23, 0.5);
+				}
 
-                &:active {
-                    transform: translate(1px, 1px);
-                    box-shadow: 1px 1px 0 rgba(212, 160, 23, 0.4);
-                }
-            }
-        }
-    }
+				&:active {
+					transform: translate(1px, 1px);
+					box-shadow: 1px 1px 0 rgba(212, 160, 23, 0.4);
+				}
+			}
+		}
+	}
 }

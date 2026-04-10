@@ -1,6 +1,6 @@
 @keyframes gridScroll80s {
 	from { background-position: 0 0; }
-	to   { background-position: 0 40px; }
+	to	 { background-position: 0 40px; }
 }
 
 @keyframes titlePulse80s {
