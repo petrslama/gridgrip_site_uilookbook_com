@@ -1,0 +1,638 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_breadcrumbs",
+			"items": [
+				{
+					"text": "Home",
+					"href": "/"
+				},
+				{
+					"text": "Retro & Nostalgia",
+					"href": "/retro-and-nostalgia/"
+				},
+				{
+					"text": "Pixel Art UI Style"
+				}
+			]
+		},
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"alt": "16-bit pixel art RPG scene, SNES JRPG style like Final Fantasy VI or Chrono Trigger, crisp pixels, no anti-aliasing, dithering for shading. A young handsome knight (early 20s, short brown hair, blue eyes, silver plate armor with blue cape, sword sheathed) stands on the left. A beautiful young princess (early 20s, long copper-red hair, green eyes, golden tiara, elegant green royal gown) stands on the right with hands clasped in a pleading gesture. They face each other in a peaceful dialogue scene — no weapons drawn, no combat. Background: a majestic stone castle with tall towers and waving flags, set against a dithered sunset sky with distant mountains. Dialogue box at the bottom: classic JRPG style, dark blue background with white pixel border, speaker tag \"PRINCESS\" in yellow, main text in chunky white pixel font reading exactly: \"ONLY YOU CAN SAVE US!\"",
+				"width": "1024",
+				"height": "768",
+				"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/jrpg-knight-princess-dialogue.jpg",
+				"loading": "eager"
+			},
+			"a_eyebrow": "Retro · Pixelated · 16-Bit · Dithered · Nostalgic",
+			"a_h1": "Pixel Art UI Style",
+			"a_description": "Pixel Art UI is a web design style that recreates the look and feel of classic 16-bit gaming interfaces and modern indie pixel-art games. It relies on pixel-perfect sharp edges, blocky box-shadow borders, and rich retro console palettes — saturated hues and dithered gradients against deep moody backgrounds. Typography uses bitmap-style fonts like Press Start 2P and VT323 to complete the nostalgic pixel-art aesthetic.",
+			"m_buttons": [
+				{
+					"text": "Colors",
+					"href": "#color-palettes",
+					"style": "primary"
+				},
+				{
+					"text": "Fonts",
+					"href": "#typography",
+					"style": "secondary"
+				}
+			],
+			"section_id": "pixel-art-ui"
+		},
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "When to Use",
+			"a_description": "This style is ideal for indie game studios, retro gaming blogs, chiptune music sites, pixel art portfolios, nostalgic product landing pages, and any project that wants to channel the charm of classic console and arcade interfaces from the 1980s and 1990s.",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "16-bit pixel art game title screen, JRPG style like Final Fantasy VI or Chrono Trigger, crisp pixels, no anti-aliasing, dithering for shading. Centered chunky pixel logo reading 'PIXEL QUEST' in golden bitmap font with blue outline glow. Below the logo three menu options stacked vertically in white pixel font: 'NEW GAME', 'CONTINUE', 'OPTIONS'. Background: stylized pixel landscape with a stone castle on a hilltop, road to fortress, dithered orange-purple sunset sky, distant pixel castle. The image fills the entire frame edge to edge — no black bars, no letterbox, no borders, no CRT framing.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-game-title-screen.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "gamepad-2"},
+					"a_h3": "Indie Game Studios",
+					"a_description": "Pixel game launchers, retro RPG indies, roguelike storefronts, platformer dev portfolios, itch.io project pages, Steam Next Fest landing pages."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art arcade, crisp, dithered shading. Three glowing cabinets (platformer, shooter, fighter) display vibrant pixel art games on CRT screens. Dithered purple/blue floor, pink/cyan neon signs. A young man in red cap, blue jacket, plays joystick.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-arcade-cabinets-row.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "joystick"},
+					"a_h3": "Retro Gaming Communities",
+					"a_description": "Retro gaming blogs, emulator news sites, ROM hack databases, fighting game tournament hubs, vintage console restoration channels, pixel art tutorial platforms."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art bedroom studio. Crisp, dithered pixels. Musician with headphones and hoodie sits at a desk: chunky CRT monitor showing colorful music tracker software with vertical channel columns, a synth keyboard, a small handheld retro console with a green LCD screen connected by cable. Warm lamp glow, fantasy game posters on the wall, stacks of cassette tapes. Cozy, nostalgic, late-night vibe.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-chiptune-bedroom-studio.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "music"},
+					"a_h3": "Chiptune Music & Pixel Art Portfolios",
+					"a_description": "Chiptune album landing pages, retro chiptune compilations, SNES soundtrack tribute sites, pixel illustrator portfolios, sprite artist showcases, video game soundtrack stores."
+				}
+			]
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_eyebrow": "Prompt",
+			"a_h2": "Built From This",
+			"a_description": "Design a retro gaming interface inspired by 16-bit console UIs and modern pixel-art game menus. Use 'Press Start 2P' for headings and 'VT323' for body text — both from Google Fonts. Background is deep navy (#1a1a2e). All corners are sharp — zero border-radius anywhere. Primary text in bright green (#33ff33). Secondary accents in cyan (#00ffff) and yellow (#ffff00). Borders are built with box-shadow using 4px solid pixel-block offsets to simulate chunky pixel outlines. Buttons use solid background fills with pixel-shadow borders and invert or shift colors on hover. Eyebrow text is uppercase cyan, letterspaced wide. Paragraphs use VT323 at a comfortable reading size with generous line-height. The overall feel should evoke SNES JRPG and modern indie pixel-art game menus — sharp, blocky, colorful, and unmistakably retro.",
+			"items": [
+				{
+					"a_image": {
+						"alt": "Pixel Art UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/pixel-art-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					],
+					"ignore": "1"
+				},
+				{
+					"a_image": {
+						"alt": "Pixel Art UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/pixel-art-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					],
+					"ignore": "1"
+				},
+				{
+					"a_image": {
+						"alt": "Pixel Art UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/pixel-art-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					],
+					"ignore": "1"
+				},
+				{
+					"a_image": {
+						"alt": "Pixel Art UI style UI example",
+						"width": "800",
+						"height": "600",
+						"src": "https://placehold.co/800x600",
+						"href": "/assets/gallery/retro-and-nostalgia/pixel-art-ui/example.html",
+						"loading": "lazy"
+					},
+					"tags": [
+						"{Tag 1}",
+						"{Tag 2}",
+						"{Tag 3}",
+						"{Tag 4}"
+					],
+					"ignore": "1"
+				}
+			]
+		},{
+			"fu_type": "o_style_guide",
+			"a_h2": "Design Principles",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art extreme close-up of a single hero character sprite, zoomed in so that individual pixels are clearly visible as perfect colored squares in a tight grid. Crisp aliased edges, no smoothing, no anti-aliasing, no blur. The hero sprite fills most of the frame. Plain solid dark navy background behind the sprite, no scenery, no trees, no landscape. Dithered drop shadow under the sprite.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-sprite-zoom-grid.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "square"},
+					"a_h3": "Sharp Pixel Edges",
+					"a_description": "Every pixel is a perfect square with crisp aliased edges — no anti-aliasing, no smoothing, no sub-pixel rendering. The blocky look is the look. Use image-rendering: pixelated for scaled raster art and avoid any CSS that softens corners or borders."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art still life of three colored spheres resting on a flat surface — each sphere shows shading made entirely of checkered dither patterns transitioning between solid colors. Orange-to-red, cyan-to-blue, green-to-yellow. Crisp pixels, no anti-aliasing. Sharp drop shadows with dithered edges. Dark navy background.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/dithered-shaded-spheres.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "grid-2x2"},
+					"a_h3": "Dithered Shading",
+					"a_description": "Smooth gradients are replaced by structured checker patterns of two or three colors that blend optically. Dithering simulates depth and lighting while staying true to the curated-palette aesthetic and avoiding any soft, modern blur."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art close-up of a wooden artist's palette holding around twenty chunky pixel-art paint blobs in carefully chosen saturated colors — deep navy, bright green, cyan, magenta, gold, coral red, lavender, cream, and several harmonized shadow and highlight tones. Each color block is a perfect pixel square. Wooden palette dithered for grain. Crisp pixels, no anti-aliasing.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-paint-palette-saturated.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "palette"},
+					"a_h3": "Curated Saturated Palette",
+					"a_description": "Choose a curated set of high-saturation colors — typically 16 to 32 hues — and reuse them everywhere. Restraint is the source of cohesion: a tight palette creates a stronger visual signature than hundreds of muted variations, and reusing the same shadows and highlights across sprites ties the whole scene together."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art poster showing a bold pixel headline reading 'PIXEL POWER' in chunky golden bitmap typeface with blue outline glow, set against a dithered violet background. Below the headline a smaller white pixel font reads 'A B C D E F G — 0 1 2 3'. Visible pixel grid, crisp aliased edges, no anti-aliasing. Sharp pixel border framing the poster.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-bitmap-typography-poster.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "type"},
+					"a_h3": "Pixel Typography",
+					"a_description": "Headlines and body copy use bitmap-style pixel fonts designed on a fixed grid — Pixelify Sans, Silkscreen, or m6x11 work well for this 16-bit style. Set sizes in whole-pixel multiples of the font's grid (16px, 24px, 32px) to keep every glyph perfectly aliased and on-grid."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art of three stacked rectangular menu buttons floating on a dark navy background. Each button has a chunky 4-pixel solid black offset drop shadow and an embossed pixel bevel — lighter highlight on top-left edges, darker shade on bottom-right. Buttons read ATTACK, DEFEND, ITEM in white pixel font. Deep saturated muted fills: ATTACK in deep forest green, DEFEND in steel teal cyan, ITEM in rich dark amber gold. Crisp pixels, sharp edges, no anti-aliasing, no gradients. Classic retro role-playing game menu aesthetic, cheerful 16-bit mood.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-menu-buttons-shadow.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "frame"},
+					"a_h3": "Chunky Pixel Borders",
+					"a_description": "Build interface borders with stacked box-shadow offsets in 2px or 4px steps to simulate the chunky pixel outlines of console UIs. No border-radius — every corner is a hard 90-degree pixel edge."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art scene split diagonally — the left half shows a clean pixel art forest landscape with a stone path and pine trees, the right half shows the same scene with a faint cyan pixel grid overlay snapping every element to its grid cell. Demonstrates pixel-perfect alignment. Dithered sky gradient, no anti-aliasing.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-grid-alignment-overlay.jpg",
+						"loading": "lazy"
+					},
+					"a_icon": {"icon": "ruler"},
+					"a_h3": "Pixel Grid Alignment",
+					"a_description": "Snap every element to a consistent base grid — typically 4px or 8px. Padding, margins, font sizes, and component dimensions all become whole-pixel multiples, eliminating any fractional positioning that would blur the grid."
+				}
+			]
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #1",
+			"a_h2": "Heroic Daylight",
+			"a_description": "The classic SNES JRPG palette — bright, saturated, optimistic. Deep navy anchors the scene while warm gold and vibrant greens drive action. This is the foundational palette: hero sprites, world maps, and most UI live here.",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Deep Navy",
+					"hex": "#1A2B5C",
+					"a_description": "Primary background, dialogue boxes, dark UI panels. The signature 'JRPG blue' that grounds every scene."
+				},
+				{
+					"a_h3": "Hero Gold",
+					"hex": "#F4C842",
+					"a_description": "Primary action color — CTAs, selected menu items, treasure highlights, headline accents."
+				},
+				{
+					"a_h3": "Forest Green",
+					"hex": "#3DA85F",
+					"a_description": "Success states, health bars, confirmations, level-up indicators."
+				},
+				{
+					"a_h3": "Sky Cyan",
+					"hex": "#5DD3F0",
+					"a_description": "Secondary action, mana bars, magic effects, info badges, hover states."
+				},
+				{
+					"a_h3": "Cream Pixel",
+					"hex": "#FBF3DC",
+					"a_description": "Body text on dark backgrounds, dialogue text, light UI surfaces."
+				},
+				{
+					"a_h3": "Stone Gray",
+					"hex": "#6B7B8C",
+					"a_description": "Disabled states, secondary borders, dividers, subtle UI chrome."
+				}
+			],
+			"section_id": "color-palettes"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #2",
+			"a_h2": "Twilight Dungeon",
+			"a_description": "Darker and more mystical than Heroic Daylight. Trades warm gold for cool purple and magenta — for dungeon scenes, magic-heavy UI, or any context where the mood needs to shift toward danger and arcane energy.",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Abyss Black",
+					"hex": "#0D0D1A",
+					"a_description": "Deep background, void areas, the bottom of the dungeon. Even darker than Deep Navy."
+				},
+				{
+					"a_h3": "Royal Purple",
+					"hex": "#6B3FA0",
+					"a_description": "Primary action, magic spells, boss UI, mystical highlights."
+				},
+				{
+					"a_h3": "Magenta Spark",
+					"hex": "#E847A8",
+					"a_description": "Critical hits, special effects, pulsing accents, dangerous interactables."
+				},
+				{
+					"a_h3": "Ghost Cyan",
+					"hex": "#4ED9D9",
+					"a_description": "Hover states, info text, ethereal glows, friendly NPCs in dark scenes."
+				},
+				{
+					"a_h3": "Bone White",
+					"hex": "#E8DDB5",
+					"a_description": "Body text on dark backgrounds, slightly warmer than Cream Pixel for a parchment feel."
+				}
+			],
+			"section_id": "twilight-dungeon"
+		},
+		{
+			"fu_type": "o_color_palette",
+			"a_eyebrow": "Color Palette #3",
+			"a_h2": "Sunset Quest",
+			"a_description": "The boldest of the three — warm, dramatic, high-energy. Deep burgundy paired with lava orange and hot pink for boss battles, end-game screens, or campaigns that need to feel cinematic and intense.",
+			"copy_label": "Copy",
+			"copied_label": "Copied!",
+			"colors": [
+				{
+					"a_h3": "Burgundy Wine",
+					"hex": "#5C1F2E",
+					"a_description": "Primary background, dramatic UI panels, boss arena chrome."
+				},
+				{
+					"a_h3": "Lava Orange",
+					"hex": "#FF6B35",
+					"a_description": "Primary action, fire effects, attack buttons, urgent CTAs."
+				},
+				{
+					"a_h3": "Hot Pink",
+					"hex": "#FF3D7F",
+					"a_description": "Secondary accents, critical damage, romance dialogue moments."
+				},
+				{
+					"a_h3": "Gold Ember",
+					"hex": "#FFD93D",
+					"a_description": "Highlights, rewards, achievement unlocks, glowing treasures."
+				},
+				{
+					"a_h3": "Peach Cream",
+					"hex": "#FFE5C4",
+					"a_description": "Body text on dark warm backgrounds, soft glow accents."
+				}
+			],
+			"section_id": "sunset-quest"
+		},
+		{
+	"fu_type": "o_typography",
+	"a_eyebrow": "Typography",
+	"a_h2": "Heading Fonts",
+	"a_description": "Chunky bitmap fonts that snap to the pixel grid — built for 16-bit JRPG menus, dialogue boxes, and title cards. Use whole-pixel font sizes (16px, 24px, 32px) to keep every glyph perfectly aliased and on-grid.",
+	"copy_label": "Copy",
+	"copied_label": "Copied!",
+	"fonts": [
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "DotGothic16",
+			"css": "font-family: 'DotGothic16', monospace; font-weight: 400; font-size: 1.5rem; line-height: 1.2;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "Pixelify Sans",
+			"css": "font-family: 'Pixelify Sans', sans-serif; font-weight: 700; font-size: 1.5rem; line-height: 1.2;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "Silkscreen",
+			"css": "font-family: 'Silkscreen', sans-serif; font-weight: 700; font-size: 1.25rem; line-height: 1.3;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "Jersey 25",
+			"css": "font-family: 'Jersey 25', sans-serif; font-weight: 400; font-size: 2rem; line-height: 1.1;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "Workbench",
+			"css": "font-family: 'Workbench', sans-serif; font-weight: 400; font-size: 1.75rem; line-height: 1.2;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "VT323",
+			"css": "font-family: 'VT323', monospace; font-weight: 400; font-size: 2rem; line-height: 1.1;"
+		}
+	],
+	"section_id": "typography"
+},
+{
+	"fu_type": "o_typography",
+	"a_eyebrow": "Typography",
+	"a_h2": "Text Fonts",
+	"a_description": "Readable fonts for body copy that hold up at small sizes while preserving the retro feel. Mix pixel fonts at slightly larger sizes with cleaner sans-serifs and monospace for longer paragraphs.",
+	"copy_label": "Copy",
+	"copied_label": "Copied!",
+	"fonts": [
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "Pixelify Sans",
+			"css": "font-family: 'Pixelify Sans', sans-serif; font-weight: 400; font-size: 1.125rem; line-height: 1.6;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "VT323",
+			"css": "font-family: 'VT323', monospace; font-weight: 400; font-size: 1.25rem; line-height: 1.5;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "Inter",
+			"css": "font-family: 'Inter', sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.7;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "Google",
+			"family": "JetBrains Mono",
+			"css": "font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 0.95rem; line-height: 1.65;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "System",
+			"family": "Courier New",
+			"css": "font-family: 'Courier New', Courier, monospace; font-weight: 400; font-size: 1rem; line-height: 1.65;"
+		},
+		{
+			"fu_type": "font",
+			"a_eyebrow": "System",
+			"family": "Verdana",
+			"css": "font-family: Verdana, Geneva, sans-serif; font-weight: 400; font-size: 0.95rem; line-height: 1.7;"
+		}
+	]
+},
+
+		{
+			"fu_type": "o_style_guide",
+			"a_h2": "History",
+			"copy_label": "Click to copy prompt",
+			"copied_label": "Prompt copied!",
+			"items": [
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art of a retro home computer workstation from the early 1980s. A boxy beige desktop computer with a chunky CRT monitor displays a simple 8-bit low-resolution pixel art landscape — flat green ground, blocky blue sky, a small pixel-art castle made of large colored squares. A pixel artist sits at the desk (teenager girl, red hair girl, plaid shirt, glasses) studying a hand-drawn grid sheet covered in colored squares mapping out a sprite. Graph paper, colored pencils, and a coffee mug on the desk. Warm desk lamp light. Crisp pixel art rendering, dithered shading, no anti-aliasing.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/crt-sprite-grid.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "Origins — Hardware Constraints as Art Form",
+					"a_description": "Pixel art was born from necessity. Early home computers and arcade machines could display only a handful of colors at resolutions as low as 160×144. Artists worked on graph paper, plotting sprites pixel by pixel — no gradients, no layers, just a grid. The rigid hardware constraint became the medium's defining virtue."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art world map overview scene. An isometric pixel art continent stretches across the frame — lush green grasslands, snow-capped mountain ranges, a desert region with golden sand dunes, a coastal port town with tiny pixel ships in a turquoise harbor, and a dark volcanic region in the far corner. Dotted path lines connect the towns across the continent. Small blinking cursor icon hovers over a town labeled 'CRYSTALIS' in yellow pixel font. Dithered sky gradient from deep blue to purple at the horizon. Crisp pixels, no anti-aliasing.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/crystalis-world-map.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "Golden Age — The 16-Bit Console Era",
+					"a_description": "The 16-bit console era (1990–1996) marks pixel art's creative peak. With 256 colors and dithering tricks, artists built world maps, dialogue boxes, and HUD meters that defined the visual language the Pixel Art UI style directly inherits. Pixel art went from a technical workaround to a refined craft."
+				},
+				{
+					"a_image_cover": {
+						"alt": "16-bit SNES JRPG pixel art of a modern indie game developer's home studio. A young adult (late 20s, woman, dark hair in bun, casual hoodie) sits at a modern desk with two monitors: the left monitor shows a pixel art sprite editor with a colorful character sprite and palette grid, the right monitor displays a finished indie game title screen with pixel scenery with title PIXEL QUEST. A mechanical keyboard, coffee cup, succulent plant, and sticky notes surround the setup. Warm afternoon sunlight through a window. Pixel art rendering of the scene itself — dithered shading, crisp pixels, no anti-aliasing.",
+						"width": "1024",
+						"height": "768",
+						"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/pixel-quest-dev-studio.jpg",
+						"loading": "lazy"
+					},
+					"a_h3": "Modern Revival — Nostalgia as a Design Choice",
+					"a_description": "By the 2010s, pixel art became a deliberate aesthetic choice. Indie titles like Stardew Valley, Celeste, and Shovel Knight proved the style could carry critical acclaim. Web designers followed — pixel fonts and chunky borders became a UI language signaling handcrafted authenticity and retro warmth, with no hardware constraint required."
+				}
+			]
+		},
+		{
+			"fu_type": "o_faq",
+			"a_h2": "FAQ",
+			"a_description": "Common questions about Pixel Art UI style, color palettes, and usage.",
+			"items": [
+				{
+					"a_icon": {"icon": "bot"},
+					"a_h3": "What AI prompt generates a Pixel Art UI website?",
+					"answer": "Design a retro gaming interface inspired by 16-bit console UIs and modern pixel-art game menus. Use 'Press Start 2P' for headings and 'VT323' for body text — both from Google Fonts. Background is deep navy (#1a1a2e). All corners are sharp — zero border-radius anywhere. Primary text in bright green (#33ff33). Secondary accents in cyan (#00ffff) and yellow (#ffff00). Borders are built with box-shadow using 4px solid pixel-block offsets to simulate chunky pixel outlines. Buttons use solid background fills with pixel-shadow borders and invert or shift colors on hover. Eyebrow text is uppercase cyan, letterspaced wide. Paragraphs use VT323 at a comfortable reading size with generous line-height. The overall feel should evoke SNES JRPG and modern indie pixel-art game menus — sharp, blocky, colorful, and unmistakably retro."
+				},
+				{
+					"a_icon": {"icon": "briefcase"},
+					"a_h3": "What industries does Pixel Art UI work best for?",
+					"answer": "{Detailed answer about ideal industries and contexts, plus what it doesn't work for.}"
+				},
+				{
+					"a_icon": {"icon": "swatch-book"},
+					"a_h3": "Which color palette should I choose?",
+					"answer": "{Brief description of each palette and when to use it.}"
+				},
+				{
+					"a_icon": {"icon": "circle-slash"},
+					"a_h3": "When should I avoid using the Pixel Art UI style?",
+					"answer": "{Contexts where this style is a poor fit.}"
+				},
+				{
+					"a_icon": {"icon": "{lucide-icon}"},
+					"a_h3": "{Historical or cultural question about this style}",
+					"answer": "{Answer with cultural/historical context.}"
+				},
+				{
+					"a_icon": {"icon": "type"},
+					"a_h3": "What fonts best capture the Pixel Art UI look?",
+					"answer": "{Detailed typography recommendations with reasoning.}"
+				}
+			],
+			"section_id": "faq"
+		},
+		{
+			"fu_type": "o_design_images",
+			"a_h2": "Similar Designs",
+			"items": [
+				{
+					"a_image": {
+						"alt": "70s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/70s-design.jpg",
+						"href": "/retro-and-nostalgia/70s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Earthy"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "80s Design style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/80s-design.jpg",
+						"href": "/retro-and-nostalgia/80s-design/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Neon"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "90s Web Revival style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/90s-web-revival.jpg",
+						"href": "/retro-and-nostalgia/90s-web-revival/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Early Web"
+					]
+				},
+				{
+					"a_image": {
+						"alt": "Cassette Mixtape UI style preview",
+						"width": "800",
+						"height": "600",
+						"src": "/assets/styles/retro-and-nostalgia/cassette-mixtape-ui.jpg",
+						"href": "/retro-and-nostalgia/cassette-mixtape-ui/",
+						"loading": "lazy"
+					},
+					"tags": [
+						"Retro",
+						"Nostalgic",
+						"Hand-Crafted"
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "Pixel Art UI Style — UI Lookbook",
+		"description": "Explore the Pixel Art UI style: 16-Bit Pixel Art Interface. Color palettes, typography, design principles, and AI prompts for Pixel Art UI UI design.",
+		"keywords": "Pixel Art UI, pixel-art-ui, Retro, Pixelated, 16-Bit, Dithered, Nostalgic",
+		"og": {
+			"title": "Pixel Art UI Style — UI Lookbook",
+			"description": "Explore the Pixel Art UI style: 16-Bit Pixel Art Interface. Color palettes, typography, design principles, and AI prompts.",
+			"url": "https://uilookbook.com/retro-and-nostalgia/pixel-art-ui/",
+			"type": "article",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/jrpg-knight-princess-dialogue.jpg",
+				"alt": "Pixel Art UI Style — UI Lookbook"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "Pixel Art UI Style — UI Lookbook",
+			"description": "Explore the Pixel Art UI style: 16-Bit Pixel Art Interface. Color palettes, typography, design principles, and AI prompts.",
+			"image": {
+				"src": "/assets/imgs/retro-and-nostalgia/pixel-art-ui/jrpg-knight-princess-dialogue.jpg",
+				"alt": "Pixel Art UI Style — UI Lookbook"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [
+			{
+				"note": "Google Fonts",
+				"code": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@400&family=Jersey+25&family=JetBrains+Mono:wght@400&family=Pixelify+Sans:wght@400;700&family=Silkscreen:wght@700&family=VT323&family=Workbench&display=swap\">"
+			},
+			{
+				"note": "pixel-art-ui",
+				"code": "<link rel=\"stylesheet\" href=\"/assets/styles/retro-and-nostalgia/pixel-art-ui.css\">"
+			}
+		],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

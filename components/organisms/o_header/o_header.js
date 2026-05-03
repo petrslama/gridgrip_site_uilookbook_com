@@ -37,4 +37,18 @@ document.addEventListener('DOMContentLoaded', () => {
 			document.body.classList.remove('menu_opened');
 		}
 	});
+
+	const themeButtons = document.querySelectorAll('.a_theme_toggle');
+	const setTheme = (t) => {
+		document.documentElement.classList.remove('light', 'dark', 'palette');
+		document.documentElement.classList.add(t);
+		localStorage.theme = t;
+		themeButtons.forEach((btn) => {
+			btn.classList.toggle('active', btn.dataset.theme === t);
+		});
+	};
+	setTheme(localStorage.theme || 'palette');
+	themeButtons.forEach((btn) => {
+		btn.addEventListener('click', () => setTheme(btn.dataset.theme));
+	});
 });

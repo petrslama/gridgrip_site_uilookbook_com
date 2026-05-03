@@ -7,14 +7,20 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://uilookbook.com/about/</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://uilookbook.com/art-and-design-movements/art-deco/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://uilookbook.com/art-and-design-movements/art-nouveau/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -44,13 +50,13 @@
   </url>
   <url>
     <loc>https://uilookbook.com/sitemap/</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://uilookbook.com/subculture-and-aesthetic/kawaii-cute/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
